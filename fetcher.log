@@ -995,3 +995,155 @@
 [2023-08-01 00:49:39] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.401.5.tar.gz]
 [2023-08-01 00:49:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-01 00:49:40] INFO root fetch - main [MainThread]: Store serial: [19114169]
+[2023-08-01 00:54:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114169]
+[2023-08-01 00:54:48] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lollms
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BIDSit
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-client
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Janex
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threemystic-cloud-data-client
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bot-common
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: optitrader
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-ssi-cost-accounting
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: archive-hocr-tools
+[2023-08-01 00:54:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qiuwenbot
+[2023-08-01 00:54:49] WARNING root fetch - processPackages [odoo14-addon-ssi-cost-accounting]: Skipping, unable to determine old version
+[2023-08-01 00:54:49] INFO root fetch - processPackages [odoo14-addon-ssi-cost-accounting]: Start processing: nitric
+[2023-08-01 00:54:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-cost-accounting] error
+[2023-08-01 00:54:49] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.58] Old Version: [0.1.57]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.61] Old Version: [0.1.60]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [archive-hocr-tools]: New version: [1.1.9] Old Version: [1.1.51]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [BIDSit]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [optitrader]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [bot-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [qiuwenbot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [nitric]: New version: [0.9.2.dev4] Old Version: [0.9.2.dev3]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [lollms]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-08-01 00:54:49] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/74/bf/80b6de6b3e29b8e1d3cb46e80787b61a87dc2f34914465da6bb3d0c1f736/threemystic_cloud_data_client-0.1.60.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/37/7c/b3261970cf2b7943812072a340ef1a600df80ad246aadcccd1729620b124/threemystic_cloud_client-0.1.57.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [optitrader]: Downloading https://files.pythonhosted.org/packages/6d/1d/806cbfa6222e2437ab057aad5a54028d1d4607c6c7100c5b018f6606afb9/optitrader-0.0.1.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/25/bb/458af369be0d7fc2f5dc4ba8ddec3199bed04d82a07e8cf7305713f5b855/lollms-2.2.6.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/bb/21/e3f0c886e395ead901832d2a7288bc20df8de3ea79e1a538c1061d8fe0a1/BIDSit-0.0.6.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [bot-common]: Downloading https://files.pythonhosted.org/packages/2a/47/b7a6506be100a92926df660fd3c287dde79fa75b6b2c31ccfc9f62afe0d3/bot_common-0.1.8.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/e3/60/60df9df8652ed602e31ebd931fc7d74cd1ce1cf7b0cfa60de9368b5370e3/archive-hocr-tools-1.1.51.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/07/f0/595fbac9f206ec8f9649c834789bcf28dcdcb8f8807d4362c3ceea12e922/nitric-0.9.2.dev3.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [qiuwenbot]: Downloading https://files.pythonhosted.org/packages/f3/83/d79c1f89d02ecf222bfd711cbd0d38ee74bb72c919c6076d013fd102de1a/qiuwenbot-0.0.1.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/92/48/9c15098eeb67966ad5adc3f113a768e9f0dbae0aef5653772615384308e2/threemystic_cloud_client-0.1.58.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 00:54:49] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:54:49] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/c5/9b/64c55efac739e3e4d47c0b4cebc68d4f90befd07eea8abd4a7f56a03709e/threemystic_cloud_data_client-0.1.61.tar.gz
+[2023-08-01 00:54:49] INFO root fetch - processPackages [bot-common]: Downloading https://files.pythonhosted.org/packages/81/ab/a40afda484f0fe760e5ca087ae4460ac0c64860f68761792a763c0585bc0/bot_common-0.1.9.tar.gz
+[2023-08-01 00:54:50] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/6e/4f/0229b9a73a2279ec7ff8673834581c485b0ea6ccf94e4284a07a22492145/BIDSit-0.0.7.tar.gz
+[2023-08-01 00:54:50] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.57.tar.gz tmp/threemystic_cloud_client-0.1.58.tar.gz --markdown 20230801/t/threemystic-cloud-client/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [optitrader]: Downloading https://files.pythonhosted.org/packages/2d/4e/400c6d61a6d488b27dc88372aee4f0b30d9c5100dac06d932c2d589899c9/optitrader-0.0.2.tar.gz
+[2023-08-01 00:54:50] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.60.tar.gz tmp/threemystic_cloud_data_client-0.1.61.tar.gz --markdown 20230801/t/threemystic-cloud-data-client/0.1.60-0.1.61/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/23/89/71d73e8207c45970f1431c48fab1d3fadd81369712356af3957a30799015/lollms-2.2.7.tar.gz
+[2023-08-01 00:54:50] INFO root fetch - processPackages [bot-common]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [bot-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bot_common-0.1.8.tar.gz tmp/bot_common-0.1.9.tar.gz --markdown 20230801/b/bot-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [qiuwenbot]: Downloading https://files.pythonhosted.org/packages/dc/66/986f4524ab51ba38f87f615a7a5a2fdc6ae5ffa91c63eaaae8b06f6feae2/qiuwenbot-0.0.2.tar.gz
+[2023-08-01 00:54:50] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.6.tar.gz tmp/BIDSit-0.0.7.tar.gz --markdown 20230801/B/BIDSit/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [qiuwenbot]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [qiuwenbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiuwenbot-0.0.1.tar.gz tmp/qiuwenbot-0.0.2.tar.gz --markdown 20230801/q/qiuwenbot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [optitrader]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [optitrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optitrader-0.0.1.tar.gz tmp/optitrader-0.0.2.tar.gz --markdown 20230801/o/optitrader/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/175062dc61f6a2a9e54da920691e617e4bec55f8b34eb0bdbdbd7e5eb345/archive-hocr-tools-1.1.9.tar.gz
+[2023-08-01 00:54:50] INFO root fetch - processPackages [archive-hocr-tools]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [archive-hocr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archive-hocr-tools-1.1.51.tar.gz tmp/archive-hocr-tools-1.1.9.tar.gz --markdown 20230801/a/archive-hocr-tools/1.1.51-1.1.9/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [nitric]: Downloading https://files.pythonhosted.org/packages/81/ed/c83b8e908616ce5f569a349cac17e6f68a635038057e0e6a74828dab1bdf/nitric-0.9.2.dev4.tar.gz
+[2023-08-01 00:54:50] INFO root fetch - processPackages [nitric]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [nitric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitric-0.9.2.dev3.tar.gz tmp/nitric-0.9.2.dev4.tar.gz --markdown 20230801/n/nitric/0.9.2.dev3-0.9.2.dev4/diff.md --exclude *.pyd
+[2023-08-01 00:54:50] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-08-01 00:54:50] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.2.6.tar.gz tmp/lollms-2.2.7.tar.gz --markdown 20230801/l/lollms/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-08-01 00:54:51] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [Janex]: Start processing: certora-cli-alpha-master
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 00:54:51] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230731.6.36.268209] Old Version: [20230731.22.51.413586]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/37/46/cc51a2323376f281149e52ade5de5f623b6b50373b556391290a27561593/certora-cli-alpha-master-20230731.22.51.413586.tar.gz
+[2023-08-01 00:54:51] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37750401>=10485760
+[2023-08-01 00:54:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: benchling-api-client
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-01 00:54:51] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.57.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.58.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.6.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.7.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [threemystic-cloud-client]: Start processing: Janex
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-08-01 00:54:51] INFO root fetch - processPackages [BIDSit]: Start processing: elasticsearch-pii-redacter
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 00:54:51] WARNING root fetch - processPackages [elasticsearch-pii-redacter]: Skipping, unable to determine old version
+[2023-08-01 00:54:51] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Start processing: python-openevse-http
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [elasticsearch-pii-redacter] error
+[2023-08-01 00:54:51] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [bot-common]: Remove: archive file [/home/abi/fetcher/tmp/bot_common-0.1.8.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [bot-common]: Remove: archive file [/home/abi/fetcher/tmp/bot_common-0.1.9.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [bot-common]: Start processing: LIV-robotics
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [bot-common]: success
+[2023-08-01 00:54:51] WARNING root fetch - processPackages [LIV-robotics]: Skipping, unable to determine old version
+[2023-08-01 00:54:51] INFO root fetch - processPackages [LIV-robotics]: Start processing: retakesearch-py
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [LIV-robotics] error
+[2023-08-01 00:54:51] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.60.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.61.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [threemystic-cloud-data-client]: Start processing: pkglog
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-01 00:54:51] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 00:54:51] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-08-01 00:54:51] INFO root fetch - processPackages [retakesearch-py]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [qiuwenbot]: Remove: archive file [/home/abi/fetcher/tmp/qiuwenbot-0.0.1.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [qiuwenbot]: Remove: archive file [/home/abi/fetcher/tmp/qiuwenbot-0.0.2.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [qiuwenbot]: success
+[2023-08-01 00:54:51] INFO root fetch - processPackages [optitrader]: Remove: archive file [/home/abi/fetcher/tmp/optitrader-0.0.1.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [optitrader]: Remove: archive file [/home/abi/fetcher/tmp/optitrader-0.0.2.tar.gz]
+[2023-08-01 00:54:51] INFO root fetch - main [MainThread]: End processing [optitrader]: success
+[2023-08-01 00:54:51] INFO root fetch - processPackages [python-openevse-http]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 00:54:51] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 00:54:52] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.51.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.9.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - main [MainThread]: End processing [archive-hocr-tools]: success
+[2023-08-01 00:54:52] INFO root fetch - processPackages [pkglog]: New version: [1.9] Old Version: [1.8]
+[2023-08-01 00:54:52] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 00:54:52] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:54:52] INFO root fetch - processPackages [retakesearch-py]: Downloading https://files.pythonhosted.org/packages/b3/d5/b32c7416a6fbf54ac87a7cdddfb202e7c78272dcec79435f4f3b06ea44c1/retakesearch-py-2.2.1.tar.gz
+[2023-08-01 00:54:52] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.2.6.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.2.7.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-08-01 00:54:52] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/b1/6e/bf9b5bb041dd77abaf3c3d2af4d51b3f0d34611a1e6469674784fa7c6a55/pkglog-1.8.tar.gz
+[2023-08-01 00:54:52] INFO root fetch - processPackages [python-openevse-http]: Downloading https://files.pythonhosted.org/packages/5a/f7/2c12172b51d308725864d7ad56eb5596e88863392fc72315db61157b026c/python-openevse-http-0.1.8.tar.gz
+[2023-08-01 00:54:52] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev3.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - processPackages [nitric]: Remove: archive file [/home/abi/fetcher/tmp/nitric-0.9.2.dev4.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - main [MainThread]: End processing [nitric]: success
+[2023-08-01 00:54:52] INFO root fetch - processPackages [retakesearch-py]: Downloading https://files.pythonhosted.org/packages/d6/c3/a61db959574b70e692f2ff800e3c1101dbd80ef877fed00899a6cb6c2fa0/retakesearch-py-2.2.2.tar.gz
+[2023-08-01 00:54:52] INFO root fetch - processPackages [python-openevse-http]: Downloading https://files.pythonhosted.org/packages/41/8b/0000dc08b8e7a57cdd1469a3d5804d1250c6454ccd5a9f3c6bb1cf755b1f/python-openevse-http-0.1.9.tar.gz
+[2023-08-01 00:54:52] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 00:54:52] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 00:54:52] INFO root fetch - processPackages [retakesearch-py]: executing diffoscope
+[2023-08-01 00:54:52] INFO root fetch - processPackages [retakesearch-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-py-2.2.1.tar.gz tmp/retakesearch-py-2.2.2.tar.gz --markdown 20230801/r/retakesearch-py/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-08-01 00:54:53] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-08-01 00:54:53] INFO root fetch - processPackages [pkglog]: Downloading https://files.pythonhosted.org/packages/13/f4/c1b17ccae3c8e359ca72e37b10fa544b6c5754902de435d0b61b4ac24580/pkglog-1.9.tar.gz
+[2023-08-01 00:54:53] INFO root fetch - processPackages [python-openevse-http]: executing diffoscope
+[2023-08-01 00:54:53] INFO root fetch - processPackages [python-openevse-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-openevse-http-0.1.8.tar.gz tmp/python-openevse-http-0.1.9.tar.gz --markdown 20230801/p/python-openevse-http/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 00:54:53] INFO root fetch - processPackages [pkglog]: executing diffoscope
+[2023-08-01 00:54:53] INFO root fetch - processPackages [pkglog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkglog-1.8.tar.gz tmp/pkglog-1.9.tar.gz --markdown 20230801/p/pkglog/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-01 00:54:53] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-08-01 00:54:53] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230801/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-01 00:54:54] INFO root fetch - processPackages [python-openevse-http]: Remove: archive file [/home/abi/fetcher/tmp/python-openevse-http-0.1.8.tar.gz]
+[2023-08-01 00:54:54] INFO root fetch - processPackages [python-openevse-http]: Remove: archive file [/home/abi/fetcher/tmp/python-openevse-http-0.1.9.tar.gz]
+[2023-08-01 00:54:54] INFO root fetch - main [MainThread]: End processing [python-openevse-http]: success
+[2023-08-01 00:54:54] INFO root fetch - processPackages [pkglog]: Remove: archive file [/home/abi/fetcher/tmp/pkglog-1.8.tar.gz]
+[2023-08-01 00:54:54] INFO root fetch - processPackages [pkglog]: Remove: archive file [/home/abi/fetcher/tmp/pkglog-1.9.tar.gz]
+[2023-08-01 00:54:54] INFO root fetch - main [MainThread]: End processing [pkglog]: success
+[2023-08-01 00:54:54] INFO root fetch - processPackages [retakesearch-py]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-py-2.2.1.tar.gz]
+[2023-08-01 00:54:54] INFO root fetch - processPackages [retakesearch-py]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-py-2.2.2.tar.gz]
+[2023-08-01 00:54:54] INFO root fetch - main [MainThread]: End processing [retakesearch-py]: success
+[2023-08-01 00:55:28] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-08-01 00:55:28] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-08-01 00:55:28] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-08-01 00:55:28] INFO root fetch - main [MainThread]: Store serial: [19114232]
