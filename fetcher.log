@@ -735,3 +735,86 @@
 [2023-08-01 00:38:41] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-2.25.112.tar.gz]
 [2023-08-01 00:38:41] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
 [2023-08-01 00:38:41] INFO root fetch - main [MainThread]: Store serial: [19114063]
+[2023-08-01 00:43:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114063]
+[2023-08-01 00:43:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BIDSit
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: doppler-sdk
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cjm-yolox-pytorch
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfsync
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xftsim
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: books-com-tw-dl
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-bank-python
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-id-python
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cheemthon
+[2023-08-01 00:43:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsl
+[2023-08-01 00:43:50] INFO root fetch - processPackages [BIDSit]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 00:43:50] INFO root fetch - processPackages [xftsim]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-01 00:43:50] INFO root fetch - processPackages [dfsync]: New version: [0.4.0] Old Version: [0.3.8]
+[2023-08-01 00:43:50] WARNING root fetch - processPackages [doppler-sdk]: Skipping, unable to determine old version
+[2023-08-01 00:43:50] INFO root fetch - processPackages [doppler-sdk]: Start processing: cybrid-api-organization-python
+[2023-08-01 00:43:50] INFO root fetch - main [MainThread]: End processing [doppler-sdk] error
+[2023-08-01 00:43:50] WARNING root fetch - processPackages [books-com-tw-dl]: Skipping, unable to determine old version
+[2023-08-01 00:43:50] INFO root fetch - processPackages [books-com-tw-dl]: Start processing: pykrusch
+[2023-08-01 00:43:50] INFO root fetch - main [MainThread]: End processing [books-com-tw-dl] error
+[2023-08-01 00:43:50] WARNING root fetch - processPackages [cheemthon]: Skipping, unable to determine old version
+[2023-08-01 00:43:50] INFO root fetch - main [MainThread]: End processing [cheemthon] error
+[2023-08-01 00:43:50] INFO root fetch - processPackages [parsl]: New version: [2023.7.31] Old Version: [2023.7.3]
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 00:43:50] WARNING root fetch - processPackages [pykrusch]: Skipping, unable to determine old version
+[2023-08-01 00:43:50] INFO root fetch - main [MainThread]: End processing [pykrusch] error
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-08-01 00:43:50] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/79/26/09e9b5612f75ad60b2daad9b8b512ece02113a169a8e4cbbd4a346c02af2/parsl-2023.7.3.tar.gz
+[2023-08-01 00:43:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-08-01 00:43:50] INFO root fetch - processPackages [xftsim]: Downloading https://files.pythonhosted.org/packages/f3/4d/f77dc64e25c2b23f4a7bea3b04f22df7316a6e9e86443c8a50fdfcce9941/xftsim-0.1.6.tar.gz
+[2023-08-01 00:43:50] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/e6/82/50814ffd714a209273d84d4962ff275348ed4d1d5ccb051a7dd773ab907c/dfsync-0.3.8.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/97/3e/1ee363035abc387a2e342d1b5f07ac11ebe19b5025cc0ecffd794b490403/BIDSit-0.0.5.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230801/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230801/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 00:43:51] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/6a/61/3e0522ea3617ac2cb56ae3858959500dfa676d876b6929b36466d26abeab/parsl-2023.7.31.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/2c/9e/0aa4f7f456eb3b22ffa852df4b111f199d0030904644dd62b1d0e3c76806/dfsync-0.4.0.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230801/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 00:43:51] WARNING root fetch - processPackages [xftsim]: Skipping package: exceeds size limit 17630525>=10485760
+[2023-08-01 00:43:51] INFO root fetch - main [MainThread]: End processing [xftsim] error
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/bb/21/e3f0c886e395ead901832d2a7288bc20df8de3ea79e1a538c1061d8fe0a1/BIDSit-0.0.6.tar.gz
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-01 00:43:51] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230801/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 00:43:51] INFO root fetch - processPackages [dfsync]: executing diffoscope
+[2023-08-01 00:43:51] INFO root fetch - processPackages [dfsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsync-0.3.8.tar.gz tmp/dfsync-0.4.0.tar.gz --markdown 20230801/d/dfsync/0.3.8-0.4.0/diff.md --exclude *.pyd
+[2023-08-01 00:43:51] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 00:43:51] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.5.tar.gz tmp/BIDSit-0.0.6.tar.gz --markdown 20230801/B/BIDSit/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-01 00:43:51] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-08-01 00:43:51] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.7.3.tar.gz tmp/parsl-2023.7.31.tar.gz --markdown 20230801/p/parsl/2023.7.3-2023.7.31/diff.md --exclude *.pyd
+[2023-08-01 00:43:52] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-01 00:43:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-08-01 00:43:52] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.5.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.6.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 00:43:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-08-01 00:43:52] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.3.8.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.4.0.tar.gz]
+[2023-08-01 00:43:52] INFO root fetch - main [MainThread]: End processing [dfsync]: success
+[2023-08-01 00:43:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-08-01 00:43:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-08-01 00:43:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-08-01 00:43:54] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.3.tar.gz]
+[2023-08-01 00:43:54] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.31.tar.gz]
+[2023-08-01 00:43:54] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-08-01 00:43:54] INFO root fetch - main [MainThread]: Store serial: [19114116]
