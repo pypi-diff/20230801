@@ -2482,3 +2482,30 @@
 [2023-08-01 01:50:17] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230731.tar.gz]
 [2023-08-01 01:50:17] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
 [2023-08-01 01:50:17] INFO root fetch - main [MainThread]: Store serial: [19114764]
+[2023-08-01 01:55:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114764]
+[2023-08-01 01:55:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-01 01:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-github
+[2023-08-01 01:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asana
+[2023-08-01 01:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LIV-robotics
+[2023-08-01 01:55:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ApiBot
+[2023-08-01 01:55:25] WARNING root fetch - processPackages [ApiBot]: Skipping, unable to determine old version
+[2023-08-01 01:55:25] INFO root fetch - main [MainThread]: End processing [ApiBot] error
+[2023-08-01 01:55:25] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 01:55:25] INFO root fetch - processPackages [asana]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-08-01 01:55:25] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-01 01:55:25] INFO root fetch - processPackages [asana]: Downloading https://files.pythonhosted.org/packages/33/7c/2734b77e13131ff06602d85143845f6fd8273728d8cdeb8627c89a188f07/asana-4.0.0.tar.gz
+[2023-08-01 01:55:25] WARNING root fetch - processPackages [LIV-robotics]: Skipping, unable to determine old version
+[2023-08-01 01:55:25] INFO root fetch - main [MainThread]: End processing [LIV-robotics] error
+[2023-08-01 01:55:25] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-01 01:55:26] INFO root fetch - processPackages [asana]: Downloading https://files.pythonhosted.org/packages/ed/dc/cd1a609c78f9047dde556560dfa2ea148c98a3fbcd6ad592fc9c9c58549d/asana-4.0.1.tar.gz
+[2023-08-01 01:55:26] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-01 01:55:26] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230801/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 01:55:26] INFO root fetch - processPackages [asana]: executing diffoscope
+[2023-08-01 01:55:26] INFO root fetch - processPackages [asana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana-4.0.0.tar.gz tmp/asana-4.0.1.tar.gz --markdown 20230801/a/asana/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-08-01 01:55:26] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-01 01:55:26] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-01 01:55:26] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-01 01:55:31] INFO root fetch - processPackages [asana]: Remove: archive file [/home/abi/fetcher/tmp/asana-4.0.0.tar.gz]
+[2023-08-01 01:55:31] INFO root fetch - processPackages [asana]: Remove: archive file [/home/abi/fetcher/tmp/asana-4.0.1.tar.gz]
+[2023-08-01 01:55:31] INFO root fetch - main [MainThread]: End processing [asana]: success
+[2023-08-01 01:55:31] INFO root fetch - main [MainThread]: Store serial: [19114780]
