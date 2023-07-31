@@ -2224,3 +2224,109 @@
 [2023-08-01 01:34:27] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-08-01 01:34:27] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-08-01 01:34:27] INFO root fetch - main [MainThread]: Store serial: [19114661]
+[2023-08-01 01:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114661]
+[2023-08-01 01:39:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asana-preview
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: temper-pygments
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iambic-core
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mass-composition
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sdock
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipen-board
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jarvis-ironman
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threemystic-cloud-client
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BIDSit
+[2023-08-01 01:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: asana-preview
+[2023-08-01 01:39:35] INFO root fetch - processPackages [iambic-core]: New version: [0.9.8] Old Version: [0.9.6]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [sdock]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.59] Old Version: [0.1.58]
+[2023-08-01 01:39:35] WARNING root fetch - processPackages [temper-pygments]: Skipping, unable to determine old version
+[2023-08-01 01:39:35] INFO root fetch - processPackages [temper-pygments]: Start processing: pytest-recording
+[2023-08-01 01:39:35] INFO root fetch - main [MainThread]: End processing [temper-pygments] error
+[2023-08-01 01:39:35] INFO root fetch - processPackages [jarvis-ironman]: New version: [3.4] Old Version: [3.3]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [asana-preview]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [asana-preview]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [BIDSit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [mass-composition]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [pipen-board]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [pytest-recording]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-01 01:39:35] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/9e/25/21eeb36df4421605a4e9a0f3f4ff71207d35463557f2a464b38aa3200082/iambic_core-0.9.6.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/92/48/9c15098eeb67966ad5adc3f113a768e9f0dbae0aef5653772615384308e2/threemystic_cloud_client-0.1.58.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/ee/d6/5ffc813acb6fcf904722b880a2295fdaa026b9db41b879dc6a9f82b763cf/jarvis_ironman-3.3-py3-none-any.whl
+[2023-08-01 01:39:36] INFO root fetch - processPackages [pytest-recording]: Downloading https://files.pythonhosted.org/packages/3a/5f/35841b787546bea686d0911bfc5761b872aca3cd0d9d650aa57646aa3325/pytest-recording-0.8.1.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/3a/3b/f1517b56e0b08628cdcf3b05fb7d690794e7ea0fb89e16b534d6e1a5f5c1/asana_preview-1.0.8.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/3a/3b/f1517b56e0b08628cdcf3b05fb7d690794e7ea0fb89e16b534d6e1a5f5c1/asana_preview-1.0.8.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/41/ee/21a196c7677db2662eda40c9eec68cc25f925d35f8961226cfbf3ee9a7cb/sdock-0.1.8.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/c3/b9/841cc2b3e5d624d3f0d4611ab926933ef4275486ab60a4e31866620a05f7/mass_composition-0.1.8.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/aa/b3/84dd8325efa743f854a5205d5e260fa504dac15d89b15bc03daddc583f17/pipen_board-0.9.0.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/f7/31/bb9b4cc3226fc426cae5605734d660710898871c4c06b7d83a6829ef6cf7/BIDSit-0.0.8.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/6f/80/c1e31a0542c8c742b4f9f67bf67da9ea788a31fe7a030465447db59f3205/iambic_core-0.9.8.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/a6/25/35e6f8cee28fce54dc2e26fbeafd3bd44d3249b886efac1656fa993c358f/BIDSit-0.0.9.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/bd/de/3cf8167f45dc52bfdfb52f0af4c1fe0c7faf17f6c3fd69e522ac3b57d58c/threemystic_cloud_client-0.1.59.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-08-01 01:39:36] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.9.6.tar.gz tmp/iambic_core-0.9.8.tar.gz --markdown 20230801/i/iambic-core/0.9.6-0.9.8/diff.md --exclude *.pyd
+[2023-08-01 01:39:36] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 01:39:36] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.8.tar.gz tmp/BIDSit-0.0.9.tar.gz --markdown 20230801/B/BIDSit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:39:36] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-08-01 01:39:36] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.58.tar.gz tmp/threemystic_cloud_client-0.1.59.tar.gz --markdown 20230801/t/threemystic-cloud-client/0.1.58-0.1.59/diff.md --exclude *.pyd
+[2023-08-01 01:39:36] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4f/ea/2897c098efd0fa32ba87bc7885f3dfea4a69075a3aaec9f6f06641157246/mass_composition-0.1.9.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [sdock]: Downloading https://files.pythonhosted.org/packages/45/a7/929bd031aeedd6564b477e14caa297078664bb434accb97d098c6ee76c94/sdock-0.1.9.tar.gz
+[2023-08-01 01:39:36] INFO root fetch - processPackages [pytest-recording]: Downloading https://files.pythonhosted.org/packages/54/16/d640d24ca4f64e3b7627e177931f03ea41bf35888b2460c6984459fec471/pytest_recording-0.9.0-py3-none-any.whl
+[2023-08-01 01:39:36] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2023-08-01 01:39:36] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.1.8.tar.gz tmp/mass_composition-0.1.9.tar.gz --markdown 20230801/m/mass-composition/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 01:39:36] INFO root fetch - processPackages [sdock]: executing diffoscope
+[2023-08-01 01:39:36] INFO root fetch - processPackages [sdock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdock-0.1.8.tar.gz tmp/sdock-0.1.9.tar.gz --markdown 20230801/s/sdock/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 01:39:37] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/5c/f2/40401a77f01d4d6a091f962f1e77b2de0d48860d5f95157b6eaa0d4bf830/pipen_board-0.9.1.tar.gz
+[2023-08-01 01:39:37] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/40/0c/73be80ef3493809a86453d7d59f33741d4521aa7e79b0326f6457cdad900/asana_preview-1.0.9.tar.gz
+[2023-08-01 01:39:37] INFO root fetch - processPackages [asana-preview]: Downloading https://files.pythonhosted.org/packages/40/0c/73be80ef3493809a86453d7d59f33741d4521aa7e79b0326f6457cdad900/asana_preview-1.0.9.tar.gz
+[2023-08-01 01:39:37] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-08-01 01:39:37] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.9.0.tar.gz tmp/pipen_board-0.9.1.tar.gz --markdown 20230801/p/pipen-board/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 01:39:37] INFO root fetch - processPackages [asana-preview]: executing diffoscope
+[2023-08-01 01:39:37] INFO root fetch - processPackages [asana-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana_preview-1.0.8.tar.gz tmp/asana_preview-1.0.9.tar.gz --markdown 20230801/a/asana-preview/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:39:37] INFO root fetch - processPackages [asana-preview]: executing diffoscope
+[2023-08-01 01:39:37] INFO root fetch - processPackages [asana-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asana_preview-1.0.8.tar.gz tmp/asana_preview-1.0.9.tar.gz --markdown 20230801/a/asana-preview/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:39:37] INFO root fetch - processPackages [pytest-recording]: executing diffoscope
+[2023-08-01 01:39:37] INFO root fetch - processPackages [pytest-recording]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-recording-0.8.1.tar.gz tmp/pytest_recording-0.9.0-py3-none-any.whl.zip --markdown 20230801/p/pytest-recording/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 01:39:38] INFO root fetch - processPackages [jarvis-ironman]: Downloading https://files.pythonhosted.org/packages/1c/31/d954b3b009f967fae49d4be0550e5cae27115e50ab53df6026ac4be7c709/jarvis_ironman-3.4-py3-none-any.whl
+[2023-08-01 01:39:38] INFO root fetch - processPackages [jarvis-ironman]: executing diffoscope
+[2023-08-01 01:39:38] INFO root fetch - processPackages [jarvis-ironman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ironman-3.3-py3-none-any.whl.zip tmp/jarvis_ironman-3.4-py3-none-any.whl.zip --markdown 20230801/j/jarvis-ironman/3.3-3.4/diff.md --exclude *.pyd
+[2023-08-01 01:39:38] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.8.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.9.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [BIDSit]: Start processing: localstack-core
+[2023-08-01 01:39:38] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 01:39:38] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230731203030] Old Version: [2.2.1.dev20230731125407]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.8.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [sdock]: Remove: archive file [/home/abi/fetcher/tmp/sdock-0.1.9.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [sdock]: Start processing: warmac
+[2023-08-01 01:39:38] INFO root fetch - main [MainThread]: End processing [sdock]: success
+[2023-08-01 01:39:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3d/c2/41490e1dbf582181325912c6351089b852128969573388478ddf65c796b2/localstack-core-2.2.1.dev20230731125407.tar.gz
+[2023-08-01 01:39:38] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.58.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.59.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-08-01 01:39:38] INFO root fetch - processPackages [pytest-recording]: Remove: archive file [/home/abi/fetcher/tmp/pytest-recording-0.8.1.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [pytest-recording]: Remove: archive file [/home/abi/fetcher/tmp/pytest_recording-0.9.0-py3-none-any.whl.zip]
+[2023-08-01 01:39:38] INFO root fetch - main [MainThread]: End processing [pytest-recording]: success
+[2023-08-01 01:39:38] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/39/03/04090dadaa73ecdf990e4267f883a80e18784930967f66a45083d7950fa6/localstack-core-2.2.1.dev20230731203030.tar.gz
+[2023-08-01 01:39:38] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.8.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.1.9.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2023-08-01 01:39:38] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-01 01:39:38] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230731125407.tar.gz tmp/localstack-core-2.2.1.dev20230731203030.tar.gz --markdown 20230801/l/localstack-core/2.2.1.dev20230731125407-2.2.1.dev20230731203030/diff.md --exclude *.pyd
+[2023-08-01 01:39:38] WARNING root fetch - processPackages [warmac]: Skipping, unable to determine old version
+[2023-08-01 01:39:38] INFO root fetch - main [MainThread]: End processing [warmac] error
+[2023-08-01 01:39:38] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.6.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
+[2023-08-01 01:39:38] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-08-01 01:39:40] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.3-py3-none-any.whl.zip]
+[2023-08-01 01:39:40] INFO root fetch - processPackages [jarvis-ironman]: Remove: archive file [/home/abi/fetcher/tmp/jarvis_ironman-3.4-py3-none-any.whl.zip]
+[2023-08-01 01:39:40] INFO root fetch - main [MainThread]: End processing [jarvis-ironman]: success
+[2023-08-01 01:39:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731125407.tar.gz]
+[2023-08-01 01:39:42] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731203030.tar.gz]
+[2023-08-01 01:39:42] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-01 01:39:43] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.8.tar.gz]
+[2023-08-01 01:39:43] INFO root fetch - processPackages [asana-preview]: Remove: archive file [/home/abi/fetcher/tmp/asana_preview-1.0.9.tar.gz]
+[2023-08-01 01:39:43] INFO root fetch - main [MainThread]: End processing [asana-preview]: success
+[2023-08-01 01:39:43] INFO root fetch - main [MainThread]: End processing [asana-preview]: success
+[2023-08-01 01:39:48] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.9.0.tar.gz]
+[2023-08-01 01:39:48] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.9.1.tar.gz]
+[2023-08-01 01:39:48] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-08-01 01:39:48] INFO root fetch - main [MainThread]: Store serial: [19114703]
