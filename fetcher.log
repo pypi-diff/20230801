@@ -1274,3 +1274,204 @@
 [2023-08-01 01:00:44] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.4.3.tar.gz]
 [2023-08-01 01:00:44] INFO root fetch - main [MainThread]: End processing [dagster]: success
 [2023-08-01 01:00:44] INFO root fetch - main [MainThread]: Store serial: [19114302]
+[2023-08-01 01:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114302]
+[2023-08-01 01:05:53] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elasticsearch-pii-redacter
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flwr-nightly
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osuExchange
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usb-monitor
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataprep-ml
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigstream
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tmnt-cu101
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Janex
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tmnt
+[2023-08-01 01:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maisaedu-utilities-prefect
+[2023-08-01 01:05:53] INFO root fetch - processPackages [elasticsearch-pii-redacter]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [osuExchange]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [bigstream]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [usb-monitor]: New version: [1.9] Old Version: [1.8]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [dataprep-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230731] Old Version: [0.7.0b20230730]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [osuExchange]: Downloading https://files.pythonhosted.org/packages/27/35/73339c280890784d858140ec841df6d81d2cd0e87a881d4528f4ff69a521/osuExchange-0.0.2.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230731] Old Version: [0.7.0b20230730]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230730] Old Version: [1.5.0.dev20230725]
+[2023-08-01 01:05:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/6e/25/326af436eea8eb3ec41af21ee85d32f977ee14dcf17ea74a7b520c32bb6b/tmnt-cu101-0.7.0b20230730.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/0c/ab/da04c8fca34676a50e4bbefd8ffcf8c7874618d97ed7f1f39d9d994446f8/tmnt-0.7.0b20230730.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/9a/05/8c3fdc8c0591515d50ef00b6288204c7635b6a13ac81c4703759162b801a/flwr_nightly-1.5.0.dev20230725.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Downloading https://files.pythonhosted.org/packages/0b/66/73da28647475f226366ef8696dbce66ee4886fde43267c7e17d3d68f52ee/elasticsearch_pii_redacter-1.9.0.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [bigstream]: Downloading https://files.pythonhosted.org/packages/74/3b/047b17118ac25ad4a77508c180638f22166590a0d1ec5c9fcc676df55c63/bigstream-1.1.4.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [usb-monitor]: Downloading https://files.pythonhosted.org/packages/89/11/b7f8f74cf4200043ad5cd2251725442b2676370c32a8a8b40c8f73520e8e/usb-monitor-1.8.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-08-01 01:05:53] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/a2/c0/9e3160e3044b275aefde1635dc0b8240777b2905f18f5b576dfc36f6552d/dataprep_ml-0.0.8.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [osuExchange]: Downloading https://files.pythonhosted.org/packages/0f/a2/624919df75bd95afafd8448c4dd180701be4a48f907916b4a0850f9a2048/osuExchange-0.0.3.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [osuExchange]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [osuExchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osuExchange-0.0.2.tar.gz tmp/osuExchange-0.0.3.tar.gz --markdown 20230801/o/osuExchange/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1f/84/6b6fa43db620afe6e7a303b63d4fee2567c2f715e0c6adcff32fe30d2f65/tmnt-0.7.0b20230731.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/4e/89/bf96d542bae56b8f0b5da2c8396b1c4d54754f78c47f05dd6fe0f3f71795/flwr_nightly-1.5.0.dev20230730.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230801/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Downloading https://files.pythonhosted.org/packages/0c/b9/9ec2da213f5161e781ce8d94a58d09f39abb732f9d0a546a1b4ddc005678/elasticsearch_pii_redacter-1.9.1.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/9b/7c/e8e01715aa7cd88cdec0acdebaa244ba8c9490ee8d193add2707b4738450/tmnt-cu101-0.7.0b20230731.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [usb-monitor]: Downloading https://files.pythonhosted.org/packages/b8/24/66ba7dbab40ec8656d74e794f8eb3b2f0d995a1f4c23df75fd67122eeb84/usb-monitor-1.9.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [elasticsearch-pii-redacter]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [elasticsearch-pii-redacter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_pii_redacter-1.9.0.tar.gz tmp/elasticsearch_pii_redacter-1.9.1.tar.gz --markdown 20230801/e/elasticsearch-pii-redacter/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [usb-monitor]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [usb-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usb-monitor-1.8.tar.gz tmp/usb-monitor-1.9.tar.gz --markdown 20230801/u/usb-monitor/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230725.tar.gz tmp/flwr_nightly-1.5.0.dev20230730.tar.gz --markdown 20230801/f/flwr-nightly/1.5.0.dev20230725-1.5.0.dev20230730/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [bigstream]: Downloading https://files.pythonhosted.org/packages/61/5b/f13e9b2f47855103c46ec998289eb8096a7f8d2d905263abe23fc93d4f10/bigstream-1.1.5.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230730.tar.gz tmp/tmnt-0.7.0b20230731.tar.gz --markdown 20230801/t/tmnt/0.7.0b20230730-0.7.0b20230731/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [bigstream]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [bigstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigstream-1.1.4.tar.gz tmp/bigstream-1.1.5.tar.gz --markdown 20230801/b/bigstream/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-01 01:05:54] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/4e/79/d0813f0b3b9153581248f0741a8901ae3307f52404569ca8cefcc21d96da/dataprep_ml-0.0.9.tar.gz
+[2023-08-01 01:05:54] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-01 01:05:54] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230730.tar.gz tmp/tmnt-cu101-0.7.0b20230731.tar.gz --markdown 20230801/t/tmnt-cu101/0.7.0b20230730-0.7.0b20230731/diff.md --exclude *.pyd
+[2023-08-01 01:05:55] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2023-08-01 01:05:55] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-0.0.8.tar.gz tmp/dataprep_ml-0.0.9.tar.gz --markdown 20230801/d/dataprep-ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:05:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [Janex]: Start processing: BIDSit
+[2023-08-01 01:05:55] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 01:05:55] INFO root fetch - processPackages [BIDSit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [osuExchange]: Remove: archive file [/home/abi/fetcher/tmp/osuExchange-0.0.2.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [osuExchange]: Remove: archive file [/home/abi/fetcher/tmp/osuExchange-0.0.3.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [osuExchange]: Start processing: maisaedu-poormans-dms
+[2023-08-01 01:05:55] INFO root fetch - main [MainThread]: End processing [osuExchange]: success
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/f7/31/bb9b4cc3226fc426cae5605734d660710898871c4c06b7d83a6829ef6cf7/BIDSit-0.0.8.tar.gz
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Start processing: lite-fastapi-local
+[2023-08-01 01:05:55] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-08-01 01:05:55] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230801/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:05:55] INFO root fetch - processPackages [lite-fastapi-local]: New version: [0.0.50] Old Version: [0.0.46]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/a6/25/35e6f8cee28fce54dc2e26fbeafd3bd44d3249b886efac1656fa993c358f/BIDSit-0.0.9.tar.gz
+[2023-08-01 01:05:55] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_pii_redacter-1.9.0.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_pii_redacter-1.9.1.tar.gz]
+[2023-08-01 01:05:55] INFO root fetch - processPackages [elasticsearch-pii-redacter]: Start processing: Janex
+[2023-08-01 01:05:55] INFO root fetch - main [MainThread]: End processing [elasticsearch-pii-redacter]: success
+[2023-08-01 01:05:55] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 01:05:55] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.8.tar.gz tmp/BIDSit-0.0.9.tar.gz --markdown 20230801/B/BIDSit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:05:56] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [usb-monitor]: Remove: archive file [/home/abi/fetcher/tmp/usb-monitor-1.8.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [usb-monitor]: Remove: archive file [/home/abi/fetcher/tmp/usb-monitor-1.9.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [usb-monitor]: Start processing: dagster-webserver
+[2023-08-01 01:05:56] INFO root fetch - main [MainThread]: End processing [usb-monitor]: success
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-webserver]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [bigstream]: Remove: archive file [/home/abi/fetcher/tmp/bigstream-1.1.4.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [bigstream]: Remove: archive file [/home/abi/fetcher/tmp/bigstream-1.1.5.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [bigstream]: Start processing: dagster-fivetran
+[2023-08-01 01:05:56] INFO root fetch - main [MainThread]: End processing [bigstream]: success
+[2023-08-01 01:05:56] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/18/28/86b4948facf0798dedec9b38a36a8c87fe00aadef165c13b2d821aa6d0af/lite_fastapi_local-0.0.46.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-fivetran]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230730.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230731.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [tmnt]: Start processing: dagster-spark
+[2023-08-01 01:05:56] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-01 01:05:56] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 01:05:56] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-webserver]: Downloading https://files.pythonhosted.org/packages/93/14/733b1b2eb1c417651412dcf6615d145840256d22c86d2fc312c0690cc278/dagster_webserver-1.4.2.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.8.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.9.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dataprep-ml]: Start processing: dagstermill
+[2023-08-01 01:05:56] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-spark]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230730.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230731.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [tmnt-cu101]: Start processing: dagster-census
+[2023-08-01 01:05:56] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagstermill]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-census]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-fivetran]: Downloading https://files.pythonhosted.org/packages/0e/7f/09a3db8315d73fc0f1e74953f83f3e671f5656752d7c5c11d684e2d7ce95/dagster-fivetran-0.20.2.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230725.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230730.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [flwr-nightly]: Start processing: dagster-duckdb-pyspark
+[2023-08-01 01:05:56] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-08-01 01:05:56] INFO root fetch - processPackages [lite-fastapi-local]: Downloading https://files.pythonhosted.org/packages/a0/91/0b0cb7280c2f130fc7aa6ef0a0788ffd9824f6b357e254021b636fafa221/lite_fastapi_local-0.0.50.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-spark]: Downloading https://files.pythonhosted.org/packages/5c/b8/8e306e4f5d833bf3b799ffe7114b36c5bd4a85bfc6b22a30dd6378f2dbfd/dagster-spark-0.9.9.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [lite-fastapi-local]: executing diffoscope
+[2023-08-01 01:05:56] INFO root fetch - processPackages [lite-fastapi-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite_fastapi_local-0.0.46.tar.gz tmp/lite_fastapi_local-0.0.50.tar.gz --markdown 20230801/l/lite-fastapi-local/0.0.46-0.0.50/diff.md --exclude *.pyd
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagster-census]: Downloading https://files.pythonhosted.org/packages/0f/72/f96c02794d637aa9f6e96b39ada7725823e121c07b96abdaf4b0ffb3e623/dagster-census-0.20.2.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [dagstermill]: Downloading https://files.pythonhosted.org/packages/03/60/21f92af53a836a5ca0b1e7c0fab221e90a7f9b50d44eca3d1d6ed39fd25b/dagstermill-0.9.9.tar.gz
+[2023-08-01 01:05:56] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-08-01 01:05:56] INFO root fetch - processPackages [maisaedu-poormans-dms]: Start processing: dagster-azure
+[2023-08-01 01:05:56] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-duckdb-pyspark]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-08-01 01:05:57] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.8.tar.gz]
+[2023-08-01 01:05:57] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.9.tar.gz]
+[2023-08-01 01:05:57] INFO root fetch - processPackages [BIDSit]: Start processing: dagster-datahub
+[2023-08-01 01:05:57] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-census]: Downloading https://files.pythonhosted.org/packages/b5/d8/05800161461181859b4274f5a231e2c0298614a3c8450e88003fc12a02ce/dagster-census-0.20.3.tar.gz
+[2023-08-01 01:05:57] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 01:05:57] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 01:05:57] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-fivetran]: Downloading https://files.pythonhosted.org/packages/a6/d7/66f396e9075b3322f86c247a9e5aea66616c4871acdbd1cf802d60704b53/dagster-fivetran-0.20.3.tar.gz
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-spark]: Downloading https://files.pythonhosted.org/packages/35/b5/3e3150c102e7a7b9b97795213b2be915bed9e409e1d1e20929184d0f65ca/dagster-spark-0.9.9rc1.tar.gz
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-fivetran]: executing diffoscope
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-fivetran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-fivetran-0.20.2.tar.gz tmp/dagster-fivetran-0.20.3.tar.gz --markdown 20230801/d/dagster-fivetran/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-spark]: executing diffoscope
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-spark-0.9.9.tar.gz tmp/dagster-spark-0.9.9rc1.tar.gz --markdown 20230801/d/dagster-spark/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-datahub]: New version: [0.20.3] Old Version: [0.20.2]
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Downloading https://files.pythonhosted.org/packages/e9/4a/e3039f13283d4b4185ffc0b5dd7996425aaa533e7b31a55efcfba46d0ecb/dagster-duckdb-pyspark-0.20.2.tar.gz
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagstermill]: Downloading https://files.pythonhosted.org/packages/b2/b2/70563f85e18cc032d228c59a6f74fb7d8f83e24759002abd577811ad38c0/dagstermill-0.9.9rc1.tar.gz
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-azure]: New version: [0.9.9rc1] Old Version: [0.9.9]
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-census]: executing diffoscope
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-census-0.20.2.tar.gz tmp/dagster-census-0.20.3.tar.gz --markdown 20230801/d/dagster-census/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-08-01 01:05:57] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.46.tar.gz]
+[2023-08-01 01:05:57] INFO root fetch - processPackages [lite-fastapi-local]: Remove: archive file [/home/abi/fetcher/tmp/lite_fastapi_local-0.0.50.tar.gz]
+[2023-08-01 01:05:57] INFO root fetch - main [MainThread]: End processing [lite-fastapi-local]: success
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-datahub]: Downloading https://files.pythonhosted.org/packages/6b/55/aa3d72530b30a02f1fe3d18d0edbffa2a6246cc449e7216ed2229d93e80f/dagster-datahub-0.20.2.tar.gz
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Downloading https://files.pythonhosted.org/packages/36/03/343a48468ef6519fb4ab8373d631c7c2a9ebb5c9a9c201330a1590e1976e/dagster-duckdb-pyspark-0.20.3.tar.gz
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagstermill]: executing diffoscope
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagstermill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagstermill-0.9.9.tar.gz tmp/dagstermill-0.9.9rc1.tar.gz --markdown 20230801/d/dagstermill/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-08-01 01:05:57] INFO root fetch - processPackages [dagster-azure]: Downloading https://files.pythonhosted.org/packages/ae/94/b77a8d4d1aea09bff70b2fb49424f569d714af0d6008690bdce3560916ce/dagster-azure-0.9.9.tar.gz
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-duckdb-pyspark]: executing diffoscope
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-duckdb-pyspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-duckdb-pyspark-0.20.2.tar.gz tmp/dagster-duckdb-pyspark-0.20.3.tar.gz --markdown 20230801/d/dagster-duckdb-pyspark/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-datahub]: Downloading https://files.pythonhosted.org/packages/3a/95/615ad4190b2608a06d1e9cb7dad6c040bba3faa692c975a64350d1462175/dagster-datahub-0.20.3.tar.gz
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-azure]: Downloading https://files.pythonhosted.org/packages/26/2d/4e9812173be87e7428bacc609d4b59707a57ce597123dd28333ed7d3a81c/dagster-azure-0.9.9rc1.tar.gz
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-spark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-spark-0.9.9.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-spark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-spark-0.9.9rc1.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - main [MainThread]: End processing [dagster-spark]: success
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-census]: Remove: archive file [/home/abi/fetcher/tmp/dagster-census-0.20.2.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-census]: Remove: archive file [/home/abi/fetcher/tmp/dagster-census-0.20.3.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - main [MainThread]: End processing [dagster-census]: success
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/dagster-fivetran-0.20.2.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-fivetran]: Remove: archive file [/home/abi/fetcher/tmp/dagster-fivetran-0.20.3.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - main [MainThread]: End processing [dagster-fivetran]: success
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-datahub]: executing diffoscope
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-datahub-0.20.2.tar.gz tmp/dagster-datahub-0.20.3.tar.gz --markdown 20230801/d/dagster-datahub/0.20.2-0.20.3/diff.md --exclude *.pyd
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-azure]: executing diffoscope
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagster-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-azure-0.9.9.tar.gz tmp/dagster-azure-0.9.9rc1.tar.gz --markdown 20230801/d/dagster-azure/0.9.9-0.9.9rc1/diff.md --exclude *.pyd
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagstermill]: Remove: archive file [/home/abi/fetcher/tmp/dagstermill-0.9.9.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - processPackages [dagstermill]: Remove: archive file [/home/abi/fetcher/tmp/dagstermill-0.9.9rc1.tar.gz]
+[2023-08-01 01:05:58] INFO root fetch - main [MainThread]: End processing [dagstermill]: success
+[2023-08-01 01:05:59] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pyspark-0.20.2.tar.gz]
+[2023-08-01 01:05:59] INFO root fetch - processPackages [dagster-duckdb-pyspark]: Remove: archive file [/home/abi/fetcher/tmp/dagster-duckdb-pyspark-0.20.3.tar.gz]
+[2023-08-01 01:05:59] INFO root fetch - main [MainThread]: End processing [dagster-duckdb-pyspark]: success
+[2023-08-01 01:05:59] INFO root fetch - processPackages [dagster-datahub]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datahub-0.20.2.tar.gz]
+[2023-08-01 01:05:59] INFO root fetch - processPackages [dagster-datahub]: Remove: archive file [/home/abi/fetcher/tmp/dagster-datahub-0.20.3.tar.gz]
+[2023-08-01 01:05:59] INFO root fetch - main [MainThread]: End processing [dagster-datahub]: success
+[2023-08-01 01:05:59] INFO root fetch - processPackages [dagster-azure]: Remove: archive file [/home/abi/fetcher/tmp/dagster-azure-0.9.9.tar.gz]
+[2023-08-01 01:05:59] INFO root fetch - processPackages [dagster-azure]: Remove: archive file [/home/abi/fetcher/tmp/dagster-azure-0.9.9rc1.tar.gz]
+[2023-08-01 01:05:59] INFO root fetch - main [MainThread]: End processing [dagster-azure]: success
+[2023-08-01 01:06:00] INFO root fetch - processPackages [dagster-webserver]: Downloading https://files.pythonhosted.org/packages/65/dc/a160482de0adb9e0717ef05dda3e8623c478324df6ef282975821f3db203/dagster_webserver-1.4.3.tar.gz
+[2023-08-01 01:06:01] INFO root fetch - processPackages [dagster-webserver]: executing diffoscope
+[2023-08-01 01:06:01] INFO root fetch - processPackages [dagster-webserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_webserver-1.4.2.tar.gz tmp/dagster_webserver-1.4.3.tar.gz --markdown 20230801/d/dagster-webserver/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-01 01:06:41] INFO root fetch - processPackages [dagster-webserver]: Remove: archive file [/home/abi/fetcher/tmp/dagster_webserver-1.4.2.tar.gz]
+[2023-08-01 01:06:41] INFO root fetch - processPackages [dagster-webserver]: Remove: archive file [/home/abi/fetcher/tmp/dagster_webserver-1.4.3.tar.gz]
+[2023-08-01 01:06:41] INFO root fetch - main [MainThread]: End processing [dagster-webserver]: success
+[2023-08-01 01:06:41] INFO root fetch - main [MainThread]: Store serial: [19114360]
