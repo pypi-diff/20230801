@@ -2029,3 +2029,69 @@
 [2023-08-01 01:17:27] INFO root fetch - processPackages [django-sphinx-hosting]: Remove: archive file [/home/abi/fetcher/tmp/django-sphinx-hosting-1.2.1.tar.gz]
 [2023-08-01 01:17:27] INFO root fetch - main [MainThread]: End processing [django-sphinx-hosting]: success
 [2023-08-01 01:17:27] INFO root fetch - main [MainThread]: Store serial: [19114565]
+[2023-08-01 01:22:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114565]
+[2023-08-01 01:22:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-01 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxk
+[2023-08-01 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: allensdk
+[2023-08-01 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KKMeans
+[2023-08-01 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BIDSit
+[2023-08-01 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pop-create-idem
+[2023-08-01 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparkback
+[2023-08-01 01:22:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datarobot-drum
+[2023-08-01 01:22:36] INFO root fetch - processPackages [allensdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-01 01:22:36] INFO root fetch - processPackages [sparkback]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-01 01:22:36] INFO root fetch - processPackages [datarobot-drum]: New version: [1.9.9.dev2] Old Version: [1.9.9.dev1]
+[2023-08-01 01:22:36] INFO root fetch - processPackages [pop-create-idem]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-08-01 01:22:36] INFO root fetch - processPackages [KKMeans]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 01:22:36] INFO root fetch - processPackages [BIDSit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 01:22:36] INFO root fetch - processPackages [pyxk]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-08-01 01:22:36] INFO root fetch - processPackages [KKMeans]: Downloading https://files.pythonhosted.org/packages/e0/28/33d5a6d32afe5a3ef90708ee145c9ffa4ebfdabf2420b5daa8d1968092e6/KKMeans-0.0.5.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/f7/31/bb9b4cc3226fc426cae5605734d660710898871c4c06b7d83a6829ef6cf7/BIDSit-0.0.8.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/15/52/c526ab2b121132be336362709f48d5824cdcda3da55fbd68cbe6d64d71b8/pyxk-0.6.7.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [sparkback]: Downloading https://files.pythonhosted.org/packages/f7/eb/e22888542d17f5356351a09412398282a2943e91783e8f5e58683de3a868/sparkback-0.1.0.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/64/43/938213e470d2626fcffd4cb67087c885bbdcebf37eb424223ad7362bf99d/pop-create-idem-4.4.1.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [datarobot-drum]: Downloading https://files.pythonhosted.org/packages/04/51/352545a1b11f4fc5c3f426edaa82ac07d50c02da4f8d6bbbf64cd62eadff/datarobot_drum-1.9.9.dev1-py3-none-any.whl
+[2023-08-01 01:22:36] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/a6/25/35e6f8cee28fce54dc2e26fbeafd3bd44d3249b886efac1656fa993c358f/BIDSit-0.0.9.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [allensdk]: Downloading https://files.pythonhosted.org/packages/3c/45/ad0026e01d70aaa9bc74033b6806a93fefaa9c98e25e0cdb37067fb3bc38/allensdk-2.8.0-py3-none-any.whl
+[2023-08-01 01:22:36] INFO root fetch - processPackages [pyxk]: Downloading https://files.pythonhosted.org/packages/4a/f1/74f89bc07247881eefce44deebf8260cda4fb8099dd0804e2fc32020d72c/pyxk-0.6.8.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [sparkback]: Downloading https://files.pythonhosted.org/packages/5e/54/23191436de9b4cdfb9a39679540c5a9494b198ad6147e104807ea62f3d2b/sparkback-0.1.1.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 01:22:36] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.8.tar.gz tmp/BIDSit-0.0.9.tar.gz --markdown 20230801/B/BIDSit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:22:36] INFO root fetch - processPackages [KKMeans]: Downloading https://files.pythonhosted.org/packages/79/a2/90277ae452c71ce9b2110dc1a9ad71570aac7ff5fd12144ebf5db793532e/KKMeans-0.0.6.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/d5/9d/a727466c6822c52ac4afecc8dbb1a55c895373c0a7dfd31adc392316e99a/pop-create-idem-4.4.2.tar.gz
+[2023-08-01 01:22:36] INFO root fetch - processPackages [sparkback]: executing diffoscope
+[2023-08-01 01:22:36] INFO root fetch - processPackages [sparkback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkback-0.1.0.tar.gz tmp/sparkback-0.1.1.tar.gz --markdown 20230801/s/sparkback/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-01 01:22:37] INFO root fetch - processPackages [pop-create-idem]: executing diffoscope
+[2023-08-01 01:22:37] INFO root fetch - processPackages [pop-create-idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-create-idem-4.4.1.tar.gz tmp/pop-create-idem-4.4.2.tar.gz --markdown 20230801/p/pop-create-idem/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-08-01 01:22:37] INFO root fetch - processPackages [pyxk]: executing diffoscope
+[2023-08-01 01:22:37] INFO root fetch - processPackages [pyxk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxk-0.6.7.tar.gz tmp/pyxk-0.6.8.tar.gz --markdown 20230801/p/pyxk/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-08-01 01:22:37] INFO root fetch - processPackages [allensdk]: Downloading https://files.pythonhosted.org/packages/b3/e3/0933ea15f4f5abc4506e5fb09148dc5f2a50c451adf7ee568a69f49530e2/allensdk-2.9.0-py3-none-any.whl
+[2023-08-01 01:22:37] INFO root fetch - processPackages [KKMeans]: executing diffoscope
+[2023-08-01 01:22:37] INFO root fetch - processPackages [KKMeans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KKMeans-0.0.5.tar.gz tmp/KKMeans-0.0.6.tar.gz --markdown 20230801/K/KKMeans/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-01 01:22:37] INFO root fetch - processPackages [sparkback]: Remove: archive file [/home/abi/fetcher/tmp/sparkback-0.1.0.tar.gz]
+[2023-08-01 01:22:37] INFO root fetch - processPackages [sparkback]: Remove: archive file [/home/abi/fetcher/tmp/sparkback-0.1.1.tar.gz]
+[2023-08-01 01:22:37] INFO root fetch - main [MainThread]: End processing [sparkback]: success
+[2023-08-01 01:22:37] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.8.tar.gz]
+[2023-08-01 01:22:37] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.9.tar.gz]
+[2023-08-01 01:22:37] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 01:22:37] INFO root fetch - processPackages [datarobot-drum]: Downloading https://files.pythonhosted.org/packages/23/75/6b64b4240b00a04762c55748b6a459c99083850f20ebaaf9c1dcff7fddce/datarobot_drum-1.9.9.dev2-py3-none-any.whl
+[2023-08-01 01:22:38] INFO root fetch - processPackages [allensdk]: executing diffoscope
+[2023-08-01 01:22:38] INFO root fetch - processPackages [allensdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allensdk-2.8.0-py3-none-any.whl.zip tmp/allensdk-2.9.0-py3-none-any.whl.zip --markdown 20230801/a/allensdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-01 01:22:38] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.7.tar.gz]
+[2023-08-01 01:22:38] INFO root fetch - processPackages [pyxk]: Remove: archive file [/home/abi/fetcher/tmp/pyxk-0.6.8.tar.gz]
+[2023-08-01 01:22:38] INFO root fetch - main [MainThread]: End processing [pyxk]: success
+[2023-08-01 01:22:38] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.4.1.tar.gz]
+[2023-08-01 01:22:38] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.4.2.tar.gz]
+[2023-08-01 01:22:38] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
+[2023-08-01 01:22:38] INFO root fetch - processPackages [datarobot-drum]: executing diffoscope
+[2023-08-01 01:22:38] INFO root fetch - processPackages [datarobot-drum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip --markdown 20230801/d/datarobot-drum/1.9.9.dev1-1.9.9.dev2/diff.md --exclude *.pyd
+[2023-08-01 01:22:38] INFO root fetch - processPackages [KKMeans]: Remove: archive file [/home/abi/fetcher/tmp/KKMeans-0.0.5.tar.gz]
+[2023-08-01 01:22:38] INFO root fetch - processPackages [KKMeans]: Remove: archive file [/home/abi/fetcher/tmp/KKMeans-0.0.6.tar.gz]
+[2023-08-01 01:22:38] INFO root fetch - main [MainThread]: End processing [KKMeans]: success
+[2023-08-01 01:22:42] INFO root fetch - processPackages [allensdk]: Remove: archive file [/home/abi/fetcher/tmp/allensdk-2.8.0-py3-none-any.whl.zip]
+[2023-08-01 01:22:42] INFO root fetch - processPackages [allensdk]: Remove: archive file [/home/abi/fetcher/tmp/allensdk-2.9.0-py3-none-any.whl.zip]
+[2023-08-01 01:22:42] INFO root fetch - main [MainThread]: End processing [allensdk]: success
+[2023-08-01 01:23:34] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev1-py3-none-any.whl.zip]
+[2023-08-01 01:23:34] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip]
+[2023-08-01 01:23:34] INFO root fetch - main [MainThread]: End processing [datarobot-drum]: success
+[2023-08-01 01:23:34] INFO root fetch - main [MainThread]: Store serial: [19114588]
