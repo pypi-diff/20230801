@@ -512,3 +512,150 @@
 [2023-08-01 00:28:15] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.8.0.tar.gz]
 [2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [biobear]: success
 [2023-08-01 00:28:15] INFO root fetch - main [MainThread]: Store serial: [19113981]
+[2023-08-01 00:33:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19113981]
+[2023-08-01 00:33:24] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gfatpy
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cjm-yolox-pytorch
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-client
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deploymenthub
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firexapp
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PythonMetaTrader5
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PythonMetaTrader5
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PythonMetaTrader5swafderdrfefsawed
+[2023-08-01 00:33:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: optitrader
+[2023-08-01 00:33:24] INFO root fetch - processPackages [PythonMetaTrader5]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [deploymenthub]: New version: [2.5] Old Version: [2.4]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.57] Old Version: [0.1.56]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [PythonMetaTrader5]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [gfatpy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-01 00:33:24] WARNING root fetch - processPackages [PythonMetaTrader5swafderdrfefsawed]: Skipping, unable to determine old version
+[2023-08-01 00:33:24] INFO root fetch - processPackages [PythonMetaTrader5swafderdrfefsawed]: Start processing: PythonMetaTrader5
+[2023-08-01 00:33:24] INFO root fetch - main [MainThread]: End processing [PythonMetaTrader5swafderdrfefsawed] error
+[2023-08-01 00:33:24] INFO root fetch - processPackages [optitrader]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [firexapp]: New version: [4.9.9] Old Version: [4.9.80]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [lollms]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [PythonMetaTrader5]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-01 00:33:24] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/44/18/6bd566142f49b5cd7287ea0f3f95f9de9be6cbbf9de33ed81a6d074229ab/deploymenthub-2.4.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/8b/fa/e185bb69133dbeae38f5932e66b59464a590d7a1debd5620af30ea566410/PythonMetaTrader5-1.0.1.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/8b/fa/e185bb69133dbeae38f5932e66b59464a590d7a1debd5620af30ea566410/PythonMetaTrader5-1.0.1.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/ae/63/3c113f262832b811f580702d2003094182209cdddd7d4894469db4ef0b3a/threemystic_cloud_client-0.1.56.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/83/13/27f1a17c3debdedfd9d30396673026dce1c8a75c369af71602e66ee08477/lollms-2.2.5.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [gfatpy]: Downloading https://files.pythonhosted.org/packages/45/c0/e439b8d55eac98c0e89291538e33f5ee34a4ed7ec2fe6df5e9b321e5a9b1/gfatpy-0.8.0.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/8b/fa/e185bb69133dbeae38f5932e66b59464a590d7a1debd5620af30ea566410/PythonMetaTrader5-1.0.1.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/7f/41/282b25a357c7ae00af399ae22d91d20913c60adcd583a37364caca141129/firexapp-4.9.80.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [optitrader]: Downloading https://files.pythonhosted.org/packages/d4/f1/4f0e1f66a69162c0ec030e5992b26dfb59bbb7365f79602d18f32be75488/optitrader-0.0.0.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/1a/38/2e164d0f812a3fe2eb8c8402d2b93982f30f4afc4f5ef610a41cbf4056d3/PythonMetaTrader5-1.0.2.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/1a/38/2e164d0f812a3fe2eb8c8402d2b93982f30f4afc4f5ef610a41cbf4056d3/PythonMetaTrader5-1.0.2.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [PythonMetaTrader5]: Downloading https://files.pythonhosted.org/packages/1a/38/2e164d0f812a3fe2eb8c8402d2b93982f30f4afc4f5ef610a41cbf4056d3/PythonMetaTrader5-1.0.2.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/37/7c/b3261970cf2b7943812072a340ef1a600df80ad246aadcccd1729620b124/threemystic_cloud_client-0.1.57.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [firexapp]: Downloading https://files.pythonhosted.org/packages/b2/33/808b287149841ed771447613ba963c309ce0a1d8d2b5b83c0a66af9e60cc/firexapp-4.9.9.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/47/d2/6836845ede7ec4a773e6414068b107d01975f0fdf1ab3a47179eaf1d210a/deploymenthub-2.5.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-01 00:33:25] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230801/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 00:33:25] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-08-01 00:33:25] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.56.tar.gz tmp/threemystic_cloud_client-0.1.57.tar.gz --markdown 20230801/t/threemystic-cloud-client/0.1.56-0.1.57/diff.md --exclude *.pyd
+[2023-08-01 00:33:25] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/25/bb/458af369be0d7fc2f5dc4ba8ddec3199bed04d82a07e8cf7305713f5b855/lollms-2.2.6.tar.gz
+[2023-08-01 00:33:25] INFO root fetch - processPackages [firexapp]: executing diffoscope
+[2023-08-01 00:33:25] INFO root fetch - processPackages [firexapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firexapp-4.9.80.tar.gz tmp/firexapp-4.9.9.tar.gz --markdown 20230801/f/firexapp/4.9.80-4.9.9/diff.md --exclude *.pyd
+[2023-08-01 00:33:25] INFO root fetch - processPackages [gfatpy]: Downloading https://files.pythonhosted.org/packages/2a/db/ddddb3e894ec851bf80e7317e23c42ceadd688760980c5326a993a00fc49/gfatpy-0.9.0.tar.gz
+[2023-08-01 00:33:26] INFO root fetch - processPackages [PythonMetaTrader5]: executing diffoscope
+[2023-08-01 00:33:26] INFO root fetch - processPackages [PythonMetaTrader5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonMetaTrader5-1.0.1.tar.gz tmp/PythonMetaTrader5-1.0.2.tar.gz --markdown 20230801/P/PythonMetaTrader5/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-01 00:33:26] INFO root fetch - processPackages [PythonMetaTrader5]: executing diffoscope
+[2023-08-01 00:33:26] INFO root fetch - processPackages [PythonMetaTrader5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonMetaTrader5-1.0.1.tar.gz tmp/PythonMetaTrader5-1.0.2.tar.gz --markdown 20230801/P/PythonMetaTrader5/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-01 00:33:26] INFO root fetch - processPackages [PythonMetaTrader5]: executing diffoscope
+[2023-08-01 00:33:26] INFO root fetch - processPackages [PythonMetaTrader5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonMetaTrader5-1.0.1.tar.gz tmp/PythonMetaTrader5-1.0.2.tar.gz --markdown 20230801/P/PythonMetaTrader5/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-01 00:33:26] INFO root fetch - processPackages [deploymenthub]: executing diffoscope
+[2023-08-01 00:33:26] INFO root fetch - processPackages [deploymenthub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymenthub-2.4.tar.gz tmp/deploymenthub-2.5.tar.gz --markdown 20230801/d/deploymenthub/2.4-2.5/diff.md --exclude *.pyd
+[2023-08-01 00:33:26] INFO root fetch - processPackages [optitrader]: Downloading https://files.pythonhosted.org/packages/6d/1d/806cbfa6222e2437ab057aad5a54028d1d4607c6c7100c5b018f6606afb9/optitrader-0.0.1.tar.gz
+[2023-08-01 00:33:26] INFO root fetch - processPackages [optitrader]: executing diffoscope
+[2023-08-01 00:33:26] INFO root fetch - processPackages [optitrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optitrader-0.0.0.tar.gz tmp/optitrader-0.0.1.tar.gz --markdown 20230801/o/optitrader/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-01 00:33:26] INFO root fetch - processPackages [gfatpy]: executing diffoscope
+[2023-08-01 00:33:26] INFO root fetch - processPackages [gfatpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gfatpy-0.8.0.tar.gz tmp/gfatpy-0.9.0.tar.gz --markdown 20230801/g/gfatpy/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 00:33:26] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-08-01 00:33:26] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.2.5.tar.gz tmp/lollms-2.2.6.tar.gz --markdown 20230801/l/lollms/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-08-01 00:33:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [cjm-yolox-pytorch]: Start processing: threemystic-cloud-data-client
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-01 00:33:27] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.60] Old Version: [0.1.59]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/f3/b8/a1ee87b88b1f2e927098cacbb0d7d2b9d0965a1a0f393317d58324863ab9/threemystic_cloud_data_client-0.1.59.tar.gz
+[2023-08-01 00:33:27] INFO root fetch - processPackages [PythonMetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/PythonMetaTrader5-1.0.1.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [PythonMetaTrader5]: Remove: archive file [/home/abi/fetcher/tmp/PythonMetaTrader5-1.0.2.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [PythonMetaTrader5]: Start processing: ops
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [PythonMetaTrader5]: success
+[2023-08-01 00:33:27] INFO root fetch - processPackages [PythonMetaTrader5]: Start processing: ragstack
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [PythonMetaTrader5]: success
+[2023-08-01 00:33:27] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.56.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.57.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [ops]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [threemystic-cloud-client]: Start processing: retakesearch
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-08-01 00:33:27] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-2.4.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-2.5.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [deploymenthub]: Start processing: data-ecosystem-services
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [deploymenthub]: success
+[2023-08-01 00:33:27] INFO root fetch - processPackages [PythonMetaTrader5]: Start processing: Janex
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [PythonMetaTrader5]: success
+[2023-08-01 00:33:27] INFO root fetch - processPackages [retakesearch]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [firexapp]: Remove: archive file [/home/abi/fetcher/tmp/firexapp-4.9.80.tar.gz]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [firexapp]: Remove: archive file [/home/abi/fetcher/tmp/firexapp-4.9.9.tar.gz]
+[2023-08-01 00:33:27] WARNING root fetch - processPackages [ragstack]: Skipping, unable to determine old version
+[2023-08-01 00:33:27] INFO root fetch - processPackages [firexapp]: Start processing: Janex
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [firexapp]: success
+[2023-08-01 00:33:27] INFO root fetch - main [MainThread]: End processing [ragstack] error
+[2023-08-01 00:33:27] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/1c/a4/a79dbf5b602d2d3ac5cbf2dd0793170b0c3a1ad20a3e3e40cbc8b2bfee98/retakesearch-0.1.17.tar.gz
+[2023-08-01 00:33:27] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 00:33:27] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 00:33:27] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-08-01 00:33:27] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 00:33:27] INFO root fetch - processPackages [retakesearch]: Downloading https://files.pythonhosted.org/packages/30/47/6868fd6b376091e877645c925fddb2181f640dd15f3d2f8dffd6cde728fd/retakesearch-0.1.18.tar.gz
+[2023-08-01 00:33:28] INFO root fetch - processPackages [optitrader]: Remove: archive file [/home/abi/fetcher/tmp/optitrader-0.0.0.tar.gz]
+[2023-08-01 00:33:28] INFO root fetch - processPackages [optitrader]: Remove: archive file [/home/abi/fetcher/tmp/optitrader-0.0.1.tar.gz]
+[2023-08-01 00:33:28] INFO root fetch - main [MainThread]: End processing [optitrader]: success
+[2023-08-01 00:33:28] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/74/bf/80b6de6b3e29b8e1d3cb46e80787b61a87dc2f34914465da6bb3d0c1f736/threemystic_cloud_data_client-0.1.60.tar.gz
+[2023-08-01 00:33:28] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 00:33:28] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/9e/44/26e661d17a483af287dcac85da4a8614fa10921474607b7af6c4ea04183e/ops-2.4.1.tar.gz
+[2023-08-01 00:33:28] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-08-01 00:33:28] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 00:33:28] INFO root fetch - processPackages [retakesearch]: executing diffoscope
+[2023-08-01 00:33:28] INFO root fetch - processPackages [retakesearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retakesearch-0.1.17.tar.gz tmp/retakesearch-0.1.18.tar.gz --markdown 20230801/r/retakesearch/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-08-01 00:33:28] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 00:33:28] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:33:28] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-01 00:33:28] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.59.tar.gz tmp/threemystic_cloud_data_client-0.1.60.tar.gz --markdown 20230801/t/threemystic-cloud-data-client/0.1.59-0.1.60/diff.md --exclude *.pyd
+[2023-08-01 00:33:28] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.2.5.tar.gz]
+[2023-08-01 00:33:28] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.2.6.tar.gz]
+[2023-08-01 00:33:28] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-08-01 00:33:28] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-08-01 00:33:28] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230801/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:33:28] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 00:33:28] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:33:28] INFO root fetch - processPackages [gfatpy]: Remove: archive file [/home/abi/fetcher/tmp/gfatpy-0.8.0.tar.gz]
+[2023-08-01 00:33:28] INFO root fetch - processPackages [gfatpy]: Remove: archive file [/home/abi/fetcher/tmp/gfatpy-0.9.0.tar.gz]
+[2023-08-01 00:33:28] INFO root fetch - main [MainThread]: End processing [gfatpy]: success
+[2023-08-01 00:33:28] INFO root fetch - processPackages [ops]: Downloading https://files.pythonhosted.org/packages/1a/1c/27722753a94374eb330827b0f3befe8657dc2466063bce957fff9a5968d2/ops-2.5.0.tar.gz
+[2023-08-01 00:33:28] INFO root fetch - processPackages [ops]: executing diffoscope
+[2023-08-01 00:33:28] INFO root fetch - processPackages [ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ops-2.4.1.tar.gz tmp/ops-2.5.0.tar.gz --markdown 20230801/o/ops/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-08-01 00:33:29] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.17.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - processPackages [retakesearch]: Remove: archive file [/home/abi/fetcher/tmp/retakesearch-0.1.18.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - main [MainThread]: End processing [retakesearch]: success
+[2023-08-01 00:33:29] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 00:33:29] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 00:33:29] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.59.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.60.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-01 00:33:29] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.8.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
+[2023-08-01 00:33:29] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-08-01 00:33:30] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.4.1.tar.gz]
+[2023-08-01 00:33:30] INFO root fetch - processPackages [ops]: Remove: archive file [/home/abi/fetcher/tmp/ops-2.5.0.tar.gz]
+[2023-08-01 00:33:30] INFO root fetch - main [MainThread]: End processing [ops]: success
+[2023-08-01 00:33:30] INFO root fetch - main [MainThread]: Store serial: [19114038]
