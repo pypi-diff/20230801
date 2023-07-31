@@ -79,3 +79,142 @@
 [2023-08-01 00:01:53] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
 [2023-08-01 00:01:53] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-08-01 00:01:53] INFO root fetch - main [MainThread]: Store serial: [19113724]
+[2023-08-01 00:06:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19113724]
+[2023-08-01 00:07:02] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fpzip
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: key-switcheroo
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FAIRSave
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blin
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blin
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blin
+[2023-08-01 00:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blin
+[2023-08-01 00:07:02] INFO root fetch - processPackages [blin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 00:07:02] INFO root fetch - processPackages [fpzip]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-01 00:07:02] INFO root fetch - processPackages [FAIRSave]: New version: [0.0.6.9] Old Version: [0.0.6.8]
+[2023-08-01 00:07:02] INFO root fetch - processPackages [blin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 00:07:02] INFO root fetch - processPackages [blin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 00:07:02] INFO root fetch - processPackages [blin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 00:07:02] INFO root fetch - processPackages [key-switcheroo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 00:07:03] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/b9/17/0bfd635ba194fa69231eec90a859f9cb01fc8b2dd92857ce336397e95771/key_switcheroo-0.0.8.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/b6/f0/dca0cd06b6c29b6218c3ed6b9da6969784ac4ef702de9ee17c83519b8f83/blin-0.2.0.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/b6/f0/dca0cd06b6c29b6218c3ed6b9da6969784ac4ef702de9ee17c83519b8f83/blin-0.2.0.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/b6/f0/dca0cd06b6c29b6218c3ed6b9da6969784ac4ef702de9ee17c83519b8f83/blin-0.2.0.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/b6/f0/dca0cd06b6c29b6218c3ed6b9da6969784ac4ef702de9ee17c83519b8f83/blin-0.2.0.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/35/3c/f75d5fdf3ae8e78bcb1ac9bc3da2fcfd0c24ad2c905b04d0288192628882/blin-0.2.1.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [fpzip]: Downloading https://files.pythonhosted.org/packages/dd/55/ef3936a4cd19992be7ef8baec33efcca52151df085d6e1801246ef8d9ebc/fpzip-1.2.1.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/5e/90/7d5aedc36f5f877d9d3e7c541885df5d60e9e0472579546e44f05ba2858f/FAIRSave-0.0.6.8-py3-none-any.whl
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/35/3c/f75d5fdf3ae8e78bcb1ac9bc3da2fcfd0c24ad2c905b04d0288192628882/blin-0.2.1.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/35/3c/f75d5fdf3ae8e78bcb1ac9bc3da2fcfd0c24ad2c905b04d0288192628882/blin-0.2.1.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/35/3c/f75d5fdf3ae8e78bcb1ac9bc3da2fcfd0c24ad2c905b04d0288192628882/blin-0.2.1.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/88/30/bb3724cbb9ad640b4b9e715ac9bd4484a931a9fe81b423a6b613f0d0e104/key_switcheroo-0.0.9.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.2.0.tar.gz tmp/blin-0.2.1.tar.gz --markdown 20230801/b/blin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.2.0.tar.gz tmp/blin-0.2.1.tar.gz --markdown 20230801/b/blin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.2.0.tar.gz tmp/blin-0.2.1.tar.gz --markdown 20230801/b/blin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 00:07:03] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-08-01 00:07:03] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.2.0.tar.gz tmp/blin-0.2.1.tar.gz --markdown 20230801/b/blin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 00:07:03] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-08-01 00:07:03] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.8.tar.gz tmp/key_switcheroo-0.0.9.tar.gz --markdown 20230801/k/key-switcheroo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:07:04] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-08-01 00:07:04] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230801/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 00:07:04] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-08-01 00:07:04] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230801/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 00:07:04] INFO root fetch - processPackages [fpzip]: Downloading https://files.pythonhosted.org/packages/b4/99/1ad81d6948bf7a673c381014933b730aa683ac6a5fa3e46f50283075e255/fpzip-1.2.2-cp39-cp39-win_amd64.whl
+[2023-08-01 00:07:04] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-08-01 00:07:04] INFO root fetch - processPackages [fpzip]: executing diffoscope
+[2023-08-01 00:07:04] INFO root fetch - processPackages [fpzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpzip-1.2.1.tar.gz tmp/fpzip-1.2.2-cp39-cp39-win_amd64.whl.zip --markdown 20230801/f/fpzip/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-01 00:07:04] INFO root fetch - processPackages [FAIRSave]: Downloading https://files.pythonhosted.org/packages/8f/c9/5fe23c9b9876cee4ff4baebb0d6bc53353b213b0db51bba0a0773a22a3d3/FAIRSave-0.0.6.9-py3-none-any.whl
+[2023-08-01 00:07:04] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-08-01 00:07:04] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230801/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 00:07:04] INFO root fetch - processPackages [FAIRSave]: executing diffoscope
+[2023-08-01 00:07:04] INFO root fetch - processPackages [FAIRSave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FAIRSave-0.0.6.8-py3-none-any.whl.zip tmp/FAIRSave-0.0.6.9-py3-none-any.whl.zip --markdown 20230801/F/FAIRSave/0.0.6.8-0.0.6.9/diff.md --exclude *.pyd
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Remove: archive file [/home/abi/fetcher/tmp/blin-0.2.0.tar.gz]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Remove: archive file [/home/abi/fetcher/tmp/blin-0.2.1.tar.gz]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Start processing: blin
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Start processing: blin
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.8.tar.gz]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.9.tar.gz]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Start processing: blin
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-08-01 00:07:05] INFO root fetch - processPackages [key-switcheroo]: Start processing: monstera
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/b6/f0/dca0cd06b6c29b6218c3ed6b9da6969784ac4ef702de9ee17c83519b8f83/blin-0.2.0.tar.gz
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Start processing: Leye-classifer-v2
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-08-01 00:07:05] INFO root fetch - processPackages [monstera]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [fpzip]: Remove: archive file [/home/abi/fetcher/tmp/fpzip-1.2.1.tar.gz]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [fpzip]: Remove: archive file [/home/abi/fetcher/tmp/fpzip-1.2.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [fpzip]: Start processing: pulumi-azure
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [fpzip]: success
+[2023-08-01 00:07:05] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/b6/f0/dca0cd06b6c29b6218c3ed6b9da6969784ac4ef702de9ee17c83519b8f83/blin-0.2.0.tar.gz
+[2023-08-01 00:07:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-08-01 00:07:05] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: trycortex
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-08-01 00:07:05] WARNING root fetch - processPackages [Leye-classifer-v2]: Skipping, unable to determine old version
+[2023-08-01 00:07:05] INFO root fetch - main [MainThread]: End processing [Leye-classifer-v2] error
+[2023-08-01 00:07:06] INFO root fetch - processPackages [trycortex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 00:07:06] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.8-py3-none-any.whl.zip]
+[2023-08-01 00:07:06] INFO root fetch - processPackages [FAIRSave]: Remove: archive file [/home/abi/fetcher/tmp/FAIRSave-0.0.6.9-py3-none-any.whl.zip]
+[2023-08-01 00:07:06] INFO root fetch - main [MainThread]: End processing [FAIRSave]: success
+[2023-08-01 00:07:06] INFO root fetch - processPackages [pulumi-azure]: New version: [5.9.0a1654522381] Old Version: [5.9.0a1654274095]
+[2023-08-01 00:07:06] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-08-01 00:07:06] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-08-01 00:07:06] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/35/3c/f75d5fdf3ae8e78bcb1ac9bc3da2fcfd0c24ad2c905b04d0288192628882/blin-0.2.1.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/35/3c/f75d5fdf3ae8e78bcb1ac9bc3da2fcfd0c24ad2c905b04d0288192628882/blin-0.2.1.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/b9/1e/abeaf73a139fb46ce3121d0cfa51a8bbe04a90cdf87bfed98aaa80183a54/trycortex-1.0.8.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: Downloading https://files.pythonhosted.org/packages/35/3c/f75d5fdf3ae8e78bcb1ac9bc3da2fcfd0c24ad2c905b04d0288192628882/blin-0.2.1.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.2.0.tar.gz tmp/blin-0.2.1.tar.gz --markdown 20230801/b/blin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.2.0.tar.gz tmp/blin-0.2.1.tar.gz --markdown 20230801/b/blin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 00:07:06] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/95/6d/184badcdda1d8846e82c25063e340f60ddbf5b018a98c303e4bb5aa0a6ff/pulumi_azure-5.9.0a1654274095.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [monstera]: Downloading https://files.pythonhosted.org/packages/76/70/5adae481bcd6ef9b092d198e049441ccc3e5f3fc9a3f687ffd621b937c6e/monstera-0.0.2.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: executing diffoscope
+[2023-08-01 00:07:06] INFO root fetch - processPackages [blin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blin-0.2.0.tar.gz tmp/blin-0.2.1.tar.gz --markdown 20230801/b/blin/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 00:07:06] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/63/8f/b109654725198f55aedea61175748721c427c69efb6403331a3ab2e53ac7/trycortex-1.0.9.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [trycortex]: executing diffoscope
+[2023-08-01 00:07:06] INFO root fetch - processPackages [trycortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-1.0.8.tar.gz tmp/trycortex-1.0.9.tar.gz --markdown 20230801/t/trycortex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:07:06] INFO root fetch - processPackages [monstera]: Downloading https://files.pythonhosted.org/packages/b2/5b/8176f8b92ec88b65ead960fe7d63541db856b3a65462524bb01476611638/monstera-0.0.3.tar.gz
+[2023-08-01 00:07:06] INFO root fetch - processPackages [monstera]: executing diffoscope
+[2023-08-01 00:07:06] INFO root fetch - processPackages [monstera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monstera-0.0.2.tar.gz tmp/monstera-0.0.3.tar.gz --markdown 20230801/m/monstera/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 00:07:07] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-08-01 00:07:07] INFO root fetch - processPackages [blin]: Remove: archive file [/home/abi/fetcher/tmp/blin-0.2.0.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - processPackages [blin]: Remove: archive file [/home/abi/fetcher/tmp/blin-0.2.1.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-08-01 00:07:07] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-08-01 00:07:07] INFO root fetch - main [MainThread]: End processing [blin]: success
+[2023-08-01 00:07:07] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.8.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.9.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - main [MainThread]: End processing [trycortex]: success
+[2023-08-01 00:07:07] INFO root fetch - processPackages [monstera]: Remove: archive file [/home/abi/fetcher/tmp/monstera-0.0.2.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - processPackages [monstera]: Remove: archive file [/home/abi/fetcher/tmp/monstera-0.0.3.tar.gz]
+[2023-08-01 00:07:07] INFO root fetch - main [MainThread]: End processing [monstera]: success
+[2023-08-01 00:07:07] INFO root fetch - processPackages [pulumi-azure]: Downloading https://files.pythonhosted.org/packages/19/1b/87a51c6988d790ed8bfb430670a85c499af09d14d21430448a37baa7fb64/pulumi_azure-5.9.0a1654522381.tar.gz
+[2023-08-01 00:07:09] INFO root fetch - processPackages [pulumi-azure]: executing diffoscope
+[2023-08-01 00:07:09] INFO root fetch - processPackages [pulumi-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azure-5.9.0a1654274095.tar.gz tmp/pulumi_azure-5.9.0a1654522381.tar.gz --markdown 20230801/p/pulumi-azure/5.9.0a1654274095-5.9.0a1654522381/diff.md --exclude *.pyd
+[2023-08-01 00:07:22] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654274095.tar.gz]
+[2023-08-01 00:07:22] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
+[2023-08-01 00:07:22] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
+[2023-08-01 00:07:22] INFO root fetch - main [MainThread]: Store serial: [19113807]
