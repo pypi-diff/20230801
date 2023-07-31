@@ -370,3 +370,63 @@
 [2023-08-01 00:17:49] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev552601292-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-01 00:17:49] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-08-01 00:17:49] INFO root fetch - main [MainThread]: Store serial: [19113872]
+[2023-08-01 00:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19113872]
+[2023-08-01 00:23:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-01 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-08-01 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opower
+[2023-08-01 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: key-switcheroo
+[2023-08-01 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LIV-robotics
+[2023-08-01 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pip2spack
+[2023-08-01 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-ecosystem-flask
+[2023-08-01 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-bigquery
+[2023-08-01 00:23:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 00:23:02] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 00:23:02] INFO root fetch - processPackages [pip2spack]: New version: [2.0.0a0] Old Version: [1.4.1]
+[2023-08-01 00:23:02] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.4] Old Version: [202307.0.38]
+[2023-08-01 00:23:02] INFO root fetch - processPackages [key-switcheroo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 00:23:02] INFO root fetch - processPackages [dbt-bigquery]: New version: [1.6.0rc1] Old Version: [1.6.0b4]
+[2023-08-01 00:23:02] WARNING root fetch - processPackages [LIV-robotics]: Skipping, unable to determine old version
+[2023-08-01 00:23:02] INFO root fetch - main [MainThread]: End processing [LIV-robotics] error
+[2023-08-01 00:23:02] INFO root fetch - processPackages [pip2spack]: Downloading https://files.pythonhosted.org/packages/38/4f/8b17084af5419ddcf801d035896b48481d9aa6b3ff844a10f3b8ec55276d/pip2spack-1.4.1.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/be/66/bbdc4d2b7e4db9614328ff78177068277b02c4ba72e045274a4cec643adb/data_ecosystem_flask-202307.0.38.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/e9/64/f2a207c28dd83d23ad178413c912d46c2749ebd9989d74e36c7a9f93fc36/dbt-bigquery-1.6.0b4.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/b9/17/0bfd635ba194fa69231eec90a859f9cb01fc8b2dd92857ce336397e95771/key_switcheroo-0.0.8.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [dbt-bigquery]: Downloading https://files.pythonhosted.org/packages/d6/f1/626bc74c62378d5e6994916ffa7c61afa95445d3c3f97ce7e9a7d200bf86/dbt-bigquery-1.6.0rc1.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/88/30/bb3724cbb9ad640b4b9e715ac9bd4484a931a9fe81b423a6b613f0d0e104/key_switcheroo-0.0.9.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-08-01 00:23:02] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230801/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:23:02] INFO root fetch - processPackages [pip2spack]: Downloading https://files.pythonhosted.org/packages/c5/dc/83a35e778784cf428d3da454340b2f26670168d39cf2dc891f1f260eb5f4/pip2spack-2.0.0a0.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [dbt-bigquery]: executing diffoscope
+[2023-08-01 00:23:02] INFO root fetch - processPackages [dbt-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-bigquery-1.6.0b4.tar.gz tmp/dbt-bigquery-1.6.0rc1.tar.gz --markdown 20230801/d/dbt-bigquery/1.6.0b4-1.6.0rc1/diff.md --exclude *.pyd
+[2023-08-01 00:23:02] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-08-01 00:23:02] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.8.tar.gz tmp/key_switcheroo-0.0.9.tar.gz --markdown 20230801/k/key-switcheroo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:23:02] INFO root fetch - processPackages [pip2spack]: executing diffoscope
+[2023-08-01 00:23:02] INFO root fetch - processPackages [pip2spack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip2spack-1.4.1.tar.gz tmp/pip2spack-2.0.0a0.tar.gz --markdown 20230801/p/pip2spack/1.4.1-2.0.0a0/diff.md --exclude *.pyd
+[2023-08-01 00:23:02] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/b2/63/f9972c9325aaa8f072021458434c5735720e575e3a4875f4e556734529e8/data_ecosystem_flask-202307.0.4.tar.gz
+[2023-08-01 00:23:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-01 00:23:02] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230801/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 00:23:02] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-08-01 00:23:02] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.38.tar.gz tmp/data_ecosystem_flask-202307.0.4.tar.gz --markdown 20230801/d/data-ecosystem-flask/202307.0.38-202307.0.4/diff.md --exclude *.pyd
+[2023-08-01 00:23:03] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.8.tar.gz]
+[2023-08-01 00:23:03] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.9.tar.gz]
+[2023-08-01 00:23:03] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-08-01 00:23:03] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-08-01 00:23:03] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-08-01 00:23:03] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-08-01 00:23:03] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0b4.tar.gz]
+[2023-08-01 00:23:03] INFO root fetch - processPackages [dbt-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt-bigquery-1.6.0rc1.tar.gz]
+[2023-08-01 00:23:03] INFO root fetch - main [MainThread]: End processing [dbt-bigquery]: success
+[2023-08-01 00:23:04] INFO root fetch - processPackages [pip2spack]: Remove: archive file [/home/abi/fetcher/tmp/pip2spack-1.4.1.tar.gz]
+[2023-08-01 00:23:04] INFO root fetch - processPackages [pip2spack]: Remove: archive file [/home/abi/fetcher/tmp/pip2spack-2.0.0a0.tar.gz]
+[2023-08-01 00:23:04] INFO root fetch - main [MainThread]: End processing [pip2spack]: success
+[2023-08-01 00:23:04] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-01 00:23:04] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-01 00:23:04] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-01 00:23:04] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.38.tar.gz]
+[2023-08-01 00:23:04] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
+[2023-08-01 00:23:04] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-08-01 00:23:04] INFO root fetch - main [MainThread]: Store serial: [19113905]
