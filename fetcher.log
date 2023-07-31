@@ -2173,3 +2173,54 @@
 [2023-08-01 01:28:47] INFO root fetch - processPackages [pqam-dparamhu2021]: Remove: archive file [/home/abi/fetcher/tmp/pqam_dparamhu2021-0.1.6.tar.gz]
 [2023-08-01 01:28:47] INFO root fetch - main [MainThread]: End processing [pqam-dparamhu2021]: success
 [2023-08-01 01:28:47] INFO root fetch - main [MainThread]: Store serial: [19114642]
+[2023-08-01 01:33:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114642]
+[2023-08-01 01:33:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-01 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threemystic-cloud-data-client
+[2023-08-01 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kioss
+[2023-08-01 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seppmail-converter
+[2023-08-01 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdhelper
+[2023-08-01 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlmesh
+[2023-08-01 01:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Janex
+[2023-08-01 01:33:55] INFO root fetch - processPackages [seppmail-converter]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-08-01 01:33:55] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-01 01:33:55] WARNING root fetch - processPackages [mdhelper]: Skipping, unable to determine old version
+[2023-08-01 01:33:55] INFO root fetch - main [MainThread]: End processing [mdhelper] error
+[2023-08-01 01:33:55] INFO root fetch - processPackages [kioss]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 01:33:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.62] Old Version: [0.1.61]
+[2023-08-01 01:33:56] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/79/15/5de0a34af87e76b0fc644208814bacf73d267819be1191528025931d072e/kioss-0.2.0.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/c5/9b/64c55efac739e3e4d47c0b4cebc68d4f90befd07eea8abd4a7f56a03709e/threemystic_cloud_data_client-0.1.61.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 01:33:56] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [seppmail-converter]: Downloading https://files.pythonhosted.org/packages/91/fb/cb05aa3809df2161b0c72b3f350ceef55dfd8ca9b328752a2b184aa3343d/seppmail_converter-1.0.3.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/81/64/8deea33ef9ae495b6744477311ca1c2528fe307c92262c7d7ae2dc35f774/threemystic_cloud_data_client-0.1.62.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/bf/33/d3735757d08a26797018d7e7e02b639f3104c2050dd754389f8e1c2f7e91/kioss-0.2.1.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-01 01:33:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.61.tar.gz tmp/threemystic_cloud_data_client-0.1.62.tar.gz --markdown 20230801/t/threemystic-cloud-data-client/0.1.61-0.1.62/diff.md --exclude *.pyd
+[2023-08-01 01:33:56] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [seppmail-converter]: Downloading https://files.pythonhosted.org/packages/fa/21/37a103796e09cd045e3d7bab882db41de1fd321ba8d1360dbb3a35c8782d/seppmail_converter-1.1.0.tar.gz
+[2023-08-01 01:33:56] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-08-01 01:33:56] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.2.0.tar.gz tmp/kioss-0.2.1.tar.gz --markdown 20230801/k/kioss/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 01:33:56] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 01:33:56] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:33:56] INFO root fetch - processPackages [seppmail-converter]: executing diffoscope
+[2023-08-01 01:33:56] INFO root fetch - processPackages [seppmail-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seppmail_converter-1.0.3.tar.gz tmp/seppmail_converter-1.1.0.tar.gz --markdown 20230801/s/seppmail-converter/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-08-01 01:33:57] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-08-01 01:33:57] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230801/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 01:33:57] INFO root fetch - processPackages [seppmail-converter]: Remove: archive file [/home/abi/fetcher/tmp/seppmail_converter-1.0.3.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - processPackages [seppmail-converter]: Remove: archive file [/home/abi/fetcher/tmp/seppmail_converter-1.1.0.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - main [MainThread]: End processing [seppmail-converter]: success
+[2023-08-01 01:33:57] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 01:33:57] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.0.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.1.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-08-01 01:33:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.61.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.62.tar.gz]
+[2023-08-01 01:33:57] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-01 01:34:27] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-08-01 01:34:27] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-08-01 01:34:27] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-08-01 01:34:27] INFO root fetch - main [MainThread]: Store serial: [19114661]
