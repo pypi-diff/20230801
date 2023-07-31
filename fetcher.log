@@ -2095,3 +2095,81 @@
 [2023-08-01 01:23:34] INFO root fetch - processPackages [datarobot-drum]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_drum-1.9.9.dev2-py3-none-any.whl.zip]
 [2023-08-01 01:23:34] INFO root fetch - main [MainThread]: End processing [datarobot-drum]: success
 [2023-08-01 01:23:34] INFO root fetch - main [MainThread]: Store serial: [19114588]
+[2023-08-01 01:28:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114588]
+[2023-08-01 01:28:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fsps
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BIDSit
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ugrc-palletjack
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kioss
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplebase
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnxlink
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edgepi-rpc-protobufs
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LIV-robotics
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pqam-dparamhu2021
+[2023-08-01 01:28:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Processador-NFE
+[2023-08-01 01:28:43] WARNING root fetch - processPackages [edgepi-rpc-protobufs]: Skipping, unable to determine old version
+[2023-08-01 01:28:43] INFO root fetch - processPackages [edgepi-rpc-protobufs]: Start processing: cardsharp
+[2023-08-01 01:28:43] INFO root fetch - main [MainThread]: End processing [edgepi-rpc-protobufs] error
+[2023-08-01 01:28:43] INFO root fetch - processPackages [LIV-robotics]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 01:28:43] WARNING root fetch - processPackages [Processador-NFE]: Skipping, unable to determine old version
+[2023-08-01 01:28:43] INFO root fetch - main [MainThread]: End processing [Processador-NFE] error
+[2023-08-01 01:28:43] INFO root fetch - processPackages [kioss]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-01 01:28:43] INFO root fetch - processPackages [BIDSit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 01:28:43] INFO root fetch - processPackages [pqam-dparamhu2021]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-01 01:28:43] WARNING root fetch - processPackages [simplebase]: Skipping, unable to determine old version
+[2023-08-01 01:28:43] INFO root fetch - main [MainThread]: End processing [simplebase] error
+[2023-08-01 01:28:44] INFO root fetch - processPackages [lnxlink]: New version: [2023.8.0] Old Version: [2023.7.1]
+[2023-08-01 01:28:44] INFO root fetch - processPackages [ugrc-palletjack]: New version: [3.1.0] Old Version: [3.0.0b6]
+[2023-08-01 01:28:44] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/f7/31/bb9b4cc3226fc426cae5605734d660710898871c4c06b7d83a6829ef6cf7/BIDSit-0.0.8.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [fsps]: New version: [0.4.4rc1] Old Version: [0.4.3rc1]
+[2023-08-01 01:28:44] WARNING root fetch - processPackages [cardsharp]: Skipping, unable to determine old version
+[2023-08-01 01:28:44] INFO root fetch - main [MainThread]: End processing [cardsharp] error
+[2023-08-01 01:28:44] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/c7/d7/b57b6eebc40ec24029b3ee1fa0c6c05ccf5eb41579472a30e54337dcb8a1/kioss-0.1.2.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [LIV-robotics]: Downloading https://files.pythonhosted.org/packages/9f/27/1215d989907c3933164fc527480cc7b431b36e0a906a48beea7bc62d0c26/LIV-robotics-0.0.2.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [pqam-dparamhu2021]: Downloading https://files.pythonhosted.org/packages/db/83/04fa85f425aafd8cad6a05a6cb604184c02a69be8ca4d4698d4a3a8a1be8/pqam_dparamhu2021-0.1.5.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [ugrc-palletjack]: Downloading https://files.pythonhosted.org/packages/d3/37/96c2045e6c1de4fc0eb7d2941856eecaee7e8e2d7d9097e8684ca5d8e203/ugrc-palletjack-3.0.0b6.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/a6/25/35e6f8cee28fce54dc2e26fbeafd3bd44d3249b886efac1656fa993c358f/BIDSit-0.0.9.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/79/15/5de0a34af87e76b0fc644208814bacf73d267819be1191528025931d072e/kioss-0.2.0.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [LIV-robotics]: Downloading https://files.pythonhosted.org/packages/a8/b7/5614fb126d7bc540fba6599249a83c6bfe9a6dc6d8b050bc927022e3e225/LIV-robotics-0.0.3.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [fsps]: Downloading https://files.pythonhosted.org/packages/a9/ff/c19b344835a2bf64cec296c677a9af7eafb9a087b63a9fa1582be981f367/fsps-0.4.3rc1.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/84/72/5a8f774eee2b721908d5ce6dd39391fef103399819107a53f5f8e232b526/lnxlink-2023.7.1.tar.gz
+[2023-08-01 01:28:44] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 01:28:44] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.8.tar.gz tmp/BIDSit-0.0.9.tar.gz --markdown 20230801/B/BIDSit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:28:44] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-08-01 01:28:44] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.1.2.tar.gz tmp/kioss-0.2.0.tar.gz --markdown 20230801/k/kioss/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 01:28:44] INFO root fetch - processPackages [LIV-robotics]: executing diffoscope
+[2023-08-01 01:28:44] INFO root fetch - processPackages [LIV-robotics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LIV-robotics-0.0.2.tar.gz tmp/LIV-robotics-0.0.3.tar.gz --markdown 20230801/L/LIV-robotics/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 01:28:44] INFO root fetch - processPackages [fsps]: Downloading https://files.pythonhosted.org/packages/a6/52/e90f2726a43c57ad37f6c07b1e42d622dba726497ff6300b90f5634753b4/fsps-0.4.4rc1.tar.gz
+[2023-08-01 01:28:45] INFO root fetch - processPackages [ugrc-palletjack]: Downloading https://files.pythonhosted.org/packages/17/27/7c1b482ae25d51b414a91b5fce0e5cfb1b961fe75757e3bcf396b0eaf9a7/ugrc-palletjack-3.1.0.tar.gz
+[2023-08-01 01:28:45] INFO root fetch - processPackages [fsps]: executing diffoscope
+[2023-08-01 01:28:45] INFO root fetch - processPackages [fsps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsps-0.4.3rc1.tar.gz tmp/fsps-0.4.4rc1.tar.gz --markdown 20230801/f/fsps/0.4.3rc1-0.4.4rc1/diff.md --exclude *.pyd
+[2023-08-01 01:28:45] INFO root fetch - processPackages [lnxlink]: Downloading https://files.pythonhosted.org/packages/70/8c/96d74b4097af9daf90c6957e0dc62e1428e28af0769ebd0b1a246d8c31d6/lnxlink-2023.8.0.tar.gz
+[2023-08-01 01:28:45] INFO root fetch - processPackages [ugrc-palletjack]: executing diffoscope
+[2023-08-01 01:28:45] INFO root fetch - processPackages [ugrc-palletjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ugrc-palletjack-3.0.0b6.tar.gz tmp/ugrc-palletjack-3.1.0.tar.gz --markdown 20230801/u/ugrc-palletjack/3.0.0b6-3.1.0/diff.md --exclude *.pyd
+[2023-08-01 01:28:45] INFO root fetch - processPackages [pqam-dparamhu2021]: Downloading https://files.pythonhosted.org/packages/1f/e6/adeec7a746593b7273553f2f56c99825211c115a46b83281c291c30ce986/pqam_dparamhu2021-0.1.6.tar.gz
+[2023-08-01 01:28:45] INFO root fetch - processPackages [lnxlink]: executing diffoscope
+[2023-08-01 01:28:45] INFO root fetch - processPackages [lnxlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnxlink-2023.7.1.tar.gz tmp/lnxlink-2023.8.0.tar.gz --markdown 20230801/l/lnxlink/2023.7.1-2023.8.0/diff.md --exclude *.pyd
+[2023-08-01 01:28:45] INFO root fetch - processPackages [pqam-dparamhu2021]: executing diffoscope
+[2023-08-01 01:28:45] INFO root fetch - processPackages [pqam-dparamhu2021]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqam_dparamhu2021-0.1.5.tar.gz tmp/pqam_dparamhu2021-0.1.6.tar.gz --markdown 20230801/p/pqam-dparamhu2021/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-01 01:28:45] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.8.tar.gz]
+[2023-08-01 01:28:45] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.9.tar.gz]
+[2023-08-01 01:28:45] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 01:28:45] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.1.2.tar.gz]
+[2023-08-01 01:28:45] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.0.tar.gz]
+[2023-08-01 01:28:45] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-08-01 01:28:45] INFO root fetch - processPackages [LIV-robotics]: Remove: archive file [/home/abi/fetcher/tmp/LIV-robotics-0.0.2.tar.gz]
+[2023-08-01 01:28:45] INFO root fetch - processPackages [LIV-robotics]: Remove: archive file [/home/abi/fetcher/tmp/LIV-robotics-0.0.3.tar.gz]
+[2023-08-01 01:28:45] INFO root fetch - main [MainThread]: End processing [LIV-robotics]: success
+[2023-08-01 01:28:46] INFO root fetch - processPackages [ugrc-palletjack]: Remove: archive file [/home/abi/fetcher/tmp/ugrc-palletjack-3.0.0b6.tar.gz]
+[2023-08-01 01:28:46] INFO root fetch - processPackages [ugrc-palletjack]: Remove: archive file [/home/abi/fetcher/tmp/ugrc-palletjack-3.1.0.tar.gz]
+[2023-08-01 01:28:46] INFO root fetch - main [MainThread]: End processing [ugrc-palletjack]: success
+[2023-08-01 01:28:46] INFO root fetch - processPackages [fsps]: Remove: archive file [/home/abi/fetcher/tmp/fsps-0.4.3rc1.tar.gz]
+[2023-08-01 01:28:46] INFO root fetch - processPackages [fsps]: Remove: archive file [/home/abi/fetcher/tmp/fsps-0.4.4rc1.tar.gz]
+[2023-08-01 01:28:46] INFO root fetch - main [MainThread]: End processing [fsps]: success
+[2023-08-01 01:28:46] INFO root fetch - processPackages [lnxlink]: Remove: archive file [/home/abi/fetcher/tmp/lnxlink-2023.7.1.tar.gz]
+[2023-08-01 01:28:46] INFO root fetch - processPackages [lnxlink]: Remove: archive file [/home/abi/fetcher/tmp/lnxlink-2023.8.0.tar.gz]
+[2023-08-01 01:28:46] INFO root fetch - main [MainThread]: End processing [lnxlink]: success
+[2023-08-01 01:28:47] INFO root fetch - processPackages [pqam-dparamhu2021]: Remove: archive file [/home/abi/fetcher/tmp/pqam_dparamhu2021-0.1.5.tar.gz]
+[2023-08-01 01:28:47] INFO root fetch - processPackages [pqam-dparamhu2021]: Remove: archive file [/home/abi/fetcher/tmp/pqam_dparamhu2021-0.1.6.tar.gz]
+[2023-08-01 01:28:47] INFO root fetch - main [MainThread]: End processing [pqam-dparamhu2021]: success
+[2023-08-01 01:28:47] INFO root fetch - main [MainThread]: Store serial: [19114642]
