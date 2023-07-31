@@ -218,3 +218,68 @@
 [2023-08-01 00:07:22] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-08-01 00:07:22] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-08-01 00:07:22] INFO root fetch - main [MainThread]: Store serial: [19113807]
+[2023-08-01 00:12:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19113807]
+[2023-08-01 00:12:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrunch
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trycortex
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-datadict
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytomography
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evenity
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anghamak
+[2023-08-01 00:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jedi-language-server
+[2023-08-01 00:12:32] INFO root fetch - processPackages [trycortex]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 00:12:32] INFO root fetch - processPackages [dbt-datadict]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 00:12:32] INFO root fetch - processPackages [jedi-language-server]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-01 00:12:32] INFO root fetch - processPackages [evenity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 00:12:32] WARNING root fetch - processPackages [anghamak]: Skipping, unable to determine old version
+[2023-08-01 00:12:32] INFO root fetch - processPackages [pytomography]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 00:12:32] INFO root fetch - main [MainThread]: End processing [anghamak] error
+[2023-08-01 00:12:32] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 00:12:32] INFO root fetch - processPackages [scrunch]: New version: [6.5.2023.post1690841237] Old Version: [6.5.2022.post1690835679]
+[2023-08-01 00:12:32] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/b9/1e/abeaf73a139fb46ce3121d0cfa51a8bbe04a90cdf87bfed98aaa80183a54/trycortex-1.0.8.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/69/c5/37d13269a03c36358c2eab7dd948cb56f0d105697e557edeb82c0efd07e8/evenity-0.0.8.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/9a/d1/807d51fb3b5c43c6fef522c7940950b483c6cee5cd32520c5db28aa00cc6/scrunch-6.5.2022.post1690835679.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [pytomography]: Downloading https://files.pythonhosted.org/packages/82/df/c7d9b4cec6eabe114522cfeef5379d81068bd1cc4351053224aa1576616b/pytomography-0.9.0.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [jedi-language-server]: Downloading https://files.pythonhosted.org/packages/51/75/72dee0bfa3c1551e1642b6a7108da64e1f521da6dd79d15eb6b35b832e3a/jedi-language-server-0.8.0.tar.gz
+[2023-08-01 00:12:32] WARNING root fetch - processPackages [pytomography]: Skipping package: exceeds size limit 25015365>=10485760
+[2023-08-01 00:12:32] INFO root fetch - main [MainThread]: End processing [pytomography] error
+[2023-08-01 00:12:32] INFO root fetch - processPackages [trycortex]: Downloading https://files.pythonhosted.org/packages/63/8f/b109654725198f55aedea61175748721c427c69efb6403331a3ab2e53ac7/trycortex-1.0.9.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [dbt-datadict]: Downloading https://files.pythonhosted.org/packages/48/8a/fbcc011a69f0cf697482258b1392f661f18e52b964d0af8405dda6a0ef76/dbt-datadict-0.0.1.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [evenity]: Downloading https://files.pythonhosted.org/packages/f1/77/24eec55007f594e825a45919c8790f9eca4f112f2c69cdff581342728312/evenity-0.0.9.tar.gz
+[2023-08-01 00:12:32] INFO root fetch - processPackages [trycortex]: executing diffoscope
+[2023-08-01 00:12:32] INFO root fetch - processPackages [trycortex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-1.0.8.tar.gz tmp/trycortex-1.0.9.tar.gz --markdown 20230801/t/trycortex/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:12:32] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-01 00:12:32] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230801/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 00:12:32] INFO root fetch - processPackages [evenity]: executing diffoscope
+[2023-08-01 00:12:32] INFO root fetch - processPackages [evenity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evenity-0.0.8.tar.gz tmp/evenity-0.0.9.tar.gz --markdown 20230801/e/evenity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:12:33] INFO root fetch - processPackages [dbt-datadict]: Downloading https://files.pythonhosted.org/packages/07/a0/3f53a750f9c582d5cde589238d0b6e0ad63aadb0a6b8a21318a3fc9eb9a8/dbt-datadict-0.0.2.tar.gz
+[2023-08-01 00:12:33] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/f1/46/a0c1b49790e18853a51573a5c88f3c6153c3c8a3e9fb0b58f5b23b772b3a/scrunch-6.5.2023.post1690841237.tar.gz
+[2023-08-01 00:12:33] INFO root fetch - processPackages [dbt-datadict]: executing diffoscope
+[2023-08-01 00:12:33] INFO root fetch - processPackages [dbt-datadict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-datadict-0.0.1.tar.gz tmp/dbt-datadict-0.0.2.tar.gz --markdown 20230801/d/dbt-datadict/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 00:12:33] INFO root fetch - processPackages [jedi-language-server]: Downloading https://files.pythonhosted.org/packages/d0/c3/d7732af5148e15b9f96dc6fab204de20dbd34f28b9fe97f9209654dcafba/jedi-language-server-0.9.0.tar.gz
+[2023-08-01 00:12:33] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-01 00:12:33] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2022.post1690835679.tar.gz tmp/scrunch-6.5.2023.post1690841237.tar.gz --markdown 20230801/s/scrunch/6.5.2022.post1690835679-6.5.2023.post1690841237/diff.md --exclude *.pyd
+[2023-08-01 00:12:33] INFO root fetch - processPackages [jedi-language-server]: executing diffoscope
+[2023-08-01 00:12:33] INFO root fetch - processPackages [jedi-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jedi-language-server-0.8.0.tar.gz tmp/jedi-language-server-0.9.0.tar.gz --markdown 20230801/j/jedi-language-server/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 00:12:33] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.8.tar.gz]
+[2023-08-01 00:12:33] INFO root fetch - processPackages [trycortex]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-1.0.9.tar.gz]
+[2023-08-01 00:12:33] INFO root fetch - main [MainThread]: End processing [trycortex]: success
+[2023-08-01 00:12:33] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-01 00:12:33] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-01 00:12:33] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-01 00:12:33] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.8.tar.gz]
+[2023-08-01 00:12:33] INFO root fetch - processPackages [evenity]: Remove: archive file [/home/abi/fetcher/tmp/evenity-0.0.9.tar.gz]
+[2023-08-01 00:12:33] INFO root fetch - main [MainThread]: End processing [evenity]: success
+[2023-08-01 00:12:34] INFO root fetch - processPackages [dbt-datadict]: Remove: archive file [/home/abi/fetcher/tmp/dbt-datadict-0.0.1.tar.gz]
+[2023-08-01 00:12:34] INFO root fetch - processPackages [dbt-datadict]: Remove: archive file [/home/abi/fetcher/tmp/dbt-datadict-0.0.2.tar.gz]
+[2023-08-01 00:12:34] INFO root fetch - main [MainThread]: End processing [dbt-datadict]: success
+[2023-08-01 00:12:34] INFO root fetch - processPackages [jedi-language-server]: Remove: archive file [/home/abi/fetcher/tmp/jedi-language-server-0.8.0.tar.gz]
+[2023-08-01 00:12:34] INFO root fetch - processPackages [jedi-language-server]: Remove: archive file [/home/abi/fetcher/tmp/jedi-language-server-0.9.0.tar.gz]
+[2023-08-01 00:12:34] INFO root fetch - main [MainThread]: End processing [jedi-language-server]: success
+[2023-08-01 00:12:34] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2022.post1690835679.tar.gz]
+[2023-08-01 00:12:34] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2023.post1690841237.tar.gz]
+[2023-08-01 00:12:34] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-01 00:12:34] INFO root fetch - main [MainThread]: Store serial: [19113834]
