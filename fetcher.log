@@ -1147,3 +1147,130 @@
 [2023-08-01 00:55:28] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-08-01 00:55:28] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-08-01 00:55:28] INFO root fetch - main [MainThread]: Store serial: [19114232]
+[2023-08-01 01:00:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114232]
+[2023-08-01 01:00:38] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-connector-python
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BIDSit
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytmc
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ewms-pilot
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleap-io
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Janex
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osuExchange
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dagster
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dagit
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BIDSit
+[2023-08-01 01:00:38] INFO root fetch - processPackages [ewms-pilot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [BIDSit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [sleap-io]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [pytmc]: New version: [2.9.1] Old Version: [2.7.5]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [osuExchange]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [BIDSit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [snowflake-connector-python]: New version: [3.1.0a1] Old Version: [3.1.0]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/6e/4f/0229b9a73a2279ec7ff8673834581c485b0ea6ccf94e4284a07a22492145/BIDSit-0.0.7.tar.gz
+[2023-08-01 01:00:38] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 01:00:38] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/6e/4f/0229b9a73a2279ec7ff8673834581c485b0ea6ccf94e4284a07a22492145/BIDSit-0.0.7.tar.gz
+[2023-08-01 01:00:38] INFO root fetch - processPackages [dagit]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [dagster]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-01 01:00:38] INFO root fetch - processPackages [snowflake-connector-python]: Downloading https://files.pythonhosted.org/packages/b9/5b/abf42e3eaf326b049f7d9b878cbce081185a164d41d377214b8a93095497/snowflake-connector-python-3.1.0.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/43/95/b05a87092ecdc0e1832fc3275ab296f596412029cb985059d2a2878c1fcd/ewms-pilot-0.9.0.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [pytmc]: Downloading https://files.pythonhosted.org/packages/ad/72/dcfa09edd3ba9c19a28c9b3eec6c3344ef8bc0c9913718b7c52fa7ade530/pytmc-2.7.5.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/1b/53/b7f9a46c9e8abcaffcff0ae2046a4fc60583f9bfe4b7b6dba4a2d6b40a79/sleap_io-0.0.8-py3-none-any.whl
+[2023-08-01 01:00:39] INFO root fetch - processPackages [dagit]: Downloading https://files.pythonhosted.org/packages/29/99/4acac1d92b79cd411adcb6e3993518606c74041266988148f5e5e1e35765/dagit-1.4.2.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [osuExchange]: Downloading https://files.pythonhosted.org/packages/f6/70/a3162a699e6ebfbf794b4c53d0ec79c8dbe2a34f39aa51e0d482fb427959/osuExchange-0.0.1.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/01/a7/b5e27a06f99f8ef631a8b91ea7e47edc52eea6e1e9d712dcf908b92294a1/dagster-1.4.2.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 01:00:39] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:00:39] INFO root fetch - processPackages [snowflake-connector-python]: Downloading https://files.pythonhosted.org/packages/27/41/4b5616bb585c30616ad2572905b320bf953f1fdfe87d8c3d42e39d6108dd/snowflake-connector-python-3.1.0a1.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/f7/31/bb9b4cc3226fc426cae5605734d660710898871c4c06b7d83a6829ef6cf7/BIDSit-0.0.8.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [BIDSit]: Downloading https://files.pythonhosted.org/packages/f7/31/bb9b4cc3226fc426cae5605734d660710898871c4c06b7d83a6829ef6cf7/BIDSit-0.0.8.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [dagit]: Downloading https://files.pythonhosted.org/packages/7e/f3/2ff582b945b2589c7076369c4080bb036b3f5c23d058a4505db552b948ea/dagit-1.4.3.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 01:00:39] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.7.tar.gz tmp/BIDSit-0.0.8.tar.gz --markdown 20230801/B/BIDSit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 01:00:39] INFO root fetch - processPackages [snowflake-connector-python]: executing diffoscope
+[2023-08-01 01:00:39] INFO root fetch - processPackages [snowflake-connector-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-3.1.0.tar.gz tmp/snowflake-connector-python-3.1.0a1.tar.gz --markdown 20230801/s/snowflake-connector-python/3.1.0-3.1.0a1/diff.md --exclude *.pyd
+[2023-08-01 01:00:39] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/52/d5/8c0045002f538dab5280e46cf863cd622afab20f3ab9bca978575018fa38/sleap_io-0.0.9-py3-none-any.whl
+[2023-08-01 01:00:39] INFO root fetch - processPackages [BIDSit]: executing diffoscope
+[2023-08-01 01:00:39] INFO root fetch - processPackages [BIDSit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BIDSit-0.0.7.tar.gz tmp/BIDSit-0.0.8.tar.gz --markdown 20230801/B/BIDSit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 01:00:39] INFO root fetch - processPackages [osuExchange]: Downloading https://files.pythonhosted.org/packages/27/35/73339c280890784d858140ec841df6d81d2cd0e87a881d4528f4ff69a521/osuExchange-0.0.2.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [dagit]: executing diffoscope
+[2023-08-01 01:00:39] INFO root fetch - processPackages [dagit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagit-1.4.2.tar.gz tmp/dagit-1.4.3.tar.gz --markdown 20230801/d/dagit/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-01 01:00:39] INFO root fetch - processPackages [sleap-io]: executing diffoscope
+[2023-08-01 01:00:39] INFO root fetch - processPackages [sleap-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleap_io-0.0.8-py3-none-any.whl.zip tmp/sleap_io-0.0.9-py3-none-any.whl.zip --markdown 20230801/s/sleap-io/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:00:39] INFO root fetch - processPackages [dagster]: Downloading https://files.pythonhosted.org/packages/81/cc/cb552f35edd47de6a417447d02b364743f67767d184985992268b96efdaf/dagster-1.4.3.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [osuExchange]: executing diffoscope
+[2023-08-01 01:00:39] INFO root fetch - processPackages [osuExchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osuExchange-0.0.1.tar.gz tmp/osuExchange-0.0.2.tar.gz --markdown 20230801/o/osuExchange/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 01:00:39] INFO root fetch - processPackages [pytmc]: Downloading https://files.pythonhosted.org/packages/cf/88/56f62228a87d2a53a9d4e0464645ef307d2fb949ae91c7ba5f6066a3bf6b/pytmc-2.9.1.tar.gz
+[2023-08-01 01:00:39] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/31/5e/f3199ae6f49710308113c59388ea3659104f15bb19828479d90db8d40a7b/ewms-pilot-0.9.1.tar.gz
+[2023-08-01 01:00:40] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 01:00:40] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 01:00:40] INFO root fetch - processPackages [Janex]: Start processing: dagster-graphql
+[2023-08-01 01:00:40] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 01:00:40] INFO root fetch - processPackages [dagster]: executing diffoscope
+[2023-08-01 01:00:40] INFO root fetch - processPackages [dagster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-1.4.2.tar.gz tmp/dagster-1.4.3.tar.gz --markdown 20230801/d/dagster/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-01 01:00:40] INFO root fetch - processPackages [pytmc]: executing diffoscope
+[2023-08-01 01:00:40] INFO root fetch - processPackages [pytmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmc-2.7.5.tar.gz tmp/pytmc-2.9.1.tar.gz --markdown 20230801/p/pytmc/2.7.5-2.9.1/diff.md --exclude *.pyd
+[2023-08-01 01:00:40] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-08-01 01:00:40] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.9.0.tar.gz tmp/ewms-pilot-0.9.1.tar.gz --markdown 20230801/e/ewms-pilot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 01:00:40] INFO root fetch - processPackages [dagster-graphql]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-01 01:00:40] INFO root fetch - processPackages [dagster-graphql]: Downloading https://files.pythonhosted.org/packages/1b/f1/1c20f6ac3d3f8cea8c2ad1466a375edd3ef27c42a485848335e5edd21670/dagster-graphql-1.4.2.tar.gz
+[2023-08-01 01:00:41] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.7.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [BIDSit]: Remove: archive file [/home/abi/fetcher/tmp/BIDSit-0.0.8.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [BIDSit]: Start processing: temper-syntax
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 01:00:41] INFO root fetch - processPackages [dagit]: Remove: archive file [/home/abi/fetcher/tmp/dagit-1.4.2.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [dagit]: Remove: archive file [/home/abi/fetcher/tmp/dagit-1.4.3.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [dagit]: Start processing: cjm-yolox-pytorch
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [dagit]: success
+[2023-08-01 01:00:41] INFO root fetch - processPackages [BIDSit]: Start processing: duckops
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [BIDSit]: success
+[2023-08-01 01:00:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 01:00:41] WARNING root fetch - processPackages [temper-syntax]: Skipping, unable to determine old version
+[2023-08-01 01:00:41] INFO root fetch - processPackages [temper-syntax]: Start processing: LIV-robotics
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [temper-syntax] error
+[2023-08-01 01:00:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-01 01:00:41] WARNING root fetch - processPackages [duckops]: Skipping, unable to determine old version
+[2023-08-01 01:00:41] INFO root fetch - processPackages [duckops]: Start processing: opet
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [duckops] error
+[2023-08-01 01:00:41] INFO root fetch - processPackages [osuExchange]: Remove: archive file [/home/abi/fetcher/tmp/osuExchange-0.0.1.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [osuExchange]: Remove: archive file [/home/abi/fetcher/tmp/osuExchange-0.0.2.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [osuExchange]: success
+[2023-08-01 01:00:41] WARNING root fetch - processPackages [LIV-robotics]: Skipping, unable to determine old version
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [LIV-robotics] error
+[2023-08-01 01:00:41] INFO root fetch - processPackages [dagster-graphql]: Downloading https://files.pythonhosted.org/packages/bd/d1/13314d79f4e6f044f2aef6d9a0801692a77027c4bbd05d2ec0689796731f/dagster-graphql-1.4.3.tar.gz
+[2023-08-01 01:00:41] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.8-py3-none-any.whl.zip]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.9-py3-none-any.whl.zip]
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [sleap-io]: success
+[2023-08-01 01:00:41] INFO root fetch - processPackages [dagster-graphql]: executing diffoscope
+[2023-08-01 01:00:41] INFO root fetch - processPackages [dagster-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-graphql-1.4.2.tar.gz tmp/dagster-graphql-1.4.3.tar.gz --markdown 20230801/d/dagster-graphql/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-01 01:00:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-01 01:00:41] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.0.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [ewms-pilot]: Remove: archive file [/home/abi/fetcher/tmp/ewms-pilot-0.9.1.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-08-01 01:00:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-01 01:00:41] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230801/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 01:00:41] INFO root fetch - processPackages [opet]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [pytmc]: Remove: archive file [/home/abi/fetcher/tmp/pytmc-2.7.5.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - processPackages [pytmc]: Remove: archive file [/home/abi/fetcher/tmp/pytmc-2.9.1.tar.gz]
+[2023-08-01 01:00:41] INFO root fetch - main [MainThread]: End processing [pytmc]: success
+[2023-08-01 01:00:41] INFO root fetch - processPackages [opet]: Downloading https://files.pythonhosted.org/packages/2e/8a/874126a1aa962552f1af8ed4797623f4746e265b010689b79133f70c9944/opet-0.0.8.tar.gz
+[2023-08-01 01:00:42] INFO root fetch - processPackages [snowflake-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-3.1.0.tar.gz]
+[2023-08-01 01:00:42] INFO root fetch - processPackages [snowflake-connector-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-3.1.0a1.tar.gz]
+[2023-08-01 01:00:42] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python]: success
+[2023-08-01 01:00:42] INFO root fetch - processPackages [opet]: Downloading https://files.pythonhosted.org/packages/5f/96/443df449955c3a94577fead7eedc7f2c079c9f63b6dd2f257e7f53f9592d/opet-0.0.9.tar.gz
+[2023-08-01 01:00:42] INFO root fetch - processPackages [opet]: executing diffoscope
+[2023-08-01 01:00:42] INFO root fetch - processPackages [opet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opet-0.0.8.tar.gz tmp/opet-0.0.9.tar.gz --markdown 20230801/o/opet/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:00:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-01 01:00:42] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-01 01:00:42] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-01 01:00:42] INFO root fetch - processPackages [dagster-graphql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-graphql-1.4.2.tar.gz]
+[2023-08-01 01:00:42] INFO root fetch - processPackages [dagster-graphql]: Remove: archive file [/home/abi/fetcher/tmp/dagster-graphql-1.4.3.tar.gz]
+[2023-08-01 01:00:42] INFO root fetch - main [MainThread]: End processing [dagster-graphql]: success
+[2023-08-01 01:00:43] INFO root fetch - processPackages [opet]: Remove: archive file [/home/abi/fetcher/tmp/opet-0.0.8.tar.gz]
+[2023-08-01 01:00:43] INFO root fetch - processPackages [opet]: Remove: archive file [/home/abi/fetcher/tmp/opet-0.0.9.tar.gz]
+[2023-08-01 01:00:43] INFO root fetch - main [MainThread]: End processing [opet]: success
+[2023-08-01 01:00:44] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.4.2.tar.gz]
+[2023-08-01 01:00:44] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.4.3.tar.gz]
+[2023-08-01 01:00:44] INFO root fetch - main [MainThread]: End processing [dagster]: success
+[2023-08-01 01:00:44] INFO root fetch - main [MainThread]: Store serial: [19114302]
