@@ -430,3 +430,85 @@
 [2023-08-01 00:23:04] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.4.tar.gz]
 [2023-08-01 00:23:04] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
 [2023-08-01 00:23:04] INFO root fetch - main [MainThread]: Store serial: [19113905]
+[2023-08-01 00:28:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19113905]
+[2023-08-01 00:28:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjm-yolox-pytorch
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biobear
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bimbam
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optitrader
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circuitpython-stubs
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-ecosystem-services
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: key-switcheroo
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deploymenthub
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poker-tracker
+[2023-08-01 00:28:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: restcountries-cli
+[2023-08-01 00:28:13] INFO root fetch - processPackages [bimbam]: New version: [4.1] Old Version: [4.0]
+[2023-08-01 00:28:13] INFO root fetch - processPackages [deploymenthub]: New version: [2.4] Old Version: [2.3]
+[2023-08-01 00:28:13] WARNING root fetch - processPackages [restcountries-cli]: Skipping, unable to determine old version
+[2023-08-01 00:28:13] INFO root fetch - processPackages [restcountries-cli]: Start processing: bimbam
+[2023-08-01 00:28:13] INFO root fetch - main [MainThread]: End processing [restcountries-cli] error
+[2023-08-01 00:28:13] WARNING root fetch - processPackages [optitrader]: Skipping, unable to determine old version
+[2023-08-01 00:28:13] INFO root fetch - main [MainThread]: End processing [optitrader] error
+[2023-08-01 00:28:13] INFO root fetch - processPackages [key-switcheroo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 00:28:13] INFO root fetch - processPackages [bimbam]: New version: [4.2] Old Version: [4.1]
+[2023-08-01 00:28:13] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202307.0.9] Old Version: [202307.0.8]
+[2023-08-01 00:28:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 00:28:13] INFO root fetch - processPackages [circuitpython-stubs]: New version: [8.2.2] Old Version: [8.2.1]
+[2023-08-01 00:28:13] INFO root fetch - processPackages [biobear]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-08-01 00:28:13] WARNING root fetch - processPackages [poker-tracker]: Skipping, unable to determine old version
+[2023-08-01 00:28:13] INFO root fetch - main [MainThread]: End processing [poker-tracker] error
+[2023-08-01 00:28:13] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/96/79/31278cfe8ad1bb7438b03205342ca038ed6b44061c5c98aed3ca1763aeb9/deploymenthub-2.3.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/c2/bc/1e51fa8009ac3b9bd8b49a4a63b9db3584cf5f4025074c91590c5e33e061/cjm-yolox-pytorch-0.0.98.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/b9/17/0bfd635ba194fa69231eec90a859f9cb01fc8b2dd92857ce336397e95771/key_switcheroo-0.0.8.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [bimbam]: Downloading https://files.pythonhosted.org/packages/83/75/5e79b7170a49ea096511a3f5cf459fbd9dd265d157cb4c6d7a96f8283d18/bimbam-4.1.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [bimbam]: Downloading https://files.pythonhosted.org/packages/0d/87/5c1e7606e58dc555816a1e755cbc9ee1865de23d5d00285d75ad9a79d7b7/bimbam-4.0.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [circuitpython-stubs]: Downloading https://files.pythonhosted.org/packages/ab/b1/c3672a8118654d26fea5b693f1e88269dab81efac2ca360e8d2c44e927cd/circuitpython-stubs-8.2.1.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/e7/af/d8e01a44c8d6ff8404fb660eead08b5501e672e962726f12dcf57cebd237/data_ecosystem_services-202307.0.8.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/4f/60/be07edaecd0db2d2f064ea7d788794105aaec4247c432cb3518fd6a3db28/biobear-0.7.4.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: Downloading https://files.pythonhosted.org/packages/48/c0/c61aa048df93a11ff930d1680535fee96bb684ff0e7e76a755726ebcf9e1/cjm-yolox-pytorch-0.0.99.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [key-switcheroo]: Downloading https://files.pythonhosted.org/packages/88/30/bb3724cbb9ad640b4b9e715ac9bd4484a931a9fe81b423a6b613f0d0e104/key_switcheroo-0.0.9.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [deploymenthub]: Downloading https://files.pythonhosted.org/packages/44/18/6bd566142f49b5cd7287ea0f3f95f9de9be6cbbf9de33ed81a6d074229ab/deploymenthub-2.4.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [bimbam]: executing diffoscope
+[2023-08-01 00:28:13] INFO root fetch - processPackages [bimbam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimbam-4.0.tar.gz tmp/bimbam-4.1.tar.gz --markdown 20230801/b/bimbam/4.0-4.1/diff.md --exclude *.pyd
+[2023-08-01 00:28:13] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/61/c4/c24ae9a5015d98034661de84f580a77c2c8aab9179a4e919a041ebd285ca/data_ecosystem_services-202307.0.9.tar.gz
+[2023-08-01 00:28:13] INFO root fetch - processPackages [key-switcheroo]: executing diffoscope
+[2023-08-01 00:28:13] INFO root fetch - processPackages [key-switcheroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/key_switcheroo-0.0.8.tar.gz tmp/key_switcheroo-0.0.9.tar.gz --markdown 20230801/k/key-switcheroo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:28:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: executing diffoscope
+[2023-08-01 00:28:13] INFO root fetch - processPackages [cjm-yolox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-yolox-pytorch-0.0.98.tar.gz tmp/cjm-yolox-pytorch-0.0.99.tar.gz --markdown 20230801/c/cjm-yolox-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 00:28:13] INFO root fetch - processPackages [deploymenthub]: executing diffoscope
+[2023-08-01 00:28:13] INFO root fetch - processPackages [deploymenthub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymenthub-2.3.tar.gz tmp/deploymenthub-2.4.tar.gz --markdown 20230801/d/deploymenthub/2.3-2.4/diff.md --exclude *.pyd
+[2023-08-01 00:28:13] INFO root fetch - processPackages [bimbam]: Downloading https://files.pythonhosted.org/packages/31/20/fc9fe2993efaee295a2b154e5e9fd3b6cc8147851d17d2f7c90d056e9a59/bimbam-4.2.tar.gz
+[2023-08-01 00:28:14] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-08-01 00:28:14] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202307.0.8.tar.gz tmp/data_ecosystem_services-202307.0.9.tar.gz --markdown 20230801/d/data-ecosystem-services/202307.0.8-202307.0.9/diff.md --exclude *.pyd
+[2023-08-01 00:28:14] INFO root fetch - processPackages [circuitpython-stubs]: Downloading https://files.pythonhosted.org/packages/df/0a/35823028bae24a0f2b86631cc9da003236cec4b36014ca8096f182a58265/circuitpython-stubs-8.2.2.tar.gz
+[2023-08-01 00:28:14] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/83/e2/7794c67b834d102279bba05299c9cd77ff4044acfbd69d0940ba680ee1b6/biobear-0.8.0.tar.gz
+[2023-08-01 00:28:14] INFO root fetch - processPackages [bimbam]: executing diffoscope
+[2023-08-01 00:28:14] INFO root fetch - processPackages [bimbam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimbam-4.1.tar.gz tmp/bimbam-4.2.tar.gz --markdown 20230801/b/bimbam/4.1-4.2/diff.md --exclude *.pyd
+[2023-08-01 00:28:14] INFO root fetch - processPackages [circuitpython-stubs]: executing diffoscope
+[2023-08-01 00:28:14] INFO root fetch - processPackages [circuitpython-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-stubs-8.2.1.tar.gz tmp/circuitpython-stubs-8.2.2.tar.gz --markdown 20230801/c/circuitpython-stubs/8.2.1-8.2.2/diff.md --exclude *.pyd
+[2023-08-01 00:28:14] INFO root fetch - processPackages [biobear]: executing diffoscope
+[2023-08-01 00:28:14] INFO root fetch - processPackages [biobear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biobear-0.7.4.tar.gz tmp/biobear-0.8.0.tar.gz --markdown 20230801/b/biobear/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-08-01 00:28:15] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.8.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - processPackages [key-switcheroo]: Remove: archive file [/home/abi/fetcher/tmp/key_switcheroo-0.0.9.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [key-switcheroo]: success
+[2023-08-01 00:28:15] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-2.3.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - processPackages [deploymenthub]: Remove: archive file [/home/abi/fetcher/tmp/deploymenthub-2.4.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [deploymenthub]: success
+[2023-08-01 00:28:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.98.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - processPackages [cjm-yolox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/cjm-yolox-pytorch-0.0.99.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [cjm-yolox-pytorch]: success
+[2023-08-01 00:28:15] INFO root fetch - processPackages [bimbam]: Remove: archive file [/home/abi/fetcher/tmp/bimbam-4.0.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - processPackages [bimbam]: Remove: archive file [/home/abi/fetcher/tmp/bimbam-4.1.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [bimbam]: success
+[2023-08-01 00:28:15] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.8.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202307.0.9.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-08-01 00:28:15] INFO root fetch - processPackages [bimbam]: Remove: archive file [/home/abi/fetcher/tmp/bimbam-4.2.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [bimbam]: success
+[2023-08-01 00:28:15] INFO root fetch - processPackages [circuitpython-stubs]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-stubs-8.2.1.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - processPackages [circuitpython-stubs]: Remove: archive file [/home/abi/fetcher/tmp/circuitpython-stubs-8.2.2.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [circuitpython-stubs]: success
+[2023-08-01 00:28:15] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.7.4.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - processPackages [biobear]: Remove: archive file [/home/abi/fetcher/tmp/biobear-0.8.0.tar.gz]
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: End processing [biobear]: success
+[2023-08-01 00:28:15] INFO root fetch - main [MainThread]: Store serial: [19113981]
