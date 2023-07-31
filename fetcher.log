@@ -2434,3 +2434,51 @@
 [2023-08-01 01:45:05] INFO root fetch - processPackages [Pytheas22]: Remove: archive file [/home/abi/fetcher/tmp/Pytheas22-0.0.4.tar.gz]
 [2023-08-01 01:45:05] INFO root fetch - main [MainThread]: End processing [Pytheas22]: success
 [2023-08-01 01:45:05] INFO root fetch - main [MainThread]: Store serial: [19114749]
+[2023-08-01 01:50:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114749]
+[2023-08-01 01:50:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-01 01:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skyplane-nightly
+[2023-08-01 01:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-github
+[2023-08-01 01:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Janex
+[2023-08-01 01:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplebase
+[2023-08-01 01:50:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih
+[2023-08-01 01:50:14] INFO root fetch - processPackages [simplebase]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 01:50:14] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-01 01:50:14] INFO root fetch - processPackages [pih]: New version: [1.47206] Old Version: [1.47205]
+[2023-08-01 01:50:14] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-01 01:50:14] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230731] Old Version: [0.3.2.dev20230730]
+[2023-08-01 01:50:14] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/d9/84/aa957a869cf1006c1cbcce48531ec6c7d8a7bed152763a7022ef9c449c21/pih-1.47205.tar.gz
+[2023-08-01 01:50:14] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 01:50:14] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/99/2d/4b43a30edb01079649e1e5b7eb20bf98cae64df8cdbb2a1dc6cc80bed2c4/pih-1.47206.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [simplebase]: Downloading https://files.pythonhosted.org/packages/0e/00/d2f866d9d49a94627193c2234f2435f7f016c3659a351147aa6a0a95ca03/simplebase-0.0.1.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-01 01:50:15] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230801/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 01:50:15] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 01:50:15] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.47205.tar.gz tmp/pih-1.47206.tar.gz --markdown 20230801/p/pih/1.47205-1.47206/diff.md --exclude *.pyd
+[2023-08-01 01:50:15] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/c5/8f/2b07dd41657a8f219cb3c564176917611b9cad311492199cefa9ce0de72c/skyplane_nightly-0.3.2.dev20230730.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [simplebase]: Downloading https://files.pythonhosted.org/packages/b1/b8/9927840e1fe3824f5a21eef5c510f1c3d5fa39a8d37764ef1ddbeae42fb6/simplebase-0.0.2.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/d8/1f/d3bdd21f83da71e4e8bfcb24136c3e72375b7ad8d658dc8ed242a17acc79/skyplane_nightly-0.3.2.dev20230731.tar.gz
+[2023-08-01 01:50:15] INFO root fetch - processPackages [simplebase]: executing diffoscope
+[2023-08-01 01:50:15] INFO root fetch - processPackages [simplebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebase-0.0.1.tar.gz tmp/simplebase-0.0.2.tar.gz --markdown 20230801/s/simplebase/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 01:50:15] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-01 01:50:15] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230801/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 01:50:15] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-01 01:50:15] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-01 01:50:15] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-01 01:50:16] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47205.tar.gz]
+[2023-08-01 01:50:16] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47206.tar.gz]
+[2023-08-01 01:50:16] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 01:50:16] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-08-01 01:50:16] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230730.tar.gz tmp/skyplane_nightly-0.3.2.dev20230731.tar.gz --markdown 20230801/s/skyplane-nightly/0.3.2.dev20230730-0.3.2.dev20230731/diff.md --exclude *.pyd
+[2023-08-01 01:50:16] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-01 01:50:16] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-01 01:50:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-01 01:50:16] INFO root fetch - processPackages [simplebase]: Remove: archive file [/home/abi/fetcher/tmp/simplebase-0.0.1.tar.gz]
+[2023-08-01 01:50:16] INFO root fetch - processPackages [simplebase]: Remove: archive file [/home/abi/fetcher/tmp/simplebase-0.0.2.tar.gz]
+[2023-08-01 01:50:16] INFO root fetch - main [MainThread]: End processing [simplebase]: success
+[2023-08-01 01:50:17] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230730.tar.gz]
+[2023-08-01 01:50:17] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230731.tar.gz]
+[2023-08-01 01:50:17] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-08-01 01:50:17] INFO root fetch - main [MainThread]: Store serial: [19114764]
