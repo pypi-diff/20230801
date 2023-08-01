@@ -14316,3 +14316,65 @@
 [2023-08-01 08:03:32] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
 [2023-08-01 08:03:32] INFO root fetch - main [MainThread]: End processing [tablate]: success
 [2023-08-01 08:03:32] INFO root fetch - main [MainThread]: Store serial: [19119223]
+[2023-08-01 08:08:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119223]
+[2023-08-01 08:08:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudnetpy
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: m-abac
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aespark
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-securityLayer
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scoda-tk
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-redis
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ex4nicegui
+[2023-08-01 08:08:41] INFO root fetch - processPackages [ex4nicegui]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-01 08:08:41] INFO root fetch - processPackages [scoda-tk]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 08:08:41] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-08-01 08:08:41] INFO root fetch - processPackages [m-abac]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-01 08:08:41] INFO root fetch - processPackages [aespark]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 08:08:41] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-01 08:08:41] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-01 08:08:42] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/42/5d/c05cadd5664a81cc04a3604e6310f88aa08289dfc50fbafefa28bf2e24a7/aespark-0.0.4.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/a8/a1/0bb23dfd3108ff7ddbcfd431cf5563e5412a6ee0649c49a70547bb23304b/ex4nicegui-0.2.7.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/3b/29/c5c1e5ff2999442a56ca5784060ec72be4e7409b5e1a5adf6740eaee1472/scoda-tk-0.2.3.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/87/f7/ceed7ce43e6a73338f2728a9909956c83d030656d60dcd9065604e0d3bfd/m-abac-1.0.5.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-08-01 08:08:42] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-08-01 08:08:42] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-08-01 08:08:42] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-08-01 08:08:42] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230801/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-08-01 08:08:42] INFO root fetch - processPackages [m-abac]: Downloading https://files.pythonhosted.org/packages/32/ef/31bec8a2cd4627ce73fcfc2e19db0f4c2384f1a1f64d90c26732987bf802/m-abac-1.0.6.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/56/53/1f02ed0561df8dc713c48017f2e0450729741151fd364e31675a2736dca9/ex4nicegui-0.2.8-py3-none-any.whl
+[2023-08-01 08:08:42] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [m-abac]: executing diffoscope
+[2023-08-01 08:08:42] INFO root fetch - processPackages [m-abac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m-abac-1.0.5.tar.gz tmp/m-abac-1.0.6.tar.gz --markdown 20230801/m/m-abac/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-01 08:08:42] INFO root fetch - processPackages [aespark]: Downloading https://files.pythonhosted.org/packages/d7/2e/e56f5de286ca17fa043da1981f996ed899807203d4ddef90f26269a536c7/aespark-0.0.5.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [scoda-tk]: Downloading https://files.pythonhosted.org/packages/72/8f/cd26c1a13801767f72f73e50135526dd7cabdbf949c47f6ec07ddf3c7e10/scoda-tk-0.2.4.tar.gz
+[2023-08-01 08:08:42] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-08-01 08:08:42] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230801/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-01 08:08:43] INFO root fetch - processPackages [scoda-tk]: executing diffoscope
+[2023-08-01 08:08:43] INFO root fetch - processPackages [scoda-tk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoda-tk-0.2.3.tar.gz tmp/scoda-tk-0.2.4.tar.gz --markdown 20230801/s/scoda-tk/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 08:08:43] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-08-01 08:08:43] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.2.7.tar.gz tmp/ex4nicegui-0.2.8-py3-none-any.whl.zip --markdown 20230801/e/ex4nicegui/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-01 08:08:43] INFO root fetch - processPackages [aespark]: executing diffoscope
+[2023-08-01 08:08:43] INFO root fetch - processPackages [aespark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aespark-0.0.4.tar.gz tmp/aespark-0.0.5.tar.gz --markdown 20230801/a/aespark/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 08:08:43] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-08-01 08:08:43] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-08-01 08:08:43] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-08-01 08:08:43] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-08-01 08:08:43] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-08-01 08:08:43] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-08-01 08:08:43] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.5.tar.gz]
+[2023-08-01 08:08:43] INFO root fetch - processPackages [m-abac]: Remove: archive file [/home/abi/fetcher/tmp/m-abac-1.0.6.tar.gz]
+[2023-08-01 08:08:43] INFO root fetch - main [MainThread]: End processing [m-abac]: success
+[2023-08-01 08:08:44] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.2.7.tar.gz]
+[2023-08-01 08:08:44] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.2.8-py3-none-any.whl.zip]
+[2023-08-01 08:08:44] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-08-01 08:08:45] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.3.tar.gz]
+[2023-08-01 08:08:45] INFO root fetch - processPackages [scoda-tk]: Remove: archive file [/home/abi/fetcher/tmp/scoda-tk-0.2.4.tar.gz]
+[2023-08-01 08:08:45] INFO root fetch - main [MainThread]: End processing [scoda-tk]: success
+[2023-08-01 08:08:47] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.4.tar.gz]
+[2023-08-01 08:08:47] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.5.tar.gz]
+[2023-08-01 08:08:47] INFO root fetch - main [MainThread]: End processing [aespark]: success
+[2023-08-01 08:08:47] INFO root fetch - main [MainThread]: Store serial: [19119242]
