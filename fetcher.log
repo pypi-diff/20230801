@@ -15283,3 +15283,153 @@
 [2023-08-01 09:07:53] INFO root fetch - processPackages [collective.documentgenerator]: Remove: archive file [/home/abi/fetcher/tmp/collective.documentgenerator-3.9.tar.gz]
 [2023-08-01 09:07:53] INFO root fetch - main [MainThread]: End processing [collective.documentgenerator]: success
 [2023-08-01 09:07:53] INFO root fetch - main [MainThread]: Store serial: [19119781]
+[2023-08-01 09:12:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119781]
+[2023-08-01 09:13:01] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyers-sdk
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfem
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marketfeed-multi-broker-sdk
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrunch
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfiscal
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rclip
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: budgetinvoice
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: verbit-streaming-sdk
+[2023-08-01 09:13:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stigg-api-client
+[2023-08-01 09:13:02] WARNING root fetch - processPackages [marketfeed-multi-broker-sdk]: Skipping, unable to determine old version
+[2023-08-01 09:13:02] INFO root fetch - processPackages [marketfeed-multi-broker-sdk]: Start processing: domain-admin
+[2023-08-01 09:13:02] INFO root fetch - main [MainThread]: End processing [marketfeed-multi-broker-sdk] error
+[2023-08-01 09:13:02] INFO root fetch - processPackages [fyers-sdk]: New version: [2.0.6] Old Version: [2.0.4]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [pyfem]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [stigg-api-client]: New version: [0.517.0] Old Version: [0.515.3]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [rclip]: New version: [1.4.5] Old Version: [1.4.4a5]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [budgetinvoice]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [verbit-streaming-sdk]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [scrunch]: New version: [6.5.2024.post1690855431] Old Version: [6.5.2023.post1690841237]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [pyfiscal]: New version: [2.1] Old Version: [2.0]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230801070902] Old Version: [2.2.1.dev20230731233910]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [domain-admin]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-08-01 09:13:02] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/f6/cb/b9824a0fdc0e9aa787014e1c05fd0ddf7615d0a59fbe4309dc02f2e7b1f9/stigg_api_client-0.515.3.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/fd/59/50b164c58b0e06009055af3c8eb43c9eb8f39a551412dede1584334cb70f/rclip-1.4.4a5.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/8c/85/69fdb33a06ca65cdc34051bdb391853ac9d03972482f6f9457692b6fe926/pyfem-0.1.3.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [budgetinvoice]: Downloading https://files.pythonhosted.org/packages/2a/fe/0a780433aaba3c4b896b366791bfddadc82a91a3dec5853d259a74177fb7/budgetinvoice-0.0.1-py3-none-any.whl
+[2023-08-01 09:13:02] INFO root fetch - processPackages [pyfiscal]: Downloading https://files.pythonhosted.org/packages/76/1e/e16225ba5cf8f8df922f0c8914607d0256799ef4e98720d9c0959cd3e185/pyfiscal-2.0.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [verbit-streaming-sdk]: Downloading https://files.pythonhosted.org/packages/7c/77/61d8ff6d3dfac36060c01529aad9cf27043479e28f121a7ae535ecee9306/verbit-streaming-sdk-0.8.1.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/f1/46/a0c1b49790e18853a51573a5c88f3c6153c3c8a3e9fb0b58f5b23b772b3a/scrunch-6.5.2023.post1690841237.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/53/90/abf71972a1e120ee97d8f68956893115f9aab786ddea92966b7936c9f0dd/localstack-core-2.2.1.dev20230731233910.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/46/7b/e59642c890a515c84decdbdc942bb85c0303c75495c7edf7ad62943bdb9b/domain-admin-1.5.8.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/25/06/f3bdf0b2112c8791f803060f48b888973385faff515f8c75afe78633897a/fyers_sdk-2.0.4.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/bf/3c/007dc1eaa6bd4e69511f1f9faf96444c3ceab674f07cfa087c70f33ba628/rclip-1.4.5.tar.gz
+[2023-08-01 09:13:02] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/02/51/afdfd4f27282c9cdd629a72a4649737601bb5476458b92e42625270f7df6/stigg_api_client-0.517.0.tar.gz
+[2023-08-01 09:13:03] INFO root fetch - processPackages [pyfem]: Downloading https://files.pythonhosted.org/packages/cd/56/16dc90dd19ad05d469396b9b4f2f9f0eb2630cc953c971e7a15cd631f2e5/pyfem-0.1.4.tar.gz
+[2023-08-01 09:13:03] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.4a5.tar.gz tmp/rclip-1.4.5.tar.gz --markdown 20230801/r/rclip/1.4.4a5-1.4.5/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/6b/84/0952d93be5bfd4d977c53dddfda7530404c0ef276f7f0fda250bfbdccb2b/scrunch-6.5.2024.post1690855431.tar.gz
+[2023-08-01 09:13:03] INFO root fetch - processPackages [budgetinvoice]: Downloading https://files.pythonhosted.org/packages/47/06/b816fb759ea95eea98a2e1b57af67863717685713dc0253ecc5f35dd9bad/budgetinvoice-0.0.2-py3-none-any.whl
+[2023-08-01 09:13:03] INFO root fetch - processPackages [pyfiscal]: Downloading https://files.pythonhosted.org/packages/6e/78/ed78adf4fbbae0d9a2a1ff7c64edf4eb40da2422372a5ebea2a0b73bb60d/pyfiscal-2.1.tar.gz
+[2023-08-01 09:13:03] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/77/bd/2217e1e0e6de50e288db3212d89b0eefefcb8f79c9bd3fa5caf65db59fe1/fyers_sdk-2.0.6.tar.gz
+[2023-08-01 09:13:03] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.515.3.tar.gz tmp/stigg_api_client-0.517.0.tar.gz --markdown 20230801/s/stigg-api-client/0.515.3-0.517.0/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [pyfem]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [pyfem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfem-0.1.3.tar.gz tmp/pyfem-0.1.4.tar.gz --markdown 20230801/p/pyfem/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [verbit-streaming-sdk]: Downloading https://files.pythonhosted.org/packages/8b/dc/e4893d02841087c8f4089dfcdffc62b0ef0f8423f4c2b740ce0dbcd05789/verbit-streaming-sdk-0.9.0.tar.gz
+[2023-08-01 09:13:03] INFO root fetch - processPackages [budgetinvoice]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [budgetinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgetinvoice-0.0.1-py3-none-any.whl.zip tmp/budgetinvoice-0.0.2-py3-none-any.whl.zip --markdown 20230801/b/budgetinvoice/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [pyfiscal]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [pyfiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfiscal-2.0.tar.gz tmp/pyfiscal-2.1.tar.gz --markdown 20230801/p/pyfiscal/2.0-2.1/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2023.post1690841237.tar.gz tmp/scrunch-6.5.2024.post1690855431.tar.gz --markdown 20230801/s/scrunch/6.5.2023.post1690841237-6.5.2024.post1690855431/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a1/a3/1db0802851dfff33b0be10a75785db41da3c3efb929118a62365ad2c7906/localstack-core-2.2.1.dev20230801070902.tar.gz
+[2023-08-01 09:13:03] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-2.0.4.tar.gz tmp/fyers_sdk-2.0.6.tar.gz --markdown 20230801/f/fyers-sdk/2.0.4-2.0.6/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [verbit-streaming-sdk]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [verbit-streaming-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verbit-streaming-sdk-0.8.1.tar.gz tmp/verbit-streaming-sdk-0.9.0.tar.gz --markdown 20230801/v/verbit-streaming-sdk/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-01 09:13:03] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230731233910.tar.gz tmp/localstack-core-2.2.1.dev20230801070902.tar.gz --markdown 20230801/l/localstack-core/2.2.1.dev20230731233910-2.2.1.dev20230801070902/diff.md --exclude *.pyd
+[2023-08-01 09:13:03] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/d1/f5/0a0805e50c6f90a19ce30965443913d08e8ed6da9a129cc51a34b646f744/domain-admin-1.5.9.tar.gz
+[2023-08-01 09:13:04] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-08-01 09:13:04] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.8.tar.gz tmp/domain-admin-1.5.9.tar.gz --markdown 20230801/d/domain-admin/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-08-01 09:13:04] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.515.3.tar.gz]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.517.0.tar.gz]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [stigg-api-client]: Start processing: budgetinvoice
+[2023-08-01 09:13:04] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-08-01 09:13:04] INFO root fetch - processPackages [budgetinvoice]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [budgetinvoice]: Remove: archive file [/home/abi/fetcher/tmp/budgetinvoice-0.0.1-py3-none-any.whl.zip]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [budgetinvoice]: Remove: archive file [/home/abi/fetcher/tmp/budgetinvoice-0.0.2-py3-none-any.whl.zip]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [budgetinvoice]: Start processing: stigg-api-client-v2
+[2023-08-01 09:13:04] INFO root fetch - main [MainThread]: End processing [budgetinvoice]: success
+[2023-08-01 09:13:04] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.4a5.tar.gz]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.5.tar.gz]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [rclip]: Start processing: cc-py-commons
+[2023-08-01 09:13:04] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-01 09:13:04] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.517.0] Old Version: [0.515.3]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [budgetinvoice]: Downloading https://files.pythonhosted.org/packages/2a/fe/0a780433aaba3c4b896b366791bfddadc82a91a3dec5853d259a74177fb7/budgetinvoice-0.0.1-py3-none-any.whl
+[2023-08-01 09:13:04] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.0.4.tar.gz]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.0.6.tar.gz]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [fyers-sdk]: Start processing: xata
+[2023-08-01 09:13:04] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-08-01 09:13:04] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 09:13:04] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/1d/5d/37911b1c68ce188b09f06c3aaef128bae3cf91214a856233b4949310c46a/stigg_api_client_v2-0.515.3.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [pyfiscal]: Remove: archive file [/home/abi/fetcher/tmp/pyfiscal-2.0.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [pyfiscal]: Remove: archive file [/home/abi/fetcher/tmp/pyfiscal-2.1.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [pyfiscal]: Start processing: shakenfist-agent
+[2023-08-01 09:13:05] INFO root fetch - main [MainThread]: End processing [pyfiscal]: success
+[2023-08-01 09:13:05] INFO root fetch - processPackages [verbit-streaming-sdk]: Remove: archive file [/home/abi/fetcher/tmp/verbit-streaming-sdk-0.8.1.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [verbit-streaming-sdk]: Remove: archive file [/home/abi/fetcher/tmp/verbit-streaming-sdk-0.9.0.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [verbit-streaming-sdk]: Start processing: tidy-tweet
+[2023-08-01 09:13:05] INFO root fetch - main [MainThread]: End processing [verbit-streaming-sdk]: success
+[2023-08-01 09:13:05] INFO root fetch - processPackages [xata]: New version: [1.0.0a4] Old Version: [1.0.0a3]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [budgetinvoice]: Downloading https://files.pythonhosted.org/packages/47/06/b816fb759ea95eea98a2e1b57af67863717685713dc0253ecc5f35dd9bad/budgetinvoice-0.0.2-py3-none-any.whl
+[2023-08-01 09:13:05] INFO root fetch - processPackages [tidy-tweet]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2023.post1690841237.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2024.post1690855431.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-01 09:13:05] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.1.3.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - processPackages [pyfem]: Remove: archive file [/home/abi/fetcher/tmp/pyfem-0.1.4.tar.gz]
+[2023-08-01 09:13:05] INFO root fetch - main [MainThread]: End processing [pyfem]: success
+[2023-08-01 09:13:05] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [budgetinvoice]: executing diffoscope
+[2023-08-01 09:13:05] INFO root fetch - processPackages [budgetinvoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgetinvoice-0.0.1-py3-none-any.whl.zip tmp/budgetinvoice-0.0.2-py3-none-any.whl.zip --markdown 20230801/b/budgetinvoice/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 09:13:05] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/4d/b4/a2b1b63630f95b77a5507b1ac02feca7d2cbeb05d6cdd76b87d6d8a86fd2/xata-1.0.0a3.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/7f/4b/9f48ec174af924369dc7ebce62651bc05eb3cdbbeba2b724eb4a32f4b842/stigg_api_client_v2-0.517.0.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/8d/79/f656d2ef8da79e62fd60458bb773a4d9d04d1881176e7901f83dd4119e6c/shakenfist-agent-0.3.9.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/9b/dd/e781ece7fc7e7654cc112e19479fcabf160baf5aa5720ba33544ad07be14/tidy_tweet-1.0.0a4.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-08-01 09:13:05] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.8.tar.gz tmp/shakenfist-agent-0.3.9.tar.gz --markdown 20230801/s/shakenfist-agent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 09:13:05] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-08-01 09:13:05] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.515.3.tar.gz tmp/stigg_api_client_v2-0.517.0.tar.gz --markdown 20230801/s/stigg-api-client-v2/0.515.3-0.517.0/diff.md --exclude *.pyd
+[2023-08-01 09:13:05] INFO root fetch - processPackages [xata]: Downloading https://files.pythonhosted.org/packages/91/32/984b1b3c7506d6dabc1004a55af2cbd6968e8f62ef31b867e4886444dea7/xata-1.0.0a4.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-08-01 09:13:05] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-08-01 09:13:05] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230801/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 09:13:05] INFO root fetch - processPackages [xata]: executing diffoscope
+[2023-08-01 09:13:05] INFO root fetch - processPackages [xata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xata-1.0.0a3.tar.gz tmp/xata-1.0.0a4.tar.gz --markdown 20230801/x/xata/1.0.0a3-1.0.0a4/diff.md --exclude *.pyd
+[2023-08-01 09:13:05] INFO root fetch - processPackages [tidy-tweet]: Downloading https://files.pythonhosted.org/packages/5f/92/ee6a02ad5a5d66abc8ca55e21c420b0ccc5ac335bbf764f50d45fa5896f0/tidy_tweet-1.0.0a5.tar.gz
+[2023-08-01 09:13:06] INFO root fetch - processPackages [tidy-tweet]: executing diffoscope
+[2023-08-01 09:13:06] INFO root fetch - processPackages [tidy-tweet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidy_tweet-1.0.0a4.tar.gz tmp/tidy_tweet-1.0.0a5.tar.gz --markdown 20230801/t/tidy-tweet/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2023-08-01 09:13:06] INFO root fetch - processPackages [budgetinvoice]: Remove: archive file [/home/abi/fetcher/tmp/budgetinvoice-0.0.1-py3-none-any.whl.zip]
+[2023-08-01 09:13:06] INFO root fetch - processPackages [budgetinvoice]: Remove: archive file [/home/abi/fetcher/tmp/budgetinvoice-0.0.2-py3-none-any.whl.zip]
+[2023-08-01 09:13:06] INFO root fetch - main [MainThread]: End processing [budgetinvoice]: success
+[2023-08-01 09:13:06] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-08-01 09:13:06] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
+[2023-08-01 09:13:06] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-08-01 09:13:07] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-1.0.0a3.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - processPackages [xata]: Remove: archive file [/home/abi/fetcher/tmp/xata-1.0.0a4.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - main [MainThread]: End processing [xata]: success
+[2023-08-01 09:13:07] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.515.3.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.517.0.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-08-01 09:13:07] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.8.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - processPackages [cc-py-commons]: Remove: archive file [/home/abi/fetcher/tmp/cc_py_commons-0.3.9.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-08-01 09:13:07] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a4.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - processPackages [tidy-tweet]: Remove: archive file [/home/abi/fetcher/tmp/tidy_tweet-1.0.0a5.tar.gz]
+[2023-08-01 09:13:07] INFO root fetch - main [MainThread]: End processing [tidy-tweet]: success
+[2023-08-01 09:13:08] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230731233910.tar.gz]
+[2023-08-01 09:13:08] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801070902.tar.gz]
+[2023-08-01 09:13:08] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-01 09:13:12] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.8.tar.gz]
+[2023-08-01 09:13:12] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.9.tar.gz]
+[2023-08-01 09:13:12] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-08-01 09:13:12] INFO root fetch - main [MainThread]: Store serial: [19119857]
