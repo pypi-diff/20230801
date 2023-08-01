@@ -3408,3 +3408,128 @@
 [2023-08-01 02:22:02] INFO root fetch - processPackages [pulumi-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azure-5.9.0a1654522381.tar.gz]
 [2023-08-01 02:22:02] INFO root fetch - main [MainThread]: End processing [pulumi-azure]: success
 [2023-08-01 02:22:02] INFO root fetch - main [MainThread]: Store serial: [19115138]
+[2023-08-01 02:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19115138]
+[2023-08-01 02:27:11] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-valheim
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-surreal-backend
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-budibase
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-nag
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Leonardo-Ai-SDK
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: writerai
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-gitlab-runner
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-cr-constructs
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threemystic-cloud-data-client
+[2023-08-01 02:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-aurora-globaldatabase
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdktf-surreal-backend]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.64] Old Version: [0.1.63]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [writerai]: New version: [0.6.0] Old Version: [0.4.0]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [Leonardo-Ai-SDK]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/cb/0a/a7b476cc0f57abbfe23b6e1de3ab7c8d7ef56c77aa972828c5dc9958e1d8/cdktf-surreal-backend-1.0.98.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk8s-valheim]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/b1/ad/5b4cd32bd54baf43c5803859463f2cba3070e5a095fcd7ca448d374a2f3d/threemystic_cloud_data_client-0.1.63.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [writerai]: Downloading https://files.pythonhosted.org/packages/75/61/fb74975d75f63c07ea4e54f948b2b07a54ddc97ffa392d58d9f4b8d97481/writerai-0.4.0.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/39/76/5f4c6bc83e8b0d42d3479d25eaa5d9fb196c828420b6bd2485632e982688/Leonardo-Ai-SDK-1.9.0.tar.gz
+[2023-08-01 02:27:12] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: cdk-remote-stack
+[2023-08-01 02:27:12] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/85/d8/81574b6442b1b94620aa1985afe516b2e1e0688ce1267cb3ec360aabdcd1/cdk8s-valheim-0.0.98.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/b2/df/7604fdc8f04cf537fd774472005fab2e46b4e2271b55ee3e5027045037e4/cdktf-surreal-backend-1.0.99.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-01 02:27:12] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/67/81/9723049efad8745729aff5048578bb5047233a9490ced7e64b8b65a25f18/threemystic_cloud_data_client-0.1.64.tar.gz
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdktf-surreal-backend]: executing diffoscope
+[2023-08-01 02:27:12] INFO root fetch - processPackages [cdktf-surreal-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-surreal-backend-1.0.98.tar.gz tmp/cdktf-surreal-backend-1.0.99.tar.gz --markdown 20230801/c/cdktf-surreal-backend/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230801/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [writerai]: Downloading https://files.pythonhosted.org/packages/d3/31/94125a8e30938783c500775563ae29ee7f0a5a749c1565c9c7bca107d7da/writerai-0.6.0.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Downloading https://files.pythonhosted.org/packages/1d/7e/21211f1d6e93f2854ea4ac38b0ea9833ef669da4862aebf0cb77cf1c3b95/Leonardo-Ai-SDK-1.9.1.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.63.tar.gz tmp/threemystic_cloud_data_client-0.1.64.tar.gz --markdown 20230801/t/threemystic-cloud-data-client/0.1.63-0.1.64/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk8s-valheim]: Downloading https://files.pythonhosted.org/packages/ce/27/b660a37e9470f74e7b0d5c589710b82fcbfc01ec4796630a81d2dabb9e17/cdk8s-valheim-0.0.99.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [writerai]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [writerai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/writerai-0.4.0.tar.gz tmp/writerai-0.6.0.tar.gz --markdown 20230801/w/writerai/0.4.0-0.6.0/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230801/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [Leonardo-Ai-SDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Leonardo-Ai-SDK-1.9.0.tar.gz tmp/Leonardo-Ai-SDK-1.9.1.tar.gz --markdown 20230801/L/Leonardo-Ai-SDK/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk8s-valheim]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk8s-valheim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-valheim-0.0.98.tar.gz tmp/cdk8s-valheim-0.0.99.tar.gz --markdown 20230801/c/cdk8s-valheim/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20230801/c/cdk-budibase/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230801/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-08-01 02:27:13] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230801/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cyac
+[2023-08-01 02:27:14] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.98.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.99.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdktf-surreal-backend]: Start processing: streamlit-chatbox
+[2023-08-01 02:27:14] INFO root fetch - main [MainThread]: End processing [cdktf-surreal-backend]: success
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cyac]: New version: [1.8] Old Version: [1.7]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [streamlit-chatbox]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/59/ac/6b59f72723bbb22dfcb93d77b09cc25d600a7719bc4b632261d75aa23c55/streamlit_chatbox-1.0.0-py3-none-any.whl
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cyac]: Downloading https://files.pythonhosted.org/packages/ec/fa/b3cbda4c5d43825d152103b502a970d0a51ece42f782474b57632c7c314b/cyac-1.7.tar.gz
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: cdk-tweet-queue
+[2023-08-01 02:27:14] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.63.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.64.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-08-01 02:27:14] INFO root fetch - processPackages [streamlit-chatbox]: Downloading https://files.pythonhosted.org/packages/5c/2e/62fe8b43979d4e346b6912cd99b984caa6380df889e82f33a72c7c4f056c/streamlit_chatbox-1.0.1-py3-none-any.whl
+[2023-08-01 02:27:14] INFO root fetch - processPackages [cyac]: Downloading https://files.pythonhosted.org/packages/20/5d/bc98b3192934c0179d6bb3d17e7a38d7945b6a5d92a965b7241b18c96582/cyac-1.8.tar.gz
+[2023-08-01 02:27:14] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.9.0.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - processPackages [Leonardo-Ai-SDK]: Remove: archive file [/home/abi/fetcher/tmp/Leonardo-Ai-SDK-1.9.1.tar.gz]
+[2023-08-01 02:27:14] INFO root fetch - main [MainThread]: End processing [Leonardo-Ai-SDK]: success
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.98.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk8s-valheim]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-valheim-0.0.99.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - main [MainThread]: End processing [cdk8s-valheim]: success
+[2023-08-01 02:27:15] INFO root fetch - processPackages [streamlit-chatbox]: executing diffoscope
+[2023-08-01 02:27:15] INFO root fetch - processPackages [streamlit-chatbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chatbox-1.0.0-py3-none-any.whl.zip tmp/streamlit_chatbox-1.0.1-py3-none-any.whl.zip --markdown 20230801/s/streamlit-chatbox/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cyac]: executing diffoscope
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cyac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyac-1.7.tar.gz tmp/cyac-1.8.tar.gz --markdown 20230801/c/cyac/1.7-1.8/diff.md --exclude *.pyd
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230801/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-01 02:27:15] INFO root fetch - processPackages [writerai]: Remove: archive file [/home/abi/fetcher/tmp/writerai-0.4.0.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - processPackages [writerai]: Remove: archive file [/home/abi/fetcher/tmp/writerai-0.6.0.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - main [MainThread]: End processing [writerai]: success
+[2023-08-01 02:27:15] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.0.0-py3-none-any.whl.zip]
+[2023-08-01 02:27:15] INFO root fetch - processPackages [streamlit-chatbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chatbox-1.0.1-py3-none-any.whl.zip]
+[2023-08-01 02:27:15] INFO root fetch - main [MainThread]: End processing [streamlit-chatbox]: success
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cyac]: Remove: archive file [/home/abi/fetcher/tmp/cyac-1.7.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - processPackages [cyac]: Remove: archive file [/home/abi/fetcher/tmp/cyac-1.8.tar.gz]
+[2023-08-01 02:27:15] INFO root fetch - main [MainThread]: End processing [cyac]: success
+[2023-08-01 02:27:16] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-08-01 02:27:16] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-08-01 02:27:16] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-08-01 02:27:16] INFO root fetch - main [MainThread]: Store serial: [19115191]
