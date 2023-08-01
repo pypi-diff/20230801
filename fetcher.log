@@ -2659,3 +2659,139 @@
 [2023-08-01 02:05:57] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230731.post422.tar.gz]
 [2023-08-01 02:05:57] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-08-01 02:05:57] INFO root fetch - main [MainThread]: Store serial: [19114840]
+[2023-08-01 02:11:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114840]
+[2023-08-01 02:11:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kioss
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zrb
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kioss
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ml-compiler-opt
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-aws-discord-notifiers
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchlayers-nightly
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cjm-torchvision-tfms
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: redvox
+[2023-08-01 02:11:05] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230731] Old Version: [0.0.8.dev20230730]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308010007] Old Version: [0.0.1.dev202307310007]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [cjm-torchvision-tfms]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [kioss]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [kioss]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1690762052] Old Version: [1690675669]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [cjm-torchvision-tfms]: Downloading https://files.pythonhosted.org/packages/9f/4b/970172af3cbc46789044af356f397da09e805c2fc054b672773f14ab6021/cjm-torchvision-tfms-0.0.1.tar.gz
+[2023-08-01 02:11:05] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.81]
+[2023-08-01 02:11:05] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/f3/1b/f80f754afb2383d744afdccd2ea65c1277360463debafcaf1d5727a4a3b1/ml-compiler-opt-0.0.1.dev202307310007.tar.gz
+[2023-08-01 02:11:05] INFO root fetch - processPackages [redvox]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-08-01 02:11:06] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/f4/c9/885ad7b9f0cee8018c04d070aff6ae8dfdb5aa99f71df36b8798d28fa0b1/kioss-0.2.3.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/7c/e3/e068d52e80077cdd2494981815aa1ce1502c9f047b62e533ae83d0c931ba/torchlayers-nightly-1690675669.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/0b/92/4e486b0d159e711be06ef693fda07df6fbe559bf32d80e8538962cb3cf19/jaxutils-nightly-0.0.8.dev20230730.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/f4/c9/885ad7b9f0cee8018c04d070aff6ae8dfdb5aa99f71df36b8798d28fa0b1/kioss-0.2.3.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/82/5f/9c6763c501ade5111098629f87010c0d65ec92b16b68a6be0792a3407808/zrb-0.0.81.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/b0/ef/ce6be9ab643739d987f3f5ce37e7542b7c2feb2e82b33f4f52ecb9acb599/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [redvox]: Downloading https://files.pythonhosted.org/packages/61/ca/75b68654d35d4e6c6c6ef8ef4df457331a6a8c17ca15585b690592b0ce2e/redvox-3.5.0.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [cjm-torchvision-tfms]: Downloading https://files.pythonhosted.org/packages/63/8c/a646882bc72e72fee470a44eab42361d39e0b00c3ad568e34eef6862ffd7/cjm-torchvision-tfms-0.0.2.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/63/b8/e30f49992ed2ff2b10a7d6cfe26bea42b78840d0910e17d6dd8071b03f88/ml-compiler-opt-0.0.1.dev202308010007.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [cjm-torchvision-tfms]: executing diffoscope
+[2023-08-01 02:11:06] INFO root fetch - processPackages [cjm-torchvision-tfms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-torchvision-tfms-0.0.1.tar.gz tmp/cjm-torchvision-tfms-0.0.2.tar.gz --markdown 20230801/c/cjm-torchvision-tfms/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/f8/1e/a8758d824f7651c479d8eb277c1bcf920e035d4adb421efc65f2675c7425/kioss-0.2.4.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/f8/1e/a8758d824f7651c479d8eb277c1bcf920e035d4adb421efc65f2675c7425/kioss-0.2.4.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/fc/1d/4630205f8ab0e5c65521d43a285e825b940e056e447fd3a9a990bbe8ce11/torchlayers-nightly-1690762052.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/9f/8b/cd423c3644e63c6fab8b1e66cc5d0849b9108dab2ab85e2d9aaf032d08ab/jaxutils-nightly-0.0.8.dev20230731.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/bb/75/eb5697658075456054ab05ad5a8c8a9eee27b8d5d462e5bdfa6a75ee225c/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [redvox]: Downloading https://files.pythonhosted.org/packages/ea/b0/141cfd132fc14373bf693f65375dcb391bbc75c0f8f338dd83af0710175f/redvox-3.5.1.tar.gz
+[2023-08-01 02:11:06] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-08-01 02:11:06] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1690675669.tar.gz tmp/torchlayers-nightly-1690762052.tar.gz --markdown 20230801/t/torchlayers-nightly/1690675669-1690762052/diff.md --exclude *.pyd
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.2.3.tar.gz tmp/kioss-0.2.4.tar.gz --markdown 20230801/k/kioss/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-08-01 02:11:06] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.2.3.tar.gz tmp/kioss-0.2.4.tar.gz --markdown 20230801/k/kioss/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 02:11:06] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-08-01 02:11:06] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230730.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230731.tar.gz --markdown 20230801/j/jaxutils-nightly/0.0.8.dev20230730-0.0.8.dev20230731/diff.md --exclude *.pyd
+[2023-08-01 02:11:06] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-01 02:11:06] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202307310007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202308010007.tar.gz --markdown 20230801/m/ml-compiler-opt/0.0.1.dev202307310007-0.0.1.dev202308010007/diff.md --exclude *.pyd
+[2023-08-01 02:11:06] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2023-08-01 02:11:06] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz --markdown 20230801/g/gammarer.aws-secure-cloudfront-origin-bucket/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-08-01 02:11:07] INFO root fetch - processPackages [redvox]: executing diffoscope
+[2023-08-01 02:11:07] INFO root fetch - processPackages [redvox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redvox-3.5.0.tar.gz tmp/redvox-3.5.1.tar.gz --markdown 20230801/r/redvox/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-08-01 02:11:07] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-08-01 02:11:07] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-08-01 02:11:07] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.81.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230801/z/zrb/0.0.81-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 02:11:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-08-01 02:11:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-08-01 02:11:07] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230801/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 02:11:07] INFO root fetch - processPackages [cjm-torchvision-tfms]: Remove: archive file [/home/abi/fetcher/tmp/cjm-torchvision-tfms-0.0.1.tar.gz]
+[2023-08-01 02:11:07] INFO root fetch - processPackages [cjm-torchvision-tfms]: Remove: archive file [/home/abi/fetcher/tmp/cjm-torchvision-tfms-0.0.2.tar.gz]
+[2023-08-01 02:11:07] INFO root fetch - processPackages [cjm-torchvision-tfms]: Start processing: charidotella
+[2023-08-01 02:11:07] INFO root fetch - main [MainThread]: End processing [cjm-torchvision-tfms]: success
+[2023-08-01 02:11:07] INFO root fetch - processPackages [charidotella]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [charidotella]: Downloading https://files.pythonhosted.org/packages/bb/f9/5dac8865e8a1665f12bebfbd96245e02fe619f1aa54833abfa84355c879a/charidotella-1.2.0.tar.gz
+[2023-08-01 02:11:08] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.3.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.4.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [kioss]: Start processing: vesselapi
+[2023-08-01 02:11:08] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-08-01 02:11:08] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690675669.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1690762052.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: cdk-common
+[2023-08-01 02:11:08] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-08-01 02:11:08] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230730.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230731.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: tccli
+[2023-08-01 02:11:08] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-08-01 02:11:08] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.42.1]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.8.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.9.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Start processing: rafe
+[2023-08-01 02:11:08] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2023-08-01 02:11:08] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-08-01 02:11:08] INFO root fetch - processPackages [charidotella]: Downloading https://files.pythonhosted.org/packages/12/05/73dcd7b7384d89cc06ac38f7534789e20e2824927bd3e8e457c7ed105490/charidotella-2.0.0.tar.gz
+[2023-08-01 02:11:08] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-08-01 02:11:08] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-08-01 02:11:08] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/f6/71/31975d61306c7f41d73360708174c8ec061029793409096386e6864c2fb3/vesselapi-3.42.1.tar.gz
+[2023-08-01 02:11:08] INFO root fetch - processPackages [rafe]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-08-01 02:11:08] INFO root fetch - processPackages [rafe]: Downloading https://files.pythonhosted.org/packages/04/54/9ca6c314408e596aee89562ed218aa6c3e739fa0eaaec929c5fb954f54a9/rafe-0.1.5-py3-none-any.whl
+[2023-08-01 02:11:08] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307310007.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308010007.tar.gz]
+[2023-08-01 02:11:08] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-01 02:11:09] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-08-01 02:11:09] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-08-01 02:11:09] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-08-01 02:11:09] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230801/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-08-01 02:11:09] INFO root fetch - processPackages [redvox]: Remove: archive file [/home/abi/fetcher/tmp/redvox-3.5.0.tar.gz]
+[2023-08-01 02:11:09] INFO root fetch - processPackages [redvox]: Remove: archive file [/home/abi/fetcher/tmp/redvox-3.5.1.tar.gz]
+[2023-08-01 02:11:09] INFO root fetch - main [MainThread]: End processing [redvox]: success
+[2023-08-01 02:11:09] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-08-01 02:11:09] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.42.1.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230801/v/vesselapi/3.42.1-3.5.2/diff.md --exclude *.pyd
+[2023-08-01 02:11:09] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-08-01 02:11:09] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-08-01 02:11:09] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-08-01 02:11:09] INFO root fetch - processPackages [charidotella]: executing diffoscope
+[2023-08-01 02:11:09] INFO root fetch - processPackages [charidotella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charidotella-1.2.0.tar.gz tmp/charidotella-2.0.0.tar.gz --markdown 20230801/c/charidotella/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-01 02:11:09] INFO root fetch - processPackages [rafe]: Downloading https://files.pythonhosted.org/packages/f3/cb/4a810abceadfa33986bd85e033c93c02679588728e7497f60f684887b5b2/rafe-0.1.6-py3-none-any.whl
+[2023-08-01 02:11:09] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-08-01 02:11:09] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230801/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-01 02:11:09] INFO root fetch - processPackages [rafe]: executing diffoscope
+[2023-08-01 02:11:09] INFO root fetch - processPackages [rafe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rafe-0.1.5-py3-none-any.whl.zip tmp/rafe-0.1.6-py3-none-any.whl.zip --markdown 20230801/r/rafe/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-01 02:11:10] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.81.tar.gz]
+[2023-08-01 02:11:10] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-08-01 02:11:10] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-08-01 02:11:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-08-01 02:11:10] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-08-01 02:11:10] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-08-01 02:11:10] INFO root fetch - processPackages [rafe]: Remove: archive file [/home/abi/fetcher/tmp/rafe-0.1.5-py3-none-any.whl.zip]
+[2023-08-01 02:11:10] INFO root fetch - processPackages [rafe]: Remove: archive file [/home/abi/fetcher/tmp/rafe-0.1.6-py3-none-any.whl.zip]
+[2023-08-01 02:11:10] INFO root fetch - main [MainThread]: End processing [rafe]: success
+[2023-08-01 02:11:11] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.42.1.tar.gz]
+[2023-08-01 02:11:11] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-08-01 02:11:11] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-08-01 02:11:12] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-08-01 02:11:12] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-08-01 02:11:12] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-08-01 02:11:18] INFO root fetch - processPackages [charidotella]: Remove: archive file [/home/abi/fetcher/tmp/charidotella-1.2.0.tar.gz]
+[2023-08-01 02:11:18] INFO root fetch - processPackages [charidotella]: Remove: archive file [/home/abi/fetcher/tmp/charidotella-2.0.0.tar.gz]
+[2023-08-01 02:11:18] INFO root fetch - main [MainThread]: End processing [charidotella]: success
+[2023-08-01 02:11:18] INFO root fetch - main [MainThread]: Store serial: [19114922]
