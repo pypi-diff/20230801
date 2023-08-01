@@ -20549,3 +20549,164 @@
 [2023-08-01 12:49:03] INFO root fetch - processPackages [horizon]: Remove: archive file [/home/abi/fetcher/tmp/horizon-23.2.0.tar.gz]
 [2023-08-01 12:49:03] INFO root fetch - main [MainThread]: End processing [horizon]: success
 [2023-08-01 12:49:03] INFO root fetch - main [MainThread]: Store serial: [19122275]
+[2023-08-01 12:54:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122275]
+[2023-08-01 12:54:12] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byquant
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-tailscale
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eigenpy
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wizata-dsapi
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openhexa.toolbox
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-sumologic
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-motorcad-core
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unicms-template-unical
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brewblox-service
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: batchflow
+[2023-08-01 12:54:12] INFO root fetch - processPackages [ansys-motorcad-core]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-01 12:54:12] INFO root fetch - processPackages [byquant]: New version: [1.7.35] Old Version: [1.7.33]
+[2023-08-01 12:54:12] INFO root fetch - processPackages [openhexa.toolbox]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [pulumi-tailscale]: New version: [0.9.1a1656330156] Old Version: [0.9.0]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [batchflow]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [unicms-template-unical]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [brewblox-service]: New version: [3.1.0] Old Version: [3.0.2]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [eigenpy]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [ansys-motorcad-core]: Downloading https://files.pythonhosted.org/packages/0a/e6/ef1c66f89d3b73b62b81c125c549bd0d37f679d1e47ebdfddc8c6b0928d5/ansys-motorcad-core-0.1.3.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/af/fc/1aa615a8e44d21b520ec05aa57ea2ee6f62de762047b4ad8ccec73544ac3/pulumi_tailscale-0.9.0.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [brewblox-service]: Downloading https://files.pythonhosted.org/packages/b6/3d/2870f88aa121b2d6e37810a0837e9f21ed1594f77b79a575f20287c5eaa0/brewblox_service-3.0.2.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/ba/74/d0bf4920068c724a4593f501495c2acb6f725cb7559439da3ccd31ef9068/byquant-1.7.33.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/56/04/88a33a562e4db6ac2fc4ce881df1098bdf816b76400a9df8eaa4f6885b66/openhexa.toolbox-0.1.2.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/82/40/4d67585a735404c16623ee327dbb35c329db5e7ab5698b34291a06508000/unicms_template_unical-1.2.5.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [batchflow]: Downloading https://files.pythonhosted.org/packages/da/ec/659b902cd2a64df5a5865947b5db3d6f73f6ff386e5cdd95a584f8343031/batchflow-0.8.6.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [eigenpy]: Downloading https://files.pythonhosted.org/packages/ed/1e/ca7bbe5fcc8726d14802fa8533f1b25aefe92332ec564ddcf5491830c1cb/eigenpy-3.1.0-2-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl
+[2023-08-01 12:54:13] WARNING root fetch - processPackages [batchflow]: Skipping package: exceeds size limit 95123424>=10485760
+[2023-08-01 12:54:13] INFO root fetch - processPackages [batchflow]: Start processing: axion
+[2023-08-01 12:54:13] INFO root fetch - main [MainThread]: End processing [batchflow] error
+[2023-08-01 12:54:13] INFO root fetch - processPackages [axion]: New version: [3.6.10] Old Version: [3.5.9]
+[2023-08-01 12:54:13] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [pulumi-tailscale]: Downloading https://files.pythonhosted.org/packages/a3/d6/938674a37f5324fe6d787b4f3efbeeebc5d750fd8c8c25fb2198b11e6a4d/pulumi_tailscale-0.9.1a1656330156.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [ansys-motorcad-core]: Downloading https://files.pythonhosted.org/packages/22/65/ea2b6ebdb10919681a7d75a9058642fc9f2b4b114d30a86e8cd153e9a774/ansys_motorcad_core-0.2.0.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [brewblox-service]: Downloading https://files.pythonhosted.org/packages/6e/2b/4e555a2553d11043f18717336d3e4373f442170f69f156eb9eebbe2549c0/brewblox_service-3.1.0.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [openhexa.toolbox]: Downloading https://files.pythonhosted.org/packages/fd/bc/eeb8dc024c3df651a36970e22b8aa535b001071f2084f4578b2a3a9f7bd4/openhexa.toolbox-0.1.3.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/76/67/0926fea0018276fab1956d2de52671ca3b1876028ffc3e47a3b0a62e67b4/axion-3.5.9-cp311-none-win_amd64.whl
+[2023-08-01 12:54:13] INFO root fetch - processPackages [byquant]: Downloading https://files.pythonhosted.org/packages/f4/dd/72dc5d3426f38390d5aa83d6b3ecc38c8455908eba014b7a135762228b04/byquant-1.7.35.tar.gz
+[2023-08-01 12:54:13] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-01 12:54:13] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230801/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 12:54:13] INFO root fetch - processPackages [pulumi-tailscale]: executing diffoscope
+[2023-08-01 12:54:13] INFO root fetch - processPackages [pulumi-tailscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_tailscale-0.9.0.tar.gz tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz --markdown 20230801/p/pulumi-tailscale/0.9.0-0.9.1a1656330156/diff.md --exclude *.pyd
+[2023-08-01 12:54:13] INFO root fetch - processPackages [ansys-motorcad-core]: executing diffoscope
+[2023-08-01 12:54:13] INFO root fetch - processPackages [ansys-motorcad-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-motorcad-core-0.1.3.tar.gz tmp/ansys_motorcad_core-0.2.0.tar.gz --markdown 20230801/a/ansys-motorcad-core/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:54:14] INFO root fetch - processPackages [brewblox-service]: executing diffoscope
+[2023-08-01 12:54:14] INFO root fetch - processPackages [brewblox-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brewblox_service-3.0.2.tar.gz tmp/brewblox_service-3.1.0.tar.gz --markdown 20230801/b/brewblox-service/3.0.2-3.1.0/diff.md --exclude *.pyd
+[2023-08-01 12:54:14] INFO root fetch - processPackages [openhexa.toolbox]: executing diffoscope
+[2023-08-01 12:54:14] INFO root fetch - processPackages [openhexa.toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.toolbox-0.1.2.tar.gz tmp/openhexa.toolbox-0.1.3.tar.gz --markdown 20230801/o/openhexa.toolbox/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 12:54:14] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/a1/0e/543b61fe823a99c82fe1375156f056609d5b5dc2a1981c50b06643c0c6a0/unicms_template_unical-1.2.6.tar.gz
+[2023-08-01 12:54:14] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-08-01 12:54:14] INFO root fetch - processPackages [eigenpy]: Downloading https://files.pythonhosted.org/packages/18/c5/65d38f3a6c1170a02a59e76c8dd18e4f81d78b12ef7ecd44ee8b4e76a146/eigenpy-3.1.1-0-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2023-08-01 12:54:14] INFO root fetch - processPackages [byquant]: executing diffoscope
+[2023-08-01 12:54:14] INFO root fetch - processPackages [byquant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byquant-1.7.33.tar.gz tmp/byquant-1.7.35.tar.gz --markdown 20230801/b/byquant/1.7.33-1.7.35/diff.md --exclude *.pyd
+[2023-08-01 12:54:14] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-08-01 12:54:14] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230801/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-08-01 12:54:14] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/1d/93/3fd367ba6034c93f084a10d8b938c11d57f595cd9d9db58396706727a3cc/axion-3.6.10-cp311-none-win_amd64.whl
+[2023-08-01 12:54:14] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-08-01 12:54:14] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.5.9-cp311-none-win_amd64.whl.zip tmp/axion-3.6.10-cp311-none-win_amd64.whl.zip --markdown 20230801/a/axion/3.5.9-3.6.10/diff.md --exclude *.pyd
+[2023-08-01 12:54:14] INFO root fetch - processPackages [eigenpy]: executing diffoscope
+[2023-08-01 12:54:14] INFO root fetch - processPackages [eigenpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eigenpy-3.1.0-2-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip tmp/eigenpy-3.1.1-0-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20230801/e/eigenpy/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-08-01 12:54:15] INFO root fetch - processPackages [unicms-template-unical]: executing diffoscope
+[2023-08-01 12:54:15] INFO root fetch - processPackages [unicms-template-unical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicms_template_unical-1.2.5.tar.gz tmp/unicms_template_unical-1.2.6.tar.gz --markdown 20230801/u/unicms-template-unical/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-08-01 12:54:15] INFO root fetch - processPackages [brewblox-service]: Remove: archive file [/home/abi/fetcher/tmp/brewblox_service-3.0.2.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [brewblox-service]: Remove: archive file [/home/abi/fetcher/tmp/brewblox_service-3.1.0.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [brewblox-service]: Start processing: powerpwn
+[2023-08-01 12:54:15] INFO root fetch - main [MainThread]: End processing [brewblox-service]: success
+[2023-08-01 12:54:15] INFO root fetch - processPackages [powerpwn]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [wizata-dsapi]: Start processing: bmsdna-lakeapi
+[2023-08-01 12:54:15] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-01 12:54:15] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [ansys-motorcad-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys-motorcad-core-0.1.3.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [ansys-motorcad-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys_motorcad_core-0.2.0.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [ansys-motorcad-core]: Start processing: blob-mounting-helper-utility
+[2023-08-01 12:54:15] INFO root fetch - main [MainThread]: End processing [ansys-motorcad-core]: success
+[2023-08-01 12:54:15] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.toolbox-0.1.2.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [openhexa.toolbox]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.toolbox-0.1.3.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [openhexa.toolbox]: Start processing: st-track-viewer
+[2023-08-01 12:54:15] INFO root fetch - main [MainThread]: End processing [openhexa.toolbox]: success
+[2023-08-01 12:54:15] INFO root fetch - processPackages [powerpwn]: Downloading https://files.pythonhosted.org/packages/c0/61/36754fb7b4709abdd360da03a9445c8db80dd120a4d459bedd05bedc633e/powerpwn-2.1.1.tar.gz
+[2023-08-01 12:54:15] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.0.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [pulumi-tailscale]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_tailscale-0.9.1a1656330156.tar.gz]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [pulumi-tailscale]: Start processing: pulumi-snowflake
+[2023-08-01 12:54:15] INFO root fetch - main [MainThread]: End processing [pulumi-tailscale]: success
+[2023-08-01 12:54:15] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2023-08-01 12:54:15] INFO root fetch - processPackages [pulumi-snowflake]: New version: [0.9.1a1656367704] Old Version: [0.9.1a1654087017]
+[2023-08-01 12:54:15] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/ce/d1/f9d066c00dec8001310ed7d2ea8675a345ede9aeb5baa51b455c14bc0ab5/blob_mounting_helper_utility-1.0.5.tar.gz
+[2023-08-01 12:54:15] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/b9/0b/c222081e8a9543548d301b6e25c03d0d8f84f086039528f77f18cd708e1e/st_track_viewer-0.0.7.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [powerpwn]: Downloading https://files.pythonhosted.org/packages/ad/87/ce17987cb97e1e742d77a7fe5c005aec874bed49d934a8cb2e6cc85681d9/powerpwn-2.1.2.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/3b/b2/bff7dfaee12af679f35b6ac828f05a564f5da99bf1dd4c66e1e7f89b76f0/blob_mounting_helper_utility-1.0.6.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/ac/12/8a15836613d8faa0153d0c1b5818bfe83f875f5770e55c406bbc2e2f4297/pulumi_snowflake-0.9.1a1654087017.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.5.9-cp311-none-win_amd64.whl.zip]
+[2023-08-01 12:54:16] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.10-cp311-none-win_amd64.whl.zip]
+[2023-08-01 12:54:16] INFO root fetch - processPackages [axion]: Start processing: pyvespa
+[2023-08-01 12:54:16] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-08-01 12:54:16] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-08-01 12:54:16] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20230801/b/bmsdna-lakeapi/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-01 12:54:16] INFO root fetch - processPackages [powerpwn]: executing diffoscope
+[2023-08-01 12:54:16] INFO root fetch - processPackages [powerpwn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerpwn-2.1.1.tar.gz tmp/powerpwn-2.1.2.tar.gz --markdown 20230801/p/powerpwn/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-01 12:54:16] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-08-01 12:54:16] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.5.tar.gz tmp/blob_mounting_helper_utility-1.0.6.tar.gz --markdown 20230801/b/blob-mounting-helper-utility/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pyvespa]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-01 12:54:16] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/56/ef/2a27faf607a76eb614716def944c301f559d8575b4fd98cd8ef8789f1b77/st_track_viewer-0.0.8.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pulumi-snowflake]: Downloading https://files.pythonhosted.org/packages/12/24/eac91fa678665e057906195a9e93366ecf0bc7997bd228eb1159a41ae631/pulumi_snowflake-0.9.1a1656367704.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pulumi-sumologic]: Start processing: awspstore
+[2023-08-01 12:54:16] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pulumi-snowflake]: executing diffoscope
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pulumi-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz --markdown 20230801/p/pulumi-snowflake/0.9.1a1654087017-0.9.1a1656367704/diff.md --exclude *.pyd
+[2023-08-01 12:54:16] INFO root fetch - processPackages [pyvespa]: Downloading https://files.pythonhosted.org/packages/fa/a7/b8ddb63363ad676537d6d2fe0bb57776db1add62129f6c30094d044e8ad2/pyvespa-0.8.1.tar.gz
+[2023-08-01 12:54:16] INFO root fetch - processPackages [awspstore]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-01 12:54:16] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-08-01 12:54:16] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.7.tar.gz tmp/st_track_viewer-0.0.8.tar.gz --markdown 20230801/s/st-track-viewer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 12:54:16] INFO root fetch - processPackages [awspstore]: Downloading https://files.pythonhosted.org/packages/15/d1/4fc6a67a342a4a1ed1ddba31d46cb60b0e9a61d5d376453bcdbe7e6893c4/awspstore-1.3.0.tar.gz
+[2023-08-01 12:54:17] INFO root fetch - processPackages [awspstore]: Downloading https://files.pythonhosted.org/packages/c6/e9/295a3f14ccf6a6ad75020b4996a71300d0e30834a5f85dfe0bc117a6dec2/awspstore-1.4.0.tar.gz
+[2023-08-01 12:54:17] INFO root fetch - processPackages [pyvespa]: Downloading https://files.pythonhosted.org/packages/38/7c/c1343e050b9b534173a78967b52854b4de31b5cd08648091a70363bda661/pyvespa-0.9.0.tar.gz
+[2023-08-01 12:54:17] INFO root fetch - processPackages [awspstore]: executing diffoscope
+[2023-08-01 12:54:17] INFO root fetch - processPackages [awspstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awspstore-1.3.0.tar.gz tmp/awspstore-1.4.0.tar.gz --markdown 20230801/a/awspstore/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-01 12:54:17] INFO root fetch - processPackages [pyvespa]: executing diffoscope
+[2023-08-01 12:54:17] INFO root fetch - processPackages [pyvespa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvespa-0.8.1.tar.gz tmp/pyvespa-0.9.0.tar.gz --markdown 20230801/p/pyvespa/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 12:54:17] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.2.5.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.2.6.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
+[2023-08-01 12:54:17] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.33.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - processPackages [byquant]: Remove: archive file [/home/abi/fetcher/tmp/byquant-1.7.35.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - main [MainThread]: End processing [byquant]: success
+[2023-08-01 12:54:17] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.5.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.6.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-08-01 12:54:17] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2023-08-01 12:54:17] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-08-01 12:54:18] INFO root fetch - processPackages [powerpwn]: Remove: archive file [/home/abi/fetcher/tmp/powerpwn-2.1.1.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - processPackages [powerpwn]: Remove: archive file [/home/abi/fetcher/tmp/powerpwn-2.1.2.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - main [MainThread]: End processing [powerpwn]: success
+[2023-08-01 12:54:18] INFO root fetch - processPackages [awspstore]: Remove: archive file [/home/abi/fetcher/tmp/awspstore-1.3.0.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - processPackages [awspstore]: Remove: archive file [/home/abi/fetcher/tmp/awspstore-1.4.0.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - main [MainThread]: End processing [awspstore]: success
+[2023-08-01 12:54:18] INFO root fetch - processPackages [pyvespa]: Remove: archive file [/home/abi/fetcher/tmp/pyvespa-0.8.1.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - processPackages [pyvespa]: Remove: archive file [/home/abi/fetcher/tmp/pyvespa-0.9.0.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - main [MainThread]: End processing [pyvespa]: success
+[2023-08-01 12:54:18] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1654087017.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - processPackages [pulumi-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_snowflake-0.9.1a1656367704.tar.gz]
+[2023-08-01 12:54:18] INFO root fetch - main [MainThread]: End processing [pulumi-snowflake]: success
+[2023-08-01 12:54:19] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.7.tar.gz]
+[2023-08-01 12:54:19] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.8.tar.gz]
+[2023-08-01 12:54:19] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-08-01 12:54:19] INFO root fetch - processPackages [eigenpy]: Remove: archive file [/home/abi/fetcher/tmp/eigenpy-3.1.0-2-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl.zip]
+[2023-08-01 12:54:19] INFO root fetch - processPackages [eigenpy]: Remove: archive file [/home/abi/fetcher/tmp/eigenpy-3.1.1-0-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2023-08-01 12:54:19] INFO root fetch - main [MainThread]: End processing [eigenpy]: success
+[2023-08-01 12:54:19] INFO root fetch - main [MainThread]: Store serial: [19122329]
