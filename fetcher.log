@@ -2560,3 +2560,102 @@
 [2023-08-01 02:00:43] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.1.dev0.tar.gz]
 [2023-08-01 02:00:43] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2023-08-01 02:00:43] INFO root fetch - main [MainThread]: Store serial: [19114800]
+[2023-08-01 02:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114800]
+[2023-08-01 02:05:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecoengine
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: switbuilder-core
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-shopify-utils
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bikeshare-model
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-simplewebsite-deploy
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: endstone
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cjm-torchvision-tfms
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shipyard-rudderstack
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchdatasets-nightly
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mct-nightly
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 02:05:52] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1690761793] Old Version: [1690675418]
+[2023-08-01 02:05:52] INFO root fetch - processPackages [bikeshare-model]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-08-01 02:05:52] INFO root fetch - processPackages [flask-shopify-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 02:05:52] WARNING root fetch - processPackages [shipyard-rudderstack]: Skipping, unable to determine old version
+[2023-08-01 02:05:52] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 02:05:52] INFO root fetch - processPackages [shipyard-rudderstack]: Start processing: pyjellyfish
+[2023-08-01 02:05:52] INFO root fetch - main [MainThread]: End processing [shipyard-rudderstack] error
+[2023-08-01 02:05:52] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230731.post422] Old Version: [1.9.0.20230730.post503]
+[2023-08-01 02:05:52] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-01 02:05:52] WARNING root fetch - processPackages [endstone]: Skipping, unable to determine old version
+[2023-08-01 02:05:52] INFO root fetch - processPackages [endstone]: Start processing: jaxkern-nightly
+[2023-08-01 02:05:52] INFO root fetch - main [MainThread]: End processing [endstone] error
+[2023-08-01 02:05:52] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/c2/88/8d845b42b8a0b630e8f3b72cafe18bb7ccca46b28477dc768f2f3a32acd9/switbuilder_core-0.0.8.tar.gz
+[2023-08-01 02:05:52] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/fd/7b/360b5ba42ea7573f668bfd0789fbf63d76d5dc434d4824be06e451390280/mct-nightly-1.9.0.20230730.post503.tar.gz
+[2023-08-01 02:05:52] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-08-01 02:05:52] INFO root fetch - processPackages [pyjellyfish]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-08-01 02:05:52] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-08-01 02:05:52] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/ab/97/ef6714780c60bc8ec4fafdcdf1cb725e58183915bb57da73c2c98a1f8dd1/bikeshare_model-0.1.0-py3-none-any.whl
+[2023-08-01 02:05:52] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/86/6e/4fa3a4881cfa3c7632057366a38f46895c9d88e8d2151aef7989de0c5455/torchdatasets-nightly-1690675418.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [cjm-torchvision-tfms]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 02:05:53] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/02/09/509568941e2977294b6ec9c2c0e2cac9e1ce7100d236a2d2edb7092f92f6/cdk-simplewebsite-deploy-2.0.8.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/31/42/02c412ecf507d64feefd24e0cec9172875ec6d2d6a401caa21a2e1b9d2ad/flask_shopify_utils-0.0.4.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [pyjellyfish]: Downloading https://files.pythonhosted.org/packages/28/a9/93636f5e38394b55dc37b56161f53cf4171bbdbe94c330621b51f3ff12f9/pyjellyfish-1.1.1.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/20/8a/73027b935cadace2a996b7f38db3705600afcd06272f73aafaefe6052f41/switbuilder_core-0.0.9.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [cjm-torchvision-tfms]: Downloading https://files.pythonhosted.org/packages/9f/4b/970172af3cbc46789044af356f397da09e805c2fc054b672773f14ab6021/cjm-torchvision-tfms-0.0.1.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.8.tar.gz tmp/switbuilder_core-0.0.9.tar.gz --markdown 20230801/s/switbuilder-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/32/7a/bfc33451c168f8d5682e17413eb7b57e0920b02ae252488057bf909a5a71/mct-nightly-1.9.0.20230731.post422.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/a0/f9/006133bed6c204208c792b0b05e3d8642c2b66bc4ce357c9eba957f7c3c0/flask_shopify_utils-0.0.5.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/70/1f/943fd838521cec3b3653cf4ee3e63d8ec1582554bb9f70582aa183789244/torchdatasets-nightly-1690761793.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [bikeshare-model]: Downloading https://files.pythonhosted.org/packages/a3/c4/b12d8ba5822953ee1b20bb38b00115f50aedd008b92d2397a4c3f294f75e/bikeshare_model-1.0.0-py3-none-any.whl
+[2023-08-01 02:05:53] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Downloading https://files.pythonhosted.org/packages/a5/35/77391fb27067de60169cb289bd2577928fdd4a47f364673fe38812583ee9/cdk-simplewebsite-deploy-2.0.9.tar.gz
+[2023-08-01 02:05:53] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1690675418.tar.gz tmp/torchdatasets-nightly-1690761793.tar.gz --markdown 20230801/t/torchdatasets-nightly/1690675418-1690761793/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [flask-shopify-utils]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [flask-shopify-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_shopify_utils-0.0.4.tar.gz tmp/flask_shopify_utils-0.0.5.tar.gz --markdown 20230801/f/flask-shopify-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230801/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230801/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230730.post503.tar.gz tmp/mct-nightly-1.9.0.20230731.post422.tar.gz --markdown 20230801/m/mct-nightly/1.9.0.20230730.post503-1.9.0.20230731.post422/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [bikeshare-model]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [bikeshare-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshare_model-0.1.0-py3-none-any.whl.zip tmp/bikeshare_model-1.0.0-py3-none-any.whl.zip --markdown 20230801/b/bikeshare-model/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: executing diffoscope
+[2023-08-01 02:05:53] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz --markdown 20230801/c/cdk-simplewebsite-deploy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-01 02:05:53] INFO root fetch - processPackages [pyjellyfish]: Downloading https://files.pythonhosted.org/packages/5f/f0/86d82b41bd507e93f813f0c7adfedbe6e2a898f0a92834b0ba25a7a172bc/pyjellyfish-1.2.0.tar.gz
+[2023-08-01 02:05:54] INFO root fetch - processPackages [cjm-torchvision-tfms]: Downloading https://files.pythonhosted.org/packages/63/8c/a646882bc72e72fee470a44eab42361d39e0b00c3ad568e34eef6862ffd7/cjm-torchvision-tfms-0.0.2.tar.gz
+[2023-08-01 02:05:54] INFO root fetch - processPackages [cjm-torchvision-tfms]: executing diffoscope
+[2023-08-01 02:05:54] INFO root fetch - processPackages [cjm-torchvision-tfms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjm-torchvision-tfms-0.0.1.tar.gz tmp/cjm-torchvision-tfms-0.0.2.tar.gz --markdown 20230801/c/cjm-torchvision-tfms/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 02:05:54] INFO root fetch - processPackages [pyjellyfish]: executing diffoscope
+[2023-08-01 02:05:54] INFO root fetch - processPackages [pyjellyfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjellyfish-1.1.1.tar.gz tmp/pyjellyfish-1.2.0.tar.gz --markdown 20230801/p/pyjellyfish/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-08-01 02:05:54] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.8.tar.gz]
+[2023-08-01 02:05:54] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.9.tar.gz]
+[2023-08-01 02:05:54] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690675418.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1690761793.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.4.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.5.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [flask-shopify-utils]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.8.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [cdk-simplewebsite-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-simplewebsite-deploy-2.0.9.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [cdk-simplewebsite-deploy]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-0.1.0-py3-none-any.whl.zip]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [bikeshare-model]: Remove: archive file [/home/abi/fetcher/tmp/bikeshare_model-1.0.0-py3-none-any.whl.zip]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [bikeshare-model]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [cjm-torchvision-tfms]: Remove: archive file [/home/abi/fetcher/tmp/cjm-torchvision-tfms-0.0.1.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [cjm-torchvision-tfms]: Remove: archive file [/home/abi/fetcher/tmp/cjm-torchvision-tfms-0.0.2.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [cjm-torchvision-tfms]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-08-01 02:05:55] INFO root fetch - processPackages [pyjellyfish]: Remove: archive file [/home/abi/fetcher/tmp/pyjellyfish-1.1.1.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - processPackages [pyjellyfish]: Remove: archive file [/home/abi/fetcher/tmp/pyjellyfish-1.2.0.tar.gz]
+[2023-08-01 02:05:55] INFO root fetch - main [MainThread]: End processing [pyjellyfish]: success
+[2023-08-01 02:05:57] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230730.post503.tar.gz]
+[2023-08-01 02:05:57] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230731.post422.tar.gz]
+[2023-08-01 02:05:57] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-08-01 02:05:57] INFO root fetch - main [MainThread]: Store serial: [19114840]
