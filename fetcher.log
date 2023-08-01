@@ -13530,3 +13530,108 @@
 [2023-08-01 07:16:02] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-08-01 07:16:02] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-08-01 07:16:02] INFO root fetch - main [MainThread]: Store serial: [19118869]
+[2023-08-01 07:21:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118869]
+[2023-08-01 07:21:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-pharmacy
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rclip
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-pharmacy-dashboard
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d20-securityLayer
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-phq9
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-prn
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fschat
+[2023-08-01 07:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandas-rose
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-pharmacy-dashboard]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-phq9]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [rclip]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-pharmacy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230801] Old Version: [0.5.4.dev20230731]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-prn]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [fschat]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 07:21:11] WARNING root fetch - processPackages [pandas-rose]: Skipping, unable to determine old version
+[2023-08-01 07:21:11] INFO root fetch - processPackages [pandas-rose]: Start processing: edc-protocol-incident
+[2023-08-01 07:21:11] INFO root fetch - main [MainThread]: End processing [pandas-rose] error
+[2023-08-01 07:21:11] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-pharmacy-dashboard]: Downloading https://files.pythonhosted.org/packages/61/17/231abbb365f9910e708da28d9f8a3bdfd46f4834d150a5dd8dc1a3fc0f93/edc-pharmacy-dashboard-0.1.3.tar.gz
+[2023-08-01 07:21:11] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-protocol-incident]: New version: [0.1.27] Old Version: [0.1.26]
+[2023-08-01 07:21:11] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/f1/e4/48b2002c4586935d0481502681f5c917fa972aa8fbab6f61d19924f0913e/rapidpe_rift_pipe-0.5.4.dev20230731.tar.gz
+[2023-08-01 07:21:11] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/58/b6/7293e67f44540ab4bb39975d41f36f2527334ce40b78bbb73b908259a306/rclip-1.4.2.tar.gz
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-pharmacy]: Downloading https://files.pythonhosted.org/packages/d8/fd/29ba85dbb1a66fdc98d26e782a7eda1905ff01caa1381d521720403282cd/edc-pharmacy-0.1.8.tar.gz
+[2023-08-01 07:21:11] INFO root fetch - processPackages [edc-prn]: Downloading https://files.pythonhosted.org/packages/3e/98/62d6181048190965b6e00ba9d3174ae726e4d33f5bac66e28783a283d1b5/edc-prn-0.3.8.tar.gz
+[2023-08-01 07:21:11] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/87/62/b4da7a5a785f37c352f8353cd89801af7ae84d326d5f4edc3084d11032dd/fschat-0.2.8.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-phq9]: Downloading https://files.pythonhosted.org/packages/88/01/92d6ca18b57de3e21b3687ca7b2ace4997990ba17538db86b84b205cbfc2/edc-phq9-0.1.8.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-protocol-incident]: Downloading https://files.pythonhosted.org/packages/b3/6b/7eed04a2a55d838db9d476f4376d8ae352ddcf5dd5ec84b9f6481d6a4536/edc-protocol-incident-0.1.26.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-pharmacy-dashboard]: Downloading https://files.pythonhosted.org/packages/ca/ca/6d43b963f916c2ec1192a1c3473a1c56bd354fbc0084e638efa32aab88ab/edc-pharmacy-dashboard-0.1.4.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/bf/19/39aebbc9aa823e0e922f2e23b822c090ea880ac9fff99aa4504058223b29/rclip-1.4.3.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/29/6a/8244ae0d7214874d7280ee95adeb1448762ee33fb1f8c92794f235cd768e/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230801/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-pharmacy]: Downloading https://files.pythonhosted.org/packages/76/98/716ce513dd96a255a4e89d06aee44a862e1236127efdc48e078ab9c8ecd1/edc-pharmacy-0.1.9.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230801/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-pharmacy-dashboard]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-pharmacy-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pharmacy-dashboard-0.1.3.tar.gz tmp/edc-pharmacy-dashboard-0.1.4.tar.gz --markdown 20230801/e/edc-pharmacy-dashboard/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [fschat]: Downloading https://files.pythonhosted.org/packages/c1/b0/505c6a4e83ac92e1871d446b70a468976b4ccdcfd047b5ebd73e5d37ba8b/fschat-0.2.9.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230731.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz --markdown 20230801/r/rapidpe-rift-pipe/0.5.4.dev20230731-0.5.4.dev20230801/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-prn]: Downloading https://files.pythonhosted.org/packages/08/3d/a44261ba2feee5d4f412520a725138703c7380825efba9087338b250101a/edc-prn-0.3.9.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-pharmacy]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-pharmacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pharmacy-0.1.8.tar.gz tmp/edc-pharmacy-0.1.9.tar.gz --markdown 20230801/e/edc-pharmacy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-phq9]: Downloading https://files.pythonhosted.org/packages/70/2f/960ecd562dd1c2d8603b2653a50c79df018035f3d69eaed92e0320c7b4c8/edc-phq9-0.1.9.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.2.tar.gz tmp/rclip-1.4.3.tar.gz --markdown 20230801/r/rclip/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-protocol-incident]: Downloading https://files.pythonhosted.org/packages/48/0b/7b72f49db771037c57b196fb51289563be783597f70c950b43815426f82e/edc-protocol-incident-0.1.27.tar.gz
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-prn]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-prn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-prn-0.3.8.tar.gz tmp/edc-prn-0.3.9.tar.gz --markdown 20230801/e/edc-prn/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [fschat]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [fschat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fschat-0.2.8.tar.gz tmp/fschat-0.2.9.tar.gz --markdown 20230801/f/fschat/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-phq9]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-phq9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-phq9-0.1.8.tar.gz tmp/edc-phq9-0.1.9.tar.gz --markdown 20230801/e/edc-phq9/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-protocol-incident]: executing diffoscope
+[2023-08-01 07:21:12] INFO root fetch - processPackages [edc-protocol-incident]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-protocol-incident-0.1.26.tar.gz tmp/edc-protocol-incident-0.1.27.tar.gz --markdown 20230801/e/edc-protocol-incident/0.1.26-0.1.27/diff.md --exclude *.pyd
+[2023-08-01 07:21:13] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-08-01 07:21:13] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-08-01 07:21:13] INFO root fetch - processPackages [d20-securityLayer]: Start processing: slice-to-py-dist
+[2023-08-01 07:21:13] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-08-01 07:21:13] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-08-01 07:21:13] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-08-01 07:21:13] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-08-01 07:21:13] INFO root fetch - processPackages [slice-to-py-dist]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-01 07:21:13] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.2.tar.gz]
+[2023-08-01 07:21:13] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.3.tar.gz]
+[2023-08-01 07:21:13] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230731.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230801.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-pharmacy-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-dashboard-0.1.3.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-pharmacy-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-dashboard-0.1.4.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - main [MainThread]: End processing [edc-pharmacy-dashboard]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [slice-to-py-dist]: Downloading https://files.pythonhosted.org/packages/fd/72/68a8abb38a7d01774f2ba7b2116727f2cc57e6e626b03af313c03a9f5943/slice_to_py_dist-0.3.0.tar.gz
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-prn]: Remove: archive file [/home/abi/fetcher/tmp/edc-prn-0.3.8.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-prn]: Remove: archive file [/home/abi/fetcher/tmp/edc-prn-0.3.9.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - main [MainThread]: End processing [edc-prn]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-pharmacy]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-0.1.8.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-pharmacy]: Remove: archive file [/home/abi/fetcher/tmp/edc-pharmacy-0.1.9.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - main [MainThread]: End processing [edc-pharmacy]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-phq9]: Remove: archive file [/home/abi/fetcher/tmp/edc-phq9-0.1.8.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-phq9]: Remove: archive file [/home/abi/fetcher/tmp/edc-phq9-0.1.9.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - main [MainThread]: End processing [edc-phq9]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [slice-to-py-dist]: Downloading https://files.pythonhosted.org/packages/0a/c9/172e02b17c91c004f63d4288b6f03f1caae29c643f85dcb70f3902f6f9e6/slice_to_py_dist-0.3.1.tar.gz
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-protocol-incident]: Remove: archive file [/home/abi/fetcher/tmp/edc-protocol-incident-0.1.26.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - processPackages [edc-protocol-incident]: Remove: archive file [/home/abi/fetcher/tmp/edc-protocol-incident-0.1.27.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - main [MainThread]: End processing [edc-protocol-incident]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.8.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - processPackages [fschat]: Remove: archive file [/home/abi/fetcher/tmp/fschat-0.2.9.tar.gz]
+[2023-08-01 07:21:14] INFO root fetch - main [MainThread]: End processing [fschat]: success
+[2023-08-01 07:21:14] INFO root fetch - processPackages [slice-to-py-dist]: executing diffoscope
+[2023-08-01 07:21:14] INFO root fetch - processPackages [slice-to-py-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slice_to_py_dist-0.3.0.tar.gz tmp/slice_to_py_dist-0.3.1.tar.gz --markdown 20230801/s/slice-to-py-dist/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-01 07:21:15] INFO root fetch - processPackages [slice-to-py-dist]: Remove: archive file [/home/abi/fetcher/tmp/slice_to_py_dist-0.3.0.tar.gz]
+[2023-08-01 07:21:15] INFO root fetch - processPackages [slice-to-py-dist]: Remove: archive file [/home/abi/fetcher/tmp/slice_to_py_dist-0.3.1.tar.gz]
+[2023-08-01 07:21:15] INFO root fetch - main [MainThread]: End processing [slice-to-py-dist]: success
+[2023-08-01 07:21:15] INFO root fetch - main [MainThread]: Store serial: [19118913]
