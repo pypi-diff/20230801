@@ -13870,3 +13870,117 @@
 [2023-08-01 07:31:42] INFO root fetch - processPackages [ndbc-api]: Remove: archive file [/home/abi/fetcher/tmp/ndbc-api-0.23.7.31.tar.gz]
 [2023-08-01 07:31:42] INFO root fetch - main [MainThread]: End processing [ndbc-api]: success
 [2023-08-01 07:31:42] INFO root fetch - main [MainThread]: Store serial: [19119025]
+[2023-08-01 07:36:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119025]
+[2023-08-01 07:36:51] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kioss
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ciokatana
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-subject-dashboard
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablate
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-transfer
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-xcom-backend-triggerer
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: censoredzz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-unblinding
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mizu
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edc-utils
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-utils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [censoredzz]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-unblinding]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ciokatana]: New version: [0.1.0rc5] Old Version: [0.1.0rc3]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-transfer]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [kioss]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-subject-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [mizu]: New version: [0.2.1] Old Version: [0.2.0a5]
+[2023-08-01 07:36:51] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/8b/2e/b55ca15dfcdadf1c8b11f414fdaa7d19832354e49f4921445386f62a5e77/kioss-0.2.5.tar.gz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/8d/f1/86f684f35a1b9ca5bf3d56a7b2151fc67f462186ef9ceadf9d184a7affa0/censoredzz-1.0.4.tar.gz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-utils]: Downloading https://files.pythonhosted.org/packages/cb/66/e90e415e8707c8f9f9ecf4a54ed26779d1e117fff293baccdc450ea803b8/edc-utils-0.3.8.tar.gz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Downloading https://files.pythonhosted.org/packages/b2/0c/af0aa55d7abd1b234d767ef43d2fe8f3426fdb3d54426804c9a8c60e1ba9/gs_xcom_backend_triggerer-0.0.2.tar.gz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/33/cc/f612c03bfb014834dd2fda06f81a4de01f7d499c4b4b8e0a4839fbb49e97/ciokatana-0.1.0rc3-py2.py3-none-any.whl
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-unblinding]: Downloading https://files.pythonhosted.org/packages/30/53/0899df7b605426521044bea5879810a9044b425eedb7ab5d23e3c668744a/edc-unblinding-0.1.8.tar.gz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-transfer]: Downloading https://files.pythonhosted.org/packages/33/99/398e16dab466f22b316931d8b82af7a3c2c1faf344a269cf0b8a3b231f8a/edc-transfer-0.3.8.tar.gz
+[2023-08-01 07:36:51] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/e2/de/4ac899f759846a1ffcc6a6347a85e786c1b637d41680d2cae0a6c2007b55/edc_subject_dashboard-0.3.8-py3-none-any.whl
+[2023-08-01 07:36:51] INFO root fetch - processPackages [mizu]: Downloading https://files.pythonhosted.org/packages/4f/8c/9c8a2e7ef30cd3954574368ec56cff724581ac8df2c055ce40386f71deec/mizu-0.2.0a5.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [kioss]: Downloading https://files.pythonhosted.org/packages/17/4d/a816df1dbacdcb88cb2c609b2e658f046791c09b2fc076e6e1c06c9c662e/kioss-0.2.6.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230801/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-utils]: Downloading https://files.pythonhosted.org/packages/38/72/edd21a261064b267d6be6d3bc34c287f2b6c399f749cb1826a2873c4553f/edc-utils-0.3.9.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Downloading https://files.pythonhosted.org/packages/6c/db/f9109af4c0c592feb25aab3894c9955d68e81d7094363c7d6085cc1346d8/gs_xcom_backend_triggerer-0.0.3.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-unblinding]: Downloading https://files.pythonhosted.org/packages/30/c9/f731a3fe6f02cacb095683a28716da0b4d41c351e054d5c3987efb0d53a7/edc-unblinding-0.1.9.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/60/c1/445a890df7886c54b1a1a52289ca9d4a9808a3111f56cfa26644bfa37b48/ciokatana-0.1.0rc5-py2.py3-none-any.whl
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-subject-dashboard]: Downloading https://files.pythonhosted.org/packages/dc/b2/f27cfd5946aaa1c7ae940b84f419cae29f450e721aac2786e84e4a456a12/edc_subject_dashboard-0.3.9-py3-none-any.whl
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-utils]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-utils-0.3.8.tar.gz tmp/edc-utils-0.3.9.tar.gz --markdown 20230801/e/edc-utils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [mizu]: Downloading https://files.pythonhosted.org/packages/23/b7/76d5f699d4b479fd0d00235a81855fffbb8a85de33b64dea5c6d0d626f8d/mizu-0.2.1.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-transfer]: Downloading https://files.pythonhosted.org/packages/81/e4/e37e43f8687d0e2c0bf54009a6e1fa219ea664c85e1fd339d9099629325f/edc-transfer-0.3.9.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/c4/45/e5e2cd1ac164e2086c8b02cab03a7a4f4dbe3d0d1a05c8498cef78a351ec/censoredzz-1.0.5.tar.gz
+[2023-08-01 07:36:52] INFO root fetch - processPackages [kioss]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [kioss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kioss-0.2.5.tar.gz tmp/kioss-0.2.6.tar.gz --markdown 20230801/k/kioss/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-unblinding]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-unblinding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-unblinding-0.1.8.tar.gz tmp/edc-unblinding-0.1.9.tar.gz --markdown 20230801/e/edc-unblinding/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_xcom_backend_triggerer-0.0.2.tar.gz tmp/gs_xcom_backend_triggerer-0.0.3.tar.gz --markdown 20230801/g/gs-xcom-backend-triggerer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-subject-dashboard]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-subject-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip --markdown 20230801/e/edc-subject-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-transfer]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [ciokatana]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [edc-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-transfer-0.3.8.tar.gz tmp/edc-transfer-0.3.9.tar.gz --markdown 20230801/e/edc-transfer/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [ciokatana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciokatana-0.1.0rc3-py2.py3-none-any.whl.zip tmp/ciokatana-0.1.0rc5-py2.py3-none-any.whl.zip --markdown 20230801/c/ciokatana/0.1.0rc3-0.1.0rc5/diff.md --exclude *.pyd
+[2023-08-01 07:36:52] INFO root fetch - processPackages [mizu]: executing diffoscope
+[2023-08-01 07:36:52] INFO root fetch - processPackages [mizu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizu-0.2.0a5.tar.gz tmp/mizu-0.2.1.tar.gz --markdown 20230801/m/mizu/0.2.0a5-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 07:36:53] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.5.tar.gz]
+[2023-08-01 07:36:53] INFO root fetch - processPackages [kioss]: Remove: archive file [/home/abi/fetcher/tmp/kioss-0.2.6.tar.gz]
+[2023-08-01 07:36:53] INFO root fetch - processPackages [kioss]: Start processing: pandas-rose
+[2023-08-01 07:36:53] INFO root fetch - main [MainThread]: End processing [kioss]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [censoredzz]: executing diffoscope
+[2023-08-01 07:36:54] INFO root fetch - processPackages [censoredzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredzz-1.0.4.tar.gz tmp/censoredzz-1.0.5.tar.gz --markdown 20230801/c/censoredzz/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-01 07:36:54] INFO root fetch - processPackages [pandas-rose]: New version: [2023.7.0.post0] Old Version: [2023.7.0]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-unblinding]: Remove: archive file [/home/abi/fetcher/tmp/edc-unblinding-0.1.8.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-unblinding]: Remove: archive file [/home/abi/fetcher/tmp/edc-unblinding-0.1.9.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-unblinding]: Start processing: sapientml
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [edc-unblinding]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc-utils-0.3.8.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-utils]: Remove: archive file [/home/abi/fetcher/tmp/edc-utils-0.3.9.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-utils]: Start processing: momos-helper
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [edc-utils]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Remove: archive file [/home/abi/fetcher/tmp/gs_xcom_backend_triggerer-0.0.2.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Remove: archive file [/home/abi/fetcher/tmp/gs_xcom_backend_triggerer-0.0.3.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [gs-xcom-backend-triggerer]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [sapientml]: New version: [0.1.4rc0] Old Version: [0.1.4]
+[2023-08-01 07:36:54] WARNING root fetch - processPackages [momos-helper]: Skipping, unable to determine old version
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [momos-helper] error
+[2023-08-01 07:36:54] INFO root fetch - processPackages [pandas-rose]: Downloading https://files.pythonhosted.org/packages/d9/b8/e1e4b21f512189f20d89f1af3e38ee906135811a7b762e23779b4b53632b/pandas-rose-2023.7.0.tar.gz
+[2023-08-01 07:36:54] INFO root fetch - processPackages [mizu]: Remove: archive file [/home/abi/fetcher/tmp/mizu-0.2.0a5.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [mizu]: Remove: archive file [/home/abi/fetcher/tmp/mizu-0.2.1.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [mizu]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-transfer]: Remove: archive file [/home/abi/fetcher/tmp/edc-transfer-0.3.8.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-transfer]: Remove: archive file [/home/abi/fetcher/tmp/edc-transfer-0.3.9.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [edc-transfer]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/91/e9/b9bef61ebaee0ad768833598c988bbde9a608fe9e9b5167ba37dd6521f46/sapientml-0.1.4.tar.gz
+[2023-08-01 07:36:54] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.0rc3-py2.py3-none-any.whl.zip]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.0rc5-py2.py3-none-any.whl.zip]
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [ciokatana]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 07:36:54] INFO root fetch - processPackages [edc-subject-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc_subject_dashboard-0.3.9-py3-none-any.whl.zip]
+[2023-08-01 07:36:54] INFO root fetch - main [MainThread]: End processing [edc-subject-dashboard]: success
+[2023-08-01 07:36:54] INFO root fetch - processPackages [sapientml]: Downloading https://files.pythonhosted.org/packages/df/e2/afbabb9049358cc1b7538e9f43939fdc70cf65fc96235e3a9885a237817e/sapientml-0.1.4rc0.tar.gz
+[2023-08-01 07:36:54] INFO root fetch - processPackages [sapientml]: executing diffoscope
+[2023-08-01 07:36:54] INFO root fetch - processPackages [sapientml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapientml-0.1.4.tar.gz tmp/sapientml-0.1.4rc0.tar.gz --markdown 20230801/s/sapientml/0.1.4-0.1.4rc0/diff.md --exclude *.pyd
+[2023-08-01 07:36:54] INFO root fetch - processPackages [pandas-rose]: Downloading https://files.pythonhosted.org/packages/f0/93/d2d2b5608dbb724b381835d7fd15d7cda133e40c095ee2b29886f99be6c9/pandas-rose-2023.7.0.post0.tar.gz
+[2023-08-01 07:36:55] INFO root fetch - processPackages [pandas-rose]: executing diffoscope
+[2023-08-01 07:36:55] INFO root fetch - processPackages [pandas-rose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-rose-2023.7.0.tar.gz tmp/pandas-rose-2023.7.0.post0.tar.gz --markdown 20230801/p/pandas-rose/2023.7.0-2023.7.0.post0/diff.md --exclude *.pyd
+[2023-08-01 07:36:55] INFO root fetch - processPackages [sapientml]: Remove: archive file [/home/abi/fetcher/tmp/sapientml-0.1.4.tar.gz]
+[2023-08-01 07:36:55] INFO root fetch - processPackages [sapientml]: Remove: archive file [/home/abi/fetcher/tmp/sapientml-0.1.4rc0.tar.gz]
+[2023-08-01 07:36:55] INFO root fetch - main [MainThread]: End processing [sapientml]: success
+[2023-08-01 07:36:56] INFO root fetch - processPackages [pandas-rose]: Remove: archive file [/home/abi/fetcher/tmp/pandas-rose-2023.7.0.tar.gz]
+[2023-08-01 07:36:56] INFO root fetch - processPackages [pandas-rose]: Remove: archive file [/home/abi/fetcher/tmp/pandas-rose-2023.7.0.post0.tar.gz]
+[2023-08-01 07:36:56] INFO root fetch - main [MainThread]: End processing [pandas-rose]: success
+[2023-08-01 07:36:56] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.4.tar.gz]
+[2023-08-01 07:36:56] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.5.tar.gz]
+[2023-08-01 07:36:56] INFO root fetch - main [MainThread]: End processing [censoredzz]: success
+[2023-08-01 07:36:56] INFO root fetch - main [MainThread]: Store serial: [19119084]
