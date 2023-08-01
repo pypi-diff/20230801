@@ -10259,3 +10259,47 @@
 [2023-08-01 04:06:50] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a2.tar.gz]
 [2023-08-01 04:06:50] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
 [2023-08-01 04:06:50] INFO root fetch - main [MainThread]: Store serial: [19117500]
+[2023-08-01 04:11:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117500]
+[2023-08-01 04:11:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-01 04:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj-monaco
+[2023-08-01 04:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huhk
+[2023-08-01 04:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-tools2
+[2023-08-01 04:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flypipe
+[2023-08-01 04:11:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modelbit
+[2023-08-01 04:11:58] INFO root fetch - processPackages [json-tools2]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 04:11:58] INFO root fetch - processPackages [huhk]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-08-01 04:11:58] INFO root fetch - processPackages [flypipe]: New version: [4.0.0] Old Version: [3.0.3]
+[2023-08-01 04:11:58] INFO root fetch - processPackages [dj-monaco]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-01 04:11:58] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-01 04:11:59] INFO root fetch - processPackages [json-tools2]: Downloading https://files.pythonhosted.org/packages/e7/1e/006f4c5fc1ad1dc4b1639406d2bc5335fc12363d7752bde8f97cb759223b/json-tools2-0.0.8.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/e6/22/d7a93a71952c6ade0151adeaddd61d81bbbf2222d4fd724837b7c57276ea/huhk-1.9.5.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [flypipe]: Downloading https://files.pythonhosted.org/packages/87/69/26ed4fc79ac0cd1b22ca2500705e2daff526907da51653eb9e09a878ae4e/flypipe-3.0.3.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [dj-monaco]: Downloading https://files.pythonhosted.org/packages/3c/d3/1ec57d6dee89555c28ccdbce4d09252e6ddd66ff189bf91309345137c162/dj_monaco-1.0.0-py2.py3-none-any.whl
+[2023-08-01 04:11:59] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-08-01 04:11:59] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.9.4.tar.gz tmp/huhk-1.9.5.tar.gz --markdown 20230801/h/huhk/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-08-01 04:11:59] INFO root fetch - processPackages [json-tools2]: Downloading https://files.pythonhosted.org/packages/36/11/2c2ad9f23f3e80a2419942caf2e910ee6f926da735674275523c8b9cfa9d/json-tools2-0.0.9.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [dj-monaco]: Downloading https://files.pythonhosted.org/packages/bb/fa/cd914e52d7295c0acda038c36dd37b3608c1fe410e199e6390d9915771f1/dj-monaco-1.0.1.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [json-tools2]: executing diffoscope
+[2023-08-01 04:11:59] INFO root fetch - processPackages [json-tools2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-tools2-0.0.8.tar.gz tmp/json-tools2-0.0.9.tar.gz --markdown 20230801/j/json-tools2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 04:11:59] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [dj-monaco]: executing diffoscope
+[2023-08-01 04:11:59] INFO root fetch - processPackages [dj-monaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj_monaco-1.0.0-py2.py3-none-any.whl.zip tmp/dj-monaco-1.0.1.tar.gz --markdown 20230801/d/dj-monaco/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-01 04:11:59] INFO root fetch - processPackages [flypipe]: Downloading https://files.pythonhosted.org/packages/1b/fb/78262875acd9ae70aee514d4e24bef3be134e8741db5246039722c591126/flypipe-4.0.0.tar.gz
+[2023-08-01 04:11:59] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-08-01 04:11:59] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230801/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-01 04:11:59] WARNING root fetch - processPackages [flypipe]: Skipping package: exceeds size limit 46089075>=10485760
+[2023-08-01 04:11:59] INFO root fetch - main [MainThread]: End processing [flypipe] error
+[2023-08-01 04:12:00] INFO root fetch - processPackages [json-tools2]: Remove: archive file [/home/abi/fetcher/tmp/json-tools2-0.0.8.tar.gz]
+[2023-08-01 04:12:00] INFO root fetch - processPackages [json-tools2]: Remove: archive file [/home/abi/fetcher/tmp/json-tools2-0.0.9.tar.gz]
+[2023-08-01 04:12:00] INFO root fetch - main [MainThread]: End processing [json-tools2]: success
+[2023-08-01 04:12:00] INFO root fetch - processPackages [dj-monaco]: Remove: archive file [/home/abi/fetcher/tmp/dj_monaco-1.0.0-py2.py3-none-any.whl.zip]
+[2023-08-01 04:12:00] INFO root fetch - processPackages [dj-monaco]: Remove: archive file [/home/abi/fetcher/tmp/dj-monaco-1.0.1.tar.gz]
+[2023-08-01 04:12:00] INFO root fetch - main [MainThread]: End processing [dj-monaco]: success
+[2023-08-01 04:12:00] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.4.tar.gz]
+[2023-08-01 04:12:00] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.5.tar.gz]
+[2023-08-01 04:12:00] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-08-01 04:12:00] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-08-01 04:12:00] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-08-01 04:12:00] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-08-01 04:12:00] INFO root fetch - main [MainThread]: Store serial: [19117517]
