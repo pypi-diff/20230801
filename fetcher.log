@@ -20710,3 +20710,66 @@
 [2023-08-01 12:54:19] INFO root fetch - processPackages [eigenpy]: Remove: archive file [/home/abi/fetcher/tmp/eigenpy-3.1.1-0-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
 [2023-08-01 12:54:19] INFO root fetch - main [MainThread]: End processing [eigenpy]: success
 [2023-08-01 12:54:19] INFO root fetch - main [MainThread]: Store serial: [19122329]
+[2023-08-01 12:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122329]
+[2023-08-01 12:59:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awspstore
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlp-pos-tagger
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: specklia
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-opnsense
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinjected
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mypy-boto3-builder
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: repo-loader
+[2023-08-01 12:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gytoolkit
+[2023-08-01 12:59:30] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-08-01 12:59:30] INFO root fetch - processPackages [gytoolkit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-01 12:59:30] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-01 12:59:30] INFO root fetch - processPackages [repo-loader]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-01 12:59:30] WARNING root fetch - processPackages [nlp-pos-tagger]: Skipping, unable to determine old version
+[2023-08-01 12:59:30] INFO root fetch - main [MainThread]: End processing [nlp-pos-tagger] error
+[2023-08-01 12:59:30] INFO root fetch - processPackages [awspstore]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-01 12:59:30] WARNING root fetch - processPackages [pinjected]: Skipping, unable to determine old version
+[2023-08-01 12:59:30] INFO root fetch - main [MainThread]: End processing [pinjected] error
+[2023-08-01 12:59:30] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 12:59:30] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/8f/cb/5842cca9d38e081f394ade4163addd74f4c392e68db3241bd05636e2124c/repo-loader-0.2.1.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/eb/b4/ec116bb670978b5b0673ee7608045eca544c7089a4cd67f25a817bfedab2/gytoolkit-0.1.0.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/fd/91/db6d8d8324efbed093ee44336c179d0229369e936fa98307306c73662142/pulumi_opnsense-0.1.2.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [awspstore]: Downloading https://files.pythonhosted.org/packages/c6/e9/295a3f14ccf6a6ad75020b4996a71300d0e30834a5f85dfe0bc117a6dec2/awspstore-1.4.0.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/de/73/e52b8366f3ebd8c3947f45bc76f0c6895ab3c43a5882f06abc99c20c3f2c/gytoolkit-0.2.0.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [gytoolkit]: executing diffoscope
+[2023-08-01 12:59:30] INFO root fetch - processPackages [gytoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gytoolkit-0.1.0.tar.gz tmp/gytoolkit-0.2.0.tar.gz --markdown 20230801/g/gytoolkit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:59:30] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/b8/63/a6c00d7f71658c8c7dd2718fea0308a4ecce3e779aa7bf76dbf24e9e3405/repo-loader-0.2.2.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/68/9f/68fcb0db1b512417eb884e319003a280da14f8087c86244eca6a389a7091/pulumi_opnsense-0.1.3.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [awspstore]: Downloading https://files.pythonhosted.org/packages/f0/a3/190bff94888fcd5b1eeeaf58c3f8972f2cd15bf72ec5aef8823541055a3b/awspstore-1.4.1.tar.gz
+[2023-08-01 12:59:30] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-08-01 12:59:31] INFO root fetch - processPackages [repo-loader]: executing diffoscope
+[2023-08-01 12:59:31] INFO root fetch - processPackages [repo-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-loader-0.2.1.tar.gz tmp/repo-loader-0.2.2.tar.gz --markdown 20230801/r/repo-loader/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-01 12:59:31] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-08-01 12:59:31] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.1.2.tar.gz tmp/pulumi_opnsense-0.1.3.tar.gz --markdown 20230801/p/pulumi-opnsense/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 12:59:31] INFO root fetch - processPackages [awspstore]: executing diffoscope
+[2023-08-01 12:59:31] INFO root fetch - processPackages [awspstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awspstore-1.4.0.tar.gz tmp/awspstore-1.4.1.tar.gz --markdown 20230801/a/awspstore/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-01 12:59:31] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-08-01 12:59:31] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-08-01 12:59:31] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230801/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-08-01 12:59:31] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-08-01 12:59:31] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230801/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-01 12:59:31] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.1.0.tar.gz]
+[2023-08-01 12:59:31] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.2.0.tar.gz]
+[2023-08-01 12:59:31] INFO root fetch - main [MainThread]: End processing [gytoolkit]: success
+[2023-08-01 12:59:32] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.1.2.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.1.3.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-08-01 12:59:32] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-08-01 12:59:32] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.2.1.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.2.2.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - main [MainThread]: End processing [repo-loader]: success
+[2023-08-01 12:59:32] INFO root fetch - processPackages [awspstore]: Remove: archive file [/home/abi/fetcher/tmp/awspstore-1.4.0.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - processPackages [awspstore]: Remove: archive file [/home/abi/fetcher/tmp/awspstore-1.4.1.tar.gz]
+[2023-08-01 12:59:32] INFO root fetch - main [MainThread]: End processing [awspstore]: success
+[2023-08-01 12:59:33] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-08-01 12:59:33] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-08-01 12:59:33] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-08-01 12:59:33] INFO root fetch - main [MainThread]: Store serial: [19122356]
