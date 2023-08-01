@@ -18168,3 +18168,109 @@
 [2023-08-01 11:05:04] INFO root fetch - processPackages [odoo14-addon-l10n-es-aeat-mod390]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_es_aeat_mod390-14.0.3.2.1-py3-none-any.whl.zip]
 [2023-08-01 11:05:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-es-aeat-mod390]: success
 [2023-08-01 11:05:04] INFO root fetch - main [MainThread]: Store serial: [19121151]
+[2023-08-01 11:10:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121151]
+[2023-08-01 11:10:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MyOverlay
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-searchbiliinfo
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LMTuner
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radarpipeline
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HQ-Test-Data
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiba-core
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: repo-loader
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: stable-diffusion-pytorch
+[2023-08-01 11:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: verybadpylib
+[2023-08-01 11:10:13] INFO root fetch - processPackages [kiba-core]: New version: [0.5.2.dev9] Old Version: [0.5.2.dev8]
+[2023-08-01 11:10:13] WARNING root fetch - processPackages [radarpipeline]: Skipping, unable to determine old version
+[2023-08-01 11:10:13] INFO root fetch - processPackages [radarpipeline]: Start processing: MyOverlay
+[2023-08-01 11:10:13] INFO root fetch - main [MainThread]: End processing [radarpipeline] error
+[2023-08-01 11:10:13] WARNING root fetch - processPackages [verybadpylib]: Skipping, unable to determine old version
+[2023-08-01 11:10:13] INFO root fetch - processPackages [verybadpylib]: Start processing: autocorrect-py
+[2023-08-01 11:10:13] INFO root fetch - main [MainThread]: End processing [verybadpylib] error
+[2023-08-01 11:10:13] WARNING root fetch - processPackages [repo-loader]: Skipping, unable to determine old version
+[2023-08-01 11:10:13] INFO root fetch - processPackages [repo-loader]: Start processing: gytoolkit
+[2023-08-01 11:10:13] INFO root fetch - main [MainThread]: End processing [repo-loader] error
+[2023-08-01 11:10:13] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-08-01 11:10:13] INFO root fetch - processPackages [MyOverlay]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 11:10:13] WARNING root fetch - processPackages [LMTuner]: Skipping, unable to determine old version
+[2023-08-01 11:10:13] INFO root fetch - processPackages [LMTuner]: Start processing: modal-client
+[2023-08-01 11:10:13] INFO root fetch - main [MainThread]: End processing [LMTuner] error
+[2023-08-01 11:10:13] INFO root fetch - processPackages [HQ-Test-Data]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 11:10:13] INFO root fetch - processPackages [stable-diffusion-pytorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 11:10:13] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230801090451] Old Version: [2.2.1.dev20230801070902]
+[2023-08-01 11:10:13] INFO root fetch - processPackages [MyOverlay]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 11:10:13] WARNING root fetch - processPackages [gytoolkit]: Skipping, unable to determine old version
+[2023-08-01 11:10:13] INFO root fetch - processPackages [gytoolkit]: Start processing: modal
+[2023-08-01 11:10:13] INFO root fetch - main [MainThread]: End processing [gytoolkit] error
+[2023-08-01 11:10:13] INFO root fetch - processPackages [modal-client]: New version: [0.50.2834] Old Version: [0.50.2831]
+[2023-08-01 11:10:13] INFO root fetch - processPackages [HQ-Test-Data]: Downloading https://files.pythonhosted.org/packages/29/a4/9170f72771ef36919f6b007389acc26780eed9962a455d205abb7ab5e6f2/HQ_Test_Data-0.0.4.tar.gz
+[2023-08-01 11:10:13] INFO root fetch - processPackages [autocorrect-py]: New version: [2.8.0] Old Version: [2.6.2]
+[2023-08-01 11:10:13] INFO root fetch - processPackages [stable-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/75/6a/6a449076a9696c1c6b9d9fdb20396570e7b2976e13cd8ac756c731289894/stable_diffusion_pytorch-0.0.1-py3-none-any.whl
+[2023-08-01 11:10:13] INFO root fetch - processPackages [modal]: New version: [0.50.2834] Old Version: [0.50.2831]
+[2023-08-01 11:10:13] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/aa/9d/6b5b4ff6a713de3757dd739b3e8de8c8ea4e0d9b1d012c5e7febe5042b07/kiba_core-0.5.2.dev8-py3-none-any.whl
+[2023-08-01 11:10:13] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/3e/df/c626582d33956d8075247efb36b91a560a74e938cebe4b1743756423b69b/modal-0.50.2831-py3-none-any.whl
+[2023-08-01 11:10:13] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b8/25/1f502de0f86f14603d0c4d2311d3506ecec096a4733279a4da70c254e545/modal_client-0.50.2831-py3-none-any.whl
+[2023-08-01 11:10:13] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/15/21/40c4116a11310d4484efff79b540fa5b6da533e7efda0cb59bc282c33788/MyOverlay-0.1.1.tar.gz
+[2023-08-01 11:10:13] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/15/21/40c4116a11310d4484efff79b540fa5b6da533e7efda0cb59bc282c33788/MyOverlay-0.1.1.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Downloading https://files.pythonhosted.org/packages/ac/87/4c21d9c8c6ba23ce799e6f4d3aeecfb690b82ddc68534bb2230246a6c4ae/nonebot_plugin_searchbiliinfo-1.7.8.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a1/a3/1db0802851dfff33b0be10a75785db41da3c3efb929118a62365ad2c7906/localstack-core-2.2.1.dev20230801070902.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [autocorrect-py]: Downloading https://files.pythonhosted.org/packages/19/fc/d3f5e1eac767781c5f93991f7f7482c3f011d51d691d74bfbb76f1fd46a7/autocorrect_py-2.6.2.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [HQ-Test-Data]: Downloading https://files.pythonhosted.org/packages/e0/ba/c277c9a55103593aa82458fb1abfbf947756cf6300891582a0b7ab207b7a/HQ_Test_Data-0.0.5.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [stable-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/10/1b/c33aaa38272368bc6772c5c7d7db23814dc2b72eca272dcae2a245dcd161/stable_diffusion_pytorch-0.0.2-py3-none-any.whl
+[2023-08-01 11:10:14] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/3e/36/744fae74cfdb43f1a618145407afbd75d62c3a29cd0a20352c94ff3f39aa/modal-0.50.2834-py3-none-any.whl
+[2023-08-01 11:10:14] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/7c/15/ba215edc73010ea7acfab6847fd03bf1baa3581ce5a238a5d44e36f7f179/kiba_core-0.5.2.dev9-py3-none-any.whl
+[2023-08-01 11:10:14] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/f4/ff/8309f17385ad144a286969fbbfb1bcc60e9c7516a22b291533de4a1ae43d/MyOverlay-0.1.2.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/f4/ff/8309f17385ad144a286969fbbfb1bcc60e9c7516a22b291533de4a1ae43d/MyOverlay-0.1.2.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/6e/37/323da3b344864b16913250ce73f46dabd4e5e84419fa2578c2e11264cf83/modal_client-0.50.2834-py3-none-any.whl
+[2023-08-01 11:10:14] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2831-py3-none-any.whl.zip tmp/modal-0.50.2834-py3-none-any.whl.zip --markdown 20230801/m/modal/0.50.2831-0.50.2834/diff.md --exclude *.pyd
+[2023-08-01 11:10:14] INFO root fetch - processPackages [stable-diffusion-pytorch]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [stable-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable_diffusion_pytorch-0.0.1-py3-none-any.whl.zip tmp/stable_diffusion_pytorch-0.0.2-py3-none-any.whl.zip --markdown 20230801/s/stable-diffusion-pytorch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 11:10:14] INFO root fetch - processPackages [HQ-Test-Data]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [HQ-Test-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HQ_Test_Data-0.0.4.tar.gz tmp/HQ_Test_Data-0.0.5.tar.gz --markdown 20230801/H/HQ-Test-Data/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 11:10:14] INFO root fetch - processPackages [autocorrect-py]: Downloading https://files.pythonhosted.org/packages/f9/01/bec3c6c728b4b3c8a8276dfff8b4fd3e565280fa170fc1f354d423642d9a/autocorrect_py-2.8.0.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [kiba-core]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [kiba-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiba_core-0.5.2.dev8-py3-none-any.whl.zip tmp/kiba_core-0.5.2.dev9-py3-none-any.whl.zip --markdown 20230801/k/kiba-core/0.5.2.dev8-0.5.2.dev9/diff.md --exclude *.pyd
+[2023-08-01 11:10:14] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.1.1.tar.gz tmp/MyOverlay-0.1.2.tar.gz --markdown 20230801/M/MyOverlay/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 11:10:14] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.1.1.tar.gz tmp/MyOverlay-0.1.2.tar.gz --markdown 20230801/M/MyOverlay/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 11:10:14] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2831-py3-none-any.whl.zip tmp/modal_client-0.50.2834-py3-none-any.whl.zip --markdown 20230801/m/modal-client/0.50.2831-0.50.2834/diff.md --exclude *.pyd
+[2023-08-01 11:10:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d7/6d/ac25f1ed1dc2c42fa6fff9e93ad2d4b09b5db16a632d4a532ccb01064136/localstack-core-2.2.1.dev20230801090451.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Downloading https://files.pythonhosted.org/packages/5a/ce/70e45622623f652b533e30f62659e75a547329d2ffc459bb2883cb201312/nonebot_plugin_searchbiliinfo-1.7.9.tar.gz
+[2023-08-01 11:10:14] INFO root fetch - processPackages [autocorrect-py]: executing diffoscope
+[2023-08-01 11:10:14] INFO root fetch - processPackages [autocorrect-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocorrect_py-2.6.2.tar.gz tmp/autocorrect_py-2.8.0.tar.gz --markdown 20230801/a/autocorrect-py/2.6.2-2.8.0/diff.md --exclude *.pyd
+[2023-08-01 11:10:15] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: executing diffoscope
+[2023-08-01 11:10:15] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_searchbiliinfo-1.7.8.tar.gz tmp/nonebot_plugin_searchbiliinfo-1.7.9.tar.gz --markdown 20230801/n/nonebot-plugin-searchbiliinfo/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-08-01 11:10:15] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-01 11:10:15] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230801070902.tar.gz tmp/localstack-core-2.2.1.dev20230801090451.tar.gz --markdown 20230801/l/localstack-core/2.2.1.dev20230801070902-2.2.1.dev20230801090451/diff.md --exclude *.pyd
+[2023-08-01 11:10:16] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2831-py3-none-any.whl.zip]
+[2023-08-01 11:10:16] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2834-py3-none-any.whl.zip]
+[2023-08-01 11:10:16] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-08-01 11:10:16] INFO root fetch - processPackages [HQ-Test-Data]: Remove: archive file [/home/abi/fetcher/tmp/HQ_Test_Data-0.0.4.tar.gz]
+[2023-08-01 11:10:16] INFO root fetch - processPackages [HQ-Test-Data]: Remove: archive file [/home/abi/fetcher/tmp/HQ_Test_Data-0.0.5.tar.gz]
+[2023-08-01 11:10:16] INFO root fetch - main [MainThread]: End processing [HQ-Test-Data]: success
+[2023-08-01 11:10:16] INFO root fetch - processPackages [stable-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/stable_diffusion_pytorch-0.0.1-py3-none-any.whl.zip]
+[2023-08-01 11:10:16] INFO root fetch - processPackages [stable-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/stable_diffusion_pytorch-0.0.2-py3-none-any.whl.zip]
+[2023-08-01 11:10:16] INFO root fetch - main [MainThread]: End processing [stable-diffusion-pytorch]: success
+[2023-08-01 11:10:16] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.1.tar.gz]
+[2023-08-01 11:10:16] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.2.tar.gz]
+[2023-08-01 11:10:16] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-01 11:10:16] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-01 11:10:16] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev8-py3-none-any.whl.zip]
+[2023-08-01 11:10:16] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev9-py3-none-any.whl.zip]
+[2023-08-01 11:10:16] INFO root fetch - main [MainThread]: End processing [kiba-core]: success
+[2023-08-01 11:10:17] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_searchbiliinfo-1.7.8.tar.gz]
+[2023-08-01 11:10:17] INFO root fetch - processPackages [nonebot-plugin-searchbiliinfo]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_searchbiliinfo-1.7.9.tar.gz]
+[2023-08-01 11:10:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-searchbiliinfo]: success
+[2023-08-01 11:10:17] INFO root fetch - processPackages [autocorrect-py]: Remove: archive file [/home/abi/fetcher/tmp/autocorrect_py-2.6.2.tar.gz]
+[2023-08-01 11:10:17] INFO root fetch - processPackages [autocorrect-py]: Remove: archive file [/home/abi/fetcher/tmp/autocorrect_py-2.8.0.tar.gz]
+[2023-08-01 11:10:17] INFO root fetch - main [MainThread]: End processing [autocorrect-py]: success
+[2023-08-01 11:10:17] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2831-py3-none-any.whl.zip]
+[2023-08-01 11:10:17] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2834-py3-none-any.whl.zip]
+[2023-08-01 11:10:17] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-08-01 11:10:20] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801070902.tar.gz]
+[2023-08-01 11:10:20] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801090451.tar.gz]
+[2023-08-01 11:10:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-01 11:10:20] INFO root fetch - main [MainThread]: Store serial: [19121213]
