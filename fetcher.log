@@ -15034,3 +15034,72 @@
 [2023-08-01 08:52:09] INFO root fetch - processPackages [qetrader]: Remove: archive file [/home/abi/fetcher/tmp/qetrader-1.0.9.tar.gz]
 [2023-08-01 08:52:09] INFO root fetch - main [MainThread]: End processing [qetrader]: success
 [2023-08-01 08:52:09] INFO root fetch - main [MainThread]: Store serial: [19119670]
+[2023-08-01 08:57:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119670]
+[2023-08-01 08:57:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chapyter
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: galaxy-datasets
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: petpptx
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: harpia
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smplkit
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: termynal
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: valipy
+[2023-08-01 08:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantiumbase
+[2023-08-01 08:57:18] INFO root fetch - processPackages [chapyter]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-01 08:57:18] INFO root fetch - processPackages [smplkit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 08:57:18] WARNING root fetch - processPackages [quantiumbase]: Skipping, unable to determine old version
+[2023-08-01 08:57:18] INFO root fetch - main [MainThread]: End processing [quantiumbase] error
+[2023-08-01 08:57:18] INFO root fetch - processPackages [petpptx]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 08:57:18] INFO root fetch - processPackages [valipy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-01 08:57:18] INFO root fetch - processPackages [termynal]: New version: [0.8.0] Old Version: [0.7.0a1]
+[2023-08-01 08:57:18] INFO root fetch - processPackages [harpia]: New version: [1.14] Old Version: [1.13]
+[2023-08-01 08:57:18] INFO root fetch - processPackages [galaxy-datasets]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 08:57:18] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/4e/2f/6f0587c1baf436fbc0ca3e64c0310a69d05c814b2a2bf0644e411ade2069/termynal-0.7.0a1.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [smplkit]: Downloading https://files.pythonhosted.org/packages/07/17/90cc4495d360aad7542c9d88f85c7701fb49acc6fc8b1cda2e61d8a79d76/smplkit-0.0.2.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [chapyter]: Downloading https://files.pythonhosted.org/packages/e8/3d/c06f708d91c38d135c441f26d6793cec36e5b38b2e8394237283c0283391/chapyter-0.3.0.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/de/ea/e754c4efa2a2c18edc7782405c83d7e0f21511b61ce9d161c284b536a6c9/harpia-1.13.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [petpptx]: Downloading https://files.pythonhosted.org/packages/62/be/b5fae0467818d630ffec9c0f77dd25ff536ca0b1ef8f40b147bf966fb5d5/petpptx-1.0.2.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/0c/f0/734836b8e89e7fc784f33725828f01919951570392f341ac5e35bc9c4b6c/valipy-0.2.2.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [galaxy-datasets]: Downloading https://files.pythonhosted.org/packages/56/32/2f4b96f59bc64523d46a4bb3788480afeb2ad48f95cf539f8c707a6e4443/galaxy-datasets-0.0.7.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [termynal]: Downloading https://files.pythonhosted.org/packages/35/78/c41df14a254894ba37fb37b218b91aa2960652468ea834785302f3e94674/termynal-0.8.0.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [chapyter]: Downloading https://files.pythonhosted.org/packages/96/46/383ea50caf478c8222d40e3e55c7ed72e19a190c5ec25862ace4b2af1906/chapyter-0.3.1.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [smplkit]: Downloading https://files.pythonhosted.org/packages/ef/27/0c397d8a3c81c1e6b0f9d87bc2a43e35cf89ee7e22697458ca42687c48f9/smplkit-0.0.3.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/d1/f3/28470274854442fe587e47c422e8da5d56dab25793191f80f54f61ef2e68/valipy-0.2.3.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/08/37/8081f74d3f7e1bc758b0863266e15b2aedf48ce14ac8429e4d94309cb2f2/harpia-1.14.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [chapyter]: executing diffoscope
+[2023-08-01 08:57:18] INFO root fetch - processPackages [chapyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chapyter-0.3.0.tar.gz tmp/chapyter-0.3.1.tar.gz --markdown 20230801/c/chapyter/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-01 08:57:18] INFO root fetch - processPackages [galaxy-datasets]: Downloading https://files.pythonhosted.org/packages/24/ae/3fdb5c75c008d400b98ba2d0b81d7498955f3daba0f1fe7c4fc3ecd0f464/galaxy-datasets-0.0.8.tar.gz
+[2023-08-01 08:57:18] INFO root fetch - processPackages [termynal]: executing diffoscope
+[2023-08-01 08:57:18] INFO root fetch - processPackages [termynal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/termynal-0.7.0a1.tar.gz tmp/termynal-0.8.0.tar.gz --markdown 20230801/t/termynal/0.7.0a1-0.8.0/diff.md --exclude *.pyd
+[2023-08-01 08:57:18] INFO root fetch - processPackages [smplkit]: executing diffoscope
+[2023-08-01 08:57:18] INFO root fetch - processPackages [smplkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smplkit-0.0.2.tar.gz tmp/smplkit-0.0.3.tar.gz --markdown 20230801/s/smplkit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 08:57:18] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-08-01 08:57:18] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.2.2.tar.gz tmp/valipy-0.2.3.tar.gz --markdown 20230801/v/valipy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-01 08:57:19] INFO root fetch - processPackages [galaxy-datasets]: executing diffoscope
+[2023-08-01 08:57:19] INFO root fetch - processPackages [galaxy-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galaxy-datasets-0.0.7.tar.gz tmp/galaxy-datasets-0.0.8.tar.gz --markdown 20230801/g/galaxy-datasets/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 08:57:19] INFO root fetch - processPackages [petpptx]: Downloading https://files.pythonhosted.org/packages/d3/c5/1906127eefdb221d5b2f33d176b3909c006c6bd8a0a708475030c9e37657/petpptx-1.0.3.tar.gz
+[2023-08-01 08:57:20] INFO root fetch - processPackages [smplkit]: Remove: archive file [/home/abi/fetcher/tmp/smplkit-0.0.2.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - processPackages [smplkit]: Remove: archive file [/home/abi/fetcher/tmp/smplkit-0.0.3.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - main [MainThread]: End processing [smplkit]: success
+[2023-08-01 08:57:20] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.2.2.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.2.3.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-08-01 08:57:20] INFO root fetch - processPackages [petpptx]: executing diffoscope
+[2023-08-01 08:57:20] INFO root fetch - processPackages [petpptx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petpptx-1.0.2.tar.gz tmp/petpptx-1.0.3.tar.gz --markdown 20230801/p/petpptx/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 08:57:20] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.7.0a1.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - processPackages [termynal]: Remove: archive file [/home/abi/fetcher/tmp/termynal-0.8.0.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - main [MainThread]: End processing [termynal]: success
+[2023-08-01 08:57:20] INFO root fetch - processPackages [galaxy-datasets]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-datasets-0.0.7.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - processPackages [galaxy-datasets]: Remove: archive file [/home/abi/fetcher/tmp/galaxy-datasets-0.0.8.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - main [MainThread]: End processing [galaxy-datasets]: success
+[2023-08-01 08:57:20] INFO root fetch - processPackages [chapyter]: Remove: archive file [/home/abi/fetcher/tmp/chapyter-0.3.0.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - processPackages [chapyter]: Remove: archive file [/home/abi/fetcher/tmp/chapyter-0.3.1.tar.gz]
+[2023-08-01 08:57:20] INFO root fetch - main [MainThread]: End processing [chapyter]: success
+[2023-08-01 08:57:21] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-08-01 08:57:21] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.13.tar.gz tmp/harpia-1.14.tar.gz --markdown 20230801/h/harpia/1.13-1.14/diff.md --exclude *.pyd
+[2023-08-01 08:57:23] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.13.tar.gz]
+[2023-08-01 08:57:23] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.14.tar.gz]
+[2023-08-01 08:57:23] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-08-01 08:57:24] INFO root fetch - processPackages [petpptx]: Remove: archive file [/home/abi/fetcher/tmp/petpptx-1.0.2.tar.gz]
+[2023-08-01 08:57:24] INFO root fetch - processPackages [petpptx]: Remove: archive file [/home/abi/fetcher/tmp/petpptx-1.0.3.tar.gz]
+[2023-08-01 08:57:24] INFO root fetch - main [MainThread]: End processing [petpptx]: success
+[2023-08-01 08:57:24] INFO root fetch - main [MainThread]: Store serial: [19119701]
