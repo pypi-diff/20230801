@@ -16143,3 +16143,90 @@
 [2023-08-01 09:44:40] INFO root fetch - processPackages [nxtomomill]: Remove: archive file [/home/abi/fetcher/tmp/nxtomomill-0.9.0a3.tar.gz]
 [2023-08-01 09:44:40] INFO root fetch - main [MainThread]: End processing [nxtomomill]: success
 [2023-08-01 09:44:40] INFO root fetch - main [MainThread]: Store serial: [19120190]
+[2023-08-01 09:49:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120190]
+[2023-08-01 09:49:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-server
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lesscode-py
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-energy-project
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stoobly-agent
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gsp-python
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usb-monitor
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openai-parallel-toolkit
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testApiGroup
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fyers-sdk
+[2023-08-01 09:49:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aliyun-python-sdk-ecs
+[2023-08-01 09:49:49] INFO root fetch - processPackages [odoo14-addon-energy-project]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [fyers-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [test-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [stoobly-agent]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.8] Old Version: [1.0.0.7]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [usb-monitor]: New version: [1.9] Old Version: [1.8]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: New version: [4.9.7] Old Version: [4.9.6]
+[2023-08-01 09:49:49] ERROR root fetch - processPackages [gsp-python]: Unable to get metadata: No such project 'gsp-python'
+[2023-08-01 09:49:49] INFO root fetch - main [MainThread]: End processing [gsp-python] error
+[2023-08-01 09:49:49] INFO root fetch - processPackages [lesscode-py]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 09:49:49] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/74/6a/d2b01afba27eb4bf57c056a8aa44d479f571212eee114b82a19f5a0034d1/openai_parallel_toolkit-1.1.1-py3-none-any.whl
+[2023-08-01 09:49:49] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/6d/f3/c10580cf9754a1b68454606e73ce2d92268bafafa7a6fde8a80c0bc6e1e9/fyers_sdk-2.1.1.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [usb-monitor]: Downloading https://files.pythonhosted.org/packages/89/11/b7f8f74cf4200043ad5cd2251725442b2676370c32a8a8b40c8f73520e8e/usb-monitor-1.8.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/e9/78/2350cae18a65474161019a795a652b6b64841323787b44192e8f739ac86a/stoobly-agent-0.9.6.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [test-server]: Downloading https://files.pythonhosted.org/packages/54/6d/22d229653b888cf66f7a7fe4c98216efc91335782f05647f13fb13708365/test-server-0.0.8.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [odoo14-addon-energy-project]: Downloading https://files.pythonhosted.org/packages/00/f3/aa10be6e795e0d982d11af0bb95866cb57142d19b34c6ff662c720262faa/odoo14-addon-energy_project-14.0.1.1.1.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/22/75/6767ee89f9fa5c8d8f3fa3ae01390cbbc6c4085d8f5cb4501697bd0cc738/testApiGroup-1.0.0.7.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Downloading https://files.pythonhosted.org/packages/e2/17/6cda3088a846a89285e32f2eb01b2fb5bf3358f9db780ae6b18d6d5cb564/aliyun-python-sdk-ecs-4.9.6.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/93/59/9c87e90597a4fc3c2567abe4a0ff19fd2b89df126eacc6b3d22b92ec47b4/lesscode-py-0.3.8.tar.gz
+[2023-08-01 09:49:49] INFO root fetch - processPackages [usb-monitor]: Downloading https://files.pythonhosted.org/packages/b8/24/66ba7dbab40ec8656d74e794f8eb3b2f0d995a1f4c23df75fd67122eeb84/usb-monitor-1.9.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/59/ad/966321acf937644a3f584d1ea3ee6dc0122b0a7f974d3f63b65a3fd62468/openai_parallel_toolkit-1.1.2-py3-none-any.whl
+[2023-08-01 09:49:50] INFO root fetch - processPackages [fyers-sdk]: Downloading https://files.pythonhosted.org/packages/52/45/5e7ff03d80945747c66f624172d23a64d6d76b29430299ebafccfe6b8d06/fyers_sdk-2.1.2.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [usb-monitor]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [usb-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usb-monitor-1.8.tar.gz tmp/usb-monitor-1.9.tar.gz --markdown 20230801/u/usb-monitor/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-1.1.1-py3-none-any.whl.zip tmp/openai_parallel_toolkit-1.1.2-py3-none-any.whl.zip --markdown 20230801/o/openai-parallel-toolkit/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/63/49/2738d88bdd11c80091228a29e7db90dbb0328d0652f5744bc4838f21d8c9/testApiGroup-1.0.0.8.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [stoobly-agent]: Downloading https://files.pythonhosted.org/packages/45/f8/01a12e6de49e8f9a58b3c7a511a2a2b6259be0af19738d4fefcfb2af88f5/stoobly-agent-0.9.7.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [odoo14-addon-energy-project]: Downloading https://files.pythonhosted.org/packages/28/7c/8e1cc7b7151318234a9651e8cd35415d3918b17c6c071aab0b42afb8bda6/odoo14-addon-energy_project-14.0.1.1.2.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [fyers-sdk]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [fyers-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_sdk-2.1.1.tar.gz tmp/fyers_sdk-2.1.2.tar.gz --markdown 20230801/f/fyers-sdk/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [test-server]: Downloading https://files.pythonhosted.org/packages/c2/dd/4856d1dbad8409d18669ede2f2d221ad6fc33a807fe4adaef94bab33ad90/test-server-0.0.9.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.7.tar.gz tmp/testApiGroup-1.0.0.8.tar.gz --markdown 20230801/t/testApiGroup/1.0.0.7-1.0.0.8/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [odoo14-addon-energy-project]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [odoo14-addon-energy-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_project-14.0.1.1.1.tar.gz tmp/odoo14-addon-energy_project-14.0.1.1.2.tar.gz --markdown 20230801/o/odoo14-addon-energy-project/14.0.1.1.1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Downloading https://files.pythonhosted.org/packages/3a/9a/0e44e1700677bbfbfc135e3c7ff51f70cb9e70994a7570c6bc873b0eaefb/aliyun-python-sdk-ecs-4.9.7.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [lesscode-py]: Downloading https://files.pythonhosted.org/packages/64/97/cec698b665aba9a27d2cddb9f7528a8982bbaa3379372774ff671e45fb3e/lesscode-py-0.3.9.tar.gz
+[2023-08-01 09:49:50] INFO root fetch - processPackages [test-server]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [test-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test-server-0.0.8.tar.gz tmp/test-server-0.0.9.tar.gz --markdown 20230801/t/test-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [lesscode-py]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [lesscode-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode-py-0.3.8.tar.gz tmp/lesscode-py-0.3.9.tar.gz --markdown 20230801/l/lesscode-py/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ecs-4.9.6.tar.gz tmp/aliyun-python-sdk-ecs-4.9.7.tar.gz --markdown 20230801/a/aliyun-python-sdk-ecs/4.9.6-4.9.7/diff.md --exclude *.pyd
+[2023-08-01 09:49:50] INFO root fetch - processPackages [stoobly-agent]: executing diffoscope
+[2023-08-01 09:49:50] INFO root fetch - processPackages [stoobly-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stoobly-agent-0.9.6.tar.gz tmp/stoobly-agent-0.9.7.tar.gz --markdown 20230801/s/stoobly-agent/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-01 09:49:51] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-1.1.1-py3-none-any.whl.zip]
+[2023-08-01 09:49:51] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-1.1.2-py3-none-any.whl.zip]
+[2023-08-01 09:49:51] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-08-01 09:49:51] INFO root fetch - processPackages [usb-monitor]: Remove: archive file [/home/abi/fetcher/tmp/usb-monitor-1.8.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - processPackages [usb-monitor]: Remove: archive file [/home/abi/fetcher/tmp/usb-monitor-1.9.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - main [MainThread]: End processing [usb-monitor]: success
+[2023-08-01 09:49:51] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.1.1.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - processPackages [fyers-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fyers_sdk-2.1.2.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - main [MainThread]: End processing [fyers-sdk]: success
+[2023-08-01 09:49:51] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.7.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.8.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-08-01 09:49:51] INFO root fetch - processPackages [odoo14-addon-energy-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_project-14.0.1.1.1.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - processPackages [odoo14-addon-energy-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_project-14.0.1.1.2.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-project]: success
+[2023-08-01 09:49:51] INFO root fetch - processPackages [test-server]: Remove: archive file [/home/abi/fetcher/tmp/test-server-0.0.8.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - processPackages [test-server]: Remove: archive file [/home/abi/fetcher/tmp/test-server-0.0.9.tar.gz]
+[2023-08-01 09:49:51] INFO root fetch - main [MainThread]: End processing [test-server]: success
+[2023-08-01 09:49:52] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.8.tar.gz]
+[2023-08-01 09:49:52] INFO root fetch - processPackages [lesscode-py]: Remove: archive file [/home/abi/fetcher/tmp/lesscode-py-0.3.9.tar.gz]
+[2023-08-01 09:49:52] INFO root fetch - main [MainThread]: End processing [lesscode-py]: success
+[2023-08-01 09:49:52] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.6.tar.gz]
+[2023-08-01 09:49:52] INFO root fetch - processPackages [stoobly-agent]: Remove: archive file [/home/abi/fetcher/tmp/stoobly-agent-0.9.7.tar.gz]
+[2023-08-01 09:49:52] INFO root fetch - main [MainThread]: End processing [stoobly-agent]: success
+[2023-08-01 09:49:52] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ecs-4.9.6.tar.gz]
+[2023-08-01 09:49:52] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ecs-4.9.7.tar.gz]
+[2023-08-01 09:49:52] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ecs]: success
+[2023-08-01 09:49:52] INFO root fetch - main [MainThread]: Store serial: [19120217]
