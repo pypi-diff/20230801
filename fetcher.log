@@ -13404,3 +13404,129 @@
 [2023-08-01 07:10:37] INFO root fetch - processPackages [edc-navbar]: Remove: archive file [/home/abi/fetcher/tmp/edc-navbar-0.3.9.tar.gz]
 [2023-08-01 07:10:37] INFO root fetch - main [MainThread]: End processing [edc-navbar]: success
 [2023-08-01 07:10:37] INFO root fetch - main [MainThread]: Store serial: [19118822]
+[2023-08-01 07:15:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118822]
+[2023-08-01 07:15:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-report-py3o
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-next-appointment
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-reporting-engine
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: censoredzz
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: f-dpi
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-offstudy
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: JSONSki
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Tenhou-Paifu-Logger
+[2023-08-01 07:15:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: snowcross
+[2023-08-01 07:15:46] INFO root fetch - processPackages [JSONSki]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [edc-offstudy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [edc-next-appointment]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [censoredzz]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [snowcross]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [f-dpi]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [odoo-addon-report-py3o]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: New version: [16.0.20230714.0] Old Version: [16.0.20230629.0]
+[2023-08-01 07:15:46] WARNING root fetch - processPackages [Tenhou-Paifu-Logger]: Skipping, unable to determine old version
+[2023-08-01 07:15:46] INFO root fetch - processPackages [Tenhou-Paifu-Logger]: Start processing: edc-pdf-reports
+[2023-08-01 07:15:46] INFO root fetch - main [MainThread]: End processing [Tenhou-Paifu-Logger] error
+[2023-08-01 07:15:46] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-01 07:15:46] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/b9/b3/17b7d2e0c56c70ab10a649f716991bd98cf12daaa92086471ff6c294e15b/censoredzz-1.0.2.tar.gz
+[2023-08-01 07:15:46] INFO root fetch - processPackages [edc-pdf-reports]: New version: [0.3.9] Old Version: [0.3.15]
+[2023-08-01 07:15:47] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/fc/30/77bcddb7196a1c9e17838ce2dada2e0154968e7a65ec41d7126c4c7ff182/JSONSki-0.1.7.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [f-dpi]: Downloading https://files.pythonhosted.org/packages/01/4d/45a6996875a70465cac2902d7742ec1512d4d30f2026aa588685b892e028/f_dpi-0.0.4.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Downloading https://files.pythonhosted.org/packages/51/e6/d15132dd407e14df1b51186c39055a06001f77cac973420854f39d35c98a/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-offstudy]: Downloading https://files.pythonhosted.org/packages/57/af/87cfa4f986ae6562b4a0ce1daeb617c81d34e9b68fcb66c6362f4ba27cb4/edc_offstudy-0.3.8-py3-none-any.whl
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-next-appointment]: Downloading https://files.pythonhosted.org/packages/37/b7/061928839c4cda191664b1e249aa674aa2f80c64da04f670fdf4ba848e77/edc-next-appointment-0.1.2.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/4f/f9/71ebe31efc6be2ac1615db49d218f36be300c98b819f85b994fc863db846/edc-pdf-reports-0.3.15.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [odoo-addon-report-py3o]: Downloading https://files.pythonhosted.org/packages/25/4e/573b9bebef7f925cbcfd92c765ca20b839675bb77bb4ce42d4d7c3652a62/odoo_addon_report_py3o-15.0.1.0.0.2-py3-none-any.whl
+[2023-08-01 07:15:47] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/45/97/b3df0a4683ce22fc4b562c709c4bbc0b7574b88516131777c87fa47699c3/snowcross-0.1.0.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/4d/42/447829c62a1072573ee7ccb2c31560743e23d768965ccef0034d6411bc40/censoredzz-1.0.3.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [f-dpi]: Downloading https://files.pythonhosted.org/packages/0b/ad/7582512ee27b93c131dcef4720c8bf780935ca5417668b88f954bd9eeef4/f_dpi-0.0.5.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/be/df/3258de20af6aa9e4d32d7e8e5f66f6484604eca9dd82f4065a97313b81e1/JSONSki-0.1.8.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-next-appointment]: Downloading https://files.pythonhosted.org/packages/7f/6e/900487a6ef93d28cae14a25e6e3acc3a6cd4a3931a29ca20abc42c518c5e/edc-next-appointment-0.1.3.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-offstudy]: Downloading https://files.pythonhosted.org/packages/ff/f0/94595ad2bf3fec15ce4be8d760ae5891973a1725e203b8fe2567273919a1/edc_offstudy-0.3.9-py3-none-any.whl
+[2023-08-01 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Downloading https://files.pythonhosted.org/packages/dc/d3/4db779d2fed08e510f086f8dae153d519acd146ff81e964da0451691caa4/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl
+[2023-08-01 07:15:47] INFO root fetch - processPackages [f-dpi]: executing diffoscope
+[2023-08-01 07:15:47] INFO root fetch - processPackages [f-dpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f_dpi-0.0.4.tar.gz tmp/f_dpi-0.0.5.tar.gz --markdown 20230801/f/f-dpi/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 07:15:47] INFO root fetch - processPackages [snowcross]: Downloading https://files.pythonhosted.org/packages/9d/31/f49413a3ccd579c4455ebe0c1a0cac7a801789ed1fd150fb865d71df687c/snowcross-0.1.1.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-pdf-reports]: Downloading https://files.pythonhosted.org/packages/f6/f9/ff5521ba26ca2c42105ff66e6fdbe57e998921d1287d264e0a6754ede2fe/edc-pdf-reports-0.3.9.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [odoo-addon-report-py3o]: Downloading https://files.pythonhosted.org/packages/39/9b/758ca36e3532acc5c6f5114cbd6ff6812aa5e0c6febedbc0b0399a8336c7/odoo_addon_report_py3o-15.0.1.0.0.3-py3-none-any.whl
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-next-appointment]: executing diffoscope
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-next-appointment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-next-appointment-0.1.2.tar.gz tmp/edc-next-appointment-0.1.3.tar.gz --markdown 20230801/e/edc-next-appointment/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: executing diffoscope
+[2023-08-01 07:15:47] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl.zip tmp/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl.zip --markdown 20230801/o/odoo-addons-oca-reporting-engine/16.0.20230629.0-16.0.20230714.0/diff.md --exclude *.pyd
+[2023-08-01 07:15:47] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-offstudy]: executing diffoscope
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-offstudy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_offstudy-0.3.8-py3-none-any.whl.zip tmp/edc_offstudy-0.3.9-py3-none-any.whl.zip --markdown 20230801/e/edc-offstudy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:15:47] INFO root fetch - processPackages [JSONSki]: executing diffoscope
+[2023-08-01 07:15:47] INFO root fetch - processPackages [JSONSki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JSONSki-0.1.7.tar.gz tmp/JSONSki-0.1.8.tar.gz --markdown 20230801/J/JSONSki/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-pdf-reports]: executing diffoscope
+[2023-08-01 07:15:47] INFO root fetch - processPackages [edc-pdf-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pdf-reports-0.3.15.tar.gz tmp/edc-pdf-reports-0.3.9.tar.gz --markdown 20230801/e/edc-pdf-reports/0.3.15-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:15:48] INFO root fetch - processPackages [censoredzz]: executing diffoscope
+[2023-08-01 07:15:48] INFO root fetch - processPackages [censoredzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredzz-1.0.2.tar.gz tmp/censoredzz-1.0.3.tar.gz --markdown 20230801/c/censoredzz/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 07:15:48] INFO root fetch - processPackages [odoo-addon-report-py3o]: executing diffoscope
+[2023-08-01 07:15:48] INFO root fetch - processPackages [odoo-addon-report-py3o]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_py3o-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_report_py3o-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-report-py3o/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-01 07:15:48] INFO root fetch - processPackages [snowcross]: executing diffoscope
+[2023-08-01 07:15:48] INFO root fetch - processPackages [snowcross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowcross-0.1.0.tar.gz tmp/snowcross-0.1.1.tar.gz --markdown 20230801/s/snowcross/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-01 07:15:49] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-08-01 07:15:49] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230801/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-01 07:15:49] INFO root fetch - processPackages [f-dpi]: Remove: archive file [/home/abi/fetcher/tmp/f_dpi-0.0.4.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [f-dpi]: Remove: archive file [/home/abi/fetcher/tmp/f_dpi-0.0.5.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [f-dpi]: Start processing: our1314
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [f-dpi]: success
+[2023-08-01 07:15:49] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-08-01 07:15:49] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-08-01 07:15:49] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.7.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.8.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [JSONSki]: Start processing: gs-xcom-backend-triggerer
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [JSONSki]: success
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_reporting_engine-16.0.20230629.0-py3-none-any.whl.zip]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_reporting_engine-16.0.20230714.0-py3-none-any.whl.zip]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo-addons-oca-reporting-engine]: Start processing: odoo14-addon-sale-coupon-reward-add-product
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-reporting-engine]: success
+[2023-08-01 07:15:49] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-08-01 07:15:49] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230801/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:15:49] WARNING root fetch - processPackages [gs-xcom-backend-triggerer]: Skipping, unable to determine old version
+[2023-08-01 07:15:49] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Start processing: odoo14-addon-sale-coupon-domain-product-reward-fixed-price
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [gs-xcom-backend-triggerer] error
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [edc-next-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc-next-appointment-0.1.2.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [edc-next-appointment]: Remove: archive file [/home/abi/fetcher/tmp/edc-next-appointment-0.1.3.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [edc-next-appointment]: success
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.1.0.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [snowcross]: Remove: archive file [/home/abi/fetcher/tmp/snowcross-0.1.1.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [snowcross]: success
+[2023-08-01 07:15:49] INFO root fetch - processPackages [edc-pdf-reports]: Remove: archive file [/home/abi/fetcher/tmp/edc-pdf-reports-0.3.15.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [edc-pdf-reports]: Remove: archive file [/home/abi/fetcher/tmp/edc-pdf-reports-0.3.9.tar.gz]
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [edc-pdf-reports]: success
+[2023-08-01 07:15:49] INFO root fetch - processPackages [edc-offstudy]: Remove: archive file [/home/abi/fetcher/tmp/edc_offstudy-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [edc-offstudy]: Remove: archive file [/home/abi/fetcher/tmp/edc_offstudy-0.3.9-py3-none-any.whl.zip]
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [edc-offstudy]: success
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Downloading https://files.pythonhosted.org/packages/93/da/dd878038b15e8bb11cf505e4ac293209cb2f7cfdd7b8a2a0366a6b5c17a5/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: Downloading https://files.pythonhosted.org/packages/70/96/b78d5c5a8684e974d60b1106b7d98fa3b8d61b44ef043733673a7be8f477/odoo14_addon_sale_coupon_domain_product_reward_fixed_price-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo-addon-report-py3o]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_py3o-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-01 07:15:49] INFO root fetch - processPackages [odoo-addon-report-py3o]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_py3o-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-01 07:15:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-py3o]: success
+[2023-08-01 07:15:50] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Downloading https://files.pythonhosted.org/packages/34/34/07c26b31ce09a3b941c3cd0860e4e0649c175c209af497ea042ebf4096b0/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-08-01 07:15:50] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: Downloading https://files.pythonhosted.org/packages/0d/0c/928d9451aad2fd07b2c49877283cb77b266e6ba4bdc06403e228e213d883/odoo14_addon_sale_coupon_domain_product_reward_fixed_price-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-08-01 07:15:50] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: executing diffoscope
+[2023-08-01 07:15:50] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230801/o/odoo14-addon-sale-coupon-reward-add-product/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-08-01 07:15:50] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: executing diffoscope
+[2023-08-01 07:15:50] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_coupon_domain_product_reward_fixed_price-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_coupon_domain_product_reward_fixed_price-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230801/o/odoo14-addon-sale-coupon-domain-product-reward-fixed-price/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-08-01 07:15:50] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-08-01 07:15:50] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-08-01 07:15:50] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-08-01 07:15:50] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.2.tar.gz]
+[2023-08-01 07:15:50] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.3.tar.gz]
+[2023-08-01 07:15:50] INFO root fetch - main [MainThread]: End processing [censoredzz]: success
+[2023-08-01 07:15:51] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_domain_product_reward_fixed_price-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-08-01 07:15:51] INFO root fetch - processPackages [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_domain_product_reward_fixed_price-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-08-01 07:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-coupon-domain-product-reward-fixed-price]: success
+[2023-08-01 07:15:51] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-08-01 07:15:51] INFO root fetch - processPackages [odoo14-addon-sale-coupon-reward-add-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_coupon_reward_add_product-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-08-01 07:15:51] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-coupon-reward-add-product]: success
+[2023-08-01 07:16:02] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-08-01 07:16:02] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-08-01 07:16:02] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-08-01 07:16:02] INFO root fetch - main [MainThread]: Store serial: [19118869]
