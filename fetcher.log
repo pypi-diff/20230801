@@ -19543,3 +19543,190 @@
 [2023-08-01 12:09:04] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-01 12:09:04] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-08-01 12:09:04] INFO root fetch - main [MainThread]: Store serial: [19121817]
+[2023-08-01 12:14:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121817]
+[2023-08-01 12:14:13] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textual
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repo-loader
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: human-readable-time
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-command
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OpenFisca-France
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mtbase
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DynamicForms
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: robotframework-jmeterlibrary-fix
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: radical.saga
+[2023-08-01 12:14:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mtgpu
+[2023-08-01 12:14:13] INFO root fetch - processPackages [repo-loader]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-01 12:14:13] WARNING root fetch - processPackages [robotframework-jmeterlibrary-fix]: Skipping, unable to determine old version
+[2023-08-01 12:14:13] INFO root fetch - processPackages [robotframework-jmeterlibrary-fix]: Start processing: blob-mounting-helper-utility
+[2023-08-01 12:14:13] INFO root fetch - main [MainThread]: End processing [robotframework-jmeterlibrary-fix] error
+[2023-08-01 12:14:13] INFO root fetch - processPackages [radical.saga]: New version: [1.8.0] Old Version: [1.6.9]
+[2023-08-01 12:14:13] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2023-08-01 12:14:13] WARNING root fetch - processPackages [human-readable-time]: Skipping, unable to determine old version
+[2023-08-01 12:14:13] INFO root fetch - processPackages [human-readable-time]: Start processing: daktari
+[2023-08-01 12:14:13] INFO root fetch - main [MainThread]: End processing [human-readable-time] error
+[2023-08-01 12:14:13] INFO root fetch - processPackages [mtgpu]: New version: [0.7.202308011011] Old Version: [0.7.202305021336]
+[2023-08-01 12:14:13] INFO root fetch - processPackages [mtbase]: New version: [4.7.202308011009] Old Version: [4.7.202307300729]
+[2023-08-01 12:14:13] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 12:14:13] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 12:14:13] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-08-01 12:14:13] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 12:14:13] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2023-08-01 12:14:13] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/77/3b/a411a5728cd1913c212b208dcf51186bc0c1cb239e0c08973b7d2233a3fd/repo-loader-0.1.3.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 12:14:14] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/0d/f2/152301e7b1b184f45d76366a640f47153bcd991c0997ec6458ccc678a0ac/mtbase-4.7.202307300729-py3-none-any.whl
+[2023-08-01 12:14:14] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/3b/69/eb760e93f8f0646aff6eb1902e3568f7defd688b92a4e0c67d8b3d349496/radical.saga-1.6.9.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtgpu]: Downloading https://files.pythonhosted.org/packages/86/2e/c5a5741293ee4891cb5d36e950dd1416606f0959eac1bc08b507b2bbc4c9/mtgpu-0.7.202305021336-py3-none-any.whl
+[2023-08-01 12:14:14] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/6b/ee/cd52a594b8449392b607ec71540ab01909bb0affbcfdd4cb5eaa86909d14/blob_mounting_helper_utility-1.0.2.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/f6/20/188cdd418ac99e2459a9175023032818b2ce99f083f5b68de791df90cd48/repo-loader-0.2.0.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2023-08-01 12:14:14] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20230801/p/pulumi-command/4.5.0-4.6.0a1662390243/diff.md --exclude *.pyd
+[2023-08-01 12:14:14] INFO root fetch - processPackages [repo-loader]: executing diffoscope
+[2023-08-01 12:14:14] INFO root fetch - processPackages [repo-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-loader-0.1.3.tar.gz tmp/repo-loader-0.2.0.tar.gz --markdown 20230801/r/repo-loader/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtbase]: Downloading https://files.pythonhosted.org/packages/f4/bd/b36ba39d5584eca7b35a0ee627caa9c2b8179252bf03217599d72c471ac9/mtbase-4.7.202308011009-py3-none-any.whl
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtbase]: executing diffoscope
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbase-4.7.202307300729-py3-none-any.whl.zip tmp/mtbase-4.7.202308011009-py3-none-any.whl.zip --markdown 20230801/m/mtbase/4.7.202307300729-4.7.202308011009/diff.md --exclude *.pyd
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtgpu]: Downloading https://files.pythonhosted.org/packages/42/0a/6ea4ddfef308a0649cc329dac038306ead5b2c20a3d7e02aaed44dece8b4/mtgpu-0.7.202308011011-py3-none-any.whl
+[2023-08-01 12:14:14] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/c8/d8/6b46320dc1591836ef5890afd110d1e04739227f4c82524cc151ddeff18e/blob_mounting_helper_utility-1.0.3.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtgpu]: executing diffoscope
+[2023-08-01 12:14:14] INFO root fetch - processPackages [mtgpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtgpu-0.7.202305021336-py3-none-any.whl.zip tmp/mtgpu-0.7.202308011011-py3-none-any.whl.zip --markdown 20230801/m/mtgpu/0.7.202305021336-0.7.202308011011/diff.md --exclude *.pyd
+[2023-08-01 12:14:14] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-08-01 12:14:14] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-08-01 12:14:14] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.2.tar.gz tmp/blob_mounting_helper_utility-1.0.3.tar.gz --markdown 20230801/b/blob-mounting-helper-utility/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 12:14:14] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2023-08-01 12:14:14] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-08-01 12:14:14] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230801/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-08-01 12:14:15] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-08-01 12:14:15] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20230801/d/daktari/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 12:14:15] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2023-08-01 12:14:15] INFO root fetch - processPackages [textual]: executing diffoscope
+[2023-08-01 12:14:15] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20230801/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 12:14:15] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/4f/4b/15452082443a7cc86d52bcb6ff568b457eed3d787d65d867942840f1d52c/radical.saga-1.8.0.tar.gz
+[2023-08-01 12:14:15] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.1.3.tar.gz]
+[2023-08-01 12:14:15] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.2.0.tar.gz]
+[2023-08-01 12:14:15] INFO root fetch - processPackages [repo-loader]: Start processing: pulumi-confluentcloud
+[2023-08-01 12:14:15] INFO root fetch - main [MainThread]: End processing [repo-loader]: success
+[2023-08-01 12:14:15] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2023-08-01 12:14:15] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20230801/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 12:14:15] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-08-01 12:14:15] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2023-08-01 12:14:15] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2023-08-01 12:14:15] INFO root fetch - processPackages [pulumi-command]: Start processing: mtpandas
+[2023-08-01 12:14:15] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2023-08-01 12:14:15] INFO root fetch - processPackages [mtpandas]: New version: [1.9.202208120520] Old Version: [1.9.202208011136]
+[2023-08-01 12:14:15] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-08-01 12:14:16] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.2.tar.gz]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.3.tar.gz]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [blob-mounting-helper-utility]: Start processing: alchql
+[2023-08-01 12:14:16] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtgpu]: Remove: archive file [/home/abi/fetcher/tmp/mtgpu-0.7.202305021336-py3-none-any.whl.zip]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtgpu]: Remove: archive file [/home/abi/fetcher/tmp/mtgpu-0.7.202308011011-py3-none-any.whl.zip]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtgpu]: Start processing: alchql
+[2023-08-01 12:14:16] INFO root fetch - main [MainThread]: End processing [mtgpu]: success
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: New version: [3.4.2.30112526] Old Version: [3.4.2.30112519]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: New version: [3.4.2.30112526] Old Version: [3.4.2.30112519]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/83/07/ea7b949233637231b605ad043e5af153695fabeec4dd4d2941c8d0bdd8c1/mtpandas-1.9.202208011136-py3-none-any.whl
+[2023-08-01 12:14:16] INFO root fetch - processPackages [radical.saga]: executing diffoscope
+[2023-08-01 12:14:16] INFO root fetch - processPackages [radical.saga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.saga-1.6.9.tar.gz tmp/radical.saga-1.8.0.tar.gz --markdown 20230801/r/radical.saga/1.6.9-1.8.0/diff.md --exclude *.pyd
+[2023-08-01 12:14:16] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-08-01 12:14:16] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230801/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/d4/2a/dfb7a90c3e9b140f17f7c29b11fa5cab0aa3a1a3e9cd96df90b315210a7b/alchql-3.4.2.30112519.tar.gz
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/d4/2a/dfb7a90c3e9b140f17f7c29b11fa5cab0aa3a1a3e9cd96df90b315210a7b/alchql-3.4.2.30112519.tar.gz
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202307300729-py3-none-any.whl.zip]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtbase]: Remove: archive file [/home/abi/fetcher/tmp/mtbase-4.7.202308011009-py3-none-any.whl.zip]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtbase]: Start processing: pulumi-akamai
+[2023-08-01 12:14:16] INFO root fetch - main [MainThread]: End processing [mtbase]: success
+[2023-08-01 12:14:16] INFO root fetch - processPackages [pulumi-akamai]: New version: [6.0.0a1690883195] Old Version: [6.0.0a1690300875]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [daktari]: Start processing: radical.pilot
+[2023-08-01 12:14:16] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtpandas]: Downloading https://files.pythonhosted.org/packages/6b/c5/5887a43a006743313198ea775120a74710c0da606c9ccbd6612c8010296a/mtpandas-1.9.202208120520-py3-none-any.whl
+[2023-08-01 12:14:16] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-01 12:14:16] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/c0/c5/2352fd8a1978268b798e8297dadf584ae44e739ada6b4da0a04c07f1fd0a/pulumi_akamai-6.0.0a1690300875.tar.gz
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/ff/73/589ae8c78ea6bc2c49cd1eb67ab6fd0bd1f0feed5828688c918eb0e6cdd8/alchql-3.4.2.30112526-py2.py3-none-any.whl
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/ff/73/589ae8c78ea6bc2c49cd1eb67ab6fd0bd1f0feed5828688c918eb0e6cdd8/alchql-3.4.2.30112526-py2.py3-none-any.whl
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.4.2.30112519.tar.gz tmp/alchql-3.4.2.30112526-py2.py3-none-any.whl.zip --markdown 20230801/a/alchql/3.4.2.30112519-3.4.2.30112526/diff.md --exclude *.pyd
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-08-01 12:14:16] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.4.2.30112519.tar.gz tmp/alchql-3.4.2.30112526-py2.py3-none-any.whl.zip --markdown 20230801/a/alchql/3.4.2.30112519-3.4.2.30112526/diff.md --exclude *.pyd
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtpandas]: executing diffoscope
+[2023-08-01 12:14:16] INFO root fetch - processPackages [mtpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip --markdown 20230801/m/mtpandas/1.9.202208011136-1.9.202208120520/diff.md --exclude *.pyd
+[2023-08-01 12:14:16] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2023-08-01 12:14:17] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/81/57/c64b0e9488bac86c47f316cfa495cb2a721e45918bdb18811325f7f23a35/pulumi_akamai-6.0.0a1690883195.tar.gz
+[2023-08-01 12:14:17] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2023-08-01 12:14:17] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2023-08-01 12:14:17] INFO root fetch - processPackages [textual]: Start processing: mtsql
+[2023-08-01 12:14:17] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2023-08-01 12:14:17] INFO root fetch - processPackages [mtsql]: New version: [1.4.202308011012] Old Version: [1.4.202307251849]
+[2023-08-01 12:14:17] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2023-08-01 12:14:17] INFO root fetch - processPackages [mtsql]: Downloading https://files.pythonhosted.org/packages/a9/11/2348e765e4fb8c1599d90e7471f40dd3b9b19af0ea42ca991eaafb4f78d4/mtsql-1.4.202307251849-py3-none-any.whl
+[2023-08-01 12:14:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-08-01 12:14:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-08-01 12:14:17] INFO root fetch - processPackages [pulumi-confluentcloud]: Start processing: uun-weatherstation
+[2023-08-01 12:14:17] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-08-01 12:14:17] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-08-01 12:14:17] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-6.0.0a1690300875.tar.gz tmp/pulumi_akamai-6.0.0a1690883195.tar.gz --markdown 20230801/p/pulumi-akamai/6.0.0a1690300875-6.0.0a1690883195/diff.md --exclude *.pyd
+[2023-08-01 12:14:17] INFO root fetch - processPackages [uun-weatherstation]: New version: [0.6.4] Old Version: [0.6.2]
+[2023-08-01 12:14:17] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2023-08-01 12:14:17] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20230801/r/radical.pilot/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-01 12:14:18] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.4.2.30112519.tar.gz]
+[2023-08-01 12:14:18] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.4.2.30112526-py2.py3-none-any.whl.zip]
+[2023-08-01 12:14:18] INFO root fetch - processPackages [alchql]: Start processing: logger-local
+[2023-08-01 12:14:18] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-08-01 12:14:18] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 12:14:18] INFO root fetch - processPackages [uun-weatherstation]: Downloading https://files.pythonhosted.org/packages/b1/1f/aab959a9a7e220d962bf4a34e86e59c5c8651081738e941a633f2882eb25/uun-weatherstation-0.6.2.tar.gz
+[2023-08-01 12:14:18] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208011136-py3-none-any.whl.zip]
+[2023-08-01 12:14:18] INFO root fetch - processPackages [mtpandas]: Remove: archive file [/home/abi/fetcher/tmp/mtpandas-1.9.202208120520-py3-none-any.whl.zip]
+[2023-08-01 12:14:18] INFO root fetch - processPackages [mtpandas]: Start processing: BrainLes-HD-BET
+[2023-08-01 12:14:18] INFO root fetch - main [MainThread]: End processing [mtpandas]: success
+[2023-08-01 12:14:18] INFO root fetch - processPackages [mtsql]: Downloading https://files.pythonhosted.org/packages/f6/0a/d1988e29a44cd7bf6b04684df4c31db1a1fd43677538085060c6d0d4556b/mtsql-1.4.202308011012-py3-none-any.whl
+[2023-08-01 12:14:18] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-08-01 12:14:18] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-08-01 12:14:18] INFO root fetch - processPackages [BrainLes-HD-BET]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 12:14:18] INFO root fetch - processPackages [mtsql]: executing diffoscope
+[2023-08-01 12:14:18] INFO root fetch - processPackages [mtsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtsql-1.4.202307251849-py3-none-any.whl.zip tmp/mtsql-1.4.202308011012-py3-none-any.whl.zip --markdown 20230801/m/mtsql/1.4.202307251849-1.4.202308011012/diff.md --exclude *.pyd
+[2023-08-01 12:14:18] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-08-01 12:14:18] INFO root fetch - processPackages [BrainLes-HD-BET]: Downloading https://files.pythonhosted.org/packages/01/bc/040e1c6c250a7735d1508569dd18024f021259594ee573d5dfaa95391d02/BrainLes_HD-BET-0.0.1.tar.gz
+[2023-08-01 12:14:18] INFO root fetch - processPackages [uun-weatherstation]: Downloading https://files.pythonhosted.org/packages/14/3a/36cae65b4744643b526ef6eb44618b8cc2f9e7a3e402b093c9f30536b33f/uun-weatherstation-0.6.4.tar.gz
+[2023-08-01 12:14:18] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-08-01 12:14:18] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230801/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 12:14:18] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.6.9.tar.gz]
+[2023-08-01 12:14:18] INFO root fetch - processPackages [uun-weatherstation]: executing diffoscope
+[2023-08-01 12:14:18] INFO root fetch - processPackages [uun-weatherstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-weatherstation-0.6.2.tar.gz tmp/uun-weatherstation-0.6.4.tar.gz --markdown 20230801/u/uun-weatherstation/0.6.2-0.6.4/diff.md --exclude *.pyd
+[2023-08-01 12:14:18] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.8.0.tar.gz]
+[2023-08-01 12:14:18] INFO root fetch - main [MainThread]: End processing [radical.saga]: success
+[2023-08-01 12:14:18] INFO root fetch - processPackages [BrainLes-HD-BET]: Downloading https://files.pythonhosted.org/packages/9a/47/a050506d8355271cf7d0606494aba062bada9bea9397e86cad440a17f65f/BrainLes_HD-BET-0.0.2.tar.gz
+[2023-08-01 12:14:18] INFO root fetch - processPackages [BrainLes-HD-BET]: executing diffoscope
+[2023-08-01 12:14:18] INFO root fetch - processPackages [BrainLes-HD-BET]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BrainLes_HD-BET-0.0.1.tar.gz tmp/BrainLes_HD-BET-0.0.2.tar.gz --markdown 20230801/B/BrainLes-HD-BET/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 12:14:19] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2023-08-01 12:14:19] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2023-08-01 12:14:19] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2023-08-01 12:14:19] INFO root fetch - processPackages [mtsql]: Remove: archive file [/home/abi/fetcher/tmp/mtsql-1.4.202307251849-py3-none-any.whl.zip]
+[2023-08-01 12:14:19] INFO root fetch - processPackages [mtsql]: Remove: archive file [/home/abi/fetcher/tmp/mtsql-1.4.202308011012-py3-none-any.whl.zip]
+[2023-08-01 12:14:19] INFO root fetch - main [MainThread]: End processing [mtsql]: success
+[2023-08-01 12:14:19] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-08-01 12:14:19] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-08-01 12:14:19] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-08-01 12:14:19] INFO root fetch - processPackages [uun-weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/uun-weatherstation-0.6.2.tar.gz]
+[2023-08-01 12:14:19] INFO root fetch - processPackages [uun-weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/uun-weatherstation-0.6.4.tar.gz]
+[2023-08-01 12:14:19] INFO root fetch - main [MainThread]: End processing [uun-weatherstation]: success
+[2023-08-01 12:14:20] INFO root fetch - processPackages [BrainLes-HD-BET]: Remove: archive file [/home/abi/fetcher/tmp/BrainLes_HD-BET-0.0.1.tar.gz]
+[2023-08-01 12:14:20] INFO root fetch - processPackages [BrainLes-HD-BET]: Remove: archive file [/home/abi/fetcher/tmp/BrainLes_HD-BET-0.0.2.tar.gz]
+[2023-08-01 12:14:20] INFO root fetch - main [MainThread]: End processing [BrainLes-HD-BET]: success
+[2023-08-01 12:14:20] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2023-08-01 12:14:20] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2023-08-01 12:14:20] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2023-08-01 12:14:20] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-6.0.0a1690300875.tar.gz]
+[2023-08-01 12:14:20] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-6.0.0a1690883195.tar.gz]
+[2023-08-01 12:14:20] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-08-01 12:14:38] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2023-08-01 12:14:38] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2023-08-01 12:14:38] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-08-01 12:14:38] INFO root fetch - main [MainThread]: Store serial: [19121880]
