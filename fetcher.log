@@ -16754,3 +16754,100 @@
 [2023-08-01 10:11:11] INFO root fetch - processPackages [netbox-agent]: Remove: archive file [/home/abi/fetcher/tmp/netbox_agent-0.7.1.tar.gz]
 [2023-08-01 10:11:11] INFO root fetch - main [MainThread]: End processing [netbox-agent]: success
 [2023-08-01 10:11:11] INFO root fetch - main [MainThread]: Store serial: [19120538]
+[2023-08-01 10:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120538]
+[2023-08-01 10:16:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lynkpy
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boxmot
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turbosnake
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yvesCMD
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yvesCMD
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optipack
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CheeseAPI
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-db-backend-exceptions
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-account-asset-batch-compute
+[2023-08-01 10:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: plbm-liumou-Stable
+[2023-08-01 10:16:20] INFO root fetch - processPackages [lynkpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [CheeseAPI]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 10:16:20] WARNING root fetch - processPackages [pydantic-db-backend-exceptions]: Skipping, unable to determine old version
+[2023-08-01 10:16:20] INFO root fetch - processPackages [pydantic-db-backend-exceptions]: Start processing: alibabacloud-paistudio20220112
+[2023-08-01 10:16:20] INFO root fetch - main [MainThread]: End processing [pydantic-db-backend-exceptions] error
+[2023-08-01 10:16:20] WARNING root fetch - processPackages [plbm-liumou-Stable]: Skipping, unable to determine old version
+[2023-08-01 10:16:20] INFO root fetch - processPackages [plbm-liumou-Stable]: Start processing: ul-py-tool
+[2023-08-01 10:16:20] INFO root fetch - main [MainThread]: End processing [plbm-liumou-Stable] error
+[2023-08-01 10:16:20] INFO root fetch - processPackages [odoo-addon-account-asset-batch-compute]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [optipack]: New version: [0.0.22.dev0] Old Version: [0.0.21.dev0]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [yvesCMD]: New version: [0.1.4rc0] Old Version: [0.1.4b0]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [boxmot]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.29] Old Version: [1.15.28]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [yvesCMD]: New version: [0.1.4rc0] Old Version: [0.1.4b0]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [turbosnake]: New version: [1.24.434b7] Old Version: [1.14.342]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [optipack]: Downloading https://files.pythonhosted.org/packages/0a/13/7f685c3935a4c4d2e5bdcbc38e67b5b4ce77414db4e226b2eccf3d180df2/optipack-0.0.21.dev0.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [alibabacloud-paistudio20220112]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 10:16:20] INFO root fetch - processPackages [lynkpy]: Downloading https://files.pythonhosted.org/packages/d1/e1/4280063431bbedd80547d341706eda8741f3d601495a6828b51625768626/lynkpy-0.0.4.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/af/84/34a32fd0f1306a74c6dfe94dc124d4e51230e825211a0ab2aca0ebacddf0/CheeseAPI-0.0.1.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [odoo-addon-account-asset-batch-compute]: Downloading https://files.pythonhosted.org/packages/97/af/e22a8bf21b1acf88ad99fbe3eaa0ecf00ce040ad425fa9506770fe00efde/odoo_addon_account_asset_batch_compute-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-01 10:16:20] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/f4/04/33eaf0a0958bc376974a3f6ef5d4cf6b7fe1d4976ea1d2950c0a3525ee7b/ul-py-tool-1.15.28.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/95/a8/2d20481888969cb82a2746433757eb77b04dbfbba393e0a44421ad98d7a9/yvesCMD-0.1.4b0.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [alibabacloud-paistudio20220112]: Downloading https://files.pythonhosted.org/packages/33/43/3284da1e18924e418aa8e58a9f6ca4e1201905ae5c443db4fb341a57f099/alibabacloud_paistudio20220112-1.0.8.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/95/a8/2d20481888969cb82a2746433757eb77b04dbfbba393e0a44421ad98d7a9/yvesCMD-0.1.4b0.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/dc/ac/76303db770d03a3713ab4d08bd38dac0c0208b589d081f3e6a9818f39c59/boxmot-10.0.8.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [turbosnake]: Downloading https://files.pythonhosted.org/packages/b5/34/20501eaa75f4282a8062770ee270a4d372667774c7485347bb77d939ebf6/turbosnake-1.14.342.tar.gz
+[2023-08-01 10:16:20] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/b5/67/6a21cd793d77836762aa8783ea2441f1236c262c7a18fe2783ae34df6980/ul-py-tool-1.15.29.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/81/44/f88985e944628cffec8e82d12a624bc633fbfe944060ec967ea2013924b7/CheeseAPI-0.0.2.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [lynkpy]: Downloading https://files.pythonhosted.org/packages/8b/54/59ac929c92bc9c832c04453529c70416f2479499a1e3cbab8aeec58f4e6f/lynkpy-0.0.5.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [optipack]: Downloading https://files.pythonhosted.org/packages/ee/89/46442b9730df15b8d8efb9468be3c9269406e9729f33a53ab1c7a40e6c62/optipack-0.0.22.dev0.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [odoo-addon-account-asset-batch-compute]: Downloading https://files.pythonhosted.org/packages/9c/d3/e49b0b69288d9ab2a66bf4cea3fec59999745c5b6ccc3edd4811c9bd55c8/odoo_addon_account_asset_batch_compute-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-01 10:16:21] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.28.tar.gz tmp/ul-py-tool-1.15.29.tar.gz --markdown 20230801/u/ul-py-tool/1.15.28-1.15.29/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [lynkpy]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [lynkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lynkpy-0.0.4.tar.gz tmp/lynkpy-0.0.5.tar.gz --markdown 20230801/l/lynkpy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [alibabacloud-paistudio20220112]: Downloading https://files.pythonhosted.org/packages/8a/a8/56586af66845105487c08a405224bc0d699730d33d790d24180748ded5b4/alibabacloud_paistudio20220112-1.0.9.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CheeseAPI-0.0.1.tar.gz tmp/CheeseAPI-0.0.2.tar.gz --markdown 20230801/C/CheeseAPI/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [odoo-addon-account-asset-batch-compute]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [odoo-addon-account-asset-batch-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_batch_compute-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_asset_batch_compute-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-account-asset-batch-compute/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [turbosnake]: Downloading https://files.pythonhosted.org/packages/61/17/a549bf8dbd957b80546daf621f6102c4a5d056c98a279c9146e08c82d903/turbosnake-1.24.434b7.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/e2/16/caf590a1532d556f661da010e39583c53ebf3d297050e02d4a57060d1d5e/yvesCMD-0.1.4rc0.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/e2/16/caf590a1532d556f661da010e39583c53ebf3d297050e02d4a57060d1d5e/yvesCMD-0.1.4rc0.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/8a/f5/03723049ad0e1bb7544e74ca77c734bc6cd4f4244b98def429efd2b73d9e/boxmot-10.0.9.tar.gz
+[2023-08-01 10:16:21] INFO root fetch - processPackages [alibabacloud-paistudio20220112]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [alibabacloud-paistudio20220112]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_paistudio20220112-1.0.8.tar.gz tmp/alibabacloud_paistudio20220112-1.0.9.tar.gz --markdown 20230801/a/alibabacloud-paistudio20220112/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [optipack]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [optipack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optipack-0.0.21.dev0.tar.gz tmp/optipack-0.0.22.dev0.tar.gz --markdown 20230801/o/optipack/0.0.21.dev0-0.0.22.dev0/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [boxmot]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [boxmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxmot-10.0.8.tar.gz tmp/boxmot-10.0.9.tar.gz --markdown 20230801/b/boxmot/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [turbosnake]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [turbosnake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbosnake-1.14.342.tar.gz tmp/turbosnake-1.24.434b7.tar.gz --markdown 20230801/t/turbosnake/1.14.342-1.24.434b7/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.1.4b0.tar.gz tmp/yvesCMD-0.1.4rc0.tar.gz --markdown 20230801/y/yvesCMD/0.1.4b0-0.1.4rc0/diff.md --exclude *.pyd
+[2023-08-01 10:16:21] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 10:16:21] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.1.4b0.tar.gz tmp/yvesCMD-0.1.4rc0.tar.gz --markdown 20230801/y/yvesCMD/0.1.4b0-0.1.4rc0/diff.md --exclude *.pyd
+[2023-08-01 10:16:22] INFO root fetch - processPackages [lynkpy]: Remove: archive file [/home/abi/fetcher/tmp/lynkpy-0.0.4.tar.gz]
+[2023-08-01 10:16:22] INFO root fetch - processPackages [lynkpy]: Remove: archive file [/home/abi/fetcher/tmp/lynkpy-0.0.5.tar.gz]
+[2023-08-01 10:16:22] INFO root fetch - main [MainThread]: End processing [lynkpy]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [odoo-addon-account-asset-batch-compute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_batch_compute-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [odoo-addon-account-asset-batch-compute]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_batch_compute-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-batch-compute]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.28.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.29.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.1.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/CheeseAPI-0.0.2.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [alibabacloud-paistudio20220112]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_paistudio20220112-1.0.8.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [alibabacloud-paistudio20220112]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_paistudio20220112-1.0.9.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-paistudio20220112]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.1.4b0.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.1.4rc0.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [optipack]: Remove: archive file [/home/abi/fetcher/tmp/optipack-0.0.21.dev0.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [optipack]: Remove: archive file [/home/abi/fetcher/tmp/optipack-0.0.22.dev0.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [optipack]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [turbosnake]: Remove: archive file [/home/abi/fetcher/tmp/turbosnake-1.14.342.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [turbosnake]: Remove: archive file [/home/abi/fetcher/tmp/turbosnake-1.24.434b7.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [turbosnake]: success
+[2023-08-01 10:16:23] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.8.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: End processing [boxmot]: success
+[2023-08-01 10:16:23] INFO root fetch - main [MainThread]: Store serial: [19120579]
