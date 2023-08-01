@@ -19865,3 +19865,135 @@
 [2023-08-01 12:19:53] INFO root fetch - processPackages [jrpyoop]: Remove: archive file [/home/abi/fetcher/tmp/jrpyoop-0.3.0.tar.gz]
 [2023-08-01 12:19:53] INFO root fetch - main [MainThread]: End processing [jrpyoop]: success
 [2023-08-01 12:19:53] INFO root fetch - main [MainThread]: Store serial: [19121963]
+[2023-08-01 12:25:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121963]
+[2023-08-01 12:25:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openmodule-commands
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmodule-test
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openmodule
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ExpoSeq
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-track-viewer
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-hr-leave-request-batch
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lark-oapi
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wizata-dsapi
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: darwin-py
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-bind
+[2023-08-01 12:25:06] INFO root fetch - processPackages [ExpoSeq]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [nonebot-plugin-bind]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [lark-oapi]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.1]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [openmodule-commands]: New version: [12.1.2] Old Version: [12.1.1]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [darwin-py]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-08-01 12:25:06] INFO root fetch - processPackages [nonebot-plugin-bind]: Downloading https://files.pythonhosted.org/packages/2e/33/aa4807a9120e1d5916ee09fc12b334996a4cd2f4e749b48eec8cf2fb0a04/nonebot_plugin_bind-0.1.3.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/a9/4c/0acb93c048bc437e670540f69595693b35955d112470518b847b5e70706d/st_track_viewer-0.0.6.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/4c/6f/01f5d7977f02f924b1686d68e973a39237cf5468203c5717a34852ebada5/ExpoSeq-2.0.2.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/93/cb/2e878cdb0deb3d41e5d685cc35589beb657169928c949c381853e8eaffd8/openmodule_commands-12.1.1.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: Downloading https://files.pythonhosted.org/packages/47/7d/84c753ec5d95b078da96cc12ad8a01cb96a50410e3b41b5a833271f21cd0/odoo14_addon_ssi_hr_leave_request_batch-14.0.1.2.1-py3-none-any.whl
+[2023-08-01 12:25:07] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/93/f6/a0986edeb7fdef1e834f8d1de3051e64d7a11b558e66dd6f541d41841c09/darwin_py-0.8.9.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/db/89/d513f03ed62dcdcc01cb27016c2024510981035e3eee919442d6bef15fd4/lark-oapi-1.0.8.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [nonebot-plugin-bind]: Downloading https://files.pythonhosted.org/packages/3f/2f/4406c5ad46b44c8ef188615a61b222fd2e7e0a01bc965daf7c5ada6dabe0/nonebot_plugin_bind-0.1.4.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-01 12:25:07] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230801/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/4d/e2/bdac18243c059f716e66801aec9f315e4623f1e4ef827a0b8e6c45b63979/openmodule_commands-12.1.2.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: Downloading https://files.pythonhosted.org/packages/05/8c/2f47cabfb09fc168566c82daf247d4b2a4cd339b914a2fd624647f90fad3/odoo14_addon_ssi_hr_leave_request_batch-14.0.1.3.0-py3-none-any.whl
+[2023-08-01 12:25:07] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/b9/0b/c222081e8a9543548d301b6e25c03d0d8f84f086039528f77f18cd708e1e/st_track_viewer-0.0.7.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [darwin-py]: Downloading https://files.pythonhosted.org/packages/c5/56/e34f4f67858e6b507fb799ab789e82144a84a51233dfaaea764b8c51ad5d/darwin_py-0.9.0.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [nonebot-plugin-bind]: executing diffoscope
+[2023-08-01 12:25:07] INFO root fetch - processPackages [nonebot-plugin-bind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bind-0.1.3.tar.gz tmp/nonebot_plugin_bind-0.1.4.tar.gz --markdown 20230801/n/nonebot-plugin-bind/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-12.1.1.tar.gz tmp/openmodule_commands-12.1.2.tar.gz --markdown 20230801/o/openmodule-commands/12.1.1-12.1.2/diff.md --exclude *.pyd
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: executing diffoscope
+[2023-08-01 12:25:07] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_hr_leave_request_batch-14.0.1.2.1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_hr_leave_request_batch-14.0.1.3.0-py3-none-any.whl.zip --markdown 20230801/o/odoo14-addon-ssi-hr-leave-request-batch/14.0.1.2.1-14.0.1.3.0/diff.md --exclude *.pyd
+[2023-08-01 12:25:07] INFO root fetch - processPackages [darwin-py]: executing diffoscope
+[2023-08-01 12:25:07] INFO root fetch - processPackages [darwin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darwin_py-0.8.9.tar.gz tmp/darwin_py-0.9.0.tar.gz --markdown 20230801/d/darwin-py/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230801/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-08-01 12:25:07] INFO root fetch - processPackages [lark-oapi]: Downloading https://files.pythonhosted.org/packages/54/5c/43b33703e89b8ae3ca3af64b707a85cc1cc141695a8a96ef3ad9a5e279a8/lark-oapi-1.0.9.tar.gz
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-08-01 12:25:07] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230801/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-08-01 12:25:08] INFO root fetch - processPackages [ExpoSeq]: Downloading https://files.pythonhosted.org/packages/17/ab/08d5d7719b737787ae45aec4edfc64b71351c48bfcf533b2b9970c714a68/ExpoSeq-2.0.3.tar.gz
+[2023-08-01 12:25:08] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-08-01 12:25:08] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.6.tar.gz tmp/st_track_viewer-0.0.7.tar.gz --markdown 20230801/s/st-track-viewer/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-01 12:25:08] INFO root fetch - processPackages [lark-oapi]: executing diffoscope
+[2023-08-01 12:25:08] INFO root fetch - processPackages [lark-oapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lark-oapi-1.0.8.tar.gz tmp/lark-oapi-1.0.9.tar.gz --markdown 20230801/l/lark-oapi/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 12:25:09] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [wizata-dsapi]: Start processing: rabbitmq-request-response
+[2023-08-01 12:25:09] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-01 12:25:09] WARNING root fetch - processPackages [rabbitmq-request-response]: Skipping, unable to determine old version
+[2023-08-01 12:25:09] INFO root fetch - processPackages [rabbitmq-request-response]: Start processing: appconfig-cli
+[2023-08-01 12:25:09] INFO root fetch - main [MainThread]: End processing [rabbitmq-request-response] error
+[2023-08-01 12:25:09] INFO root fetch - processPackages [appconfig-cli]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [nonebot-plugin-bind]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bind-0.1.3.tar.gz]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [nonebot-plugin-bind]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bind-0.1.4.tar.gz]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [nonebot-plugin-bind]: Start processing: fugle-trade
+[2023-08-01 12:25:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bind]: success
+[2023-08-01 12:25:09] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-12.1.1.tar.gz]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-12.1.2.tar.gz]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [openmodule-commands]: Start processing: returnn
+[2023-08-01 12:25:09] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-08-01 12:25:09] INFO root fetch - processPackages [fugle-trade]: New version: [1.0.0] Old Version: [0.5.2]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [returnn]: New version: [1.20230801.121204] Old Version: [1.20230727.163234]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_leave_request_batch-14.0.1.2.1-py3-none-any.whl.zip]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_leave_request_batch-14.0.1.3.0-py3-none-any.whl.zip]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-leave-request-batch]: Start processing: bootloader-core-library
+[2023-08-01 12:25:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-leave-request-batch]: success
+[2023-08-01 12:25:09] INFO root fetch - processPackages [appconfig-cli]: Downloading https://files.pythonhosted.org/packages/51/be/c66caefd44cbf24e597866dfb565696989b6aaa5bd871e9fbd0b4d823687/appconfig_cli-0.1.1.tar.gz
+[2023-08-01 12:25:09] INFO root fetch - processPackages [bootloader-core-library]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 12:25:09] INFO root fetch - processPackages [fugle-trade]: Downloading https://files.pythonhosted.org/packages/89/0a/b218aa7e6e2c6a789e8cae04b56fd630fb2eb8b7d230271a7a420c746bc6/fugle_trade-0.5.2.tar.gz
+[2023-08-01 12:25:09] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/ea/f3/95938dd64ddd9694b057ddc15d629b5631fb00d3ce1539a9316c2cff17a8/returnn-1.20230727.163234.tar.gz
+[2023-08-01 12:25:10] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.0.0rc9.tar.gz]
+[2023-08-01 12:25:10] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.1.0.tar.gz]
+[2023-08-01 12:25:10] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-08-01 12:25:10] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/80/d1/6cc77d20ab23855561eba471eddd4bfff358e37454158524bc0ea7ffb7d5/bootloader_core_library-0.0.1.tar.gz
+[2023-08-01 12:25:10] INFO root fetch - processPackages [ExpoSeq]: executing diffoscope
+[2023-08-01 12:25:10] INFO root fetch - processPackages [ExpoSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpoSeq-2.0.2.tar.gz tmp/ExpoSeq-2.0.3.tar.gz --markdown 20230801/E/ExpoSeq/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-08-01 12:25:10] INFO root fetch - processPackages [appconfig-cli]: Downloading https://files.pythonhosted.org/packages/46/4d/9e07655ec696192ef0a902d2818b98457931d944a39fd441a1402f13f3f5/appconfig_cli-0.2.0.tar.gz
+[2023-08-01 12:25:10] INFO root fetch - processPackages [fugle-trade]: Downloading https://files.pythonhosted.org/packages/44/9d/f2473edab41da02bbfb57297720236a4ee83209fcbe4c3ebbd1abf85d7df/fugle_trade-1.0.0.tar.gz
+[2023-08-01 12:25:10] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.8.9.tar.gz]
+[2023-08-01 12:25:10] INFO root fetch - processPackages [darwin-py]: Remove: archive file [/home/abi/fetcher/tmp/darwin_py-0.9.0.tar.gz]
+[2023-08-01 12:25:10] INFO root fetch - main [MainThread]: End processing [darwin-py]: success
+[2023-08-01 12:25:10] INFO root fetch - processPackages [appconfig-cli]: executing diffoscope
+[2023-08-01 12:25:10] INFO root fetch - processPackages [appconfig-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appconfig_cli-0.1.1.tar.gz tmp/appconfig_cli-0.2.0.tar.gz --markdown 20230801/a/appconfig-cli/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:25:10] INFO root fetch - processPackages [fugle-trade]: executing diffoscope
+[2023-08-01 12:25:10] INFO root fetch - processPackages [fugle-trade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugle_trade-0.5.2.tar.gz tmp/fugle_trade-1.0.0.tar.gz --markdown 20230801/f/fugle-trade/0.5.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 12:25:10] INFO root fetch - processPackages [bootloader-core-library]: Downloading https://files.pythonhosted.org/packages/c0/20/15675eecf80e3f9d0eae87e3682e593a286165b7d230226c3cba76e89999/bootloader_core_library-0.0.2.tar.gz
+[2023-08-01 12:25:10] INFO root fetch - processPackages [bootloader-core-library]: executing diffoscope
+[2023-08-01 12:25:10] INFO root fetch - processPackages [bootloader-core-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootloader_core_library-0.0.1.tar.gz tmp/bootloader_core_library-0.0.2.tar.gz --markdown 20230801/b/bootloader-core-library/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 12:25:10] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/87/0a/9ac8d4260482e37ac020ff4f15c0a17a65c99f33fa77b9c0cf058a40b0a2/returnn-1.20230801.121204.tar.gz
+[2023-08-01 12:25:11] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.0.0rc9.tar.gz]
+[2023-08-01 12:25:11] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.1.0.tar.gz]
+[2023-08-01 12:25:11] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-08-01 12:25:11] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-08-01 12:25:11] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230727.163234.tar.gz tmp/returnn-1.20230801.121204.tar.gz --markdown 20230801/r/returnn/1.20230727.163234-1.20230801.121204/diff.md --exclude *.pyd
+[2023-08-01 12:25:12] INFO root fetch - processPackages [fugle-trade]: Remove: archive file [/home/abi/fetcher/tmp/fugle_trade-0.5.2.tar.gz]
+[2023-08-01 12:25:12] INFO root fetch - processPackages [fugle-trade]: Remove: archive file [/home/abi/fetcher/tmp/fugle_trade-1.0.0.tar.gz]
+[2023-08-01 12:25:12] INFO root fetch - main [MainThread]: End processing [fugle-trade]: success
+[2023-08-01 12:25:12] INFO root fetch - processPackages [appconfig-cli]: Remove: archive file [/home/abi/fetcher/tmp/appconfig_cli-0.1.1.tar.gz]
+[2023-08-01 12:25:12] INFO root fetch - processPackages [appconfig-cli]: Remove: archive file [/home/abi/fetcher/tmp/appconfig_cli-0.2.0.tar.gz]
+[2023-08-01 12:25:12] INFO root fetch - main [MainThread]: End processing [appconfig-cli]: success
+[2023-08-01 12:25:12] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.1.tar.gz]
+[2023-08-01 12:25:12] INFO root fetch - processPackages [bootloader-core-library]: Remove: archive file [/home/abi/fetcher/tmp/bootloader_core_library-0.0.2.tar.gz]
+[2023-08-01 12:25:12] INFO root fetch - main [MainThread]: End processing [bootloader-core-library]: success
+[2023-08-01 12:25:13] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.2.tar.gz]
+[2023-08-01 12:25:13] INFO root fetch - processPackages [ExpoSeq]: Remove: archive file [/home/abi/fetcher/tmp/ExpoSeq-2.0.3.tar.gz]
+[2023-08-01 12:25:13] INFO root fetch - main [MainThread]: End processing [ExpoSeq]: success
+[2023-08-01 12:25:15] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230727.163234.tar.gz]
+[2023-08-01 12:25:15] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230801.121204.tar.gz]
+[2023-08-01 12:25:15] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-08-01 12:26:15] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.8.tar.gz]
+[2023-08-01 12:26:15] INFO root fetch - processPackages [lark-oapi]: Remove: archive file [/home/abi/fetcher/tmp/lark-oapi-1.0.9.tar.gz]
+[2023-08-01 12:26:15] INFO root fetch - main [MainThread]: End processing [lark-oapi]: success
+[2023-08-01 12:27:26] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.6.tar.gz]
+[2023-08-01 12:27:26] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.7.tar.gz]
+[2023-08-01 12:27:26] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-08-01 12:27:26] INFO root fetch - main [MainThread]: Store serial: [19122055]
