@@ -4236,3 +4236,75 @@
 [2023-08-01 02:38:00] INFO root fetch - processPackages [tencentcloud-sdk-python-essbasic]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-essbasic-3.0.947.tar.gz]
 [2023-08-01 02:38:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-essbasic]: success
 [2023-08-01 02:38:00] INFO root fetch - main [MainThread]: Store serial: [19115431]
+[2023-08-01 02:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19115431]
+[2023-08-01 02:43:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-shopify-utils
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-github
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mediawrangler
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: octosuite
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iolConn
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: state-machine-semaphore
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.cdk-ethereum-node
+[2023-08-01 02:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SGtSNEpiPy
+[2023-08-01 02:43:09] INFO root fetch - processPackages [octosuite]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-08-01 02:43:09] WARNING root fetch - processPackages [iolConn]: Skipping, unable to determine old version
+[2023-08-01 02:43:09] INFO root fetch - main [MainThread]: End processing [iolConn] error
+[2023-08-01 02:43:09] INFO root fetch - processPackages [flask-shopify-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-01 02:43:09] INFO root fetch - processPackages [cdk-github]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 02:43:09] WARNING root fetch - processPackages [mediawrangler]: Skipping, unable to determine old version
+[2023-08-01 02:43:09] INFO root fetch - main [MainThread]: End processing [mediawrangler] error
+[2023-08-01 02:43:09] INFO root fetch - processPackages [SGtSNEpiPy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-01 02:43:09] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-01 02:43:09] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230801] Old Version: [0.1.5.dev20230731]
+[2023-08-01 02:43:09] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-08-01 02:43:09] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 02:43:09] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/49/ae/86e60d5b1e8e3b4f19e6e67a66bed0b91a624f67d18a642e7bfc41b2931e/flask_shopify_utils-0.0.6.tar.gz
+[2023-08-01 02:43:09] INFO root fetch - processPackages [octosuite]: Downloading https://files.pythonhosted.org/packages/46/02/235bf76068b9d34b95b23c243bf9e3e1bc1e6ea50d603f5f31704de2bb15/octosuite-3.1.0.tar.gz
+[2023-08-01 02:43:09] INFO root fetch - processPackages [cdk-github]: Downloading https://files.pythonhosted.org/packages/8f/02/dac3653f8b767f0b6512d33c39c769caaa6a87117d9b9e4a5662dceadc26/cdk-github-0.0.8.tar.gz
+[2023-08-01 02:43:09] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/a2/67/f74eb2721a7aea637109a32ff0cc054820cbd0edeef8ebac978987a49133/SGtSNEpiPy-1.1.4.tar.gz
+[2023-08-01 02:43:09] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/23/a7/2cc9d1d1e68688a998da93e430a9125f4bb6523b4bcfc9b0632e10d4f629/aeppl-nightly-0.1.5.dev20230731.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/dd/f7/58b22a5add46d6c0ed32520b33c4220f1065cd8404b14f3b82053ec42005/flask_shopify_utils-0.0.7.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [octosuite]: Downloading https://files.pythonhosted.org/packages/ed/19/177864eae1fd8a473f6dc0defd67d7b4a909b6978e451e8c93420eebc340/octosuite-3.1.1.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [SGtSNEpiPy]: Downloading https://files.pythonhosted.org/packages/64/31/b879dcbc783ed3505b6e15ca99579f98107d17316310f944fa8c70899aed/SGtSNEpiPy-1.1.5.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-08-01 02:43:10] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230801/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-01 02:43:10] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/a3/49/f61b3e899506b677c6ec52e901a53cb06b860815cab6b3dd27b2c63eb781/aeppl-nightly-0.1.5.dev20230801.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [flask-shopify-utils]: executing diffoscope
+[2023-08-01 02:43:10] INFO root fetch - processPackages [flask-shopify-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_shopify_utils-0.0.6.tar.gz tmp/flask_shopify_utils-0.0.7.tar.gz --markdown 20230801/f/flask-shopify-utils/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-01 02:43:10] INFO root fetch - processPackages [octosuite]: executing diffoscope
+[2023-08-01 02:43:10] INFO root fetch - processPackages [octosuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octosuite-3.1.0.tar.gz tmp/octosuite-3.1.1.tar.gz --markdown 20230801/o/octosuite/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-08-01 02:43:10] INFO root fetch - processPackages [SGtSNEpiPy]: executing diffoscope
+[2023-08-01 02:43:10] INFO root fetch - processPackages [SGtSNEpiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SGtSNEpiPy-1.1.4.tar.gz tmp/SGtSNEpiPy-1.1.5.tar.gz --markdown 20230801/S/SGtSNEpiPy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-01 02:43:10] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-08-01 02:43:10] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230731.tar.gz tmp/aeppl-nightly-0.1.5.dev20230801.tar.gz --markdown 20230801/a/aeppl-nightly/0.1.5.dev20230731-0.1.5.dev20230801/diff.md --exclude *.pyd
+[2023-08-01 02:43:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [cdk-github]: Downloading https://files.pythonhosted.org/packages/b0/c1/5a91171b5da3e631cbe4f6db5c98753ed9264deda14b972e57cffa4fdf63/cdk-github-0.0.9.tar.gz
+[2023-08-01 02:43:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-08-01 02:43:10] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230801/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 02:43:10] INFO root fetch - processPackages [cdk-github]: executing diffoscope
+[2023-08-01 02:43:10] INFO root fetch - processPackages [cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-github-0.0.8.tar.gz tmp/cdk-github-0.0.9.tar.gz --markdown 20230801/c/cdk-github/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 02:43:11] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-08-01 02:43:11] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.6.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.7.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [flask-shopify-utils]: success
+[2023-08-01 02:43:11] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.1.4.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - processPackages [SGtSNEpiPy]: Remove: archive file [/home/abi/fetcher/tmp/SGtSNEpiPy-1.1.5.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [SGtSNEpiPy]: success
+[2023-08-01 02:43:11] INFO root fetch - processPackages [octosuite]: Remove: archive file [/home/abi/fetcher/tmp/octosuite-3.1.0.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - processPackages [octosuite]: Remove: archive file [/home/abi/fetcher/tmp/octosuite-3.1.1.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [octosuite]: success
+[2023-08-01 02:43:11] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230731.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230801.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-08-01 02:43:11] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-08-01 02:43:11] INFO root fetch - processPackages [cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-github-0.0.8.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - processPackages [cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-github-0.0.9.tar.gz]
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [cdk-github]: success
+[2023-08-01 02:43:11] INFO root fetch - main [MainThread]: Store serial: [19115460]
