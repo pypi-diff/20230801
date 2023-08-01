@@ -15780,3 +15780,101 @@
 [2023-08-01 09:28:50] INFO root fetch - processPackages [ediri-azapi]: Remove: archive file [/home/abi/fetcher/tmp/ediri_azapi-1.8.0.tar.gz]
 [2023-08-01 09:28:50] INFO root fetch - main [MainThread]: End processing [ediri-azapi]: success
 [2023-08-01 09:28:50] INFO root fetch - main [MainThread]: Store serial: [19119987]
+[2023-08-01 09:33:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119987]
+[2023-08-01 09:33:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mindspore-dev
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablate
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: operatorio
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TinetApiRequest
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-config-server-client
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aad-token-verify-kbr
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lmctl
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pikepdf
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tablediter
+[2023-08-01 09:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nlp-models
+[2023-08-01 09:33:58] WARNING root fetch - processPackages [tablediter]: Skipping, unable to determine old version
+[2023-08-01 09:33:58] INFO root fetch - processPackages [tablediter]: Start processing: pysmartdatamodels
+[2023-08-01 09:33:58] INFO root fetch - main [MainThread]: End processing [tablediter] error
+[2023-08-01 09:33:58] INFO root fetch - processPackages [mindspore-dev]: New version: [2.1.0.dev20230730] Old Version: [2.1.0.dev20230723]
+[2023-08-01 09:33:58] INFO root fetch - processPackages [operatorio]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 09:33:58] INFO root fetch - processPackages [python-config-server-client]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-08-01 09:33:58] WARNING root fetch - processPackages [aad-token-verify-kbr]: Skipping, unable to determine old version
+[2023-08-01 09:33:58] INFO root fetch - processPackages [aad-token-verify-kbr]: Start processing: emzed
+[2023-08-01 09:33:58] INFO root fetch - main [MainThread]: End processing [aad-token-verify-kbr] error
+[2023-08-01 09:33:58] INFO root fetch - processPackages [lmctl]: New version: [3.6.0] Old Version: [3.5.0]
+[2023-08-01 09:33:58] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 09:33:58] INFO root fetch - processPackages [nlp-models]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-08-01 09:33:58] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-01 09:33:58] INFO root fetch - processPackages [pikepdf]: New version: [8.2.3] Old Version: [8.2.2]
+[2023-08-01 09:33:59] INFO root fetch - processPackages [pysmartdatamodels]: New version: [0.6.0] Old Version: [0.5.43]
+[2023-08-01 09:33:59] INFO root fetch - processPackages [python-config-server-client]: Downloading https://files.pythonhosted.org/packages/08/d1/a8bfa626c72975d7128b976ec061fccb8866c3439c6c9b74ed70deaf3c9c/python_config_server_client-1.0.3.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/c3/fd/c58cb55a20bf6df135ed93d1758d4c64c68a1a74b5676db822281110f618/TinetApiRequest-1.0.4.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [emzed]: New version: [3.0.0a9] Old Version: [3.0.0a8]
+[2023-08-01 09:33:59] INFO root fetch - processPackages [operatorio]: Downloading https://files.pythonhosted.org/packages/4a/25/ed528640627c682d63dd7d790381efe794b783506b2bfb22dd5f193cfefe/operatorio-0.1.8.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [mindspore-dev]: Downloading https://files.pythonhosted.org/packages/7b/79/d96541a07b7787a628e93e2cdf0a34f5b2484ef205f3a3c66e15709af8f7/mindspore_dev-2.1.0.dev20230723-cp39-none-any.whl
+[2023-08-01 09:33:59] INFO root fetch - processPackages [lmctl]: Downloading https://files.pythonhosted.org/packages/fa/6c/7e1afa366c8585614e5301ccde96a61225c257e2ac9e2b46239a7e5e0af4/lmctl-3.5.0-py3-none-any.whl
+[2023-08-01 09:33:59] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/de/f3/a3e940509162b8a95b8f74a193fe5ace12e41d7e27eff685c781dd4fe298/nlp-models-3.0.0.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/00/72/0cd408948d3732bf06e96b71c211cee44640859a32966575c3da2f10951d/pikepdf-8.2.2.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [pysmartdatamodels]: Downloading https://files.pythonhosted.org/packages/16/a8/27ee83aedda360d2d6532703fd2932cee20b84ac5df1de402b2da0000ffb/pysmartdatamodels-0.5.43.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [emzed]: Downloading https://files.pythonhosted.org/packages/ed/0c/bf92db40f9eb2a7a55f2edd6f1ee6ba10f39179f74b5801530026e0958dc/emzed-3.0.0a8.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [python-config-server-client]: Downloading https://files.pythonhosted.org/packages/ce/d3/60fbd1a25093859a2c4d4bfab6a89b90f7d47b024c5994c0ad8818c360d8/python_config_server_client-2.0.0.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/7f/2a/35a5e4488bf56b21ba2f029e4de0ba91aa0e11937a826aa433bc823ded59/TinetApiRequest-1.0.5.tar.gz
+[2023-08-01 09:33:59] WARNING root fetch - processPackages [mindspore-dev]: Skipping package: exceeds size limit 178089934>=10485760
+[2023-08-01 09:33:59] INFO root fetch - processPackages [mindspore-dev]: Start processing: Pygeun
+[2023-08-01 09:33:59] INFO root fetch - main [MainThread]: End processing [mindspore-dev] error
+[2023-08-01 09:33:59] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-01 09:33:59] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230801/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:33:59] INFO root fetch - processPackages [nlp-models]: Downloading https://files.pythonhosted.org/packages/1c/95/22033a177f858710db5bfe192f76dec32c0167d64de44b46ceafcccfb7be/nlp-models-4.0.0.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [python-config-server-client]: executing diffoscope
+[2023-08-01 09:33:59] INFO root fetch - processPackages [python-config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_config_server_client-1.0.3.tar.gz tmp/python_config_server_client-2.0.0.tar.gz --markdown 20230801/p/python-config-server-client/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-08-01 09:33:59] WARNING root fetch - processPackages [Pygeun]: Skipping, unable to determine old version
+[2023-08-01 09:33:59] INFO root fetch - main [MainThread]: End processing [Pygeun] error
+[2023-08-01 09:33:59] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-08-01 09:33:59] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.0.4.tar.gz tmp/TinetApiRequest-1.0.5.tar.gz --markdown 20230801/T/TinetApiRequest/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-01 09:33:59] INFO root fetch - processPackages [operatorio]: Downloading https://files.pythonhosted.org/packages/02/57/19be89ca1008d7cecd1cb40c07819ba475229c3dcb1cc441d188ac83c7cb/operatorio-0.1.9.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [pikepdf]: Downloading https://files.pythonhosted.org/packages/d0/a3/b4951d002af6fc1fc6a938ce48f82c0561f18bbcb4fca64910b01c801bf2/pikepdf-8.2.3.tar.gz
+[2023-08-01 09:33:59] INFO root fetch - processPackages [nlp-models]: executing diffoscope
+[2023-08-01 09:33:59] INFO root fetch - processPackages [nlp-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp-models-3.0.0.tar.gz tmp/nlp-models-4.0.0.tar.gz --markdown 20230801/n/nlp-models/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-08-01 09:33:59] INFO root fetch - processPackages [operatorio]: executing diffoscope
+[2023-08-01 09:33:59] INFO root fetch - processPackages [operatorio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/operatorio-0.1.8.tar.gz tmp/operatorio-0.1.9.tar.gz --markdown 20230801/o/operatorio/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 09:33:59] INFO root fetch - processPackages [lmctl]: Downloading https://files.pythonhosted.org/packages/80/cc/1466d4437d7e601850a1f52eee7541d3643619938871b50da171b1f64c35/lmctl-3.6.0-py3-none-any.whl
+[2023-08-01 09:34:00] INFO root fetch - processPackages [pikepdf]: executing diffoscope
+[2023-08-01 09:34:00] INFO root fetch - processPackages [pikepdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikepdf-8.2.2.tar.gz tmp/pikepdf-8.2.3.tar.gz --markdown 20230801/p/pikepdf/8.2.2-8.2.3/diff.md --exclude *.pyd
+[2023-08-01 09:34:00] INFO root fetch - processPackages [lmctl]: executing diffoscope
+[2023-08-01 09:34:00] INFO root fetch - processPackages [lmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmctl-3.5.0-py3-none-any.whl.zip tmp/lmctl-3.6.0-py3-none-any.whl.zip --markdown 20230801/l/lmctl/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2023-08-01 09:34:00] INFO root fetch - processPackages [pysmartdatamodels]: Downloading https://files.pythonhosted.org/packages/eb/ec/af9ec60ff25c95cbe57083eeb41b1fd4d5b0fb100fe534ab81f992ddcd16/pysmartdatamodels-0.6.0.tar.gz
+[2023-08-01 09:34:00] INFO root fetch - processPackages [emzed]: Downloading https://files.pythonhosted.org/packages/58/69/4768cb9ce9f14e297bb4e299c9bf2a92e5415e75d3e5fcb830eb6018e1f7/emzed-3.0.0a9.tar.gz
+[2023-08-01 09:34:00] INFO root fetch - processPackages [pysmartdatamodels]: executing diffoscope
+[2023-08-01 09:34:00] INFO root fetch - processPackages [pysmartdatamodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmartdatamodels-0.5.43.tar.gz tmp/pysmartdatamodels-0.6.0.tar.gz --markdown 20230801/p/pysmartdatamodels/0.5.43-0.6.0/diff.md --exclude *.pyd
+[2023-08-01 09:34:00] INFO root fetch - processPackages [emzed]: executing diffoscope
+[2023-08-01 09:34:00] INFO root fetch - processPackages [emzed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emzed-3.0.0a8.tar.gz tmp/emzed-3.0.0a9.tar.gz --markdown 20230801/e/emzed/3.0.0a8-3.0.0a9/diff.md --exclude *.pyd
+[2023-08-01 09:34:00] INFO root fetch - processPackages [python-config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/python_config_server_client-1.0.3.tar.gz]
+[2023-08-01 09:34:00] INFO root fetch - processPackages [python-config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/python_config_server_client-2.0.0.tar.gz]
+[2023-08-01 09:34:00] INFO root fetch - main [MainThread]: End processing [python-config-server-client]: success
+[2023-08-01 09:34:00] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.4.tar.gz]
+[2023-08-01 09:34:00] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.5.tar.gz]
+[2023-08-01 09:34:00] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-08-01 09:34:01] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-3.0.0.tar.gz]
+[2023-08-01 09:34:01] INFO root fetch - processPackages [nlp-models]: Remove: archive file [/home/abi/fetcher/tmp/nlp-models-4.0.0.tar.gz]
+[2023-08-01 09:34:01] INFO root fetch - main [MainThread]: End processing [nlp-models]: success
+[2023-08-01 09:34:01] INFO root fetch - processPackages [operatorio]: Remove: archive file [/home/abi/fetcher/tmp/operatorio-0.1.8.tar.gz]
+[2023-08-01 09:34:01] INFO root fetch - processPackages [operatorio]: Remove: archive file [/home/abi/fetcher/tmp/operatorio-0.1.9.tar.gz]
+[2023-08-01 09:34:01] INFO root fetch - main [MainThread]: End processing [operatorio]: success
+[2023-08-01 09:34:01] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-01 09:34:01] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-01 09:34:01] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-01 09:34:02] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.2.2.tar.gz]
+[2023-08-01 09:34:02] INFO root fetch - processPackages [pikepdf]: Remove: archive file [/home/abi/fetcher/tmp/pikepdf-8.2.3.tar.gz]
+[2023-08-01 09:34:02] INFO root fetch - main [MainThread]: End processing [pikepdf]: success
+[2023-08-01 09:34:02] INFO root fetch - processPackages [lmctl]: Remove: archive file [/home/abi/fetcher/tmp/lmctl-3.5.0-py3-none-any.whl.zip]
+[2023-08-01 09:34:02] INFO root fetch - processPackages [lmctl]: Remove: archive file [/home/abi/fetcher/tmp/lmctl-3.6.0-py3-none-any.whl.zip]
+[2023-08-01 09:34:02] INFO root fetch - main [MainThread]: End processing [lmctl]: success
+[2023-08-01 09:34:05] INFO root fetch - processPackages [emzed]: Remove: archive file [/home/abi/fetcher/tmp/emzed-3.0.0a8.tar.gz]
+[2023-08-01 09:34:05] INFO root fetch - processPackages [emzed]: Remove: archive file [/home/abi/fetcher/tmp/emzed-3.0.0a9.tar.gz]
+[2023-08-01 09:34:05] INFO root fetch - main [MainThread]: End processing [emzed]: success
+[2023-08-01 09:34:05] INFO root fetch - processPackages [pysmartdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/pysmartdatamodels-0.5.43.tar.gz]
+[2023-08-01 09:34:05] INFO root fetch - processPackages [pysmartdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/pysmartdatamodels-0.6.0.tar.gz]
+[2023-08-01 09:34:05] INFO root fetch - main [MainThread]: End processing [pysmartdatamodels]: success
+[2023-08-01 09:34:05] INFO root fetch - main [MainThread]: Store serial: [19120059]
