@@ -9649,3 +9649,104 @@
 [2023-08-01 03:33:24] INFO root fetch - processPackages [botocore-a-la-carte-route53domains]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-route53domains-1.31.9.tar.gz]
 [2023-08-01 03:33:24] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-route53domains]: success
 [2023-08-01 03:33:24] INFO root fetch - main [MainThread]: Store serial: [19116950]
+[2023-08-01 03:38:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19116950]
+[2023-08-01 03:38:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-stdlib
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataprep-ml
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: log10-io
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: klu
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioregistry
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roblox-pyc
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: policyengine-us
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-ecosystem-flask
+[2023-08-01 03:38:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pandas
+[2023-08-01 03:38:34] INFO root fetch - processPackages [policyengine-us]: New version: [0.402.0] Old Version: [0.401.5]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [dataprep-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [klu]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [log10-io]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [data-ecosystem-flask]: New version: [202307.0.42] Old Version: [202307.0.41]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [roblox-pyc]: New version: [2.26.113] Old Version: [2.25.113]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [bioregistry]: New version: [0.9.91] Old Version: [0.9.90]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 03:38:34] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/48/81/96364ccad3b45a69caaaaed84a3133a4cbc1c4d1faea1be85ae67126ebae/policyengine-us-0.401.5.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/b1/c9/2a9f4e78c580680c6a16d7ae54190d553fdb30b0f46c56ca7d168d55eb41/klu-0.1.8.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/a2/c0/9e3160e3044b275aefde1635dc0b8240777b2905f18f5b576dfc36f6552d/dataprep_ml-0.0.8.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/5d/0c/57fba706ff97b24041aebe245cfb288ca5e85ab1cb7ac439e8f06793f360/roblox-pyc-2.25.113.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/7e/03/4295268049b1e9be99030446ea2ba07dc14297cfbe971a04fa61731cd076/data_ecosystem_flask-202307.0.41.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/b1/e0/6a27789a10df7fd18fba54f139bb65b68491c3e924ed5bed42f55994909e/log10_io-0.2.3.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-01 03:38:34] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/1b/07/5f7fe3fb548610e2babc8be7a548365f59ccace7f2e49a393feec4afa20e/bioregistry-0.9.91.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [klu]: Downloading https://files.pythonhosted.org/packages/a5/9b/b497ef7ded62e9d7c34c96061b12e0d3adc6ad653f66589eaebfac32f3fd/klu-0.1.9.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/4e/79/d0813f0b3b9153581248f0741a8901ae3307f52404569ca8cefcc21d96da/dataprep_ml-0.0.9.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/75/fd/01e17f60fa9bf8c0eed531c4976836c872ea296e67124c30013f7e3fcd7a/policyengine-us-0.402.0.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [log10-io]: Downloading https://files.pythonhosted.org/packages/2c/05/f63b15e4e594511aaad507443454de42f31cacb30648c457aaece41187ec/log10_io-0.2.4.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/b9/54/d6df719022f0219a5a7af56d5ca944166ccc7ba941e4abd4c5b8515979e2/roblox-pyc-2.26.113.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [data-ecosystem-flask]: Downloading https://files.pythonhosted.org/packages/3b/89/bd048ba4ce09d2853c5904b943901160784bb78a580b9b7983011d312c8a/data_ecosystem_flask-202307.0.42.tar.gz
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230801/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230801/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-0.0.8.tar.gz tmp/dataprep_ml-0.0.9.tar.gz --markdown 20230801/d/dataprep-ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [log10-io]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [log10-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log10_io-0.2.3.tar.gz tmp/log10_io-0.2.4.tar.gz --markdown 20230801/l/log10-io/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [klu]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [klu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klu-0.1.8.tar.gz tmp/klu-0.1.9.tar.gz --markdown 20230801/k/klu/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230801/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [data-ecosystem-flask]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [data-ecosystem-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_flask-202307.0.41.tar.gz tmp/data_ecosystem_flask-202307.0.42.tar.gz --markdown 20230801/d/data-ecosystem-flask/202307.0.41-202307.0.42/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-2.25.113.tar.gz tmp/roblox-pyc-2.26.113.tar.gz --markdown 20230801/r/roblox-pyc/2.25.113-2.26.113/diff.md --exclude *.pyd
+[2023-08-01 03:38:35] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-08-01 03:38:35] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.401.5.tar.gz tmp/policyengine-us-0.402.0.tar.gz --markdown 20230801/p/policyengine-us/0.401.5-0.402.0/diff.md --exclude *.pyd
+[2023-08-01 03:38:36] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: firepup650
+[2023-08-01 03:38:36] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-01 03:38:36] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-01 03:38:36] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-01 03:38:36] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.2.3.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.8.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [log10-io]: Remove: archive file [/home/abi/fetcher/tmp/log10_io-0.2.4.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.9.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - main [MainThread]: End processing [log10-io]: success
+[2023-08-01 03:38:36] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2023-08-01 03:38:36] INFO root fetch - processPackages [firepup650]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.8.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [klu]: Remove: archive file [/home/abi/fetcher/tmp/klu-0.1.9.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - main [MainThread]: End processing [klu]: success
+[2023-08-01 03:38:36] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.41.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - processPackages [data-ecosystem-flask]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_flask-202307.0.42.tar.gz]
+[2023-08-01 03:38:36] INFO root fetch - main [MainThread]: End processing [data-ecosystem-flask]: success
+[2023-08-01 03:38:37] INFO root fetch - processPackages [firepup650]: Downloading https://files.pythonhosted.org/packages/a9/b2/3b3c6333bdcf3bad14d424fff8569cdfac6d8982648d26be72214d1e2302/firepup650-1.0.8.tar.gz
+[2023-08-01 03:38:37] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-2.25.113.tar.gz]
+[2023-08-01 03:38:37] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-2.26.113.tar.gz]
+[2023-08-01 03:38:37] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-08-01 03:38:37] INFO root fetch - processPackages [firepup650]: Downloading https://files.pythonhosted.org/packages/7f/6f/a57c81ede135dfa8faec693bfce6d3d6d6c6dd9a744d7d23bce45a502185/firepup650-1.0.9.tar.gz
+[2023-08-01 03:38:37] INFO root fetch - processPackages [firepup650]: executing diffoscope
+[2023-08-01 03:38:37] INFO root fetch - processPackages [firepup650]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepup650-1.0.8.tar.gz tmp/firepup650-1.0.9.tar.gz --markdown 20230801/f/firepup650/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 03:38:37] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-08-01 03:38:37] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.90.tar.gz tmp/bioregistry-0.9.91.tar.gz --markdown 20230801/b/bioregistry/0.9.90-0.9.91/diff.md --exclude *.pyd
+[2023-08-01 03:38:38] INFO root fetch - processPackages [firepup650]: Remove: archive file [/home/abi/fetcher/tmp/firepup650-1.0.8.tar.gz]
+[2023-08-01 03:38:38] INFO root fetch - processPackages [firepup650]: Remove: archive file [/home/abi/fetcher/tmp/firepup650-1.0.9.tar.gz]
+[2023-08-01 03:38:38] INFO root fetch - main [MainThread]: End processing [firepup650]: success
+[2023-08-01 03:39:07] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.401.5.tar.gz]
+[2023-08-01 03:39:07] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.402.0.tar.gz]
+[2023-08-01 03:39:07] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-08-01 03:40:41] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.90.tar.gz]
+[2023-08-01 03:40:41] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.91.tar.gz]
+[2023-08-01 03:40:41] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-08-01 03:40:41] INFO root fetch - main [MainThread]: Store serial: [19117307]
