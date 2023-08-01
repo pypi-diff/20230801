@@ -17384,3 +17384,132 @@
 [2023-08-01 10:37:39] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.7.tar.gz]
 [2023-08-01 10:37:39] INFO root fetch - main [MainThread]: End processing [philander]: success
 [2023-08-01 10:37:39] INFO root fetch - main [MainThread]: Store serial: [19120826]
+[2023-08-01 10:42:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120826]
+[2023-08-01 10:42:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: macrometa-source-mssql
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-estimator-nightly
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-target-mssql
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camSort
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tff-nightly
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bgstools
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-contributor-assets
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yvesCMD
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: macrometa-source-oracle
+[2023-08-01 10:42:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macrometa-target-oracle
+[2023-08-01 10:42:50] INFO root fetch - processPackages [macrometa-target-oracle]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-08-01 10:42:50] INFO root fetch - processPackages [camSort]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-01 10:42:50] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 10:42:50] INFO root fetch - processPackages [macrometa-source-oracle]: New version: [1.0.0] Old Version: [0.0.38]
+[2023-08-01 10:42:50] INFO root fetch - processPackages [macrometa-source-mssql]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-08-01 10:42:50] INFO root fetch - processPackages [yvesCMD]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-08-01 10:42:50] INFO root fetch - processPackages [macrometa-target-mssql]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-08-01 10:42:50] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post927] Old Version: [1.0.0.post924]
+[2023-08-01 10:42:51] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-08-01 10:42:51] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230731] Old Version: [0.0.1.dev20230730]
+[2023-08-01 10:42:51] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/01/61/da96a6e32812911ddc0be6394c0ada1498af788b2763696827ed56467896/camSort-0.2.1.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/f8/ce/aadb11448727303fc74399e4726f9128a801d5b6900e10ebdc91d4c6e5cd/macrometa-target-oracle-0.0.9.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/3d/97/96f149d7c5c167814edbae8e9693e5915bdec86dfd31a669e08d21162ee9/macrometa-target-mssql-0.0.9.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/2c/68/783dd5236706a00e04106672720889805a58a422c996052f2f9e590fec7f/yvesCMD-0.0.1.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/16/2e/a07b54c556f63c34f6240953b4c373c3600fe49ffe313270b48e7ef524fc/macrometa-source-mssql-0.0.9.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-08-01 10:42:51] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/87/21/d65b2f24a616de554d3af2b5471eead331f5886e6f9e5abe0421b28cc514/nucliadb_contributor_assets-1.0.0.post924-py3-none-any.whl
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/3b/c0/43acacc646df6c4efed183bc9ba97f4026648e82caf7538c2e65133aaf52/macrometa-source-oracle-0.0.38.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/56/9b/18db56aa9d0ab4c6b23cd2045a0693716a6574a2de832329c29478eae572/tff_nightly-0.0.1.dev20230730-py2.py3-none-any.whl
+[2023-08-01 10:42:51] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/06/11/537da15a840e79feaacdc4337c2eab87d6282fdd48f5d9f2c39c9ed11d1b/camSort-0.2.2.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-01 10:42:51] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.2.1.tar.gz tmp/camSort-0.2.2.tar.gz --markdown 20230801/c/camSort/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-01 10:42:51] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/70/b2/0c95443479de8862b104913048abead6ac170a96a2b76e7e064a50d85d7c/yvesCMD-0.0.1.1.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/bc/b2/bfd5af500552803cd9d200ec0b6b776577c98767ab4ea225763628b948dd/nucliadb_contributor_assets-1.0.0.post927-py3-none-any.whl
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-target-mssql]: Downloading https://files.pythonhosted.org/packages/cd/79/80e00193926eb912dbe06e38c3856e34b155c4323d1785959f0c77346d89/macrometa-target-mssql-1.0.0.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-target-oracle]: Downloading https://files.pythonhosted.org/packages/3d/a5/c7575f0344c41fea929f22563e3adee3d0514bcf020854d851759765b99f/macrometa-target-oracle-1.0.0.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 10:42:51] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.0.1.tar.gz tmp/yvesCMD-0.0.1.1.tar.gz --markdown 20230801/y/yvesCMD/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-08-01 10:42:51] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-source-oracle]: Downloading https://files.pythonhosted.org/packages/62/56/7d927d3eda9d9251f524f69101e11026e88bd8db12b4209089a5fb0baad8/macrometa-source-oracle-1.0.0.tar.gz
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-target-mssql]: executing diffoscope
+[2023-08-01 10:42:51] INFO root fetch - processPackages [macrometa-target-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mssql-0.0.9.tar.gz tmp/macrometa-target-mssql-1.0.0.tar.gz --markdown 20230801/m/macrometa-target-mssql/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 10:42:52] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-08-01 10:42:52] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post924-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post927-py3-none-any.whl.zip --markdown 20230801/n/nucliadb-contributor-assets/1.0.0.post924-1.0.0.post927/diff.md --exclude *.pyd
+[2023-08-01 10:42:52] INFO root fetch - processPackages [macrometa-target-oracle]: executing diffoscope
+[2023-08-01 10:42:52] INFO root fetch - processPackages [macrometa-target-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-oracle-0.0.9.tar.gz tmp/macrometa-target-oracle-1.0.0.tar.gz --markdown 20230801/m/macrometa-target-oracle/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 10:42:52] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/b6/65/1d6e5163a506a6adefe2858dd63b4329cdcc9eb261a6d80dd96f613dc80b/tff_nightly-0.0.1.dev20230731-py2.py3-none-any.whl
+[2023-08-01 10:42:52] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-08-01 10:42:52] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230801/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-08-01 10:42:52] INFO root fetch - processPackages [macrometa-source-oracle]: executing diffoscope
+[2023-08-01 10:42:52] INFO root fetch - processPackages [macrometa-source-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-oracle-0.0.38.tar.gz tmp/macrometa-source-oracle-1.0.0.tar.gz --markdown 20230801/m/macrometa-source-oracle/0.0.38-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 10:42:52] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-08-01 10:42:52] INFO root fetch - processPackages [macrometa-source-mssql]: Downloading https://files.pythonhosted.org/packages/08/44/9434ff4144f95ddde52e3bd2bce81b859dbb508bf8c678a2e2c2e99444ce/macrometa-source-mssql-1.0.0.tar.gz
+[2023-08-01 10:42:52] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-08-01 10:42:52] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230801/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 10:42:52] INFO root fetch - processPackages [macrometa-source-mssql]: executing diffoscope
+[2023-08-01 10:42:52] INFO root fetch - processPackages [macrometa-source-mssql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mssql-0.0.9.tar.gz tmp/macrometa-source-mssql-1.0.0.tar.gz --markdown 20230801/m/macrometa-source-mssql/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 10:42:53] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-08-01 10:42:53] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230730-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230731-py2.py3-none-any.whl.zip --markdown 20230801/t/tff-nightly/0.0.1.dev20230730-0.0.1.dev20230731/diff.md --exclude *.pyd
+[2023-08-01 10:42:53] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.1.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.2.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [camSort]: Start processing: liveramp-automation
+[2023-08-01 10:42:53] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-01 10:42:53] INFO root fetch - processPackages [liveramp-automation]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.1.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.1.1.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [yvesCMD]: Start processing: sheCry
+[2023-08-01 10:42:53] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 10:42:53] INFO root fetch - processPackages [sheCry]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/7a/a2/4a7cbb3856531d035b48c75c59df671a72d06235c38bdf9b5e3342af5e62/liveramp_automation-0.0.6-py3-none-any.whl
+[2023-08-01 10:42:53] INFO root fetch - processPackages [sheCry]: Downloading https://files.pythonhosted.org/packages/f3/9d/093f0f87dbeab492179a53954b5ad1aedb63669c23755f85e7507debbffe/sheCry-0.0.5.tar.gz
+[2023-08-01 10:42:53] INFO root fetch - processPackages [macrometa-source-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-oracle-0.0.38.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [macrometa-source-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-oracle-1.0.0.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [macrometa-source-oracle]: Start processing: camSort
+[2023-08-01 10:42:53] INFO root fetch - main [MainThread]: End processing [macrometa-source-oracle]: success
+[2023-08-01 10:42:53] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-0.0.9.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [macrometa-target-oracle]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-oracle-1.0.0.tar.gz]
+[2023-08-01 10:42:53] INFO root fetch - processPackages [macrometa-target-oracle]: Start processing: xarg-python
+[2023-08-01 10:42:53] INFO root fetch - main [MainThread]: End processing [macrometa-target-oracle]: success
+[2023-08-01 10:42:54] INFO root fetch - processPackages [camSort]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-01 10:42:54] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/34/5f/fa810f0d7a136a1fa9c96b97781a9e6b5a3ce59ba9f0f38ec2e2a89a1202/liveramp_automation-0.0.7.tar.gz
+[2023-08-01 10:42:54] INFO root fetch - processPackages [sheCry]: Downloading https://files.pythonhosted.org/packages/bf/36/72db5e9586cacdc721efdaf3e2b5a9b3b9b946e6d0be3661cfbca8907f25/sheCry-0.0.6.tar.gz
+[2023-08-01 10:42:54] INFO root fetch - processPackages [xarg-python]: New version: [0.8] Old Version: [0.7]
+[2023-08-01 10:42:54] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-08-01 10:42:54] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.0.6-py3-none-any.whl.zip tmp/liveramp_automation-0.0.7.tar.gz --markdown 20230801/l/liveramp-automation/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-01 10:42:54] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-0.0.9.tar.gz]
+[2023-08-01 10:42:54] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/06/11/537da15a840e79feaacdc4337c2eab87d6282fdd48f5d9f2c39c9ed11d1b/camSort-0.2.2.tar.gz
+[2023-08-01 10:42:54] INFO root fetch - processPackages [macrometa-target-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mssql-1.0.0.tar.gz]
+[2023-08-01 10:42:54] INFO root fetch - main [MainThread]: End processing [macrometa-target-mssql]: success
+[2023-08-01 10:42:54] INFO root fetch - processPackages [sheCry]: executing diffoscope
+[2023-08-01 10:42:54] INFO root fetch - processPackages [sheCry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheCry-0.0.5.tar.gz tmp/sheCry-0.0.6.tar.gz --markdown 20230801/s/sheCry/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-01 10:42:54] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-08-01 10:42:54] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-08-01 10:42:54] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-08-01 10:42:54] INFO root fetch - processPackages [macrometa-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mssql-0.0.9.tar.gz]
+[2023-08-01 10:42:54] INFO root fetch - processPackages [macrometa-source-mssql]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-mssql-1.0.0.tar.gz]
+[2023-08-01 10:42:54] INFO root fetch - main [MainThread]: End processing [macrometa-source-mssql]: success
+[2023-08-01 10:42:54] INFO root fetch - processPackages [xarg-python]: Downloading https://files.pythonhosted.org/packages/48/3c/83267b9f63283be49f76364083dcdde263a26965be013a4adb97ce804107/xarg-python-0.7.tar.gz
+[2023-08-01 10:42:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post924-py3-none-any.whl.zip]
+[2023-08-01 10:42:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post927-py3-none-any.whl.zip]
+[2023-08-01 10:42:54] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-08-01 10:42:54] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/5e/98/461a3f14436f84ce44b69cfbbb28c8dc6c8ea3988aad59140574016b6328/camSort-0.2.3.tar.gz
+[2023-08-01 10:42:54] INFO root fetch - processPackages [xarg-python]: Downloading https://files.pythonhosted.org/packages/98/92/0b0db5e4c72bf8b85622fc1f0f191d56ba755c2f622bac33308a40d21cb5/xarg_python-0.8-py2.py3-none-any.whl
+[2023-08-01 10:42:54] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-01 10:42:54] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.2.2.tar.gz tmp/camSort-0.2.3.tar.gz --markdown 20230801/c/camSort/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-01 10:42:54] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-08-01 10:42:54] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-08-01 10:42:54] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-08-01 10:42:54] INFO root fetch - processPackages [xarg-python]: executing diffoscope
+[2023-08-01 10:42:54] INFO root fetch - processPackages [xarg-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarg-python-0.7.tar.gz tmp/xarg_python-0.8-py2.py3-none-any.whl.zip --markdown 20230801/x/xarg-python/0.7-0.8/diff.md --exclude *.pyd
+[2023-08-01 10:42:55] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.6-py3-none-any.whl.zip]
+[2023-08-01 10:42:55] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.7.tar.gz]
+[2023-08-01 10:42:55] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-08-01 10:42:55] INFO root fetch - processPackages [sheCry]: Remove: archive file [/home/abi/fetcher/tmp/sheCry-0.0.5.tar.gz]
+[2023-08-01 10:42:55] INFO root fetch - processPackages [sheCry]: Remove: archive file [/home/abi/fetcher/tmp/sheCry-0.0.6.tar.gz]
+[2023-08-01 10:42:55] INFO root fetch - main [MainThread]: End processing [sheCry]: success
+[2023-08-01 10:42:55] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.2.tar.gz]
+[2023-08-01 10:42:55] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.3.tar.gz]
+[2023-08-01 10:42:55] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-01 10:42:55] INFO root fetch - processPackages [xarg-python]: Remove: archive file [/home/abi/fetcher/tmp/xarg-python-0.7.tar.gz]
+[2023-08-01 10:42:55] INFO root fetch - processPackages [xarg-python]: Remove: archive file [/home/abi/fetcher/tmp/xarg_python-0.8-py2.py3-none-any.whl.zip]
+[2023-08-01 10:42:55] INFO root fetch - main [MainThread]: End processing [xarg-python]: success
+[2023-08-01 10:42:56] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230730-py2.py3-none-any.whl.zip]
+[2023-08-01 10:42:56] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230731-py2.py3-none-any.whl.zip]
+[2023-08-01 10:42:56] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-08-01 10:42:56] INFO root fetch - main [MainThread]: Store serial: [19120867]
