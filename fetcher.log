@@ -11413,3 +11413,57 @@
 [2023-08-01 05:20:34] INFO root fetch - processPackages [selenium]: Remove: archive file [/home/abi/fetcher/tmp/selenium-4.9.1.tar.gz]
 [2023-08-01 05:20:34] INFO root fetch - main [MainThread]: End processing [selenium]: success
 [2023-08-01 05:20:34] INFO root fetch - main [MainThread]: Store serial: [19117992]
+[2023-08-01 05:25:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117992]
+[2023-08-01 05:25:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-01 05:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2023-08-01 05:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlops-shape-project
+[2023-08-01 05:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: En-transformer
+[2023-08-01 05:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: malala
+[2023-08-01 05:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openplugin-py
+[2023-08-01 05:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastmysql
+[2023-08-01 05:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: konfuzio-sdk
+[2023-08-01 05:25:43] INFO root fetch - processPackages [openplugin-py]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 05:25:43] INFO root fetch - processPackages [fastmysql]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-01 05:25:43] WARNING root fetch - processPackages [mlops-shape-project]: Skipping, unable to determine old version
+[2023-08-01 05:25:43] INFO root fetch - main [MainThread]: End processing [mlops-shape-project] error
+[2023-08-01 05:25:43] INFO root fetch - processPackages [En-transformer]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-01 05:25:43] WARNING root fetch - processPackages [malala]: Skipping, unable to determine old version
+[2023-08-01 05:25:43] INFO root fetch - main [MainThread]: End processing [malala] error
+[2023-08-01 05:25:43] INFO root fetch - processPackages [pih]: New version: [1.48024] Old Version: [1.48023]
+[2023-08-01 05:25:43] INFO root fetch - processPackages [En-transformer]: Downloading https://files.pythonhosted.org/packages/a1/53/efee3a5984a59150c25c393653d277991cebe3aa3483703e849eafda64ff/En-transformer-1.1.0.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/c8/05/830839a9f684b6cf1c7d3c4589d0a84f23c9b2a0b9c7f13cf4f54ffa8d29/pih-1.48023.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/f1/f6/a515e32680ee1308ecf63700c04ee5e981ee435e1d1907fb1a2ab84d799a/openplugin-py-0.0.5.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/55/90/bd5a4b8badf002ddf9b0506a7eb5baa66103516f0fa9e4d90129c087c11e/fastmysql-0.2.2.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-01 05:25:43] INFO root fetch - processPackages [En-transformer]: Downloading https://files.pythonhosted.org/packages/aa/d1/087f3b1e33857f8c20190f6366be71d1630aa79430cc7080b0dbde75c890/En-transformer-1.2.0.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/fa/60/6e06b5e5647f2b4e5a6da89c993e84a6d77d3fef8e5ebdce047495235b5a/pih-1.48024.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [fastmysql]: Downloading https://files.pythonhosted.org/packages/1c/2e/f030279f694985b8e91cdd91e2620af90b7fe079006c5872c7624ba16f3d/fastmysql-0.2.3.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [openplugin-py]: Downloading https://files.pythonhosted.org/packages/53/13/2e5605e5f4109021661dcc46c2a84905a2af39a6f80115047dcddd8f7f1e/openplugin-py-0.0.6.tar.gz
+[2023-08-01 05:25:43] INFO root fetch - processPackages [En-transformer]: executing diffoscope
+[2023-08-01 05:25:43] INFO root fetch - processPackages [En-transformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/En-transformer-1.1.0.tar.gz tmp/En-transformer-1.2.0.tar.gz --markdown 20230801/E/En-transformer/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-01 05:25:43] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 05:25:43] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48023.tar.gz tmp/pih-1.48024.tar.gz --markdown 20230801/p/pih/1.48023-1.48024/diff.md --exclude *.pyd
+[2023-08-01 05:25:43] INFO root fetch - processPackages [fastmysql]: executing diffoscope
+[2023-08-01 05:25:43] INFO root fetch - processPackages [fastmysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmysql-0.2.2.tar.gz tmp/fastmysql-0.2.3.tar.gz --markdown 20230801/f/fastmysql/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-01 05:25:43] INFO root fetch - processPackages [openplugin-py]: executing diffoscope
+[2023-08-01 05:25:43] INFO root fetch - processPackages [openplugin-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openplugin-py-0.0.5.tar.gz tmp/openplugin-py-0.0.6.tar.gz --markdown 20230801/o/openplugin-py/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-01 05:25:44] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-01 05:25:44] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-01 05:25:44] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230801/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-01 05:25:44] INFO root fetch - processPackages [En-transformer]: Remove: archive file [/home/abi/fetcher/tmp/En-transformer-1.1.0.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - processPackages [En-transformer]: Remove: archive file [/home/abi/fetcher/tmp/En-transformer-1.2.0.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - main [MainThread]: End processing [En-transformer]: success
+[2023-08-01 05:25:44] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48023.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48024.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 05:25:44] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.5.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - processPackages [openplugin-py]: Remove: archive file [/home/abi/fetcher/tmp/openplugin-py-0.0.6.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - main [MainThread]: End processing [openplugin-py]: success
+[2023-08-01 05:25:44] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.2.2.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - processPackages [fastmysql]: Remove: archive file [/home/abi/fetcher/tmp/fastmysql-0.2.3.tar.gz]
+[2023-08-01 05:25:44] INFO root fetch - main [MainThread]: End processing [fastmysql]: success
+[2023-08-01 05:25:45] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-01 05:25:45] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-01 05:25:45] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-01 05:25:45] INFO root fetch - main [MainThread]: Store serial: [19118017]
