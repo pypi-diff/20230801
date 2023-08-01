@@ -18459,3 +18459,129 @@
 [2023-08-01 11:15:47] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a9.tar.gz]
 [2023-08-01 11:15:47] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
 [2023-08-01 11:15:47] INFO root fetch - main [MainThread]: Store serial: [19121278]
+[2023-08-01 11:20:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121278]
+[2023-08-01 11:20:57] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: youwol
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logger-local
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: namekoplus
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyedid
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xiaomi-tv
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mgmt
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nemusicapi
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stable-diffusion-pytorch
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clearml
+[2023-08-01 11:20:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FJUtils
+[2023-08-01 11:20:58] INFO root fetch - processPackages [namekoplus]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [stable-diffusion-pytorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [youwol]: New version: [0.1.3rc0] Old Version: [0.1.2]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [nemusicapi]: New version: [0.0.2a1] Old Version: [0.0.1]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [FJUtils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 11:20:58] WARNING root fetch - processPackages [xiaomi-tv]: Skipping, unable to determine old version
+[2023-08-01 11:20:58] INFO root fetch - processPackages [xiaomi-tv]: Start processing: spanishconjugator
+[2023-08-01 11:20:58] INFO root fetch - main [MainThread]: End processing [xiaomi-tv] error
+[2023-08-01 11:20:58] INFO root fetch - processPackages [mgmt]: New version: [0.7.2] Old Version: [0.7.0]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [pyedid]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [stable-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/10/1b/c33aaa38272368bc6772c5c7d7db23814dc2b72eca272dcae2a245dcd161/stable_diffusion_pytorch-0.0.2-py3-none-any.whl
+[2023-08-01 11:20:58] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/d3/ca/9829a37e0cc5d3745fbbd986fad0fec0c09e0bb5ff9c9d75bdcbb5352cb4/namekoplus-0.4.5.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-01 11:20:58] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/21/02/abb3cc3117c5783c23223e81b7a351501e3a204b850917afe35937b7c1f3/youwol-0.1.2-py3-none-any.whl
+[2023-08-01 11:20:58] INFO root fetch - processPackages [mgmt]: Downloading https://files.pythonhosted.org/packages/8f/31/89d2b4eb8d4714d389c19cd5dc36dc72f47de6ca2a12f38be3187e1bea5d/mgmt-0.7.0.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/a8/4b/81f3b78c3405539b801c8462d8dc6299be57844a1c772029ced456b4307c/nemusicapi-0.0.1.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/35/cb/35fe924dc412fc27fe260dd94c3c4590872a4598c8641e78681223ce7e9f/FJUtils-0.0.7.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [pyedid]: Downloading https://files.pythonhosted.org/packages/d4/c4/30f32fc390948a28945109de11488a5d281dd69a58c5e16c02135af1ed18/pyedid-1.0.2.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/7e/29/095ec92c0b253f5d8ad2c5fc3a6c437c0cdabc67716b99ae81f0d773ae77/clearml-1.9.2rc2-py2.py3-none-any.whl
+[2023-08-01 11:20:58] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [stable-diffusion-pytorch]: Downloading https://files.pythonhosted.org/packages/fa/a7/74d91745696e8bd486e84b3ca5eeb130703f563ba5f82d619bcd9651b4ed/stable_diffusion_pytorch-0.0.3-py3-none-any.whl
+[2023-08-01 11:20:58] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/b0/4f/93e2be9565a9505e1304fbd88a77705ceaa4d9f007f5231209654f142894/namekoplus-0.4.6.tar.gz
+[2023-08-01 11:20:58] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-08-01 11:20:59] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-01 11:20:59] INFO root fetch - processPackages [mgmt]: Downloading https://files.pythonhosted.org/packages/84/fb/d9df748e7e48976f75057d9eae61f7dcfdb2c7aa92a85595a6c70eda7106/mgmt-0.7.2.tar.gz
+[2023-08-01 11:20:59] INFO root fetch - processPackages [nemusicapi]: Downloading https://files.pythonhosted.org/packages/21/b5/85be0a216f1784fb9618f0a0208a7c8efa49d7659b9b4f159e95ad5d4e11/nemusicapi-0.0.2a1.tar.gz
+[2023-08-01 11:20:59] INFO root fetch - processPackages [FJUtils]: Downloading https://files.pythonhosted.org/packages/53/b1/17c998996aa0b1f5c24d8951afe80ff313393105a6948c88020b0c7d956b/FJUtils-0.0.8.tar.gz
+[2023-08-01 11:20:59] INFO root fetch - processPackages [pyedid]: Downloading https://files.pythonhosted.org/packages/ee/8f/67ad1955ca1afcd9f16af8377efe83aee8e162c1c333d4efa9813b1eb5b9/pyedid-1.0.3.tar.gz
+[2023-08-01 11:20:59] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.5.tar.gz tmp/namekoplus-0.4.6.tar.gz --markdown 20230801/n/namekoplus/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/85/8b/d4d7aa1881b95a5de02e7d805e3d0e92c3a8fadad3fef9fae1256a7d60da/youwol-0.1.3rc0.tar.gz
+[2023-08-01 11:20:59] INFO root fetch - processPackages [stable-diffusion-pytorch]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [stable-diffusion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable_diffusion_pytorch-0.0.2-py3-none-any.whl.zip tmp/stable_diffusion_pytorch-0.0.3-py3-none-any.whl.zip --markdown 20230801/s/stable-diffusion-pytorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230801/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/ce/e8/0c335873c6ef72310890be41a2b4b804f0390e3b0c1a507bcbc4300d4229/clearml-1.9.3-py2.py3-none-any.whl
+[2023-08-01 11:20:59] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230801/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [mgmt]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mgmt-0.7.0.tar.gz tmp/mgmt-0.7.2.tar.gz --markdown 20230801/m/mgmt/0.7.0-0.7.2/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [pyedid]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [pyedid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedid-1.0.2.tar.gz tmp/pyedid-1.0.3.tar.gz --markdown 20230801/p/pyedid/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [nemusicapi]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [nemusicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemusicapi-0.0.1.tar.gz tmp/nemusicapi-0.0.2a1.tar.gz --markdown 20230801/n/nemusicapi/0.0.1-0.0.2a1/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [FJUtils]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [FJUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FJUtils-0.0.7.tar.gz tmp/FJUtils-0.0.8.tar.gz --markdown 20230801/F/FJUtils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [youwol]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [youwol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youwol-0.1.2-py3-none-any.whl.zip tmp/youwol-0.1.3rc0.tar.gz --markdown 20230801/y/youwol/0.1.2-0.1.3rc0/diff.md --exclude *.pyd
+[2023-08-01 11:20:59] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2023-08-01 11:20:59] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20230801/c/clearml/1.9.2rc2-1.9.3/diff.md --exclude *.pyd
+[2023-08-01 11:21:00] INFO root fetch - processPackages [stable-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/stable_diffusion_pytorch-0.0.2-py3-none-any.whl.zip]
+[2023-08-01 11:21:00] INFO root fetch - processPackages [stable-diffusion-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/stable_diffusion_pytorch-0.0.3-py3-none-any.whl.zip]
+[2023-08-01 11:21:00] INFO root fetch - processPackages [stable-diffusion-pytorch]: Start processing: copernicus-marine-client
+[2023-08-01 11:21:00] INFO root fetch - main [MainThread]: End processing [stable-diffusion-pytorch]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.5.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.6.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [namekoplus]: Start processing: spanishconjugator
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.1.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [nemusicapi]: Remove: archive file [/home/abi/fetcher/tmp/nemusicapi-0.0.2a1.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [nemusicapi]: Start processing: django-templatetag-handlebars-new
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [nemusicapi]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [logger-local]: Start processing: MyOverlay
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [mgmt]: Remove: archive file [/home/abi/fetcher/tmp/mgmt-0.7.0.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [mgmt]: Remove: archive file [/home/abi/fetcher/tmp/mgmt-0.7.2.tar.gz]
+[2023-08-01 11:21:01] WARNING root fetch - processPackages [django-templatetag-handlebars-new]: Skipping, unable to determine old version
+[2023-08-01 11:21:01] INFO root fetch - processPackages [pyedid]: Remove: archive file [/home/abi/fetcher/tmp/pyedid-1.0.2.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [django-templatetag-handlebars-new] error
+[2023-08-01 11:21:01] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.7.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [pyedid]: Remove: archive file [/home/abi/fetcher/tmp/pyedid-1.0.3.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [mgmt]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [FJUtils]: Remove: archive file [/home/abi/fetcher/tmp/FJUtils-0.0.8.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [pyedid]: success
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [FJUtils]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [MyOverlay]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.2-py3-none-any.whl.zip]
+[2023-08-01 11:21:01] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.3rc0.tar.gz]
+[2023-08-01 11:21:01] INFO root fetch - main [MainThread]: End processing [youwol]: success
+[2023-08-01 11:21:01] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/5f/96/a44e9ab263598a6f0858406b553d5e4dff56b35cadf3183abff1c5995f31/copernicus_marine_client-0.8.7.tar.gz
+[2023-08-01 11:21:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-01 11:21:01] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/f4/ff/8309f17385ad144a286969fbbfb1bcc60e9c7516a22b291533de4a1ae43d/MyOverlay-0.1.2.tar.gz
+[2023-08-01 11:21:01] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-01 11:21:01] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-01 11:21:01] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230801/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-01 11:21:01] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/95/6a/508fb49cf42b5649183b00581d11df5a879aafbf26b205a07c032ef3526c/copernicus_marine_client-0.8.8.tar.gz
+[2023-08-01 11:21:01] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/2a/0d/835fda6a1899cde3349ffea250549ed9e393c57d5fb4b716eae1ca203090/MyOverlay-0.1.3-py3-none-any.whl
+[2023-08-01 11:21:01] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-08-01 11:21:01] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.8.7.tar.gz tmp/copernicus_marine_client-0.8.8.tar.gz --markdown 20230801/c/copernicus-marine-client/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-08-01 11:21:01] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-01 11:21:01] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.1.2.tar.gz tmp/MyOverlay-0.1.3-py3-none-any.whl.zip --markdown 20230801/M/MyOverlay/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 11:21:02] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip]
+[2023-08-01 11:21:02] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
+[2023-08-01 11:21:02] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2023-08-01 11:21:02] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.2.tar.gz]
+[2023-08-01 11:21:02] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.3-py3-none-any.whl.zip]
+[2023-08-01 11:21:02] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-01 11:21:02] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-01 11:21:02] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-01 11:21:02] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-01 11:21:02] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.7.tar.gz]
+[2023-08-01 11:21:02] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.8.tar.gz]
+[2023-08-01 11:21:02] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-08-01 11:21:02] INFO root fetch - main [MainThread]: Store serial: [19121374]
