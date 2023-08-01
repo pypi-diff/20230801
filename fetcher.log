@@ -11925,3 +11925,137 @@
 [2023-08-01 05:51:43] INFO root fetch - processPackages [PySide2-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Frameless-Window-0.1.3.tar.gz]
 [2023-08-01 05:51:43] INFO root fetch - main [MainThread]: End processing [PySide2-Frameless-Window]: success
 [2023-08-01 05:51:43] INFO root fetch - main [MainThread]: Store serial: [19118183]
+[2023-08-01 05:56:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118183]
+[2023-08-01 05:56:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wxtwitterbot
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aliyun-python-sdk-ga
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fluidsdk
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-visit-tracking
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: myqlm
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myqlm-clinalg
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-gerrit-api
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myqlm-contrib
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: myqlm-fermion
+[2023-08-01 05:56:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myqlm-interop
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm]: New version: [1.9.1] Old Version: [1.7.3]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [wxtwitterbot]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [aliyun-python-sdk-ga]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [fluidsdk]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-fermion]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-interop]: New version: [1.9.1] Old Version: [1.7.1]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-clinalg]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [python-gerrit-api]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [edc-visit-tracking]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-contrib]: New version: [1.9.1] Old Version: [1.7.1]
+[2023-08-01 05:56:52] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Downloading https://files.pythonhosted.org/packages/56/d6/d5fa69385a0c3982ef1cb88b2822ece555f73278758c81db74d8cba93cdb/aliyun-python-sdk-ga-1.0.8.tar.gz
+[2023-08-01 05:56:52] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/6c/f8/7304c48398d3b669907c3f86c533bede1490e94bc8ffa8bc2c4eebdb08bb/fluidsdk-0.4.4.tar.gz
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-clinalg]: Downloading https://files.pythonhosted.org/packages/e6/01/6d77a792459e4cc2382ef7245031de18d42ac1b3dd4ffec65a901de4374d/myqlm_clinalg-0.0.5-cp39-cp39-win_amd64.whl
+[2023-08-01 05:56:52] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/4e/1f/e8ff8c7ccaf0282a9d03ca811dd7e52ecf57d73fc5012aac9e3c153e6116/python-gerrit-api-3.0.2.tar.gz
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm]: Downloading https://files.pythonhosted.org/packages/26/c4/2c6bdba69cd252d90ef8e136b30f801e6d4f559d3b92703c1a69fb92eee0/myqlm-1.7.3-py3-none-any.whl
+[2023-08-01 05:56:52] INFO root fetch - processPackages [wxtwitterbot]: Downloading https://files.pythonhosted.org/packages/fc/17/7f999e1e4760465f2a91615c5f2d859910d4a517f51b3b609c2df1b04ffc/wxtwitterbot-1.1.0-py3-none-any.whl
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-fermion]: Downloading https://files.pythonhosted.org/packages/19/59/6229be0d59816efde69f4df28f00a7decd2e83d3af90126eccd918a6331e/myqlm_fermion-1.0.0-py3-none-any.whl
+[2023-08-01 05:56:52] INFO root fetch - processPackages [edc-visit-tracking]: Downloading https://files.pythonhosted.org/packages/1a/06/f2a9bc1cef336d39c82c1055f707cc73912c2e08799ac43095b50a894cbc/edc_visit_tracking-0.3.8-py3-none-any.whl
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-contrib]: Downloading https://files.pythonhosted.org/packages/b4/f1/f8b55a9e9661f722762917238fb42e083026c5694045d276038ce9a2c780/myqlm_contrib-1.7.1-py3-none-any.whl
+[2023-08-01 05:56:52] INFO root fetch - processPackages [myqlm-interop]: Downloading https://files.pythonhosted.org/packages/cc/07/f3e3156e3ffadc1565c0473f62500f5cf38a50330b5488a2735c100f922e/myqlm_interop-1.7.1-py3-none-any.whl
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm]: Downloading https://files.pythonhosted.org/packages/26/74/423d3297b739c35303f14acbb4b578b3021fb9e9d37a65c185491c53bc57/myqlm-1.9.1-py3-none-any.whl
+[2023-08-01 05:56:53] INFO root fetch - processPackages [wxtwitterbot]: Downloading https://files.pythonhosted.org/packages/de/65/8faa7c42025f1ac46e061d8f83a5bee2da6d0121f64df9d44d8bb05c5bbe/wxtwitterbot-1.2.0-py3-none-any.whl
+[2023-08-01 05:56:53] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/59/08/f20b86844308bb99c7dc7e5ac94db6da22deb615fde7552f47e68887cef1/python-gerrit-api-3.0.3.tar.gz
+[2023-08-01 05:56:53] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Downloading https://files.pythonhosted.org/packages/ca/00/cafcff01254f7f6f675d2b430f7f4abed3df62eaf56252d77e27eb68e298/aliyun-python-sdk-ga-1.0.9.tar.gz
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-fermion]: Downloading https://files.pythonhosted.org/packages/6a/14/1e2f003bee36edc4f7dae9903382e85bdcec00d1be2b0d694ae5ea350019/myqlm_fermion-1.1.0-py3-none-any.whl
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-contrib]: Downloading https://files.pythonhosted.org/packages/f1/e5/424080281e40d09cdfe7ae499485e09d82cb0fa553dd8c6c5525340e1136/myqlm_contrib-1.9.1-py3-none-any.whl
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-interop]: Downloading https://files.pythonhosted.org/packages/d2/55/00cd59576b795c0c5d5b1e3661471ffcb161a20c29efee3263ddd3feeb9b/myqlm_interop-1.9.1-py3-none-any.whl
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqlm-1.7.3-py3-none-any.whl.zip tmp/myqlm-1.9.1-py3-none-any.whl.zip --markdown 20230801/m/myqlm/1.7.3-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 05:56:53] INFO root fetch - processPackages [edc-visit-tracking]: Downloading https://files.pythonhosted.org/packages/cc/b6/616bf936c99497cd724389cfd967ef496bbcf233516084b90307f5d30127/edc_visit_tracking-0.3.9-py3-none-any.whl
+[2023-08-01 05:56:53] INFO root fetch - processPackages [wxtwitterbot]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [wxtwitterbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxtwitterbot-1.1.0-py3-none-any.whl.zip tmp/wxtwitterbot-1.2.0-py3-none-any.whl.zip --markdown 20230801/w/wxtwitterbot/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-01 05:56:53] INFO root fetch - processPackages [python-gerrit-api]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [python-gerrit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gerrit-api-3.0.2.tar.gz tmp/python-gerrit-api-3.0.3.tar.gz --markdown 20230801/p/python-gerrit-api/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-08-01 05:56:53] INFO root fetch - processPackages [aliyun-python-sdk-ga]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [aliyun-python-sdk-ga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ga-1.0.8.tar.gz tmp/aliyun-python-sdk-ga-1.0.9.tar.gz --markdown 20230801/a/aliyun-python-sdk-ga/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-contrib]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqlm_contrib-1.7.1-py3-none-any.whl.zip tmp/myqlm_contrib-1.9.1-py3-none-any.whl.zip --markdown 20230801/m/myqlm-contrib/1.7.1-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 05:56:53] INFO root fetch - processPackages [fluidsdk]: Downloading https://files.pythonhosted.org/packages/48/11/d212c6a506ef6dd07d43289ec764623aa065a810ba1bc3290efb7023152f/fluidsdk-0.4.5.tar.gz
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-interop]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqlm_interop-1.7.1-py3-none-any.whl.zip tmp/myqlm_interop-1.9.1-py3-none-any.whl.zip --markdown 20230801/m/myqlm-interop/1.7.1-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 05:56:53] INFO root fetch - processPackages [edc-visit-tracking]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [edc-visit-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_tracking-0.3.8-py3-none-any.whl.zip tmp/edc_visit_tracking-0.3.9-py3-none-any.whl.zip --markdown 20230801/e/edc-visit-tracking/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-fermion]: executing diffoscope
+[2023-08-01 05:56:53] INFO root fetch - processPackages [myqlm-fermion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqlm_fermion-1.0.0-py3-none-any.whl.zip tmp/myqlm_fermion-1.1.0-py3-none-any.whl.zip --markdown 20230801/m/myqlm-fermion/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-01 05:56:54] INFO root fetch - processPackages [wxtwitterbot]: Remove: archive file [/home/abi/fetcher/tmp/wxtwitterbot-1.1.0-py3-none-any.whl.zip]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [wxtwitterbot]: Remove: archive file [/home/abi/fetcher/tmp/wxtwitterbot-1.2.0-py3-none-any.whl.zip]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [wxtwitterbot]: Start processing: vertica-python
+[2023-08-01 05:56:54] INFO root fetch - main [MainThread]: End processing [wxtwitterbot]: success
+[2023-08-01 05:56:54] INFO root fetch - processPackages [myqlm]: Remove: archive file [/home/abi/fetcher/tmp/myqlm-1.7.3-py3-none-any.whl.zip]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [myqlm]: Remove: archive file [/home/abi/fetcher/tmp/myqlm-1.9.1-py3-none-any.whl.zip]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [myqlm]: Start processing: myqlm-simulators
+[2023-08-01 05:56:54] INFO root fetch - main [MainThread]: End processing [myqlm]: success
+[2023-08-01 05:56:54] INFO root fetch - processPackages [myqlm-simulators]: New version: [1.9.1] Old Version: [1.7.1]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [vertica-python]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [myqlm-contrib]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_contrib-1.7.1-py3-none-any.whl.zip]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [myqlm-contrib]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_contrib-1.9.1-py3-none-any.whl.zip]
+[2023-08-01 05:56:54] INFO root fetch - processPackages [myqlm-contrib]: Start processing: KorDigits
+[2023-08-01 05:56:54] INFO root fetch - main [MainThread]: End processing [myqlm-contrib]: success
+[2023-08-01 05:56:55] INFO root fetch - processPackages [fluidsdk]: executing diffoscope
+[2023-08-01 05:56:55] INFO root fetch - processPackages [fluidsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidsdk-0.4.4.tar.gz tmp/fluidsdk-0.4.5.tar.gz --markdown 20230801/f/fluidsdk/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-08-01 05:56:55] INFO root fetch - processPackages [KorDigits]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [vertica-python]: Downloading https://files.pythonhosted.org/packages/97/2e/5980a65d6966c1294ced62a6092fa1bfedff13eb1f91c16f51931e94f3c8/vertica-python-1.3.2.tar.gz
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-simulators]: Downloading https://files.pythonhosted.org/packages/da/45/0affd4bb130e451ff7528e3bb3bc038839f622d856884e48fb9da8bcddba/myqlm_simulators-1.7.1-py3-none-any.whl
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-interop]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_interop-1.7.1-py3-none-any.whl.zip]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-interop]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_interop-1.9.1-py3-none-any.whl.zip]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-interop]: Start processing: qat-comm
+[2023-08-01 05:56:55] INFO root fetch - main [MainThread]: End processing [myqlm-interop]: success
+[2023-08-01 05:56:55] INFO root fetch - processPackages [KorDigits]: Downloading https://files.pythonhosted.org/packages/74/fa/35284aa581f39d31288a50a4f85dd96844ddb4b155942f8d0ec40e946f26/KorDigits-1.1.8-py3-none-any.whl
+[2023-08-01 05:56:55] INFO root fetch - processPackages [qat-comm]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [edc-visit-tracking]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_tracking-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [edc-visit-tracking]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_tracking-0.3.9-py3-none-any.whl.zip]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [edc-visit-tracking]: Start processing: qat-core
+[2023-08-01 05:56:55] INFO root fetch - main [MainThread]: End processing [edc-visit-tracking]: success
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-fermion]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_fermion-1.0.0-py3-none-any.whl.zip]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-fermion]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_fermion-1.1.0-py3-none-any.whl.zip]
+[2023-08-01 05:56:55] INFO root fetch - main [MainThread]: End processing [myqlm-fermion]: success
+[2023-08-01 05:56:55] WARNING root fetch - processPackages [KorDigits]: Skipping package: exceeds size limit 61312281>=10485760
+[2023-08-01 05:56:55] INFO root fetch - main [MainThread]: End processing [KorDigits] error
+[2023-08-01 05:56:55] INFO root fetch - processPackages [qat-core]: New version: [1.8.0] Old Version: [1.6.4]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.2.tar.gz]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.3.tar.gz]
+[2023-08-01 05:56:55] INFO root fetch - main [MainThread]: End processing [python-gerrit-api]: success
+[2023-08-01 05:56:55] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ga-1.0.8.tar.gz]
+[2023-08-01 05:56:55] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ga-1.0.9.tar.gz]
+[2023-08-01 05:56:55] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ga]: success
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-simulators]: Downloading https://files.pythonhosted.org/packages/69/ea/54ebb524042fed487d67fb1a560dbcd82ef65b65764e4b544fac31e1d525/myqlm_simulators-1.9.1-py3-none-any.whl
+[2023-08-01 05:56:55] INFO root fetch - processPackages [qat-comm]: Downloading https://files.pythonhosted.org/packages/d3/4a/13d5c8f27c380c5d47ae34ebd0cbcf2760a73830679ae8cd0623667a1cd5/qat_comm-1.4.2-cp39-cp39-win_amd64.whl
+[2023-08-01 05:56:55] INFO root fetch - processPackages [vertica-python]: Downloading https://files.pythonhosted.org/packages/9e/f7/6b59d56757330bb97b47a830f412057d170fc7848ae99f4a69a278a69aa5/vertica-python-1.3.3.tar.gz
+[2023-08-01 05:56:55] INFO root fetch - processPackages [qat-core]: Downloading https://files.pythonhosted.org/packages/92/7f/35174ebf85f2bf8accac797fb81c0f64b414bee5a6c970d02a145e5bc8c5/qat_core-1.6.4-cp39-cp39-win_amd64.whl
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-simulators]: executing diffoscope
+[2023-08-01 05:56:55] INFO root fetch - processPackages [myqlm-simulators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqlm_simulators-1.7.1-py3-none-any.whl.zip tmp/myqlm_simulators-1.9.1-py3-none-any.whl.zip --markdown 20230801/m/myqlm-simulators/1.7.1-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 05:56:55] INFO root fetch - processPackages [vertica-python]: executing diffoscope
+[2023-08-01 05:56:55] INFO root fetch - processPackages [vertica-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vertica-python-1.3.2.tar.gz tmp/vertica-python-1.3.3.tar.gz --markdown 20230801/v/vertica-python/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-08-01 05:56:56] INFO root fetch - processPackages [myqlm-simulators]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_simulators-1.7.1-py3-none-any.whl.zip]
+[2023-08-01 05:56:56] INFO root fetch - processPackages [myqlm-simulators]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_simulators-1.9.1-py3-none-any.whl.zip]
+[2023-08-01 05:56:56] INFO root fetch - main [MainThread]: End processing [myqlm-simulators]: success
+[2023-08-01 05:56:56] INFO root fetch - processPackages [myqlm-clinalg]: Downloading https://files.pythonhosted.org/packages/20/72/69dbc898837fe926c8168eb9937278734b1408c3109111b879bc6d8b38f0/myqlm_clinalg-0.1.0-cp39-cp39-win_amd64.whl
+[2023-08-01 05:56:56] INFO root fetch - processPackages [vertica-python]: Remove: archive file [/home/abi/fetcher/tmp/vertica-python-1.3.2.tar.gz]
+[2023-08-01 05:56:56] INFO root fetch - processPackages [vertica-python]: Remove: archive file [/home/abi/fetcher/tmp/vertica-python-1.3.3.tar.gz]
+[2023-08-01 05:56:56] INFO root fetch - main [MainThread]: End processing [vertica-python]: success
+[2023-08-01 05:56:58] INFO root fetch - processPackages [qat-comm]: Downloading https://files.pythonhosted.org/packages/b0/f9/a46100172e7bdb8a173c569c835e0e5ac7e0553abb772b60405abec523cb/qat_comm-1.4.3-cp39-cp39-win_amd64.whl
+[2023-08-01 05:56:59] INFO root fetch - processPackages [myqlm-clinalg]: executing diffoscope
+[2023-08-01 05:56:59] INFO root fetch - processPackages [myqlm-clinalg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myqlm_clinalg-0.0.5-cp39-cp39-win_amd64.whl.zip tmp/myqlm_clinalg-0.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20230801/m/myqlm-clinalg/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-08-01 05:56:59] INFO root fetch - processPackages [qat-core]: Downloading https://files.pythonhosted.org/packages/75/26/e79d44d1cad16eaf843e3a31b266635717f47e84af615d90ad27bda2b53a/qat_core-1.8.0-cp39-cp39-win_amd64.whl
+[2023-08-01 05:57:00] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.4.tar.gz]
+[2023-08-01 05:57:00] INFO root fetch - processPackages [fluidsdk]: Remove: archive file [/home/abi/fetcher/tmp/fluidsdk-0.4.5.tar.gz]
+[2023-08-01 05:57:00] INFO root fetch - main [MainThread]: End processing [fluidsdk]: success
+[2023-08-01 05:57:01] INFO root fetch - processPackages [qat-comm]: executing diffoscope
+[2023-08-01 05:57:01] INFO root fetch - processPackages [qat-comm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat_comm-1.4.2-cp39-cp39-win_amd64.whl.zip tmp/qat_comm-1.4.3-cp39-cp39-win_amd64.whl.zip --markdown 20230801/q/qat-comm/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-01 05:57:01] INFO root fetch - processPackages [myqlm-clinalg]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_clinalg-0.0.5-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 05:57:01] INFO root fetch - processPackages [myqlm-clinalg]: Remove: archive file [/home/abi/fetcher/tmp/myqlm_clinalg-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 05:57:01] INFO root fetch - main [MainThread]: End processing [myqlm-clinalg]: success
+[2023-08-01 05:57:02] INFO root fetch - processPackages [qat-comm]: Remove: archive file [/home/abi/fetcher/tmp/qat_comm-1.4.2-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 05:57:02] INFO root fetch - processPackages [qat-comm]: Remove: archive file [/home/abi/fetcher/tmp/qat_comm-1.4.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 05:57:02] INFO root fetch - main [MainThread]: End processing [qat-comm]: success
+[2023-08-01 05:57:05] INFO root fetch - processPackages [qat-core]: executing diffoscope
+[2023-08-01 05:57:05] INFO root fetch - processPackages [qat-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat_core-1.6.4-cp39-cp39-win_amd64.whl.zip tmp/qat_core-1.8.0-cp39-cp39-win_amd64.whl.zip --markdown 20230801/q/qat-core/1.6.4-1.8.0/diff.md --exclude *.pyd
+[2023-08-01 05:57:06] INFO root fetch - processPackages [qat-core]: Remove: archive file [/home/abi/fetcher/tmp/qat_core-1.6.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 05:57:06] INFO root fetch - processPackages [qat-core]: Remove: archive file [/home/abi/fetcher/tmp/qat_core-1.8.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 05:57:06] INFO root fetch - main [MainThread]: End processing [qat-core]: success
+[2023-08-01 05:57:06] INFO root fetch - main [MainThread]: Store serial: [19118259]
