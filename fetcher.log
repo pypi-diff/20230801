@@ -19997,3 +19997,175 @@
 [2023-08-01 12:27:26] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.7.tar.gz]
 [2023-08-01 12:27:26] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
 [2023-08-01 12:27:26] INFO root fetch - main [MainThread]: Store serial: [19122055]
+[2023-08-01 12:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122055]
+[2023-08-01 12:32:36] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alpaka-job-coverage
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trustyai
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rebotics-sdk
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camSort
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: st-track-viewer
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axion
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uun-livecam
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: human-readable-time
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anyon
+[2023-08-01 12:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rego
+[2023-08-01 12:32:36] INFO root fetch - processPackages [rebotics-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [trustyai]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [alpaka-job-coverage]: New version: [1.4.0] Old Version: [1.3.6]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [axion]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [human-readable-time]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [uun-livecam]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [camSort]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [anyon]: New version: [3.8.9] Old Version: [3.8.10]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [rego]: New version: [1.6.1] Old Version: [1.5.2]
+[2023-08-01 12:32:36] INFO root fetch - processPackages [human-readable-time]: Downloading https://files.pythonhosted.org/packages/4d/f1/b75684427668182fd0b5429adb19a6d46d94ab3158f78a041168c4958a00/human_readable_time-0.1.1.tar.gz
+[2023-08-01 12:32:36] INFO root fetch - processPackages [alpaka-job-coverage]: Downloading https://files.pythonhosted.org/packages/1e/7e/cf10a552a353d911197994e253d9bcceb194dc585b6c040a92e13e25d1b1/alpaka-job-coverage-1.3.6.tar.gz
+[2023-08-01 12:32:36] INFO root fetch - processPackages [uun-livecam]: Downloading https://files.pythonhosted.org/packages/a2/10/a01371baa972acc11e6a2f5226dd49c7165cb50b1343fc1a728547d73c80/uun-livecam-0.5.1.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/51/65/08d641bf16e8c340b76e15f57bf4c36d7254f98e49c96a1ac85a040f86b0/rebotics_sdk-0.9.0.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/7c/93/5b11b68833bdc22791cfae1f230215c58e6043c59ffc7120c3d238948eb4/axion-3.6.8-cp311-none-win_amd64.whl
+[2023-08-01 12:32:37] INFO root fetch - processPackages [trustyai]: Downloading https://files.pythonhosted.org/packages/6f/dd/bd7cb07d6d2a931f250695ee0aab41ba719b7b6a531dd6811b15d29c900c/trustyai-0.2.9.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/28/19/b338399707b1931f6b234e03161427e37c76c90226a476f71ab308a63a2b/camSort-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-08-01 12:32:37] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/b9/0b/c222081e8a9543548d301b6e25c03d0d8f84f086039528f77f18cd708e1e/st_track_viewer-0.0.7.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [rego]: Downloading https://files.pythonhosted.org/packages/8f/4f/6c247b43b4d5ae48f106bd1bbac7fc215184fb5a1a9c07f1a6172d921d68/rego-1.5.2.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/33/c2/dc221a2862093a9a45a2a56f79b41e56f7a0057fe4fba005761dd5e83f6a/anyon-3.8.10-cp311-none-win_amd64.whl
+[2023-08-01 12:32:37] INFO root fetch - processPackages [human-readable-time]: Downloading https://files.pythonhosted.org/packages/c7/ec/f224cfceabd261c9ad0aceffdefe5d23640a12d2e457744e7d6c022ba10d/human_readable_time-0.1.2.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [alpaka-job-coverage]: Downloading https://files.pythonhosted.org/packages/15/3d/f6e8aa82bdb22c4481190b0debe6756e43e48c3d6eb17edcd4a8f18b1971/alpaka-job-coverage-1.4.0.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/7c/0f/56bcca56cb84200534b8260b96ab5b05334a88c9d0dcd9863b5a53f68b9c/camSort-0.2.7.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [human-readable-time]: executing diffoscope
+[2023-08-01 12:32:37] INFO root fetch - processPackages [human-readable-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human_readable_time-0.1.1.tar.gz tmp/human_readable_time-0.1.2.tar.gz --markdown 20230801/h/human-readable-time/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 12:32:37] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/4f/06/7ab20ef8fd921b5051746778cca4254a9b25afffdfcb7885e4a371b54b52/axion-3.6.9-cp311-none-win_amd64.whl
+[2023-08-01 12:32:37] INFO root fetch - processPackages [alpaka-job-coverage]: executing diffoscope
+[2023-08-01 12:32:37] INFO root fetch - processPackages [alpaka-job-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaka-job-coverage-1.3.6.tar.gz tmp/alpaka-job-coverage-1.4.0.tar.gz --markdown 20230801/a/alpaka-job-coverage/1.3.6-1.4.0/diff.md --exclude *.pyd
+[2023-08-01 12:32:37] INFO root fetch - processPackages [uun-livecam]: Downloading https://files.pythonhosted.org/packages/a9/78/96066df4c5e7d4fca017665d1c9fbffbd213725e665939646d2d1b15c2b5/uun-livecam-0.5.2.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/56/ef/2a27faf607a76eb614716def944c301f559d8575b4fd98cd8ef8789f1b77/st_track_viewer-0.0.8.tar.gz
+[2023-08-01 12:32:37] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-01 12:32:37] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl.zip tmp/camSort-0.2.7.tar.gz --markdown 20230801/c/camSort/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-01 12:32:37] INFO root fetch - processPackages [rebotics-sdk]: Downloading https://files.pythonhosted.org/packages/3a/af/a2aa77307cf3fac9701095f738d855d74af3c987de0ec7d7a1d8b75aee7f/rebotics_sdk-0.9.1.tar.gz
+[2023-08-01 12:32:37] WARNING root fetch - processPackages [trustyai]: Skipping package: exceeds size limit 18521408>=10485760
+[2023-08-01 12:32:37] INFO root fetch - processPackages [trustyai]: Start processing: shareddata
+[2023-08-01 12:32:37] INFO root fetch - main [MainThread]: End processing [trustyai] error
+[2023-08-01 12:32:37] INFO root fetch - processPackages [uun-livecam]: executing diffoscope
+[2023-08-01 12:32:37] INFO root fetch - processPackages [uun-livecam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-livecam-0.5.1.tar.gz tmp/uun-livecam-0.5.2.tar.gz --markdown 20230801/u/uun-livecam/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-01 12:32:37] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/ed/92/409b285914980f035f40d0f929ef3fc963df14955907713e94988241c1dd/anyon-3.8.9-cp311-none-win_amd64.whl
+[2023-08-01 12:32:38] INFO root fetch - processPackages [shareddata]: New version: [2.2.7] Old Version: [2.2.6]
+[2023-08-01 12:32:38] INFO root fetch - processPackages [rebotics-sdk]: executing diffoscope
+[2023-08-01 12:32:38] INFO root fetch - processPackages [rebotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rebotics_sdk-0.9.0.tar.gz tmp/rebotics_sdk-0.9.1.tar.gz --markdown 20230801/r/rebotics-sdk/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 12:32:38] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-08-01 12:32:38] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.6.8-cp311-none-win_amd64.whl.zip tmp/axion-3.6.9-cp311-none-win_amd64.whl.zip --markdown 20230801/a/axion/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-08-01 12:32:38] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-08-01 12:32:38] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.7.tar.gz tmp/st_track_viewer-0.0.8.tar.gz --markdown 20230801/s/st-track-viewer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 12:32:38] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-08-01 12:32:38] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.8.10-cp311-none-win_amd64.whl.zip tmp/anyon-3.8.9-cp311-none-win_amd64.whl.zip --markdown 20230801/a/anyon/3.8.10-3.8.9/diff.md --exclude *.pyd
+[2023-08-01 12:32:38] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/d3/1e/32c95021d350e459bc90f9c204b804c9d385c0f04774dc6691b8e69792c4/shareddata-2.2.6.tar.gz
+[2023-08-01 12:32:38] INFO root fetch - processPackages [rego]: Downloading https://files.pythonhosted.org/packages/f8/ab/e18e27b2ca31937e115833294fce63f2805298dca8377fd67f561eeb8c67/rego-1.6.1.tar.gz
+[2023-08-01 12:32:38] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/29/dc/640ed334c040670b0b6e31084b76e06a601ad84490cc0f3f0763087db039/shareddata-2.2.7.tar.gz
+[2023-08-01 12:32:38] INFO root fetch - processPackages [rego]: executing diffoscope
+[2023-08-01 12:32:38] INFO root fetch - processPackages [rego]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rego-1.5.2.tar.gz tmp/rego-1.6.1.tar.gz --markdown 20230801/r/rego/1.5.2-1.6.1/diff.md --exclude *.pyd
+[2023-08-01 12:32:38] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-08-01 12:32:38] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.2.6.tar.gz tmp/shareddata-2.2.7.tar.gz --markdown 20230801/s/shareddata/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2023-08-01 12:32:39] INFO root fetch - processPackages [human-readable-time]: Remove: archive file [/home/abi/fetcher/tmp/human_readable_time-0.1.1.tar.gz]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [human-readable-time]: Remove: archive file [/home/abi/fetcher/tmp/human_readable_time-0.1.2.tar.gz]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [human-readable-time]: Start processing: digimat.bac0
+[2023-08-01 12:32:39] INFO root fetch - main [MainThread]: End processing [human-readable-time]: success
+[2023-08-01 12:32:39] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-08-01 12:32:39] INFO root fetch - processPackages [alpaka-job-coverage]: Remove: archive file [/home/abi/fetcher/tmp/alpaka-job-coverage-1.3.6.tar.gz]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [alpaka-job-coverage]: Remove: archive file [/home/abi/fetcher/tmp/alpaka-job-coverage-1.4.0.tar.gz]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [alpaka-job-coverage]: Start processing: edwh
+[2023-08-01 12:32:39] INFO root fetch - main [MainThread]: End processing [alpaka-job-coverage]: success
+[2023-08-01 12:32:39] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl.zip]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.7.tar.gz]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [camSort]: Start processing: upgini
+[2023-08-01 12:32:39] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-01 12:32:39] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-08-01 12:32:39] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.8-cp311-none-win_amd64.whl.zip]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.9-cp311-none-win_amd64.whl.zip]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [axion]: Start processing: creme-crm
+[2023-08-01 12:32:39] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-08-01 12:32:39] INFO root fetch - processPackages [creme-crm]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/66/5d/ddc69440b515b26a7d91851679bacc4d5bbfd451a63ecd2b403e154e0703/edwh-0.9.0.tar.gz
+[2023-08-01 12:32:39] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/b5/5d/7b3ab928615d367fcdc349566a686bdd0bf8d32288c0971bc71b56f4cd72/creme-crm-2.4.5.tar.gz
+[2023-08-01 12:32:39] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.10-cp311-none-win_amd64.whl.zip]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.9-cp311-none-win_amd64.whl.zip]
+[2023-08-01 12:32:39] INFO root fetch - processPackages [anyon]: Start processing: qwak-core
+[2023-08-01 12:32:39] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-08-01 12:32:39] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-08-01 12:32:39] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230801/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 12:32:40] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 23324790>=10485760
+[2023-08-01 12:32:40] INFO root fetch - processPackages [creme-crm]: Start processing: arcticdb
+[2023-08-01 12:32:40] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2023-08-01 12:32:40] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.0.tar.gz]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [rebotics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rebotics_sdk-0.9.1.tar.gz]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [rebotics-sdk]: Start processing: cs2star
+[2023-08-01 12:32:40] INFO root fetch - main [MainThread]: End processing [rebotics-sdk]: success
+[2023-08-01 12:32:40] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [arcticdb]: New version: [1.6.1rc1] Old Version: [1.6.1rc0]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [cs2star]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/7c/7d/bcbc904464a5f7cf420f2129074b7bca4146b81c5dcef10a9672e2d7b3f6/cs2star-0.6.2.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/34/12/466306eb330a0301cfce9619e7582dd8a91f192bfce297fba323bed5794a/arcticdb-1.6.1rc0-cp39-cp39-win_amd64.whl
+[2023-08-01 12:32:40] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-08-01 12:32:40] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-08-01 12:32:40] INFO root fetch - processPackages [edwh]: Start processing: blob-mounting-helper-utility
+[2023-08-01 12:32:40] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-08-01 12:32:40] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/6b/ee/cd52a594b8449392b607ec71540ab01909bb0affbcfdd4cb5eaa86909d14/blob_mounting_helper_utility-1.0.2.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.6.tar.gz]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.2.7.tar.gz]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [shareddata]: Start processing: bomf
+[2023-08-01 12:32:40] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-08-01 12:32:40] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-08-01 12:32:40] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230801/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-08-01 12:32:40] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/d5/d8/1d0854ffd20c0d5fcbff4006eeb55123171e2ae120db3b31a438ecdbf723/cs2star-0.6.3.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [bomf]: New version: [0.6.3] Old Version: [0.6.1]
+[2023-08-01 12:32:40] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-08-01 12:32:40] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230801/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 12:32:40] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/af/6f/ba9d417a7b3c10848556eef9f0089c43bee7b73032446a00224c0b5f5e41/bomf-0.6.1.tar.gz
+[2023-08-01 12:32:40] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/c8/d8/6b46320dc1591836ef5890afd110d1e04739227f4c82524cc151ddeff18e/blob_mounting_helper_utility-1.0.3.tar.gz
+[2023-08-01 12:32:41] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/9c/d9/bbc1097889c2c6d419627adcd7fc28def888ebe004eebb9dbb9df9ef85b8/arcticdb-1.6.1rc1-cp39-cp39-win_amd64.whl
+[2023-08-01 12:32:41] INFO root fetch - processPackages [cs2star]: executing diffoscope
+[2023-08-01 12:32:41] INFO root fetch - processPackages [cs2star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2star-0.6.2.tar.gz tmp/cs2star-0.6.3.tar.gz --markdown 20230801/c/cs2star/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-01 12:32:41] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-08-01 12:32:41] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.2.tar.gz tmp/blob_mounting_helper_utility-1.0.3.tar.gz --markdown 20230801/b/blob-mounting-helper-utility/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 12:32:41] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/a2/fc/d8df085351d051efea6edfb4fd1666ebc0a9ac1ad63b7f5707f353dc66e6/bomf-0.6.3.tar.gz
+[2023-08-01 12:32:41] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-08-01 12:32:41] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-08-01 12:32:41] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-08-01 12:32:41] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-08-01 12:32:41] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.6.1.tar.gz tmp/bomf-0.6.3.tar.gz --markdown 20230801/b/bomf/0.6.1-0.6.3/diff.md --exclude *.pyd
+[2023-08-01 12:32:41] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.7.tar.gz]
+[2023-08-01 12:32:41] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.8.tar.gz]
+[2023-08-01 12:32:41] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-08-01 12:32:42] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.6.2.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.6.3.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - main [MainThread]: End processing [cs2star]: success
+[2023-08-01 12:32:42] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.2.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.3.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-08-01 12:32:42] INFO root fetch - processPackages [uun-livecam]: Remove: archive file [/home/abi/fetcher/tmp/uun-livecam-0.5.1.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - processPackages [uun-livecam]: Remove: archive file [/home/abi/fetcher/tmp/uun-livecam-0.5.2.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - main [MainThread]: End processing [uun-livecam]: success
+[2023-08-01 12:32:42] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-08-01 12:32:42] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.6.1.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.6.3.tar.gz]
+[2023-08-01 12:32:42] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-08-01 12:32:43] INFO root fetch - processPackages [arcticdb]: executing diffoscope
+[2023-08-01 12:32:43] INFO root fetch - processPackages [arcticdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcticdb-1.6.1rc0-cp39-cp39-win_amd64.whl.zip tmp/arcticdb-1.6.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230801/a/arcticdb/1.6.1rc0-1.6.1rc1/diff.md --exclude *.pyd
+[2023-08-01 12:32:44] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-1.6.1rc0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 12:32:44] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-1.6.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 12:32:44] INFO root fetch - main [MainThread]: End processing [arcticdb]: success
+[2023-08-01 12:32:45] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-08-01 12:32:45] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-08-01 12:32:45] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-08-01 12:32:45] INFO root fetch - processPackages [rego]: Remove: archive file [/home/abi/fetcher/tmp/rego-1.5.2.tar.gz]
+[2023-08-01 12:32:45] INFO root fetch - processPackages [rego]: Remove: archive file [/home/abi/fetcher/tmp/rego-1.6.1.tar.gz]
+[2023-08-01 12:32:45] INFO root fetch - main [MainThread]: End processing [rego]: success
+[2023-08-01 12:32:45] INFO root fetch - main [MainThread]: Store serial: [19122127]
