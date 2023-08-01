@@ -21126,3 +21126,112 @@
 [2023-08-01 13:17:08] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-08-01 13:17:08] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-08-01 13:17:08] INFO root fetch - main [MainThread]: Store serial: [19122526]
+[2023-08-01 13:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122526]
+[2023-08-01 13:22:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strmprivacy-api-definitions
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discuit-package
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MyOverlay
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongodriver
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-spectacular-sidecar
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specklia
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: formal-sdk
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biocypher
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: troubadix
+[2023-08-01 13:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: melvant
+[2023-08-01 13:22:17] INFO root fetch - processPackages [mongodriver]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-01 13:22:17] INFO root fetch - processPackages [formal-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-01 13:22:17] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [3.9.0] Old Version: [3.8.1]
+[2023-08-01 13:22:17] WARNING root fetch - processPackages [discuit-package]: Skipping, unable to determine old version
+[2023-08-01 13:22:17] INFO root fetch - processPackages [discuit-package]: Start processing: bossman
+[2023-08-01 13:22:17] INFO root fetch - main [MainThread]: End processing [discuit-package] error
+[2023-08-01 13:22:17] INFO root fetch - processPackages [MyOverlay]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 13:22:17] INFO root fetch - processPackages [biocypher]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-01 13:22:17] INFO root fetch - processPackages [drf-spectacular-sidecar]: New version: [2023.8.1] Old Version: [2023.7.1]
+[2023-08-01 13:22:17] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-01 13:22:17] INFO root fetch - processPackages [melvant]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 13:22:17] INFO root fetch - processPackages [troubadix]: New version: [23.8.0] Old Version: [23.7.1]
+[2023-08-01 13:22:18] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/03/d8/6d453e1f3744c872682c5daed3ff90718b10e9bbb37dfb174375cd6ffb48/formal-sdk-1.0.1.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [bossman]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-01 13:22:18] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/0c/29/7675e8325890a2ceb9bdd81d135ebc341ccd60b646fbbead85914b85fc0a/mongodriver-1.2.3.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/79/a8/901a9513451a2d5b6e2da8bf16c22d5a8eb2f3099efb5a729f0ad3dabfd8/drf-spectacular-sidecar-2023.7.1.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-08-01 13:22:18] ERROR root fetch - processPackages [melvant]: Unable to fetch info: No such project/version 'melvant' 0.0.4
+[2023-08-01 13:22:18] INFO root fetch - processPackages [melvant]: Start processing: bridgecrew
+[2023-08-01 13:22:18] INFO root fetch - main [MainThread]: End processing [melvant] error
+[2023-08-01 13:22:18] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/05/44/6a698ee7a3f25cac7ac85f9065432566d172eb7d6e302338dbee1acb6708/biocypher-0.5.8.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/de/2b/58e4436cd09f3d04e449c233aece49a0bc8cbe74e579aba7e5097ebfb5a4/MyOverlay-0.1.8.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-01 13:22:18] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/10/a0/b58b17f3aa68a93f7ce91c6e57b082f13f8ec0b9e6bf3bf18c9d4b91c249/strmprivacy-api-definitions-3.8.1.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/43/d3/643aeecd859ba7919c97adf6fbacc49f660f2787bf55f494dcc54a45365d/troubadix-23.7.1.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [bossman]: Downloading https://files.pythonhosted.org/packages/84/0e/9d0882f1736f5b726a0a9dcd16b03c2d77de338e829eefcb99b592a5daf8/bossman-0.8.0.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/fd/b4/990b57af0e120804e496386feacae4105c5188027f350838921d518554f8/mongodriver-1.2.4.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/2d/10/43fe83e4c9c03fb43e0a6929143eb46083dc22ea9de56bcc019a589f6d19/formal-sdk-1.0.2.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-08-01 13:22:18] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230801/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-01 13:22:18] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/0d/93/fb2f96ac48aa0304ba372c98fcae084523007b7da2c7efaef9c749729eb4/MyOverlay-0.1.9.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [mongodriver]: executing diffoscope
+[2023-08-01 13:22:18] INFO root fetch - processPackages [mongodriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodriver-1.2.3.tar.gz tmp/mongodriver-1.2.4.tar.gz --markdown 20230801/m/mongodriver/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-08-01 13:22:18] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-08-01 13:22:18] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-1.0.1.tar.gz tmp/formal-sdk-1.0.2.tar.gz --markdown 20230801/f/formal-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-01 13:22:18] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/80/4a/28f3088067da67049a9b777015a3aa4326f5782b2be3e17c661232fe6b8d/biocypher-0.5.9.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-01 13:22:18] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.1.8.tar.gz tmp/MyOverlay-0.1.9.tar.gz --markdown 20230801/M/MyOverlay/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 13:22:18] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/31/d3/eba4f901fc1c6ed3fb10abe1cc19e77d6f8445686ea91e8f350a53652faf/strmprivacy-api-definitions-3.9.0.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [bossman]: Downloading https://files.pythonhosted.org/packages/98/bf/bd08a2c9ebf3fbbebc99e6964e93e9bdaf207b14ebeb622b08a6fff76f59/bossman-0.9.0.tar.gz
+[2023-08-01 13:22:18] INFO root fetch - processPackages [troubadix]: Downloading https://files.pythonhosted.org/packages/a6/04/08a01b08d2871cb992fb2a6c77bdc06899452d1d1f6ccab42956f49d869b/troubadix-23.8.0.tar.gz
+[2023-08-01 13:22:19] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-08-01 13:22:19] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-3.8.1.tar.gz tmp/strmprivacy-api-definitions-3.9.0.tar.gz --markdown 20230801/s/strmprivacy-api-definitions/3.8.1-3.9.0/diff.md --exclude *.pyd
+[2023-08-01 13:22:19] INFO root fetch - processPackages [troubadix]: executing diffoscope
+[2023-08-01 13:22:19] INFO root fetch - processPackages [troubadix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/troubadix-23.7.1.tar.gz tmp/troubadix-23.8.0.tar.gz --markdown 20230801/t/troubadix/23.7.1-23.8.0/diff.md --exclude *.pyd
+[2023-08-01 13:22:19] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-08-01 13:22:19] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230801/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-01 13:22:19] INFO root fetch - processPackages [bossman]: executing diffoscope
+[2023-08-01 13:22:19] INFO root fetch - processPackages [bossman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bossman-0.8.0.tar.gz tmp/bossman-0.9.0.tar.gz --markdown 20230801/b/bossman/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 13:22:19] INFO root fetch - processPackages [biocypher]: executing diffoscope
+[2023-08-01 13:22:19] INFO root fetch - processPackages [biocypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocypher-0.5.8.tar.gz tmp/biocypher-0.5.9.tar.gz --markdown 20230801/b/biocypher/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-01 13:22:19] INFO root fetch - processPackages [drf-spectacular-sidecar]: Downloading https://files.pythonhosted.org/packages/a9/5b/bdf93f3639ba36d8116fc1eb2df9e296404fc6a0ee78f731caf5894783e4/drf-spectacular-sidecar-2023.8.1.tar.gz
+[2023-08-01 13:22:19] INFO root fetch - processPackages [drf-spectacular-sidecar]: executing diffoscope
+[2023-08-01 13:22:19] INFO root fetch - processPackages [drf-spectacular-sidecar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-spectacular-sidecar-2023.7.1.tar.gz tmp/drf-spectacular-sidecar-2023.8.1.tar.gz --markdown 20230801/d/drf-spectacular-sidecar/2023.7.1-2023.8.1/diff.md --exclude *.pyd
+[2023-08-01 13:22:20] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-08-01 13:22:20] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-08-01 13:22:20] INFO root fetch - processPackages [specklia]: Start processing: sotrans-fastapi-keycloak
+[2023-08-01 13:22:20] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-08-01 13:22:20] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.3.tar.gz]
+[2023-08-01 13:22:20] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.4.tar.gz]
+[2023-08-01 13:22:20] INFO root fetch - main [MainThread]: End processing [mongodriver]: success
+[2023-08-01 13:22:20] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 13:22:20] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/0a/c4/316dfa826b6aa297d44010e4f581a79effc5e0e5ef6a50b5a7a7414028e4/sotrans_fastapi_keycloak-0.0.4.tar.gz
+[2023-08-01 13:22:20] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.8.tar.gz]
+[2023-08-01 13:22:20] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.9.tar.gz]
+[2023-08-01 13:22:20] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-01 13:22:21] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/22/0f/09b3818bd61ed97e7b5868934c4a95f61c622173ce315c0b94d3670bbd74/sotrans_fastapi_keycloak-0.0.5.tar.gz
+[2023-08-01 13:22:21] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-08-01 13:22:21] INFO root fetch - processPackages [bossman]: Remove: archive file [/home/abi/fetcher/tmp/bossman-0.8.0.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - processPackages [bossman]: Remove: archive file [/home/abi/fetcher/tmp/bossman-0.9.0.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - main [MainThread]: End processing [bossman]: success
+[2023-08-01 13:22:21] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: executing diffoscope
+[2023-08-01 13:22:21] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotrans_fastapi_keycloak-0.0.4.tar.gz tmp/sotrans_fastapi_keycloak-0.0.5.tar.gz --markdown 20230801/s/sotrans-fastapi-keycloak/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 13:22:21] INFO root fetch - processPackages [biocypher]: Remove: archive file [/home/abi/fetcher/tmp/biocypher-0.5.8.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - processPackages [biocypher]: Remove: archive file [/home/abi/fetcher/tmp/biocypher-0.5.9.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - main [MainThread]: End processing [biocypher]: success
+[2023-08-01 13:22:21] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.1.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-1.0.2.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-08-01 13:22:21] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.8.1.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.9.0.tar.gz]
+[2023-08-01 13:22:21] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-08-01 13:22:22] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.7.1.tar.gz]
+[2023-08-01 13:22:22] INFO root fetch - processPackages [troubadix]: Remove: archive file [/home/abi/fetcher/tmp/troubadix-23.8.0.tar.gz]
+[2023-08-01 13:22:22] INFO root fetch - main [MainThread]: End processing [troubadix]: success
+[2023-08-01 13:22:22] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.4.tar.gz]
+[2023-08-01 13:22:22] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.5.tar.gz]
+[2023-08-01 13:22:22] INFO root fetch - main [MainThread]: End processing [sotrans-fastapi-keycloak]: success
+[2023-08-01 13:24:21] INFO root fetch - processPackages [drf-spectacular-sidecar]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-sidecar-2023.7.1.tar.gz]
+[2023-08-01 13:24:21] INFO root fetch - processPackages [drf-spectacular-sidecar]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-sidecar-2023.8.1.tar.gz]
+[2023-08-01 13:24:21] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
+[2023-08-01 13:24:21] INFO root fetch - main [MainThread]: Store serial: [19122575]
