@@ -14094,3 +14094,42 @@
 [2023-08-01 07:47:20] INFO root fetch - processPackages [ansys-mapdl-reader]: Remove: archive file [/home/abi/fetcher/tmp/ansys-mapdl-reader-0.52.9.tar.gz]
 [2023-08-01 07:47:20] INFO root fetch - main [MainThread]: End processing [ansys-mapdl-reader]: success
 [2023-08-01 07:47:20] INFO root fetch - main [MainThread]: Store serial: [19119137]
+[2023-08-01 07:52:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119137]
+[2023-08-01 07:52:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-01 07:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: score-models
+[2023-08-01 07:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc
+[2023-08-01 07:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-client
+[2023-08-01 07:52:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threemystic-cloud-data-client
+[2023-08-01 07:52:29] INFO root fetch - processPackages [score-models]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-08-01 07:52:29] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.60] Old Version: [0.1.59]
+[2023-08-01 07:52:29] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.65] Old Version: [0.1.64]
+[2023-08-01 07:52:29] INFO root fetch - processPackages [edc]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-01 07:52:29] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/e0/a3/d277800de4411971769663eebbfd88773b39722ec0feee28236433b44f55/score_models-0.4.7.tar.gz
+[2023-08-01 07:52:29] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/bd/de/3cf8167f45dc52bfdfb52f0af4c1fe0c7faf17f6c3fd69e522ac3b57d58c/threemystic_cloud_client-0.1.59.tar.gz
+[2023-08-01 07:52:29] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/0d/71/fd426ffa8384b1a3dcc003d2c9cdcf108903816623585994a8b806e67082/edc-0.5.8.tar.gz
+[2023-08-01 07:52:29] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/67/81/9723049efad8745729aff5048578bb5047233a9490ced7e64b8b65a25f18/threemystic_cloud_data_client-0.1.64.tar.gz
+[2023-08-01 07:52:29] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/13/25/c4f11b94165b50732fb957169d3c5a3de0c515133214bbdff7a509db5859/score_models-0.4.8.tar.gz
+[2023-08-01 07:52:29] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/c3/e1/9aff20b85318cc37cad1323d68f6b4fc9186339dd91f77988832e79670ee/edc-0.5.9.tar.gz
+[2023-08-01 07:52:29] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/69/79/7442993feadf8a112ddf43efc32b13f591aea6824e87f3cfc5f0b7ae22ba/threemystic_cloud_client-0.1.60.tar.gz
+[2023-08-01 07:52:29] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-08-01 07:52:29] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.4.7.tar.gz tmp/score_models-0.4.8.tar.gz --markdown 20230801/s/score-models/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-08-01 07:52:29] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/ee/75/502365c386695c57ff83ed673c6752a948a55cfba9491c3b79fe0e6a001c/threemystic_cloud_data_client-0.1.65.tar.gz
+[2023-08-01 07:52:30] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-08-01 07:52:30] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.8.tar.gz tmp/edc-0.5.9.tar.gz --markdown 20230801/e/edc/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-01 07:52:30] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-08-01 07:52:30] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.59.tar.gz tmp/threemystic_cloud_client-0.1.60.tar.gz --markdown 20230801/t/threemystic-cloud-client/0.1.59-0.1.60/diff.md --exclude *.pyd
+[2023-08-01 07:52:30] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-08-01 07:52:30] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.64.tar.gz tmp/threemystic_cloud_data_client-0.1.65.tar.gz --markdown 20230801/t/threemystic-cloud-data-client/0.1.64-0.1.65/diff.md --exclude *.pyd
+[2023-08-01 07:52:31] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.59.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.60.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-08-01 07:52:31] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.7.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.8.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-08-01 07:52:31] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.64.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.65.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-08-01 07:52:31] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.8.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
+[2023-08-01 07:52:31] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-08-01 07:52:31] INFO root fetch - main [MainThread]: Store serial: [19119149]
