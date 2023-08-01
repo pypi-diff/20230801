@@ -19207,3 +19207,69 @@
 [2023-08-01 11:52:47] INFO root fetch - processPackages [icepapcms]: Remove: archive file [/home/abi/fetcher/tmp/icepapcms-3.4.2.tar.gz]
 [2023-08-01 11:52:47] INFO root fetch - main [MainThread]: End processing [icepapcms]: success
 [2023-08-01 11:52:47] INFO root fetch - main [MainThread]: Store serial: [19121678]
+[2023-08-01 11:57:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121678]
+[2023-08-01 11:57:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-01 11:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2023-08-01 11:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crate-docs-theme
+[2023-08-01 11:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tm-config-server-client-python
+[2023-08-01 11:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syml-ultralytics
+[2023-08-01 11:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quartic-sdk
+[2023-08-01 11:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpmoc
+[2023-08-01 11:57:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micrologai
+[2023-08-01 11:57:56] INFO root fetch - processPackages [crate-docs-theme]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-01 11:57:56] INFO root fetch - processPackages [tm-config-server-client-python]: New version: [0.5] Old Version: [0.4]
+[2023-08-01 11:57:56] INFO root fetch - processPackages [syml-ultralytics]: New version: [8.0.53] Old Version: [8.0.49]
+[2023-08-01 11:57:56] INFO root fetch - processPackages [quartic-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-01 11:57:56] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-01 11:57:56] INFO root fetch - processPackages [hpmoc]: New version: [1.0a6] Old Version: [1.0a5]
+[2023-08-01 11:57:56] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/8a/c7/a78363b29f0425a98f39cf8ba09d167ca5f4e5712928037d663be0a9f7ee/tm_config_server_client_python-0.4.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [micrologai]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-01 11:57:56] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6c/9f/eb33f10cf57946abf11bae3bca0be62acb66e1dcee1db3a1a183569375d5/crate-docs-theme-0.9.5.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [syml-ultralytics]: Downloading https://files.pythonhosted.org/packages/a3/43/97adf8d6dbb450aaf105a1b8c1bcbac2faa1b0cd10ad04c6109698f6aca0/syml_ultralytics-8.0.49.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/e1/84/0897828c4f90e1b59f0f40235112332cf3a62bca16d7424e04dcd1d08a20/quartic-sdk-2.8.0.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/f2/32/caf01de2ef7a0a31d09c54a661cb342afbf94fce12d1cbfec30e58e6fce2/hpmoc-1.0a5.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/a1/e3/0248aaa53c86762c32731f466794219251458c271b1d417a046210881506/micrologai-1.3.3.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/d6/1e/b43e75c9228e75c0de69fafe8e3885d254279a8fd4d225e324205be8bb79/tm_config_server_client_python-0.5.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [tm-config-server-client-python]: executing diffoscope
+[2023-08-01 11:57:56] INFO root fetch - processPackages [tm-config-server-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tm_config_server_client_python-0.4.tar.gz tmp/tm_config_server_client_python-0.5.tar.gz --markdown 20230801/t/tm-config-server-client-python/0.4-0.5/diff.md --exclude *.pyd
+[2023-08-01 11:57:56] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-08-01 11:57:56] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230801/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-01 11:57:56] INFO root fetch - processPackages [syml-ultralytics]: Downloading https://files.pythonhosted.org/packages/61/34/7ab7d3e0b220d56dd7a03ce427f28f536bc7374d1b4774b18a6985090eda/syml_ultralytics-8.0.53.tar.gz
+[2023-08-01 11:57:56] INFO root fetch - processPackages [syml-ultralytics]: executing diffoscope
+[2023-08-01 11:57:56] INFO root fetch - processPackages [syml-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syml_ultralytics-8.0.49.tar.gz tmp/syml_ultralytics-8.0.53.tar.gz --markdown 20230801/s/syml-ultralytics/8.0.49-8.0.53/diff.md --exclude *.pyd
+[2023-08-01 11:57:57] INFO root fetch - processPackages [hpmoc]: Downloading https://files.pythonhosted.org/packages/49/f2/8b73f663252fe009bc5ef6d7e894f0098f547e557f09d46a271d24a2e140/hpmoc-1.0a6.tar.gz
+[2023-08-01 11:57:57] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/17/19/ccb9adcc99c8c271bdd321719d094d77b47148c98fab4d457b3bd3b86b6c/quartic-sdk-2.9.0.tar.gz
+[2023-08-01 11:57:57] INFO root fetch - processPackages [hpmoc]: executing diffoscope
+[2023-08-01 11:57:57] INFO root fetch - processPackages [hpmoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpmoc-1.0a5.tar.gz tmp/hpmoc-1.0a6.tar.gz --markdown 20230801/h/hpmoc/1.0a5-1.0a6/diff.md --exclude *.pyd
+[2023-08-01 11:57:57] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.4.tar.gz]
+[2023-08-01 11:57:57] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.5.tar.gz]
+[2023-08-01 11:57:57] INFO root fetch - main [MainThread]: End processing [tm-config-server-client-python]: success
+[2023-08-01 11:57:57] INFO root fetch - processPackages [quartic-sdk]: executing diffoscope
+[2023-08-01 11:57:57] INFO root fetch - processPackages [quartic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartic-sdk-2.8.0.tar.gz tmp/quartic-sdk-2.9.0.tar.gz --markdown 20230801/q/quartic-sdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-01 11:57:58] INFO root fetch - processPackages [crate-docs-theme]: Downloading https://files.pythonhosted.org/packages/6e/c2/8e89446e5c72f10d30d1b58dfa420e9e08162dc8b8a9553111774fd516a5/crate-docs-theme-0.9.6.tar.gz
+[2023-08-01 11:57:58] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a5.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - processPackages [hpmoc]: Remove: archive file [/home/abi/fetcher/tmp/hpmoc-1.0a6.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - main [MainThread]: End processing [hpmoc]: success
+[2023-08-01 11:57:58] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/2b/41/c9bf1830170052c185b9a8676619b6fa969eaa20bad9f2d4d924231661f1/micrologai-1.3.4.tar.gz
+[2023-08-01 11:57:58] INFO root fetch - processPackages [quartic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quartic-sdk-2.8.0.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - processPackages [quartic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quartic-sdk-2.9.0.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - main [MainThread]: End processing [quartic-sdk]: success
+[2023-08-01 11:57:58] INFO root fetch - processPackages [syml-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/syml_ultralytics-8.0.49.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - processPackages [syml-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/syml_ultralytics-8.0.53.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-08-01 11:57:58] INFO root fetch - main [MainThread]: End processing [syml-ultralytics]: success
+[2023-08-01 11:57:58] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-08-01 11:57:59] INFO root fetch - processPackages [crate-docs-theme]: executing diffoscope
+[2023-08-01 11:57:59] INFO root fetch - processPackages [crate-docs-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crate-docs-theme-0.9.5.tar.gz tmp/crate-docs-theme-0.9.6.tar.gz --markdown 20230801/c/crate-docs-theme/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-01 11:57:59] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-01 11:57:59] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.3.tar.gz tmp/micrologai-1.3.4.tar.gz --markdown 20230801/m/micrologai/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-01 11:58:00] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.5.tar.gz]
+[2023-08-01 11:58:00] INFO root fetch - processPackages [crate-docs-theme]: Remove: archive file [/home/abi/fetcher/tmp/crate-docs-theme-0.9.6.tar.gz]
+[2023-08-01 11:58:00] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
+[2023-08-01 11:58:01] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.3.tar.gz]
+[2023-08-01 11:58:01] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.4.tar.gz]
+[2023-08-01 11:58:01] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-01 11:58:01] INFO root fetch - main [MainThread]: Store serial: [19121700]
