@@ -18753,3 +18753,126 @@
 [2023-08-01 11:31:40] INFO root fetch - processPackages [recipe]: Remove: archive file [/home/abi/fetcher/tmp/recipe-0.9.0.tar.gz]
 [2023-08-01 11:31:40] INFO root fetch - main [MainThread]: End processing [recipe]: success
 [2023-08-01 11:31:40] INFO root fetch - main [MainThread]: Store serial: [19121469]
+[2023-08-01 11:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121469]
+[2023-08-01 11:36:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coar-notify-validator
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: news-toolkit-api
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-finance
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tridentx
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boxsdk
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlmap
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bkapi-plugins-py
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: st-track-viewer
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: databank
+[2023-08-01 11:36:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zarrita
+[2023-08-01 11:36:50] INFO root fetch - processPackages [boxsdk]: New version: [3.8.1] Old Version: [3.8.0]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [bkapi-plugins-py]: New version: [0.801] Old Version: [0.731]
+[2023-08-01 11:36:50] WARNING root fetch - processPackages [coar-notify-validator]: Skipping, unable to determine old version
+[2023-08-01 11:36:50] INFO root fetch - processPackages [coar-notify-validator]: Start processing: mongoy
+[2023-08-01 11:36:50] INFO root fetch - main [MainThread]: End processing [coar-notify-validator] error
+[2023-08-01 11:36:50] INFO root fetch - processPackages [databank]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [zarrita]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [sqlmap]: New version: [1.7.8] Old Version: [1.7.7]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [tridentx]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/19/fd/b7d58a4596798a19110e8075746de02cdc52728557585d96d3fa89de7e29/zarrita-0.1.0a8.tar.gz
+[2023-08-01 11:36:50] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-08-01 11:36:50] INFO root fetch - processPackages [databank]: Downloading https://files.pythonhosted.org/packages/e8/20/6bb2301de97df86f360241287d6cc965361195b3935e0d2552bca42ac40c/databank-0.5.2.tar.gz
+[2023-08-01 11:36:50] INFO root fetch - processPackages [mongoy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 11:36:50] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/6a/44/39398213d5e65cca65929cf2cea2c299bf1e3c0c867da297d0fafedd3a11/boxsdk-3.8.0.tar.gz
+[2023-08-01 11:36:50] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-01 11:36:50] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/eb/c5/8fd94589d033bc5a27e2339b86081dd624833451153cff8d66cf8a1cacab/bkapi-plugins-py-0.731.tar.gz
+[2023-08-01 11:36:50] INFO root fetch - processPackages [tridentx]: Downloading https://files.pythonhosted.org/packages/3b/13/f79582f87eabaf77118975ee566986bc5f843c5631558b60003fd038b760/tridentx-0.7.6-py3-none-any.whl
+[2023-08-01 11:36:50] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/7d/de/6d126df76690b5ca9f78507d5c9bdba02da6f427a1c754e38e496f4fd11d/st_track_viewer-0.0.3.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [sqlmap]: Downloading https://files.pythonhosted.org/packages/12/dd/1b099739d6c4f3f1707407d33c5bdfa2d08166da80fef99d1575888e0ed5/sqlmap-1.7.7.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [mongoy]: Downloading https://files.pythonhosted.org/packages/be/ad/1049c5b1632bea0be5a2a37acd806d83f26b4b93130cc900fdd9219ad60d/mongoy-0.1.3.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230801/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-01 11:36:51] INFO root fetch - processPackages [bkapi-plugins-py]: Downloading https://files.pythonhosted.org/packages/76/d9/b57f1733b56df78811645849c553e8e75004775170c48abbde14c2c4d23a/bkapi-plugins-py-0.801.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230801/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 11:36:51] INFO root fetch - processPackages [databank]: Downloading https://files.pythonhosted.org/packages/7a/de/476b4317b64ff70f1c462a3e48ceadea22623dc220437148e8dc90241b9c/databank-0.6.0.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/77/df/97dda75e7d522496d4939f44c8877ea1dd885b59ddf4360de5e1b1347335/st_track_viewer-0.0.4.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/9f/10/8c2ed41c611c9a1d8a1c33859046e3dd66f1dbccbe5213e5ef8624442832/boxsdk-3.8.1.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [databank]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [databank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databank-0.5.2.tar.gz tmp/databank-0.6.0.tar.gz --markdown 20230801/d/databank/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-08-01 11:36:51] INFO root fetch - processPackages [bkapi-plugins-py]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [bkapi-plugins-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bkapi-plugins-py-0.731.tar.gz tmp/bkapi-plugins-py-0.801.tar.gz --markdown 20230801/b/bkapi-plugins-py/0.731-0.801/diff.md --exclude *.pyd
+[2023-08-01 11:36:51] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.3.tar.gz tmp/st_track_viewer-0.0.4.tar.gz --markdown 20230801/s/st-track-viewer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 11:36:51] INFO root fetch - processPackages [boxsdk]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [boxsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxsdk-3.8.0.tar.gz tmp/boxsdk-3.8.1.tar.gz --markdown 20230801/b/boxsdk/3.8.0-3.8.1/diff.md --exclude *.pyd
+[2023-08-01 11:36:51] INFO root fetch - processPackages [mongoy]: Downloading https://files.pythonhosted.org/packages/89/dc/696a2a1fda846deed57afa980b6caaaa887cea092ef873bf848b01faf437/mongoy-0.1.4.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [tridentx]: Downloading https://files.pythonhosted.org/packages/c9/39/c84307794cac372955ac28511193faf05c896c63beea60bef25e024963e2/tridentx-0.7.7-py3-none-any.whl
+[2023-08-01 11:36:51] INFO root fetch - processPackages [zarrita]: Downloading https://files.pythonhosted.org/packages/4f/b4/c1b0bfc89890b5045b1bdb574a44033b4bb5a15bbbdda9e78c3e5c035224/zarrita-0.1.0a9.tar.gz
+[2023-08-01 11:36:51] INFO root fetch - processPackages [tridentx]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [tridentx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tridentx-0.7.6-py3-none-any.whl.zip tmp/tridentx-0.7.7-py3-none-any.whl.zip --markdown 20230801/t/tridentx/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-08-01 11:36:51] INFO root fetch - processPackages [mongoy]: executing diffoscope
+[2023-08-01 11:36:51] INFO root fetch - processPackages [mongoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoy-0.1.3.tar.gz tmp/mongoy-0.1.4.tar.gz --markdown 20230801/m/mongoy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 11:36:52] INFO root fetch - processPackages [zarrita]: executing diffoscope
+[2023-08-01 11:36:52] INFO root fetch - processPackages [zarrita]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarrita-0.1.0a8.tar.gz tmp/zarrita-0.1.0a9.tar.gz --markdown 20230801/z/zarrita/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-08-01 11:36:52] INFO root fetch - processPackages [sqlmap]: Downloading https://files.pythonhosted.org/packages/36/5e/65f87ea3bf7c51439048b97c359c5cba4984ebf6014db3b41f60737c9a3b/sqlmap-1.7.8.tar.gz
+[2023-08-01 11:36:52] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-01 11:36:52] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-01 11:36:52] INFO root fetch - processPackages [news-toolkit-api]: Start processing: wafermap-clustering
+[2023-08-01 11:36:52] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-01 11:36:52] INFO root fetch - processPackages [sqlmap]: executing diffoscope
+[2023-08-01 11:36:52] INFO root fetch - processPackages [sqlmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmap-1.7.7.tar.gz tmp/sqlmap-1.7.8.tar.gz --markdown 20230801/s/sqlmap/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2023-08-01 11:36:52] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.731.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [bkapi-plugins-py]: Remove: archive file [/home/abi/fetcher/tmp/bkapi-plugins-py-0.801.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [bkapi-plugins-py]: Start processing: serpyco-rs
+[2023-08-01 11:36:53] INFO root fetch - main [MainThread]: End processing [bkapi-plugins-py]: success
+[2023-08-01 11:36:53] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/76/17/bd012b86e5f7b5cacf9d0a3fd9e59d16563c8d5cbd34afc311193d870737/wafermap-clustering-0.3.8.tar.gz
+[2023-08-01 11:36:53] INFO root fetch - processPackages [databank]: Remove: archive file [/home/abi/fetcher/tmp/databank-0.5.2.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [databank]: Remove: archive file [/home/abi/fetcher/tmp/databank-0.6.0.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [databank]: Start processing: deker-tools
+[2023-08-01 11:36:53] INFO root fetch - main [MainThread]: End processing [databank]: success
+[2023-08-01 11:36:53] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-08-01 11:36:53] INFO root fetch - processPackages [deker-tools]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [serpyco-rs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/6f/7e/89e84aabdfa91b3f2263a5eff4d4b90aa43c4f105ebd8439b4876e59f9ba/wafermap-clustering-0.3.9.tar.gz
+[2023-08-01 11:36:53] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-08-01 11:36:53] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.8.tar.gz tmp/wafermap-clustering-0.3.9.tar.gz --markdown 20230801/w/wafermap-clustering/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 11:36:53] INFO root fetch - processPackages [mongoy]: Remove: archive file [/home/abi/fetcher/tmp/mongoy-0.1.3.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [mongoy]: Remove: archive file [/home/abi/fetcher/tmp/mongoy-0.1.4.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - main [MainThread]: End processing [mongoy]: success
+[2023-08-01 11:36:53] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/d9/45/94ce3f85179db4fac16aa2fe9d20adf17e5539bb7cd9289d14b3e1ffb8ec/serpyco_rs-0.9.2.tar.gz
+[2023-08-01 11:36:53] INFO root fetch - processPackages [deker-tools]: Downloading https://files.pythonhosted.org/packages/e7/e1/e93d64e396ba6bd254615840aba449efad3558f26a605ed526650bf8f991/deker_tools-1.0.0b2.tar.gz
+[2023-08-01 11:36:53] INFO root fetch - processPackages [deker-tools]: Downloading https://files.pythonhosted.org/packages/90/94/d21c9c99a304d1f8ac0e68647ef88d44d76e6404bfd8f0d23eb9a301c9c9/deker_tools-1.0.0b3.tar.gz
+[2023-08-01 11:36:53] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a8.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - processPackages [zarrita]: Remove: archive file [/home/abi/fetcher/tmp/zarrita-0.1.0a9.tar.gz]
+[2023-08-01 11:36:53] INFO root fetch - main [MainThread]: End processing [zarrita]: success
+[2023-08-01 11:36:54] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/0d/b3/c3f982b04acf7516afd38fbdc171988d718835fdd1e426e434d91d55611a/serpyco_rs-0.9.3.tar.gz
+[2023-08-01 11:36:54] INFO root fetch - processPackages [deker-tools]: executing diffoscope
+[2023-08-01 11:36:54] INFO root fetch - processPackages [deker-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deker_tools-1.0.0b2.tar.gz tmp/deker_tools-1.0.0b3.tar.gz --markdown 20230801/d/deker-tools/1.0.0b2-1.0.0b3/diff.md --exclude *.pyd
+[2023-08-01 11:36:54] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2023-08-01 11:36:54] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-0.9.2.tar.gz tmp/serpyco_rs-0.9.3.tar.gz --markdown 20230801/s/serpyco-rs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-01 11:36:54] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.8.tar.gz]
+[2023-08-01 11:36:54] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.9.tar.gz]
+[2023-08-01 11:36:54] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-08-01 11:36:54] INFO root fetch - processPackages [boxsdk]: Remove: archive file [/home/abi/fetcher/tmp/boxsdk-3.8.0.tar.gz]
+[2023-08-01 11:36:54] INFO root fetch - processPackages [boxsdk]: Remove: archive file [/home/abi/fetcher/tmp/boxsdk-3.8.1.tar.gz]
+[2023-08-01 11:36:54] INFO root fetch - main [MainThread]: End processing [boxsdk]: success
+[2023-08-01 11:36:55] INFO root fetch - processPackages [deker-tools]: Remove: archive file [/home/abi/fetcher/tmp/deker_tools-1.0.0b2.tar.gz]
+[2023-08-01 11:36:55] INFO root fetch - processPackages [deker-tools]: Remove: archive file [/home/abi/fetcher/tmp/deker_tools-1.0.0b3.tar.gz]
+[2023-08-01 11:36:55] INFO root fetch - main [MainThread]: End processing [deker-tools]: success
+[2023-08-01 11:36:55] INFO root fetch - processPackages [tridentx]: Remove: archive file [/home/abi/fetcher/tmp/tridentx-0.7.6-py3-none-any.whl.zip]
+[2023-08-01 11:36:55] INFO root fetch - processPackages [tridentx]: Remove: archive file [/home/abi/fetcher/tmp/tridentx-0.7.7-py3-none-any.whl.zip]
+[2023-08-01 11:36:55] INFO root fetch - main [MainThread]: End processing [tridentx]: success
+[2023-08-01 11:36:55] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.2.tar.gz]
+[2023-08-01 11:36:55] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.3.tar.gz]
+[2023-08-01 11:36:55] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2023-08-01 11:36:58] INFO root fetch - processPackages [sqlmap]: Remove: archive file [/home/abi/fetcher/tmp/sqlmap-1.7.7.tar.gz]
+[2023-08-01 11:36:58] INFO root fetch - processPackages [sqlmap]: Remove: archive file [/home/abi/fetcher/tmp/sqlmap-1.7.8.tar.gz]
+[2023-08-01 11:36:58] INFO root fetch - main [MainThread]: End processing [sqlmap]: success
+[2023-08-01 11:39:16] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.3.tar.gz]
+[2023-08-01 11:39:16] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.4.tar.gz]
+[2023-08-01 11:39:16] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-08-01 11:39:16] INFO root fetch - main [MainThread]: Store serial: [19121515]
