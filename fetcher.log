@@ -20773,3 +20773,111 @@
 [2023-08-01 12:59:33] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
 [2023-08-01 12:59:33] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
 [2023-08-01 12:59:33] INFO root fetch - main [MainThread]: Store serial: [19122356]
+[2023-08-01 13:04:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122356]
+[2023-08-01 13:04:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locust-plugins
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mass-analytics
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amalitech-subsys-june
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: matrix-synapse
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinjected
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mongoengine-jsonschema
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pointcloud2
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: savant-rs
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: st-track-viewer
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ai21
+[2023-08-01 13:04:42] WARNING root fetch - processPackages [amalitech-subsys-june]: Skipping, unable to determine old version
+[2023-08-01 13:04:42] INFO root fetch - processPackages [amalitech-subsys-june]: Start processing: list-packages
+[2023-08-01 13:04:42] INFO root fetch - main [MainThread]: End processing [amalitech-subsys-june] error
+[2023-08-01 13:04:42] INFO root fetch - processPackages [pinjected]: New version: [0.1.110] Old Version: [0.1.109]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [mongoengine-jsonschema]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [savant-rs]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [mass-analytics]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 13:04:42] WARNING root fetch - processPackages [pointcloud2]: Skipping, unable to determine old version
+[2023-08-01 13:04:42] INFO root fetch - processPackages [pointcloud2]: Start processing: pulumi-opnsense
+[2023-08-01 13:04:42] INFO root fetch - main [MainThread]: End processing [pointcloud2] error
+[2023-08-01 13:04:42] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [list-packages]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ai21]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [locust-plugins]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [pulumi-opnsense]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [matrix-synapse]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2023-08-01 13:04:42] INFO root fetch - processPackages [list-packages]: Downloading https://files.pythonhosted.org/packages/8f/2a/a22d2ea764dd553e73238b9b999e85e96177e503769cb38824b546abd9a9/list_packages-1.0.2.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/c4/00/2644997dc31784c2debfbda253c475ca3463024586165f400ebc3871aaba/savant_rs-0.1.7.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/68/9f/68fcb0db1b512417eb884e319003a280da14f8087c86244eca6a389a7091/pulumi_opnsense-0.1.3.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/3d/5c/71f9ebb95b95396f6003b43fafa8af3c1286432f7342afa046e6b21df721/pinjected-0.1.109.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/56/ef/2a27faf607a76eb614716def944c301f559d8575b4fd98cd8ef8789f1b77/st_track_viewer-0.0.8.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [locust-plugins]: Downloading https://files.pythonhosted.org/packages/0c/f9/364d7145da0cf4f2578bf21e5b05bf849874b5f4937d48b2651a633b1b80/locust-plugins-3.4.0.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/4e/94/7fd1c45ebfcef0974e03dee68d3bb5b2451cd4487d4ae035c2cc277319b7/ai21-1.2.2.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [mongoengine-jsonschema]: Downloading https://files.pythonhosted.org/packages/bd/30/585588b64e262f5e7d148ba5781ab33a6f19e58fe71e932a45b90e0d2d75/mongoengine-jsonschema-0.1.2.tar.gz
+[2023-08-01 13:04:42] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/38/92/fe537943f778c5448a77d841fc4b23f0aadfb189248bdaa757b3135d13ba/matrix-synapse-1.9.0rc1.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/50/68/0e88d56222aaa0168e3bdb6139eed83fd048a7c77d2f15ca419eb1bf5888/mass_analytics-1.0.8.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [list-packages]: Downloading https://files.pythonhosted.org/packages/80/0c/669111e553958aa98329599f48b3445919563cd58885c2b71cbee2525d47/list_packages-1.0.3.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [savant-rs]: Downloading https://files.pythonhosted.org/packages/14/6f/20424ad55aaad55bea7d3a27e5a0cc5fe726f0b4507b2b6f406d79e8015a/savant_rs-0.1.9.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [pulumi-opnsense]: Downloading https://files.pythonhosted.org/packages/f3/85/c18a09b9fbd4d6918989b4798ad3c9fded17041207cb5a24b3cb53c91469/pulumi_opnsense-0.1.4.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [list-packages]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [list-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_packages-1.0.2.tar.gz tmp/list_packages-1.0.3.tar.gz --markdown 20230801/l/list-packages/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/d3/0c/8b77ea410470ae49727c98234c30ad610a452bee41ea4f26c0e3ea6848e9/pinjected-0.1.110.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [savant-rs]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [savant-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs-0.1.7.tar.gz tmp/savant_rs-0.1.9.tar.gz --markdown 20230801/s/savant-rs/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [pulumi-opnsense]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [pulumi-opnsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_opnsense-0.1.3.tar.gz tmp/pulumi_opnsense-0.1.4.tar.gz --markdown 20230801/p/pulumi-opnsense/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/19/54/41d3bd47124dca24044129bcfd851fb4a7f8c4a0305df4e0c83ce3661c00/st_track_viewer-0.0.9.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/91/ed/69a1a184aaad7267ed67f71d0b45cf1555f76f61df527a0a80e49919a420/mass_analytics-1.0.9.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.1.109.tar.gz tmp/pinjected-0.1.110.tar.gz --markdown 20230801/p/pinjected/0.1.109-0.1.110/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/7c/12/28defd5a64eb238c796f89f0c2cc714cdd2c1f819bcf4b0db91f89debe52/ai21-1.2.3.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [mongoengine-jsonschema]: Downloading https://files.pythonhosted.org/packages/cd/b7/76cd5a4a5cbecaceb2f58c5bebf6159b7ada53ec7f2144d644fc7e99ba26/mongoengine-jsonschema-0.1.3.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-1.2.2.tar.gz tmp/ai21-1.2.3.tar.gz --markdown 20230801/a/ai21/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.8.tar.gz tmp/st_track_viewer-0.0.9.tar.gz --markdown 20230801/s/st-track-viewer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [mongoengine-jsonschema]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [mongoengine-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoengine-jsonschema-0.1.2.tar.gz tmp/mongoengine-jsonschema-0.1.3.tar.gz --markdown 20230801/m/mongoengine-jsonschema/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.8.tar.gz tmp/mass_analytics-1.0.9.tar.gz --markdown 20230801/m/mass-analytics/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 13:04:43] INFO root fetch - processPackages [locust-plugins]: Downloading https://files.pythonhosted.org/packages/dc/52/513c66136c11f4c9378bf2d12daca827cbccf1933a3b71ec5ad2129e347a/locust-plugins-3.4.1.tar.gz
+[2023-08-01 13:04:43] INFO root fetch - processPackages [locust-plugins]: executing diffoscope
+[2023-08-01 13:04:43] INFO root fetch - processPackages [locust-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-plugins-3.4.0.tar.gz tmp/locust-plugins-3.4.1.tar.gz --markdown 20230801/l/locust-plugins/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-08-01 13:04:44] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/ca/c7/4673bb5cb9ec9a2b850f118077e24c3f5fda08b973bbed512caf26dd9604/matrix-synapse-1.9.1.tar.gz
+[2023-08-01 13:04:45] INFO root fetch - processPackages [list-packages]: Remove: archive file [/home/abi/fetcher/tmp/list_packages-1.0.2.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [list-packages]: Remove: archive file [/home/abi/fetcher/tmp/list_packages-1.0.3.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [list-packages]: Start processing: gougleai
+[2023-08-01 13:04:45] INFO root fetch - main [MainThread]: End processing [list-packages]: success
+[2023-08-01 13:04:45] INFO root fetch - processPackages [gougleai]: New version: [1.0.5.1] Old Version: [1.0.5]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [matrix-synapse]: executing diffoscope
+[2023-08-01 13:04:45] INFO root fetch - processPackages [matrix-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-synapse-1.9.0rc1.tar.gz tmp/matrix-synapse-1.9.1.tar.gz --markdown 20230801/m/matrix-synapse/1.9.0rc1-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 13:04:45] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.1.3.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [pulumi-opnsense]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_opnsense-0.1.4.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - main [MainThread]: End processing [pulumi-opnsense]: success
+[2023-08-01 13:04:45] INFO root fetch - processPackages [gougleai]: Downloading https://files.pythonhosted.org/packages/20/62/a08057d7c17c25af44e4f6649e9063e185e5673ee87a42965eeca838074b/gougleai-1.0.5.tar.gz
+[2023-08-01 13:04:45] INFO root fetch - processPackages [mongoengine-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/mongoengine-jsonschema-0.1.2.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [mongoengine-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/mongoengine-jsonschema-0.1.3.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - main [MainThread]: End processing [mongoengine-jsonschema]: success
+[2023-08-01 13:04:45] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.8.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.9.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-08-01 13:04:45] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.1.109.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.1.110.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2023-08-01 13:04:45] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.2.2.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.2.3.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2023-08-01 13:04:45] INFO root fetch - processPackages [gougleai]: Downloading https://files.pythonhosted.org/packages/21/8a/9ebf232a71f25641fb7d972ed80b9046bc0fe00223c5b45c9bb8c9647ef0/gougleai-1.0.5.1.tar.gz
+[2023-08-01 13:04:45] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.7.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - processPackages [savant-rs]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs-0.1.9.tar.gz]
+[2023-08-01 13:04:45] INFO root fetch - main [MainThread]: End processing [savant-rs]: success
+[2023-08-01 13:04:46] INFO root fetch - processPackages [gougleai]: executing diffoscope
+[2023-08-01 13:04:46] INFO root fetch - processPackages [gougleai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gougleai-1.0.5.tar.gz tmp/gougleai-1.0.5.1.tar.gz --markdown 20230801/g/gougleai/1.0.5-1.0.5.1/diff.md --exclude *.pyd
+[2023-08-01 13:04:46] INFO root fetch - processPackages [locust-plugins]: Remove: archive file [/home/abi/fetcher/tmp/locust-plugins-3.4.0.tar.gz]
+[2023-08-01 13:04:46] INFO root fetch - processPackages [locust-plugins]: Remove: archive file [/home/abi/fetcher/tmp/locust-plugins-3.4.1.tar.gz]
+[2023-08-01 13:04:46] INFO root fetch - main [MainThread]: End processing [locust-plugins]: success
+[2023-08-01 13:04:46] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.8.tar.gz]
+[2023-08-01 13:04:46] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.9.tar.gz]
+[2023-08-01 13:04:46] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-08-01 13:04:47] INFO root fetch - processPackages [gougleai]: Remove: archive file [/home/abi/fetcher/tmp/gougleai-1.0.5.tar.gz]
+[2023-08-01 13:04:47] INFO root fetch - processPackages [gougleai]: Remove: archive file [/home/abi/fetcher/tmp/gougleai-1.0.5.1.tar.gz]
+[2023-08-01 13:04:47] INFO root fetch - main [MainThread]: End processing [gougleai]: success
+[2023-08-01 13:04:52] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix-synapse-1.9.0rc1.tar.gz]
+[2023-08-01 13:04:52] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix-synapse-1.9.1.tar.gz]
+[2023-08-01 13:04:52] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
+[2023-08-01 13:04:52] INFO root fetch - main [MainThread]: Store serial: [19122421]
