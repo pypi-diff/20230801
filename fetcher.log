@@ -14653,3 +14653,142 @@
 [2023-08-01 08:30:26] INFO root fetch - processPackages [manik-django-sql-explorer-test]: Remove: archive file [/home/abi/fetcher/tmp/manik_django_sql_explorer_test-0.0.4-py3-none-any.whl.zip]
 [2023-08-01 08:30:26] INFO root fetch - main [MainThread]: End processing [manik-django-sql-explorer-test]: success
 [2023-08-01 08:30:26] INFO root fetch - main [MainThread]: Store serial: [19119377]
+[2023-08-01 08:35:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119377]
+[2023-08-01 08:35:35] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor.cli.core.alpine
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datamart-yhdr
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module-latest
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yet-another-wizz-cli
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.core.android
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyarmor.cli.core.darwin
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polars-u64-idx
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core.freebsd
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyarmor.cli.core.linux
+[2023-08-01 08:35:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: padelpy
+[2023-08-01 08:35:35] INFO root fetch - processPackages [padelpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.android]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [yet-another-wizz-cli]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [datamart-yhdr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.linux]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230801] Old Version: [20230731]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/9e/20/ce810b382266f7754fc5b6fcb3a4ce4805bf369293139ecb5fc15e8fdae4/pyarmor.cli.core.linux-4.3.1-cp39-none-any.whl
+[2023-08-01 08:35:35] INFO root fetch - processPackages [padelpy]: Downloading https://files.pythonhosted.org/packages/1d/e4/a66c3b94d0d2b730838f0eb95cebcb4d83a179bf12c0eae7fa5113e2051d/padelpy-0.1.8.tar.gz
+[2023-08-01 08:35:35] INFO root fetch - processPackages [datamart-yhdr]: Downloading https://files.pythonhosted.org/packages/52/c8/4d94e9b70bbcd6d0fdaa116fb28699bd2cc2ed05d8bebdb025b85921bd7c/datamart_yhdr-0.1.1.tar.gz
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/bb/b9/fde57960a29e2780f66296ad30fe0ea6efdf05a89b48fe34358fd7d65267/pyarmor.cli.core.darwin-4.3.1-cp39-none-any.whl
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/45/a3/5fbc0a19cdfef33453be1cc3e5aec3c079e919ae557541c1c592193712aa/pyarmor.cli.core.android-4.3.1-cp39-none-any.whl
+[2023-08-01 08:35:35] INFO root fetch - processPackages [yet-another-wizz-cli]: Downloading https://files.pythonhosted.org/packages/0b/8d/3b3b8e13293870621ebf2f98aa7cece0394c44da91749676199003145e97/yet_another_wizz_cli-1.2.5.tar.gz
+[2023-08-01 08:35:35] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/64/c1/15c918d2be2de45324e87955e306e5ae5cbea397a72943b0fd438ef83eff/polars_u64_idx-0.18.8.tar.gz
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/71/9f/1500e86050c149bce0badd7517713b6e2378868369fb08116deddba62668/pyarmor.cli.core.alpine-4.3.1-cp39-none-any.whl
+[2023-08-01 08:35:35] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/13/96/f1968e0a9dd09109ea0f3875d048d1c849aaddce3acbb14dd89518621509/fake-bpy-module-latest-20230731.tar.gz
+[2023-08-01 08:35:35] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/d3/cc/7d320e8e9af6f6736ab4f3d2fe6a3676e0f0c8c89498525236db46980500/pyarmor.cli.core.freebsd-4.3.1-cp39-none-any.whl
+[2023-08-01 08:35:36] INFO root fetch - processPackages [datamart-yhdr]: Downloading https://files.pythonhosted.org/packages/81/5b/4bf6b77dd56eb5c3cb5430e946360afe4285df4fc30bf51ce998042fed2e/datamart_yhdr-0.1.2.tar.gz
+[2023-08-01 08:35:36] INFO root fetch - processPackages [yet-another-wizz-cli]: Downloading https://files.pythonhosted.org/packages/a4/f2/dd52c63b3f141d927bd92f655f560023ef982ba7883e46606c4d3053ca91/yet_another_wizz_cli-1.2.6.tar.gz
+[2023-08-01 08:35:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/71/84/57921b46e95266a800492dce0722d74757f6b6796160e15e00962c9b6ed8/fake-bpy-module-latest-20230801.tar.gz
+[2023-08-01 08:35:36] INFO root fetch - processPackages [yet-another-wizz-cli]: executing diffoscope
+[2023-08-01 08:35:36] INFO root fetch - processPackages [yet-another-wizz-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz_cli-1.2.5.tar.gz tmp/yet_another_wizz_cli-1.2.6.tar.gz --markdown 20230801/y/yet-another-wizz-cli/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-08-01 08:35:36] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/97/9d/b395d9cb736a0b0a31c5a7061a764cf177f2c21a2248f8a3cd617622af7d/polars_u64_idx-0.18.9.tar.gz
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/a2/53/ee14e6f3a54820f61f5e84dae2ef1fa402fde0ccf876328f6c97e9464b8f/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl
+[2023-08-01 08:35:36] INFO root fetch - processPackages [datamart-yhdr]: executing diffoscope
+[2023-08-01 08:35:36] INFO root fetch - processPackages [datamart-yhdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamart_yhdr-0.1.1.tar.gz tmp/datamart_yhdr-0.1.2.tar.gz --markdown 20230801/d/datamart-yhdr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 08:35:36] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-08-01 08:35:36] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230731.tar.gz tmp/fake-bpy-module-latest-20230801.tar.gz --markdown 20230801/f/fake-bpy-module-latest/20230731-20230801/diff.md --exclude *.pyd
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Downloading https://files.pythonhosted.org/packages/5a/02/61f7f99345f8dc659adf42ec8c343ed9698c3a7e9a2a01cb8ccb775e4220/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-4.3.1-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl.zip --markdown 20230801/p/pyarmor.cli.core.freebsd/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:35:36] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2023-08-01 08:35:36] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.18.8.tar.gz tmp/polars_u64_idx-0.18.9.tar.gz --markdown 20230801/p/polars-u64-idx/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Downloading https://files.pythonhosted.org/packages/58/6c/3d21df275b61927b14f3c334c613ea6a1500739229d7715cf8694c8ad82c/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.android]: Downloading https://files.pythonhosted.org/packages/c3/16/7a96484bcb15df9f34e5dd026ce5fcbe521b59391b645b8ae1158d8d7f09/pyarmor.cli.core.android-4.3.dev1-cp39-none-any.whl
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: executing diffoscope
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.darwin-4.3.1-cp39-none-any.whl.zip tmp/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl.zip --markdown 20230801/p/pyarmor.cli.core.darwin/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:35:36] WARNING root fetch - processPackages [padelpy]: Skipping package: exceeds size limit 20866800>=10485760
+[2023-08-01 08:35:36] INFO root fetch - processPackages [padelpy]: Start processing: zeusrobot
+[2023-08-01 08:35:36] INFO root fetch - main [MainThread]: End processing [padelpy] error
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: executing diffoscope
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.alpine-4.3.1-cp39-none-any.whl.zip tmp/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl.zip --markdown 20230801/p/pyarmor.cli.core.alpine/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:35:36] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Downloading https://files.pythonhosted.org/packages/5e/5e/30fa5095ec9d6539d99494484d599aaba619d9872266298609be9549024a/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl
+[2023-08-01 08:35:37] WARNING root fetch - processPackages [zeusrobot]: Skipping, unable to determine old version
+[2023-08-01 08:35:37] INFO root fetch - processPackages [zeusrobot]: Start processing: sherpa-onnx
+[2023-08-01 08:35:37] INFO root fetch - main [MainThread]: End processing [zeusrobot] error
+[2023-08-01 08:35:37] INFO root fetch - processPackages [sherpa-onnx]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-08-01 08:35:37] INFO root fetch - processPackages [pyarmor.cli.core.linux]: executing diffoscope
+[2023-08-01 08:35:37] INFO root fetch - processPackages [pyarmor.cli.core.linux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.linux-4.3.1-cp39-none-any.whl.zip tmp/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl.zip --markdown 20230801/p/pyarmor.cli.core.linux/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:35:37] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/c2/e2/1d4f6834f810a345ef140814803c6777bc7e7f1a77c9650210ba96a658f8/sherpa-onnx-1.5.4.tar.gz
+[2023-08-01 08:35:37] INFO root fetch - processPackages [yet-another-wizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz_cli-1.2.5.tar.gz]
+[2023-08-01 08:35:37] INFO root fetch - processPackages [yet-another-wizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz_cli-1.2.6.tar.gz]
+[2023-08-01 08:35:37] INFO root fetch - processPackages [sherpa-onnx]: Downloading https://files.pythonhosted.org/packages/8e/ad/d77fda3aad318f913e446903d91db2d906817a2804740e12ffa7bffab0da/sherpa-onnx-1.5.5.tar.gz
+[2023-08-01 08:35:37] INFO root fetch - processPackages [yet-another-wizz-cli]: Start processing: PureCloudPlatformClientV2
+[2023-08-01 08:35:37] INFO root fetch - main [MainThread]: End processing [yet-another-wizz-cli]: success
+[2023-08-01 08:35:37] INFO root fetch - processPackages [datamart-yhdr]: Remove: archive file [/home/abi/fetcher/tmp/datamart_yhdr-0.1.1.tar.gz]
+[2023-08-01 08:35:37] INFO root fetch - processPackages [datamart-yhdr]: Remove: archive file [/home/abi/fetcher/tmp/datamart_yhdr-0.1.2.tar.gz]
+[2023-08-01 08:35:37] INFO root fetch - processPackages [datamart-yhdr]: Start processing: pyspharm-intel
+[2023-08-01 08:35:37] INFO root fetch - main [MainThread]: End processing [datamart-yhdr]: success
+[2023-08-01 08:35:37] WARNING root fetch - processPackages [pyspharm-intel]: Skipping, unable to determine old version
+[2023-08-01 08:35:37] INFO root fetch - processPackages [pyspharm-intel]: Start processing: cloudflare-challenge
+[2023-08-01 08:35:37] INFO root fetch - main [MainThread]: End processing [pyspharm-intel] error
+[2023-08-01 08:35:37] INFO root fetch - processPackages [sherpa-onnx]: executing diffoscope
+[2023-08-01 08:35:37] INFO root fetch - processPackages [sherpa-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherpa-onnx-1.5.4.tar.gz tmp/sherpa-onnx-1.5.5.tar.gz --markdown 20230801/s/sherpa-onnx/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-08-01 08:35:38] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-08-01 08:35:38] INFO root fetch - processPackages [pyarmor.cli.core.android]: executing diffoscope
+[2023-08-01 08:35:38] INFO root fetch - processPackages [pyarmor.cli.core.android]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.android-4.3.1-cp39-none-any.whl.zip tmp/pyarmor.cli.core.android-4.3.dev1-cp39-none-any.whl.zip --markdown 20230801/p/pyarmor.cli.core.android/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:35:38] WARNING root fetch - processPackages [cloudflare-challenge]: Skipping, unable to determine old version
+[2023-08-01 08:35:38] INFO root fetch - processPackages [cloudflare-challenge]: Start processing: pyarmor.cli.core.themida
+[2023-08-01 08:35:38] INFO root fetch - main [MainThread]: End processing [cloudflare-challenge] error
+[2023-08-01 08:35:38] INFO root fetch - processPackages [pyarmor.cli.core.themida]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:35:38] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-08-01 08:35:38] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/d1/78/f16f8eb284a2ca749087b68ffdabd53de6c4f4705728535473760a24a80b/pyarmor.cli.core.themida-4.3.1-cp38-none-any.whl
+[2023-08-01 08:35:39] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.4.tar.gz]
+[2023-08-01 08:35:39] INFO root fetch - processPackages [sherpa-onnx]: Remove: archive file [/home/abi/fetcher/tmp/sherpa-onnx-1.5.5.tar.gz]
+[2023-08-01 08:35:39] INFO root fetch - processPackages [sherpa-onnx]: Start processing: nrobo
+[2023-08-01 08:35:39] INFO root fetch - main [MainThread]: End processing [sherpa-onnx]: success
+[2023-08-01 08:35:39] INFO root fetch - processPackages [nrobo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-01 08:35:39] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/85/01/55b435abcb1fac7d6b65be649216d8d0e940f6f90b40034379b3be7119cc/nrobo-2.0.8.tar.gz
+[2023-08-01 08:35:39] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-08-01 08:35:39] WARNING root fetch - processPackages [nrobo]: Skipping package: exceeds size limit 56550856>=10485760
+[2023-08-01 08:35:39] INFO root fetch - processPackages [nrobo]: Start processing: SeedrClient
+[2023-08-01 08:35:39] INFO root fetch - main [MainThread]: End processing [nrobo] error
+[2023-08-01 08:35:39] INFO root fetch - processPackages [SeedrClient]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 08:35:40] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/c4/6b/515546d228de439771e33e3ee642399fb835a32dbe0b0d91d66a78855287/SeedrClient-0.1.3.tar.gz
+[2023-08-01 08:35:40] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-08-01 08:35:40] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230801/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-08-01 08:35:40] INFO root fetch - processPackages [SeedrClient]: Downloading https://files.pythonhosted.org/packages/71/af/003ba315d2682142bea332bd4a28623bd120f86e5155650ae0649eba6d26/SeedrClient-0.1.4.tar.gz
+[2023-08-01 08:35:40] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Downloading https://files.pythonhosted.org/packages/60/1a/0c7bd9c0b54dd929397ea0009e06cabc371970164f539a2f229035a1eeb4/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl
+[2023-08-01 08:35:40] INFO root fetch - processPackages [SeedrClient]: executing diffoscope
+[2023-08-01 08:35:40] INFO root fetch - processPackages [SeedrClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SeedrClient-0.1.3.tar.gz tmp/SeedrClient-0.1.4.tar.gz --markdown 20230801/S/SeedrClient/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 08:35:41] INFO root fetch - processPackages [pyarmor.cli.core.themida]: executing diffoscope
+[2023-08-01 08:35:41] INFO root fetch - processPackages [pyarmor.cli.core.themida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.themida-4.3.1-cp38-none-any.whl.zip tmp/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl.zip --markdown 20230801/p/pyarmor.cli.core.themida/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:35:42] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.3.tar.gz]
+[2023-08-01 08:35:42] INFO root fetch - processPackages [SeedrClient]: Remove: archive file [/home/abi/fetcher/tmp/SeedrClient-0.1.4.tar.gz]
+[2023-08-01 08:35:42] INFO root fetch - main [MainThread]: End processing [SeedrClient]: success
+[2023-08-01 08:35:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230731.tar.gz]
+[2023-08-01 08:35:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230801.tar.gz]
+[2023-08-01 08:35:42] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-08-01 08:35:42] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-4.3.1-cp39-none-any.whl.zip]
+[2023-08-01 08:35:42] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-4.3.dev1-cp39-none-any.whl.zip]
+[2023-08-01 08:35:42] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-08-01 08:35:43] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-4.3.1-cp38-none-any.whl.zip]
+[2023-08-01 08:35:43] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.themida-4.3.dev1-cp39-none-any.whl.zip]
+[2023-08-01 08:35:43] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida]: success
+[2023-08-01 08:35:46] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-4.3.1-cp39-none-any.whl.zip]
+[2023-08-01 08:35:46] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.darwin-4.3.dev1-cp39-none-any.whl.zip]
+[2023-08-01 08:35:46] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin]: success
+[2023-08-01 08:35:48] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-4.3.1-cp39-none-any.whl.zip]
+[2023-08-01 08:35:48] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.alpine-4.3.dev1-cp39-none-any.whl.zip]
+[2023-08-01 08:35:48] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine]: success
+[2023-08-01 08:35:54] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.18.8.tar.gz]
+[2023-08-01 08:35:54] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.18.9.tar.gz]
+[2023-08-01 08:35:54] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2023-08-01 08:36:00] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-4.3.1-cp39-none-any.whl.zip]
+[2023-08-01 08:36:00] INFO root fetch - processPackages [pyarmor.cli.core.android]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.android-4.3.dev1-cp39-none-any.whl.zip]
+[2023-08-01 08:36:00] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android]: success
+[2023-08-01 08:36:01] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-4.3.1-cp39-none-any.whl.zip]
+[2023-08-01 08:36:01] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.linux-4.3.dev1-cp39-none-any.whl.zip]
+[2023-08-01 08:36:01] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux]: success
+[2023-08-01 08:36:04] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-08-01 08:36:04] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-08-01 08:36:04] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-08-01 08:36:04] INFO root fetch - main [MainThread]: Store serial: [19119501]
