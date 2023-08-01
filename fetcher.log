@@ -16230,3 +16230,144 @@
 [2023-08-01 09:49:52] INFO root fetch - processPackages [aliyun-python-sdk-ecs]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ecs-4.9.7.tar.gz]
 [2023-08-01 09:49:52] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ecs]: success
 [2023-08-01 09:49:52] INFO root fetch - main [MainThread]: Store serial: [19120217]
+[2023-08-01 09:54:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120217]
+[2023-08-01 09:55:01] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-teamcity
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TinetApiRequest
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-cpu
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teemi
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-energy-selfconsumption
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datapipe-label-studio-lite
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Dager
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jsonator
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xlab-util
+[2023-08-01 09:55:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sheCry
+[2023-08-01 09:55:01] INFO root fetch - processPackages [Dager]: New version: [0.2] Old Version: [0.1]
+[2023-08-01 09:55:01] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: New version: [14.0.1.1.2] Old Version: [14.0.1.1.1]
+[2023-08-01 09:55:01] INFO root fetch - processPackages [datapipe-label-studio-lite]: New version: [0.3.0a2] Old Version: [0.2.0]
+[2023-08-01 09:55:01] INFO root fetch - processPackages [teemi]: New version: [0.3.2] Old Version: [0.2.0]
+[2023-08-01 09:55:01] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-01 09:55:01] INFO root fetch - processPackages [sheCry]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 09:55:01] INFO root fetch - processPackages [jsonator]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-01 09:55:01] INFO root fetch - processPackages [python-teamcity]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-01 09:55:01] WARNING root fetch - processPackages [xlab-util]: Skipping, unable to determine old version
+[2023-08-01 09:55:01] INFO root fetch - processPackages [xlab-util]: Start processing: OpenFisca-France
+[2023-08-01 09:55:01] INFO root fetch - main [MainThread]: End processing [xlab-util] error
+[2023-08-01 09:55:02] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2023-08-01 09:55:02] INFO root fetch - processPackages [sheCry]: Downloading https://files.pythonhosted.org/packages/c1/b4/d78edace76ccb52f41a5617895a94e964d17db9afee7d6c5871d68631e49/sheCry-0.0.1.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230801] Old Version: [2.14.0.dev20230731]
+[2023-08-01 09:55:02] INFO root fetch - processPackages [python-teamcity]: Downloading https://files.pythonhosted.org/packages/0b/4d/e90415a061d06c6c9521f041e8180af842038e818cd8846c6c029fca61df/python-teamcity-0.1.5.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [teemi]: Downloading https://files.pythonhosted.org/packages/7a/9b/20392f8d68a377ccb41f6a3b218d594db05b29eb2a852115715fbbf8cdd8/teemi-0.2.0.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [Dager]: Downloading https://files.pythonhosted.org/packages/be/4a/5758182af85acd0f22c647a8a3849cc057603cbdc47fb03aae0ba25a1254/Dager-0.1.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [datapipe-label-studio-lite]: Downloading https://files.pythonhosted.org/packages/a3/9b/174d3fd50e630bd4b6bdfc47b2c5ae4f0a3f642a5cc09022ceaf0e9ebbca/datapipe_label_studio_lite-0.2.0.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [jsonator]: Downloading https://files.pythonhosted.org/packages/ef/e6/64854be95ff9e80c6c73f2ebac339a91253742896e3ed0bd25de9714e510/jsonator-0.1.5.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Downloading https://files.pythonhosted.org/packages/b8/b8/5a9dc0c3084c27c3cccc9d8a6dc6e6754f09d892b27c6893793f8eb4b75b/odoo14-addon-energy_selfconsumption-14.0.1.1.1.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/64/55/9cf9bfd05dcbc1bb4db4a0a250b192a7cf092b1c54c757cd0c3e38696483/TinetApiRequest-1.0.6.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2023-08-01 09:55:02] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/a4/c6/b998757f0368440316aa1488340f8b37cb1c3fb96b853625bc3f25693ccb/tf_nightly_cpu-2.14.0.dev20230731-cp39-cp39-win_amd64.whl
+[2023-08-01 09:55:02] INFO root fetch - processPackages [sheCry]: Downloading https://files.pythonhosted.org/packages/ab/22/1863c52e32e781634d821cc5d3e7bb9eb09fe1dbc78d5e5970ff03e9c71c/sheCry-0.0.2.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [Dager]: Downloading https://files.pythonhosted.org/packages/a2/b0/2e2f9a3ca3e103f79679f565192f96077bbfccbfaea525fad9a5109d2263/Dager-0.2.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [python-teamcity]: Downloading https://files.pythonhosted.org/packages/f2/c3/889be2391442d960d14b1800cc77aaaee20cfc77fca4b99c79dfc1158ad3/python-teamcity-0.1.6.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [sheCry]: executing diffoscope
+[2023-08-01 09:55:02] INFO root fetch - processPackages [sheCry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheCry-0.0.1.tar.gz tmp/sheCry-0.0.2.tar.gz --markdown 20230801/s/sheCry/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 09:55:02] INFO root fetch - processPackages [datapipe-label-studio-lite]: Downloading https://files.pythonhosted.org/packages/be/a1/1eac920b4e27d82c41578b12e4683c766a2cafdad29564078d62c48acf11/datapipe_label_studio_lite-0.3.0a2.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [teemi]: Downloading https://files.pythonhosted.org/packages/4d/48/a62e60deb05b30fbde07ecdded15f29fb6137faabd40ae08ef399cb43b46/teemi-0.3.2.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [jsonator]: Downloading https://files.pythonhosted.org/packages/2d/10/d0833a4f0750cae691e9321c31254074ba193b30237733471f7589c22f98/jsonator-0.1.6.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [Dager]: executing diffoscope
+[2023-08-01 09:55:02] INFO root fetch - processPackages [Dager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dager-0.1.tar.gz tmp/Dager-0.2.tar.gz --markdown 20230801/D/Dager/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-01 09:55:02] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Downloading https://files.pythonhosted.org/packages/a5/73/1bde35bc8f9709759ff8efe0bb5d51917eb26aae7c7fbc24d51853d19653/odoo14-addon-energy_selfconsumption-14.0.1.1.2.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/e3/d9/555847b469f78b908aad5ee2ca891363024be86fa2ca3407c324b9e8c195/TinetApiRequest-1.0.7.tar.gz
+[2023-08-01 09:55:02] INFO root fetch - processPackages [python-teamcity]: executing diffoscope
+[2023-08-01 09:55:02] INFO root fetch - processPackages [python-teamcity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-teamcity-0.1.5.tar.gz tmp/python-teamcity-0.1.6.tar.gz --markdown 20230801/p/python-teamcity/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-01 09:55:02] INFO root fetch - processPackages [teemi]: executing diffoscope
+[2023-08-01 09:55:02] INFO root fetch - processPackages [teemi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teemi-0.2.0.tar.gz tmp/teemi-0.3.2.tar.gz --markdown 20230801/t/teemi/0.2.0-0.3.2/diff.md --exclude *.pyd
+[2023-08-01 09:55:02] INFO root fetch - processPackages [jsonator]: executing diffoscope
+[2023-08-01 09:55:02] INFO root fetch - processPackages [jsonator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonator-0.1.5.tar.gz tmp/jsonator-0.1.6.tar.gz --markdown 20230801/j/jsonator/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-01 09:55:03] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: executing diffoscope
+[2023-08-01 09:55:03] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_selfconsumption-14.0.1.1.1.tar.gz tmp/odoo14-addon-energy_selfconsumption-14.0.1.1.2.tar.gz --markdown 20230801/o/odoo14-addon-energy-selfconsumption/14.0.1.1.1-14.0.1.1.2/diff.md --exclude *.pyd
+[2023-08-01 09:55:03] INFO root fetch - processPackages [datapipe-label-studio-lite]: executing diffoscope
+[2023-08-01 09:55:03] INFO root fetch - processPackages [datapipe-label-studio-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapipe_label_studio_lite-0.2.0.tar.gz tmp/datapipe_label_studio_lite-0.3.0a2.tar.gz --markdown 20230801/d/datapipe-label-studio-lite/0.2.0-0.3.0a2/diff.md --exclude *.pyd
+[2023-08-01 09:55:03] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-08-01 09:55:03] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.0.6.tar.gz tmp/TinetApiRequest-1.0.7.tar.gz --markdown 20230801/T/TinetApiRequest/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-01 09:55:03] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c9/a8/ab2116fa595bc59a88e3691303c4556d8630a9f132a75ecef15eddacf82c/tf_nightly_cpu-2.14.0.dev20230801-cp39-cp39-win_amd64.whl
+[2023-08-01 09:55:03] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-08-01 09:55:03] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230731-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230801-cp39-cp39-win_amd64.whl.zip --markdown 20230801/t/tf-nightly-cpu/2.14.0.dev20230731-2.14.0.dev20230801/diff.md --exclude *.pyd
+[2023-08-01 09:55:04] INFO root fetch - processPackages [sheCry]: Remove: archive file [/home/abi/fetcher/tmp/sheCry-0.0.1.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [sheCry]: Remove: archive file [/home/abi/fetcher/tmp/sheCry-0.0.2.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [sheCry]: Start processing: finter
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [sheCry]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [finter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2023-08-01 09:55:04] INFO root fetch - processPackages [python-teamcity]: Remove: archive file [/home/abi/fetcher/tmp/python-teamcity-0.1.5.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [python-teamcity]: Remove: archive file [/home/abi/fetcher/tmp/python-teamcity-0.1.6.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [python-teamcity]: Start processing: odoo14-addon-energy-communities
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [python-teamcity]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/3f/67/a34c11ccfbaf6906bef8a6f98dc9c0635e28381e93a61a2f77a494e47eaf/finter-0.0.8-py3-none-any.whl
+[2023-08-01 09:55:04] INFO root fetch - processPackages [Dager]: Remove: archive file [/home/abi/fetcher/tmp/Dager-0.1.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [Dager]: Remove: archive file [/home/abi/fetcher/tmp/Dager-0.2.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [Dager]: Start processing: TinetApiRequest
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [Dager]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [odoo14-addon-energy-communities]: New version: [14.0.1.1.9] Old Version: [14.0.1.1.8]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.6.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.7.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [TinetApiRequest]: Start processing: imio.schedule
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_selfconsumption-14.0.1.1.1.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_selfconsumption-14.0.1.1.2.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [odoo14-addon-energy-selfconsumption]: Start processing: keras-nightly
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-selfconsumption]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [teemi]: Remove: archive file [/home/abi/fetcher/tmp/teemi-0.2.0.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [teemi]: Remove: archive file [/home/abi/fetcher/tmp/teemi-0.3.2.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [teemi]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [imio.schedule]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [jsonator]: Remove: archive file [/home/abi/fetcher/tmp/jsonator-0.1.5.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [jsonator]: Remove: archive file [/home/abi/fetcher/tmp/jsonator-0.1.6.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [jsonator]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/e3/d9/555847b469f78b908aad5ee2ca891363024be86fa2ca3407c324b9e8c195/TinetApiRequest-1.0.7.tar.gz
+[2023-08-01 09:55:04] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/58/23/fb8d797eaa4250dc67f12dbdbe366109d282786654a11af1de765e69aef6/odoo14-addon-energy_communities-14.0.1.1.8.tar.gz
+[2023-08-01 09:55:04] INFO root fetch - processPackages [datapipe-label-studio-lite]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_label_studio_lite-0.2.0.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [datapipe-label-studio-lite]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_label_studio_lite-0.3.0a2.tar.gz]
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [datapipe-label-studio-lite]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230731-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 09:55:04] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230801-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 09:55:04] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-08-01 09:55:04] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-08-01 09:55:04] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.0.6.tar.gz tmp/TinetApiRequest-1.0.7.tar.gz --markdown 20230801/T/TinetApiRequest/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-01 09:55:04] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/7c/74/1948e4ff1b4aec9933e42ce1ab3d3495b1535bf1d203da0e462ed238eeed/finter-0.0.9-py3-none-any.whl
+[2023-08-01 09:55:04] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/9d/c6/7681a3bcef92bf9066eaea8e4f5806e31ba485e45e881297f12305ef4d45/imio.schedule-2.0.0.tar.gz
+[2023-08-01 09:55:04] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-08-01 09:55:05] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Downloading https://files.pythonhosted.org/packages/58/99/a5c55ec45cfc380d6dd54d6119b7df05af683754b56a87488832870c6de5/odoo14-addon-energy_communities-14.0.1.1.9.tar.gz
+[2023-08-01 09:55:05] INFO root fetch - processPackages [imio.schedule]: Downloading https://files.pythonhosted.org/packages/07/09/7f46d948755fda53ceb1221d1f70acc50e6cd43e29b3f86596023c071197/imio.schedule-2.0.1.tar.gz
+[2023-08-01 09:55:05] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-08-01 09:55:05] ERROR root fetch - processPackages [TinetApiRequest]: Diffoscope failed: time="2023-08-01T09:55:04+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/TinetApiRequest-1.0.6.tar.gz: No such file or directory
+
+[2023-08-01 09:55:05] INFO root fetch - main [MainThread]: End processing [TinetApiRequest] error
+[2023-08-01 09:55:05] INFO root fetch - processPackages [imio.schedule]: executing diffoscope
+[2023-08-01 09:55:05] INFO root fetch - processPackages [imio.schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.schedule-2.0.0.tar.gz tmp/imio.schedule-2.0.1.tar.gz --markdown 20230801/i/imio.schedule/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-08-01 09:55:05] INFO root fetch - processPackages [finter]: executing diffoscope
+[2023-08-01 09:55:05] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.0.8-py3-none-any.whl.zip tmp/finter-0.0.9-py3-none-any.whl.zip --markdown 20230801/f/finter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:55:05] INFO root fetch - processPackages [odoo14-addon-energy-communities]: executing diffoscope
+[2023-08-01 09:55:05] INFO root fetch - processPackages [odoo14-addon-energy-communities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14-addon-energy_communities-14.0.1.1.8.tar.gz tmp/odoo14-addon-energy_communities-14.0.1.1.9.tar.gz --markdown 20230801/o/odoo14-addon-energy-communities/14.0.1.1.8-14.0.1.1.9/diff.md --exclude *.pyd
+[2023-08-01 09:55:05] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-08-01 09:55:06] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-08-01 09:55:06] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230801/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-08-01 09:55:06] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2023-08-01 09:55:06] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20230801/O/OpenFisca-France/99.0.0-99.0.1/diff.md --exclude *.pyd
+[2023-08-01 09:55:06] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.8-py3-none-any.whl.zip]
+[2023-08-01 09:55:06] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.9-py3-none-any.whl.zip]
+[2023-08-01 09:55:06] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2023-08-01 09:55:06] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-2.0.0.tar.gz]
+[2023-08-01 09:55:06] INFO root fetch - processPackages [imio.schedule]: Remove: archive file [/home/abi/fetcher/tmp/imio.schedule-2.0.1.tar.gz]
+[2023-08-01 09:55:06] INFO root fetch - main [MainThread]: End processing [imio.schedule]: success
+[2023-08-01 09:55:06] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.1.1.8.tar.gz]
+[2023-08-01 09:55:06] INFO root fetch - processPackages [odoo14-addon-energy-communities]: Remove: archive file [/home/abi/fetcher/tmp/odoo14-addon-energy_communities-14.0.1.1.9.tar.gz]
+[2023-08-01 09:55:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-energy-communities]: success
+[2023-08-01 09:55:09] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-08-01 09:55:09] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-08-01 09:55:09] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-08-01 09:55:26] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2023-08-01 09:55:26] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2023-08-01 09:55:26] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2023-08-01 09:55:26] INFO root fetch - main [MainThread]: Store serial: [19120267]
