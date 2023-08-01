@@ -18876,3 +18876,181 @@
 [2023-08-01 11:39:16] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.4.tar.gz]
 [2023-08-01 11:39:16] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
 [2023-08-01 11:39:16] INFO root fetch - main [MainThread]: Store serial: [19121515]
+[2023-08-01 11:44:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121515]
+[2023-08-01 11:44:26] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydeseq2
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taxonerd
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s1290181-learn
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: home-assistant-frontend
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: krules-companion-client
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tm-config-server-client-python
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mongoy
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mastapy
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eodc-faas-force
+[2023-08-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scrunch
+[2023-08-01 11:44:27] INFO root fetch - processPackages [pydeseq2]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [s1290181-learn]: New version: [2023.8.1] Old Version: [2023.7.28]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [mongoy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [eodc-faas-force]: New version: [2023.8.0] Old Version: [2023.7.3]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [krules-companion-client]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [tm-config-server-client-python]: New version: [0.4] Old Version: [0.3]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20230801.0] Old Version: [20230725.0]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [scrunch]: New version: [6.5.2024.post1690855431] Old Version: [6.5.2023.post1690841237]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [taxonerd]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [mastapy]: New version: [13.0a2] Old Version: [13.0.0a5]
+[2023-08-01 11:44:27] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/1b/a5/41d4ba840c78d2ee2cc6586fc1307db096cf60808c6c999d5f3719632192/tm_config_server_client_python-0.3.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [pydeseq2]: Downloading https://files.pythonhosted.org/packages/78/4b/9e884ec42307c1f0e96ab6e3c3d568eba1f447f8714ee71c90589ba37687/pydeseq2-0.3.5.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [s1290181-learn]: Downloading https://files.pythonhosted.org/packages/51/bf/61fe63fc9c693302c80bfb8e9aea4fae1f204edfffde7cfe9d23caa598b1/s1290181_learn-2023.7.28.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/f1/46/a0c1b49790e18853a51573a5c88f3c6153c3c8a3e9fb0b58f5b23b772b3a/scrunch-6.5.2023.post1690841237.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [mongoy]: Downloading https://files.pythonhosted.org/packages/89/dc/696a2a1fda846deed57afa980b6caaaa887cea092ef873bf848b01faf437/mongoy-0.1.4.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [taxonerd]: Downloading https://files.pythonhosted.org/packages/00/b9/a2740a7a6e28768609b52ce3cddfb421c304f03c524b8ad2d192fa172373/taxonerd-1.5.1.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/fc/57/b44f5eb0b9cd919f6e92ab2afcf5c6de07a0fa62408b0810c0e77d040f1c/eodc_faas_force-2023.7.3.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [mastapy]: Downloading https://files.pythonhosted.org/packages/c9/c6/f4f383194c5947651330511c9a07a9e38e415528fa996da64348fe3511e0/mastapy-13.0.0a5.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [krules-companion-client]: Downloading https://files.pythonhosted.org/packages/65/76/0a6c9cb853d79d040a9c5ab166bfebdb1d5069f56c29462b9ec9d9e9a921/krules_companion_client-0.1.0.tar.gz
+[2023-08-01 11:44:27] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/d0/9f/2a5f95c99f1ae88fa281085d98d3338ad1512c50d62f4b6505b231b64db0/home_assistant_frontend-20230725.0-py3-none-any.whl
+[2023-08-01 11:44:27] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 46811128>=10485760
+[2023-08-01 11:44:27] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: sctk
+[2023-08-01 11:44:27] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2023-08-01 11:44:27] WARNING root fetch - processPackages [sctk]: Skipping, unable to determine old version
+[2023-08-01 11:44:27] INFO root fetch - processPackages [sctk]: Start processing: st-track-viewer
+[2023-08-01 11:44:27] INFO root fetch - main [MainThread]: End processing [sctk] error
+[2023-08-01 11:44:27] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/6b/84/0952d93be5bfd4d977c53dddfda7530404c0ef276f7f0fda250bfbdccb2b/scrunch-6.5.2024.post1690855431.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/8a/c7/a78363b29f0425a98f39cf8ba09d167ca5f4e5712928037d663be0a9f7ee/tm_config_server_client_python-0.4.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 11:44:28] INFO root fetch - processPackages [mongoy]: Downloading https://files.pythonhosted.org/packages/6e/a2/ac653d4cf50be8694bf48d8eef5eeaa6e0c38c2f7e9a1536a924e125674d/mongoy-0.1.5.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [pydeseq2]: Downloading https://files.pythonhosted.org/packages/ac/75/c285aad8853031cb2140ad5ba3dad662f61f47785aa382aed00606ef73db/pydeseq2-0.3.6.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [tm-config-server-client-python]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [tm-config-server-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tm_config_server_client_python-0.3.tar.gz tmp/tm_config_server_client_python-0.4.tar.gz --markdown 20230801/t/tm-config-server-client-python/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2023.post1690841237.tar.gz tmp/scrunch-6.5.2024.post1690855431.tar.gz --markdown 20230801/s/scrunch/6.5.2023.post1690841237-6.5.2024.post1690855431/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [taxonerd]: Downloading https://files.pythonhosted.org/packages/01/f7/8df2729646ac3d73b9d360c9da1c8d567aff5a74daf1a5a45f30d8e9f895/taxonerd-1.5.2.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [eodc-faas-force]: Downloading https://files.pythonhosted.org/packages/c2/15/205a71abebe973c4479434cf39a7087930214349d04be531b7b2f6092f34/eodc_faas_force-2023.8.0.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [s1290181-learn]: Downloading https://files.pythonhosted.org/packages/30/9e/5f8bf02c22837c000c9811aaeff2030c0957f6b1e0eb8540b267e085e482/s1290181_learn-2023.8.1.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [mongoy]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [mongoy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongoy-0.1.4.tar.gz tmp/mongoy-0.1.5.tar.gz --markdown 20230801/m/mongoy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [krules-companion-client]: Downloading https://files.pythonhosted.org/packages/86/fa/065923ae647512d8a1679d42a9295f60c2e94afc397cefa9b59c0d764b89/krules_companion_client-0.2.0.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/77/df/97dda75e7d522496d4939f44c8877ea1dd885b59ddf4360de5e1b1347335/st_track_viewer-0.0.4.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [pydeseq2]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [pydeseq2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeseq2-0.3.5.tar.gz tmp/pydeseq2-0.3.6.tar.gz --markdown 20230801/p/pydeseq2/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [eodc-faas-force]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [eodc-faas-force]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_force-2023.7.3.tar.gz tmp/eodc_faas_force-2023.8.0.tar.gz --markdown 20230801/e/eodc-faas-force/2023.7.3-2023.8.0/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [taxonerd]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [taxonerd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonerd-1.5.1.tar.gz tmp/taxonerd-1.5.2.tar.gz --markdown 20230801/t/taxonerd/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [s1290181-learn]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [s1290181-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s1290181_learn-2023.7.28.tar.gz tmp/s1290181_learn-2023.8.1.tar.gz --markdown 20230801/s/s1290181-learn/2023.7.28-2023.8.1/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [krules-companion-client]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [krules-companion-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krules_companion_client-0.1.0.tar.gz tmp/krules_companion_client-0.2.0.tar.gz --markdown 20230801/k/krules-companion-client/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 11:44:28] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/06/27/aef8655359de0a98e0b817582fc1af8ffd29e6b4451397a91cee12da45f0/st_track_viewer-0.0.5.tar.gz
+[2023-08-01 11:44:28] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-08-01 11:44:28] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.4.tar.gz tmp/st_track_viewer-0.0.5.tar.gz --markdown 20230801/s/st-track-viewer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 11:44:29] INFO root fetch - processPackages [mastapy]: Downloading https://files.pythonhosted.org/packages/f6/94/23aec7e65282ba68874b3041aa7b9a4ab3a372321564b6bd26aa2c8c1cb3/mastapy-13.0a2.tar.gz
+[2023-08-01 11:44:29] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.3.tar.gz]
+[2023-08-01 11:44:29] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.4.tar.gz]
+[2023-08-01 11:44:29] INFO root fetch - processPackages [tm-config-server-client-python]: Start processing: berryworld
+[2023-08-01 11:44:29] INFO root fetch - main [MainThread]: End processing [tm-config-server-client-python]: success
+[2023-08-01 11:44:29] INFO root fetch - processPackages [berryworld]: New version: [1.0.0.99947] Old Version: [1.0.0.98128]
+[2023-08-01 11:44:29] INFO root fetch - processPackages [s1290181-learn]: Remove: archive file [/home/abi/fetcher/tmp/s1290181_learn-2023.7.28.tar.gz]
+[2023-08-01 11:44:29] INFO root fetch - processPackages [s1290181-learn]: Remove: archive file [/home/abi/fetcher/tmp/s1290181_learn-2023.8.1.tar.gz]
+[2023-08-01 11:44:29] INFO root fetch - processPackages [s1290181-learn]: Start processing: cognite-neat
+[2023-08-01 11:44:29] INFO root fetch - main [MainThread]: End processing [s1290181-learn]: success
+[2023-08-01 11:44:29] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/e3/b2/e55890bb3cd86b626b9431be7088976207c2c6ff2156111af7683a4d1d19/berryworld-1.0.0.98128-py3-none-any.whl
+[2023-08-01 11:44:29] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.7.3.tar.gz]
+[2023-08-01 11:44:29] INFO root fetch - processPackages [eodc-faas-force]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_force-2023.8.0.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [eodc-faas-force]: Start processing: metaboatrace.models
+[2023-08-01 11:44:30] INFO root fetch - main [MainThread]: End processing [eodc-faas-force]: success
+[2023-08-01 11:44:30] INFO root fetch - processPackages [mongoy]: Remove: archive file [/home/abi/fetcher/tmp/mongoy-0.1.4.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [mongoy]: Remove: archive file [/home/abi/fetcher/tmp/mongoy-0.1.5.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [mongoy]: Start processing: recipe-scrapers
+[2023-08-01 11:44:30] INFO root fetch - main [MainThread]: End processing [mongoy]: success
+[2023-08-01 11:44:30] INFO root fetch - processPackages [cognite-neat]: New version: [0.18.3] Old Version: [0.18.2]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [metaboatrace.models]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [recipe-scrapers]: New version: [9.2.6] Old Version: [9.2.5]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [krules-companion-client]: Remove: archive file [/home/abi/fetcher/tmp/krules_companion_client-0.1.0.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [krules-companion-client]: Remove: archive file [/home/abi/fetcher/tmp/krules_companion_client-0.2.0.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [krules-companion-client]: Start processing: tm-config-server-client-python
+[2023-08-01 11:44:30] INFO root fetch - main [MainThread]: End processing [krules-companion-client]: success
+[2023-08-01 11:44:30] INFO root fetch - processPackages [taxonerd]: Remove: archive file [/home/abi/fetcher/tmp/taxonerd-1.5.1.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [taxonerd]: Remove: archive file [/home/abi/fetcher/tmp/taxonerd-1.5.2.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [taxonerd]: Start processing: esahub-wegaw
+[2023-08-01 11:44:30] INFO root fetch - main [MainThread]: End processing [taxonerd]: success
+[2023-08-01 11:44:30] INFO root fetch - processPackages [tm-config-server-client-python]: New version: [0.4] Old Version: [0.3]
+[2023-08-01 11:44:30] WARNING root fetch - processPackages [esahub-wegaw]: Skipping, unable to determine old version
+[2023-08-01 11:44:30] INFO root fetch - processPackages [esahub-wegaw]: Start processing: afex-audit-trail
+[2023-08-01 11:44:30] INFO root fetch - main [MainThread]: End processing [esahub-wegaw] error
+[2023-08-01 11:44:30] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2023.post1690841237.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2024.post1690855431.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [scrunch]: Start processing: airtable-pg-sync
+[2023-08-01 11:44:30] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-01 11:44:30] INFO root fetch - processPackages [afex-audit-trail]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [airtable-pg-sync]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/3a/ac/2230ce64722f21906b99bb74b312831cb525ce5fa902d773bebfb459481a/cognite_neat-0.18.2.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [pydeseq2]: Remove: archive file [/home/abi/fetcher/tmp/pydeseq2-0.3.5.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [pydeseq2]: Remove: archive file [/home/abi/fetcher/tmp/pydeseq2-0.3.6.tar.gz]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [pydeseq2]: Start processing: xj-finance
+[2023-08-01 11:44:30] INFO root fetch - main [MainThread]: End processing [pydeseq2]: success
+[2023-08-01 11:44:30] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/1b/a5/41d4ba840c78d2ee2cc6586fc1307db096cf60808c6c999d5f3719632192/tm_config_server_client_python-0.3.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [berryworld]: Downloading https://files.pythonhosted.org/packages/76/7a/85e422f997ed11ae867d7de50d34dc4f96e9070f2fb630606a5c033fb214/berryworld-1.0.0.99947-py3-none-any.whl
+[2023-08-01 11:44:30] INFO root fetch - processPackages [recipe-scrapers]: Downloading https://files.pythonhosted.org/packages/d5/32/798f352029a9eb96fba9618fce5cd481dd19d4a66f562825dc7281c0f853/recipe_scrapers-9.2.5.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-01 11:44:30] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/c4/c7/5601b5ecdb03ccb0abc2226c10905804248363bbcc5ddb41567dbe1b1b37/metaboatrace_models-0.1.0.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [airtable-pg-sync]: Downloading https://files.pythonhosted.org/packages/49/97/14a3e485bdcb12139cfca5f8cc45e19e3b19e0bcb0f5de416be332a675fe/airtable_pg_sync-0.0.3.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/fe/98/f3eacffafebf0f82353cc1fe2a198a2fb516409b18df1ac901b44ee89d19/afex-audit-trail-0.2.3.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/8a/c7/a78363b29f0425a98f39cf8ba09d167ca5f4e5712928037d663be0a9f7ee/tm_config_server_client_python-0.4.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [berryworld]: executing diffoscope
+[2023-08-01 11:44:30] INFO root fetch - processPackages [berryworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip --markdown 20230801/b/berryworld/1.0.0.98128-1.0.0.99947/diff.md --exclude *.pyd
+[2023-08-01 11:44:30] INFO root fetch - processPackages [tm-config-server-client-python]: executing diffoscope
+[2023-08-01 11:44:30] INFO root fetch - processPackages [tm-config-server-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tm_config_server_client_python-0.3.tar.gz tmp/tm_config_server_client_python-0.4.tar.gz --markdown 20230801/t/tm-config-server-client-python/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-01 11:44:30] INFO root fetch - processPackages [airtable-pg-sync]: Downloading https://files.pythonhosted.org/packages/ae/9a/8cfc1e900ff92157dc68c740200bfeb1cdc3d30e9b36a1c1502f4a84ef76/airtable_pg_sync-0.0.4.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/35/2b/c0363f3bb64484be53b6cc4197204f0433a04c0dad6b60b2d93c7f32eef6/afex-audit-trail-0.2.4.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [metaboatrace.models]: Downloading https://files.pythonhosted.org/packages/cb/1a/facc16638bc61d938fac7cd8bdb387abb39a0b4805b6ffa8f1c16311231f/metaboatrace_models-0.2.0.tar.gz
+[2023-08-01 11:44:30] INFO root fetch - processPackages [afex-audit-trail]: executing diffoscope
+[2023-08-01 11:44:30] INFO root fetch - processPackages [afex-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-audit-trail-0.2.3.tar.gz tmp/afex-audit-trail-0.2.4.tar.gz --markdown 20230801/a/afex-audit-trail/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 11:44:30] INFO root fetch - processPackages [airtable-pg-sync]: executing diffoscope
+[2023-08-01 11:44:30] INFO root fetch - processPackages [airtable-pg-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtable_pg_sync-0.0.3.tar.gz tmp/airtable_pg_sync-0.0.4.tar.gz --markdown 20230801/a/airtable-pg-sync/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 11:44:30] INFO root fetch - processPackages [metaboatrace.models]: executing diffoscope
+[2023-08-01 11:44:30] INFO root fetch - processPackages [metaboatrace.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaboatrace_models-0.1.0.tar.gz tmp/metaboatrace_models-0.2.0.tar.gz --markdown 20230801/m/metaboatrace.models/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 11:44:30] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-08-01 11:44:30] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230801/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-01 11:44:31] INFO root fetch - processPackages [recipe-scrapers]: Downloading https://files.pythonhosted.org/packages/6b/5c/232be4938285e5a5392e78867e82229cbcfc9854f0e5a6dadf8e8730e53b/recipe_scrapers-9.2.6.tar.gz
+[2023-08-01 11:44:31] INFO root fetch - processPackages [recipe-scrapers]: executing diffoscope
+[2023-08-01 11:44:31] INFO root fetch - processPackages [recipe-scrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recipe_scrapers-9.2.5.tar.gz tmp/recipe_scrapers-9.2.6.tar.gz --markdown 20230801/r/recipe-scrapers/9.2.5-9.2.6/diff.md --exclude *.pyd
+[2023-08-01 11:44:31] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/72/52/54cce3826ae47c97b4f49c5ac1a3d6726ee5b9c01e2810d0f0cbcf82f713/cognite_neat-0.18.3.tar.gz
+[2023-08-01 11:44:31] INFO root fetch - processPackages [mastapy]: executing diffoscope
+[2023-08-01 11:44:31] INFO root fetch - processPackages [mastapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastapy-13.0.0a5.tar.gz tmp/mastapy-13.0a2.tar.gz --markdown 20230801/m/mastapy/13.0.0a5-13.0a2/diff.md --exclude *.pyd
+[2023-08-01 11:44:31] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2023-08-01 11:44:31] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.18.2.tar.gz tmp/cognite_neat-0.18.3.tar.gz --markdown 20230801/c/cognite-neat/0.18.2-0.18.3/diff.md --exclude *.pyd
+[2023-08-01 11:44:32] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.4.tar.gz]
+[2023-08-01 11:44:32] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.5.tar.gz]
+[2023-08-01 11:44:32] INFO root fetch - processPackages [st-track-viewer]: Start processing: hello-subsys
+[2023-08-01 11:44:32] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-08-01 11:44:32] WARNING root fetch - processPackages [hello-subsys]: Skipping, unable to determine old version
+[2023-08-01 11:44:32] INFO root fetch - main [MainThread]: End processing [hello-subsys] error
+[2023-08-01 11:44:32] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.3.tar.gz]
+[2023-08-01 11:44:32] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.4.tar.gz]
+[2023-08-01 11:44:32] INFO root fetch - main [MainThread]: End processing [tm-config-server-client-python]: success
+[2023-08-01 11:44:32] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.98128-py3-none-any.whl.zip]
+[2023-08-01 11:44:32] INFO root fetch - processPackages [berryworld]: Remove: archive file [/home/abi/fetcher/tmp/berryworld-1.0.0.99947-py3-none-any.whl.zip]
+[2023-08-01 11:44:32] INFO root fetch - main [MainThread]: End processing [berryworld]: success
+[2023-08-01 11:44:33] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.2.3.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.2.4.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - main [MainThread]: End processing [afex-audit-trail]: success
+[2023-08-01 11:44:33] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.1.0.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - processPackages [metaboatrace.models]: Remove: archive file [/home/abi/fetcher/tmp/metaboatrace_models-0.2.0.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - main [MainThread]: End processing [metaboatrace.models]: success
+[2023-08-01 11:44:33] INFO root fetch - processPackages [airtable-pg-sync]: Remove: archive file [/home/abi/fetcher/tmp/airtable_pg_sync-0.0.3.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - processPackages [airtable-pg-sync]: Remove: archive file [/home/abi/fetcher/tmp/airtable_pg_sync-0.0.4.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - main [MainThread]: End processing [airtable-pg-sync]: success
+[2023-08-01 11:44:33] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-08-01 11:44:33] INFO root fetch - processPackages [recipe-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/recipe_scrapers-9.2.5.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - processPackages [recipe-scrapers]: Remove: archive file [/home/abi/fetcher/tmp/recipe_scrapers-9.2.6.tar.gz]
+[2023-08-01 11:44:33] INFO root fetch - main [MainThread]: End processing [recipe-scrapers]: success
+[2023-08-01 11:44:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.18.2.tar.gz]
+[2023-08-01 11:44:35] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.18.3.tar.gz]
+[2023-08-01 11:44:35] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2023-08-01 11:47:31] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
+[2023-08-01 11:47:31] INFO root fetch - main [MainThread]: End processing [mastapy] error
+[2023-08-01 11:47:31] INFO root fetch - main [MainThread]: Store serial: [19121599]
