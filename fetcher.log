@@ -12974,3 +12974,45 @@
 [2023-08-01 06:43:40] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-08-01 06:43:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-08-01 06:43:40] INFO root fetch - main [MainThread]: Store serial: [19118684]
+[2023-08-01 06:48:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118684]
+[2023-08-01 06:48:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-01 06:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prime-dagster-airbyte
+[2023-08-01 06:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-command
+[2023-08-01 06:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-restit
+[2023-08-01 06:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: email-extractor-unicode
+[2023-08-01 06:48:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rclip
+[2023-08-01 06:48:49] INFO root fetch - processPackages [django-restit]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-08-01 06:48:49] INFO root fetch - processPackages [email-extractor-unicode]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-01 06:48:49] INFO root fetch - processPackages [prime-dagster-airbyte]: New version: [0.19.13.dev2] Old Version: [0.19.13.dev1]
+[2023-08-01 06:48:49] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2023-08-01 06:48:49] WARNING root fetch - processPackages [rclip]: Skipping, unable to determine old version
+[2023-08-01 06:48:49] INFO root fetch - main [MainThread]: End processing [rclip] error
+[2023-08-01 06:48:49] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/02/16/e08f0e2e2b309259da8aaa3edcc9e815a7b782a5e085f19144819f167ef5/email_extractor_unicode-1.0.7.tar.gz
+[2023-08-01 06:48:50] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/6f/af/ab199ed186ddb74f0177a7a99f1473685dca71f5e647c3cec12e4f67385d/django_restit-4.1.8.tar.gz
+[2023-08-01 06:48:50] INFO root fetch - processPackages [prime-dagster-airbyte]: Downloading https://files.pythonhosted.org/packages/f7/23/0e302859321bddf6d98b0cfb66b52a62f19233c0fe52161f2879d44318b1/prime-dagster-airbyte-0.19.13.dev1.tar.gz
+[2023-08-01 06:48:50] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2023-08-01 06:48:50] INFO root fetch - processPackages [email-extractor-unicode]: Downloading https://files.pythonhosted.org/packages/64/b4/525ab7c65229c2fa4d0ce11abcd3c72791ad0493d7adb22f9a590c233ab8/email_extractor_unicode-1.0.8.tar.gz
+[2023-08-01 06:48:50] INFO root fetch - processPackages [email-extractor-unicode]: executing diffoscope
+[2023-08-01 06:48:50] INFO root fetch - processPackages [email-extractor-unicode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/email_extractor_unicode-1.0.7.tar.gz tmp/email_extractor_unicode-1.0.8.tar.gz --markdown 20230801/e/email-extractor-unicode/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-01 06:48:50] INFO root fetch - processPackages [prime-dagster-airbyte]: Downloading https://files.pythonhosted.org/packages/d4/d2/c1efd9ebe6db3b7c98e19547d5c63d28e53057f379617a626dcac02c0067/prime-dagster-airbyte-0.19.13.dev2.tar.gz
+[2023-08-01 06:48:50] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2023-08-01 06:48:50] INFO root fetch - processPackages [prime-dagster-airbyte]: executing diffoscope
+[2023-08-01 06:48:50] INFO root fetch - processPackages [prime-dagster-airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prime-dagster-airbyte-0.19.13.dev1.tar.gz tmp/prime-dagster-airbyte-0.19.13.dev2.tar.gz --markdown 20230801/p/prime-dagster-airbyte/0.19.13.dev1-0.19.13.dev2/diff.md --exclude *.pyd
+[2023-08-01 06:48:50] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2023-08-01 06:48:50] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20230801/p/pulumi-command/4.5.0-4.6.0a1662390243/diff.md --exclude *.pyd
+[2023-08-01 06:48:50] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/0e/04/63e788bf7ebbcef3a2631435360b07492d0130662e2c955df89d1c9c301c/django_restit-4.1.9.tar.gz
+[2023-08-01 06:48:51] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-08-01 06:48:51] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.8.tar.gz tmp/django_restit-4.1.9.tar.gz --markdown 20230801/d/django-restit/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-08-01 06:48:51] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.0.7.tar.gz]
+[2023-08-01 06:48:51] INFO root fetch - processPackages [email-extractor-unicode]: Remove: archive file [/home/abi/fetcher/tmp/email_extractor_unicode-1.0.8.tar.gz]
+[2023-08-01 06:48:51] INFO root fetch - main [MainThread]: End processing [email-extractor-unicode]: success
+[2023-08-01 06:48:51] INFO root fetch - processPackages [prime-dagster-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/prime-dagster-airbyte-0.19.13.dev1.tar.gz]
+[2023-08-01 06:48:51] INFO root fetch - processPackages [prime-dagster-airbyte]: Remove: archive file [/home/abi/fetcher/tmp/prime-dagster-airbyte-0.19.13.dev2.tar.gz]
+[2023-08-01 06:48:51] INFO root fetch - main [MainThread]: End processing [prime-dagster-airbyte]: success
+[2023-08-01 06:48:51] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2023-08-01 06:48:51] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2023-08-01 06:48:51] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2023-08-01 06:48:53] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.8.tar.gz]
+[2023-08-01 06:48:53] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
+[2023-08-01 06:48:53] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-08-01 06:48:53] INFO root fetch - main [MainThread]: Store serial: [19118699]
