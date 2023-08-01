@@ -20276,3 +20276,132 @@
 [2023-08-01 12:37:58] INFO root fetch - processPackages [sqlx-batis]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-batis-0.2.1.tar.gz]
 [2023-08-01 12:37:58] INFO root fetch - main [MainThread]: End processing [sqlx-batis]: success
 [2023-08-01 12:37:58] INFO root fetch - main [MainThread]: Store serial: [19122170]
+[2023-08-01 12:43:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122170]
+[2023-08-01 12:43:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyDuotecno
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hello-subsys
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hp2p-api
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: repo-loader
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydbtools
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fano-oss-py-sdk
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vdk-jupyterlab-extension
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ezkl
+[2023-08-01 12:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-builder
+[2023-08-01 12:43:08] INFO root fetch - processPackages [vdk-jupyterlab-extension]: New version: [0.1.951673056] Old Version: [0.1.950282415]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [hello-subsys]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [pydbtools]: New version: [5.5.8] Old Version: [5.5.7]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [repo-loader]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [fano-oss-py-sdk]: New version: [7.1.17] Old Version: [7.1.16]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [hp2p-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20230731] Old Version: [1.0.0.dev20230730]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [ezkl]: New version: [1.2.0] Old Version: [1.0.2]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [pyDuotecno]: New version: [2023.8.0] Old Version: [2023.7.3]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [mypy-boto3-builder]: New version: [7.9.2] Old Version: [7.9.1]
+[2023-08-01 12:43:08] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/f6/20/188cdd418ac99e2459a9175023032818b2ce99f083f5b68de791df90cd48/repo-loader-0.2.0.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [hello-subsys]: Downloading https://files.pythonhosted.org/packages/9e/e3/9a499180913269b9137fa787f6267859ff79ed89db3060fd8e3fac8cca06/hello-subsys-1.0.2.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [pyDuotecno]: Downloading https://files.pythonhosted.org/packages/b8/3d/b431d191f88c17cc8747f46a1727aa1f11dd0fe93abfd6257ef34a6a8d0c/pyDuotecno-2023.7.3.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [pydbtools]: Downloading https://files.pythonhosted.org/packages/f8/86/2d6816977a121af3fe25a010f69991965c178c0e6063b50d49224c4717bd/pydbtools-5.5.7.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [fano-oss-py-sdk]: Downloading https://files.pythonhosted.org/packages/c2/31/b8e7b54a5630a8ac8ddd4a2139b51a6d77716447919841c4428897fa7e16/fano-oss-py-sdk-7.1.16.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/0b/6e/a680af31aa7361f8530f433b03c309c7cf2e20a6df281039fb41e467f79c/skypilot-nightly-1.0.0.dev20230730.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/92/61/07319ab8f6f28c3a1af2b861fe3279b1efd2a4b1eab2485934a56da38422/ezkl-1.0.2.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/ee/11/341b105bf6345e78400793dd64c53ee46392936cabff33772d368be4ab89/mypy-boto3-builder-7.9.1.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [hp2p-api]: Downloading https://files.pythonhosted.org/packages/9f/dc/24ff11d5e36548cf785486883b6953bbd381365cd1bebe25727548107d04/hp2p-api-0.0.2.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [hello-subsys]: Downloading https://files.pythonhosted.org/packages/a9/6f/5f0fe39700e8448cf040fb2dd89d50acb841bb5e40235f12abb63a12f83d/hello-subsys-1.0.3.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/8f/cb/5842cca9d38e081f394ade4163addd74f4c392e68db3241bd05636e2124c/repo-loader-0.2.1.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/f4/56/254298a9cfb1a788fbf59cf8159f38e9ff3bb51f53b2d3aeb101a5851657/vdk_jupyterlab_extension-0.1.950282415.tar.gz
+[2023-08-01 12:43:08] INFO root fetch - processPackages [pyDuotecno]: Downloading https://files.pythonhosted.org/packages/5f/95/a3fbea3c70939789c002eea3194e1d03f829895c04dfb431890331235db7/pyDuotecno-2023.8.0.tar.gz
+[2023-08-01 12:43:09] INFO root fetch - processPackages [hello-subsys]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [hello-subsys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello-subsys-1.0.2.tar.gz tmp/hello-subsys-1.0.3.tar.gz --markdown 20230801/h/hello-subsys/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [repo-loader]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [repo-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-loader-0.2.0.tar.gz tmp/repo-loader-0.2.1.tar.gz --markdown 20230801/r/repo-loader/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [fano-oss-py-sdk]: Downloading https://files.pythonhosted.org/packages/9e/fa/abca5be5e0dbaa69688f2a55a1b9769d851c1164fe6649bfb56a4663bd14/fano-oss-py-sdk-7.1.17.tar.gz
+[2023-08-01 12:43:09] INFO root fetch - processPackages [pyDuotecno]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [pyDuotecno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDuotecno-2023.7.3.tar.gz tmp/pyDuotecno-2023.8.0.tar.gz --markdown 20230801/p/pyDuotecno/2023.7.3-2023.8.0/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [pydbtools]: Downloading https://files.pythonhosted.org/packages/c7/35/9e4828551236f1c9f44b505f24aa0e01c4ecb212489115519cd18f4f0be1/pydbtools-5.5.8.tar.gz
+[2023-08-01 12:43:09] INFO root fetch - processPackages [mypy-boto3-builder]: Downloading https://files.pythonhosted.org/packages/fe/ae/2a0da74f6827713d434b6fdb09c80ff83f450cffa43c5b8811492236e7ac/mypy-boto3-builder-7.9.2.tar.gz
+[2023-08-01 12:43:09] INFO root fetch - processPackages [fano-oss-py-sdk]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [fano-oss-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fano-oss-py-sdk-7.1.16.tar.gz tmp/fano-oss-py-sdk-7.1.17.tar.gz --markdown 20230801/f/fano-oss-py-sdk/7.1.16-7.1.17/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/b1/d1/80416af590008aa2d225c54b4bb714344ca9bb45dade731b7dcebec3b300/ezkl-1.2.0-cp37-abi3-win_amd64.whl
+[2023-08-01 12:43:09] INFO root fetch - processPackages [hp2p-api]: Downloading https://files.pythonhosted.org/packages/b9/77/c1f9a645758b04c95aa0b85e6794662d7024d424676515f6dddb591cdc24/hp2p-api-0.0.3.tar.gz
+[2023-08-01 12:43:09] INFO root fetch - processPackages [pydbtools]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [pydbtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbtools-5.5.7.tar.gz tmp/pydbtools-5.5.8.tar.gz --markdown 20230801/p/pydbtools/5.5.7-5.5.8/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/b0/f5/c24f995b9102c8ee5227c2844e8606d3b32472cb08f2a7498aed6e6fb677/vdk_jupyterlab_extension-0.1.951673056.tar.gz
+[2023-08-01 12:43:09] INFO root fetch - processPackages [mypy-boto3-builder]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [mypy-boto3-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-builder-7.9.1.tar.gz tmp/mypy-boto3-builder-7.9.2.tar.gz --markdown 20230801/m/mypy-boto3-builder/7.9.1-7.9.2/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [hp2p-api]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [hp2p-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hp2p-api-0.0.2.tar.gz tmp/hp2p-api-0.0.3.tar.gz --markdown 20230801/h/hp2p-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [vdk-jupyterlab-extension]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [vdk-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk_jupyterlab_extension-0.1.950282415.tar.gz tmp/vdk_jupyterlab_extension-0.1.951673056.tar.gz --markdown 20230801/v/vdk-jupyterlab-extension/0.1.950282415-0.1.951673056/diff.md --exclude *.pyd
+[2023-08-01 12:43:09] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/36/2b/d93e37c86c1ce4467d80c65e930a88e59d8fd0f05ef19d58ed5664368a92/skypilot-nightly-1.0.0.dev20230731.tar.gz
+[2023-08-01 12:43:09] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2023-08-01 12:43:09] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20230730.tar.gz tmp/skypilot-nightly-1.0.0.dev20230731.tar.gz --markdown 20230801/s/skypilot-nightly/1.0.0.dev20230730-1.0.0.dev20230731/diff.md --exclude *.pyd
+[2023-08-01 12:43:10] INFO root fetch - processPackages [hello-subsys]: Remove: archive file [/home/abi/fetcher/tmp/hello-subsys-1.0.2.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [hello-subsys]: Remove: archive file [/home/abi/fetcher/tmp/hello-subsys-1.0.3.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [hello-subsys]: Start processing: remotemanager
+[2023-08-01 12:43:10] INFO root fetch - main [MainThread]: End processing [hello-subsys]: success
+[2023-08-01 12:43:10] INFO root fetch - processPackages [remotemanager]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.2.0.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.2.1.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [repo-loader]: Start processing: pysd
+[2023-08-01 12:43:10] INFO root fetch - main [MainThread]: End processing [repo-loader]: success
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pysd]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pyDuotecno]: Remove: archive file [/home/abi/fetcher/tmp/pyDuotecno-2023.7.3.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pyDuotecno]: Remove: archive file [/home/abi/fetcher/tmp/pyDuotecno-2023.8.0.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pyDuotecno]: Start processing: adata
+[2023-08-01 12:43:10] INFO root fetch - main [MainThread]: End processing [pyDuotecno]: success
+[2023-08-01 12:43:10] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/3a/50/528a08969afb90065e86c917ad0bd8c483a312df046908703699cd798a92/remotemanager-0.9.8.tar.gz
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pydbtools]: Remove: archive file [/home/abi/fetcher/tmp/pydbtools-5.5.7.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pydbtools]: Remove: archive file [/home/abi/fetcher/tmp/pydbtools-5.5.8.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pydbtools]: Start processing: deafrica-tools
+[2023-08-01 12:43:10] INFO root fetch - main [MainThread]: End processing [pydbtools]: success
+[2023-08-01 12:43:10] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [hp2p-api]: Remove: archive file [/home/abi/fetcher/tmp/hp2p-api-0.0.2.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [hp2p-api]: Remove: archive file [/home/abi/fetcher/tmp/hp2p-api-0.0.3.tar.gz]
+[2023-08-01 12:43:10] INFO root fetch - main [MainThread]: End processing [hp2p-api]: success
+[2023-08-01 12:43:10] INFO root fetch - processPackages [pysd]: Downloading https://files.pythonhosted.org/packages/86/b8/66d7c46c8ab23077e1717a96de29bf48b0044b906045c8049d085d4e7040/pysd-3.9.0.tar.gz
+[2023-08-01 12:43:10] INFO root fetch - processPackages [deafrica-tools]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-01 12:43:10] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/6c/ad/4dc56a0e10097173d3641ee71fb03814440f99f7f8e09d6b4646fc06a8c1/remotemanager-0.9.9.tar.gz
+[2023-08-01 12:43:11] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/3d/f1/05ef22dfe9d1a4200c0a8daf44caa7690d3f8e88dd1ab2db9863135757bd/deafrica_tools-2.0.1.tar.gz
+[2023-08-01 12:43:11] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-08-01 12:43:11] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.8.tar.gz tmp/remotemanager-0.9.9.tar.gz --markdown 20230801/r/remotemanager/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 12:43:11] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/66/fd/d3c9b9a7b2572489cc2001d80eeca95b9e231b8b8c1d6f582fe0e62853c5/adata-0.0.8b0.tar.gz
+[2023-08-01 12:43:11] INFO root fetch - processPackages [fano-oss-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fano-oss-py-sdk-7.1.16.tar.gz]
+[2023-08-01 12:43:11] INFO root fetch - processPackages [fano-oss-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fano-oss-py-sdk-7.1.17.tar.gz]
+[2023-08-01 12:43:11] INFO root fetch - main [MainThread]: End processing [fano-oss-py-sdk]: success
+[2023-08-01 12:43:11] INFO root fetch - processPackages [pysd]: Downloading https://files.pythonhosted.org/packages/02/4b/3233b559539175a72f8889647fbdbeed31e759ee077828ee855b1e6a979c/pysd-3.9.1.tar.gz
+[2023-08-01 12:43:11] INFO root fetch - processPackages [deafrica-tools]: Downloading https://files.pythonhosted.org/packages/f4/f0/fa3620f674fd19b5b095466f557d5940657dbb51c622d5bcf5c11c905225/deafrica_tools-2.0.2.tar.gz
+[2023-08-01 12:43:11] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.950282415.tar.gz]
+[2023-08-01 12:43:11] INFO root fetch - processPackages [vdk-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/vdk_jupyterlab_extension-0.1.951673056.tar.gz]
+[2023-08-01 12:43:11] INFO root fetch - main [MainThread]: End processing [vdk-jupyterlab-extension]: success
+[2023-08-01 12:43:11] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/a8/b4/65647d57045b6c7d198901b3c90bec97ada894e04e9504c736ca433399c0/adata-0.0.9b0.tar.gz
+[2023-08-01 12:43:11] INFO root fetch - processPackages [deafrica-tools]: executing diffoscope
+[2023-08-01 12:43:11] INFO root fetch - processPackages [deafrica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deafrica_tools-2.0.1.tar.gz tmp/deafrica_tools-2.0.2.tar.gz --markdown 20230801/d/deafrica-tools/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-08-01 12:43:11] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-08-01 12:43:11] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230801/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-08-01 12:43:12] INFO root fetch - processPackages [pysd]: executing diffoscope
+[2023-08-01 12:43:12] INFO root fetch - processPackages [pysd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysd-3.9.0.tar.gz tmp/pysd-3.9.1.tar.gz --markdown 20230801/p/pysd/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-01 12:43:12] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230730.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20230731.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2023-08-01 12:43:12] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.1.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - processPackages [mypy-boto3-builder]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-builder-7.9.2.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - main [MainThread]: End processing [mypy-boto3-builder]: success
+[2023-08-01 12:43:12] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.8.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.9.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-08-01 12:43:12] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.8b0.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.9b0.tar.gz]
+[2023-08-01 12:43:12] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-08-01 12:43:13] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.0.1.tar.gz]
+[2023-08-01 12:43:13] INFO root fetch - processPackages [deafrica-tools]: Remove: archive file [/home/abi/fetcher/tmp/deafrica_tools-2.0.2.tar.gz]
+[2023-08-01 12:43:13] INFO root fetch - main [MainThread]: End processing [deafrica-tools]: success
+[2023-08-01 12:43:13] INFO root fetch - processPackages [ezkl]: executing diffoscope
+[2023-08-01 12:43:13] INFO root fetch - processPackages [ezkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezkl-1.0.2.tar.gz tmp/ezkl-1.2.0-cp37-abi3-win_amd64.whl.zip --markdown 20230801/e/ezkl/1.0.2-1.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:43:13] INFO root fetch - processPackages [pysd]: Remove: archive file [/home/abi/fetcher/tmp/pysd-3.9.0.tar.gz]
+[2023-08-01 12:43:13] INFO root fetch - processPackages [pysd]: Remove: archive file [/home/abi/fetcher/tmp/pysd-3.9.1.tar.gz]
+[2023-08-01 12:43:13] INFO root fetch - main [MainThread]: End processing [pysd]: success
+[2023-08-01 12:43:13] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-1.0.2.tar.gz]
+[2023-08-01 12:43:13] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-1.2.0-cp37-abi3-win_amd64.whl.zip]
+[2023-08-01 12:43:13] INFO root fetch - main [MainThread]: End processing [ezkl]: success
+[2023-08-01 12:43:13] INFO root fetch - main [MainThread]: Store serial: [19122220]
