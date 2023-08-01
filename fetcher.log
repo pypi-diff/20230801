@@ -14958,3 +14958,35 @@
 [2023-08-01 08:41:46] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.9.tar.gz]
 [2023-08-01 08:41:46] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
 [2023-08-01 08:41:46] INFO root fetch - main [MainThread]: Store serial: [19119608]
+[2023-08-01 08:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119608]
+[2023-08-01 08:46:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-01 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: level3-NI-test
+[2023-08-01 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plateauutils
+[2023-08-01 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djmyframework
+[2023-08-01 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yvesCMD
+[2023-08-01 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momos-py
+[2023-08-01 08:46:57] INFO root fetch - processPackages [plateauutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 08:46:57] INFO root fetch - processPackages [yvesCMD]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-01 08:46:57] WARNING root fetch - processPackages [momos-py]: Skipping, unable to determine old version
+[2023-08-01 08:46:57] INFO root fetch - main [MainThread]: End processing [momos-py] error
+[2023-08-01 08:46:57] WARNING root fetch - processPackages [level3-NI-test]: Skipping, unable to determine old version
+[2023-08-01 08:46:57] INFO root fetch - main [MainThread]: End processing [level3-NI-test] error
+[2023-08-01 08:46:57] INFO root fetch - processPackages [djmyframework]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 08:46:57] INFO root fetch - processPackages [plateauutils]: Downloading https://files.pythonhosted.org/packages/1b/73/94b59385f1f2ee73b269c9ec385c081242736bd1c171e6a0a4889fb70b03/plateauutils-0.0.3.tar.gz
+[2023-08-01 08:46:57] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/f9/3e/a277fbf421ee0e91e5678d6a72aaf9df43028dd41e27a99115636e71f1cf/yvesCMD-0.1.0.tar.gz
+[2023-08-01 08:46:57] INFO root fetch - processPackages [djmyframework]: Downloading https://files.pythonhosted.org/packages/d4/de/b067ca583a33db0010cbfc5e99fd0e9e8652f25c182b8371b3a6dfb8d7d0/djmyframework-0.1.8.tar.gz
+[2023-08-01 08:46:57] WARNING root fetch - processPackages [djmyframework]: Skipping package: exceeds size limit 14184939>=10485760
+[2023-08-01 08:46:57] INFO root fetch - main [MainThread]: End processing [djmyframework] error
+[2023-08-01 08:46:57] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/20/4f/e77b9692433a7be3edec503450ef5402ef62a9f4ec20ee5c4b9d1bb4a97a/yvesCMD-0.1.1.tar.gz
+[2023-08-01 08:46:57] INFO root fetch - processPackages [plateauutils]: Downloading https://files.pythonhosted.org/packages/7a/7d/28f3b1ed1b5445b8fe1350709d16969ddd1a4a49e1fcec3ad6c7a2f9fcb4/plateauutils-0.0.4.tar.gz
+[2023-08-01 08:46:57] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 08:46:57] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.1.0.tar.gz tmp/yvesCMD-0.1.1.tar.gz --markdown 20230801/y/yvesCMD/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-01 08:46:57] INFO root fetch - processPackages [plateauutils]: executing diffoscope
+[2023-08-01 08:46:57] INFO root fetch - processPackages [plateauutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plateauutils-0.0.3.tar.gz tmp/plateauutils-0.0.4.tar.gz --markdown 20230801/p/plateauutils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 08:46:58] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.1.0.tar.gz]
+[2023-08-01 08:46:58] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.1.1.tar.gz]
+[2023-08-01 08:46:58] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 08:46:58] INFO root fetch - processPackages [plateauutils]: Remove: archive file [/home/abi/fetcher/tmp/plateauutils-0.0.3.tar.gz]
+[2023-08-01 08:46:58] INFO root fetch - processPackages [plateauutils]: Remove: archive file [/home/abi/fetcher/tmp/plateauutils-0.0.4.tar.gz]
+[2023-08-01 08:46:58] INFO root fetch - main [MainThread]: End processing [plateauutils]: success
+[2023-08-01 08:46:58] INFO root fetch - main [MainThread]: Store serial: [19119637]
