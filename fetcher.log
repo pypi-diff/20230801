@@ -15878,3 +15878,127 @@
 [2023-08-01 09:34:05] INFO root fetch - processPackages [pysmartdatamodels]: Remove: archive file [/home/abi/fetcher/tmp/pysmartdatamodels-0.6.0.tar.gz]
 [2023-08-01 09:34:05] INFO root fetch - main [MainThread]: End processing [pysmartdatamodels]: success
 [2023-08-01 09:34:05] INFO root fetch - main [MainThread]: Store serial: [19120059]
+[2023-08-01 09:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120059]
+[2023-08-01 09:39:20] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xlab-util
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: img2fmri
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shimoku-api-python
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camSort
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipywidgets
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dalpha
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openai-parallel-toolkit
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lalsuite
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: combidata
+[2023-08-01 09:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: power-grid-model
+[2023-08-01 09:39:21] WARNING root fetch - processPackages [xlab-util]: Skipping, unable to determine old version
+[2023-08-01 09:39:21] INFO root fetch - processPackages [xlab-util]: Start processing: news-toolkit-api
+[2023-08-01 09:39:21] INFO root fetch - main [MainThread]: End processing [xlab-util] error
+[2023-08-01 09:39:21] INFO root fetch - processPackages [dalpha]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [img2fmri]: New version: [0.2.dev5] Old Version: [0.2.dev4]
+[2023-08-01 09:39:21] WARNING root fetch - processPackages [camSort]: Skipping, unable to determine old version
+[2023-08-01 09:39:21] INFO root fetch - processPackages [camSort]: Start processing: Pygeun
+[2023-08-01 09:39:21] INFO root fetch - main [MainThread]: End processing [camSort] error
+[2023-08-01 09:39:21] INFO root fetch - processPackages [combidata]: New version: [0.2.2.4] Old Version: [0.2.2.3]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [openai-parallel-toolkit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9235211826225] Old Version: [1.5.0rc9232904017091]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [shimoku-api-python]: New version: [1.0.1] Old Version: [1.0]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [ipywidgets]: New version: [8.1.0] Old Version: [8.0.7]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [Pygeun]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/d3/35/5d9bc1554ef342b732784a385cfde951139a8d237637c9d2929fcd9cee51/combidata-0.2.2.3.tar.gz
+[2023-08-01 09:39:21] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/43/d5/1d060cd658ff78c30a47811a0fcbf278568276bc9c3871fe6cae7694f0ae/dalpha-0.1.4.tar.gz
+[2023-08-01 09:39:21] INFO root fetch - processPackages [ipywidgets]: Downloading https://files.pythonhosted.org/packages/93/7c/d88ab96dfeafdbd0669ff52879032631757a9ec51693baff17b3487d502f/ipywidgets-8.0.7.tar.gz
+[2023-08-01 09:39:21] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-01 09:39:21] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/ca/ef/e595b9aac42032bbc6638bb74024f71be559e4f1dd9c8a5395812d40ef24/openai_parallel_toolkit-1.1.0-py3-none-any.whl
+[2023-08-01 09:39:21] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-01 09:39:21] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/02/e7/09ce4b78ffa333720c1ff9b72664339e0d56c8e5ebbac23d8f3a475434e9/power-grid-model-1.5.0rc9232904017091.tar.gz
+[2023-08-01 09:39:21] INFO root fetch - processPackages [img2fmri]: Downloading https://files.pythonhosted.org/packages/ad/9a/99f3ec43f52134fdd5ec0d3786c7dbe329fbc78b75a3a61a567842463b14/img2fmri-0.2.dev4.tar.gz
+[2023-08-01 09:39:21] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-08-01 09:39:21] INFO root fetch - processPackages [lalsuite]: Start processing: vzg.jconv
+[2023-08-01 09:39:21] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-08-01 09:39:21] WARNING root fetch - processPackages [img2fmri]: Skipping package: exceeds size limit 62246316>=10485760
+[2023-08-01 09:39:21] INFO root fetch - processPackages [img2fmri]: Start processing: microjson
+[2023-08-01 09:39:21] INFO root fetch - main [MainThread]: End processing [img2fmri] error
+[2023-08-01 09:39:21] INFO root fetch - processPackages [Pygeun]: Downloading https://files.pythonhosted.org/packages/df/8e/bb1e6f55904debb1f323ed78283df36c0ab447c1dff455f9c2018cfd0b88/Pygeun-0.0.1.tar.gz
+[2023-08-01 09:39:21] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/0b/de/5b50ad1e08c11096184358e3cae75f3d224f7866715736e1dd253051a670/shimoku-api-python-1.0.tar.gz
+[2023-08-01 09:39:21] INFO root fetch - processPackages [vzg.jconv]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-01 09:39:21] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-01 09:39:21] WARNING root fetch - processPackages [microjson]: Skipping, unable to determine old version
+[2023-08-01 09:39:21] INFO root fetch - processPackages [microjson]: Start processing: tablate
+[2023-08-01 09:39:21] INFO root fetch - main [MainThread]: End processing [microjson] error
+[2023-08-01 09:39:22] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/91/cf/7028f6d2d692111d77f4967c90b19a75371b4e98e0d30b8b36770750e538/dalpha-0.1.6.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [combidata]: Downloading https://files.pythonhosted.org/packages/1a/10/ce04f60e4003186f43dac1f2d9d77c6962c65de80b91708e8898777c0d4d/combidata-0.2.2.4.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 09:39:22] INFO root fetch - processPackages [ipywidgets]: Downloading https://files.pythonhosted.org/packages/b7/94/61a6774e2f4d5657a18eabc1d4cc8a328e6aeb50f38314c4111af1f20adc/ipywidgets-8.1.0.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [openai-parallel-toolkit]: Downloading https://files.pythonhosted.org/packages/74/6a/d2b01afba27eb4bf57c056a8aa44d479f571212eee114b82a19f5a0034d1/openai_parallel_toolkit-1.1.1-py3-none-any.whl
+[2023-08-01 09:39:22] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230801/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/5d/c5/e1b3369d686c1846f700a41e751752b79980aab9bdfc88d8d682ba37ae82/vzg.jconv-1.2.2.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [Pygeun]: Downloading https://files.pythonhosted.org/packages/c7/7d/6a0c289601c2db1e92db5cd15b71158b630641794578bc7f06e68cf1c9ba/Pygeun-0.0.2.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/c9/57/44cfdd27d6722959931a1650fd5f27b700dd4d9f0b38a9abc234887b0dd5/power-grid-model-1.5.0rc9235211826225.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [openai-parallel-toolkit]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [openai-parallel-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_parallel_toolkit-1.1.0-py3-none-any.whl.zip tmp/openai_parallel_toolkit-1.1.1-py3-none-any.whl.zip --markdown 20230801/o/openai-parallel-toolkit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.1.4.tar.gz tmp/dalpha-0.1.6.tar.gz --markdown 20230801/d/dalpha/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [combidata]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [combidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/combidata-0.2.2.3.tar.gz tmp/combidata-0.2.2.4.tar.gz --markdown 20230801/c/combidata/0.2.2.3-0.2.2.4/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/e4/0d/4700a7cd1ed4ea619d8380d6ff7224df75234deb5b2ad84297121e30acba/shimoku-api-python-1.0.1.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [ipywidgets]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [ipywidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywidgets-8.0.7.tar.gz tmp/ipywidgets-8.1.0.tar.gz --markdown 20230801/i/ipywidgets/8.0.7-8.1.0/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9232904017091.tar.gz tmp/power-grid-model-1.5.0rc9235211826225.tar.gz --markdown 20230801/p/power-grid-model/1.5.0rc9232904017091-1.5.0rc9235211826225/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [Pygeun]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [Pygeun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pygeun-0.0.1.tar.gz tmp/Pygeun-0.0.2.tar.gz --markdown 20230801/P/Pygeun/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [shimoku-api-python]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [shimoku-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku-api-python-1.0.tar.gz tmp/shimoku-api-python-1.0.1.tar.gz --markdown 20230801/s/shimoku-api-python/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/7f/c2/01800d9ed1ed974848ccf7230f140182da2aeec761cc7a32f8e7beae4cd1/vzg.jconv-1.2.3.tar.gz
+[2023-08-01 09:39:22] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230801/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:39:22] INFO root fetch - processPackages [vzg.jconv]: executing diffoscope
+[2023-08-01 09:39:22] INFO root fetch - processPackages [vzg.jconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vzg.jconv-1.2.2.tar.gz tmp/vzg.jconv-1.2.3.tar.gz --markdown 20230801/v/vzg.jconv/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-01 09:39:23] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-01 09:39:23] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-01 09:39:23] INFO root fetch - processPackages [news-toolkit-api]: Start processing: tablediter
+[2023-08-01 09:39:23] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-01 09:39:23] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-1.1.0-py3-none-any.whl.zip]
+[2023-08-01 09:39:23] INFO root fetch - processPackages [openai-parallel-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/openai_parallel_toolkit-1.1.1-py3-none-any.whl.zip]
+[2023-08-01 09:39:23] INFO root fetch - processPackages [openai-parallel-toolkit]: Start processing: Pygeun
+[2023-08-01 09:39:23] INFO root fetch - main [MainThread]: End processing [openai-parallel-toolkit]: success
+[2023-08-01 09:39:23] WARNING root fetch - processPackages [tablediter]: Skipping, unable to determine old version
+[2023-08-01 09:39:23] INFO root fetch - main [MainThread]: End processing [tablediter] error
+[2023-08-01 09:39:23] INFO root fetch - processPackages [Pygeun]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 09:39:23] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.4.tar.gz]
+[2023-08-01 09:39:23] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.6.tar.gz]
+[2023-08-01 09:39:23] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2023-08-01 09:39:23] INFO root fetch - processPackages [Pygeun]: Downloading https://files.pythonhosted.org/packages/0d/7b/544c4f5bc3ee5ee5e57e1357c15ae815e6dd338aa1d05951442986ef6049/Pygeun-0.0.3.tar.gz
+[2023-08-01 09:39:24] INFO root fetch - processPackages [Pygeun]: Remove: archive file [/home/abi/fetcher/tmp/Pygeun-0.0.1.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - processPackages [Pygeun]: Remove: archive file [/home/abi/fetcher/tmp/Pygeun-0.0.2.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - main [MainThread]: End processing [Pygeun]: success
+[2023-08-01 09:39:24] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.2.3.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - processPackages [combidata]: Remove: archive file [/home/abi/fetcher/tmp/combidata-0.2.2.4.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - main [MainThread]: End processing [combidata]: success
+[2023-08-01 09:39:24] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.2.2.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.2.3.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - main [MainThread]: End processing [vzg.jconv]: success
+[2023-08-01 09:39:24] INFO root fetch - processPackages [Pygeun]: Downloading https://files.pythonhosted.org/packages/b5/76/d8cfcac1c36960b053e7acca7b9a2b02630af56ab6d201ec5c9d760fbe9b/Pygeun-0.0.4.tar.gz
+[2023-08-01 09:39:24] INFO root fetch - processPackages [ipywidgets]: Remove: archive file [/home/abi/fetcher/tmp/ipywidgets-8.0.7.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - processPackages [ipywidgets]: Remove: archive file [/home/abi/fetcher/tmp/ipywidgets-8.1.0.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - main [MainThread]: End processing [ipywidgets]: success
+[2023-08-01 09:39:24] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - processPackages [Pygeun]: executing diffoscope
+[2023-08-01 09:39:24] INFO root fetch - processPackages [Pygeun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pygeun-0.0.3.tar.gz tmp/Pygeun-0.0.4.tar.gz --markdown 20230801/P/Pygeun/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 09:39:24] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-01 09:39:24] INFO root fetch - processPackages [shimoku-api-python]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-api-python-1.0.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - processPackages [shimoku-api-python]: Remove: archive file [/home/abi/fetcher/tmp/shimoku-api-python-1.0.1.tar.gz]
+[2023-08-01 09:39:24] INFO root fetch - main [MainThread]: End processing [shimoku-api-python]: success
+[2023-08-01 09:39:25] INFO root fetch - processPackages [Pygeun]: Remove: archive file [/home/abi/fetcher/tmp/Pygeun-0.0.3.tar.gz]
+[2023-08-01 09:39:25] INFO root fetch - processPackages [Pygeun]: Remove: archive file [/home/abi/fetcher/tmp/Pygeun-0.0.4.tar.gz]
+[2023-08-01 09:39:25] INFO root fetch - main [MainThread]: End processing [Pygeun]: success
+[2023-08-01 09:39:25] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9232904017091.tar.gz]
+[2023-08-01 09:39:25] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9235211826225.tar.gz]
+[2023-08-01 09:39:25] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-08-01 09:39:25] INFO root fetch - main [MainThread]: Store serial: [19120137]
