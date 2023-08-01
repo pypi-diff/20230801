@@ -14055,3 +14055,42 @@
 [2023-08-01 07:42:09] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.6.tar.gz]
 [2023-08-01 07:42:09] INFO root fetch - main [MainThread]: End processing [censoredzz]: success
 [2023-08-01 07:42:09] INFO root fetch - main [MainThread]: Store serial: [19119109]
+[2023-08-01 07:47:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119109]
+[2023-08-01 07:47:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-01 07:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: f-yolov8
+[2023-08-01 07:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: our1314
+[2023-08-01 07:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-mapdl-reader
+[2023-08-01 07:47:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-metadata
+[2023-08-01 07:47:18] INFO root fetch - processPackages [our1314]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:47:18] INFO root fetch - processPackages [f-yolov8]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 07:47:18] INFO root fetch - processPackages [ansys-mapdl-reader]: New version: [0.52.9] Old Version: [0.52.8]
+[2023-08-01 07:47:18] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/dd/4b/fb5c04b974e954182b3b8adc3e38e4ac4deefd1c4e9afd25ee21a6fd4dd7/our1314-0.1.8.tar.gz
+[2023-08-01 07:47:18] INFO root fetch - processPackages [f-yolov8]: Downloading https://files.pythonhosted.org/packages/ab/fd/5e2abf9fdd3cfaf1bc9a3a28dde8d016ed9e72a028248685f446077ebd97/f_yolov8-0.0.5.tar.gz
+[2023-08-01 07:47:18] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:47:18] INFO root fetch - processPackages [ansys-mapdl-reader]: Downloading https://files.pythonhosted.org/packages/20/51/22eefda22cb103d4b5084eace87b68e0bbb4fd6604542d7851206b42b131/ansys-mapdl-reader-0.52.8.tar.gz
+[2023-08-01 07:47:18] INFO root fetch - processPackages [our1314]: Downloading https://files.pythonhosted.org/packages/a5/2d/20df8e686de75225e2e8d244304dff78378aaf46c98f0a3357d326fe7000/our1314-0.1.9.tar.gz
+[2023-08-01 07:47:18] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-08-01 07:47:18] INFO root fetch - processPackages [our1314]: executing diffoscope
+[2023-08-01 07:47:18] INFO root fetch - processPackages [our1314]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/our1314-0.1.8.tar.gz tmp/our1314-0.1.9.tar.gz --markdown 20230801/o/our1314/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:47:18] INFO root fetch - processPackages [f-yolov8]: Downloading https://files.pythonhosted.org/packages/43/6d/9a6f9f304eb3f43ed8b51b5e4bd9c7b2835a82c69a464da93df212df207e/f_yolov8-0.0.6.tar.gz
+[2023-08-01 07:47:18] INFO root fetch - processPackages [f-yolov8]: executing diffoscope
+[2023-08-01 07:47:18] INFO root fetch - processPackages [f-yolov8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f_yolov8-0.0.5.tar.gz tmp/f_yolov8-0.0.6.tar.gz --markdown 20230801/f/f-yolov8/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-01 07:47:18] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-08-01 07:47:19] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-08-01 07:47:19] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230801/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:47:19] INFO root fetch - processPackages [ansys-mapdl-reader]: Downloading https://files.pythonhosted.org/packages/4e/81/374b1cc48191003b8370ce8390bfbffaca3018090a2f524209b4db588af6/ansys-mapdl-reader-0.52.9.tar.gz
+[2023-08-01 07:47:19] INFO root fetch - processPackages [f-yolov8]: Remove: archive file [/home/abi/fetcher/tmp/f_yolov8-0.0.5.tar.gz]
+[2023-08-01 07:47:19] INFO root fetch - processPackages [f-yolov8]: Remove: archive file [/home/abi/fetcher/tmp/f_yolov8-0.0.6.tar.gz]
+[2023-08-01 07:47:19] INFO root fetch - main [MainThread]: End processing [f-yolov8]: success
+[2023-08-01 07:47:19] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.8.tar.gz]
+[2023-08-01 07:47:19] INFO root fetch - processPackages [our1314]: Remove: archive file [/home/abi/fetcher/tmp/our1314-0.1.9.tar.gz]
+[2023-08-01 07:47:19] INFO root fetch - main [MainThread]: End processing [our1314]: success
+[2023-08-01 07:47:19] INFO root fetch - processPackages [ansys-mapdl-reader]: executing diffoscope
+[2023-08-01 07:47:19] INFO root fetch - processPackages [ansys-mapdl-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-mapdl-reader-0.52.8.tar.gz tmp/ansys-mapdl-reader-0.52.9.tar.gz --markdown 20230801/a/ansys-mapdl-reader/0.52.8-0.52.9/diff.md --exclude *.pyd
+[2023-08-01 07:47:20] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 07:47:20] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-08-01 07:47:20] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-08-01 07:47:20] INFO root fetch - processPackages [ansys-mapdl-reader]: Remove: archive file [/home/abi/fetcher/tmp/ansys-mapdl-reader-0.52.8.tar.gz]
+[2023-08-01 07:47:20] INFO root fetch - processPackages [ansys-mapdl-reader]: Remove: archive file [/home/abi/fetcher/tmp/ansys-mapdl-reader-0.52.9.tar.gz]
+[2023-08-01 07:47:20] INFO root fetch - main [MainThread]: End processing [ansys-mapdl-reader]: success
+[2023-08-01 07:47:20] INFO root fetch - main [MainThread]: Store serial: [19119137]
