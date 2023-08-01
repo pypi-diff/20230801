@@ -11059,3 +11059,106 @@
 [2023-08-01 05:04:43] INFO root fetch - processPackages [pydmd]: Remove: archive file [/home/abi/fetcher/tmp/pydmd-0.4.1.post2308.tar.gz]
 [2023-08-01 05:04:43] INFO root fetch - main [MainThread]: End processing [pydmd]: success
 [2023-08-01 05:04:43] INFO root fetch - main [MainThread]: Store serial: [19117864]
+[2023-08-01 05:09:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117864]
+[2023-08-01 05:09:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chik-dev-tools
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IMALogger
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-commission
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-commission
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlforecast
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IMALogger
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-base-currency-iso-4217
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-community-data-files
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-dingtalk-sit
+[2023-08-01 05:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: byteplus-rec
+[2023-08-01 05:09:52] INFO root fetch - processPackages [odoo-addon-sale-commission]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [IMALogger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 05:09:52] WARNING root fetch - processPackages [chik-dev-tools]: Skipping, unable to determine old version
+[2023-08-01 05:09:52] INFO root fetch - processPackages [chik-dev-tools]: Start processing: pillar1
+[2023-08-01 05:09:52] INFO root fetch - main [MainThread]: End processing [chik-dev-tools] error
+[2023-08-01 05:09:52] INFO root fetch - processPackages [IMALogger]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [byteplus-rec]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: New version: [16.0.20230606.0] Old Version: [16.0.20230515.0]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [16.0.1.1.1.4] Old Version: [16.0.1.1.1.2]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [mlforecast]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [django-dingtalk-sit]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [pillar1]: New version: [0.1.9.9] Old Version: [0.1.9.8]
+[2023-08-01 05:09:52] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Downloading https://files.pythonhosted.org/packages/7e/7c/abc6aa04bd6dd2ac0c3b44c5a534004b3e8efebe30ef6d4a19ee40622788/odoo_addon_base_currency_iso_4217-15.0.1.0.0.2-py3-none-any.whl
+[2023-08-01 05:09:52] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/8d/50/707754326d3b1c35e17a75d0853913a3045abc5f5502158e362032fddde3/IMALogger-0.0.1.tar.gz
+[2023-08-01 05:09:52] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/8d/50/707754326d3b1c35e17a75d0853913a3045abc5f5502158e362032fddde3/IMALogger-0.0.1.tar.gz
+[2023-08-01 05:09:52] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/a3/03/000565fb7428994b26abe5d7bbbc4ff00664676db8cb052f42e87bfdc34e/mlforecast-0.8.1.tar.gz
+[2023-08-01 05:09:52] INFO root fetch - processPackages [odoo-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/96/f5/462425351ecb4f9401ad0bda9cbf509f1646c9fae1486b71aed97951f083/odoo_addon_sale_commission-16.0.1.0.1-py3-none-any.whl
+[2023-08-01 05:09:52] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/db/71/765d3d26d791b6a0f6aadf84486f5ac9a385a780a00c2faee8138bb3f031/odoo_addon_account_commission-16.0.1.1.1.2-py3-none-any.whl
+[2023-08-01 05:09:53] INFO root fetch - processPackages [byteplus-rec]: Downloading https://files.pythonhosted.org/packages/da/38/f07b9d9e17304b800f44ebbee4a0d7c384b378fd669dbcf43bdaa2a7fb20/byteplus-rec-1.0.4.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [django-dingtalk-sit]: Downloading https://files.pythonhosted.org/packages/8f/e8/02bb41b6af3686f3b71dcbab9d35c139b9d4920f2158196edcca3d01c2f0/django-dingtalk-sit-1.0.0.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/fd/c8/dc894f4393d99c54f62ae98519892157e6b0e0327ac1f0b1a261450e9868/pillar1-0.1.9.8.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/a6/0e/208fe1470c3b571034cd9a9d114743b8c804f6b2efc86c0be4810e891452/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl
+[2023-08-01 05:09:53] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/a8/95/2170931c394a55c7827a9047e8acd24be1b2b274ce1eb2a2fa0bb81525e4/IMALogger-0.0.2.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/a8/95/2170931c394a55c7827a9047e8acd24be1b2b274ce1eb2a2fa0bb81525e4/IMALogger-0.0.2.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/c3/80/0eb36409f6ce89eb1d4feed9d0670f88521b4dac7a6b1e55c2f34443d9a6/odoo_addon_sale_commission-16.0.1.0.1.2-py3-none-any.whl
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Downloading https://files.pythonhosted.org/packages/47/aa/545f841387c5910bf752444b3b1b4adfa039dcd8527f6e622db0b6de1e3d/odoo_addon_base_currency_iso_4217-15.0.1.0.0.3-py3-none-any.whl
+[2023-08-01 05:09:53] INFO root fetch - processPackages [mlforecast]: Downloading https://files.pythonhosted.org/packages/a1/2c/465d65074c197f3d0703ab8e29538e77d0b0d608e9f88b3462d4b033bb2a/mlforecast-0.9.0.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [byteplus-rec]: Downloading https://files.pythonhosted.org/packages/da/24/63f5feee9cc403d3da871030a1349e99cc1b42748b3a508b13bb88bd822f/byteplus-rec-1.0.5.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/6f/f9/0635db1e59207beaafbb617e2cf407163d8ba9e1363bad57c5fa74d98e05/odoo_addon_account_commission-16.0.1.1.1.4-py3-none-any.whl
+[2023-08-01 05:09:53] INFO root fetch - processPackages [django-dingtalk-sit]: Downloading https://files.pythonhosted.org/packages/a8/fd/d528537aea55d435510055e52cdb37c6b5565346355151d96ff0cccb9d5e/django-dingtalk-sit-1.0.1.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [IMALogger]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [IMALogger]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [IMALogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMALogger-0.0.1.tar.gz tmp/IMALogger-0.0.2.tar.gz --markdown 20230801/I/IMALogger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [IMALogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMALogger-0.0.1.tar.gz tmp/IMALogger-0.0.2.tar.gz --markdown 20230801/I/IMALogger/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-sale-commission]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_commission-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_commission-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-sale-commission/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/92/8d/efcf5703708adcc432230e0d510fec42756434d28ae2e4b4348f30be2eef/pillar1-0.1.9.9.tar.gz
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_currency_iso_4217-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_currency_iso_4217-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-base-currency-iso-4217/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [mlforecast]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [mlforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlforecast-0.8.1.tar.gz tmp/mlforecast-0.9.0.tar.gz --markdown 20230801/m/mlforecast/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/13/7f/2c8a59deba24178131f91405d3ed4ced7683d194a335b719cbfe20e55fe8/odoo_addons_oca_community_data_files-16.0.20230606.0-py3-none-any.whl
+[2023-08-01 05:09:53] INFO root fetch - processPackages [byteplus-rec]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [byteplus-rec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byteplus-rec-1.0.4.tar.gz tmp/byteplus-rec-1.0.5.tar.gz --markdown 20230801/b/byteplus-rec/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.9.8.tar.gz tmp/pillar1-0.1.9.9.tar.gz --markdown 20230801/p/pillar1/0.1.9.8-0.1.9.9/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_commission-16.0.1.1.1.4-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-account-commission/16.0.1.1.1.2-16.0.1.1.1.4/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [django-dingtalk-sit]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [django-dingtalk-sit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dingtalk-sit-1.0.0.tar.gz tmp/django-dingtalk-sit-1.0.1.tar.gz --markdown 20230801/d/django-dingtalk-sit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: executing diffoscope
+[2023-08-01 05:09:53] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl.zip tmp/odoo_addons_oca_community_data_files-16.0.20230606.0-py3-none-any.whl.zip --markdown 20230801/o/odoo-addons-oca-community-data-files/16.0.20230515.0-16.0.20230606.0/diff.md --exclude *.pyd
+[2023-08-01 05:09:55] INFO root fetch - processPackages [IMALogger]: Remove: archive file [/home/abi/fetcher/tmp/IMALogger-0.0.1.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [IMALogger]: Remove: archive file [/home/abi/fetcher/tmp/IMALogger-0.0.2.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [IMALogger]: Start processing: mergepythonclient
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [IMALogger]: success
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [IMALogger]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commission-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commission-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-commission]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [mergepythonclient]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_currency_iso_4217-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addon-base-currency-iso-4217]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_currency_iso_4217-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-currency-iso-4217]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20230606.0-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-community-data-files]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [mergepythonclient]: Downloading https://files.pythonhosted.org/packages/35/1a/54367a7eeaf4edfca938db42a40bd9bd71ab9c9235c66da10a6e8e452120/mergepythonclient-0.2.0.tar.gz
+[2023-08-01 05:09:55] INFO root fetch - processPackages [django-dingtalk-sit]: Remove: archive file [/home/abi/fetcher/tmp/django-dingtalk-sit-1.0.0.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [django-dingtalk-sit]: Remove: archive file [/home/abi/fetcher/tmp/django-dingtalk-sit-1.0.1.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [django-dingtalk-sit]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [byteplus-rec]: Remove: archive file [/home/abi/fetcher/tmp/byteplus-rec-1.0.4.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [byteplus-rec]: Remove: archive file [/home/abi/fetcher/tmp/byteplus-rec-1.0.5.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [byteplus-rec]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [mlforecast]: Remove: archive file [/home/abi/fetcher/tmp/mlforecast-0.8.1.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [mlforecast]: Remove: archive file [/home/abi/fetcher/tmp/mlforecast-0.9.0.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [mlforecast]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.8.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.9.9.tar.gz]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2023-08-01 05:09:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2023-08-01 05:09:55] INFO root fetch - processPackages [mergepythonclient]: Downloading https://files.pythonhosted.org/packages/9b/02/5d4af64242af3fdb14fc1ff77738df8cd3e360e6d0fe900bd73914c4055a/mergepythonclient-0.2.1.tar.gz
+[2023-08-01 05:09:56] INFO root fetch - processPackages [mergepythonclient]: executing diffoscope
+[2023-08-01 05:09:56] INFO root fetch - processPackages [mergepythonclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mergepythonclient-0.2.0.tar.gz tmp/mergepythonclient-0.2.1.tar.gz --markdown 20230801/m/mergepythonclient/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 05:10:02] INFO root fetch - processPackages [mergepythonclient]: Remove: archive file [/home/abi/fetcher/tmp/mergepythonclient-0.2.0.tar.gz]
+[2023-08-01 05:10:02] INFO root fetch - processPackages [mergepythonclient]: Remove: archive file [/home/abi/fetcher/tmp/mergepythonclient-0.2.1.tar.gz]
+[2023-08-01 05:10:02] INFO root fetch - main [MainThread]: End processing [mergepythonclient]: success
+[2023-08-01 05:10:02] INFO root fetch - main [MainThread]: Store serial: [19117899]
