@@ -17819,3 +17819,179 @@
 [2023-08-01 10:54:20] INFO root fetch - processPackages [accelbyte-py-sdk]: Remove: archive file [/home/abi/fetcher/tmp/accelbyte_py_sdk-0.46.0.tar.gz]
 [2023-08-01 10:54:20] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk]: success
 [2023-08-01 10:54:20] INFO root fetch - main [MainThread]: Store serial: [19120992]
+[2023-08-01 10:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120992]
+[2023-08-01 10:59:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dist-alx-test
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrestoolbox
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xj-finance
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablite
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: screenshotone
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3seed
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yvesCMD
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ccxt
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ul-py-tool
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volcengine-python-sdk
+[2023-08-01 10:59:31] INFO root fetch - processPackages [pyrestoolbox]: New version: [1.4.0] Old Version: [1.3.9]
+[2023-08-01 10:59:31] WARNING root fetch - processPackages [dist-alx-test]: Skipping, unable to determine old version
+[2023-08-01 10:59:31] INFO root fetch - processPackages [dist-alx-test]: Start processing: camSort
+[2023-08-01 10:59:31] INFO root fetch - main [MainThread]: End processing [dist-alx-test] error
+[2023-08-01 10:59:31] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [yvesCMD]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [screenshotone]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [tablite]: New version: [2023.6.dev9] Old Version: [2023.6.dev8]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.32] Old Version: [1.15.31]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [py3seed]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [camSort]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/0e/2a/759b54de0e510923c78218235315b18cea8313990107470f025112ed2fcf/ul-py-tool-1.15.31.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/a3/c7/972479010ee5d7420984f9de87a435caf8582cc2da642af29ee83a8ed227/py3seed-0.2.8.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/b1/91/3c429a4a4266289ec294a6852713c5abe59a3780db8703f1916fb895a8c9/camSort-0.2.4.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/af/fd/4f95223380042b2e479d698c96ecc34cbd35c3a161b8e322ad88b4bcfed6/tablite-2023.6.dev8-py3-none-any.whl
+[2023-08-01 10:59:31] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/9c/2c/367b95ca44be21dd07806fa73024835d4155aedc33c0648d579ae5a64c09/pyrestoolbox-1.3.9.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/64/d7/bdc3c3ae80b3f4b5f29664440cd7245122f3c4cfd8b7f0f9727bf8fc174b/yvesCMD-0.0.1.2.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [screenshotone]: Downloading https://files.pythonhosted.org/packages/bb/74/2882f5c1b3f81929fe2fb043bbb823903ff3b300e7bbb7ccd3bd162b2108/screenshotone-0.0.3.tar.gz
+[2023-08-01 10:59:31] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/96/bd/21552dd6ee6549fa870b39da783053281b4ec5431e697f4d48bdc3c71a79/ul-py-tool-1.15.32.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/b8/3d/bf28f6a3f10f0c0b280aecbfb191dceec6e58d817ac9cd2ce1bd2b46ef12/py3seed-0.2.9.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/ca/e4/7f576013c1e08ef9d71230258d71387e1a56c4f351129b60b7c0370cf621/camSort-0.2.5.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/30/8d/cf4c61baf3bee44c563f80ff4a5d3047ca2221f1c589e567c0bf2a0f0dde/yvesCMD-0.0.1.3-py3-none-any.whl
+[2023-08-01 10:59:32] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/14/ec/59a99d9898f7f1dca847cacaa4e22888f72005d3fc9bef2f15e21bde0b8a/tablite-2023.6.dev9-py3-none-any.whl
+[2023-08-01 10:59:32] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.31.tar.gz tmp/ul-py-tool-1.15.32.tar.gz --markdown 20230801/u/ul-py-tool/1.15.31-1.15.32/diff.md --exclude *.pyd
+[2023-08-01 10:59:32] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.0.1.2.tar.gz tmp/yvesCMD-0.0.1.3-py3-none-any.whl.zip --markdown 20230801/y/yvesCMD/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2023-08-01 10:59:32] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/bc/d9/b00d2f67d1f122671e45137e059a05a704a9516fa50ac510444ff81f2695/pyrestoolbox-1.4.0.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.8.tar.gz tmp/py3seed-0.2.9.tar.gz --markdown 20230801/p/py3seed/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 10:59:32] INFO root fetch - processPackages [screenshotone]: Downloading https://files.pythonhosted.org/packages/dc/c1/a9ed2f786652417bd0933d4007688f2a50ebbe617b68389e572dea15388d/screenshotone-0.0.4.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.2.4.tar.gz tmp/camSort-0.2.5.tar.gz --markdown 20230801/c/camSort/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-01 10:59:32] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230801/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-01 10:59:32] INFO root fetch - processPackages [pyrestoolbox]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [pyrestoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestoolbox-1.3.9.tar.gz tmp/pyrestoolbox-1.4.0.tar.gz --markdown 20230801/p/pyrestoolbox/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2023-08-01 10:59:32] INFO root fetch - processPackages [screenshotone]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [screenshotone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screenshotone-0.0.3.tar.gz tmp/screenshotone-0.0.4.tar.gz --markdown 20230801/s/screenshotone/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 10:59:32] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2023-08-01 10:59:32] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-08-01 10:59:32] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.6.dev8-py3-none-any.whl.zip tmp/tablite-2023.6.dev9-py3-none-any.whl.zip --markdown 20230801/t/tablite/2023.6.dev8-2023.6.dev9/diff.md --exclude *.pyd
+[2023-08-01 10:59:33] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2023-08-01 10:59:33] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20230801/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 10:59:33] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.1.2.tar.gz]
+[2023-08-01 10:59:33] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.1.3-py3-none-any.whl.zip]
+[2023-08-01 10:59:33] INFO root fetch - processPackages [yvesCMD]: Start processing: ramodels
+[2023-08-01 10:59:33] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 10:59:34] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-08-01 10:59:34] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.4.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.5.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [camSort]: Start processing: testApiGroup
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-01 10:59:34] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.8] Old Version: [1.0.0.7]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-08-01 10:59:34] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/22/75/6767ee89f9fa5c8d8f3fa3ae01390cbbc6c4085d8f5cb4501697bd0cc738/testApiGroup-1.0.0.7.tar.gz
+[2023-08-01 10:59:34] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [xj-finance]: Start processing: philander
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-08-01 10:59:34] INFO root fetch - processPackages [philander]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.3.9.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.4.0.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [pyrestoolbox]: Start processing: cmdcomp
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [pyrestoolbox]: success
+[2023-08-01 10:59:34] INFO root fetch - processPackages [screenshotone]: Remove: archive file [/home/abi/fetcher/tmp/screenshotone-0.0.3.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [screenshotone]: Remove: archive file [/home/abi/fetcher/tmp/screenshotone-0.0.4.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [screenshotone]: Start processing: MyOverlay
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [screenshotone]: success
+[2023-08-01 10:59:34] INFO root fetch - processPackages [cmdcomp]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/63/49/2738d88bdd11c80091228a29e7db90dbb0328d0652f5744bc4838f21d8c9/testApiGroup-1.0.0.8.tar.gz
+[2023-08-01 10:59:34] WARNING root fetch - processPackages [MyOverlay]: Skipping, unable to determine old version
+[2023-08-01 10:59:34] INFO root fetch - processPackages [MyOverlay]: Start processing: TinetApiRequest
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [MyOverlay] error
+[2023-08-01 10:59:34] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.31.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.8.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.32.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.9.tar.gz]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [ul-py-tool]: Start processing: fw-file
+[2023-08-01 10:59:34] INFO root fetch - processPackages [py3seed]: Start processing: finter
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-01 10:59:34] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/96/17/cb933e91428f583b48698bc0e84bdd76e1d7cba237c3cfaa3b3030893ae6/philander-0.1.8.tar.gz
+[2023-08-01 10:59:34] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [fw-file]: New version: [3.0.0] Old Version: [2.4.1]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [finter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-08-01 10:59:34] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.7.tar.gz tmp/testApiGroup-1.0.0.8.tar.gz --markdown 20230801/t/testApiGroup/1.0.0.7-1.0.0.8/diff.md --exclude *.pyd
+[2023-08-01 10:59:34] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev8-py3-none-any.whl.zip]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev9-py3-none-any.whl.zip]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [tablite]: Start processing: HQ-Test-Data
+[2023-08-01 10:59:34] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-08-01 10:59:34] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/be/f3/ee77d29fc45618e3ebb38e0930e2648b2e37ea1db32f70ca79bca8030774/TinetApiRequest-1.1.3.tar.gz
+[2023-08-01 10:59:34] INFO root fetch - processPackages [HQ-Test-Data]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 10:59:34] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/3f/67/a34c11ccfbaf6906bef8a6f98dc9c0635e28381e93a61a2f77a494e47eaf/finter-0.0.8-py3-none-any.whl
+[2023-08-01 10:59:34] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/c0/6c/809908aefcfca39dcc8f9cf71e5a10fe2c106e9fe754e3081953c1d47327/cmdcomp-2.0.1.tar.gz
+[2023-08-01 10:59:34] INFO root fetch - processPackages [fw-file]: Downloading https://files.pythonhosted.org/packages/db/a7/92f73ae70abd384b2fc45d454fe19ee12bf00adbf068104cb0a2c79e8ff1/fw_file-2.4.1-py3-none-any.whl
+[2023-08-01 10:59:35] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/7c/74/1948e4ff1b4aec9933e42ce1ab3d3495b1535bf1d203da0e462ed238eeed/finter-0.0.9-py3-none-any.whl
+[2023-08-01 10:59:35] INFO root fetch - processPackages [HQ-Test-Data]: Downloading https://files.pythonhosted.org/packages/7c/0f/ce589ddd6ec3637a0915911e5f6ecd59290286dbca43bb2eabee04152158/HQ_Test_Data-0.0.1.tar.gz
+[2023-08-01 10:59:35] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/3d/99/583505b2beacd33cba1e89fb6514e384ae159e449d6bbb0b7dd9409779fa/philander-0.1.9.tar.gz
+[2023-08-01 10:59:35] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/40/eb/ba7fafc73d9ec281b8df02ae0b317bc9516c17a7b8e4568befe77b0c927e/TinetApiRequest-1.1.4.tar.gz
+[2023-08-01 10:59:35] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/01/a0/9773cad6f8e0cd8c0c542939ab591789505903acec49b8016ec79452c34b/cmdcomp-2.0.2.tar.gz
+[2023-08-01 10:59:35] INFO root fetch - processPackages [finter]: executing diffoscope
+[2023-08-01 10:59:35] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.0.8-py3-none-any.whl.zip tmp/finter-0.0.9-py3-none-any.whl.zip --markdown 20230801/f/finter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 10:59:35] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-08-01 10:59:35] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.1.3.tar.gz tmp/TinetApiRequest-1.1.4.tar.gz --markdown 20230801/T/TinetApiRequest/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-01 10:59:35] INFO root fetch - processPackages [philander]: executing diffoscope
+[2023-08-01 10:59:35] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.8.tar.gz tmp/philander-0.1.9.tar.gz --markdown 20230801/p/philander/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 10:59:35] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-08-01 10:59:35] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-2.0.1.tar.gz tmp/cmdcomp-2.0.2.tar.gz --markdown 20230801/c/cmdcomp/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-08-01 10:59:35] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-08-01 10:59:35] INFO root fetch - processPackages [HQ-Test-Data]: Downloading https://files.pythonhosted.org/packages/42/e6/e31e81fc101eeeb2975f7bfa502fee0fe6fc86cf086d1d84440f61f16c05/HQ_Test_Data-0.0.2.tar.gz
+[2023-08-01 10:59:35] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-08-01 10:59:35] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230801/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-08-01 10:59:35] INFO root fetch - processPackages [fw-file]: Downloading https://files.pythonhosted.org/packages/1e/e3/cb26bfd79ee8168facb49a68fcdbb26319ca769202dc9ccd9ddba55a8072/fw_file-3.0.0-py3-none-any.whl
+[2023-08-01 10:59:35] INFO root fetch - processPackages [HQ-Test-Data]: executing diffoscope
+[2023-08-01 10:59:35] INFO root fetch - processPackages [HQ-Test-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HQ_Test_Data-0.0.1.tar.gz tmp/HQ_Test_Data-0.0.2.tar.gz --markdown 20230801/H/HQ-Test-Data/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 10:59:35] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.7.tar.gz]
+[2023-08-01 10:59:35] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.8.tar.gz]
+[2023-08-01 10:59:35] INFO root fetch - processPackages [testApiGroup]: Start processing: creme-crm
+[2023-08-01 10:59:35] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-08-01 10:59:35] INFO root fetch - processPackages [fw-file]: executing diffoscope
+[2023-08-01 10:59:35] INFO root fetch - processPackages [fw-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_file-2.4.1-py3-none-any.whl.zip tmp/fw_file-3.0.0-py3-none-any.whl.zip --markdown 20230801/f/fw-file/2.4.1-3.0.0/diff.md --exclude *.pyd
+[2023-08-01 10:59:35] INFO root fetch - processPackages [creme-crm]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-08-01 10:59:36] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/b5/5d/7b3ab928615d367fcdc349566a686bdd0bf8d32288c0971bc71b56f4cd72/creme-crm-2.4.5.tar.gz
+[2023-08-01 10:59:36] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-08-01 10:59:36] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230801/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-08-01 10:59:36] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 23324790>=10485760
+[2023-08-01 10:59:36] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2023-08-01 10:59:36] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.1.3.tar.gz]
+[2023-08-01 10:59:36] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.1.4.tar.gz]
+[2023-08-01 10:59:36] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-08-01 10:59:37] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.1.tar.gz]
+[2023-08-01 10:59:37] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-2.0.2.tar.gz]
+[2023-08-01 10:59:37] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-08-01 10:59:37] INFO root fetch - processPackages [HQ-Test-Data]: Remove: archive file [/home/abi/fetcher/tmp/HQ_Test_Data-0.0.1.tar.gz]
+[2023-08-01 10:59:37] INFO root fetch - processPackages [HQ-Test-Data]: Remove: archive file [/home/abi/fetcher/tmp/HQ_Test_Data-0.0.2.tar.gz]
+[2023-08-01 10:59:37] INFO root fetch - main [MainThread]: End processing [HQ-Test-Data]: success
+[2023-08-01 10:59:37] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-08-01 10:59:37] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-08-01 10:59:37] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-08-01 10:59:37] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.8-py3-none-any.whl.zip]
+[2023-08-01 10:59:37] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.0.9-py3-none-any.whl.zip]
+[2023-08-01 10:59:37] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2023-08-01 10:59:37] INFO root fetch - processPackages [fw-file]: Remove: archive file [/home/abi/fetcher/tmp/fw_file-2.4.1-py3-none-any.whl.zip]
+[2023-08-01 10:59:37] INFO root fetch - processPackages [fw-file]: Remove: archive file [/home/abi/fetcher/tmp/fw_file-3.0.0-py3-none-any.whl.zip]
+[2023-08-01 10:59:37] INFO root fetch - main [MainThread]: End processing [fw-file]: success
+[2023-08-01 10:59:38] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.8.tar.gz]
+[2023-08-01 10:59:38] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.9.tar.gz]
+[2023-08-01 10:59:38] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2023-08-01 10:59:41] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-08-01 10:59:41] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-08-01 10:59:41] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-08-01 10:59:46] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2023-08-01 10:59:46] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2023-08-01 10:59:46] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2023-08-01 10:59:46] INFO root fetch - main [MainThread]: Store serial: [19121051]
