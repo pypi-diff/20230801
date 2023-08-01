@@ -15206,3 +15206,80 @@
 [2023-08-01 09:02:41] INFO root fetch - processPackages [colossalai]: Remove: archive file [/home/abi/fetcher/tmp/colossalai-0.3.1.tar.gz]
 [2023-08-01 09:02:41] INFO root fetch - main [MainThread]: End processing [colossalai]: success
 [2023-08-01 09:02:41] INFO root fetch - main [MainThread]: Store serial: [19119742]
+[2023-08-01 09:07:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119742]
+[2023-08-01 09:07:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: responsibleai-vision
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eventix
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-snowflake
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FunID
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frontengine-dev
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-sql-explorer-squad
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yvesCMD
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: collective.documentgenerator
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-hub-nightly
+[2023-08-01 09:07:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: budgetinvoice-pip
+[2023-08-01 09:07:50] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 09:07:50] INFO root fetch - processPackages [responsibleai-vision]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 09:07:50] INFO root fetch - processPackages [django-sql-explorer-squad]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 09:07:50] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-08-01 09:07:50] INFO root fetch - processPackages [collective.documentgenerator]: New version: [3.9] Old Version: [3.8]
+[2023-08-01 09:07:50] INFO root fetch - processPackages [eventix]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 09:07:50] ERROR root fetch - processPackages [llama-snowflake]: Unable to get metadata: No such project 'llama-snowflake'
+[2023-08-01 09:07:50] INFO root fetch - main [MainThread]: End processing [llama-snowflake] error
+[2023-08-01 09:07:50] INFO root fetch - processPackages [yvesCMD]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 09:07:50] WARNING root fetch - processPackages [budgetinvoice-pip]: Skipping, unable to determine old version
+[2023-08-01 09:07:50] INFO root fetch - main [MainThread]: End processing [budgetinvoice-pip] error
+[2023-08-01 09:07:50] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-08-01 09:07:50] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/60/e3/dfbc45d79cf31c56a7ea080e03997833ef4156e2e9c6468fccc7dd9c6825/eventix-0.9.0.tar.gz
+[2023-08-01 09:07:50] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-08-01 09:07:50] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/20/4f/e77b9692433a7be3edec503450ef5402ef62a9f4ec20ee5c4b9d1bb4a97a/yvesCMD-0.1.1.tar.gz
+[2023-08-01 09:07:50] INFO root fetch - processPackages [collective.documentgenerator]: Downloading https://files.pythonhosted.org/packages/85/86/0c7ba787757126896ce1ab74985456d1eac4b14613da82599f9afd474556/collective.documentgenerator-3.8.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [responsibleai-vision]: Downloading https://files.pythonhosted.org/packages/9e/a4/49eaf5377f533e24707e598f5718e2683941d11640998f66b99f292f573a/responsibleai_vision-0.2.3.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/90/c7/9142ff58231887983b889980e68ebde5a91a43d71727afe94695068ddc43/django_sql_explorer_squad-0.9.8-py3-none-any.whl
+[2023-08-01 09:07:51] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/e7/4b/3df1b8f7d72250a5b9b7f4a94bb094bd00c5f1092e89e5a6bef1198e957e/eventix-0.9.1.tar.gz
+[2023-08-01 09:07:51] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-08-01 09:07:51] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-08-01 09:07:51] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-08-01 09:07:51] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.9.0.tar.gz tmp/eventix-0.9.1.tar.gz --markdown 20230801/e/eventix/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 09:07:51] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/ea/30/3461837afaf1c07b6bd9fe7ad3c932cac864952f87e56949cf2747b7d733/yvesCMD-0.1.2.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-08-01 09:07:51] INFO root fetch - processPackages [responsibleai-vision]: Downloading https://files.pythonhosted.org/packages/d9/75/58aea17f5514c597eb56177a0d17a864a891198c3fa0e3377cd66cf10589/responsibleai_vision-0.2.4.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [collective.documentgenerator]: Downloading https://files.pythonhosted.org/packages/3d/14/85ecccbae2e98b59c2e8853c0cf072fc817d077963c12053f6def0522469/collective.documentgenerator-3.9.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-08-01 09:07:51] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 09:07:51] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.1.1.tar.gz tmp/yvesCMD-0.1.2.tar.gz --markdown 20230801/y/yvesCMD/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 09:07:51] INFO root fetch - processPackages [django-sql-explorer-squad]: Downloading https://files.pythonhosted.org/packages/b7/2e/491e0b57bd65f72b320cc98089151b4abdf96aba414e327989a386dca1f2/django_sql_explorer_squad-0.9.9-py3-none-any.whl
+[2023-08-01 09:07:51] INFO root fetch - processPackages [responsibleai-vision]: executing diffoscope
+[2023-08-01 09:07:51] INFO root fetch - processPackages [responsibleai-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsibleai_vision-0.2.3.tar.gz tmp/responsibleai_vision-0.2.4.tar.gz --markdown 20230801/r/responsibleai-vision/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 09:07:51] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-08-01 09:07:51] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230801/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-08-01 09:07:51] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-08-01 09:07:51] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230801/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:07:51] INFO root fetch - processPackages [collective.documentgenerator]: executing diffoscope
+[2023-08-01 09:07:51] INFO root fetch - processPackages [collective.documentgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.documentgenerator-3.8.tar.gz tmp/collective.documentgenerator-3.9.tar.gz --markdown 20230801/c/collective.documentgenerator/3.8-3.9/diff.md --exclude *.pyd
+[2023-08-01 09:07:51] INFO root fetch - processPackages [django-sql-explorer-squad]: executing diffoscope
+[2023-08-01 09:07:51] INFO root fetch - processPackages [django-sql-explorer-squad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip --markdown 20230801/d/django-sql-explorer-squad/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 09:07:52] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.1.1.tar.gz]
+[2023-08-01 09:07:52] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.1.2.tar.gz]
+[2023-08-01 09:07:52] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 09:07:53] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.9.0.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.9.1.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-08-01 09:07:53] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-08-01 09:07:53] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-08-01 09:07:53] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-08-01 09:07:53] INFO root fetch - processPackages [responsibleai-vision]: Remove: archive file [/home/abi/fetcher/tmp/responsibleai_vision-0.2.3.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - processPackages [responsibleai-vision]: Remove: archive file [/home/abi/fetcher/tmp/responsibleai_vision-0.2.4.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - main [MainThread]: End processing [responsibleai-vision]: success
+[2023-08-01 09:07:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-08-01 09:07:53] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.8-py3-none-any.whl.zip]
+[2023-08-01 09:07:53] INFO root fetch - processPackages [django-sql-explorer-squad]: Remove: archive file [/home/abi/fetcher/tmp/django_sql_explorer_squad-0.9.9-py3-none-any.whl.zip]
+[2023-08-01 09:07:53] INFO root fetch - main [MainThread]: End processing [django-sql-explorer-squad]: success
+[2023-08-01 09:07:53] INFO root fetch - processPackages [collective.documentgenerator]: Remove: archive file [/home/abi/fetcher/tmp/collective.documentgenerator-3.8.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - processPackages [collective.documentgenerator]: Remove: archive file [/home/abi/fetcher/tmp/collective.documentgenerator-3.9.tar.gz]
+[2023-08-01 09:07:53] INFO root fetch - main [MainThread]: End processing [collective.documentgenerator]: success
+[2023-08-01 09:07:53] INFO root fetch - main [MainThread]: Store serial: [19119781]
