@@ -4308,3 +4308,72 @@
 [2023-08-01 02:43:11] INFO root fetch - processPackages [cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/cdk-github-0.0.9.tar.gz]
 [2023-08-01 02:43:11] INFO root fetch - main [MainThread]: End processing [cdk-github]: success
 [2023-08-01 02:43:11] INFO root fetch - main [MainThread]: Store serial: [19115460]
+[2023-08-01 02:48:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19115460]
+[2023-08-01 02:48:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-repo-client
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: damo
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minto
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-dotenv-vault
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-artifacts-parser
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deeplogs
+[2023-08-01 02:48:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gdocsync
+[2023-08-01 02:48:20] INFO root fetch - processPackages [dbt-artifacts-parser]: New version: [0.4.0rc1] Old Version: [0.4.0]
+[2023-08-01 02:48:20] INFO root fetch - processPackages [minto]: New version: [0.6.0rc1] Old Version: [0.6.0]
+[2023-08-01 02:48:20] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.506.0]
+[2023-08-01 02:48:20] INFO root fetch - processPackages [python-dotenv-vault]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-01 02:48:20] WARNING root fetch - processPackages [deeplogs]: Skipping, unable to determine old version
+[2023-08-01 02:48:20] INFO root fetch - main [MainThread]: End processing [deeplogs] error
+[2023-08-01 02:48:20] INFO root fetch - processPackages [damo]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-01 02:48:20] INFO root fetch - processPackages [pih]: New version: [1.47209] Old Version: [1.47208]
+[2023-08-01 02:48:20] INFO root fetch - processPackages [gdocsync]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-01 02:48:20] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/03/69/e3b868c740d0279dfba8f31fc066d96e8f3e7e0ef69372e406887af63c24/pih-1.47208.tar.gz
+[2023-08-01 02:48:20] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/34/bb/0f2263d49d23bb172d326ffd24c4374ee4cb81aaf9a731f5f2f6d4574b6f/dbt_artifacts_parser-0.4.0.tar.gz
+[2023-08-01 02:48:20] INFO root fetch - processPackages [minto]: Downloading https://files.pythonhosted.org/packages/8f/82/d55a6d226e63a3f7434ed5dd706b3b6e70a035b96e32eba76ea76947b73e/minto-0.6.0.tar.gz
+[2023-08-01 02:48:20] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/31/79/bef1e4b96dd079c1ae662d33110ba5abac3fd03374f6c9941bce37a048ee/data-repo-client-1.506.0.tar.gz
+[2023-08-01 02:48:20] INFO root fetch - processPackages [python-dotenv-vault]: Downloading https://files.pythonhosted.org/packages/7c/67/17aa3c416af4e5d262c9477c19621586fb9008cc2f090a2f9d7cf1d3da7c/python-dotenv-vault-0.6.0.tar.gz
+[2023-08-01 02:48:20] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/b0/82/775f03b2783b72f80ad2d4c07a1cc3cb6099e4c6a0199b202ef95ccfe9bf/damo-1.9.1.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/24/bc/53f6d01e6df1e56341e14e4f23092fd8ec90f03412ed070991301dbeec5a/gdocsync-0.0.6.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [dbt-artifacts-parser]: Downloading https://files.pythonhosted.org/packages/a4/4c/c6debdd6360928295d20d54d1a84237ec9b7d33ae1d957d755a05b6b33a8/dbt_artifacts_parser-0.4.0rc1.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [minto]: Downloading https://files.pythonhosted.org/packages/c8/82/99a81166a6bb016f8377bbcd4bc39a82e77fdccc25e8bfdc1de73ffe06a9/minto-0.6.0rc1.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/a4/fb/a481e0afde6e395867027d81b2e096a28aca73ac0abed0b4657d0f714a56/pih-1.47209.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [python-dotenv-vault]: Downloading https://files.pythonhosted.org/packages/e0/f7/59683f18baaa53495e4f589121e9e7eefacc86ef171faeec4e688bfcdd80/python-dotenv-vault-0.6.1.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/b1/78/25376eb6c719623b549168949d2a7e76f9302b2ca49e8bb6695685e28080/damo-1.9.2.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [gdocsync]: Downloading https://files.pythonhosted.org/packages/af/ce/a0c8f70dc9e908c9dc96d4a59933c68b6c23ebad5d91d4a8fa3a3769aeab/gdocsync-0.0.7.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-08-01 02:48:21] INFO root fetch - processPackages [python-dotenv-vault]: executing diffoscope
+[2023-08-01 02:48:21] INFO root fetch - processPackages [python-dotenv-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dotenv-vault-0.6.0.tar.gz tmp/python-dotenv-vault-0.6.1.tar.gz --markdown 20230801/p/python-dotenv-vault/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-01 02:48:21] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 02:48:21] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.47208.tar.gz tmp/pih-1.47209.tar.gz --markdown 20230801/p/pih/1.47208-1.47209/diff.md --exclude *.pyd
+[2023-08-01 02:48:21] INFO root fetch - processPackages [damo]: executing diffoscope
+[2023-08-01 02:48:21] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-1.9.1.tar.gz tmp/damo-1.9.2.tar.gz --markdown 20230801/d/damo/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-01 02:48:21] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-08-01 02:48:21] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.506.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230801/d/data-repo-client/1.506.0-1.64.0/diff.md --exclude *.pyd
+[2023-08-01 02:48:21] INFO root fetch - processPackages [dbt-artifacts-parser]: executing diffoscope
+[2023-08-01 02:48:21] INFO root fetch - processPackages [dbt-artifacts-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_artifacts_parser-0.4.0.tar.gz tmp/dbt_artifacts_parser-0.4.0rc1.tar.gz --markdown 20230801/d/dbt-artifacts-parser/0.4.0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-08-01 02:48:21] INFO root fetch - processPackages [gdocsync]: executing diffoscope
+[2023-08-01 02:48:21] INFO root fetch - processPackages [gdocsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdocsync-0.0.6.tar.gz tmp/gdocsync-0.0.7.tar.gz --markdown 20230801/g/gdocsync/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-01 02:48:22] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.6.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - processPackages [gdocsync]: Remove: archive file [/home/abi/fetcher/tmp/gdocsync-0.0.7.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - main [MainThread]: End processing [gdocsync]: success
+[2023-08-01 02:48:22] INFO root fetch - processPackages [python-dotenv-vault]: Remove: archive file [/home/abi/fetcher/tmp/python-dotenv-vault-0.6.0.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - processPackages [python-dotenv-vault]: Remove: archive file [/home/abi/fetcher/tmp/python-dotenv-vault-0.6.1.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - main [MainThread]: End processing [python-dotenv-vault]: success
+[2023-08-01 02:48:22] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-1.9.1.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-1.9.2.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2023-08-01 02:48:22] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47208.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47209.tar.gz]
+[2023-08-01 02:48:22] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 02:48:23] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.4.0.tar.gz]
+[2023-08-01 02:48:23] INFO root fetch - processPackages [dbt-artifacts-parser]: Remove: archive file [/home/abi/fetcher/tmp/dbt_artifacts_parser-0.4.0rc1.tar.gz]
+[2023-08-01 02:48:23] INFO root fetch - main [MainThread]: End processing [dbt-artifacts-parser]: success
+[2023-08-01 02:48:23] INFO root fetch - processPackages [minto]: executing diffoscope
+[2023-08-01 02:48:23] INFO root fetch - processPackages [minto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minto-0.6.0.tar.gz tmp/minto-0.6.0rc1.tar.gz --markdown 20230801/m/minto/0.6.0-0.6.0rc1/diff.md --exclude *.pyd
+[2023-08-01 02:48:23] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.506.0.tar.gz]
+[2023-08-01 02:48:23] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.64.0.tar.gz]
+[2023-08-01 02:48:23] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-08-01 02:48:29] INFO root fetch - processPackages [minto]: Remove: archive file [/home/abi/fetcher/tmp/minto-0.6.0.tar.gz]
+[2023-08-01 02:48:29] INFO root fetch - processPackages [minto]: Remove: archive file [/home/abi/fetcher/tmp/minto-0.6.0rc1.tar.gz]
+[2023-08-01 02:48:29] INFO root fetch - main [MainThread]: End processing [minto]: success
+[2023-08-01 02:48:29] INFO root fetch - main [MainThread]: Store serial: [19115485]
