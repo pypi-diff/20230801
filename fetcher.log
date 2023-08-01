@@ -12487,3 +12487,105 @@
 [2023-08-01 06:19:46] INFO root fetch - processPackages [qlmaas]: Remove: archive file [/home/abi/fetcher/tmp/qlmaas-1.9.1-cp39-cp39-win_amd64.whl.zip]
 [2023-08-01 06:19:46] INFO root fetch - main [MainThread]: End processing [qlmaas]: success
 [2023-08-01 06:19:46] INFO root fetch - main [MainThread]: Store serial: [19118487]
+[2023-08-01 06:24:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118487]
+[2023-08-01 06:24:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-document-status
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bmsdna-lakeapi
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgvector
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-dx
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dalpha
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-dx-review
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qat-variational
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-es-aeat-mod303-oss
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2023-08-01 06:24:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edc-egfr
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-document-status]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [qat-variational]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [dalpha]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-dx-review]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-dx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [pgvector]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [bmsdna-lakeapi]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-egfr]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.951386407.dev12582] Old Version: [0.2.950114343.dev12542]
+[2023-08-01 06:24:55] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/30/97/1247a81c07f22adae3aefb39a4a3b05b4f42bc3a1ee3d5d6b70ef1f952c6/bmsdna_lakeapi-0.9.6.tar.gz
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-document-status]: Downloading https://files.pythonhosted.org/packages/b3/e6/2828d830affec08d99934bdfee1f29ad0a91dbb0c5fc4bbfb8acdb027119/edc-document-status-0.1.4.tar.gz
+[2023-08-01 06:24:55] INFO root fetch - processPackages [qat-variational]: Downloading https://files.pythonhosted.org/packages/38/aa/188cb044626c9666e05fe1eac748ddae5265571423bfcec87f7e62af5daf/qat_variational-1.4.0-cp39-cp39-win_amd64.whl
+[2023-08-01 06:24:55] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Downloading https://files.pythonhosted.org/packages/03/07/40040f168764a60b6382018b4e9ba5b8e949c213aaf5c5c3f745f6047d59/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-01 06:24:55] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/1b/50/1742fcce189bf18abc0df40f147b10b33e57ffc41235a3734e4d4216e1d0/dalpha-0.1.3.tar.gz
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/69/01/0c6c3cc37e99c1cd81390e34f896cf8c16535535a3741c0bf0e6d4612f6f/edc_dx_review-0.1.8-py3-none-any.whl
+[2023-08-01 06:24:55] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/36/b1/c4142135d7da62e1cafa0662fe4ee7c1409eb4de8b5f5aafa9a575eb3600/quickstart-vdk-0.2.950114343.dev12542.tar.gz
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-dx]: Downloading https://files.pythonhosted.org/packages/68/c0/edc698e2d32e05844560fb0783b9a30821ac88a0a52c9585e771c70f08a3/edc-dx-0.1.8.tar.gz
+[2023-08-01 06:24:55] INFO root fetch - processPackages [edc-egfr]: Downloading https://files.pythonhosted.org/packages/eb/c3/2f1f0251027470041bb6c75392f6fc6ebcc0eaa5c2dce683194ff2f9571d/edc-egfr-0.1.8.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [pgvector]: Downloading https://files.pythonhosted.org/packages/f9/6d/bd3546a11b469ab202da872d7220a37fbb3bb69358eaa65f6af7dd58abb7/pgvector-0.2.0-py2.py3-none-any.whl
+[2023-08-01 06:24:56] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Downloading https://files.pythonhosted.org/packages/98/4e/29531d02d831529db9d9977c986f9b678346789f8e9e42969388c343b940/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-document-status]: Downloading https://files.pythonhosted.org/packages/19/57/4102e5e8067d243c7a708f23c4f949dc37d46c42b84c01357499ea6eb02d/edc-document-status-0.1.5.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [bmsdna-lakeapi]: Downloading https://files.pythonhosted.org/packages/73/d2/49277a33825c2fbbed400dec012e2410e757f6a5c7ba04608709388615b1/bmsdna_lakeapi-0.9.7.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [dalpha]: Downloading https://files.pythonhosted.org/packages/43/d5/1d060cd658ff78c30a47811a0fcbf278568276bc9c3871fe6cae7694f0ae/dalpha-0.1.4.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-dx-review]: Downloading https://files.pythonhosted.org/packages/34/b6/a1fd2c0bce4a670e7d0f1d45e76bb15a5d7eeef8f1bf25e0b2c3b6258107/edc-dx-review-0.1.9.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [pgvector]: Downloading https://files.pythonhosted.org/packages/d2/73/b6548abffb284b2cf3e8281b6df84e57e96f1e066277417a57bf7d7917db/pgvector-0.2.1-py2.py3-none-any.whl
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-dx]: Downloading https://files.pythonhosted.org/packages/a0/87/5a42918cb811af1101d0b9aea1d7e5a950e2e2a4686a60ffa5aa4afba98a/edc-dx-0.1.9.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/13/8b/7f81f496c68c0b88c5a3b1a2f6573408ca1d16d30e208f811f2e73a7b070/quickstart-vdk-0.2.951386407.dev12582.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-l10n-es-aeat-mod303-oss/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-document-status]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-document-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-document-status-0.1.4.tar.gz tmp/edc-document-status-0.1.5.tar.gz --markdown 20230801/e/edc-document-status/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-egfr]: Downloading https://files.pythonhosted.org/packages/9e/83/2d1b993cb9b027886dc4327f5ae157cbcf7b30260e8901ca2cf5264323c1/edc-egfr-0.1.9.tar.gz
+[2023-08-01 06:24:56] INFO root fetch - processPackages [bmsdna-lakeapi]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [bmsdna-lakeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmsdna_lakeapi-0.9.6.tar.gz tmp/bmsdna_lakeapi-0.9.7.tar.gz --markdown 20230801/b/bmsdna-lakeapi/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [qat-variational]: Downloading https://files.pythonhosted.org/packages/af/c5/aca2ff43c25811b41e49d2aa26cd3afdda02b9b53f1c5c9531afa42b3053/qat_variational-1.4.1-cp39-cp39-win_amd64.whl
+[2023-08-01 06:24:56] INFO root fetch - processPackages [dalpha]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [dalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalpha-0.1.3.tar.gz tmp/dalpha-0.1.4.tar.gz --markdown 20230801/d/dalpha/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [pgvector]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [pgvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgvector-0.2.0-py2.py3-none-any.whl.zip tmp/pgvector-0.2.1-py2.py3-none-any.whl.zip --markdown 20230801/p/pgvector/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-dx-review]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-dx-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip tmp/edc-dx-review-0.1.9.tar.gz --markdown 20230801/e/edc-dx-review/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-egfr]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-egfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-egfr-0.1.8.tar.gz tmp/edc-egfr-0.1.9.tar.gz --markdown 20230801/e/edc-egfr/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-dx]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [edc-dx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-dx-0.1.8.tar.gz tmp/edc-dx-0.1.9.tar.gz --markdown 20230801/e/edc-dx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 06:24:56] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-01 06:24:56] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.950114343.dev12542.tar.gz tmp/quickstart-vdk-0.2.951386407.dev12582.tar.gz --markdown 20230801/q/quickstart-vdk/0.2.950114343.dev12542-0.2.951386407.dev12582/diff.md --exclude *.pyd
+[2023-08-01 06:24:57] INFO root fetch - processPackages [qat-variational]: executing diffoscope
+[2023-08-01 06:24:57] INFO root fetch - processPackages [qat-variational]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat_variational-1.4.0-cp39-cp39-win_amd64.whl.zip tmp/qat_variational-1.4.1-cp39-cp39-win_amd64.whl.zip --markdown 20230801/q/qat-variational/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-01 06:24:58] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Start processing: flask-shopify-utils
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303-oss]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.3.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [dalpha]: Remove: archive file [/home/abi/fetcher/tmp/dalpha-0.1.4.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [dalpha]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [flask-shopify-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.950114343.dev12542.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.951386407.dev12582.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-document-status]: Remove: archive file [/home/abi/fetcher/tmp/edc-document-status-0.1.4.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-document-status]: Remove: archive file [/home/abi/fetcher/tmp/edc-document-status-0.1.5.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [edc-document-status]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.6.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [bmsdna-lakeapi]: Remove: archive file [/home/abi/fetcher/tmp/bmsdna_lakeapi-0.9.7.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/b0/81/331fd28b6b8482cfa5f8d2134bc271fdea6084d58d978b0af9adc6d4b192/flask_shopify_utils-0.0.8.tar.gz
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [bmsdna-lakeapi]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [qat-variational]: Remove: archive file [/home/abi/fetcher/tmp/qat_variational-1.4.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [qat-variational]: Remove: archive file [/home/abi/fetcher/tmp/qat_variational-1.4.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [qat-variational]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-dx]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-0.1.8.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-dx]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-0.1.9.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [edc-dx]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-dx-review]: Remove: archive file [/home/abi/fetcher/tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-dx-review]: Remove: archive file [/home/abi/fetcher/tmp/edc-dx-review-0.1.9.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [edc-dx-review]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-egfr]: Remove: archive file [/home/abi/fetcher/tmp/edc-egfr-0.1.8.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [edc-egfr]: Remove: archive file [/home/abi/fetcher/tmp/edc-egfr-0.1.9.tar.gz]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [edc-egfr]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [pgvector]: Remove: archive file [/home/abi/fetcher/tmp/pgvector-0.2.0-py2.py3-none-any.whl.zip]
+[2023-08-01 06:24:58] INFO root fetch - processPackages [pgvector]: Remove: archive file [/home/abi/fetcher/tmp/pgvector-0.2.1-py2.py3-none-any.whl.zip]
+[2023-08-01 06:24:58] INFO root fetch - main [MainThread]: End processing [pgvector]: success
+[2023-08-01 06:24:58] INFO root fetch - processPackages [flask-shopify-utils]: Downloading https://files.pythonhosted.org/packages/33/01/22b1c22bd77e8b998758268fad09ac4daaa0fe6e0c3911362453fa44b5d0/flask_shopify_utils-0.0.9.tar.gz
+[2023-08-01 06:24:58] INFO root fetch - processPackages [flask-shopify-utils]: executing diffoscope
+[2023-08-01 06:24:58] INFO root fetch - processPackages [flask-shopify-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_shopify_utils-0.0.8.tar.gz tmp/flask_shopify_utils-0.0.9.tar.gz --markdown 20230801/f/flask-shopify-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 06:24:59] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.8.tar.gz]
+[2023-08-01 06:24:59] INFO root fetch - processPackages [flask-shopify-utils]: Remove: archive file [/home/abi/fetcher/tmp/flask_shopify_utils-0.0.9.tar.gz]
+[2023-08-01 06:24:59] INFO root fetch - main [MainThread]: End processing [flask-shopify-utils]: success
+[2023-08-01 06:24:59] INFO root fetch - main [MainThread]: Store serial: [19118532]
