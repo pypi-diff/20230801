@@ -19054,3 +19054,156 @@
 [2023-08-01 11:47:31] ERROR root fetch - processPackages [mastapy]: Timeout during execution of pkgdiff
 [2023-08-01 11:47:31] INFO root fetch - main [MainThread]: End processing [mastapy] error
 [2023-08-01 11:47:31] INFO root fetch - main [MainThread]: Store serial: [19121599]
+[2023-08-01 11:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121599]
+[2023-08-01 11:52:40] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Gbtestapi0.1
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kimariplot
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: camino-data-amundsen-databuilder
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiocomfoconnect
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: harborapi
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gwdg-idm-api
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sherlockpipe
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: KitronikPicoSmartAirQuality
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BrainLes-HD-BET
+[2023-08-01 11:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: st-track-viewer
+[2023-08-01 11:52:40] INFO root fetch - processPackages [st-track-viewer]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [aiocomfoconnect]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-01 11:52:40] WARNING root fetch - processPackages [BrainLes-HD-BET]: Skipping, unable to determine old version
+[2023-08-01 11:52:40] INFO root fetch - processPackages [BrainLes-HD-BET]: Start processing: news-toolkit-api
+[2023-08-01 11:52:40] INFO root fetch - main [MainThread]: End processing [BrainLes-HD-BET] error
+[2023-08-01 11:52:40] WARNING root fetch - processPackages [Gbtestapi0.1]: Skipping, unable to determine old version
+[2023-08-01 11:52:40] INFO root fetch - processPackages [Gbtestapi0.1]: Start processing: MyOverlay
+[2023-08-01 11:52:40] INFO root fetch - main [MainThread]: End processing [Gbtestapi0.1] error
+[2023-08-01 11:52:40] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [MyOverlay]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [gwdg-idm-api]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [kimariplot]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [harborapi]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [sherlockpipe]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-01 11:52:40] ERROR root fetch - processPackages [camino-data-amundsen-databuilder]: Unable to get metadata: No such project 'camino-data-amundsen-databuilder'
+[2023-08-01 11:52:40] INFO root fetch - processPackages [camino-data-amundsen-databuilder]: Start processing: icepapcms
+[2023-08-01 11:52:40] INFO root fetch - main [MainThread]: End processing [camino-data-amundsen-databuilder] error
+[2023-08-01 11:52:40] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [icepapcms]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-08-01 11:52:40] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/06/27/aef8655359de0a98e0b817582fc1af8ffd29e6b4451397a91cee12da45f0/st_track_viewer-0.0.5.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/b1/83/7bc6fd5ebe3f57c1ee4bd8327f08f6b89f549ba85a5de69a2118233a1558/kimariplot-1.1.4.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [aiocomfoconnect]: Downloading https://files.pythonhosted.org/packages/47/dc/25d7152e88826bab4ad50d5c8abefe3c44b68bd12999a22513d75fb91ddd/aiocomfoconnect-0.1.7.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/63/be/5e4c57589bb88ef7609492cb78c6b50228f4eac91c861a715537d2bc1e6f/MyOverlay-0.1.4.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/5c/2a/58d6ecd57c3d1b448b9dc47dc94b6192a2d2a954d42fc450e4d4e9ac2017/harborapi-0.8.6.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Downloading https://files.pythonhosted.org/packages/ce/30/bc1722696c301b6eca39dbc98d27f7545d7c819071a4c490987f2e535091/KitronikPicoSmartAirQuality-1.0.1.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [icepapcms]: Downloading https://files.pythonhosted.org/packages/3c/d7/7ca36a0de6b8d01943251888bb5595046421796a2f34d6c64514d0d95690/icepapcms-3.4.1.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [gwdg-idm-api]: Downloading https://files.pythonhosted.org/packages/c7/c7/44650ccca08e7012f03b6995184048b3e52dd00d0d90a7ffef09339d884d/gwdg_idm_api-2.2.1.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/46/3f/013fa1d25538474036ba7d400e78b06a89cd003c01a6c3f3e0a0aaa4a42a/sherlockpipe-0.9.6.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [st-track-viewer]: Downloading https://files.pythonhosted.org/packages/a9/4c/0acb93c048bc437e670540f69595693b35955d112470518b847b5e70706d/st_track_viewer-0.0.6.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/bc/f0/9cb686358522faef0dd1e5a941aed55f0682bf26a5b520648564a772e17e/kimariplot-1.2.0.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [aiocomfoconnect]: Downloading https://files.pythonhosted.org/packages/6a/18/4d6300778b3b7a9aef3619475b9527c0452a135e00a4c44a998bf73a2e2f/aiocomfoconnect-0.1.8.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/4e/55/4ff20c070627d5ad909034359490160f58d08bc46b83eb77933331955378/MyOverlay-0.1.5.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [gwdg-idm-api]: Downloading https://files.pythonhosted.org/packages/fb/a8/04dcbea9a37fe388bef765cc31e54745d41bd67d1f4c94c5f255638a3382/gwdg_idm_api-2.2.2.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [st-track-viewer]: executing diffoscope
+[2023-08-01 11:52:41] INFO root fetch - processPackages [st-track-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_track_viewer-0.0.5.tar.gz tmp/st_track_viewer-0.0.6.tar.gz --markdown 20230801/s/st-track-viewer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-01 11:52:41] INFO root fetch - processPackages [kimariplot]: executing diffoscope
+[2023-08-01 11:52:41] INFO root fetch - processPackages [kimariplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariplot-1.1.4.tar.gz tmp/kimariplot-1.2.0.tar.gz --markdown 20230801/k/kimariplot/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-08-01 11:52:41] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Downloading https://files.pythonhosted.org/packages/fc/99/1a63251f2de1e90965e187ac433cffef2d6bba3d715686f1df9c858901ce/KitronikPicoSmartAirQuality-1.0.2.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [aiocomfoconnect]: executing diffoscope
+[2023-08-01 11:52:41] INFO root fetch - processPackages [aiocomfoconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocomfoconnect-0.1.7.tar.gz tmp/aiocomfoconnect-0.1.8.tar.gz --markdown 20230801/a/aiocomfoconnect/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-01 11:52:41] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-01 11:52:41] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.1.4.tar.gz tmp/MyOverlay-0.1.5.tar.gz --markdown 20230801/M/MyOverlay/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-01 11:52:41] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-01 11:52:41] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230801/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 11:52:41] INFO root fetch - processPackages [gwdg-idm-api]: executing diffoscope
+[2023-08-01 11:52:41] INFO root fetch - processPackages [gwdg-idm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdg_idm_api-2.2.1.tar.gz tmp/gwdg_idm_api-2.2.2.tar.gz --markdown 20230801/g/gwdg-idm-api/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-08-01 11:52:41] INFO root fetch - processPackages [harborapi]: Downloading https://files.pythonhosted.org/packages/27/2c/7ea076b0aa166efe412bad3f442cd6278d311f903fcb51e89039fee40d71/harborapi-0.9.0.tar.gz
+[2023-08-01 11:52:41] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: executing diffoscope
+[2023-08-01 11:52:41] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KitronikPicoSmartAirQuality-1.0.1.tar.gz tmp/KitronikPicoSmartAirQuality-1.0.2.tar.gz --markdown 20230801/K/KitronikPicoSmartAirQuality/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-01 11:52:41] INFO root fetch - processPackages [sherlockpipe]: Downloading https://files.pythonhosted.org/packages/04/d1/dcaf4b4f6fadabc4d5e9dbfb757378dbf810235e486f3eae3c57c7e6f88f/sherlockpipe-0.9.7.tar.gz
+[2023-08-01 11:52:42] INFO root fetch - processPackages [sherlockpipe]: executing diffoscope
+[2023-08-01 11:52:42] INFO root fetch - processPackages [sherlockpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sherlockpipe-0.9.6.tar.gz tmp/sherlockpipe-0.9.7.tar.gz --markdown 20230801/s/sherlockpipe/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-01 11:52:42] INFO root fetch - processPackages [harborapi]: executing diffoscope
+[2023-08-01 11:52:42] INFO root fetch - processPackages [harborapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harborapi-0.8.6.tar.gz tmp/harborapi-0.9.0.tar.gz --markdown 20230801/h/harborapi/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 11:52:43] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.4.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.5.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [MyOverlay]: Start processing: comandor
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-01 11:52:43] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Remove: archive file [/home/abi/fetcher/tmp/KitronikPicoSmartAirQuality-1.0.1.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Remove: archive file [/home/abi/fetcher/tmp/KitronikPicoSmartAirQuality-1.0.2.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [KitronikPicoSmartAirQuality]: Start processing: Gbtestapi0.2
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [KitronikPicoSmartAirQuality]: success
+[2023-08-01 11:52:43] INFO root fetch - processPackages [comandor]: New version: [0.4.1] Old Version: [0.2.9]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [news-toolkit-api]: Start processing: AndroidTools
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-01 11:52:43] WARNING root fetch - processPackages [Gbtestapi0.2]: Skipping, unable to determine old version
+[2023-08-01 11:52:43] INFO root fetch - processPackages [Gbtestapi0.2]: Start processing: coar-notify-validator
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [Gbtestapi0.2] error
+[2023-08-01 11:52:43] INFO root fetch - processPackages [AndroidTools]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.1.4.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [coar-notify-validator]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.0.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [kimariplot]: Start processing: libvirt-python
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [kimariplot]: success
+[2023-08-01 11:52:43] INFO root fetch - processPackages [aiocomfoconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiocomfoconnect-0.1.7.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [aiocomfoconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiocomfoconnect-0.1.8.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [aiocomfoconnect]: Start processing: b-aws-testing-framework
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [aiocomfoconnect]: success
+[2023-08-01 11:52:43] INFO root fetch - processPackages [gwdg-idm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwdg_idm_api-2.2.1.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [gwdg-idm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwdg_idm_api-2.2.2.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [gwdg-idm-api]: Start processing: waba360
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [gwdg-idm-api]: success
+[2023-08-01 11:52:43] INFO root fetch - processPackages [libvirt-python]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/19/b1/c3b4aae3cb9de736a54eaadee277299fc62759924a57ad979d4e60b977b3/AndroidTools-0.0.6.tar.gz
+[2023-08-01 11:52:43] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.6.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [sherlockpipe]: Remove: archive file [/home/abi/fetcher/tmp/sherlockpipe-0.9.7.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [sherlockpipe]: success
+[2023-08-01 11:52:43] INFO root fetch - processPackages [comandor]: Downloading https://files.pythonhosted.org/packages/33/d1/29fc395e3999ca23c18500bcad09f7e8fafcc90a41e271c7e1c25fafc4a5/comandor-0.2.9.tar.gz
+[2023-08-01 11:52:43] INFO root fetch - processPackages [coar-notify-validator]: Downloading https://files.pythonhosted.org/packages/0b/42/b9c0eadd1be57e95e3bd864c9f586535c65b947f15fde29908dd9225bba3/coar_notify_validator-0.0.1.tar.gz
+[2023-08-01 11:52:43] WARNING root fetch - processPackages [waba360]: Skipping, unable to determine old version
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [waba360] error
+[2023-08-01 11:52:43] INFO root fetch - processPackages [b-aws-testing-framework]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/b0/8d/8a0e86d6c2f4f93f33146fc076b26acbdb943b1fdc2abed9fb1f770ddbba/libvirt-python-9.5.0.tar.gz
+[2023-08-01 11:52:43] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/ec/51/d1aaf0bc8439ec1dcfb26c3cff28468e0c139196be3937c797cb8a69ff54/AndroidTools-0.0.7.tar.gz
+[2023-08-01 11:52:43] INFO root fetch - processPackages [b-aws-testing-framework]: Downloading https://files.pythonhosted.org/packages/35/a2/abd2495c9aa48b5b69869325d4077b45516b87ecf5e0eea926ea7d5502dd/b_aws_testing_framework-0.6.0.tar.gz
+[2023-08-01 11:52:43] INFO root fetch - processPackages [comandor]: Downloading https://files.pythonhosted.org/packages/3c/b9/4a22a1e2138e051e93bac22fb7a6c49c3492a783b3b1d8a94799462ea8e6/comandor-0.4.1.tar.gz
+[2023-08-01 11:52:43] INFO root fetch - processPackages [AndroidTools]: executing diffoscope
+[2023-08-01 11:52:43] INFO root fetch - processPackages [AndroidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidTools-0.0.6.tar.gz tmp/AndroidTools-0.0.7.tar.gz --markdown 20230801/A/AndroidTools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-01 11:52:43] INFO root fetch - processPackages [coar-notify-validator]: Downloading https://files.pythonhosted.org/packages/95/10/e59c01b2e4f683d560fa0368a16274e6fd464d979030bcca9e1f7cec8fd6/coar_notify_validator-0.0.3.tar.gz
+[2023-08-01 11:52:43] INFO root fetch - processPackages [comandor]: executing diffoscope
+[2023-08-01 11:52:43] INFO root fetch - processPackages [comandor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comandor-0.2.9.tar.gz tmp/comandor-0.4.1.tar.gz --markdown 20230801/c/comandor/0.2.9-0.4.1/diff.md --exclude *.pyd
+[2023-08-01 11:52:43] INFO root fetch - processPackages [harborapi]: Remove: archive file [/home/abi/fetcher/tmp/harborapi-0.8.6.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - processPackages [harborapi]: Remove: archive file [/home/abi/fetcher/tmp/harborapi-0.9.0.tar.gz]
+[2023-08-01 11:52:43] INFO root fetch - main [MainThread]: End processing [harborapi]: success
+[2023-08-01 11:52:44] INFO root fetch - processPackages [coar-notify-validator]: executing diffoscope
+[2023-08-01 11:52:44] INFO root fetch - processPackages [coar-notify-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coar_notify_validator-0.0.1.tar.gz tmp/coar_notify_validator-0.0.3.tar.gz --markdown 20230801/c/coar-notify-validator/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 11:52:44] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/bb/1a/d1cf7c8b988cfbbfcc3d6fb1e4e2216690ff64453d3488c9c9e1dfa1e8e2/libvirt-python-9.6.0.tar.gz
+[2023-08-01 11:52:44] INFO root fetch - processPackages [b-aws-testing-framework]: Downloading https://files.pythonhosted.org/packages/d9/16/da9806a63b8158fb2380a435aac6d55e38fddacff5b7b8facdcd83a3c0d8/b_aws_testing_framework-1.0.0.tar.gz
+[2023-08-01 11:52:44] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.5.tar.gz]
+[2023-08-01 11:52:44] INFO root fetch - processPackages [st-track-viewer]: Remove: archive file [/home/abi/fetcher/tmp/st_track_viewer-0.0.6.tar.gz]
+[2023-08-01 11:52:44] INFO root fetch - main [MainThread]: End processing [st-track-viewer]: success
+[2023-08-01 11:52:44] INFO root fetch - processPackages [libvirt-python]: executing diffoscope
+[2023-08-01 11:52:44] INFO root fetch - processPackages [libvirt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt-python-9.5.0.tar.gz tmp/libvirt-python-9.6.0.tar.gz --markdown 20230801/l/libvirt-python/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-08-01 11:52:44] INFO root fetch - processPackages [b-aws-testing-framework]: executing diffoscope
+[2023-08-01 11:52:44] INFO root fetch - processPackages [b-aws-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_aws_testing_framework-0.6.0.tar.gz tmp/b_aws_testing_framework-1.0.0.tar.gz --markdown 20230801/b/b-aws-testing-framework/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 11:52:44] INFO root fetch - processPackages [icepapcms]: Downloading https://files.pythonhosted.org/packages/75/e7/881dbfe6f10c55f1ffab737fb1306a00abe9cf938e56817eb798f134c73c/icepapcms-3.4.2.tar.gz
+[2023-08-01 11:52:44] INFO root fetch - processPackages [icepapcms]: executing diffoscope
+[2023-08-01 11:52:44] INFO root fetch - processPackages [icepapcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icepapcms-3.4.1.tar.gz tmp/icepapcms-3.4.2.tar.gz --markdown 20230801/i/icepapcms/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-08-01 11:52:45] INFO root fetch - processPackages [coar-notify-validator]: Remove: archive file [/home/abi/fetcher/tmp/coar_notify_validator-0.0.1.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - processPackages [coar-notify-validator]: Remove: archive file [/home/abi/fetcher/tmp/coar_notify_validator-0.0.3.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - main [MainThread]: End processing [coar-notify-validator]: success
+[2023-08-01 11:52:45] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.6.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.7.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - main [MainThread]: End processing [AndroidTools]: success
+[2023-08-01 11:52:45] INFO root fetch - processPackages [comandor]: Remove: archive file [/home/abi/fetcher/tmp/comandor-0.2.9.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - processPackages [comandor]: Remove: archive file [/home/abi/fetcher/tmp/comandor-0.4.1.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - main [MainThread]: End processing [comandor]: success
+[2023-08-01 11:52:45] INFO root fetch - processPackages [b-aws-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/b_aws_testing_framework-0.6.0.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - processPackages [b-aws-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/b_aws_testing_framework-1.0.0.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - main [MainThread]: End processing [b-aws-testing-framework]: success
+[2023-08-01 11:52:45] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.5.0.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.6.0.tar.gz]
+[2023-08-01 11:52:45] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
+[2023-08-01 11:52:47] INFO root fetch - processPackages [icepapcms]: Remove: archive file [/home/abi/fetcher/tmp/icepapcms-3.4.1.tar.gz]
+[2023-08-01 11:52:47] INFO root fetch - processPackages [icepapcms]: Remove: archive file [/home/abi/fetcher/tmp/icepapcms-3.4.2.tar.gz]
+[2023-08-01 11:52:47] INFO root fetch - main [MainThread]: End processing [icepapcms]: success
+[2023-08-01 11:52:47] INFO root fetch - main [MainThread]: Store serial: [19121678]
