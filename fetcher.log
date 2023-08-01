@@ -10486,3 +10486,90 @@
 [2023-08-01 04:22:48] INFO root fetch - processPackages [ArducamEvkSDK]: Remove: archive file [/home/abi/fetcher/tmp/ArducamEvkSDK-0.0.6b0-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
 [2023-08-01 04:22:48] INFO root fetch - main [MainThread]: End processing [ArducamEvkSDK]: success
 [2023-08-01 04:22:48] INFO root fetch - main [MainThread]: Store serial: [19117596]
+[2023-08-01 04:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117596]
+[2023-08-01 04:27:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dicomset
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: malala-labs
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zuspec-arl-eval
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d20-communications
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tabb
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: junoplatform
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinject-design
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: napari-EMD
+[2023-08-01 04:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aliyun-python-sdk-adb
+[2023-08-01 04:28:00] INFO root fetch - processPackages [tabb]: New version: [0.4.2] Old Version: [0.3.3]
+[2023-08-01 04:28:00] WARNING root fetch - processPackages [napari-EMD]: Skipping, unable to determine old version
+[2023-08-01 04:28:00] INFO root fetch - main [MainThread]: End processing [napari-EMD] error
+[2023-08-01 04:28:00] INFO root fetch - processPackages [aliyun-python-sdk-adb]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [junoplatform]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [malala-labs]: New version: [0.2] Old Version: [0.1]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [d20-communications]: New version: [0.0.5a6] Old Version: [0.0.5a5]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [zuspec-arl-eval]: New version: [0.0.1.5721772890] Old Version: [0.0.1.5627571863]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [pih]: New version: [1.47214] Old Version: [1.47213]
+[2023-08-01 04:28:00] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/2d/5e/f9325b169c31379ad307c3c4eb305050dd990354866b014b3ee22a168f11/aliyun-python-sdk-adb-1.1.0.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/e0/3e/80e2e47adc0c730416f788f08c874e8e4e64861ff05777820677227fe8d2/junoplatform-0.0.8.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [d20-communications]: Downloading https://files.pythonhosted.org/packages/d4/39/56838eb44f466d58cc6b1de91d16867baeaf1ac7cfc172ca67c211dbd58a/d20-communications-0.0.5a5.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [tabb]: Downloading https://files.pythonhosted.org/packages/e3/61/684da10013778ff6d08227608ae663f3efbb7e1cc97e1235bdc6b678ebcf/tabb-0.3.3.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [malala-labs]: Downloading https://files.pythonhosted.org/packages/19/58/18b33b32333cc4cd75b6e418ac211a33c4098e6f970dbc8e323c41bb453e/malala_labs-0.1.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/11/38/66486b7a0c2da51cd7c21e18281288f7f626a07361d8adce193d0ce837d9/pih-1.47213.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/7a/47/006fc90424baa1387971fd93d1388b7212cd9ca70e6aa45e80cc333d6443/zuspec_arl_eval-0.0.1.5627571863-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-01 04:28:00] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Downloading https://files.pythonhosted.org/packages/bf/48/12038b3a08b26f102d5386c18badc2d9f40c4edd96a68e27582ef70d16b5/aliyun-python-sdk-adb-1.1.1.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [junoplatform]: Downloading https://files.pythonhosted.org/packages/ae/f3/fc4f81112dc6f9732e5ed85dc9ba9325ab6829e5ce6f1b3204f60b432423/junoplatform-0.0.9.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [d20-communications]: Downloading https://files.pythonhosted.org/packages/58/66/578e4ae9c62894454f995face2053ac467ee1eff77ca389e536f2f70397e/d20-communications-0.0.5a6.tar.gz
+[2023-08-01 04:28:00] INFO root fetch - processPackages [aliyun-python-sdk-adb]: executing diffoscope
+[2023-08-01 04:28:00] INFO root fetch - processPackages [aliyun-python-sdk-adb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-adb-1.1.0.tar.gz tmp/aliyun-python-sdk-adb-1.1.1.tar.gz --markdown 20230801/a/aliyun-python-sdk-adb/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-01 04:28:00] INFO root fetch - processPackages [junoplatform]: executing diffoscope
+[2023-08-01 04:28:00] INFO root fetch - processPackages [junoplatform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junoplatform-0.0.8.tar.gz tmp/junoplatform-0.0.9.tar.gz --markdown 20230801/j/junoplatform/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 04:28:01] INFO root fetch - processPackages [malala-labs]: Downloading https://files.pythonhosted.org/packages/d9/1e/0c490fe7d388e310692305ac27bb2d6ffc0fff928bd3dd895142799daaf7/malala_labs-0.2.tar.gz
+[2023-08-01 04:28:01] INFO root fetch - processPackages [tabb]: Downloading https://files.pythonhosted.org/packages/8b/e1/4a51aacb99fdfe76009c62ef4928db6eecdfb4794e3fef0f12b0ad0bb610/tabb-0.4.2.tar.gz
+[2023-08-01 04:28:01] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-08-01 04:28:01] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-08-01 04:28:01] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230801/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-01 04:28:01] INFO root fetch - processPackages [d20-communications]: executing diffoscope
+[2023-08-01 04:28:01] INFO root fetch - processPackages [d20-communications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-communications-0.0.5a5.tar.gz tmp/d20-communications-0.0.5a6.tar.gz --markdown 20230801/d/d20-communications/0.0.5a5-0.0.5a6/diff.md --exclude *.pyd
+[2023-08-01 04:28:01] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/bd/76/fff89610990d788b44c28c1667355f8d9e14c30e769fe628a00ea9450fd7/pih-1.47214.tar.gz
+[2023-08-01 04:28:01] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-08-01 04:28:01] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230801/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 04:28:01] INFO root fetch - processPackages [zuspec-arl-eval]: Downloading https://files.pythonhosted.org/packages/93/67/72854464b1c9d598c264a418e19869cda0a1f00bbcf44159d6ccceaaecf5/zuspec_arl_eval-0.0.1.5721772890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-01 04:28:01] INFO root fetch - processPackages [tabb]: executing diffoscope
+[2023-08-01 04:28:01] INFO root fetch - processPackages [tabb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tabb-0.3.3.tar.gz tmp/tabb-0.4.2.tar.gz --markdown 20230801/t/tabb/0.3.3-0.4.2/diff.md --exclude *.pyd
+[2023-08-01 04:28:01] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 04:28:01] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.47213.tar.gz tmp/pih-1.47214.tar.gz --markdown 20230801/p/pih/1.47213-1.47214/diff.md --exclude *.pyd
+[2023-08-01 04:28:01] INFO root fetch - processPackages [malala-labs]: executing diffoscope
+[2023-08-01 04:28:01] INFO root fetch - processPackages [malala-labs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malala_labs-0.1.tar.gz tmp/malala_labs-0.2.tar.gz --markdown 20230801/m/malala-labs/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-01 04:28:01] INFO root fetch - processPackages [zuspec-arl-eval]: executing diffoscope
+[2023-08-01 04:28:01] INFO root fetch - processPackages [zuspec-arl-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_arl_eval-0.0.1.5627571863-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_arl_eval-0.0.1.5721772890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230801/z/zuspec-arl-eval/0.0.1.5627571863-0.0.1.5721772890/diff.md --exclude *.pyd
+[2023-08-01 04:28:02] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.8.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - processPackages [junoplatform]: Remove: archive file [/home/abi/fetcher/tmp/junoplatform-0.0.9.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - main [MainThread]: End processing [junoplatform]: success
+[2023-08-01 04:28:02] INFO root fetch - processPackages [d20-communications]: Remove: archive file [/home/abi/fetcher/tmp/d20-communications-0.0.5a5.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - processPackages [d20-communications]: Remove: archive file [/home/abi/fetcher/tmp/d20-communications-0.0.5a6.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - main [MainThread]: End processing [d20-communications]: success
+[2023-08-01 04:28:02] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.98.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.99.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-08-01 04:28:02] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.1.0.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - processPackages [aliyun-python-sdk-adb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-adb-1.1.1.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-adb]: success
+[2023-08-01 04:28:02] INFO root fetch - processPackages [tabb]: Remove: archive file [/home/abi/fetcher/tmp/tabb-0.3.3.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - processPackages [tabb]: Remove: archive file [/home/abi/fetcher/tmp/tabb-0.4.2.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - main [MainThread]: End processing [tabb]: success
+[2023-08-01 04:28:02] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47213.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47214.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 04:28:02] INFO root fetch - processPackages [malala-labs]: Remove: archive file [/home/abi/fetcher/tmp/malala_labs-0.1.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - processPackages [malala-labs]: Remove: archive file [/home/abi/fetcher/tmp/malala_labs-0.2.tar.gz]
+[2023-08-01 04:28:02] INFO root fetch - main [MainThread]: End processing [malala-labs]: success
+[2023-08-01 04:28:03] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-08-01 04:28:03] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-08-01 04:28:03] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-08-01 04:28:07] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5627571863-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-01 04:28:07] INFO root fetch - processPackages [zuspec-arl-eval]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_eval-0.0.1.5721772890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-01 04:28:07] INFO root fetch - main [MainThread]: End processing [zuspec-arl-eval]: success
+[2023-08-01 04:28:07] INFO root fetch - main [MainThread]: Store serial: [19117646]
