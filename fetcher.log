@@ -10651,3 +10651,90 @@
 [2023-08-01 04:33:23] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.1.tar.gz]
 [2023-08-01 04:33:23] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-08-01 04:33:23] INFO root fetch - main [MainThread]: Store serial: [19117672]
+[2023-08-01 04:38:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117672]
+[2023-08-01 04:38:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trex-analytic
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huckle
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnx2tf
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: trex-apis
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipc-worker
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dicomset
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graphchem
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pih
+[2023-08-01 04:38:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apinecone
+[2023-08-01 04:38:37] INFO root fetch - processPackages [huckle]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [pih]: New version: [1.47215] Old Version: [1.47214]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [ipc-worker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [trex-apis]: New version: [1.0.6] Old Version: [1.0.4]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [graphchem]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [trex-analytic]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-01 04:38:37] WARNING root fetch - processPackages [apinecone]: Skipping, unable to determine old version
+[2023-08-01 04:38:37] INFO root fetch - main [MainThread]: End processing [apinecone] error
+[2023-08-01 04:38:37] INFO root fetch - processPackages [dicomset]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230801] Old Version: [1.2.20230731]
+[2023-08-01 04:38:37] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/bd/76/fff89610990d788b44c28c1667355f8d9e14c30e769fe628a00ea9450fd7/pih-1.47214.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/e8/0c/d10fafa1eccd5aa8808ae940c53b5d83146d8e376697006256a9f8ff6e95/dicomset-0.0.8.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/17/66/514e99a2b56c0ad29b65f1a2b96fd8764d0c3f4e3a165eb522043aca5eeb/huckle-3.0.1.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/dc/d0/e7ffca827f728ce00fa2fadde8662e61f3a5673ea48298f919f2fcdb2e23/ipc_worker-0.0.8-py3-none-any.whl
+[2023-08-01 04:38:37] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/b6/21/5527cb4d333d63cf45e22a56ec4558eb09ec71488b12da2947d379646df8/trex-analytic-1.0.1.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [graphchem]: Downloading https://files.pythonhosted.org/packages/ec/8e/c10d2d41cd3677443058dbf4c48156ee40942bd3d1178c84d7d621f2803b/graphchem-2.1.1.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/29/26/71a9c64786d16774fd5cf2a71281209ece8de0042e452a5c9b9d4655b95e/trex-apis-1.0.4.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/97/1f/824d0d6c32ddbd02d60dd7920d62492e7dfbe662f6fed593d3d321af1ab3/iam_actions-1.2.20230731.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [dicomset]: Downloading https://files.pythonhosted.org/packages/f8/c4/8250d56633c9c4a47109798696806a3a063bfaf96d729e58ad6f834ee7aa/dicomset-0.0.9.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/e8/de/2fe8fda8bd6008889d2f49051056f134ce436fa5079058e2fc147e580e46/pih-1.47215.tar.gz
+[2023-08-01 04:38:37] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 04:38:37] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.47214.tar.gz tmp/pih-1.47215.tar.gz --markdown 20230801/p/pih/1.47214-1.47215/diff.md --exclude *.pyd
+[2023-08-01 04:38:37] INFO root fetch - processPackages [huckle]: Downloading https://files.pythonhosted.org/packages/37/85/aa793faef88c0d37ab6eaedac603781899640329a8d27da0293e75e17124/huckle-3.0.2.tar.gz
+[2023-08-01 04:38:38] INFO root fetch - processPackages [trex-analytic]: Downloading https://files.pythonhosted.org/packages/f1/1d/6061e07d58963cc61f0713dbbb626324f642ba3f53913f6f1b5b5e830136/trex-analytic-1.0.2.tar.gz
+[2023-08-01 04:38:38] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/50/b5/65977cae36333f000312e36e8c0ef2221c95e6421351dbdd0889bfbbd225/trex-apis-1.0.6.tar.gz
+[2023-08-01 04:38:38] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/24/2a/e820f8e6e4b69f029d773ec6775f9a54e5178c2b7cf2f633a3a4e7f8599f/ipc_worker-0.0.9-py3-none-any.whl
+[2023-08-01 04:38:38] INFO root fetch - processPackages [dicomset]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [dicomset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dicomset-0.0.8.tar.gz tmp/dicomset-0.0.9.tar.gz --markdown 20230801/d/dicomset/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 04:38:38] INFO root fetch - processPackages [graphchem]: Downloading https://files.pythonhosted.org/packages/e7/69/f7d64d3211c29efed378bc85e023de438893662db7cd665e031ba532a366/graphchem-2.1.2.tar.gz
+[2023-08-01 04:38:38] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/fc/c8/d387bad0ceda04f514872f907c88f1cabdd49c83e567ccb91f19753422ae/iam_actions-1.2.20230801.tar.gz
+[2023-08-01 04:38:38] INFO root fetch - processPackages [huckle]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [huckle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huckle-3.0.1.tar.gz tmp/huckle-3.0.2.tar.gz --markdown 20230801/h/huckle/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-01 04:38:38] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-08-01 04:38:38] INFO root fetch - processPackages [trex-analytic]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [trex-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-analytic-1.0.1.tar.gz tmp/trex-analytic-1.0.2.tar.gz --markdown 20230801/t/trex-analytic/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-01 04:38:38] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-1.0.4.tar.gz tmp/trex-apis-1.0.6.tar.gz --markdown 20230801/t/trex-apis/1.0.4-1.0.6/diff.md --exclude *.pyd
+[2023-08-01 04:38:38] INFO root fetch - processPackages [graphchem]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [graphchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphchem-2.1.1.tar.gz tmp/graphchem-2.1.2.tar.gz --markdown 20230801/g/graphchem/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-01 04:38:38] INFO root fetch - processPackages [ipc-worker]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [ipc-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipc_worker-0.0.8-py3-none-any.whl.zip tmp/ipc_worker-0.0.9-py3-none-any.whl.zip --markdown 20230801/i/ipc-worker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 04:38:38] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230731.tar.gz tmp/iam_actions-1.2.20230801.tar.gz --markdown 20230801/i/iam-actions/1.2.20230731-1.2.20230801/diff.md --exclude *.pyd
+[2023-08-01 04:38:38] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-08-01 04:38:38] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230801/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-01 04:38:39] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47214.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47215.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 04:38:39] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.8-py3-none-any.whl.zip]
+[2023-08-01 04:38:39] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.9-py3-none-any.whl.zip]
+[2023-08-01 04:38:39] INFO root fetch - main [MainThread]: End processing [ipc-worker]: success
+[2023-08-01 04:38:39] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.0.1.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - processPackages [huckle]: Remove: archive file [/home/abi/fetcher/tmp/huckle-3.0.2.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - main [MainThread]: End processing [huckle]: success
+[2023-08-01 04:38:39] INFO root fetch - processPackages [graphchem]: Remove: archive file [/home/abi/fetcher/tmp/graphchem-2.1.1.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - processPackages [graphchem]: Remove: archive file [/home/abi/fetcher/tmp/graphchem-2.1.2.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - main [MainThread]: End processing [graphchem]: success
+[2023-08-01 04:38:39] INFO root fetch - processPackages [trex-analytic]: Remove: archive file [/home/abi/fetcher/tmp/trex-analytic-1.0.1.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - processPackages [trex-analytic]: Remove: archive file [/home/abi/fetcher/tmp/trex-analytic-1.0.2.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - main [MainThread]: End processing [trex-analytic]: success
+[2023-08-01 04:38:39] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.4.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.0.6.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2023-08-01 04:38:39] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.8.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - processPackages [dicomset]: Remove: archive file [/home/abi/fetcher/tmp/dicomset-0.0.9.tar.gz]
+[2023-08-01 04:38:39] INFO root fetch - main [MainThread]: End processing [dicomset]: success
+[2023-08-01 04:38:40] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-08-01 04:38:40] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-08-01 04:38:40] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-08-01 04:38:43] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230731.tar.gz]
+[2023-08-01 04:38:43] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230801.tar.gz]
+[2023-08-01 04:38:43] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-08-01 04:38:43] INFO root fetch - main [MainThread]: Store serial: [19117724]
