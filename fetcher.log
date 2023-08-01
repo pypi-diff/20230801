@@ -13984,3 +13984,74 @@
 [2023-08-01 07:36:56] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.5.tar.gz]
 [2023-08-01 07:36:56] INFO root fetch - main [MainThread]: End processing [censoredzz]: success
 [2023-08-01 07:36:56] INFO root fetch - main [MainThread]: Store serial: [19119084]
+[2023-08-01 07:42:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119084]
+[2023-08-01 07:42:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vulcan-app
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablate
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: censoredzz
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wxai-langchain
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fileformats-medimage
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testApiGroup
+[2023-08-01 07:42:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycobol2csv
+[2023-08-01 07:42:05] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [wxai-langchain]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [testApiGroup]: New version: [1.0.0.8] Old Version: [1.0.0.7]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [fileformats-medimage]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [vulcan-app]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [censoredzz]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [pycobol2csv]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-01 07:42:05] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230801] Old Version: [2.14.0.dev20230731]
+[2023-08-01 07:42:05] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/22/75/6767ee89f9fa5c8d8f3fa3ae01390cbbc6c4085d8f5cb4501697bd0cc738/testApiGroup-1.0.0.7.tar.gz
+[2023-08-01 07:42:05] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/c4/45/e5e2cd1ac164e2086c8b02cab03a7a4f4dbe3d0d1a05c8498cef78a351ec/censoredzz-1.0.5.tar.gz
+[2023-08-01 07:42:05] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/2f/bf/84955fed1019cb4368967af64afec491812aeb08d5eef31ce65294f0831b/fileformats_medimage-0.4.3.tar.gz
+[2023-08-01 07:42:05] INFO root fetch - processPackages [vulcan-app]: Downloading https://files.pythonhosted.org/packages/a9/c0/0ae1a5e0321f92815b4441ec76e5e0fbaeeadc088c68ce3487c0bd42776c/vulcan-app-1.3.1.tar.gz
+[2023-08-01 07:42:05] INFO root fetch - processPackages [pycobol2csv]: Downloading https://files.pythonhosted.org/packages/2d/99/26fa75f335fa48ffc6d9147366b868174ed7c3036077f90a9d99439484d8/pycobol2csv-0.1.4-py3-none-any.whl
+[2023-08-01 07:42:05] INFO root fetch - processPackages [wxai-langchain]: Downloading https://files.pythonhosted.org/packages/cc/f8/4f7b55829a6894e66a564105a01e864a43800992673fcaa29a0aab7bc0c6/wxai-langchain-0.0.2.tar.gz
+[2023-08-01 07:42:05] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/1e/e1/06643a76f6b09e446185f759375cb427f82d08dcd651b1ac767bd4c49b3f/tf_nightly_macos-2.14.0.dev20230731-cp39-cp39-macosx_12_0_arm64.whl
+[2023-08-01 07:42:05] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-01 07:42:06] INFO root fetch - processPackages [fileformats-medimage]: Downloading https://files.pythonhosted.org/packages/85/d3/c467eb992269de96be7a379bea3e1f512c67629a11c0cfe16c43ce16df5a/fileformats_medimage-0.4.4.tar.gz
+[2023-08-01 07:42:06] INFO root fetch - processPackages [testApiGroup]: Downloading https://files.pythonhosted.org/packages/63/49/2738d88bdd11c80091228a29e7db90dbb0328d0652f5744bc4838f21d8c9/testApiGroup-1.0.0.8.tar.gz
+[2023-08-01 07:42:06] INFO root fetch - processPackages [pycobol2csv]: Downloading https://files.pythonhosted.org/packages/99/db/f246eeaaf34ae5a2cb9a871f8444da67c5fbd30577947114605933e1452f/pycobol2csv-0.1.5-py3-none-any.whl
+[2023-08-01 07:42:06] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-01 07:42:06] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230801/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 07:42:06] INFO root fetch - processPackages [wxai-langchain]: Downloading https://files.pythonhosted.org/packages/f8/0a/4a73034e50d9f6123f4e0f35cecc8be35adb142cc9a351092b599ec15b56/wxai-langchain-0.0.3.tar.gz
+[2023-08-01 07:42:06] INFO root fetch - processPackages [vulcan-app]: Downloading https://files.pythonhosted.org/packages/df/38/56b840ae6e3a7325393fee18436503db9d8f4a4ee3f65331fea900222308/vulcan-app-1.3.2.tar.gz
+[2023-08-01 07:42:06] INFO root fetch - processPackages [fileformats-medimage]: executing diffoscope
+[2023-08-01 07:42:06] INFO root fetch - processPackages [fileformats-medimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage-0.4.3.tar.gz tmp/fileformats_medimage-0.4.4.tar.gz --markdown 20230801/f/fileformats-medimage/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-01 07:42:06] INFO root fetch - processPackages [testApiGroup]: executing diffoscope
+[2023-08-01 07:42:06] INFO root fetch - processPackages [testApiGroup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testApiGroup-1.0.0.7.tar.gz tmp/testApiGroup-1.0.0.8.tar.gz --markdown 20230801/t/testApiGroup/1.0.0.7-1.0.0.8/diff.md --exclude *.pyd
+[2023-08-01 07:42:06] INFO root fetch - processPackages [wxai-langchain]: executing diffoscope
+[2023-08-01 07:42:06] INFO root fetch - processPackages [wxai-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxai-langchain-0.0.2.tar.gz tmp/wxai-langchain-0.0.3.tar.gz --markdown 20230801/w/wxai-langchain/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 07:42:06] INFO root fetch - processPackages [vulcan-app]: executing diffoscope
+[2023-08-01 07:42:06] INFO root fetch - processPackages [vulcan-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulcan-app-1.3.1.tar.gz tmp/vulcan-app-1.3.2.tar.gz --markdown 20230801/v/vulcan-app/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-08-01 07:42:06] INFO root fetch - processPackages [pycobol2csv]: executing diffoscope
+[2023-08-01 07:42:06] INFO root fetch - processPackages [pycobol2csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycobol2csv-0.1.4-py3-none-any.whl.zip tmp/pycobol2csv-0.1.5-py3-none-any.whl.zip --markdown 20230801/p/pycobol2csv/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-01 07:42:06] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/fa/82/02cc8e3302aa55fed7418404deb250cf18f346aab81700b81e50cf667b38/censoredzz-1.0.6.tar.gz
+[2023-08-01 07:42:06] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199536597>=10485760
+[2023-08-01 07:42:06] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-08-01 07:42:07] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.7.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - processPackages [testApiGroup]: Remove: archive file [/home/abi/fetcher/tmp/testApiGroup-1.0.0.8.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - main [MainThread]: End processing [testApiGroup]: success
+[2023-08-01 07:42:07] INFO root fetch - processPackages [vulcan-app]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-app-1.3.1.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - processPackages [vulcan-app]: Remove: archive file [/home/abi/fetcher/tmp/vulcan-app-1.3.2.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - main [MainThread]: End processing [vulcan-app]: success
+[2023-08-01 07:42:07] INFO root fetch - processPackages [pycobol2csv]: Remove: archive file [/home/abi/fetcher/tmp/pycobol2csv-0.1.4-py3-none-any.whl.zip]
+[2023-08-01 07:42:07] INFO root fetch - processPackages [pycobol2csv]: Remove: archive file [/home/abi/fetcher/tmp/pycobol2csv-0.1.5-py3-none-any.whl.zip]
+[2023-08-01 07:42:07] INFO root fetch - main [MainThread]: End processing [pycobol2csv]: success
+[2023-08-01 07:42:07] INFO root fetch - processPackages [censoredzz]: executing diffoscope
+[2023-08-01 07:42:07] INFO root fetch - processPackages [censoredzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredzz-1.0.5.tar.gz tmp/censoredzz-1.0.6.tar.gz --markdown 20230801/c/censoredzz/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-01 07:42:07] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.4.3.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - processPackages [fileformats-medimage]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage-0.4.4.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - main [MainThread]: End processing [fileformats-medimage]: success
+[2023-08-01 07:42:07] INFO root fetch - processPackages [wxai-langchain]: Remove: archive file [/home/abi/fetcher/tmp/wxai-langchain-0.0.2.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - processPackages [wxai-langchain]: Remove: archive file [/home/abi/fetcher/tmp/wxai-langchain-0.0.3.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - main [MainThread]: End processing [wxai-langchain]: success
+[2023-08-01 07:42:07] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-01 07:42:07] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-01 07:42:09] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.5.tar.gz]
+[2023-08-01 07:42:09] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.6.tar.gz]
+[2023-08-01 07:42:09] INFO root fetch - main [MainThread]: End processing [censoredzz]: success
+[2023-08-01 07:42:09] INFO root fetch - main [MainThread]: Store serial: [19119109]
