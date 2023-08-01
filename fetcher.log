@@ -10133,3 +10133,54 @@
 
 [2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [huhk] error
 [2023-08-01 03:56:22] INFO root fetch - main [MainThread]: Store serial: [19117453]
+[2023-08-01 04:01:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117453]
+[2023-08-01 04:01:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-01 04:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mercoa
+[2023-08-01 04:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grouped-query-attention-pytorch
+[2023-08-01 04:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chrislab
+[2023-08-01 04:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flax
+[2023-08-01 04:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-diff
+[2023-08-01 04:01:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dql-alpha
+[2023-08-01 04:01:31] INFO root fetch - processPackages [mercoa]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-01 04:01:31] INFO root fetch - processPackages [flax]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-01 04:01:31] WARNING root fetch - processPackages [grouped-query-attention-pytorch]: Skipping, unable to determine old version
+[2023-08-01 04:01:31] INFO root fetch - main [MainThread]: End processing [grouped-query-attention-pytorch] error
+[2023-08-01 04:01:31] INFO root fetch - processPackages [chrislab]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-08-01 04:01:31] INFO root fetch - processPackages [data-diff]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-01 04:01:31] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/8a/41/f21114f48a6fa0d687c80221d2c0c1fd83f69477030e52a24f5e09570eaa/mercoa-0.2.7.tar.gz
+[2023-08-01 04:01:31] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-01 04:01:31] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/62/fe/3a6a89c088fd055e02446a2b921d6d1f619dc7d28d578c81fc303331b587/flax-0.7.0.tar.gz
+[2023-08-01 04:01:31] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/9b/8b/2acee7276b846900010c7c96e8446757678ddbde9645c6e81f5d0329148c/chrislab-0.5.7.tar.gz
+[2023-08-01 04:01:31] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/77/1d/48d58836f804f6d48e0fa5360f666008e51b4a03d2db443e161eabea0607/data_diff-0.8.0.tar.gz
+[2023-08-01 04:01:32] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/60/8e/27c481daa147be803b678cc7bfdff371dfff6e0cc9ec15e0bfe25ef6773c/dql-alpha-0.8.0.tar.gz
+[2023-08-01 04:01:32] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/6a/8c/60eb948637518582a93a85d426f8e2872e5a2e81dde9507f166faa9a649e/mercoa-0.2.8.tar.gz
+[2023-08-01 04:01:32] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2023-08-01 04:01:32] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.2.7.tar.gz tmp/mercoa-0.2.8.tar.gz --markdown 20230801/m/mercoa/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-01 04:01:32] INFO root fetch - processPackages [chrislab]: Downloading https://files.pythonhosted.org/packages/bf/ae/c736b126e2b28c4a82de922622022cfdfd5bca066ec3be0da8d8b67d9dfe/chrislab-0.5.8.tar.gz
+[2023-08-01 04:01:32] INFO root fetch - processPackages [data-diff]: Downloading https://files.pythonhosted.org/packages/3e/61/d39819bfed202baa2a28c8b9d1e12e63f75c58e105cd5f3f2235fc323535/data_diff-0.8.1.tar.gz
+[2023-08-01 04:01:32] INFO root fetch - processPackages [flax]: Downloading https://files.pythonhosted.org/packages/20/53/42a39b67d98390798bdc5e8f17015b315a9c00129bce3a8de6b629b10c5d/flax-0.7.1.tar.gz
+[2023-08-01 04:01:32] INFO root fetch - processPackages [chrislab]: executing diffoscope
+[2023-08-01 04:01:32] INFO root fetch - processPackages [chrislab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chrislab-0.5.7.tar.gz tmp/chrislab-0.5.8.tar.gz --markdown 20230801/c/chrislab/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-08-01 04:01:32] INFO root fetch - processPackages [data-diff]: executing diffoscope
+[2023-08-01 04:01:32] INFO root fetch - processPackages [data-diff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_diff-0.8.0.tar.gz tmp/data_diff-0.8.1.tar.gz --markdown 20230801/d/data-diff/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-01 04:01:32] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/5f/4b/932e15e7e71f8b51b4966e96056e13cbd2203696a798fbe0c15a8ad136d8/dql-alpha-0.9.0.tar.gz
+[2023-08-01 04:01:32] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-08-01 04:01:32] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230801/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 04:01:32] INFO root fetch - processPackages [flax]: executing diffoscope
+[2023-08-01 04:01:32] INFO root fetch - processPackages [flax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flax-0.7.0.tar.gz tmp/flax-0.7.1.tar.gz --markdown 20230801/f/flax/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-01 04:01:33] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.7.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - processPackages [chrislab]: Remove: archive file [/home/abi/fetcher/tmp/chrislab-0.5.8.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - main [MainThread]: End processing [chrislab]: success
+[2023-08-01 04:01:33] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.8.0.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - processPackages [data-diff]: Remove: archive file [/home/abi/fetcher/tmp/data_diff-0.8.1.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - main [MainThread]: End processing [data-diff]: success
+[2023-08-01 04:01:33] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.7.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.2.8.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2023-08-01 04:01:33] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.8.0.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.9.0.tar.gz]
+[2023-08-01 04:01:33] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-08-01 04:01:37] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.7.0.tar.gz]
+[2023-08-01 04:01:37] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.7.1.tar.gz]
+[2023-08-01 04:01:37] INFO root fetch - main [MainThread]: End processing [flax]: success
+[2023-08-01 04:01:37] INFO root fetch - main [MainThread]: Store serial: [19117472]
