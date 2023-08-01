@@ -16626,3 +16626,131 @@
 [2023-08-01 10:05:57] INFO root fetch - processPackages [semgrep-rules-manager]: Remove: archive file [/home/abi/fetcher/tmp/semgrep_rules_manager-0.1.0.post2.tar.gz]
 [2023-08-01 10:05:57] INFO root fetch - main [MainThread]: End processing [semgrep-rules-manager]: success
 [2023-08-01 10:05:57] INFO root fetch - main [MainThread]: Store serial: [19120479]
+[2023-08-01 10:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120479]
+[2023-08-01 10:11:06] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cy-account
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenGeodeWeb-Back
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optipack
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sconce
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wizata-dsapi
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: r503
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: curated-transformers
+[2023-08-01 10:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wafermap-clustering
+[2023-08-01 10:11:06] INFO root fetch - processPackages [cy-account]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [pyglove]: New version: [0.4.3.dev20230801] Old Version: [0.4.3.dev20230731]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [optipack]: New version: [0.0.21.dev0] Old Version: [0.0.20.dev0]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 10:11:06] WARNING root fetch - processPackages [r503]: Skipping, unable to determine old version
+[2023-08-01 10:11:06] INFO root fetch - processPackages [r503]: Start processing: django-radius-nofuture
+[2023-08-01 10:11:06] INFO root fetch - main [MainThread]: End processing [r503] error
+[2023-08-01 10:11:06] INFO root fetch - processPackages [wafermap-clustering]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [sconce]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [curated-transformers]: New version: [1.0.0.dev1] Old Version: [1.0.0.dev0]
+[2023-08-01 10:11:06] WARNING root fetch - processPackages [django-radius-nofuture]: Skipping, unable to determine old version
+[2023-08-01 10:11:06] INFO root fetch - processPackages [django-radius-nofuture]: Start processing: TinetApiRequest
+[2023-08-01 10:11:06] INFO root fetch - main [MainThread]: End processing [django-radius-nofuture] error
+[2023-08-01 10:11:06] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/f2/a4/cd39f15c990f84f115127222f98062959003692e58d9066b6e37210383eb/OpenGeodeWeb-Back-0.0.2.tar.gz
+[2023-08-01 10:11:06] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ad/c0/66462b04bf7c40061a1c7a23580d96d5864375d197d78bbd2321beab2004/pyglove-0.4.3.dev20230731.tar.gz
+[2023-08-01 10:11:06] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230801] Old Version: [2.14.0.dev20230731]
+[2023-08-01 10:11:06] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/45/61/482d4d6e8466ec54c74d14ee9892d27d752dee9f324895c0adfe94ad9145/wafermap-clustering-0.3.7.tar.gz
+[2023-08-01 10:11:06] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/9e/06/f1a56e36597bcfaaa056521022156d2552a15a3616e30c6c2ceeef44c3c7/cy_account-0.1.8.tar.gz
+[2023-08-01 10:11:06] INFO root fetch - processPackages [sconce]: Downloading https://files.pythonhosted.org/packages/e3/95/fa4a11f9bac59ad0b708a3f61064ea22213951a452a5f9c41193859e1ae3/sconce-0.0.28.tar.gz
+[2023-08-01 10:11:06] INFO root fetch - processPackages [optipack]: Downloading https://files.pythonhosted.org/packages/c2/7b/1118b290da08cf062285fbeda32242992725b9b5c960fbc557f64ddd1cb9/optipack-0.0.20.dev0.tar.gz
+[2023-08-01 10:11:06] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/ee/70/24871381d6d06063eecb460094ee0bc701ab186f704568690ed14eee5f9f/TinetApiRequest-1.0.8.tar.gz
+[2023-08-01 10:11:06] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/80/cc/ced31ab04d8175ca112ebe83b367d9abfa9d361c55c440ccaf09a172210d/tf_nightly-2.14.0.dev20230731-cp39-cp39-win_amd64.whl
+[2023-08-01 10:11:07] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/be/8c/fd34ebacb95ae43e139ae25fabc0bf7dcb9f24c58316a4febe42d13d7187/curated-transformers-1.0.0.dev0.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/70/0a/2c20fc933e9d5d9c45089099c499ca14265d5aab969d80df6ce1efc19864/OpenGeodeWeb-Back-0.0.3.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/5e/11/6cd673955b5b88b139ff8b439c253db248d8e6e63b6783013da0905079c4/pyglove-0.4.3.dev20230801.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Back-0.0.2.tar.gz tmp/OpenGeodeWeb-Back-0.0.3.tar.gz --markdown 20230801/O/OpenGeodeWeb-Back/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [wafermap-clustering]: Downloading https://files.pythonhosted.org/packages/76/17/bd012b86e5f7b5cacf9d0a3fd9e59d16563c8d5cbd34afc311193d870737/wafermap-clustering-0.3.8.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [sconce]: Downloading https://files.pythonhosted.org/packages/69/3a/0068a39d06710114f37961ea3fb21065ad2aaf026f5f3519c72216a29df9/sconce-0.0.29.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [optipack]: Downloading https://files.pythonhosted.org/packages/0a/13/7f685c3935a4c4d2e5bdcbc38e67b5b4ce77414db4e226b2eccf3d180df2/optipack-0.0.21.dev0.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [cy-account]: Downloading https://files.pythonhosted.org/packages/c0/4a/0a5e3a784173ca5386a6809f99209db2bf3fd4761e2777ffa239558d46f7/cy_account-0.1.9.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/61/32/d85003508d73f3047e025ec4285c313217602485a241dfdde26b4a540ed6/TinetApiRequest-1.0.9.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/37/18/800046c284549d5142d57a4e5099f3f80bf20a140c0ee0cc88af480b1a31/tf_nightly-2.14.0.dev20230801-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-01 10:11:07] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/cf/dd/09882cf2950f324a9b2dd69231161082fbdbc0897cf987405b014a4b291b/curated-transformers-1.0.0.dev1.tar.gz
+[2023-08-01 10:11:07] INFO root fetch - processPackages [cy-account]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [cy-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cy_account-0.1.8.tar.gz tmp/cy_account-0.1.9.tar.gz --markdown 20230801/c/cy-account/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [optipack]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [optipack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optipack-0.0.20.dev0.tar.gz tmp/optipack-0.0.21.dev0.tar.gz --markdown 20230801/o/optipack/0.0.20.dev0-0.0.21.dev0/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [wafermap-clustering]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [sconce]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [wafermap-clustering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wafermap-clustering-0.3.7.tar.gz tmp/wafermap-clustering-0.3.8.tar.gz --markdown 20230801/w/wafermap-clustering/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [sconce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sconce-0.0.28.tar.gz tmp/sconce-0.0.29.tar.gz --markdown 20230801/s/sconce/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.0.8.tar.gz tmp/TinetApiRequest-1.0.9.tar.gz --markdown 20230801/T/TinetApiRequest/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.3.dev20230731.tar.gz tmp/pyglove-0.4.3.dev20230801.tar.gz --markdown 20230801/p/pyglove/0.4.3.dev20230731-0.4.3.dev20230801/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [curated-transformers]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [curated-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curated-transformers-1.0.0.dev0.tar.gz tmp/curated-transformers-1.0.0.dev1.tar.gz --markdown 20230801/c/curated-transformers/1.0.0.dev0-1.0.0.dev1/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-01 10:11:07] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230801/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 10:11:07] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 489642283>=10485760
+[2023-08-01 10:11:07] INFO root fetch - processPackages [tf-nightly]: Start processing: commonbase
+[2023-08-01 10:11:07] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-08-01 10:11:07] INFO root fetch - processPackages [commonbase]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-01 10:11:08] INFO root fetch - processPackages [commonbase]: Downloading https://files.pythonhosted.org/packages/1c/e1/64e0d0dcb08106a8db95abfff965a4be025f718d34c846d901bd86e6da06/commonbase-0.2.1.tar.gz
+[2023-08-01 10:11:08] WARNING root fetch - processPackages [commonbase]: Skipping package: exceeds size limit 23165167>=10485760
+[2023-08-01 10:11:08] INFO root fetch - processPackages [commonbase]: Start processing: ul-py-tool
+[2023-08-01 10:11:08] INFO root fetch - main [MainThread]: End processing [commonbase] error
+[2023-08-01 10:11:08] INFO root fetch - processPackages [ul-py-tool]: New version: [1.15.29] Old Version: [1.15.28]
+[2023-08-01 10:11:08] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.2.tar.gz]
+[2023-08-01 10:11:08] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.3.tar.gz]
+[2023-08-01 10:11:08] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Start processing: sconce
+[2023-08-01 10:11:08] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2023-08-01 10:11:08] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/f4/04/33eaf0a0958bc376974a3f6ef5d4cf6b7fe1d4976ea1d2950c0a3525ee7b/ul-py-tool-1.15.28.tar.gz
+[2023-08-01 10:11:08] INFO root fetch - processPackages [sconce]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-08-01 10:11:08] INFO root fetch - processPackages [sconce]: Downloading https://files.pythonhosted.org/packages/7e/ca/4410c2e9c9b05b8af34c7851e42610fedeefe502fe577214fc4e50db1490/sconce-0.0.30.tar.gz
+[2023-08-01 10:11:08] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/b5/67/6a21cd793d77836762aa8783ea2441f1236c262c7a18fe2783ae34df6980/ul-py-tool-1.15.29.tar.gz
+[2023-08-01 10:11:09] INFO root fetch - processPackages [sconce]: executing diffoscope
+[2023-08-01 10:11:09] INFO root fetch - processPackages [sconce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sconce-0.0.29.tar.gz tmp/sconce-0.0.30.tar.gz --markdown 20230801/s/sconce/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-08-01 10:11:09] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.7.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [wafermap-clustering]: Remove: archive file [/home/abi/fetcher/tmp/wafermap-clustering-0.3.8.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [wafermap-clustering]: Start processing: netbox-agent
+[2023-08-01 10:11:09] INFO root fetch - main [MainThread]: End processing [wafermap-clustering]: success
+[2023-08-01 10:11:09] INFO root fetch - processPackages [sconce]: Remove: archive file [/home/abi/fetcher/tmp/sconce-0.0.28.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [sconce]: Remove: archive file [/home/abi/fetcher/tmp/sconce-0.0.29.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2023-08-01 10:11:09] INFO root fetch - main [MainThread]: End processing [sconce]: success
+[2023-08-01 10:11:09] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.28.tar.gz tmp/ul-py-tool-1.15.29.tar.gz --markdown 20230801/u/ul-py-tool/1.15.28-1.15.29/diff.md --exclude *.pyd
+[2023-08-01 10:11:09] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.8.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.9.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-08-01 10:11:09] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.8.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [cy-account]: Remove: archive file [/home/abi/fetcher/tmp/cy_account-0.1.9.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - main [MainThread]: End processing [cy-account]: success
+[2023-08-01 10:11:09] INFO root fetch - processPackages [optipack]: Remove: archive file [/home/abi/fetcher/tmp/optipack-0.0.20.dev0.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [optipack]: Remove: archive file [/home/abi/fetcher/tmp/optipack-0.0.21.dev0.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - main [MainThread]: End processing [optipack]: success
+[2023-08-01 10:11:09] INFO root fetch - processPackages [netbox-agent]: New version: [0.7.1] Old Version: [0.6.2]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-01 10:11:09] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-01 10:11:09] INFO root fetch - processPackages [netbox-agent]: Downloading https://files.pythonhosted.org/packages/ce/7e/63836499d5af12b0f329f92a046a32ce3c73a30ead3c7f0b1426603ba39f/netbox_agent-0.6.2.tar.gz
+[2023-08-01 10:11:09] ERROR root fetch - processPackages [sconce]: Diffoscope failed: time="2023-08-01T10:11:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/sconce-0.0.29.tar.gz: No such file or directory
+
+[2023-08-01 10:11:09] INFO root fetch - main [MainThread]: End processing [sconce] error
+[2023-08-01 10:11:09] INFO root fetch - processPackages [netbox-agent]: Downloading https://files.pythonhosted.org/packages/70/bc/b7e93380ea134b5d09a39ca98597b582242bfd6b9427b26ecbb2fd6b2a7d/netbox_agent-0.7.1.tar.gz
+[2023-08-01 10:11:10] INFO root fetch - processPackages [curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/curated-transformers-1.0.0.dev0.tar.gz]
+[2023-08-01 10:11:10] INFO root fetch - processPackages [curated-transformers]: Remove: archive file [/home/abi/fetcher/tmp/curated-transformers-1.0.0.dev1.tar.gz]
+[2023-08-01 10:11:10] INFO root fetch - main [MainThread]: End processing [curated-transformers]: success
+[2023-08-01 10:11:10] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230731.tar.gz]
+[2023-08-01 10:11:10] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230801.tar.gz]
+[2023-08-01 10:11:10] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-08-01 10:11:10] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.28.tar.gz]
+[2023-08-01 10:11:10] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.29.tar.gz]
+[2023-08-01 10:11:10] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2023-08-01 10:11:10] INFO root fetch - processPackages [netbox-agent]: executing diffoscope
+[2023-08-01 10:11:10] INFO root fetch - processPackages [netbox-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_agent-0.6.2.tar.gz tmp/netbox_agent-0.7.1.tar.gz --markdown 20230801/n/netbox-agent/0.6.2-0.7.1/diff.md --exclude *.pyd
+[2023-08-01 10:11:11] INFO root fetch - processPackages [netbox-agent]: Remove: archive file [/home/abi/fetcher/tmp/netbox_agent-0.6.2.tar.gz]
+[2023-08-01 10:11:11] INFO root fetch - processPackages [netbox-agent]: Remove: archive file [/home/abi/fetcher/tmp/netbox_agent-0.7.1.tar.gz]
+[2023-08-01 10:11:11] INFO root fetch - main [MainThread]: End processing [netbox-agent]: success
+[2023-08-01 10:11:11] INFO root fetch - main [MainThread]: Store serial: [19120538]
