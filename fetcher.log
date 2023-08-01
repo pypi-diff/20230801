@@ -14483,3 +14483,81 @@
 [2023-08-01 08:14:50] INFO root fetch - processPackages [streamlit-calendar]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_calendar-0.3.0.tar.gz]
 [2023-08-01 08:14:50] INFO root fetch - main [MainThread]: End processing [streamlit-calendar]: success
 [2023-08-01 08:14:50] INFO root fetch - main [MainThread]: Store serial: [19119280]
+[2023-08-01 08:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119280]
+[2023-08-01 08:19:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jord
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unstructured
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bomf
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rclip
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agentcomlink
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-config-server-client
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-test-extendable-pydantic-fastapi
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyarmor.cli.core
+[2023-08-01 08:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Phynteny
+[2023-08-01 08:19:59] INFO root fetch - processPackages [unstructured]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-08-01 08:19:59] INFO root fetch - processPackages [bomf]: New version: [0.6.3] Old Version: [0.6.1]
+[2023-08-01 08:19:59] INFO root fetch - processPackages [agentcomlink]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 08:19:59] INFO root fetch - processPackages [Jord]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 08:19:59] INFO root fetch - processPackages [python-config-server-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-01 08:19:59] INFO root fetch - processPackages [rclip]: New version: [1.4.4a5] Old Version: [1.4.4a4]
+[2023-08-01 08:19:59] INFO root fetch - processPackages [odoo-addon-test-extendable-pydantic-fastapi]: New version: [16.0.2.0.1] Old Version: [16.0.2.0.0]
+[2023-08-01 08:19:59] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:19:59] WARNING root fetch - processPackages [Phynteny]: Skipping, unable to determine old version
+[2023-08-01 08:19:59] INFO root fetch - main [MainThread]: End processing [Phynteny] error
+[2023-08-01 08:19:59] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/30/8a/8688c96bc6366bb78d0599203583cf192b1349927b9b29697663f4abad83/rclip-1.4.4a4.tar.gz
+[2023-08-01 08:19:59] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/5f/5d/7a7122362b66ed3cd11780446bf57f465534c7c39f324bb3f52c888b01e4/unstructured-0.8.7.tar.gz
+[2023-08-01 08:19:59] INFO root fetch - processPackages [python-config-server-client]: Downloading https://files.pythonhosted.org/packages/49/2b/c658f7d24344a409085db612437a5e0630a63faca2fe75d6898be3ccb714/python_config_server_client-1.0.0.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/e2/57/5a5ee6d509122a2dba486b845ecb59a17f31c577bfa06b4243c5fcd57ce9/agentcomlink-0.1.8.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/0d/07/c53c4b6d77b698facadca1359e0ae2b8cc0bea206f104207bad0216a4908/pyarmor.cli.core-4.3.1.zip
+[2023-08-01 08:20:00] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/af/6f/ba9d417a7b3c10848556eef9f0089c43bee7b73032446a00224c0b5f5e41/bomf-0.6.1.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/7c/94/27b579f75f0aaae851af59d0be1103238b335fa089a7d1dcc71309957455/Jord-0.1.1.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [odoo-addon-test-extendable-pydantic-fastapi]: Downloading https://files.pythonhosted.org/packages/75/bd/af66818a4a7c4bfce7622d8d89d0556317ee98c58f661fdff29f00fa2cae/odoo_addon_test_extendable_pydantic_fastapi-16.0.2.0.0-py3-none-any.whl
+[2023-08-01 08:20:00] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/fd/59/50b164c58b0e06009055af3c8eb43c9eb8f39a551412dede1584334cb70f/rclip-1.4.4a5.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [python-config-server-client]: Downloading https://files.pythonhosted.org/packages/ce/41/3d5f87796c190e85ed35cc3b8657f3eee903472e9d2601f740af2bb3d47e/python_config_server_client-1.0.1.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.4a4.tar.gz tmp/rclip-1.4.4a5.tar.gz --markdown 20230801/r/rclip/1.4.4a4-1.4.4a5/diff.md --exclude *.pyd
+[2023-08-01 08:20:00] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/a2/fc/d8df085351d051efea6edfb4fd1666ebc0a9ac1ad63b7f5707f353dc66e6/bomf-0.6.3.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/47/79/fe8e47dc1e59378bf6db3258aadf411d4f83f5da13b7cc3cb2fe518e5179/unstructured-0.8.8.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [agentcomlink]: Downloading https://files.pythonhosted.org/packages/0f/bc/6aba49903452e21643e0fe2d03d80cf7c326864c86697cb8f2986100a4e4/agentcomlink-0.1.9.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [Jord]: Downloading https://files.pythonhosted.org/packages/6e/fd/59b16b061970a37a6c87b7a1fef43de0190716fe61805b445ee011927769/Jord-0.1.2.tar.gz
+[2023-08-01 08:20:00] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/17/03/9f3f39cba715955e612324c63f8ca9dbd4b9e55b6950d05655f0e74138e7/pyarmor.cli.core-4.3.dev1.zip
+[2023-08-01 08:20:00] INFO root fetch - processPackages [odoo-addon-test-extendable-pydantic-fastapi]: Downloading https://files.pythonhosted.org/packages/87/f1/6241ffcbfb77373426d104e47f2e8e067d0b7852492c27985dc30a3dfeed/odoo_addon_test_extendable_pydantic_fastapi-16.0.2.0.1-py3-none-any.whl
+[2023-08-01 08:20:00] INFO root fetch - processPackages [python-config-server-client]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [python-config-server-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_config_server_client-1.0.0.tar.gz tmp/python_config_server_client-1.0.1.tar.gz --markdown 20230801/p/python-config-server-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-01 08:20:00] INFO root fetch - processPackages [agentcomlink]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [agentcomlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentcomlink-0.1.8.tar.gz tmp/agentcomlink-0.1.9.tar.gz --markdown 20230801/a/agentcomlink/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 08:20:00] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.6.1.tar.gz tmp/bomf-0.6.3.tar.gz --markdown 20230801/b/bomf/0.6.1-0.6.3/diff.md --exclude *.pyd
+[2023-08-01 08:20:00] INFO root fetch - processPackages [Jord]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [Jord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Jord-0.1.1.tar.gz tmp/Jord-0.1.2.tar.gz --markdown 20230801/J/Jord/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 08:20:00] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-4.3.1.zip tmp/pyarmor.cli.core-4.3.dev1.zip --markdown 20230801/p/pyarmor.cli.core/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:20:00] INFO root fetch - processPackages [odoo-addon-test-extendable-pydantic-fastapi]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [odoo-addon-test-extendable-pydantic-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_extendable_pydantic_fastapi-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_test_extendable_pydantic_fastapi-16.0.2.0.1-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-test-extendable-pydantic-fastapi/16.0.2.0.0-16.0.2.0.1/diff.md --exclude *.pyd
+[2023-08-01 08:20:00] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-08-01 08:20:00] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.8.7.tar.gz tmp/unstructured-0.8.8.tar.gz --markdown 20230801/u/unstructured/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-08-01 08:20:01] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.4a4.tar.gz]
+[2023-08-01 08:20:01] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.4a5.tar.gz]
+[2023-08-01 08:20:01] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-01 08:20:01] INFO root fetch - processPackages [python-config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/python_config_server_client-1.0.0.tar.gz]
+[2023-08-01 08:20:01] INFO root fetch - processPackages [python-config-server-client]: Remove: archive file [/home/abi/fetcher/tmp/python_config_server_client-1.0.1.tar.gz]
+[2023-08-01 08:20:01] INFO root fetch - main [MainThread]: End processing [python-config-server-client]: success
+[2023-08-01 08:20:01] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.8.tar.gz]
+[2023-08-01 08:20:01] INFO root fetch - processPackages [agentcomlink]: Remove: archive file [/home/abi/fetcher/tmp/agentcomlink-0.1.9.tar.gz]
+[2023-08-01 08:20:01] INFO root fetch - main [MainThread]: End processing [agentcomlink]: success
+[2023-08-01 08:20:02] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-4.3.1.zip]
+[2023-08-01 08:20:02] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-4.3.dev1.zip]
+[2023-08-01 08:20:02] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-08-01 08:20:02] INFO root fetch - processPackages [odoo-addon-test-extendable-pydantic-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_extendable_pydantic_fastapi-16.0.2.0.0-py3-none-any.whl.zip]
+[2023-08-01 08:20:02] INFO root fetch - processPackages [odoo-addon-test-extendable-pydantic-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_extendable_pydantic_fastapi-16.0.2.0.1-py3-none-any.whl.zip]
+[2023-08-01 08:20:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-extendable-pydantic-fastapi]: success
+[2023-08-01 08:20:02] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.6.1.tar.gz]
+[2023-08-01 08:20:02] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.6.3.tar.gz]
+[2023-08-01 08:20:02] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-08-01 08:20:02] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.1.1.tar.gz]
+[2023-08-01 08:20:02] INFO root fetch - processPackages [Jord]: Remove: archive file [/home/abi/fetcher/tmp/Jord-0.1.2.tar.gz]
+[2023-08-01 08:20:02] INFO root fetch - main [MainThread]: End processing [Jord]: success
+[2023-08-01 08:20:02] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.8.7.tar.gz]
+[2023-08-01 08:20:02] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.8.8.tar.gz]
+[2023-08-01 08:20:02] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-08-01 08:20:02] INFO root fetch - main [MainThread]: Store serial: [19119318]
