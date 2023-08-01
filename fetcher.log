@@ -21572,3 +21572,147 @@
 [2023-08-01 13:29:57] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-01 13:29:57] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-01 13:29:57] INFO root fetch - main [MainThread]: Store serial: [19122708]
+[2023-08-01 13:35:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122708]
+[2023-08-01 13:35:06] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pharindoko.cdk-internal-gateway
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semv
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Region-RSE
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adm-boundary-manager
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sentry-sdk
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenGeodeWeb-Back
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: encab
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: localstack-core
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argparse-pydantic
+[2023-08-01 13:35:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: APKMirror-Search
+[2023-08-01 13:35:06] INFO root fetch - processPackages [sentry-sdk]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-08-01 13:35:06] INFO root fetch - processPackages [encab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [semv]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [adm-boundary-manager]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [APKMirror-Search]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-01 13:35:07] WARNING root fetch - processPackages [Region-RSE]: Skipping, unable to determine old version
+[2023-08-01 13:35:07] INFO root fetch - processPackages [argparse-pydantic]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [Region-RSE]: Start processing: seaplane
+[2023-08-01 13:35:07] INFO root fetch - main [MainThread]: End processing [Region-RSE] error
+[2023-08-01 13:35:07] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230801113159] Old Version: [2.2.1.dev20230801090451]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/70/0a/2c20fc933e9d5d9c45089099c499ca14265d5aab969d80df6ce1efc19864/OpenGeodeWeb-Back-0.0.3.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.84]
+[2023-08-01 13:35:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d7/6d/ac25f1ed1dc2c42fa6fff9e93ad2d4b09b5db16a632d4a532ccb01064136/localstack-core-2.2.1.dev20230801090451.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [encab]: Downloading https://files.pythonhosted.org/packages/10/24/dd110e509c15e4ee6ab13ad682eb824868e7e91a7c98babd47610d78da03/encab-0.0.8.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/61/00/dd7e41da95c59f4ccf86be60fcbb5889dc7b215ca5e71c8108cb7892c0b8/sentry-sdk-1.9.8.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [semv]: Downloading https://files.pythonhosted.org/packages/01/26/f4afba773c87826ccd3dbc451102129b5108592443eb8b7e51fdbf797554/semv-1.1.0.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [argparse-pydantic]: Downloading https://files.pythonhosted.org/packages/67/92/458c26b19367731738f3916a14708ac1b65521476b211271f95b0754963f/argparse_pydantic-0.1.2.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [APKMirror-Search]: Downloading https://files.pythonhosted.org/packages/47/67/6e4474c1ad44ba48d6371b7f35acca94fe294033d6b120f295f5cad8edb6/APKMirror_Search-1.0.0-py3-none-any.whl
+[2023-08-01 13:35:07] INFO root fetch - processPackages [adm-boundary-manager]: Downloading https://files.pythonhosted.org/packages/b7/41/54190adac2f8a95a853de0943ed367e472b4561536e3e367ed711fbdeeb9/adm-boundary-manager-0.0.4.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/55/68/5f25a40b4f1595d91e7e8f5d026f42c8550fb6c546996f4069c4a28ed2b4/seaplane-0.3.84.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Downloading https://files.pythonhosted.org/packages/d3/03/cf85e654968d9d8d3c68d2f4f57eb5c8d0c54da3e9688974643b85c37e1d/OpenGeodeWeb-Back-0.0.4.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-08-01 13:35:07] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230801/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-01 13:35:07] INFO root fetch - processPackages [semv]: Downloading https://files.pythonhosted.org/packages/d5/a5/e6759c7acea2d8fdefb61f7e99090bd26930103599089aed9f9fe9fcac7a/semv-1.2.0.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [encab]: Downloading https://files.pythonhosted.org/packages/7a/77/13ab7ffec3d1ae463ecc0a01832d2be896906de46f77fb395a88ee95dba8/encab-0.0.9.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: executing diffoscope
+[2023-08-01 13:35:07] INFO root fetch - processPackages [OpenGeodeWeb-Back]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeodeWeb-Back-0.0.3.tar.gz tmp/OpenGeodeWeb-Back-0.0.4.tar.gz --markdown 20230801/O/OpenGeodeWeb-Back/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 13:35:07] INFO root fetch - processPackages [sentry-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bf/680dccdef2576e85b3773de1acde3d263d2c3f105187562a6653cc550a8b/sentry-sdk-1.9.9.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [argparse-pydantic]: Downloading https://files.pythonhosted.org/packages/ce/e8/aeada7b87931011c4556aa9412912713df917d3584c4780014a43514e474/argparse_pydantic-0.1.3.tar.gz
+[2023-08-01 13:35:07] INFO root fetch - processPackages [APKMirror-Search]: Downloading https://files.pythonhosted.org/packages/b2/71/8d1155e1a1016f31f54be39d753b80f25759ff5157699a0c07fea51b1380/APKMirror_Search-1.0.1-py3-none-any.whl
+[2023-08-01 13:35:07] INFO root fetch - processPackages [adm-boundary-manager]: Downloading https://files.pythonhosted.org/packages/d0/ca/827811750bf7fe43a0c7e0c70eae2721e336a2dbc9efa91b450b5175763d/adm-boundary-manager-0.0.5.tar.gz
+[2023-08-01 13:35:08] INFO root fetch - processPackages [semv]: executing diffoscope
+[2023-08-01 13:35:08] INFO root fetch - processPackages [semv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semv-1.1.0.tar.gz tmp/semv-1.2.0.tar.gz --markdown 20230801/s/semv/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-01 13:35:08] INFO root fetch - processPackages [sentry-sdk]: executing diffoscope
+[2023-08-01 13:35:08] INFO root fetch - processPackages [sentry-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-sdk-1.9.8.tar.gz tmp/sentry-sdk-1.9.9.tar.gz --markdown 20230801/s/sentry-sdk/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-08-01 13:35:08] INFO root fetch - processPackages [encab]: executing diffoscope
+[2023-08-01 13:35:08] INFO root fetch - processPackages [encab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encab-0.0.8.tar.gz tmp/encab-0.0.9.tar.gz --markdown 20230801/e/encab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 13:35:08] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-08-01 13:35:08] INFO root fetch - processPackages [argparse-pydantic]: executing diffoscope
+[2023-08-01 13:35:08] INFO root fetch - processPackages [argparse-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argparse_pydantic-0.1.2.tar.gz tmp/argparse_pydantic-0.1.3.tar.gz --markdown 20230801/a/argparse-pydantic/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 13:35:08] INFO root fetch - processPackages [APKMirror-Search]: executing diffoscope
+[2023-08-01 13:35:08] INFO root fetch - processPackages [APKMirror-Search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APKMirror_Search-1.0.0-py3-none-any.whl.zip tmp/APKMirror_Search-1.0.1-py3-none-any.whl.zip --markdown 20230801/A/APKMirror-Search/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-01 13:35:08] INFO root fetch - processPackages [adm-boundary-manager]: executing diffoscope
+[2023-08-01 13:35:08] INFO root fetch - processPackages [adm-boundary-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adm-boundary-manager-0.0.4.tar.gz tmp/adm-boundary-manager-0.0.5.tar.gz --markdown 20230801/a/adm-boundary-manager/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 13:35:08] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-08-01 13:35:08] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.84.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230801/s/seaplane/0.3.84-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 13:35:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/da/e8/257846463664a4b3027008508bc41a0e0e10820630a6347c73d284c2d18d/localstack-core-2.2.1.dev20230801113159.tar.gz
+[2023-08-01 13:35:09] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-01 13:35:09] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230801090451.tar.gz tmp/localstack-core-2.2.1.dev20230801113159.tar.gz --markdown 20230801/l/localstack-core/2.2.1.dev20230801090451-2.2.1.dev20230801113159/diff.md --exclude *.pyd
+[2023-08-01 13:35:09] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Start processing: ai21
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-08-01 13:35:09] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.3.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeodeWeb-Back-0.0.4.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [OpenGeodeWeb-Back]: Start processing: cwtune
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [OpenGeodeWeb-Back]: success
+[2023-08-01 13:35:09] INFO root fetch - processPackages [ai21]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-08-01 13:35:09] WARNING root fetch - processPackages [cwtune]: Skipping, unable to determine old version
+[2023-08-01 13:35:09] INFO root fetch - processPackages [cwtune]: Start processing: tuxsuite
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [cwtune] error
+[2023-08-01 13:35:09] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/7c/12/28defd5a64eb238c796f89f0c2cc714cdd2c1f819bcf4b0db91f89debe52/ai21-1.2.3.tar.gz
+[2023-08-01 13:35:09] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2023-08-01 13:35:09] INFO root fetch - processPackages [encab]: Remove: archive file [/home/abi/fetcher/tmp/encab-0.0.8.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [encab]: Remove: archive file [/home/abi/fetcher/tmp/encab-0.0.9.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [encab]: Start processing: wizata-dsapi
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [encab]: success
+[2023-08-01 13:35:09] INFO root fetch - processPackages [semv]: Remove: archive file [/home/abi/fetcher/tmp/semv-1.1.0.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [semv]: Remove: archive file [/home/abi/fetcher/tmp/semv-1.2.0.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [semv]: Start processing: numerous-html-report-generator
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [semv]: success
+[2023-08-01 13:35:09] INFO root fetch - processPackages [ai21]: Downloading https://files.pythonhosted.org/packages/47/98/ca3569dc5d518eb6f94f248716c903900ba6acc88c4f1e2ec665f845e454/ai21-1.2.4.tar.gz
+[2023-08-01 13:35:09] INFO root fetch - processPackages [argparse-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/argparse_pydantic-0.1.2.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [argparse-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/argparse_pydantic-0.1.3.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [argparse-pydantic]: Start processing: b-cfn-custom-userpool-authorizer
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [argparse-pydantic]: success
+[2023-08-01 13:35:09] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [APKMirror-Search]: Remove: archive file [/home/abi/fetcher/tmp/APKMirror_Search-1.0.0-py3-none-any.whl.zip]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [APKMirror-Search]: Remove: archive file [/home/abi/fetcher/tmp/APKMirror_Search-1.0.1-py3-none-any.whl.zip]
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [APKMirror-Search]: success
+[2023-08-01 13:35:09] INFO root fetch - processPackages [adm-boundary-manager]: Remove: archive file [/home/abi/fetcher/tmp/adm-boundary-manager-0.0.4.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [adm-boundary-manager]: Remove: archive file [/home/abi/fetcher/tmp/adm-boundary-manager-0.0.5.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [adm-boundary-manager]: success
+[2023-08-01 13:35:09] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-08-01 13:35:09] INFO root fetch - processPackages [numerous-html-report-generator]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [b-cfn-custom-userpool-authorizer]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [ai21]: executing diffoscope
+[2023-08-01 13:35:09] INFO root fetch - processPackages [ai21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai21-1.2.3.tar.gz tmp/ai21-1.2.4.tar.gz --markdown 20230801/a/ai21/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-08-01 13:35:09] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.84.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-08-01 13:35:09] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-08-01 13:35:10] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-01 13:35:10] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-01 13:35:10] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230801/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 13:35:10] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.8.tar.gz]
+[2023-08-01 13:35:10] INFO root fetch - processPackages [sentry-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentry-sdk-1.9.9.tar.gz]
+[2023-08-01 13:35:10] INFO root fetch - main [MainThread]: End processing [sentry-sdk]: success
+[2023-08-01 13:35:10] INFO root fetch - processPackages [numerous-html-report-generator]: Downloading https://files.pythonhosted.org/packages/b3/2f/5a9afd05f3aac5a4eb334d548683a7cf4e69f161710d5b1962a0513af629/numerous%20html-report-generator-1.2.0.tar.gz
+[2023-08-01 13:35:10] INFO root fetch - processPackages [b-cfn-custom-userpool-authorizer]: Downloading https://files.pythonhosted.org/packages/03/af/5da10459c5ecfe49ad7ff3cb20c7e54ac150f903323327ff5ebc53d0ee17/b_cfn_custom_userpool_authorizer-1.0.0.tar.gz
+[2023-08-01 13:35:10] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2023-08-01 13:35:10] INFO root fetch - processPackages [numerous-html-report-generator]: Downloading https://files.pythonhosted.org/packages/98/8a/dc89ee145731af93392ac39bf6c333617c70989b3ae96ea3d92616d66bd4/numerous_html_report_generator-1.3.0-py3-none-any.whl
+[2023-08-01 13:35:10] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2023-08-01 13:35:10] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20230801/t/tuxsuite/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-01 13:35:10] INFO root fetch - processPackages [b-cfn-custom-userpool-authorizer]: Downloading https://files.pythonhosted.org/packages/e1/c2/78cee940748ad206e3a8f160d84c81868eb88e2f79aee69d7156ca8bde8b/b_cfn_custom_userpool_authorizer-2.0.0.tar.gz
+[2023-08-01 13:35:10] INFO root fetch - processPackages [numerous-html-report-generator]: executing diffoscope
+[2023-08-01 13:35:10] INFO root fetch - processPackages [numerous-html-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous html-report-generator-1.2.0.tar.gz tmp/numerous_html_report_generator-1.3.0-py3-none-any.whl.zip --markdown 20230801/n/numerous-html-report-generator/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-01 13:35:10] INFO root fetch - processPackages [b-cfn-custom-userpool-authorizer]: executing diffoscope
+[2023-08-01 13:35:10] INFO root fetch - processPackages [b-cfn-custom-userpool-authorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_cfn_custom_userpool_authorizer-1.0.0.tar.gz tmp/b_cfn_custom_userpool_authorizer-2.0.0.tar.gz --markdown 20230801/b/b-cfn-custom-userpool-authorizer/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-01 13:35:11] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.2.3.tar.gz]
+[2023-08-01 13:35:11] INFO root fetch - processPackages [ai21]: Remove: archive file [/home/abi/fetcher/tmp/ai21-1.2.4.tar.gz]
+[2023-08-01 13:35:11] INFO root fetch - main [MainThread]: End processing [ai21]: success
+[2023-08-01 13:35:11] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-08-01 13:35:11] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-01 13:35:11] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-01 13:35:11] INFO root fetch - processPackages [numerous-html-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/numerous html-report-generator-1.2.0.tar.gz]
+[2023-08-01 13:35:11] INFO root fetch - processPackages [numerous-html-report-generator]: Remove: archive file [/home/abi/fetcher/tmp/numerous_html_report_generator-1.3.0-py3-none-any.whl.zip]
+[2023-08-01 13:35:11] INFO root fetch - main [MainThread]: End processing [numerous-html-report-generator]: success
+[2023-08-01 13:35:11] INFO root fetch - processPackages [b-cfn-custom-userpool-authorizer]: Remove: archive file [/home/abi/fetcher/tmp/b_cfn_custom_userpool_authorizer-1.0.0.tar.gz]
+[2023-08-01 13:35:11] INFO root fetch - processPackages [b-cfn-custom-userpool-authorizer]: Remove: archive file [/home/abi/fetcher/tmp/b_cfn_custom_userpool_authorizer-2.0.0.tar.gz]
+[2023-08-01 13:35:11] INFO root fetch - main [MainThread]: End processing [b-cfn-custom-userpool-authorizer]: success
+[2023-08-01 13:35:12] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2023-08-01 13:35:12] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2023-08-01 13:35:12] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2023-08-01 13:35:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801090451.tar.gz]
+[2023-08-01 13:35:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801113159.tar.gz]
+[2023-08-01 13:35:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-01 13:35:13] INFO root fetch - main [MainThread]: Store serial: [19122766]
