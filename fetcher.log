@@ -13159,3 +13159,130 @@
 [2023-08-01 07:00:03] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.7.1.tar.gz]
 [2023-08-01 07:00:03] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-08-01 07:00:03] INFO root fetch - main [MainThread]: Store serial: [19118748]
+[2023-08-01 07:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118748]
+[2023-08-01 07:05:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-project-duplicate-subtask
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PJHpy
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-project-duplicate-subtask
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-project-template
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-project-stock
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-project-duplicate-subtask
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-project-sequence
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpcal
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-project-purchase-link
+[2023-08-01 07:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: malala
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-stock]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: New version: [13.0.1.0.3.dev5] Old Version: [13.0.1.0.3.dev4]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [PJHpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [gpcal]: New version: [0.9.5.6] Old Version: [0.9.5.5]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-template]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [malala]: New version: [0.7] Old Version: [0.5]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-sequence]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/f9/cf/f1d45299ef32925ab00de489163d8a25a675a0c45d846f0c286f0b7d778f/odoo_addon_project_stock-16.0.1.0.1-py3-none-any.whl
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/28/73/11bfb76222ad05b1bafcf4764b0dfaa954e59acda0b03e5b6e6f968cebbd/odoo13_addon_project_duplicate_subtask-13.0.1.0.3.dev4-py3-none-any.whl
+[2023-08-01 07:05:19] INFO root fetch - processPackages [PJHpy]: Downloading https://files.pythonhosted.org/packages/27/88/1b3bff55da0475449fe9ee15484ff9be6af92e491e765fed5291c9079a6b/PJHpy-0.0.3.tar.gz
+[2023-08-01 07:05:19] INFO root fetch - processPackages [odoo-addon-project-template]: Downloading https://files.pythonhosted.org/packages/5f/31/bcc98e7beab5099582bfd0a8438c47df20f88dff6a90dbdf1a18406ecf5f/odoo_addon_project_template-16.0.1.0.0.6-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [malala]: Downloading https://files.pythonhosted.org/packages/d9/f3/e1cee885c7ce480d3c9fa92a78c4d064d4e3c0e9f5a454daa23f500f8651/malala-0.5.tar.gz
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/a1/5e/a136e0f3ff4828791bae93cedba5ea7e5d66eff22bf1761e9b83cc756098/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/a1/5e/a136e0f3ff4828791bae93cedba5ea7e5d66eff22bf1761e9b83cc756098/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/74/b3/2bca9a05ccd22b5dc39ae3e3bd0303d5afccf9fd785be388650e0f823be1/gpcal-0.9.5.5.tar.gz
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/0b/a4/0509871628de1876df96beed46e03a4b23169f28b09bccfa16a058265bbc/odoo_addon_project_sequence-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Downloading https://files.pythonhosted.org/packages/7b/63/880e85cb571e11b5b38ec5b2504258369de6cfbcd1da49f9191807c0377b/odoo_addon_project_purchase_link-16.0.1.0.0.5-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/e7/31/68fe9a869b4c88006bfff43f64b012cd29f9d3d2642964f5dfb55065374e/odoo13_addon_project_duplicate_subtask-13.0.1.0.3.dev5-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-stock]: Downloading https://files.pythonhosted.org/packages/87/4f/fd6381aca3ba31c51ce1c772243c7edae206e5129908f16e06147ef5c3ce/odoo_addon_project_stock-16.0.1.0.1.2-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [PJHpy]: Downloading https://files.pythonhosted.org/packages/91/f1/7be0dd8d335718983a18d6a04ba014acb055baf1f6fdbe3fd45731e16dfd/PJHpy-0.0.4.tar.gz
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/82/3a/9feee7e31e26e10edc194fa9b51774630ec6cb974ea248377f44eafce29b/odoo_addon_project_duplicate_subtask-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Downloading https://files.pythonhosted.org/packages/82/3a/9feee7e31e26e10edc194fa9b51774630ec6cb974ea248377f44eafce29b/odoo_addon_project_duplicate_subtask-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_duplicate_subtask-13.0.1.0.3.dev4-py3-none-any.whl.zip tmp/odoo13_addon_project_duplicate_subtask-13.0.1.0.3.dev5-py3-none-any.whl.zip --markdown 20230801/o/odoo13-addon-project-duplicate-subtask/13.0.1.0.3.dev4-13.0.1.0.3.dev5/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [malala]: Downloading https://files.pythonhosted.org/packages/d9/9e/71ca488380a0721a9af51b8418ef2ba106f0d45c7a9c27c268473ab83d44/malala-0.7.tar.gz
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-stock]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-template]: Downloading https://files.pythonhosted.org/packages/c6/d5/2a6ba76728f7eebb62dfc179afd728c16ca8b42ca6360f8664051fe5282a/odoo_addon_project_template-16.0.1.0.0.8-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_stock-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_project_stock-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-project-stock/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-sequence]: Downloading https://files.pythonhosted.org/packages/d6/b6/cc4682addd3812d9e0c9786e8b9bb587fcae6632180aa987a7432f50715d/odoo_addon_project_sequence-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [gpcal]: Downloading https://files.pythonhosted.org/packages/58/f6/053dae59881346155d0e565cac92e8bc7cbf262f07acf9e41a11cd799e86/gpcal-0.9.5.6.tar.gz
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Downloading https://files.pythonhosted.org/packages/2a/b2/d096b80bcfbc2d14a2f9604e8a391a9ab8420d1d431ed664ec427ac66cbe/odoo_addon_project_purchase_link-16.0.1.0.0.7-py3-none-any.whl
+[2023-08-01 07:05:20] INFO root fetch - processPackages [PJHpy]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [PJHpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PJHpy-0.0.3.tar.gz tmp/PJHpy-0.0.4.tar.gz --markdown 20230801/P/PJHpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-project-duplicate-subtask/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-project-duplicate-subtask/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-sequence]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_sequence-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_project_sequence-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-project-sequence/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-template]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_template-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_project_template-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-project-template/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_purchase_link-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_project_purchase_link-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-project-purchase-link/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [gpcal]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [gpcal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpcal-0.9.5.5.tar.gz tmp/gpcal-0.9.5.6.tar.gz --markdown 20230801/g/gpcal/0.9.5.5-0.9.5.6/diff.md --exclude *.pyd
+[2023-08-01 07:05:20] INFO root fetch - processPackages [malala]: executing diffoscope
+[2023-08-01 07:05:20] INFO root fetch - processPackages [malala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malala-0.5.tar.gz tmp/malala-0.7.tar.gz --markdown 20230801/m/malala/0.5-0.7/diff.md --exclude *.pyd
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_project_duplicate_subtask-13.0.1.0.3.dev4-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_project_duplicate_subtask-13.0.1.0.3.dev5-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo13-addon-project-duplicate-subtask]: Start processing: miservice-fork
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-duplicate-subtask]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [miservice-fork]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [PJHpy]: Remove: archive file [/home/abi/fetcher/tmp/PJHpy-0.0.3.tar.gz]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [PJHpy]: Remove: archive file [/home/abi/fetcher/tmp/PJHpy-0.0.4.tar.gz]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [PJHpy]: Start processing: JSONSki
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [PJHpy]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [JSONSki]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_duplicate_subtask-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-duplicate-subtask]: Start processing: slippers
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-duplicate-subtask]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [slippers]: New version: [0.6.2] Old Version: [0.6.1a0]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/0a/fa/ec57459e6f034771b24cb23f3346a83f8d74fabef4622c86df72b69e3f9e/miservice_fork-2.1.1.tar.gz
+[2023-08-01 07:05:22] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/25/b5/9d2675ac47a016cbfdcb4c2851ebe3f23ad08c147e397a5be337118fce72/JSONSki-0.1.6.tar.gz
+[2023-08-01 07:05:22] INFO root fetch - processPackages [malala]: Remove: archive file [/home/abi/fetcher/tmp/malala-0.5.tar.gz]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [malala]: Remove: archive file [/home/abi/fetcher/tmp/malala-0.7.tar.gz]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [malala]: Start processing: edc-mnsi
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [malala]: success
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-duplicate-subtask]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_sequence-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-sequence]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_stock-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_stock-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-stock]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_purchase_link-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-purchase-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_purchase_link-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-purchase-link]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [edc-mnsi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.5.tar.gz]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [gpcal]: Remove: archive file [/home/abi/fetcher/tmp/gpcal-0.9.5.6.tar.gz]
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [gpcal]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [slippers]: Downloading https://files.pythonhosted.org/packages/86/69/ca606cb0cb9d3ab9d2b0ae5d65bf8b558bd73fa2e2eeb90fad40f86074b7/slippers-0.6.1a0.tar.gz
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_template-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - processPackages [odoo-addon-project-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_template-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-08-01 07:05:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-template]: success
+[2023-08-01 07:05:22] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/fc/30/77bcddb7196a1c9e17838ce2dada2e0154968e7a65ec41d7126c4c7ff182/JSONSki-0.1.7.tar.gz
+[2023-08-01 07:05:22] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/38/3a/21b97434d34d7df20962df036739e2a6333a3bfe2d68a7a5cb8dc88099c3/miservice_fork-2.2.0.tar.gz
+[2023-08-01 07:05:22] INFO root fetch - processPackages [edc-mnsi]: Downloading https://files.pythonhosted.org/packages/9e/b5/2f05f25dc03ba478d8ef1682a900dad229f457c79266f8452b61854cba33/edc-mnsi-0.1.8.tar.gz
+[2023-08-01 07:05:22] INFO root fetch - processPackages [JSONSki]: executing diffoscope
+[2023-08-01 07:05:22] INFO root fetch - processPackages [JSONSki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JSONSki-0.1.6.tar.gz tmp/JSONSki-0.1.7.tar.gz --markdown 20230801/J/JSONSki/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-01 07:05:23] INFO root fetch - processPackages [slippers]: Downloading https://files.pythonhosted.org/packages/a7/c6/6af4500f31e53e9f782d264cb715f1a8cc9ac4248fba9fe2fe172822ea79/slippers-0.6.2.tar.gz
+[2023-08-01 07:05:23] INFO root fetch - processPackages [miservice-fork]: executing diffoscope
+[2023-08-01 07:05:23] INFO root fetch - processPackages [miservice-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miservice_fork-2.1.1.tar.gz tmp/miservice_fork-2.2.0.tar.gz --markdown 20230801/m/miservice-fork/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-08-01 07:05:23] INFO root fetch - processPackages [slippers]: executing diffoscope
+[2023-08-01 07:05:23] INFO root fetch - processPackages [slippers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slippers-0.6.1a0.tar.gz tmp/slippers-0.6.2.tar.gz --markdown 20230801/s/slippers/0.6.1a0-0.6.2/diff.md --exclude *.pyd
+[2023-08-01 07:05:23] INFO root fetch - processPackages [edc-mnsi]: Downloading https://files.pythonhosted.org/packages/be/b8/4083662795c7254c9b47e4bbf0bbc518d1e95eadd330ea69df1ce778a01f/edc-mnsi-0.1.9.tar.gz
+[2023-08-01 07:05:23] INFO root fetch - processPackages [edc-mnsi]: executing diffoscope
+[2023-08-01 07:05:23] INFO root fetch - processPackages [edc-mnsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-mnsi-0.1.8.tar.gz tmp/edc-mnsi-0.1.9.tar.gz --markdown 20230801/e/edc-mnsi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:05:23] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.6.tar.gz]
+[2023-08-01 07:05:23] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.7.tar.gz]
+[2023-08-01 07:05:23] INFO root fetch - main [MainThread]: End processing [JSONSki]: success
+[2023-08-01 07:05:23] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.1.1.tar.gz]
+[2023-08-01 07:05:23] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.2.0.tar.gz]
+[2023-08-01 07:05:23] INFO root fetch - main [MainThread]: End processing [miservice-fork]: success
+[2023-08-01 07:05:24] INFO root fetch - processPackages [slippers]: Remove: archive file [/home/abi/fetcher/tmp/slippers-0.6.1a0.tar.gz]
+[2023-08-01 07:05:24] INFO root fetch - processPackages [slippers]: Remove: archive file [/home/abi/fetcher/tmp/slippers-0.6.2.tar.gz]
+[2023-08-01 07:05:24] INFO root fetch - main [MainThread]: End processing [slippers]: success
+[2023-08-01 07:05:24] INFO root fetch - processPackages [edc-mnsi]: Remove: archive file [/home/abi/fetcher/tmp/edc-mnsi-0.1.8.tar.gz]
+[2023-08-01 07:05:24] INFO root fetch - processPackages [edc-mnsi]: Remove: archive file [/home/abi/fetcher/tmp/edc-mnsi-0.1.9.tar.gz]
+[2023-08-01 07:05:24] INFO root fetch - main [MainThread]: End processing [edc-mnsi]: success
+[2023-08-01 07:05:24] INFO root fetch - main [MainThread]: Store serial: [19118783]
