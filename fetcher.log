@@ -14260,3 +14260,59 @@
 [2023-08-01 07:58:15] INFO root fetch - processPackages [cryptlex.lexactivator]: Remove: archive file [/home/abi/fetcher/tmp/cryptlex.lexactivator-3.9.1.tar.gz]
 [2023-08-01 07:58:15] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
 [2023-08-01 07:58:15] INFO root fetch - main [MainThread]: Store serial: [19119202]
+[2023-08-01 08:03:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119202]
+[2023-08-01 08:03:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-01 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-config-server-client
+[2023-08-01 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rclip
+[2023-08-01 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bvhio
+[2023-08-01 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MAZAlib
+[2023-08-01 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: integreat-cms
+[2023-08-01 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes-store
+[2023-08-01 08:03:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tablate
+[2023-08-01 08:03:30] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 08:03:30] WARNING root fetch - processPackages [python-config-server-client]: Skipping, unable to determine old version
+[2023-08-01 08:03:30] INFO root fetch - main [MainThread]: End processing [python-config-server-client] error
+[2023-08-01 08:03:30] INFO root fetch - processPackages [integreat-cms]: New version: [2023.8.0] Old Version: [2023.7.2]
+[2023-08-01 08:03:30] INFO root fetch - processPackages [bvhio]: New version: [1.3.6] Old Version: [1.3.4]
+[2023-08-01 08:03:30] INFO root fetch - processPackages [pypomes-store]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-01 08:03:30] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 08:03:30] INFO root fetch - processPackages [rclip]: New version: [1.4.4a4] Old Version: [1.4.3]
+[2023-08-01 08:03:31] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/12/52/f160738156928151d555a19e1bda24c211697f22bd554ad62b0da1c47ae5/pypomes_store-0.1.6.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/bf/19/39aebbc9aa823e0e922f2e23b822c090ea880ac9fff99aa4504058223b29/rclip-1.4.3.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [integreat-cms]: Downloading https://files.pythonhosted.org/packages/f4/01/02ef602337821c832d43c3395e9f4c9890bd382dd2aa151012a9c34d3ea9/integreat-cms-2023.7.2.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/50/33/7ed4f916cc8c87e251f09efac96610874068654a271b0f5d20c679764d1f/bvhio-1.3.4.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-08-01 08:03:31] WARNING root fetch - processPackages [integreat-cms]: Skipping package: exceeds size limit 16422035>=10485760
+[2023-08-01 08:03:31] INFO root fetch - main [MainThread]: End processing [integreat-cms] error
+[2023-08-01 08:03:31] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/f0/34/1147891782338c5da62d2dcaf10199c465a3c4d6ec85361353ec9a612e40/pypomes_store-0.1.7.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-01 08:03:31] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230801/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 08:03:31] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-08-01 08:03:31] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230801/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 08:03:31] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/30/8a/8688c96bc6366bb78d0599203583cf192b1349927b9b29697663f4abad83/rclip-1.4.4a4.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [bvhio]: Downloading https://files.pythonhosted.org/packages/ef/83/6111ad248a75425ef3e6f68941bff3271c53c39a1eb282fa07f2b0811282/bvhio-1.3.6.tar.gz
+[2023-08-01 08:03:31] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-01 08:03:31] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.3.tar.gz tmp/rclip-1.4.4a4.tar.gz --markdown 20230801/r/rclip/1.4.3-1.4.4a4/diff.md --exclude *.pyd
+[2023-08-01 08:03:31] INFO root fetch - processPackages [pypomes-store]: executing diffoscope
+[2023-08-01 08:03:31] INFO root fetch - processPackages [pypomes-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_store-0.1.6.tar.gz tmp/pypomes_store-0.1.7.tar.gz --markdown 20230801/p/pypomes-store/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-01 08:03:31] INFO root fetch - processPackages [bvhio]: executing diffoscope
+[2023-08-01 08:03:31] INFO root fetch - processPackages [bvhio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bvhio-1.3.4.tar.gz tmp/bvhio-1.3.6.tar.gz --markdown 20230801/b/bvhio/1.3.4-1.3.6/diff.md --exclude *.pyd
+[2023-08-01 08:03:32] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-08-01 08:03:32] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.6.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.7.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - main [MainThread]: End processing [pypomes-store]: success
+[2023-08-01 08:03:32] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.3.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.4a4.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-01 08:03:32] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.4.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - processPackages [bvhio]: Remove: archive file [/home/abi/fetcher/tmp/bvhio-1.3.6.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - main [MainThread]: End processing [bvhio]: success
+[2023-08-01 08:03:32] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-01 08:03:32] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-01 08:03:32] INFO root fetch - main [MainThread]: Store serial: [19119223]
