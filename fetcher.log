@@ -12678,3 +12678,111 @@
 [2023-08-01 06:30:12] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.8.1.tar.gz]
 [2023-08-01 06:30:12] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-08-01 06:30:12] INFO root fetch - main [MainThread]: Store serial: [19118584]
+[2023-08-01 06:35:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118584]
+[2023-08-01 06:35:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-he
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oci-cli
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: peitho-data
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: image2layout-computer-vision
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: http-stream-xml
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-identifier
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kbrainsecurity
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-lab-dashboard
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PJHpy
+[2023-08-01 06:35:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edc-lab-panel
+[2023-08-01 06:35:21] INFO root fetch - processPackages [PJHpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [edc-lab-panel]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [http-stream-xml]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [edc-lab-dashboard]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [edc-he]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [image2layout-computer-vision]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [peitho-data]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [kbrainsecurity]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-01 06:35:21] INFO root fetch - processPackages [edc-identifier]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 06:35:22] INFO root fetch - processPackages [PJHpy]: Downloading https://files.pythonhosted.org/packages/85/ec/e85ef137de9c01ab64c1fb97cd2b40e1c48582555794e018728663a94e78/PJHpy-0.0.2.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/53/0c/e3d8392638346ebe4166d50001c323beca8448af4225c430ff78757657ea/edc-he-0.1.8.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/5d/98/16a113f6e96729c49330d6bee3332006b2d33941e97fb24a02f17bc2c7c8/peitho_data-2.3.8.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/f5/30/18396829141e573f0a9040fcfb90318b8c99e4a07034e52d95588f3f7b29/kbrainsecurity-0.1.1.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-lab-panel]: Downloading https://files.pythonhosted.org/packages/22/70/8dbda37d891cd6dd83101f9b2fab3c69e24bd92bb7d30e38b032dd16bc95/edc-lab-panel-0.1.8.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [http-stream-xml]: Downloading https://files.pythonhosted.org/packages/0b/d6/19279d13c575d4c4b4e3d4e2fc63c3ad09af998506e43305be9892c202e8/http-stream-xml-1.3.4.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-lab-dashboard]: Downloading https://files.pythonhosted.org/packages/6d/7e/0ff412c0e150ddd0ca3d3d0504f88ff3bbc2a00d36f63cfc89e985fd56d4/edc-lab-dashboard-0.3.8.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/7e/cc/ed540655913ca2ef30701d3f3325abb71db0b407d707f9af21c88a5c9b89/image2layout_computer_vision-0.0.8.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-identifier]: Downloading https://files.pythonhosted.org/packages/71/fa/f8ffd16fba5589ccecf8e2264079f0ab3b900e21fca6126a6d3d0af4aa07/edc_identifier-0.3.8-py3-none-any.whl
+[2023-08-01 06:35:22] INFO root fetch - processPackages [PJHpy]: Downloading https://files.pythonhosted.org/packages/27/88/1b3bff55da0475449fe9ee15484ff9be6af92e491e765fed5291c9079a6b/PJHpy-0.0.3.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20230801/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-01 06:35:22] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/8c/f0/8ecaece9e7e090373c950d807a1620c3a90a1d17f905d9dbd38e7736f79a/kbrainsecurity-0.2.1.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/3a/97/1b1d1cc3bcd90cb86919cf7ea0204d2b19564231ebcd35eb217cb1ce3837/peitho_data-2.3.9.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/81/50/fe3c2fd651c82e8cdb1397d9331b9d914ded1d8e1f020127c71b81a43e95/edc-he-0.1.9.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [PJHpy]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [PJHpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PJHpy-0.0.2.tar.gz tmp/PJHpy-0.0.3.tar.gz --markdown 20230801/P/PJHpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-lab-panel]: Downloading https://files.pythonhosted.org/packages/5d/c6/ecf38eeb586c2180edb3c4a866ffacb8e66901fc7463bcf14fe2f74547d6/edc-lab-panel-0.1.9.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [image2layout-computer-vision]: Downloading https://files.pythonhosted.org/packages/b9/4f/fc1b1db4bb6a9f511d91debf7491a2e7804f52693e716c1de4937a9221e7/image2layout_computer_vision-0.0.9.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [http-stream-xml]: Downloading https://files.pythonhosted.org/packages/28/f7/1c4b2b7c52ae811a3a9e40c14231b1dbbc1e5033957a9841ac628f3a58da/http-stream-xml-1.3.5.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [kbrainsecurity]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [kbrainsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbrainsecurity-0.1.1.tar.gz tmp/kbrainsecurity-0.2.1.tar.gz --markdown 20230801/k/kbrainsecurity/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-lab-dashboard]: Downloading https://files.pythonhosted.org/packages/45/bc/7a009373422bab28737b9ce29fb23ea5a54af5b145548e18c104ad3a1542/edc-lab-dashboard-0.3.9.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-he]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-he]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-he-0.1.8.tar.gz tmp/edc-he-0.1.9.tar.gz --markdown 20230801/e/edc-he/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-lab-panel]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-lab-panel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-lab-panel-0.1.8.tar.gz tmp/edc-lab-panel-0.1.9.tar.gz --markdown 20230801/e/edc-lab-panel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 06:35:22] INFO root fetch - processPackages [edc-identifier]: Downloading https://files.pythonhosted.org/packages/c5/1d/960b783770d664ed61e379df90d4bb3542af350b22428169749d65b21fdd/edc-identifier-0.3.9.tar.gz
+[2023-08-01 06:35:22] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.8.tar.gz tmp/peitho_data-2.3.9.tar.gz --markdown 20230801/p/peitho-data/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-08-01 06:35:22] INFO root fetch - processPackages [image2layout-computer-vision]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [image2layout-computer-vision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image2layout_computer_vision-0.0.8.tar.gz tmp/image2layout_computer_vision-0.0.9.tar.gz --markdown 20230801/i/image2layout-computer-vision/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 06:35:22] INFO root fetch - processPackages [http-stream-xml]: executing diffoscope
+[2023-08-01 06:35:22] INFO root fetch - processPackages [http-stream-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http-stream-xml-1.3.4.tar.gz tmp/http-stream-xml-1.3.5.tar.gz --markdown 20230801/h/http-stream-xml/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-08-01 06:35:23] INFO root fetch - processPackages [edc-lab-dashboard]: executing diffoscope
+[2023-08-01 06:35:23] INFO root fetch - processPackages [edc-lab-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-lab-dashboard-0.3.8.tar.gz tmp/edc-lab-dashboard-0.3.9.tar.gz --markdown 20230801/e/edc-lab-dashboard/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 06:35:23] INFO root fetch - processPackages [edc-identifier]: executing diffoscope
+[2023-08-01 06:35:23] INFO root fetch - processPackages [edc-identifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_identifier-0.3.8-py3-none-any.whl.zip tmp/edc-identifier-0.3.9.tar.gz --markdown 20230801/e/edc-identifier/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 06:35:24] INFO root fetch - processPackages [PJHpy]: Remove: archive file [/home/abi/fetcher/tmp/PJHpy-0.0.2.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [PJHpy]: Remove: archive file [/home/abi/fetcher/tmp/PJHpy-0.0.3.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [PJHpy]: Start processing: delphix-dct-api
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [PJHpy]: success
+[2023-08-01 06:35:24] INFO root fetch - processPackages [delphix-dct-api]: New version: [9.0.0rc3] Old Version: [9.0.0rc2]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.1.1.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.2.1.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [kbrainsecurity]: Start processing: edc-lab-results
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [kbrainsecurity]: success
+[2023-08-01 06:35:24] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/bb/87/21d8d43cd1d47753f43b488346b68bb02e276ba99e71258f60d3c6f504e8/delphix-dct-api-9.0.0rc2.tar.gz
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-lab-results]: New version: [0.1.39] Old Version: [0.1.38]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.8.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.9.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-08-01 06:35:24] INFO root fetch - processPackages [delphix-dct-api]: Downloading https://files.pythonhosted.org/packages/cf/59/1ebda927c866f75511f4dfd6d6e4005c7178413d53de4fcf7a4c0bbc8f1b/delphix-dct-api-9.0.0rc3.tar.gz
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-lab-results]: Downloading https://files.pythonhosted.org/packages/1c/dc/167a338e8d87139b0fd38521b95777e1050367bdcbbdf3425e0e09091316/edc-lab-results-0.1.38.tar.gz
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-lab-panel]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-panel-0.1.8.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-lab-panel]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-panel-0.1.9.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [edc-lab-panel]: success
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-identifier]: Remove: archive file [/home/abi/fetcher/tmp/edc_identifier-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-identifier]: Remove: archive file [/home/abi/fetcher/tmp/edc-identifier-0.3.9.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [edc-identifier]: success
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.8.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.9.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [edc-he]: success
+[2023-08-01 06:35:24] INFO root fetch - processPackages [http-stream-xml]: Remove: archive file [/home/abi/fetcher/tmp/http-stream-xml-1.3.4.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [http-stream-xml]: Remove: archive file [/home/abi/fetcher/tmp/http-stream-xml-1.3.5.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [http-stream-xml]: success
+[2023-08-01 06:35:24] INFO root fetch - processPackages [delphix-dct-api]: executing diffoscope
+[2023-08-01 06:35:24] INFO root fetch - processPackages [delphix-dct-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphix-dct-api-9.0.0rc2.tar.gz tmp/delphix-dct-api-9.0.0rc3.tar.gz --markdown 20230801/d/delphix-dct-api/9.0.0rc2-9.0.0rc3/diff.md --exclude *.pyd
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-lab-results]: Downloading https://files.pythonhosted.org/packages/dd/f6/739c2d0945aff9a29fcfacbc0c1c4f8602febb9941c82010c923a6047a2c/edc-lab-results-0.1.39.tar.gz
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-lab-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-dashboard-0.3.8.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - processPackages [edc-lab-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-dashboard-0.3.9.tar.gz]
+[2023-08-01 06:35:24] INFO root fetch - main [MainThread]: End processing [edc-lab-dashboard]: success
+[2023-08-01 06:35:25] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.8.tar.gz]
+[2023-08-01 06:35:25] INFO root fetch - processPackages [image2layout-computer-vision]: Remove: archive file [/home/abi/fetcher/tmp/image2layout_computer_vision-0.0.9.tar.gz]
+[2023-08-01 06:35:25] INFO root fetch - main [MainThread]: End processing [image2layout-computer-vision]: success
+[2023-08-01 06:35:25] INFO root fetch - processPackages [edc-lab-results]: executing diffoscope
+[2023-08-01 06:35:25] INFO root fetch - processPackages [edc-lab-results]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-lab-results-0.1.38.tar.gz tmp/edc-lab-results-0.1.39.tar.gz --markdown 20230801/e/edc-lab-results/0.1.38-0.1.39/diff.md --exclude *.pyd
+[2023-08-01 06:35:26] INFO root fetch - processPackages [edc-lab-results]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-results-0.1.38.tar.gz]
+[2023-08-01 06:35:26] INFO root fetch - processPackages [edc-lab-results]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-results-0.1.39.tar.gz]
+[2023-08-01 06:35:26] INFO root fetch - main [MainThread]: End processing [edc-lab-results]: success
+[2023-08-01 06:35:29] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc2.tar.gz]
+[2023-08-01 06:35:29] INFO root fetch - processPackages [delphix-dct-api]: Remove: archive file [/home/abi/fetcher/tmp/delphix-dct-api-9.0.0rc3.tar.gz]
+[2023-08-01 06:35:29] INFO root fetch - main [MainThread]: End processing [delphix-dct-api]: success
+[2023-08-01 06:38:22] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2023-08-01 06:38:22] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2023-08-01 06:38:22] INFO root fetch - main [MainThread]: Store serial: [19118622]
