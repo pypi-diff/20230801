@@ -10952,3 +10952,110 @@
 [2023-08-01 04:59:30] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order_notification-14.0.1.6.1.dev1-py3-none-any.whl.zip]
 [2023-08-01 04:59:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order-notification]: success
 [2023-08-01 04:59:30] INFO root fetch - main [MainThread]: Store serial: [19117830]
+[2023-08-01 05:04:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117830]
+[2023-08-01 05:04:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih-mio
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-statement-import-file-reconciliation-widget
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-bank-statement-import
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdhelper
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-brand
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-brand-external-report-layout
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudimg
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: radiant-framework
+[2023-08-01 05:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-business-requirement-crm
+[2023-08-01 05:04:39] INFO root fetch - processPackages [pih-mio]: New version: [1.48020] Old Version: [1.48017]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a9] Old Version: [0.1a8]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: New version: [16.0.20230707.1] Old Version: [16.0.20230324.0]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [cloudimg]: New version: [1.7.0] Old Version: [1.6.2]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [mdhelper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-sale-brand]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.4]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [pih]: New version: [1.48020] Old Version: [1.47216]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-08-01 05:04:39] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/aa/9d/0452b7daa46a5821a5a899c3a4eea7b51e7b4bdd5d0eeaa10bdb4df148ee/pih-mio-1.48017.tar.gz
+[2023-08-01 05:04:39] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/04/bb/4f604ae9554b409e4d748d3c93be5131311dc7e76653a627e0f8141a8439/radiant-framework-0.1a8.tar.gz
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/cf/97/b00182737333e33342f7598e7d48fbe1704c791532453bf8f19666b42659/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl
+[2023-08-01 05:04:39] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/7e/40/aabe92787adba2b901df160aff3dc775154fa97b325494e4bc2ef4e19fd4/pih-1.47216.tar.gz
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/5b/e4/ac05ddfca9d51ac5cfbcb7826146140537b47234de9a7b78200b76af6a64/odoo_addon_account_statement_import_file_reconciliation_widget-15.0.1.0.0.2-py3-none-any.whl
+[2023-08-01 05:04:39] INFO root fetch - processPackages [cloudimg]: Downloading https://files.pythonhosted.org/packages/0e/47/bdd4518d5a99ade88c325cffbbac6ce21f6cb03457d88764e1de53b00fb7/cloudimg-1.6.2.tar.gz
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-sale-brand]: Downloading https://files.pythonhosted.org/packages/48/1a/c94d4ea2e8df66897d56ad11e70e1a3dad92d5fd90d3d163b4d6872869cc/odoo_addon_sale_brand-16.0.1.0.1.4-py3-none-any.whl
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Downloading https://files.pythonhosted.org/packages/4a/67/813a6e4d39bbee7dc28cd2a33b2d7329e2be35861fd6d93781907061d565/odoo_addon_business_requirement_crm-16.0.1.0.0.3-py3-none-any.whl
+[2023-08-01 05:04:39] INFO root fetch - processPackages [mdhelper]: Downloading https://files.pythonhosted.org/packages/c3/b9/97afac85a08c00b0c52bb5008f092e3d84526d6e37bc8febb8912d3b0047/mdhelper-0.0.1.tar.gz
+[2023-08-01 05:04:39] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Downloading https://files.pythonhosted.org/packages/7f/e6/cfde606d7ffad97445e4c588782204103bafd3b15b2c03100611a06dc0d2/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl
+[2023-08-01 05:04:39] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 29761762>=10485760
+[2023-08-01 05:04:39] INFO root fetch - processPackages [radiant-framework]: Start processing: odoo-addon-business-requirement
+[2023-08-01 05:04:39] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-business-requirement]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Downloading https://files.pythonhosted.org/packages/af/60/89b9f02fcc298195c85f1d82187dc7ca1330fc7bde3147c2012fea041ce7/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl
+[2023-08-01 05:04:40] INFO root fetch - processPackages [cloudimg]: Downloading https://files.pythonhosted.org/packages/43/24/6d559be9b10de6a53cce4df173ec7ed83b52413ada6604a1d86304977e26/cloudimg-1.7.0.tar.gz
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Downloading https://files.pythonhosted.org/packages/61/16/6f61a4bb0059b82ca906de006dd8e63d5bf070e720ce23213933f6e5c833/odoo_addons_oca_bank_statement_import-16.0.20230707.1-py3-none-any.whl
+[2023-08-01 05:04:40] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/15/56/e3240d47b78c8e28dacd864be4c44216dcda8d699a018560c2ecb03ec426/pih-1.48020.tar.gz
+[2023-08-01 05:04:40] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/c4/32/d1db8260af38a1694f238f2546de475e351b376bc6eec1a9988e17c2e74c/pih-mio-1.48020.tar.gz
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: Downloading https://files.pythonhosted.org/packages/23/de/575a854678212bcff909120caae531f669d3399bbdbd9158fc73a7c08151/odoo_addon_account_statement_import_file_reconciliation_widget-15.0.1.0.0.3-py3-none-any.whl
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Downloading https://files.pythonhosted.org/packages/b9/00/af7af11282e6db48da8d98037a7b640ec3bdd38b54ba6f910c3733778ebb/odoo_addon_business_requirement_crm-16.0.1.0.0.4-py3-none-any.whl
+[2023-08-01 05:04:40] INFO root fetch - processPackages [mdhelper]: Downloading https://files.pythonhosted.org/packages/43/76/bfaa2bd8cce6b372722b20603e33952f7f3888b8836c1e727f86bf0e2025/mdhelper-0.0.2.tar.gz
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-sale-brand]: Downloading https://files.pythonhosted.org/packages/37/bc/fc9284c4b069036d6c5f0ba20a35de842bac1da64568294d9f11ea6b8817/odoo_addon_sale_brand-16.0.1.0.1.6-py3-none-any.whl
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/df/55/3358f6065ba9803e5822c5a4c9616f21026149cbea45183f6360a78d0048/odoo_addon_business_requirement-16.0.1.0.0.5-py3-none-any.whl
+[2023-08-01 05:04:40] INFO root fetch - processPackages [cloudimg]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [cloudimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudimg-1.6.2.tar.gz tmp/cloudimg-1.7.0.tar.gz --markdown 20230801/c/cloudimg/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-brand-external-report-layout/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement_crm-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_business_requirement_crm-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-business-requirement-crm/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-sale-brand]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-sale-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_brand-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_sale_brand-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-sale-brand/16.0.1.0.1.4-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_file_reconciliation_widget-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_file_reconciliation_widget-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-account-statement-import-file-reconciliation-widget/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl.zip tmp/odoo_addons_oca_bank_statement_import-16.0.20230707.1-py3-none-any.whl.zip --markdown 20230801/o/odoo-addons-oca-bank-statement-import/16.0.20230324.0-16.0.20230707.1/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48017.tar.gz tmp/pih-mio-1.48020.tar.gz --markdown 20230801/p/pih-mio/1.48017-1.48020/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.47216.tar.gz tmp/pih-1.48020.tar.gz --markdown 20230801/p/pih/1.47216-1.48020/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [mdhelper]: executing diffoscope
+[2023-08-01 05:04:40] INFO root fetch - processPackages [mdhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdhelper-0.0.1.tar.gz tmp/mdhelper-0.0.2.tar.gz --markdown 20230801/m/mdhelper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 05:04:40] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/0e/cb/c1ea9c6d7e3719b3281d135a66121adcd608ee36a203d4931c98abb40586/odoo_addon_business_requirement-16.0.1.0.0.6-py3-none-any.whl
+[2023-08-01 05:04:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: executing diffoscope
+[2023-08-01 05:04:41] INFO root fetch - processPackages [odoo-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_business_requirement-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-business-requirement/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-08-01 05:04:41] INFO root fetch - processPackages [cloudimg]: Remove: archive file [/home/abi/fetcher/tmp/cloudimg-1.6.2.tar.gz]
+[2023-08-01 05:04:41] INFO root fetch - processPackages [cloudimg]: Remove: archive file [/home/abi/fetcher/tmp/cloudimg-1.7.0.tar.gz]
+[2023-08-01 05:04:41] INFO root fetch - processPackages [cloudimg]: Start processing: pydmd
+[2023-08-01 05:04:41] INFO root fetch - main [MainThread]: End processing [cloudimg]: success
+[2023-08-01 05:04:41] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_bank_statement_import-16.0.20230324.0-py3-none-any.whl.zip]
+[2023-08-01 05:04:41] INFO root fetch - processPackages [odoo-addons-oca-bank-statement-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_bank_statement_import-16.0.20230707.1-py3-none-any.whl.zip]
+[2023-08-01 05:04:41] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-bank-statement-import]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement_crm-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-business-requirement-crm]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement_crm-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement-crm]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pydmd]: New version: [0.4.1.post2308] Old Version: [0.4.1.post2306]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-sale-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_brand-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-sale-brand]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_brand-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-brand]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_file_reconciliation_widget-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-account-statement-import-file-reconciliation-widget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_file_reconciliation_widget-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-file-reconciliation-widget]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48017.tar.gz]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48020.tar.gz]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pydmd]: Downloading https://files.pythonhosted.org/packages/3d/a1/e3860ee89a302ea0cda4bcd4c7cd82c8167ac60299a3f92f1ea2d4499d87/pydmd-0.4.1.post2306.tar.gz
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47216.tar.gz]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48020.tar.gz]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [mdhelper]: Remove: archive file [/home/abi/fetcher/tmp/mdhelper-0.0.1.tar.gz]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [mdhelper]: Remove: archive file [/home/abi/fetcher/tmp/mdhelper-0.0.2.tar.gz]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [mdhelper]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-brand-external-report-layout]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_brand_external_report_layout-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-brand-external-report-layout]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-08-01 05:04:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pydmd]: Downloading https://files.pythonhosted.org/packages/ae/66/2fc2b0844fb34261c3de9dc9b3ee86f2b87b57a27c2e302261769d85bd24/pydmd-0.4.1.post2308.tar.gz
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pydmd]: executing diffoscope
+[2023-08-01 05:04:42] INFO root fetch - processPackages [pydmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydmd-0.4.1.post2306.tar.gz tmp/pydmd-0.4.1.post2308.tar.gz --markdown 20230801/p/pydmd/0.4.1.post2306-0.4.1.post2308/diff.md --exclude *.pyd
+[2023-08-01 05:04:43] INFO root fetch - processPackages [pydmd]: Remove: archive file [/home/abi/fetcher/tmp/pydmd-0.4.1.post2306.tar.gz]
+[2023-08-01 05:04:43] INFO root fetch - processPackages [pydmd]: Remove: archive file [/home/abi/fetcher/tmp/pydmd-0.4.1.post2308.tar.gz]
+[2023-08-01 05:04:43] INFO root fetch - main [MainThread]: End processing [pydmd]: success
+[2023-08-01 05:04:43] INFO root fetch - main [MainThread]: Store serial: [19117864]
