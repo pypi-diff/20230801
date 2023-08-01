@@ -19405,3 +19405,141 @@
 [2023-08-01 12:03:14] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
 [2023-08-01 12:03:14] INFO root fetch - main [MainThread]: End processing [boxmot]: success
 [2023-08-01 12:03:14] INFO root fetch - main [MainThread]: Store serial: [19121757]
+[2023-08-01 12:08:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121757]
+[2023-08-01 12:08:24] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: myDynamixel
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waba-360
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dm-reverb-nightly
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: titan-iris
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imaginaryNLP
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bootloader-core-library
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kimariplot
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fanc-fly
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: picca
+[2023-08-01 12:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: petisco
+[2023-08-01 12:08:25] INFO root fetch - processPackages [kimariplot]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [fanc-fly]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-01 12:08:25] WARNING root fetch - processPackages [waba-360]: Skipping, unable to determine old version
+[2023-08-01 12:08:25] INFO root fetch - processPackages [waba-360]: Start processing: dbt-dry-run
+[2023-08-01 12:08:25] INFO root fetch - main [MainThread]: End processing [waba-360] error
+[2023-08-01 12:08:25] WARNING root fetch - processPackages [bootloader-core-library]: Skipping, unable to determine old version
+[2023-08-01 12:08:25] INFO root fetch - processPackages [bootloader-core-library]: Start processing: runpandarun
+[2023-08-01 12:08:25] INFO root fetch - main [MainThread]: End processing [bootloader-core-library] error
+[2023-08-01 12:08:25] INFO root fetch - processPackages [imaginaryNLP]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [picca]: New version: [7.2.0] Old Version: [7.1.0]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [myDynamixel]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/bc/f0/9cb686358522faef0dd1e5a941aed55f0682bf26a5b520648564a772e17e/kimariplot-1.2.0.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [dbt-dry-run]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [runpandarun]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-08-01 12:08:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-01 12:08:25] INFO root fetch - processPackages [fanc-fly]: Downloading https://files.pythonhosted.org/packages/b4/f1/41022e6c9fa76bca91df00dc70924dae8d77f1ef3ee95a28539a4ea9485d/fanc-fly-3.0.0.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [imaginaryNLP]: Downloading https://files.pythonhosted.org/packages/b2/a0/2a3828aab88fdd4f466a99009b11ed70f6aa474d5aa831767e00168bf2ab/imaginaryNLP-0.0.1.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [picca]: Downloading https://files.pythonhosted.org/packages/fa/56/abe4f69a12752b2ea3ae450caece3ec71521a4981bd85786da7940952129/picca-7.1.0.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [myDynamixel]: Downloading https://files.pythonhosted.org/packages/e1/3d/06345796a23e9b8beb986868a33f492e53f173150391b8eb2e4e0692acea/myDynamixel-1.3.2-py3-none-any.whl
+[2023-08-01 12:08:25] INFO root fetch - processPackages [dbt-dry-run]: Downloading https://files.pythonhosted.org/packages/18/b2/9397a3d2f2c437731c668f7e6e77af08c5d98504897eafbdc4a400b087ed/dbt_dry_run-0.6.7.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/6c/22/10d99d1280b98239e5c5f4c45e4e4f017af7c413c388a012689ece0e0fc4/petisco-2.0.0rc8.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [runpandarun]: Downloading https://files.pythonhosted.org/packages/a6/53/7dd8e94af9a34ab0a6518e70004a71e012d07382b091059ca280023390bd/runpandarun-0.2.5.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/ac/f2/4800da2f92cd4d651370c4d214c65ff3f3255bb125ebfc55339bfc819867/kimariplot-1.2.1.tar.gz
+[2023-08-01 12:08:25] INFO root fetch - processPackages [kimariplot]: executing diffoscope
+[2023-08-01 12:08:25] INFO root fetch - processPackages [kimariplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariplot-1.2.0.tar.gz tmp/kimariplot-1.2.1.tar.gz --markdown 20230801/k/kimariplot/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-01 12:08:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-01 12:08:26] INFO root fetch - processPackages [imaginaryNLP]: Downloading https://files.pythonhosted.org/packages/93/ef/69675eac03198a5d44c901b53725b71214487cfa191d39c3c8552ec771b8/imaginaryNLP-0.0.2.tar.gz
+[2023-08-01 12:08:26] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230801/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-01 12:08:26] INFO root fetch - processPackages [myDynamixel]: Downloading https://files.pythonhosted.org/packages/59/01/b521a4e40be255f5b460eae32f107f5872aaead08aa5e648ef679b09cc3d/myDynamixel-1.3.3-py3-none-any.whl
+[2023-08-01 12:08:26] INFO root fetch - processPackages [fanc-fly]: Downloading https://files.pythonhosted.org/packages/0a/28/a7f65724604f78d90e03cced6e7e762b51fe5f3f92e5ff07115823d4b265/fanc-fly-3.0.1.tar.gz
+[2023-08-01 12:08:26] INFO root fetch - processPackages [dbt-dry-run]: Downloading https://files.pythonhosted.org/packages/d0/7b/9d310fa50f6ba46acecd7ab6d90ddcc8acf9237062a66617a7381547c58b/dbt_dry_run-0.6.8.tar.gz
+[2023-08-01 12:08:26] INFO root fetch - processPackages [imaginaryNLP]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [imaginaryNLP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaginaryNLP-0.0.1.tar.gz tmp/imaginaryNLP-0.0.2.tar.gz --markdown 20230801/i/imaginaryNLP/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 12:08:26] INFO root fetch - processPackages [picca]: Downloading https://files.pythonhosted.org/packages/45/1e/c298e9b20a8615fb917b06b0c1aca6bb3878e0b701298b9477967b69cf8b/picca-7.2.0.tar.gz
+[2023-08-01 12:08:26] INFO root fetch - processPackages [runpandarun]: Downloading https://files.pythonhosted.org/packages/7f/48/242feebdb87d0006d09223d4f9bde5f201bb0445b8086ba56cb0ab3a2d16/runpandarun-0.3.0.tar.gz
+[2023-08-01 12:08:26] INFO root fetch - processPackages [myDynamixel]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [myDynamixel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myDynamixel-1.3.2-py3-none-any.whl.zip tmp/myDynamixel-1.3.3-py3-none-any.whl.zip --markdown 20230801/m/myDynamixel/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-08-01 12:08:26] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/f1/b1/328e5fa54c27eb9b31458e81fd400ae04d15d17f4c236659198a4b9cd373/petisco-2.0.0rc9.tar.gz
+[2023-08-01 12:08:26] INFO root fetch - processPackages [dbt-dry-run]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [dbt-dry-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_dry_run-0.6.7.tar.gz tmp/dbt_dry_run-0.6.8.tar.gz --markdown 20230801/d/dbt-dry-run/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-08-01 12:08:26] INFO root fetch - processPackages [runpandarun]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [runpandarun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpandarun-0.2.5.tar.gz tmp/runpandarun-0.3.0.tar.gz --markdown 20230801/r/runpandarun/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-08-01 12:08:26] INFO root fetch - processPackages [fanc-fly]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [fanc-fly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fanc-fly-3.0.0.tar.gz tmp/fanc-fly-3.0.1.tar.gz --markdown 20230801/f/fanc-fly/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-01 12:08:26] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-2.0.0rc8.tar.gz tmp/petisco-2.0.0rc9.tar.gz --markdown 20230801/p/petisco/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-08-01 12:08:26] INFO root fetch - processPackages [picca]: executing diffoscope
+[2023-08-01 12:08:26] INFO root fetch - processPackages [picca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picca-7.1.0.tar.gz tmp/picca-7.2.0.tar.gz --markdown 20230801/p/picca/7.1.0-7.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:08:27] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.0.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.1.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [kimariplot]: Start processing: tm-config-server-client-python
+[2023-08-01 12:08:27] INFO root fetch - main [MainThread]: End processing [kimariplot]: success
+[2023-08-01 12:08:27] INFO root fetch - processPackages [tm-config-server-client-python]: New version: [0.6] Old Version: [0.5]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/d6/1e/b43e75c9228e75c0de69fafe8e3885d254279a8fd4d225e324205be8bb79/tm_config_server_client_python-0.5.tar.gz
+[2023-08-01 12:08:27] INFO root fetch - processPackages [imaginaryNLP]: Remove: archive file [/home/abi/fetcher/tmp/imaginaryNLP-0.0.1.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [imaginaryNLP]: Remove: archive file [/home/abi/fetcher/tmp/imaginaryNLP-0.0.2.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [imaginaryNLP]: Start processing: cs2star
+[2023-08-01 12:08:27] INFO root fetch - main [MainThread]: End processing [imaginaryNLP]: success
+[2023-08-01 12:08:27] INFO root fetch - processPackages [cs2star]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [titan-iris]: Start processing: gsp-python
+[2023-08-01 12:08:27] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-01 12:08:27] INFO root fetch - processPackages [tm-config-server-client-python]: Downloading https://files.pythonhosted.org/packages/d4/69/bc7068122849ba08bf457193b45f3107474998e3b69a93307e09da29ecd9/tm_config_server_client_python-0.6.tar.gz
+[2023-08-01 12:08:27] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/57/74/5dffc1f62aad2e3095c2402acfefc23cda2866859a5bd543488f8f5f16a5/cs2star-0.6.1.tar.gz
+[2023-08-01 12:08:27] INFO root fetch - processPackages [myDynamixel]: Remove: archive file [/home/abi/fetcher/tmp/myDynamixel-1.3.2-py3-none-any.whl.zip]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [myDynamixel]: Remove: archive file [/home/abi/fetcher/tmp/myDynamixel-1.3.3-py3-none-any.whl.zip]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [myDynamixel]: Start processing: kimariplot
+[2023-08-01 12:08:27] INFO root fetch - main [MainThread]: End processing [myDynamixel]: success
+[2023-08-01 12:08:27] INFO root fetch - processPackages [tm-config-server-client-python]: executing diffoscope
+[2023-08-01 12:08:27] INFO root fetch - processPackages [tm-config-server-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tm_config_server_client_python-0.5.tar.gz tmp/tm_config_server_client_python-0.6.tar.gz --markdown 20230801/t/tm-config-server-client-python/0.5-0.6/diff.md --exclude *.pyd
+[2023-08-01 12:08:27] INFO root fetch - processPackages [kimariplot]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-08-01 12:08:27] WARNING root fetch - processPackages [gsp-python]: Skipping, unable to determine old version
+[2023-08-01 12:08:27] INFO root fetch - processPackages [gsp-python]: Start processing: TEST-TC
+[2023-08-01 12:08:27] INFO root fetch - main [MainThread]: End processing [gsp-python] error
+[2023-08-01 12:08:27] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/ac/f2/4800da2f92cd4d651370c4d214c65ff3f3255bb125ebfc55339bfc819867/kimariplot-1.2.1.tar.gz
+[2023-08-01 12:08:27] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [dbt-dry-run]: Remove: archive file [/home/abi/fetcher/tmp/dbt_dry_run-0.6.7.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [dbt-dry-run]: Remove: archive file [/home/abi/fetcher/tmp/dbt_dry_run-0.6.8.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - main [MainThread]: End processing [dbt-dry-run]: success
+[2023-08-01 12:08:27] INFO root fetch - processPackages [runpandarun]: Remove: archive file [/home/abi/fetcher/tmp/runpandarun-0.2.5.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - processPackages [runpandarun]: Remove: archive file [/home/abi/fetcher/tmp/runpandarun-0.3.0.tar.gz]
+[2023-08-01 12:08:27] INFO root fetch - main [MainThread]: End processing [runpandarun]: success
+[2023-08-01 12:08:27] INFO root fetch - processPackages [cs2star]: Downloading https://files.pythonhosted.org/packages/7c/7d/bcbc904464a5f7cf420f2129074b7bca4146b81c5dcef10a9672e2d7b3f6/cs2star-0.6.2.tar.gz
+[2023-08-01 12:08:27] INFO root fetch - processPackages [cs2star]: executing diffoscope
+[2023-08-01 12:08:27] INFO root fetch - processPackages [cs2star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs2star-0.6.1.tar.gz tmp/cs2star-0.6.2.tar.gz --markdown 20230801/c/cs2star/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-01 12:08:28] INFO root fetch - processPackages [kimariplot]: Downloading https://files.pythonhosted.org/packages/50/60/792dd2d6fa8ab21431c31be1909b0addc9046f0120049fa77d834ecc18db/kimariplot-1.2.2.tar.gz
+[2023-08-01 12:08:28] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-08-01 12:08:28] INFO root fetch - processPackages [kimariplot]: executing diffoscope
+[2023-08-01 12:08:28] INFO root fetch - processPackages [kimariplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimariplot-1.2.1.tar.gz tmp/kimariplot-1.2.2.tar.gz --markdown 20230801/k/kimariplot/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-08-01 12:08:28] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/a9/ae/cc48e0c4dee179e9893205f7e7ae1dce1d5bc0d6d49c7cb06cbf58db540e/TEST_TC-1.1.5.tar.gz
+[2023-08-01 12:08:28] INFO root fetch - processPackages [fanc-fly]: Remove: archive file [/home/abi/fetcher/tmp/fanc-fly-3.0.0.tar.gz]
+[2023-08-01 12:08:28] INFO root fetch - processPackages [fanc-fly]: Remove: archive file [/home/abi/fetcher/tmp/fanc-fly-3.0.1.tar.gz]
+[2023-08-01 12:08:28] INFO root fetch - main [MainThread]: End processing [fanc-fly]: success
+[2023-08-01 12:08:28] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-08-01 12:08:28] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.4.tar.gz tmp/TEST_TC-1.1.5.tar.gz --markdown 20230801/T/TEST-TC/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-01 12:08:28] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.5.tar.gz]
+[2023-08-01 12:08:28] INFO root fetch - processPackages [tm-config-server-client-python]: Remove: archive file [/home/abi/fetcher/tmp/tm_config_server_client_python-0.6.tar.gz]
+[2023-08-01 12:08:28] INFO root fetch - main [MainThread]: End processing [tm-config-server-client-python]: success
+[2023-08-01 12:08:28] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc8.tar.gz]
+[2023-08-01 12:08:28] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc9.tar.gz]
+[2023-08-01 12:08:28] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-08-01 12:08:29] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.6.1.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - processPackages [cs2star]: Remove: archive file [/home/abi/fetcher/tmp/cs2star-0.6.2.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - main [MainThread]: End processing [cs2star]: success
+[2023-08-01 12:08:29] INFO root fetch - processPackages [picca]: Remove: archive file [/home/abi/fetcher/tmp/picca-7.1.0.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - processPackages [picca]: Remove: archive file [/home/abi/fetcher/tmp/picca-7.2.0.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - main [MainThread]: End processing [picca]: success
+[2023-08-01 12:08:29] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.1.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - processPackages [kimariplot]: Remove: archive file [/home/abi/fetcher/tmp/kimariplot-1.2.2.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - main [MainThread]: End processing [kimariplot]: success
+[2023-08-01 12:08:29] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-01 12:08:29] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.5.tar.gz]
+[2023-08-01 12:08:29] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-08-01 12:08:32] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-08-01 12:08:32] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230801/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-08-01 12:09:04] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-01 12:09:04] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-08-01 12:09:04] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-08-01 12:09:04] INFO root fetch - main [MainThread]: Store serial: [19121817]
