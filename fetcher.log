@@ -19730,3 +19730,138 @@
 [2023-08-01 12:14:38] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2023-08-01 12:14:38] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2023-08-01 12:14:38] INFO root fetch - main [MainThread]: Store serial: [19121880]
+[2023-08-01 12:19:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121880]
+[2023-08-01 12:19:47] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qoqo-iqm
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: matatika
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.entk
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoqo-qasm
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digimat.bac0
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FSRS-Optimizer
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libresvip
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs2-cdk
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: AndroidTools
+[2023-08-01 12:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: list-packages
+[2023-08-01 12:19:48] INFO root fetch - processPackages [list-packages]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [matatika]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [gs2-cdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.6.0] Old Version: [4.5.5]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [radical.entk]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [AndroidTools]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 12:19:48] WARNING root fetch - processPackages [libresvip]: Skipping, unable to determine old version
+[2023-08-01 12:19:48] INFO root fetch - processPackages [libresvip]: Start processing: struqture-py
+[2023-08-01 12:19:48] INFO root fetch - main [MainThread]: End processing [libresvip] error
+[2023-08-01 12:19:48] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [qoqo-iqm]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [qoqo-qasm]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [list-packages]: Downloading https://files.pythonhosted.org/packages/77/be/5966a39d764355bf62a0a6f99a01865106b3074b86a4b73709531f60b3b4/list_packages-1.0.0.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/ec/51/d1aaf0bc8439ec1dcfb26c3cff28468e0c139196be3937c797cb8a69ff54/AndroidTools-0.0.7.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [struqture-py]: New version: [1.4.0a4] Old Version: [1.4.0a3]
+[2023-08-01 12:19:48] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/f0/b7/2f841b0cf71c08e32f44c0bfe2d3ccaa9afc6aae30c7ea71a13f5d2ea88e/radical.entk-1.8.0.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [matatika]: Downloading https://files.pythonhosted.org/packages/34/d8/7719a0dd53b093b6922d8a2446671b0e39a7f0b5c7b4402060a8332e6c56/matatika-1.9.0-py3-none-any.whl
+[2023-08-01 12:19:48] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/83/9b/c744a3ff584f16f71be94dea1fc4daee8a573dcedd0725d82e50ba1166ba/qoqo_qasm-0.8.1.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/98/aa/e09e6e99c66da0c60ef76846f2725fb3891af442db4d465fcef51270cb34/FSRS-Optimizer-4.5.5.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [qoqo-iqm]: Downloading https://files.pythonhosted.org/packages/cc/0f/82ab907a8add00d7784f17387bc910f93d7007a965222d8730ecbdefc48e/qoqo_iqm-0.6.4.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/e3/aa/0f163edc9bc64614a93358063b9233d886f8c00044a4ce8276f11777827e/gs2-cdk-1.0.8.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/d9/3c/d63de09729cee113f94e10b139bd791fec9a91634d3c4daf6cc1adca38b2/struqture_py-1.4.0a3.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [list-packages]: Downloading https://files.pythonhosted.org/packages/84/bc/6fbd3c89f13ce0b520fa050aa73cda4e03415dd83a1e917f91309102fbc6/list_packages-1.0.1.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [AndroidTools]: Downloading https://files.pythonhosted.org/packages/f6/0b/41c46570a852cfc68020591eb40e7ca34ce5d845dccbadcdb2bbd6b0dd27/AndroidTools-0.0.8.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-08-01 12:19:48] INFO root fetch - processPackages [list-packages]: executing diffoscope
+[2023-08-01 12:19:48] INFO root fetch - processPackages [list-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_packages-1.0.0.tar.gz tmp/list_packages-1.0.1.tar.gz --markdown 20230801/l/list-packages/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-01 12:19:48] INFO root fetch - processPackages [AndroidTools]: executing diffoscope
+[2023-08-01 12:19:48] INFO root fetch - processPackages [AndroidTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AndroidTools-0.0.7.tar.gz tmp/AndroidTools-0.0.8.tar.gz --markdown 20230801/A/AndroidTools/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 12:19:48] INFO root fetch - processPackages [qoqo-qasm]: Downloading https://files.pythonhosted.org/packages/de/1c/e561876f3c0afa35277414ff61e9f2e4728eed3b03477498bd6e46fd20aa/qoqo_qasm-0.8.2.tar.gz
+[2023-08-01 12:19:49] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/d4/9a/48a09bfb4c8b4aa46e4a0ab05b1d289cefb410b9b9fa7a40c67c56ae677b/FSRS-Optimizer-4.6.0.tar.gz
+[2023-08-01 12:19:49] INFO root fetch - processPackages [matatika]: Downloading https://files.pythonhosted.org/packages/cb/76/08e07a7e2374f6e6e9ea7ab95729df5c9321feb06b2a7c33d727345bff6d/matatika-1.9.1-py3-none-any.whl
+[2023-08-01 12:19:49] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230801/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 12:19:49] INFO root fetch - processPackages [qoqo-qasm]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [qoqo-qasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_qasm-0.8.1.tar.gz tmp/qoqo_qasm-0.8.2.tar.gz --markdown 20230801/q/qoqo-qasm/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-01 12:19:49] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.5.5.tar.gz tmp/FSRS-Optimizer-4.6.0.tar.gz --markdown 20230801/F/FSRS-Optimizer/4.5.5-4.6.0/diff.md --exclude *.pyd
+[2023-08-01 12:19:49] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/29/69/56532d9a44c725ba36a6010c493491c32d238a25ff3b70b61de2bd6479ef/gs2-cdk-1.0.9.tar.gz
+[2023-08-01 12:19:49] INFO root fetch - processPackages [qoqo-iqm]: Downloading https://files.pythonhosted.org/packages/08/4f/e59a78100c1fc44b8f7f095f4c0be1103e1423309f7e8d11d2a277671503/qoqo_iqm-0.6.5.tar.gz
+[2023-08-01 12:19:49] INFO root fetch - processPackages [matatika]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [matatika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matatika-1.9.0-py3-none-any.whl.zip tmp/matatika-1.9.1-py3-none-any.whl.zip --markdown 20230801/m/matatika/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-08-01 12:19:49] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/d4/3b/7bac551fce4718ea1bf65083bb8a42bf6743a370057fd5dffa604a8c2364/radical.entk-1.9.0.tar.gz
+[2023-08-01 12:19:49] INFO root fetch - processPackages [qoqo-iqm]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/6e/c5/9128778d4198149079e2ee5cd76dac3f3afdf1590fc4d502ab2d892be5c2/struqture_py-1.4.0a4.tar.gz
+[2023-08-01 12:19:49] INFO root fetch - processPackages [qoqo-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_iqm-0.6.4.tar.gz tmp/qoqo_iqm-0.6.5.tar.gz --markdown 20230801/q/qoqo-iqm/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-08-01 12:19:49] INFO root fetch - processPackages [gs2-cdk]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [gs2-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-cdk-1.0.8.tar.gz tmp/gs2-cdk-1.0.9.tar.gz --markdown 20230801/g/gs2-cdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 12:19:49] INFO root fetch - processPackages [radical.entk]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [radical.entk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.entk-1.8.0.tar.gz tmp/radical.entk-1.9.0.tar.gz --markdown 20230801/r/radical.entk/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-01 12:19:49] INFO root fetch - processPackages [struqture-py]: executing diffoscope
+[2023-08-01 12:19:49] INFO root fetch - processPackages [struqture-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struqture_py-1.4.0a3.tar.gz tmp/struqture_py-1.4.0a4.tar.gz --markdown 20230801/s/struqture-py/1.4.0a3-1.4.0a4/diff.md --exclude *.pyd
+[2023-08-01 12:19:50] INFO root fetch - processPackages [list-packages]: Remove: archive file [/home/abi/fetcher/tmp/list_packages-1.0.0.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [list-packages]: Remove: archive file [/home/abi/fetcher/tmp/list_packages-1.0.1.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [list-packages]: Start processing: hpl-rv-ros
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [list-packages]: success
+[2023-08-01 12:19:50] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [digimat.bac0]: Start processing: human-readable-time
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-08-01 12:19:50] WARNING root fetch - processPackages [hpl-rv-ros]: Skipping, unable to determine old version
+[2023-08-01 12:19:50] INFO root fetch - processPackages [hpl-rv-ros]: Start processing: waba-360
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [hpl-rv-ros] error
+[2023-08-01 12:19:50] WARNING root fetch - processPackages [waba-360]: Skipping, unable to determine old version
+[2023-08-01 12:19:50] INFO root fetch - processPackages [waba-360]: Start processing: wizata-dsapi
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [waba-360] error
+[2023-08-01 12:19:50] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.7.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [AndroidTools]: Remove: archive file [/home/abi/fetcher/tmp/AndroidTools-0.0.8.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [AndroidTools]: Start processing: jrpyoop
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [AndroidTools]: success
+[2023-08-01 12:19:50] WARNING root fetch - processPackages [human-readable-time]: Skipping, unable to determine old version
+[2023-08-01 12:19:50] INFO root fetch - processPackages [human-readable-time]: Start processing: my-nexar-clients
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [human-readable-time] error
+[2023-08-01 12:19:50] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-08-01 12:19:50] WARNING root fetch - processPackages [my-nexar-clients]: Skipping, unable to determine old version
+[2023-08-01 12:19:50] INFO root fetch - processPackages [my-nexar-clients]: Start processing: kiba-core
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [my-nexar-clients] error
+[2023-08-01 12:19:50] INFO root fetch - processPackages [jrpyoop]: New version: [0.3.0] Old Version: [0.1.7]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.5.5.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.6.0.tar.gz]
+[2023-08-01 12:19:50] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2023-08-01 12:19:50] INFO root fetch - processPackages [kiba-core]: New version: [0.5.2.dev9] Old Version: [0.5.2.dev8]
+[2023-08-01 12:19:50] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-01 12:19:50] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/aa/9d/6b5b4ff6a713de3757dd739b3e8de8c8ea4e0d9b1d012c5e7febe5042b07/kiba_core-0.5.2.dev8-py3-none-any.whl
+[2023-08-01 12:19:50] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-01 12:19:50] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230801/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 12:19:50] INFO root fetch - processPackages [jrpyoop]: Downloading https://files.pythonhosted.org/packages/6d/cb/90c29ddce8c146d4877d77c544b34874a9fccabfa35e29818d19a04156eb/jrpyoop-0.1.7.tar.gz
+[2023-08-01 12:19:51] INFO root fetch - processPackages [matatika]: Remove: archive file [/home/abi/fetcher/tmp/matatika-1.9.0-py3-none-any.whl.zip]
+[2023-08-01 12:19:51] INFO root fetch - processPackages [matatika]: Remove: archive file [/home/abi/fetcher/tmp/matatika-1.9.1-py3-none-any.whl.zip]
+[2023-08-01 12:19:51] INFO root fetch - main [MainThread]: End processing [matatika]: success
+[2023-08-01 12:19:51] INFO root fetch - processPackages [qoqo-qasm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qasm-0.8.1.tar.gz]
+[2023-08-01 12:19:51] INFO root fetch - processPackages [qoqo-qasm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_qasm-0.8.2.tar.gz]
+[2023-08-01 12:19:51] INFO root fetch - main [MainThread]: End processing [qoqo-qasm]: success
+[2023-08-01 12:19:51] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/7c/15/ba215edc73010ea7acfab6847fd03bf1baa3581ce5a238a5d44e36f7f179/kiba_core-0.5.2.dev9-py3-none-any.whl
+[2023-08-01 12:19:51] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.8.0.tar.gz]
+[2023-08-01 12:19:51] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.9.0.tar.gz]
+[2023-08-01 12:19:51] INFO root fetch - main [MainThread]: End processing [radical.entk]: success
+[2023-08-01 12:19:51] INFO root fetch - processPackages [jrpyoop]: Downloading https://files.pythonhosted.org/packages/a1/77/5b0a61027bad53048ab2bd598cb7b24278165a9326fc3d2a485af2158d0b/jrpyoop-0.3.0.tar.gz
+[2023-08-01 12:19:51] INFO root fetch - processPackages [kiba-core]: executing diffoscope
+[2023-08-01 12:19:51] INFO root fetch - processPackages [kiba-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiba_core-0.5.2.dev8-py3-none-any.whl.zip tmp/kiba_core-0.5.2.dev9-py3-none-any.whl.zip --markdown 20230801/k/kiba-core/0.5.2.dev8-0.5.2.dev9/diff.md --exclude *.pyd
+[2023-08-01 12:19:51] INFO root fetch - processPackages [qoqo-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_iqm-0.6.4.tar.gz]
+[2023-08-01 12:19:51] INFO root fetch - processPackages [qoqo-iqm]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_iqm-0.6.5.tar.gz]
+[2023-08-01 12:19:51] INFO root fetch - main [MainThread]: End processing [qoqo-iqm]: success
+[2023-08-01 12:19:52] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-08-01 12:19:52] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-01 12:19:52] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-01 12:19:52] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev8-py3-none-any.whl.zip]
+[2023-08-01 12:19:52] INFO root fetch - processPackages [kiba-core]: Remove: archive file [/home/abi/fetcher/tmp/kiba_core-0.5.2.dev9-py3-none-any.whl.zip]
+[2023-08-01 12:19:52] INFO root fetch - main [MainThread]: End processing [kiba-core]: success
+[2023-08-01 12:19:52] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.4.0a3.tar.gz]
+[2023-08-01 12:19:52] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.4.0a4.tar.gz]
+[2023-08-01 12:19:52] INFO root fetch - main [MainThread]: End processing [struqture-py]: success
+[2023-08-01 12:19:52] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.8.tar.gz]
+[2023-08-01 12:19:52] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
+[2023-08-01 12:19:52] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
+[2023-08-01 12:19:52] INFO root fetch - processPackages [jrpyoop]: executing diffoscope
+[2023-08-01 12:19:52] INFO root fetch - processPackages [jrpyoop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jrpyoop-0.1.7.tar.gz tmp/jrpyoop-0.3.0.tar.gz --markdown 20230801/j/jrpyoop/0.1.7-0.3.0/diff.md --exclude *.pyd
+[2023-08-01 12:19:53] INFO root fetch - processPackages [jrpyoop]: Remove: archive file [/home/abi/fetcher/tmp/jrpyoop-0.1.7.tar.gz]
+[2023-08-01 12:19:53] INFO root fetch - processPackages [jrpyoop]: Remove: archive file [/home/abi/fetcher/tmp/jrpyoop-0.3.0.tar.gz]
+[2023-08-01 12:19:53] INFO root fetch - main [MainThread]: End processing [jrpyoop]: success
+[2023-08-01 12:19:53] INFO root fetch - main [MainThread]: Store serial: [19121963]
