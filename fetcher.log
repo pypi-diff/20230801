@@ -11776,3 +11776,63 @@
 [2023-08-01 05:41:21] INFO root fetch - processPackages [odoo-addon-crm-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_event-15.0.1.0.0.7-py3-none-any.whl.zip]
 [2023-08-01 05:41:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-event]: success
 [2023-08-01 05:41:21] INFO root fetch - main [MainThread]: Store serial: [19118133]
+[2023-08-01 05:46:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118133]
+[2023-08-01 05:46:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-01 05:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PJHpy
+[2023-08-01 05:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinject-design
+[2023-08-01 05:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bind
+[2023-08-01 05:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etlwrench
+[2023-08-01 05:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt6-Frameless-Window
+[2023-08-01 05:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zerocap-api-new-test
+[2023-08-01 05:46:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JSONSki
+[2023-08-01 05:46:29] INFO root fetch - processPackages [zerocap-api-new-test]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-01 05:46:29] INFO root fetch - processPackages [PyQt6-Frameless-Window]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 05:46:29] INFO root fetch - processPackages [nonebot-plugin-bind]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 05:46:29] INFO root fetch - processPackages [etlwrench]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 05:46:29] WARNING root fetch - processPackages [PJHpy]: Skipping, unable to determine old version
+[2023-08-01 05:46:29] INFO root fetch - main [MainThread]: End processing [PJHpy] error
+[2023-08-01 05:46:29] INFO root fetch - processPackages [JSONSki]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 05:46:29] INFO root fetch - processPackages [pinject-design]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-01 05:46:29] INFO root fetch - processPackages [nonebot-plugin-bind]: Downloading https://files.pythonhosted.org/packages/cd/1f/4e19711a2fd0e7d6411265746cd9e02d5ab90fc106b3bdda442f5c763503/nonebot_plugin_bind-0.1.1.tar.gz
+[2023-08-01 05:46:29] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/47/c6/083851ed31f5a3bb8955e5861f10e01cf8a917f1f014206244a366348111/zerocap_api_new_test-0.1.7.tar.gz
+[2023-08-01 05:46:29] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a7/9f/a4979c34444f0a828e5df54e2be1ecaadcee3d75fe7d9f80a08d4c4eac3b/pinject_design-0.1.98.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/37/25/85bd6e0127547ea924b98eaa0f1ac8cc51463f250bc2cfe883b3cdc4bc24/JSONSki-0.1.3.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [etlwrench]: Downloading https://files.pythonhosted.org/packages/81/75/5ed592eb308fc058c0378e51f0767b9a028004219064de668634f85f035d/etlwrench-0.0.1.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/9c/db/538f0b0bdabf17e07c58fd99ef8a1e796382318fcd3c903acbe55f1dfec2/PyQt6-Frameless-Window-0.1.2.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/a1/60/23fa127950edf1bf1131253d21bdf092cb149e44bdf95f1e99ddd8a07170/pinject_design-0.1.99.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [nonebot-plugin-bind]: Downloading https://files.pythonhosted.org/packages/4f/12/e80417f3818894857a0777134627f3e03536631ab57936f53cbf6a131dc1/nonebot_plugin_bind-0.1.2.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [JSONSki]: Downloading https://files.pythonhosted.org/packages/b7/7f/79240c7254c87f0990d3c6798eb859b8f65234732cb19d30498a38af7c44/JSONSki-0.1.4.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [nonebot-plugin-bind]: executing diffoscope
+[2023-08-01 05:46:30] INFO root fetch - processPackages [nonebot-plugin-bind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bind-0.1.1.tar.gz tmp/nonebot_plugin_bind-0.1.2.tar.gz --markdown 20230801/n/nonebot-plugin-bind/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 05:46:30] INFO root fetch - processPackages [etlwrench]: Downloading https://files.pythonhosted.org/packages/b7/6b/ef2054fc85d8063702f3b4375bf63a703eecc3cf9cf8b7ccafae4724ee34/etlwrench-0.0.2.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [JSONSki]: executing diffoscope
+[2023-08-01 05:46:30] INFO root fetch - processPackages [JSONSki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JSONSki-0.1.3.tar.gz tmp/JSONSki-0.1.4.tar.gz --markdown 20230801/J/JSONSki/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 05:46:30] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-08-01 05:46:30] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.98.tar.gz tmp/pinject_design-0.1.99.tar.gz --markdown 20230801/p/pinject-design/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-01 05:46:30] INFO root fetch - processPackages [etlwrench]: executing diffoscope
+[2023-08-01 05:46:30] INFO root fetch - processPackages [etlwrench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etlwrench-0.0.1.tar.gz tmp/etlwrench-0.0.2.tar.gz --markdown 20230801/e/etlwrench/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 05:46:30] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Downloading https://files.pythonhosted.org/packages/f7/cb/ff84f7a38fb6e028d8178b67f51589b5e2f25298e08606f3c4488136a300/PyQt6-Frameless-Window-0.1.3.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [zerocap-api-new-test]: Downloading https://files.pythonhosted.org/packages/a7/33/231fd11ba253ee7e03b4b98a584e94d60872f4ee0f148a4c0ed55f444dcd/zerocap_api_new_test-0.1.8.tar.gz
+[2023-08-01 05:46:30] INFO root fetch - processPackages [PyQt6-Frameless-Window]: executing diffoscope
+[2023-08-01 05:46:30] INFO root fetch - processPackages [PyQt6-Frameless-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Frameless-Window-0.1.2.tar.gz tmp/PyQt6-Frameless-Window-0.1.3.tar.gz --markdown 20230801/P/PyQt6-Frameless-Window/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 05:46:30] INFO root fetch - processPackages [zerocap-api-new-test]: executing diffoscope
+[2023-08-01 05:46:30] INFO root fetch - processPackages [zerocap-api-new-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerocap_api_new_test-0.1.7.tar.gz tmp/zerocap_api_new_test-0.1.8.tar.gz --markdown 20230801/z/zerocap-api-new-test/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-01 05:46:31] INFO root fetch - processPackages [nonebot-plugin-bind]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bind-0.1.1.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - processPackages [nonebot-plugin-bind]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bind-0.1.2.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bind]: success
+[2023-08-01 05:46:31] INFO root fetch - processPackages [etlwrench]: Remove: archive file [/home/abi/fetcher/tmp/etlwrench-0.0.1.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - processPackages [etlwrench]: Remove: archive file [/home/abi/fetcher/tmp/etlwrench-0.0.2.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - main [MainThread]: End processing [etlwrench]: success
+[2023-08-01 05:46:31] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.3.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - processPackages [JSONSki]: Remove: archive file [/home/abi/fetcher/tmp/JSONSki-0.1.4.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - main [MainThread]: End processing [JSONSki]: success
+[2023-08-01 05:46:31] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.98.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.99.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-08-01 05:46:31] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.7.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - processPackages [zerocap-api-new-test]: Remove: archive file [/home/abi/fetcher/tmp/zerocap_api_new_test-0.1.8.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - main [MainThread]: End processing [zerocap-api-new-test]: success
+[2023-08-01 05:46:31] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Frameless-Window-0.1.2.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - processPackages [PyQt6-Frameless-Window]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Frameless-Window-0.1.3.tar.gz]
+[2023-08-01 05:46:31] INFO root fetch - main [MainThread]: End processing [PyQt6-Frameless-Window]: success
+[2023-08-01 05:46:31] INFO root fetch - main [MainThread]: Store serial: [19118155]
