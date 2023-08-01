@@ -18672,3 +18672,84 @@
 [2023-08-01 11:26:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-08-01 11:26:20] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-08-01 11:26:20] INFO root fetch - main [MainThread]: Store serial: [19121427]
+[2023-08-01 11:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121427]
+[2023-08-01 11:31:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recipe
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deker-shell
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-access-sdk
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: win32mica
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: camSort
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-identity-sdk
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kingsoftcloud-sdk-python
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RobertCommonIO
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: har2pm
+[2023-08-01 11:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gsp-python
+[2023-08-01 11:31:30] WARNING root fetch - processPackages [deker-shell]: Skipping, unable to determine old version
+[2023-08-01 11:31:30] INFO root fetch - main [MainThread]: End processing [deker-shell] error
+[2023-08-01 11:31:30] INFO root fetch - processPackages [RobertCommonIO]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-08-01 11:31:30] INFO root fetch - processPackages [win32mica]: New version: [2.0] Old Version: [1.9]
+[2023-08-01 11:31:30] INFO root fetch - processPackages [camSort]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-01 11:31:30] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: New version: [1.1.9] Old Version: [1.1.7]
+[2023-08-01 11:31:30] INFO root fetch - processPackages [har2pm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 11:31:30] WARNING root fetch - processPackages [gsp-python]: Skipping, unable to determine old version
+[2023-08-01 11:31:30] INFO root fetch - main [MainThread]: End processing [gsp-python] error
+[2023-08-01 11:31:30] INFO root fetch - processPackages [recipe]: New version: [0.9.0] Old Version: [0.8.0rc1]
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2519]
+[2023-08-01 11:31:30] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/ca/e4/7f576013c1e08ef9d71230258d71387e1a56c4f351129b60b7c0370cf621/camSort-0.2.5.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/44/12/97f2160f50998aa94142a9343890a387964e39537641f383684e5e8a5ff3/RobertCommonIO-0.1.42.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [win32mica]: Downloading https://files.pythonhosted.org/packages/f1/c3/2341aacb9f41255d3c6dcf28fb919c1a3ed23e08de7b2b0b16d0fc26d309/win32mica-1.9.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/35/4b/6f0a6dd2691b638d019c54e6de04c6624cf9f32406fbf8d269a377c3ea3b/finbourne-identity-sdk-0.0.2519.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/de/0d/21c41eefe66fa75271bac6fd4f495b91b4a3273354fbac29c0523679f594/kingsoftcloud-sdk-python-1.1.7.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [har2pm]: Downloading https://files.pythonhosted.org/packages/1b/da/7edfe6afa56d468120e7db316c54c0c108c59dc8eff488e5e8cd3b061978/har2pm-0.1.8.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [recipe]: Downloading https://files.pythonhosted.org/packages/ce/15/8c74f6750282094cbabd958b7f2234a420ac7c3017e51bbcfc287946f16a/recipe-0.8.0rc1.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [camSort]: Downloading https://files.pythonhosted.org/packages/28/19/b338399707b1931f6b234e03161427e37c76c90226a476f71ab308a63a2b/camSort-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [win32mica]: Downloading https://files.pythonhosted.org/packages/8e/5c/a463116b8b55a49e3ffd9323b56ee3b050815339169a13338bbcb36ae242/win32mica-2.0.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [har2pm]: Downloading https://files.pythonhosted.org/packages/6f/25/811f764c5ad095b360720117d5f8acbca3dc46d73065a65e3a3b73596fd3/har2pm-0.1.9.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [camSort]: executing diffoscope
+[2023-08-01 11:31:30] INFO root fetch - processPackages [camSort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camSort-0.2.5.tar.gz tmp/camSort-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl.zip --markdown 20230801/c/camSort/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2519.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230801/f/finbourne-identity-sdk/0.0.2519-0.0.840/diff.md --exclude *.pyd
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-08-01 11:31:30] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230801/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-08-01 11:31:30] INFO root fetch - processPackages [RobertCommonIO]: Downloading https://files.pythonhosted.org/packages/36/e8/c6ad913cabebdb32fdee80c3df8e4dade9cc9fd51b9775da4d4ca346f989/RobertCommonIO-0.1.43.tar.gz
+[2023-08-01 11:31:30] INFO root fetch - processPackages [win32mica]: executing diffoscope
+[2023-08-01 11:31:30] INFO root fetch - processPackages [win32mica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/win32mica-1.9.tar.gz tmp/win32mica-2.0.tar.gz --markdown 20230801/w/win32mica/1.9-2.0/diff.md --exclude *.pyd
+[2023-08-01 11:31:30] INFO root fetch - processPackages [har2pm]: executing diffoscope
+[2023-08-01 11:31:30] INFO root fetch - processPackages [har2pm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/har2pm-0.1.8.tar.gz tmp/har2pm-0.1.9.tar.gz --markdown 20230801/h/har2pm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 11:31:30] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/b4/2e/e11c34159c196f1650f57db2b353716ff377689fbb775341b186b8f59bfe/kingsoftcloud-sdk-python-1.1.9.tar.gz
+[2023-08-01 11:31:31] INFO root fetch - processPackages [RobertCommonIO]: executing diffoscope
+[2023-08-01 11:31:31] INFO root fetch - processPackages [RobertCommonIO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RobertCommonIO-0.1.42.tar.gz tmp/RobertCommonIO-0.1.43.tar.gz --markdown 20230801/R/RobertCommonIO/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-08-01 11:31:31] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: executing diffoscope
+[2023-08-01 11:31:31] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingsoftcloud-sdk-python-1.1.7.tar.gz tmp/kingsoftcloud-sdk-python-1.1.9.tar.gz --markdown 20230801/k/kingsoftcloud-sdk-python/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2023-08-01 11:31:31] INFO root fetch - processPackages [recipe]: Downloading https://files.pythonhosted.org/packages/70/76/e165fbbd4c4a88310fc0fad5f0313f35d02956694cdeee97d1a392e638ab/recipe-0.9.0.tar.gz
+[2023-08-01 11:31:32] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.5.tar.gz]
+[2023-08-01 11:31:32] INFO root fetch - processPackages [camSort]: Remove: archive file [/home/abi/fetcher/tmp/camSort-0.2.6-cp37-cp37m-macosx_10_9_x86_64.whl.zip]
+[2023-08-01 11:31:32] INFO root fetch - main [MainThread]: End processing [camSort]: success
+[2023-08-01 11:31:32] INFO root fetch - processPackages [har2pm]: Remove: archive file [/home/abi/fetcher/tmp/har2pm-0.1.8.tar.gz]
+[2023-08-01 11:31:32] INFO root fetch - processPackages [har2pm]: Remove: archive file [/home/abi/fetcher/tmp/har2pm-0.1.9.tar.gz]
+[2023-08-01 11:31:32] INFO root fetch - main [MainThread]: End processing [har2pm]: success
+[2023-08-01 11:31:33] INFO root fetch - processPackages [win32mica]: Remove: archive file [/home/abi/fetcher/tmp/win32mica-1.9.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - processPackages [win32mica]: Remove: archive file [/home/abi/fetcher/tmp/win32mica-2.0.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - main [MainThread]: End processing [win32mica]: success
+[2023-08-01 11:31:33] INFO root fetch - processPackages [RobertCommonIO]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonIO-0.1.42.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - processPackages [RobertCommonIO]: Remove: archive file [/home/abi/fetcher/tmp/RobertCommonIO-0.1.43.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - main [MainThread]: End processing [RobertCommonIO]: success
+[2023-08-01 11:31:33] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2519.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-08-01 11:31:33] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.1.7.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud-sdk-python-1.1.9.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
+[2023-08-01 11:31:33] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-08-01 11:31:33] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-08-01 11:31:35] INFO root fetch - processPackages [recipe]: executing diffoscope
+[2023-08-01 11:31:35] INFO root fetch - processPackages [recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recipe-0.8.0rc1.tar.gz tmp/recipe-0.9.0.tar.gz --markdown 20230801/r/recipe/0.8.0rc1-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 11:31:40] INFO root fetch - processPackages [recipe]: Remove: archive file [/home/abi/fetcher/tmp/recipe-0.8.0rc1.tar.gz]
+[2023-08-01 11:31:40] INFO root fetch - processPackages [recipe]: Remove: archive file [/home/abi/fetcher/tmp/recipe-0.9.0.tar.gz]
+[2023-08-01 11:31:40] INFO root fetch - main [MainThread]: End processing [recipe]: success
+[2023-08-01 11:31:40] INFO root fetch - main [MainThread]: Store serial: [19121469]
