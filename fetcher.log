@@ -10928,3 +10928,27 @@
 [2023-08-01 04:54:19] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.6.tar.gz]
 [2023-08-01 04:54:19] INFO root fetch - main [MainThread]: End processing [huhk]: success
 [2023-08-01 04:54:19] INFO root fetch - main [MainThread]: Store serial: [19117809]
+[2023-08-01 04:59:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117809]
+[2023-08-01 04:59:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-01 04:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gougleai
+[2023-08-01 04:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: passhash
+[2023-08-01 04:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: 1m33-Logger
+[2023-08-01 04:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stradex
+[2023-08-01 04:59:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-account-payment-order-notification
+[2023-08-01 04:59:28] WARNING root fetch - processPackages [passhash]: Skipping, unable to determine old version
+[2023-08-01 04:59:28] INFO root fetch - main [MainThread]: End processing [passhash] error
+[2023-08-01 04:59:28] WARNING root fetch - processPackages [1m33-Logger]: Skipping, unable to determine old version
+[2023-08-01 04:59:28] INFO root fetch - main [MainThread]: End processing [1m33-Logger] error
+[2023-08-01 04:59:28] WARNING root fetch - processPackages [gougleai]: Skipping, unable to determine old version
+[2023-08-01 04:59:28] INFO root fetch - main [MainThread]: End processing [gougleai] error
+[2023-08-01 04:59:28] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: New version: [14.0.1.6.1.dev1] Old Version: [14.0.1.6.0]
+[2023-08-01 04:59:28] WARNING root fetch - processPackages [stradex]: Skipping, unable to determine old version
+[2023-08-01 04:59:28] INFO root fetch - main [MainThread]: End processing [stradex] error
+[2023-08-01 04:59:28] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: Downloading https://files.pythonhosted.org/packages/07/03/7b2c2d043ed128b22701edfd17dcdfd97889715d37cddc4c49cb82574dd2/odoo14_addon_account_payment_order_notification-14.0.1.6.0-py3-none-any.whl
+[2023-08-01 04:59:29] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: Downloading https://files.pythonhosted.org/packages/ce/d9/033a4dce876ac17ac4362ef61cfbc54d9e35e2ca7b09d8bae2434b6bd49f/odoo14_addon_account_payment_order_notification-14.0.1.6.1.dev1-py3-none-any.whl
+[2023-08-01 04:59:29] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: executing diffoscope
+[2023-08-01 04:59:29] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order_notification-14.0.1.6.0-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order_notification-14.0.1.6.1.dev1-py3-none-any.whl.zip --markdown 20230801/o/odoo14-addon-account-payment-order-notification/14.0.1.6.0-14.0.1.6.1.dev1/diff.md --exclude *.pyd
+[2023-08-01 04:59:30] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order_notification-14.0.1.6.0-py3-none-any.whl.zip]
+[2023-08-01 04:59:30] INFO root fetch - processPackages [odoo14-addon-account-payment-order-notification]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_payment_order_notification-14.0.1.6.1.dev1-py3-none-any.whl.zip]
+[2023-08-01 04:59:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order-notification]: success
+[2023-08-01 04:59:30] INFO root fetch - main [MainThread]: Store serial: [19117830]
