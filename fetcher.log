@@ -6169,3 +6169,110 @@
 [2023-08-01 03:16:22] INFO root fetch - processPackages [kittycad]: Remove: archive file [/home/abi/fetcher/tmp/kittycad-0.4.5.tar.gz]
 [2023-08-01 03:16:22] INFO root fetch - main [MainThread]: End processing [kittycad]: success
 [2023-08-01 03:16:22] INFO root fetch - main [MainThread]: Store serial: [19116111]
+[2023-08-01 03:21:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19116111]
+[2023-08-01 03:21:31] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bardapi
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airtable-pg-sync
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: urdfenvs
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ephfile
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: osu.py
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-sops-secrets
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tccli-intl-en
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syntaxlight
+[2023-08-01 03:21:31] INFO root fetch - processPackages [airtable-pg-sync]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [bardapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ephfile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [osu.py]: New version: [1.0.0] Old Version: [0.6.0]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [urdfenvs]: New version: [0.8.6] Old Version: [0.8.0]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [modal]: New version: [0.50.2834] Old Version: [0.50.2831]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [modal-client]: New version: [0.50.2834] Old Version: [0.50.2831]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-01 03:21:31] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/9c/e7/388b586d2c4a9e07285a125e941be8a4a35248f78d3978b1fc6fb3131f7a/syntaxlight-0.0.8.tar.gz
+[2023-08-01 03:21:31] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b8/25/1f502de0f86f14603d0c4d2311d3506ecec096a4733279a4da70c254e545/modal_client-0.50.2831-py3-none-any.whl
+[2023-08-01 03:21:31] INFO root fetch - processPackages [airtable-pg-sync]: Downloading https://files.pythonhosted.org/packages/c9/91/7877156af39095c64c35a614177798e07278fad0eba298ba1515d1e29d58/airtable_pg_sync-0.0.1.tar.gz
+[2023-08-01 03:21:31] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-08-01 03:21:31] INFO root fetch - processPackages [urdfenvs]: Downloading https://files.pythonhosted.org/packages/50/57/059c6e95ec2f6026ba9eddfb8b859fe5274398af84e777114852ed3cd22f/urdfenvs-0.8.0.tar.gz
+[2023-08-01 03:21:31] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/15/8c/c307da290d06da4e1a9dababf71aef7b155e7ea4f8feacfb03447cecdd15/bardapi-0.1.8.tar.gz
+[2023-08-01 03:21:31] INFO root fetch - processPackages [ephfile]: Downloading https://files.pythonhosted.org/packages/76/7d/5ec215b89148ca61902074285c4d6a0f05a79bf3667e88b2556206580ef4/ephfile-0.0.8.tar.gz
+[2023-08-01 03:21:31] INFO root fetch - processPackages [osu.py]: Downloading https://files.pythonhosted.org/packages/a4/19/b26238be6f86e68d10d92fc3aa439aab81c9aef86c92ab31f6c2bc3c4e2f/osu.py-0.6.0.tar.gz
+[2023-08-01 03:21:31] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/3e/df/c626582d33956d8075247efb36b91a560a74e938cebe4b1743756423b69b/modal-0.50.2831-py3-none-any.whl
+[2023-08-01 03:21:31] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-08-01 03:21:32] INFO root fetch - processPackages [airtable-pg-sync]: Downloading https://files.pythonhosted.org/packages/17/7a/8d18a8d652ee20b064d90cf94d06f99ad1dd76e0d621c73107ee37e76b4b/airtable_pg_sync-0.0.2.tar.gz
+[2023-08-01 03:21:32] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/c9/91/13558ab5b93b1a78bf9a8107609b86f60a4f327572b56938b00d7aea5b31/syntaxlight-0.0.9.tar.gz
+[2023-08-01 03:21:32] INFO root fetch - processPackages [osu.py]: Downloading https://files.pythonhosted.org/packages/35/d6/3cb17c872843027cf574605d1af76c49ae8daa3fd3ff58338153dc37e89b/osu.py-1.0.0.tar.gz
+[2023-08-01 03:21:32] INFO root fetch - processPackages [airtable-pg-sync]: executing diffoscope
+[2023-08-01 03:21:32] INFO root fetch - processPackages [airtable-pg-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtable_pg_sync-0.0.1.tar.gz tmp/airtable_pg_sync-0.0.2.tar.gz --markdown 20230801/a/airtable-pg-sync/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 03:21:32] INFO root fetch - processPackages [bardapi]: Downloading https://files.pythonhosted.org/packages/7d/28/67bed0a690d240036e208efb5d30b83c9d0f46dca1f249b426109f7ee2f4/bardapi-0.1.9.tar.gz
+[2023-08-01 03:21:32] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-01 03:21:32] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.8.tar.gz tmp/syntaxlight-0.0.9.tar.gz --markdown 20230801/s/syntaxlight/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 03:21:32] WARNING root fetch - processPackages [urdfenvs]: Skipping package: exceeds size limit 21183808>=10485760
+[2023-08-01 03:21:32] INFO root fetch - processPackages [urdfenvs]: Start processing: opendrive2tessng
+[2023-08-01 03:21:32] INFO root fetch - main [MainThread]: End processing [urdfenvs] error
+[2023-08-01 03:21:32] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/6e/37/323da3b344864b16913250ce73f46dabd4e5e84419fa2578c2e11264cf83/modal_client-0.50.2834-py3-none-any.whl
+[2023-08-01 03:21:32] INFO root fetch - processPackages [osu.py]: executing diffoscope
+[2023-08-01 03:21:32] INFO root fetch - processPackages [osu.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu.py-0.6.0.tar.gz tmp/osu.py-1.0.0.tar.gz --markdown 20230801/o/osu.py/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 03:21:32] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/3e/36/744fae74cfdb43f1a618145407afbd75d62c3a29cd0a20352c94ff3f39aa/modal-0.50.2834-py3-none-any.whl
+[2023-08-01 03:21:32] INFO root fetch - processPackages [ephfile]: Downloading https://files.pythonhosted.org/packages/57/9e/8ee88e7dec08160c3918a3775e8e7ea2c3b542f72baa3deb1c19ad0e559d/ephfile-0.0.9.tar.gz
+[2023-08-01 03:21:32] INFO root fetch - processPackages [bardapi]: executing diffoscope
+[2023-08-01 03:21:32] INFO root fetch - processPackages [bardapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bardapi-0.1.8.tar.gz tmp/bardapi-0.1.9.tar.gz --markdown 20230801/b/bardapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 03:21:32] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-08-01 03:21:32] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2831-py3-none-any.whl.zip tmp/modal_client-0.50.2834-py3-none-any.whl.zip --markdown 20230801/m/modal-client/0.50.2831-0.50.2834/diff.md --exclude *.pyd
+[2023-08-01 03:21:32] INFO root fetch - processPackages [opendrive2tessng]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-01 03:21:32] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-08-01 03:21:32] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2831-py3-none-any.whl.zip tmp/modal-0.50.2834-py3-none-any.whl.zip --markdown 20230801/m/modal/0.50.2831-0.50.2834/diff.md --exclude *.pyd
+[2023-08-01 03:21:32] INFO root fetch - processPackages [opendrive2tessng]: Downloading https://files.pythonhosted.org/packages/8f/2a/aed4c254e05b7b659cf3d2f64d08a932de38f4737d306352e4f93948b9ee/opendrive2tessng-0.1.5.tar.gz
+[2023-08-01 03:21:32] INFO root fetch - processPackages [ephfile]: executing diffoscope
+[2023-08-01 03:21:32] INFO root fetch - processPackages [ephfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephfile-0.0.8.tar.gz tmp/ephfile-0.0.9.tar.gz --markdown 20230801/e/ephfile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 03:21:32] INFO root fetch - processPackages [opendrive2tessng]: Downloading https://files.pythonhosted.org/packages/27/8d/60c6b86f39e1a172afa4d8a9bbeb4c3cd729166aa4b844ebcf9b4ea991c5/opendrive2tessng-0.1.6.tar.gz
+[2023-08-01 03:21:33] INFO root fetch - processPackages [opendrive2tessng]: executing diffoscope
+[2023-08-01 03:21:33] INFO root fetch - processPackages [opendrive2tessng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendrive2tessng-0.1.5.tar.gz tmp/opendrive2tessng-0.1.6.tar.gz --markdown 20230801/o/opendrive2tessng/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-01 03:21:33] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-08-01 03:21:33] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-08-01 03:21:33] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.8.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.9.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [syntaxlight]: Start processing: chromadb-client
+[2023-08-01 03:21:33] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-01 03:21:33] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.8.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [bardapi]: Remove: archive file [/home/abi/fetcher/tmp/bardapi-0.1.9.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - main [MainThread]: End processing [bardapi]: success
+[2023-08-01 03:21:33] INFO root fetch - processPackages [airtable-pg-sync]: Remove: archive file [/home/abi/fetcher/tmp/airtable_pg_sync-0.0.1.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [airtable-pg-sync]: Remove: archive file [/home/abi/fetcher/tmp/airtable_pg_sync-0.0.2.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - main [MainThread]: End processing [airtable-pg-sync]: success
+[2023-08-01 03:21:33] INFO root fetch - processPackages [ephfile]: Remove: archive file [/home/abi/fetcher/tmp/ephfile-0.0.8.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [ephfile]: Remove: archive file [/home/abi/fetcher/tmp/ephfile-0.0.9.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - main [MainThread]: End processing [ephfile]: success
+[2023-08-01 03:21:33] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2831-py3-none-any.whl.zip]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2834-py3-none-any.whl.zip]
+[2023-08-01 03:21:33] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-08-01 03:21:33] INFO root fetch - processPackages [chromadb-client]: New version: [0.4.5.dev0] Old Version: [0.4.4.dev0]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [osu.py]: Remove: archive file [/home/abi/fetcher/tmp/osu.py-0.6.0.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - processPackages [osu.py]: Remove: archive file [/home/abi/fetcher/tmp/osu.py-1.0.0.tar.gz]
+[2023-08-01 03:21:33] INFO root fetch - main [MainThread]: End processing [osu.py]: success
+[2023-08-01 03:21:34] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-08-01 03:21:34] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230801/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-08-01 03:21:34] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-08-01 03:21:34] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230801/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-01 03:21:34] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/1c/ed/4503d8fbd80d6fdbc8e2a73fc6426fef99cb904d2151c57eb1fc94e5c07a/chromadb-client-0.4.4.dev0.tar.gz
+[2023-08-01 03:21:34] INFO root fetch - processPackages [opendrive2tessng]: Remove: archive file [/home/abi/fetcher/tmp/opendrive2tessng-0.1.5.tar.gz]
+[2023-08-01 03:21:34] INFO root fetch - processPackages [opendrive2tessng]: Remove: archive file [/home/abi/fetcher/tmp/opendrive2tessng-0.1.6.tar.gz]
+[2023-08-01 03:21:34] INFO root fetch - main [MainThread]: End processing [opendrive2tessng]: success
+[2023-08-01 03:21:34] INFO root fetch - processPackages [chromadb-client]: Downloading https://files.pythonhosted.org/packages/6c/ca/58b147600679b1917afe48b3266f906f6ebbba0640cf7a5b931f3a5840fe/chromadb-client-0.4.5.dev0.tar.gz
+[2023-08-01 03:21:34] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2831-py3-none-any.whl.zip]
+[2023-08-01 03:21:34] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2834-py3-none-any.whl.zip]
+[2023-08-01 03:21:34] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-08-01 03:21:34] INFO root fetch - processPackages [chromadb-client]: executing diffoscope
+[2023-08-01 03:21:34] INFO root fetch - processPackages [chromadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromadb-client-0.4.4.dev0.tar.gz tmp/chromadb-client-0.4.5.dev0.tar.gz --markdown 20230801/c/chromadb-client/0.4.4.dev0-0.4.5.dev0/diff.md --exclude *.pyd
+[2023-08-01 03:21:35] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-08-01 03:21:35] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-08-01 03:21:35] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-08-01 03:21:36] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.4.dev0.tar.gz]
+[2023-08-01 03:21:36] INFO root fetch - processPackages [chromadb-client]: Remove: archive file [/home/abi/fetcher/tmp/chromadb-client-0.4.5.dev0.tar.gz]
+[2023-08-01 03:21:36] INFO root fetch - main [MainThread]: End processing [chromadb-client]: success
+[2023-08-01 03:21:36] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-08-01 03:21:36] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-08-01 03:21:36] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-08-01 03:21:36] INFO root fetch - main [MainThread]: Store serial: [19116144]
