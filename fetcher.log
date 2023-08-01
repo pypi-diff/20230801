@@ -20405,3 +20405,147 @@
 [2023-08-01 12:43:13] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-1.2.0-cp37-abi3-win_amd64.whl.zip]
 [2023-08-01 12:43:13] INFO root fetch - main [MainThread]: End processing [ezkl]: success
 [2023-08-01 12:43:13] INFO root fetch - main [MainThread]: Store serial: [19122220]
+[2023-08-01 12:48:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122220]
+[2023-08-01 12:48:23] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: horizon
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyTermTk
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: list-packages
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blob-mounting-helper-utility
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ttkDesigner
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyveb
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skillbridge
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: http-stream-xml
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-confluentcloud
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: toucan-connectors
+[2023-08-01 12:48:23] INFO root fetch - processPackages [list-packages]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-01 12:48:23] INFO root fetch - processPackages [horizon]: New version: [23.2.0] Old Version: [23.1.0]
+[2023-08-01 12:48:23] INFO root fetch - processPackages [http-stream-xml]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-08-01 12:48:23] INFO root fetch - processPackages [pyTermTk]: New version: [0.9.0a62] Old Version: [0.9.0a56]
+[2023-08-01 12:48:23] INFO root fetch - processPackages [ttkDesigner]: New version: [0.30.0a9] Old Version: [0.30.0a80]
+[2023-08-01 12:48:23] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-01 12:48:23] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-08-01 12:48:23] INFO root fetch - processPackages [skillbridge]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pyveb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 12:48:24] INFO root fetch - processPackages [toucan-connectors]: New version: [4.7.2] Old Version: [4.7.1]
+[2023-08-01 12:48:24] INFO root fetch - processPackages [list-packages]: Downloading https://files.pythonhosted.org/packages/84/bc/6fbd3c89f13ce0b520fa050aa73cda4e03415dd83a1e917f91309102fbc6/list_packages-1.0.1.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [http-stream-xml]: Downloading https://files.pythonhosted.org/packages/24/0a/e90a462581dc9b190fb17fe8cdc02d568eb8040893685936f98baf5f12a2/http-stream-xml-1.3.7.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/ce/d1/f9d066c00dec8001310ed7d2ea8675a345ede9aeb5baa51b455c14bc0ab5/blob_mounting_helper_utility-1.0.5.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/ea/2f/174227242d2274adba802b547e3daef18676b1c15d746e911be85fff3fcd/ttkDesigner-0.30.0a80.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [horizon]: Downloading https://files.pythonhosted.org/packages/29/55/e0fa982a45b95f395554c8458c4a4f78d7b149329c82ce292f442f674964/horizon-23.1.0.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/75/5c/de0a01268aca4e293afd0f3034da418a422a4063208fe6a2d89fa1efc89e/pyTermTk-0.9.0a56.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [skillbridge]: Downloading https://files.pythonhosted.org/packages/a1/6b/3fd75d1a8499e7979c64c168bdb41758c2eaeecea10045f9084285a77819/skillbridge-1.5.0.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pyveb]: Downloading https://files.pythonhosted.org/packages/31/53/d0dee2a1c9519b1039d766d51f473ea566de2d0c1eae2a596c6c33b32fd0/pyveb-0.2.8.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/45/5f/84d81227ad09c241ecf9095ae55a163f0daf5d8e3e3deb315e1c627a1803/toucan_connectors-4.7.1.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [list-packages]: Downloading https://files.pythonhosted.org/packages/8f/2a/a22d2ea764dd553e73238b9b999e85e96177e503769cb38824b546abd9a9/list_packages-1.0.2.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [http-stream-xml]: Downloading https://files.pythonhosted.org/packages/1c/eb/bd809ddded765ec0e84b079ec36240fcb09e870249548222bac30de95b40/http-stream-xml-1.3.8.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230801/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-08-01 12:48:24] INFO root fetch - processPackages [http-stream-xml]: executing diffoscope
+[2023-08-01 12:48:24] INFO root fetch - processPackages [http-stream-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http-stream-xml-1.3.7.tar.gz tmp/http-stream-xml-1.3.8.tar.gz --markdown 20230801/h/http-stream-xml/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-08-01 12:48:24] INFO root fetch - processPackages [list-packages]: executing diffoscope
+[2023-08-01 12:48:24] INFO root fetch - processPackages [list-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_packages-1.0.1.tar.gz tmp/list_packages-1.0.2.tar.gz --markdown 20230801/l/list-packages/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-01 12:48:24] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/3b/b2/bff7dfaee12af679f35b6ac828f05a564f5da99bf1dd4c66e1e7f89b76f0/blob_mounting_helper_utility-1.0.6.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [skillbridge]: Downloading https://files.pythonhosted.org/packages/00/5f/4d3aeb757d98219fe0c16d49a547575087baa44bca14d4c7cdc2ef0af926/skillbridge-1.5.1.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [pyveb]: Downloading https://files.pythonhosted.org/packages/dc/17/d67a53eaaf71aba7ee0c68ae51fd4338d20d6979b5cf8e8c74c5c886429e/pyveb-0.2.9.tar.gz
+[2023-08-01 12:48:24] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-08-01 12:48:24] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.5.tar.gz tmp/blob_mounting_helper_utility-1.0.6.tar.gz --markdown 20230801/b/blob-mounting-helper-utility/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-01 12:48:24] INFO root fetch - processPackages [skillbridge]: executing diffoscope
+[2023-08-01 12:48:24] INFO root fetch - processPackages [skillbridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillbridge-1.5.0.tar.gz tmp/skillbridge-1.5.1.tar.gz --markdown 20230801/s/skillbridge/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-08-01 12:48:24] INFO root fetch - processPackages [ttkDesigner]: Downloading https://files.pythonhosted.org/packages/20/bf/decece217929435b3fb030643261fdbb9926eab002727530b14fec645a11/ttkDesigner-0.30.0a9.tar.gz
+[2023-08-01 12:48:25] INFO root fetch - processPackages [pyveb]: executing diffoscope
+[2023-08-01 12:48:25] INFO root fetch - processPackages [pyveb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyveb-0.2.8.tar.gz tmp/pyveb-0.2.9.tar.gz --markdown 20230801/p/pyveb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 12:48:25] INFO root fetch - processPackages [ttkDesigner]: executing diffoscope
+[2023-08-01 12:48:25] INFO root fetch - processPackages [ttkDesigner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttkDesigner-0.30.0a80.tar.gz tmp/ttkDesigner-0.30.0a9.tar.gz --markdown 20230801/t/ttkDesigner/0.30.0a80-0.30.0a9/diff.md --exclude *.pyd
+[2023-08-01 12:48:25] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/05/bd/fe036dd7372cea97065d98f1d5d8c3f6453fa7fcb653d07550c359f9a113/pyTermTk-0.9.0a62.tar.gz
+[2023-08-01 12:48:25] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/74/fc/98404b9ea6e6ea97685ccb00abab95bf2e1d6adce9c72dbd992caa0740a5/toucan_connectors-4.7.2.tar.gz
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pyTermTk]: executing diffoscope
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pyTermTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermTk-0.9.0a56.tar.gz tmp/pyTermTk-0.9.0a62.tar.gz --markdown 20230801/p/pyTermTk/0.9.0a56-0.9.0a62/diff.md --exclude *.pyd
+[2023-08-01 12:48:26] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2023-08-01 12:48:26] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-4.7.1.tar.gz tmp/toucan_connectors-4.7.2.tar.gz --markdown 20230801/t/toucan-connectors/4.7.1-4.7.2/diff.md --exclude *.pyd
+[2023-08-01 12:48:26] INFO root fetch - processPackages [list-packages]: Remove: archive file [/home/abi/fetcher/tmp/list_packages-1.0.1.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [list-packages]: Remove: archive file [/home/abi/fetcher/tmp/list_packages-1.0.2.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [list-packages]: Start processing: gytoolkit
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [list-packages]: success
+[2023-08-01 12:48:26] INFO root fetch - processPackages [gytoolkit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.5.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.6.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [blob-mounting-helper-utility]: Start processing: sqlx-exec
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-08-01 12:48:26] INFO root fetch - processPackages [http-stream-xml]: Remove: archive file [/home/abi/fetcher/tmp/http-stream-xml-1.3.7.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [http-stream-xml]: Remove: archive file [/home/abi/fetcher/tmp/http-stream-xml-1.3.8.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [http-stream-xml]: Start processing: mdit-py-hugo
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [http-stream-xml]: success
+[2023-08-01 12:48:26] INFO root fetch - processPackages [sqlx-exec]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-08-01 12:48:26] WARNING root fetch - processPackages [mdit-py-hugo]: Skipping, unable to determine old version
+[2023-08-01 12:48:26] INFO root fetch - processPackages [mdit-py-hugo]: Start processing: blob-mounting-helper-utility
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [mdit-py-hugo] error
+[2023-08-01 12:48:26] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/eb/b4/ec116bb670978b5b0673ee7608045eca544c7089a4cd67f25a817bfedab2/gytoolkit-0.1.0.tar.gz
+[2023-08-01 12:48:26] INFO root fetch - processPackages [blob-mounting-helper-utility]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/fb/0e/b11ee7b89601d65f5e08721740bddfdcf8f836c46061aa1250084b259d1f/sqlx-exec-1.4.2.tar.gz
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pulumi-confluentcloud]: Start processing: fbnlab-preview
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-08-01 12:48:26] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/ce/d1/f9d066c00dec8001310ed7d2ea8675a345ede9aeb5baa51b455c14bc0ab5/blob_mounting_helper_utility-1.0.5.tar.gz
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pyveb]: Remove: archive file [/home/abi/fetcher/tmp/pyveb-0.2.8.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [skillbridge]: Remove: archive file [/home/abi/fetcher/tmp/skillbridge-1.5.0.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [fbnlab-preview]: New version: [0.1.8] Old Version: [0.1.70]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pyveb]: Remove: archive file [/home/abi/fetcher/tmp/pyveb-0.2.9.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [skillbridge]: Remove: archive file [/home/abi/fetcher/tmp/skillbridge-1.5.1.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [pyveb]: Start processing: tortoise-api
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [pyveb]: success
+[2023-08-01 12:48:26] INFO root fetch - processPackages [skillbridge]: Start processing: ape-linea
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [skillbridge]: success
+[2023-08-01 12:48:26] INFO root fetch - processPackages [gytoolkit]: Downloading https://files.pythonhosted.org/packages/de/73/e52b8366f3ebd8c3947f45bc76f0c6895ab3c43a5882f06abc99c20c3f2c/gytoolkit-0.2.0.tar.gz
+[2023-08-01 12:48:26] INFO root fetch - processPackages [ttkDesigner]: Remove: archive file [/home/abi/fetcher/tmp/ttkDesigner-0.30.0a80.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - processPackages [ttkDesigner]: Remove: archive file [/home/abi/fetcher/tmp/ttkDesigner-0.30.0a9.tar.gz]
+[2023-08-01 12:48:26] INFO root fetch - main [MainThread]: End processing [ttkDesigner]: success
+[2023-08-01 12:48:27] INFO root fetch - processPackages [blob-mounting-helper-utility]: Downloading https://files.pythonhosted.org/packages/3b/b2/bff7dfaee12af679f35b6ac828f05a564f5da99bf1dd4c66e1e7f89b76f0/blob_mounting_helper_utility-1.0.6.tar.gz
+[2023-08-01 12:48:27] WARNING root fetch - processPackages [ape-linea]: Skipping, unable to determine old version
+[2023-08-01 12:48:27] INFO root fetch - main [MainThread]: End processing [ape-linea] error
+[2023-08-01 12:48:27] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/64/a2/366bd39cd393dae9c88b43aee3453bf5cdaae51cec797418211ac095a637/fbnlab_preview-0.1.70-py3-none-any.whl
+[2023-08-01 12:48:27] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/d0/74/f0ad5edaddecad82a047896016c887f5441447181bda1f640c9be6f2984a/sqlx-exec-1.4.3.tar.gz
+[2023-08-01 12:48:27] INFO root fetch - processPackages [gytoolkit]: executing diffoscope
+[2023-08-01 12:48:27] INFO root fetch - processPackages [gytoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gytoolkit-0.1.0.tar.gz tmp/gytoolkit-0.2.0.tar.gz --markdown 20230801/g/gytoolkit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:48:27] INFO root fetch - processPackages [horizon]: Downloading https://files.pythonhosted.org/packages/d9/29/e9c85ea96ffa2cf7e6afe2b858af8cd9f76fb61b65e7449da94c21e99ee0/horizon-23.2.0.tar.gz
+[2023-08-01 12:48:27] INFO root fetch - processPackages [tortoise-api]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-01 12:48:27] INFO root fetch - processPackages [blob-mounting-helper-utility]: executing diffoscope
+[2023-08-01 12:48:27] INFO root fetch - processPackages [blob-mounting-helper-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blob_mounting_helper_utility-1.0.5.tar.gz tmp/blob_mounting_helper_utility-1.0.6.tar.gz --markdown 20230801/b/blob-mounting-helper-utility/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-01 12:48:27] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2023-08-01 12:48:27] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-1.4.2.tar.gz tmp/sqlx-exec-1.4.3.tar.gz --markdown 20230801/s/sqlx-exec/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-08-01 12:48:27] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/ee/38/eee8043b2f12aa3fd5bc7056134743f0ec33d15a7cae65819ca7a3eb3ed8/tortoise-api-0.2.4.tar.gz
+[2023-08-01 12:48:27] INFO root fetch - processPackages [horizon]: executing diffoscope
+[2023-08-01 12:48:27] INFO root fetch - processPackages [horizon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horizon-23.1.0.tar.gz tmp/horizon-23.2.0.tar.gz --markdown 20230801/h/horizon/23.1.0-23.2.0/diff.md --exclude *.pyd
+[2023-08-01 12:48:27] INFO root fetch - processPackages [fbnlab-preview]: Downloading https://files.pythonhosted.org/packages/d7/3a/47c89e574c39c0662e1815320fe44c7232deaec9dfc8f45c9607f9d1f0fb/fbnlab_preview-0.1.8-py3-none-any.whl
+[2023-08-01 12:48:27] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/16/f0/212c40c6135335fcd95eadba5f9b675584ba241d93c3430997d5c5be76c6/tortoise-api-0.2.5.tar.gz
+[2023-08-01 12:48:27] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-08-01 12:48:27] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.2.4.tar.gz tmp/tortoise-api-0.2.5.tar.gz --markdown 20230801/t/tortoise-api/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-01 12:48:28] INFO root fetch - processPackages [pyTermTk]: Remove: archive file [/home/abi/fetcher/tmp/pyTermTk-0.9.0a56.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - processPackages [pyTermTk]: Remove: archive file [/home/abi/fetcher/tmp/pyTermTk-0.9.0a62.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
+[2023-08-01 12:48:28] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.1.0.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - processPackages [gytoolkit]: Remove: archive file [/home/abi/fetcher/tmp/gytoolkit-0.2.0.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - processPackages [fbnlab-preview]: executing diffoscope
+[2023-08-01 12:48:28] INFO root fetch - processPackages [fbnlab-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnlab_preview-0.1.70-py3-none-any.whl.zip tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip --markdown 20230801/f/fbnlab-preview/0.1.70-0.1.8/diff.md --exclude *.pyd
+[2023-08-01 12:48:28] INFO root fetch - main [MainThread]: End processing [gytoolkit]: success
+[2023-08-01 12:48:28] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.5.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - processPackages [blob-mounting-helper-utility]: Remove: archive file [/home/abi/fetcher/tmp/blob_mounting_helper_utility-1.0.6.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - main [MainThread]: End processing [blob-mounting-helper-utility]: success
+[2023-08-01 12:48:28] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.2.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-1.4.3.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2023-08-01 12:48:28] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-4.7.1.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-4.7.2.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2023-08-01 12:48:28] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.4.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.2.5.tar.gz]
+[2023-08-01 12:48:28] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-08-01 12:48:29] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.70-py3-none-any.whl.zip]
+[2023-08-01 12:48:29] INFO root fetch - processPackages [fbnlab-preview]: Remove: archive file [/home/abi/fetcher/tmp/fbnlab_preview-0.1.8-py3-none-any.whl.zip]
+[2023-08-01 12:48:29] INFO root fetch - main [MainThread]: End processing [fbnlab-preview]: success
+[2023-08-01 12:49:03] INFO root fetch - processPackages [horizon]: Remove: archive file [/home/abi/fetcher/tmp/horizon-23.1.0.tar.gz]
+[2023-08-01 12:49:03] INFO root fetch - processPackages [horizon]: Remove: archive file [/home/abi/fetcher/tmp/horizon-23.2.0.tar.gz]
+[2023-08-01 12:49:03] INFO root fetch - main [MainThread]: End processing [horizon]: success
+[2023-08-01 12:49:03] INFO root fetch - main [MainThread]: Store serial: [19122275]
