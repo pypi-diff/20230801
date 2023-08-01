@@ -11308,3 +11308,108 @@
 [2023-08-01 05:15:17] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230801.tar.gz]
 [2023-08-01 05:15:17] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-08-01 05:15:17] INFO root fetch - main [MainThread]: Store serial: [19117954]
+[2023-08-01 05:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117954]
+[2023-08-01 05:20:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hci-framework
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liangutil
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: IMALogger
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktransformer
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sentinel-protobuf
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ploomes-api-client
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-ecd20200930
+[2023-08-01 05:20:26] INFO root fetch - processPackages [hci-framework]: New version: [0.1a4] Old Version: [0.1a3]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [liangutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [sentinel-protobuf]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [IMALogger]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 05:20:26] WARNING root fetch - processPackages [linktransformer]: Skipping, unable to determine old version
+[2023-08-01 05:20:26] INFO root fetch - processPackages [linktransformer]: Start processing: alibabacloud-btripopen20220520
+[2023-08-01 05:20:26] INFO root fetch - main [MainThread]: End processing [linktransformer] error
+[2023-08-01 05:20:26] INFO root fetch - processPackages [alibabacloud-ecd20200930]: New version: [2.0.7] Old Version: [2.0.16]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [selenium]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [pih]: New version: [1.48023] Old Version: [1.48022]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-01 05:20:26] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/c6/f2/ebb4d6169668332ff1c0fa31815f31f5f81c66569eac7d662c50acae04cc/pih-1.48022.tar.gz
+[2023-08-01 05:20:26] INFO root fetch - processPackages [selenium]: Downloading https://files.pythonhosted.org/packages/f6/35/3c910146da7f0f96602bec4463727f312f0c838220f0725232674b242df5/selenium-4.9.0.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/c9/b6/f59d1053a20a66a24220a26dbe08f64588bf32d81d28b58349d304f2bc08/hci-framework-0.1a3.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/2a/3b/9758dde93ad30785dcb57ef45405a5d79d945c414818efb428aed335be96/IMALogger-0.0.4.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Downloading https://files.pythonhosted.org/packages/42/19/4833577e80f6e5c609aeca230e125efbaf643067bf4def139d515498cbd2/alibabacloud_ecd20200930-2.0.16.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/df/71/00351343d592685a94483cb1c062b57f0935ed2beb95d26351c73065530b/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/1e/45/c0457371536ab2a5778ed8fe882d9661df935026d305a1619523d0f14c4c/liangutil-0.0.8.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/83/b0/a83f7a4809b09757f8ecbf6e6391da233c287386288d5253ecb72a21a97d/sentinel_protobuf-0.3.0.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/62/a8/e0ea5ef8ce0764fc5bedb94233fa72b112e5a1ee8178f6d2d3c952d2799a/ploomes-api-client-0.1.8.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/de/98/73d05a28563088141efbde506f59660d05d8ff2d2909b19659857aeae99b/alibabacloud_btripopen20220520-1.1.8.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/c8/05/830839a9f684b6cf1c7d3c4589d0a84f23c9b2a0b9c7f13cf4f54ffa8d29/pih-1.48023.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [liangutil]: Downloading https://files.pythonhosted.org/packages/81/f2/5a80148b22f1715b581afed419270d00746350a916a570742b4b32c3af8c/liangutil-0.0.9.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/45/bb/bde80949695da61ededa0597d7ddadb0ec652b26252e61e97727130da792/alibabacloud_btripopen20220520-1.1.9.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Downloading https://files.pythonhosted.org/packages/a5/19/52b22502aa2057b16cba160b800f096bc7a4f1baedbc1c8b3d7921e09597/alibabacloud_ecd20200930-2.0.7.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/b4/6b/743a648b12799384cf62bfe8697bb0059e4137fc12fc39629456241667b4/IMALogger-0.0.5.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/de/7f/d1984a0139f442269509902b04706ce5dad27438b29f0aa3590236df27c5/sentinel_protobuf-0.3.1.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/17/2f/b1114b5515489315daea25d9c2eaf4226b72feaf0ab33a369c0f381ce001/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/d7/39/7efabf72e3c56b14fc4fcf70038c8fe61a02cb641a68807b976fa574de67/ploomes-api-client-0.1.9.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/da/4f/79fe0677cfb08383e67a8295e22a63e6e73cae838f8365b9b5b6e195a57c/hci-framework-0.1a4.tar.gz
+[2023-08-01 05:20:27] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48022.tar.gz tmp/pih-1.48023.tar.gz --markdown 20230801/p/pih/1.48022-1.48023/diff.md --exclude *.pyd
+[2023-08-01 05:20:27] INFO root fetch - processPackages [liangutil]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [liangutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liangutil-0.0.8.tar.gz tmp/liangutil-0.0.9.tar.gz --markdown 20230801/l/liangutil/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz --markdown 20230801/a/alibabacloud-btripopen20220520/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-ecd20200930]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-ecd20200930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecd20200930-2.0.16.tar.gz tmp/alibabacloud_ecd20200930-2.0.7.tar.gz --markdown 20230801/a/alibabacloud-ecd20200930/2.0.16-2.0.7/diff.md --exclude *.pyd
+[2023-08-01 05:20:27] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.8.tar.gz tmp/ploomes-api-client-0.1.9.tar.gz --markdown 20230801/p/ploomes-api-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz --markdown 20230801/a/alibabacloud-btripopen20220520-py2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-01 05:20:27] INFO root fetch - processPackages [sentinel-protobuf]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [sentinel-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_protobuf-0.3.0.tar.gz tmp/sentinel_protobuf-0.3.1.tar.gz --markdown 20230801/s/sentinel-protobuf/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-01 05:20:27] INFO root fetch - processPackages [IMALogger]: executing diffoscope
+[2023-08-01 05:20:27] INFO root fetch - processPackages [IMALogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMALogger-0.0.4.tar.gz tmp/IMALogger-0.0.5.tar.gz --markdown 20230801/I/IMALogger/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 05:20:28] INFO root fetch - processPackages [selenium]: Downloading https://files.pythonhosted.org/packages/fd/e2/0e5bee6762a7bf7852b47a79c5b12f9e526e6962958dbb9719fa490ba24c/selenium-4.9.1.tar.gz
+[2023-08-01 05:20:29] INFO root fetch - processPackages [hci-framework]: executing diffoscope
+[2023-08-01 05:20:29] INFO root fetch - processPackages [hci-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hci-framework-0.1a3.tar.gz tmp/hci-framework-0.1a4.tar.gz --markdown 20230801/h/hci-framework/0.1a3-0.1a4/diff.md --exclude *.pyd
+[2023-08-01 05:20:29] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48022.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48023.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [pih]: Start processing: IMALogger
+[2023-08-01 05:20:29] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 05:20:29] INFO root fetch - processPackages [IMALogger]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.8.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [liangutil]: Remove: archive file [/home/abi/fetcher/tmp/liangutil-0.0.9.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - main [MainThread]: End processing [liangutil]: success
+[2023-08-01 05:20:29] INFO root fetch - processPackages [IMALogger]: Remove: archive file [/home/abi/fetcher/tmp/IMALogger-0.0.4.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [IMALogger]: Remove: archive file [/home/abi/fetcher/tmp/IMALogger-0.0.5.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - main [MainThread]: End processing [IMALogger]: success
+[2023-08-01 05:20:29] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/2a/3b/9758dde93ad30785dcb57ef45405a5d79d945c414818efb428aed335be96/IMALogger-0.0.4.tar.gz
+[2023-08-01 05:20:29] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.8.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.9.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-08-01 05:20:29] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecd20200930-2.0.16.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecd20200930-2.0.7.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecd20200930]: success
+[2023-08-01 05:20:29] INFO root fetch - processPackages [IMALogger]: Downloading https://files.pythonhosted.org/packages/b4/6b/743a648b12799384cf62bfe8697bb0059e4137fc12fc39629456241667b4/IMALogger-0.0.5.tar.gz
+[2023-08-01 05:20:29] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.8.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.1.9.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-08-01 05:20:29] INFO root fetch - processPackages [IMALogger]: executing diffoscope
+[2023-08-01 05:20:29] INFO root fetch - processPackages [IMALogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IMALogger-0.0.4.tar.gz tmp/IMALogger-0.0.5.tar.gz --markdown 20230801/I/IMALogger/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 05:20:29] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.8.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.1.9.tar.gz]
+[2023-08-01 05:20:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-08-01 05:20:30] INFO root fetch - processPackages [IMALogger]: Remove: archive file [/home/abi/fetcher/tmp/IMALogger-0.0.4.tar.gz]
+[2023-08-01 05:20:30] INFO root fetch - processPackages [IMALogger]: Remove: archive file [/home/abi/fetcher/tmp/IMALogger-0.0.5.tar.gz]
+[2023-08-01 05:20:30] INFO root fetch - main [MainThread]: End processing [IMALogger]: success
+[2023-08-01 05:20:31] INFO root fetch - processPackages [selenium]: executing diffoscope
+[2023-08-01 05:20:31] INFO root fetch - processPackages [selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-4.9.0.tar.gz tmp/selenium-4.9.1.tar.gz --markdown 20230801/s/selenium/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-08-01 05:20:32] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.3.0.tar.gz]
+[2023-08-01 05:20:32] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.3.1.tar.gz]
+[2023-08-01 05:20:32] INFO root fetch - main [MainThread]: End processing [sentinel-protobuf]: success
+[2023-08-01 05:20:33] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a3.tar.gz]
+[2023-08-01 05:20:33] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a4.tar.gz]
+[2023-08-01 05:20:33] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
+[2023-08-01 05:20:34] INFO root fetch - processPackages [selenium]: Remove: archive file [/home/abi/fetcher/tmp/selenium-4.9.0.tar.gz]
+[2023-08-01 05:20:34] INFO root fetch - processPackages [selenium]: Remove: archive file [/home/abi/fetcher/tmp/selenium-4.9.1.tar.gz]
+[2023-08-01 05:20:34] INFO root fetch - main [MainThread]: End processing [selenium]: success
+[2023-08-01 05:20:34] INFO root fetch - main [MainThread]: Store serial: [19117992]
