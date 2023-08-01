@@ -14378,3 +14378,108 @@
 [2023-08-01 08:08:47] INFO root fetch - processPackages [aespark]: Remove: archive file [/home/abi/fetcher/tmp/aespark-0.0.5.tar.gz]
 [2023-08-01 08:08:47] INFO root fetch - main [MainThread]: End processing [aespark]: success
 [2023-08-01 08:08:47] INFO root fetch - main [MainThread]: Store serial: [19119242]
+[2023-08-01 08:13:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119242]
+[2023-08-01 08:13:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pykoi
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-calendar
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-grafana
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-html-cn
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: namekoplus
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Warg
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-image
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: devpack
+[2023-08-01 08:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Apppath
+[2023-08-01 08:13:58] INFO root fetch - processPackages [pykoi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 08:13:58] INFO root fetch - processPackages [devpack]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-01 08:13:59] WARNING root fetch - processPackages [pytest-html-cn]: Skipping, unable to determine old version
+[2023-08-01 08:13:59] INFO root fetch - processPackages [pytest-html-cn]: Start processing: Draugr
+[2023-08-01 08:13:59] INFO root fetch - main [MainThread]: End processing [pytest-html-cn] error
+[2023-08-01 08:13:59] INFO root fetch - processPackages [namekoplus]: New version: [0.4.4] Old Version: [0.4.1]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [streamlit-calendar]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Apppath]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Warg]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Draugr]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230801] Old Version: [2.4.0.dev20230731]
+[2023-08-01 08:13:59] INFO root fetch - processPackages [pykoi]: Downloading https://files.pythonhosted.org/packages/f1/8b/cc49a0d056270e3e1d65a0d537815c0092108a777e94ecd2d28b455955bd/pykoi-0.0.1.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [devpack]: Downloading https://files.pythonhosted.org/packages/e2/56/e4cac4871fe5b7b6ca94d072e7ecba5b942aa9be847738e7774fc299c9e0/devpack-0.0.7.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Apppath]: Downloading https://files.pythonhosted.org/packages/f9/6e/401b49400cdae14fd690d85116fbac3077af49bc0f3ea913af4b344e338a/Apppath-1.0.2.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [streamlit-calendar]: Downloading https://files.pythonhosted.org/packages/71/23/e7e6a83c779fd459c3c2689b642df430108e6d603a20aa166ba068f205ad/streamlit_calendar-0.2.0.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/60/55/7fc020a9990969ea052207878f371444a480f48a1ae034409d663660c02f/namekoplus-0.4.1.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/6c/49/8906e95df82e57dfe2ef8ec3a8f544e3f5f2bf1c9b16932b2ac00c083640/Warg-1.1.7.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/08/4a/4983fe97d4073731fd1258ffef45d7770c72f1de7244a05cdfe1bb68d3b0/cdk8s-image-0.2.98.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Draugr]: Downloading https://files.pythonhosted.org/packages/99/ba/dbc0087fe67eac6671bb921ba21f347b76f9fd7283cb8cce32f2c36abf0d/Draugr-1.0.8.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/62/61/f4f049198497039c1ba064659a07cfac0d05af9b3e7b5c5e9e64e02eac45/pyg_nightly-2.4.0.dev20230731.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [pykoi]: Downloading https://files.pythonhosted.org/packages/89/62/2fa2c5ee18936f7d2a359e2fa0be77b31f2dfe199d067650b198454de5a6/pykoi-0.0.2.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Apppath]: Downloading https://files.pythonhosted.org/packages/e7/cb/d931ee48c388af3b4f1bd699eb31d09221ba63237ab26326b7a06d56e474/Apppath-1.0.3.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [devpack]: Downloading https://files.pythonhosted.org/packages/06/9e/cfe7b7bb543ed7719427422cb322de029ddf72173285a6c44dde3489fe07/devpack-0.0.8.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/11/9a/e16c59ad87f413d7e58c927bd714b35aaef5cd8ad5858ce0dd22586bff2f/Warg-1.1.8.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [streamlit-calendar]: Downloading https://files.pythonhosted.org/packages/73/fb/688e55d9eca122501fa257e2288979eaf9c7d277818ac330585bd945c05c/streamlit_calendar-0.3.0.tar.gz
+[2023-08-01 08:13:59] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/90/e0/a9fac96c242eaa6e129fd8fd78d188a3fd12e02c7e17d52ffe7882c14936/namekoplus-0.4.4.tar.gz
+[2023-08-01 08:14:00] INFO root fetch - processPackages [pykoi]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [pykoi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykoi-0.0.1.tar.gz tmp/pykoi-0.0.2.tar.gz --markdown 20230801/p/pykoi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [Apppath]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [Apppath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Apppath-1.0.2.tar.gz tmp/Apppath-1.0.3.tar.gz --markdown 20230801/A/Apppath/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [cdk8s-image]: Downloading https://files.pythonhosted.org/packages/fb/19/ce87f85995849eec0b27665fe8c6c59e225f2d99370b1c068893ad31c698/cdk8s-image-0.2.99.tar.gz
+[2023-08-01 08:14:00] INFO root fetch - processPackages [devpack]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [devpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devpack-0.0.7.tar.gz tmp/devpack-0.0.8.tar.gz --markdown 20230801/d/devpack/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.1.7.tar.gz tmp/Warg-1.1.8.tar.gz --markdown 20230801/W/Warg/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-08-01 08:14:00] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.1.tar.gz tmp/namekoplus-0.4.4.tar.gz --markdown 20230801/n/namekoplus/0.4.1-0.4.4/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [Draugr]: Downloading https://files.pythonhosted.org/packages/95/95/3b6effd9b7ca446eca70cbdeb75ef1472c9fc76be7f29980ea17a982f18e/Draugr-1.0.9.tar.gz
+[2023-08-01 08:14:00] INFO root fetch - processPackages [streamlit-calendar]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [streamlit-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_calendar-0.2.0.tar.gz tmp/streamlit_calendar-0.3.0.tar.gz --markdown 20230801/s/streamlit-calendar/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230801/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d0/6f/b6bab47e1ba215a87609452db170beb41e25133139196ea0d9b7f544b864/pyg_nightly-2.4.0.dev20230801.tar.gz
+[2023-08-01 08:14:00] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230801/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [Draugr]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [Draugr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Draugr-1.0.8.tar.gz tmp/Draugr-1.0.9.tar.gz --markdown 20230801/D/Draugr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-01 08:14:00] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-01 08:14:00] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230731.tar.gz tmp/pyg_nightly-2.4.0.dev20230801.tar.gz --markdown 20230801/p/pyg-nightly/2.4.0.dev20230731-2.4.0.dev20230801/diff.md --exclude *.pyd
+[2023-08-01 08:14:01] INFO root fetch - processPackages [Apppath]: Remove: archive file [/home/abi/fetcher/tmp/Apppath-1.0.2.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - processPackages [Apppath]: Remove: archive file [/home/abi/fetcher/tmp/Apppath-1.0.3.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - processPackages [Apppath]: Start processing: cdk8s-operator
+[2023-08-01 08:14:01] INFO root fetch - main [MainThread]: End processing [Apppath]: success
+[2023-08-01 08:14:01] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-01 08:14:01] INFO root fetch - processPackages [devpack]: Remove: archive file [/home/abi/fetcher/tmp/devpack-0.0.7.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - processPackages [devpack]: Remove: archive file [/home/abi/fetcher/tmp/devpack-0.0.8.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - main [MainThread]: End processing [devpack]: success
+[2023-08-01 08:14:01] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-08-01 08:14:01] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.1.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-01 08:14:01] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.4.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-01 08:14:01] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.98.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - processPackages [cdk8s-image]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-image-0.2.99.tar.gz]
+[2023-08-01 08:14:01] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-08-01 08:14:02] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.7.tar.gz]
+[2023-08-01 08:14:02] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.8.tar.gz]
+[2023-08-01 08:14:02] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2023-08-01 08:14:02] INFO root fetch - processPackages [pykoi]: Remove: archive file [/home/abi/fetcher/tmp/pykoi-0.0.1.tar.gz]
+[2023-08-01 08:14:02] INFO root fetch - processPackages [pykoi]: Remove: archive file [/home/abi/fetcher/tmp/pykoi-0.0.2.tar.gz]
+[2023-08-01 08:14:02] INFO root fetch - main [MainThread]: End processing [pykoi]: success
+[2023-08-01 08:14:02] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-01 08:14:03] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-01 08:14:03] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230801/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-01 08:14:04] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-01 08:14:04] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-01 08:14:04] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-01 08:14:04] INFO root fetch - processPackages [Draugr]: Remove: archive file [/home/abi/fetcher/tmp/Draugr-1.0.8.tar.gz]
+[2023-08-01 08:14:04] INFO root fetch - processPackages [Draugr]: Remove: archive file [/home/abi/fetcher/tmp/Draugr-1.0.9.tar.gz]
+[2023-08-01 08:14:04] INFO root fetch - main [MainThread]: End processing [Draugr]: success
+[2023-08-01 08:14:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230731.tar.gz]
+[2023-08-01 08:14:04] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230801.tar.gz]
+[2023-08-01 08:14:04] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-01 08:14:50] INFO root fetch - processPackages [streamlit-calendar]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_calendar-0.2.0.tar.gz]
+[2023-08-01 08:14:50] INFO root fetch - processPackages [streamlit-calendar]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_calendar-0.3.0.tar.gz]
+[2023-08-01 08:14:50] INFO root fetch - main [MainThread]: End processing [streamlit-calendar]: success
+[2023-08-01 08:14:50] INFO root fetch - main [MainThread]: Store serial: [19119280]
