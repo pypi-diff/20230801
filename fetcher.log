@@ -18585,3 +18585,90 @@
 [2023-08-01 11:21:02] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.8.tar.gz]
 [2023-08-01 11:21:02] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
 [2023-08-01 11:21:02] INFO root fetch - main [MainThread]: Store serial: [19121374]
+[2023-08-01 11:26:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121374]
+[2023-08-01 11:26:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tbp-nightly
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yvesCMD
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NetKet
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aliyun-python-sdk-dds
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motley-cue
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeusrobot
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rclip
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fsaa
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Gbtestapi
+[2023-08-01 11:26:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coar-notify-coar-notify-validator
+[2023-08-01 11:26:15] WARNING root fetch - processPackages [Gbtestapi]: Skipping, unable to determine old version
+[2023-08-01 11:26:15] INFO root fetch - processPackages [Gbtestapi]: Start processing: pyrotash
+[2023-08-01 11:26:15] INFO root fetch - main [MainThread]: End processing [Gbtestapi] error
+[2023-08-01 11:26:15] WARNING root fetch - processPackages [zeusrobot]: Skipping, unable to determine old version
+[2023-08-01 11:26:15] INFO root fetch - processPackages [zeusrobot]: Start processing: news-toolkit-api
+[2023-08-01 11:26:15] INFO root fetch - main [MainThread]: End processing [zeusrobot] error
+[2023-08-01 11:26:15] INFO root fetch - processPackages [aliyun-python-sdk-dds]: New version: [3.7.9] Old Version: [3.7.8]
+[2023-08-01 11:26:15] INFO root fetch - processPackages [motley-cue]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-08-01 11:26:15] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 11:26:15] INFO root fetch - processPackages [yvesCMD]: New version: [0.0.2] Old Version: [0.0.1.4.2]
+[2023-08-01 11:26:15] WARNING root fetch - processPackages [coar-notify-coar-notify-validator]: Skipping, unable to determine old version
+[2023-08-01 11:26:15] INFO root fetch - main [MainThread]: End processing [coar-notify-coar-notify-validator] error
+[2023-08-01 11:26:15] INFO root fetch - processPackages [rclip]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-08-01 11:26:15] WARNING root fetch - processPackages [fsaa]: Skipping, unable to determine old version
+[2023-08-01 11:26:15] INFO root fetch - main [MainThread]: End processing [fsaa] error
+[2023-08-01 11:26:15] INFO root fetch - processPackages [NetKet]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-08-01 11:26:15] INFO root fetch - processPackages [pyrotash]: New version: [0.2] Old Version: [0.1]
+[2023-08-01 11:26:15] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-01 11:26:15] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/bf/3c/007dc1eaa6bd4e69511f1f9faf96444c3ceab674f07cfa087c70f33ba628/rclip-1.4.5.tar.gz
+[2023-08-01 11:26:15] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/8a/eb/27a0d45f8920574e9fc923eb28bac70cba8cb99c0026b29e18d3d299b91f/yvesCMD-0.0.1.4.2.tar.gz
+[2023-08-01 11:26:15] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-08-01 11:26:15] INFO root fetch - processPackages [motley-cue]: Downloading https://files.pythonhosted.org/packages/a9/da/8534d7503b1810dd20079c79680967417c5b83d2c2a1d4539569b9b0d9f0/motley_cue-0.5.3.tar.gz
+[2023-08-01 11:26:15] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/77/f0/04438c2322e5894eb42864c2fb14271481b4d8c7d262b380cb41927bbbf1/netket-3.9.1.tar.gz
+[2023-08-01 11:26:15] INFO root fetch - processPackages [pyrotash]: Downloading https://files.pythonhosted.org/packages/f2/8e/8193803d1e44fe82d02dd3a2e62011a042091fb418d90983846b121b0cf7/pyrotash-0.1.tar.gz
+[2023-08-01 11:26:15] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Downloading https://files.pythonhosted.org/packages/86/bc/8da016d88f5ef830911ce743ebf8343f8e906bcbb63d484269cd30684c11/aliyun-python-sdk-dds-3.7.8.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-01 11:26:16] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230801/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 11:26:16] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/ea/36/6c16735a4c1d0712f009b358a5894d06b9aeb2462bcadd76cb3f37fe4fc8/rclip-1.4.6.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/6f/95/559f945b94e6ddfe4838e82408f3bd3debabdc41c5e353b3998b9852a82f/yvesCMD-0.0.2.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [pyrotash]: Downloading https://files.pythonhosted.org/packages/43/82/c801d220c24482f5121cc5b7d7c94ccaf75469c2fe71694d7da8e6ef663e/pyrotash-0.2.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [motley-cue]: Downloading https://files.pythonhosted.org/packages/6d/e4/de326d5d9b052561543a986b6b70d9755a9f67ee09c71364924b9771d49a/motley_cue-0.6.0.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-01 11:26:16] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.5.tar.gz tmp/rclip-1.4.6.tar.gz --markdown 20230801/r/rclip/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-08-01 11:26:16] INFO root fetch - processPackages [NetKet]: Downloading https://files.pythonhosted.org/packages/87/44/b8e2416db80d74a1748fc9add287166955b9fa3fba911a532c2abd5f3efd/netket-3.9.2.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 11:26:16] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.0.1.4.2.tar.gz tmp/yvesCMD-0.0.2.tar.gz --markdown 20230801/y/yvesCMD/0.0.1.4.2-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 11:26:16] INFO root fetch - processPackages [pyrotash]: executing diffoscope
+[2023-08-01 11:26:16] INFO root fetch - processPackages [pyrotash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrotash-0.1.tar.gz tmp/pyrotash-0.2.tar.gz --markdown 20230801/p/pyrotash/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-01 11:26:16] INFO root fetch - processPackages [motley-cue]: executing diffoscope
+[2023-08-01 11:26:16] INFO root fetch - processPackages [motley-cue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motley_cue-0.5.3.tar.gz tmp/motley_cue-0.6.0.tar.gz --markdown 20230801/m/motley-cue/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-08-01 11:26:16] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Downloading https://files.pythonhosted.org/packages/2c/e5/2607a9ee653dfb18421e896d3841ae97303d6d8f9bccf725000404041fc9/aliyun-python-sdk-dds-3.7.9.tar.gz
+[2023-08-01 11:26:16] INFO root fetch - processPackages [NetKet]: executing diffoscope
+[2023-08-01 11:26:16] INFO root fetch - processPackages [NetKet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netket-3.9.1.tar.gz tmp/netket-3.9.2.tar.gz --markdown 20230801/N/NetKet/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-08-01 11:26:16] INFO root fetch - processPackages [aliyun-python-sdk-dds]: executing diffoscope
+[2023-08-01 11:26:16] INFO root fetch - processPackages [aliyun-python-sdk-dds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dds-3.7.8.tar.gz tmp/aliyun-python-sdk-dds-3.7.9.tar.gz --markdown 20230801/a/aliyun-python-sdk-dds/3.7.8-3.7.9/diff.md --exclude *.pyd
+[2023-08-01 11:26:17] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-08-01 11:26:17] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-01 11:26:17] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-01 11:26:17] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-01 11:26:17] INFO root fetch - processPackages [pyrotash]: Remove: archive file [/home/abi/fetcher/tmp/pyrotash-0.1.tar.gz]
+[2023-08-01 11:26:17] INFO root fetch - processPackages [pyrotash]: Remove: archive file [/home/abi/fetcher/tmp/pyrotash-0.2.tar.gz]
+[2023-08-01 11:26:17] INFO root fetch - main [MainThread]: End processing [pyrotash]: success
+[2023-08-01 11:26:17] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.5.tar.gz]
+[2023-08-01 11:26:17] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.6.tar.gz]
+[2023-08-01 11:26:17] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-01 11:26:17] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-08-01 11:26:17] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230801/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-08-01 11:26:18] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.1.4.2.tar.gz]
+[2023-08-01 11:26:18] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.2.tar.gz]
+[2023-08-01 11:26:18] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 11:26:18] INFO root fetch - processPackages [motley-cue]: Remove: archive file [/home/abi/fetcher/tmp/motley_cue-0.5.3.tar.gz]
+[2023-08-01 11:26:18] INFO root fetch - processPackages [motley-cue]: Remove: archive file [/home/abi/fetcher/tmp/motley_cue-0.6.0.tar.gz]
+[2023-08-01 11:26:18] INFO root fetch - main [MainThread]: End processing [motley-cue]: success
+[2023-08-01 11:26:18] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dds-3.7.8.tar.gz]
+[2023-08-01 11:26:18] INFO root fetch - processPackages [aliyun-python-sdk-dds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-dds-3.7.9.tar.gz]
+[2023-08-01 11:26:18] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dds]: success
+[2023-08-01 11:26:19] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.1.tar.gz]
+[2023-08-01 11:26:19] INFO root fetch - processPackages [NetKet]: Remove: archive file [/home/abi/fetcher/tmp/netket-3.9.2.tar.gz]
+[2023-08-01 11:26:19] INFO root fetch - main [MainThread]: End processing [NetKet]: success
+[2023-08-01 11:26:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-08-01 11:26:20] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-08-01 11:26:20] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-08-01 11:26:20] INFO root fetch - main [MainThread]: Store serial: [19121427]
