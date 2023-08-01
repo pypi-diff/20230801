@@ -20881,3 +20881,78 @@
 [2023-08-01 13:04:52] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix-synapse-1.9.1.tar.gz]
 [2023-08-01 13:04:52] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
 [2023-08-01 13:04:52] INFO root fetch - main [MainThread]: Store serial: [19122421]
+[2023-08-01 13:09:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122421]
+[2023-08-01 13:10:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: savant-rs-etcd-dynamic-state
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: titan-iris
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: b-cfn-lambda-layer
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NewsArticlesScraper
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyseobnr
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: readmeai
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyiron-contrib
+[2023-08-01 13:10:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-iot20180120
+[2023-08-01 13:10:01] INFO root fetch - processPackages [NewsArticlesScraper]: New version: [0.2.7.2] Old Version: [0.2.7.1]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [b-cfn-lambda-layer]: New version: [3.0.0] Old Version: [2.4.1]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [pyseobnr]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [pyiron-contrib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [alibabacloud-iot20180120]: New version: [4.0.0] Old Version: [3.1.4]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [readmeai]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: New version: [0.1.40] Old Version: [0.1.39]
+[2023-08-01 13:10:01] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/7d/1b/bf6f696bebc05780da4fc27725c1dc1ee30fd733c771256c89daac2d0cfc/readmeai-0.1.2.tar.gz
+[2023-08-01 13:10:01] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-08-01 13:10:01] INFO root fetch - processPackages [b-cfn-lambda-layer]: Downloading https://files.pythonhosted.org/packages/b3/12/41dd8f528d0d5abd711ba03e25557fd288a72501017a4bc1bf80cb85e4b4/b_cfn_lambda_layer-2.4.1.tar.gz
+[2023-08-01 13:10:01] INFO root fetch - processPackages [NewsArticlesScraper]: Downloading https://files.pythonhosted.org/packages/0a/e4/853c795100c522ad533f720b1921cc1709b337ecbc27ddb0cef1682c8ab2/NewsArticlesScraper-0.2.7.1.tar.gz
+[2023-08-01 13:10:01] INFO root fetch - processPackages [alibabacloud-iot20180120]: Downloading https://files.pythonhosted.org/packages/05/66/814877691a06d5b7f5657bfb5f0c8e47483c225ce3ace705ab7ed0d37214/alibabacloud_iot20180120-3.1.4.tar.gz
+[2023-08-01 13:10:01] INFO root fetch - processPackages [pyseobnr]: Downloading https://files.pythonhosted.org/packages/55/a3/b597460442edf0daef46ece274e63d54d4255db2da66f37a4e08edc83b29/pyseobnr-0.2.4.tar.gz
+[2023-08-01 13:10:02] INFO root fetch - processPackages [pyiron-contrib]: Downloading https://files.pythonhosted.org/packages/e2/8a/6c96a90275f7eb901940b3c4c1e2dc92749df237421cdae62c11c8e81ede/pyiron_contrib-0.1.8.tar.gz
+[2023-08-01 13:10:02] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/81/64/095ab8de625095bf94fb6c4c41e0e5429d10b1960e2fc8787a9d04795ad1/savant_rs_etcd_dynamic_state-0.1.39-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-01 13:10:02] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-08-01 13:10:02] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-08-01 13:10:02] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230801/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-08-01 13:10:02] INFO root fetch - processPackages [b-cfn-lambda-layer]: Downloading https://files.pythonhosted.org/packages/c8/39/da26c25c8721b32cb6e55b22b54a7e3125613fb3cd41c292a621d4fee4e4/b_cfn_lambda_layer-3.0.0.tar.gz
+[2023-08-01 13:10:02] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/68/55/43098b909d33960c499acde7b69571d57974da05ec52b40ef4f7fbcd5965/readmeai-0.1.3.tar.gz
+[2023-08-01 13:10:02] INFO root fetch - processPackages [NewsArticlesScraper]: Downloading https://files.pythonhosted.org/packages/de/ac/aa11b3423d68f8da697d339b8a28ac6a03d2fc88b24acf9f81e0d8b632b1/NewsArticlesScraper-0.2.7.2.tar.gz
+[2023-08-01 13:10:02] INFO root fetch - processPackages [b-cfn-lambda-layer]: executing diffoscope
+[2023-08-01 13:10:02] INFO root fetch - processPackages [b-cfn-lambda-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_cfn_lambda_layer-2.4.1.tar.gz tmp/b_cfn_lambda_layer-3.0.0.tar.gz --markdown 20230801/b/b-cfn-lambda-layer/2.4.1-3.0.0/diff.md --exclude *.pyd
+[2023-08-01 13:10:02] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-08-01 13:10:02] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.1.2.tar.gz tmp/readmeai-0.1.3.tar.gz --markdown 20230801/r/readmeai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 13:10:02] INFO root fetch - processPackages [NewsArticlesScraper]: executing diffoscope
+[2023-08-01 13:10:02] INFO root fetch - processPackages [NewsArticlesScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewsArticlesScraper-0.2.7.1.tar.gz tmp/NewsArticlesScraper-0.2.7.2.tar.gz --markdown 20230801/N/NewsArticlesScraper/0.2.7.1-0.2.7.2/diff.md --exclude *.pyd
+[2023-08-01 13:10:02] INFO root fetch - processPackages [alibabacloud-iot20180120]: Downloading https://files.pythonhosted.org/packages/af/cb/4addaa69610c14dc437502b7c05786673c28d05eb824b64b4a4426193599/alibabacloud_iot20180120-4.0.0.tar.gz
+[2023-08-01 13:10:02] INFO root fetch - processPackages [alibabacloud-iot20180120]: executing diffoscope
+[2023-08-01 13:10:02] INFO root fetch - processPackages [alibabacloud-iot20180120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_iot20180120-3.1.4.tar.gz tmp/alibabacloud_iot20180120-4.0.0.tar.gz --markdown 20230801/a/alibabacloud-iot20180120/3.1.4-4.0.0/diff.md --exclude *.pyd
+[2023-08-01 13:10:02] INFO root fetch - processPackages [pyiron-contrib]: Downloading https://files.pythonhosted.org/packages/7f/90/c9fc16cc31904775edfdb96446fd7ecd73a0714f946cf1de5b3309859849/pyiron_contrib-0.1.9.tar.gz
+[2023-08-01 13:10:03] INFO root fetch - processPackages [pyseobnr]: Downloading https://files.pythonhosted.org/packages/1f/b4/4e2ad40fcea613b57a2a1cc44c1ab92ab07fd55061e88df800ad4e456e8d/pyseobnr-0.2.5.tar.gz
+[2023-08-01 13:10:03] INFO root fetch - processPackages [pyiron-contrib]: executing diffoscope
+[2023-08-01 13:10:03] INFO root fetch - processPackages [pyiron-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_contrib-0.1.8.tar.gz tmp/pyiron_contrib-0.1.9.tar.gz --markdown 20230801/p/pyiron-contrib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 13:10:03] INFO root fetch - processPackages [pyseobnr]: executing diffoscope
+[2023-08-01 13:10:03] INFO root fetch - processPackages [pyseobnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyseobnr-0.2.4.tar.gz tmp/pyseobnr-0.2.5.tar.gz --markdown 20230801/p/pyseobnr/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-01 13:10:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Downloading https://files.pythonhosted.org/packages/26/34/db64cfeee4ff49998cd2cc3eb0dbc9db2fd268600c3fdcbae495ec61dc24/savant_rs_etcd_dynamic_state-0.1.40-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-01 13:10:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: executing diffoscope
+[2023-08-01 13:10:03] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/savant_rs_etcd_dynamic_state-0.1.39-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/savant_rs_etcd_dynamic_state-0.1.40-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230801/s/savant-rs-etcd-dynamic-state/0.1.39-0.1.40/diff.md --exclude *.pyd
+[2023-08-01 13:10:03] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-08-01 13:10:03] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.1.2.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.1.3.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-08-01 13:10:03] INFO root fetch - processPackages [NewsArticlesScraper]: Remove: archive file [/home/abi/fetcher/tmp/NewsArticlesScraper-0.2.7.1.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - processPackages [NewsArticlesScraper]: Remove: archive file [/home/abi/fetcher/tmp/NewsArticlesScraper-0.2.7.2.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - main [MainThread]: End processing [NewsArticlesScraper]: success
+[2023-08-01 13:10:03] INFO root fetch - processPackages [b-cfn-lambda-layer]: Remove: archive file [/home/abi/fetcher/tmp/b_cfn_lambda_layer-2.4.1.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - processPackages [b-cfn-lambda-layer]: Remove: archive file [/home/abi/fetcher/tmp/b_cfn_lambda_layer-3.0.0.tar.gz]
+[2023-08-01 13:10:03] INFO root fetch - main [MainThread]: End processing [b-cfn-lambda-layer]: success
+[2023-08-01 13:10:04] INFO root fetch - processPackages [pyiron-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_contrib-0.1.8.tar.gz]
+[2023-08-01 13:10:04] INFO root fetch - processPackages [pyiron-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_contrib-0.1.9.tar.gz]
+[2023-08-01 13:10:04] INFO root fetch - main [MainThread]: End processing [pyiron-contrib]: success
+[2023-08-01 13:10:05] INFO root fetch - processPackages [alibabacloud-iot20180120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_iot20180120-3.1.4.tar.gz]
+[2023-08-01 13:10:05] INFO root fetch - processPackages [alibabacloud-iot20180120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_iot20180120-4.0.0.tar.gz]
+[2023-08-01 13:10:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-iot20180120]: success
+[2023-08-01 13:10:12] INFO root fetch - processPackages [pyseobnr]: Remove: archive file [/home/abi/fetcher/tmp/pyseobnr-0.2.4.tar.gz]
+[2023-08-01 13:10:12] INFO root fetch - processPackages [pyseobnr]: Remove: archive file [/home/abi/fetcher/tmp/pyseobnr-0.2.5.tar.gz]
+[2023-08-01 13:10:12] INFO root fetch - main [MainThread]: End processing [pyseobnr]: success
+[2023-08-01 13:11:22] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.39-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-01 13:11:22] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.40-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-01 13:11:22] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
+[2023-08-01 13:11:22] INFO root fetch - main [MainThread]: Store serial: [19122460]
