@@ -12059,3 +12059,87 @@
 [2023-08-01 05:57:06] INFO root fetch - processPackages [qat-core]: Remove: archive file [/home/abi/fetcher/tmp/qat_core-1.8.0-cp39-cp39-win_amd64.whl.zip]
 [2023-08-01 05:57:06] INFO root fetch - main [MainThread]: End processing [qat-core]: success
 [2023-08-01 05:57:06] INFO root fetch - main [MainThread]: Store serial: [19118259]
+[2023-08-01 06:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118259]
+[2023-08-01 06:02:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qat-devices
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmem-plugin-kafka
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qat-hardware
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qat-lang
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qat-quops
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-volcengine
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-visit-schedule
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: evals-nightly
+[2023-08-01 06:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: subtoaudio
+[2023-08-01 06:02:15] INFO root fetch - processPackages [qat-devices]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [pulumi-volcengine]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [cmem-plugin-kafka]: New version: [2.0.0] Old Version: [1.4.0rc1]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [subtoaudio]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230730] Old Version: [1.0.3.dev20230729]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [qat-quops]: New version: [1.3.0] Old Version: [1.2.4]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [qat-hardware]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 06:02:15] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/36/f5/5bcbbfe1f2afcaad2f5acff7f637dfe76defbf3f29801f29f6cd24a4c2c7/evals-nightly-1.0.3.dev20230729.tar.gz
+[2023-08-01 06:02:15] INFO root fetch - processPackages [qat-lang]: New version: [3.0.0] Old Version: [2.2.1]
+[2023-08-01 06:02:16] INFO root fetch - processPackages [pulumi-volcengine]: Downloading https://files.pythonhosted.org/packages/d9/8b/55e2ae989becfa016137ba6bd4a3c9cec244577a7d272b44bc50559b2614/pulumi_volcengine-0.0.6.tar.gz
+[2023-08-01 06:02:16] INFO root fetch - processPackages [qat-devices]: Downloading https://files.pythonhosted.org/packages/6a/01/fbd36a992ca4eda5e22537ab9a5263df7a939b6bf0ecf6e389a6e5b925b7/qat_devices-0.2.0-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/5d/03/8be4f8a4eebbf23e484d3dee5935c4fad81cec7488caa7db786bc4e986de/cmem_plugin_kafka-1.4.0rc1.tar.gz
+[2023-08-01 06:02:16] INFO root fetch - processPackages [subtoaudio]: Downloading https://files.pythonhosted.org/packages/d8/be/8d9f6f000ff7873d8657241d89181d16ae21ca6efc036f54da6c6e9f5e8a/subtoaudio-0.1.2.tar.gz
+[2023-08-01 06:02:16] INFO root fetch - processPackages [qat-lang]: Downloading https://files.pythonhosted.org/packages/bb/75/57aaad0718a9025201808ad182c814d632ac12379a289e6a1de77a88fda9/qat_lang-2.2.1-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [qat-quops]: Downloading https://files.pythonhosted.org/packages/fb/af/59c406e632cab81cb603bcf1b41338423891573d7121b551098023f0ac57/qat_quops-1.2.4-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [qat-hardware]: Downloading https://files.pythonhosted.org/packages/06/ae/337f97755518219d7f37504b66062dca47da5d3416545631834f1a8f63aa/qat_hardware-1.3.0-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/9a/c0/01bf535862c3530a2728ac8657d3314308b45c0be3ca39d585903aa6c564/evals-nightly-1.0.3.dev20230730.tar.gz
+[2023-08-01 06:02:16] INFO root fetch - processPackages [pulumi-volcengine]: Downloading https://files.pythonhosted.org/packages/b5/97/6edb44e112ae5bdd25f21fa9dd33b6eb30b797503da60c67006d8c7d0d1d/pulumi_volcengine-0.0.9.tar.gz
+[2023-08-01 06:02:16] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-08-01 06:02:16] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230729.tar.gz tmp/evals-nightly-1.0.3.dev20230730.tar.gz --markdown 20230801/e/evals-nightly/1.0.3.dev20230729-1.0.3.dev20230730/diff.md --exclude *.pyd
+[2023-08-01 06:02:16] INFO root fetch - processPackages [cmem-plugin-kafka]: Downloading https://files.pythonhosted.org/packages/e7/58/332e9eef2af9b85aba7c96b7d8501a149a9727d21bae965d4c6eac64c482/cmem_plugin_kafka-2.0.0.tar.gz
+[2023-08-01 06:02:16] INFO root fetch - processPackages [qat-devices]: Downloading https://files.pythonhosted.org/packages/10/dc/0db1fdddf3cdfc83c4f1dcbd4adef48a2580a9f1c2dc711481f4b7153ec8/qat_devices-0.2.1-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [subtoaudio]: Downloading https://files.pythonhosted.org/packages/8a/f4/9c27304c230f4ceca26d506bfa56bfcb959eaa218d346d65080588aaafb7/subtoaudio-0.1.3.tar.gz
+[2023-08-01 06:02:16] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [cmem-plugin-kafka]: executing diffoscope
+[2023-08-01 06:02:16] INFO root fetch - processPackages [cmem-plugin-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_kafka-1.4.0rc1.tar.gz tmp/cmem_plugin_kafka-2.0.0.tar.gz --markdown 20230801/c/cmem-plugin-kafka/1.4.0rc1-2.0.0/diff.md --exclude *.pyd
+[2023-08-01 06:02:16] INFO root fetch - processPackages [qat-hardware]: Downloading https://files.pythonhosted.org/packages/36/4d/3e5222712638fd7150fae773464cd79ae9140a055e6a1aae9b21f7719e32/qat_hardware-1.3.1-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:16] INFO root fetch - processPackages [pulumi-volcengine]: executing diffoscope
+[2023-08-01 06:02:16] INFO root fetch - processPackages [pulumi-volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_volcengine-0.0.6.tar.gz tmp/pulumi_volcengine-0.0.9.tar.gz --markdown 20230801/p/pulumi-volcengine/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 06:02:16] INFO root fetch - processPackages [subtoaudio]: executing diffoscope
+[2023-08-01 06:02:16] INFO root fetch - processPackages [subtoaudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subtoaudio-0.1.2.tar.gz tmp/subtoaudio-0.1.3.tar.gz --markdown 20230801/s/subtoaudio/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-devices]: executing diffoscope
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat_devices-0.2.0-cp39-cp39-win_amd64.whl.zip tmp/qat_devices-0.2.1-cp39-cp39-win_amd64.whl.zip --markdown 20230801/q/qat-devices/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-quops]: Downloading https://files.pythonhosted.org/packages/6a/f8/d062c85e0eba6fbcce27b2c293378e92343bd894a0ca27e065b288485ce8/qat_quops-1.3.0-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:17] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-08-01 06:02:17] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230801/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-lang]: Downloading https://files.pythonhosted.org/packages/11/16/b0026851a269b5a0f76ba3675e29e01ae9f631692acad5cb0e96f7191ead/qat_lang-3.0.0-cp39-cp39-win_amd64.whl
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-hardware]: executing diffoscope
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-hardware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat_hardware-1.3.0-cp39-cp39-win_amd64.whl.zip tmp/qat_hardware-1.3.1-cp39-cp39-win_amd64.whl.zip --markdown 20230801/q/qat-hardware/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-quops]: executing diffoscope
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-quops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat_quops-1.2.4-cp39-cp39-win_amd64.whl.zip tmp/qat_quops-1.3.0-cp39-cp39-win_amd64.whl.zip --markdown 20230801/q/qat-quops/1.2.4-1.3.0/diff.md --exclude *.pyd
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-lang]: executing diffoscope
+[2023-08-01 06:02:17] INFO root fetch - processPackages [qat-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qat_lang-2.2.1-cp39-cp39-win_amd64.whl.zip tmp/qat_lang-3.0.0-cp39-cp39-win_amd64.whl.zip --markdown 20230801/q/qat-lang/2.2.1-3.0.0/diff.md --exclude *.pyd
+[2023-08-01 06:02:18] INFO root fetch - processPackages [subtoaudio]: Remove: archive file [/home/abi/fetcher/tmp/subtoaudio-0.1.2.tar.gz]
+[2023-08-01 06:02:18] INFO root fetch - processPackages [subtoaudio]: Remove: archive file [/home/abi/fetcher/tmp/subtoaudio-0.1.3.tar.gz]
+[2023-08-01 06:02:18] INFO root fetch - main [MainThread]: End processing [subtoaudio]: success
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-devices]: Remove: archive file [/home/abi/fetcher/tmp/qat_devices-0.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-devices]: Remove: archive file [/home/abi/fetcher/tmp/qat_devices-0.2.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - main [MainThread]: End processing [qat-devices]: success
+[2023-08-01 06:02:18] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-1.4.0rc1.tar.gz]
+[2023-08-01 06:02:18] INFO root fetch - processPackages [cmem-plugin-kafka]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_kafka-2.0.0.tar.gz]
+[2023-08-01 06:02:18] INFO root fetch - main [MainThread]: End processing [cmem-plugin-kafka]: success
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-hardware]: Remove: archive file [/home/abi/fetcher/tmp/qat_hardware-1.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-hardware]: Remove: archive file [/home/abi/fetcher/tmp/qat_hardware-1.3.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - main [MainThread]: End processing [qat-hardware]: success
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-lang]: Remove: archive file [/home/abi/fetcher/tmp/qat_lang-2.2.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-lang]: Remove: archive file [/home/abi/fetcher/tmp/qat_lang-3.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - main [MainThread]: End processing [qat-lang]: success
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-quops]: Remove: archive file [/home/abi/fetcher/tmp/qat_quops-1.2.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - processPackages [qat-quops]: Remove: archive file [/home/abi/fetcher/tmp/qat_quops-1.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - main [MainThread]: End processing [qat-quops]: success
+[2023-08-01 06:02:18] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip]
+[2023-08-01 06:02:18] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-08-01 06:02:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230729.tar.gz]
+[2023-08-01 06:02:19] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230730.tar.gz]
+[2023-08-01 06:02:19] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-08-01 06:02:21] INFO root fetch - processPackages [pulumi-volcengine]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_volcengine-0.0.6.tar.gz]
+[2023-08-01 06:02:21] INFO root fetch - processPackages [pulumi-volcengine]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_volcengine-0.0.9.tar.gz]
+[2023-08-01 06:02:21] INFO root fetch - main [MainThread]: End processing [pulumi-volcengine]: success
+[2023-08-01 06:02:21] INFO root fetch - main [MainThread]: Store serial: [19118347]
