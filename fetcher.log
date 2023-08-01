@@ -16002,3 +16002,144 @@
 [2023-08-01 09:39:25] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9235211826225.tar.gz]
 [2023-08-01 09:39:25] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2023-08-01 09:39:25] INFO root fetch - main [MainThread]: Store serial: [19120137]
+[2023-08-01 09:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19120137]
+[2023-08-01 09:44:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablate
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sheCry
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dclab
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-buff
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multicloud-diagrams
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datapipe-app
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zoobot
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumiverse-harbor
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openla-feature-representation
+[2023-08-01 09:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloud-asset
+[2023-08-01 09:44:35] INFO root fetch - processPackages [tablate]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [datapipe-app]: New version: [0.4.0a1] Old Version: [0.3.2.dev2]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [zoobot]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [openla-feature-representation]: New version: [0.1.2a2] Old Version: [0.1.1a2]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [nonebot-plugin-buff]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [pulumiverse-harbor]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [sheCry]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-01 09:44:35] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/62/2b/db52819879935a160167d2fba7e07f66e60f959c204726393949c0df9714/tablate-0.0.8.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [nonebot-plugin-buff]: Downloading https://files.pythonhosted.org/packages/76/0d/6757b17ce47946a188b3ed070a990263298cb1c2308a05f552e1ca96b482/nonebot_plugin_buff-0.1.2.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/4e/ec/4dfa49a37ca0cfcc6b5a41b881224d8b9c8858f9ffbbe54492cefb77def4/cloud_asset-0.0.4.7-py3-none-any.whl
+[2023-08-01 09:44:35] INFO root fetch - processPackages [datapipe-app]: Downloading https://files.pythonhosted.org/packages/3d/8c/2350b163fb124174680beb6b3cdcb9e54d976132bfbab66f8408174ff1db/datapipe_app-0.3.2.dev2.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/23/bc/bd2d8d9768ef5002081e14784a5bf8fe6327a7960ea4f62c9a3c46862ba3/multicloud_diagrams-0.3.8.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [openla-feature-representation]: Downloading https://files.pythonhosted.org/packages/f4/71/cddfd9a86d0a2b40ecb88d8d6a2e0e2341ee516cb7c4215b65c82fc02037/openla_feature_representation-0.1.1a2.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [sheCry]: Downloading https://files.pythonhosted.org/packages/14/49/5553bc20e0db2b3b21a05fde0a92c150a8a9a216a0a1589738c2dddfd3cb/sheCry-0.0.0.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [zoobot]: Downloading https://files.pythonhosted.org/packages/ef/9b/8c3f7e5b0aef315420c4b35f4ca21c8d917fd31b49d56d0f37ba8cdbbe2e/zoobot-1.0.3.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0e/5b/3e41f40cbc2d71d40c7bba0c1a36f718d30456041df03071f1609383f028/pulumiverse_harbor-3.9.3.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/3d/da/5a482ff2d82181bc5c53e4317c5995ea1f5843f30a9bb5e99e7e31c14ad5/tablate-0.0.9.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [nonebot-plugin-buff]: Downloading https://files.pythonhosted.org/packages/97/5d/3dd391250a06d66ace9f34440d1cd9ba6755cc29774645510de895a856ca/nonebot_plugin_buff-0.2.0.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-08-01 09:44:35] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.8.tar.gz tmp/tablate-0.0.9.tar.gz --markdown 20230801/t/tablate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:44:35] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/99/9a/da867bac97fe2983f11ec33c0aebe6ca1624a2b338501262255edbc93e68/cloud_asset-0.0.4.8-py3-none-any.whl
+[2023-08-01 09:44:35] INFO root fetch - processPackages [openla-feature-representation]: Downloading https://files.pythonhosted.org/packages/dd/e3/7e8cbcc4ec708065a5d977fb0a7b0c4f645d59714fb0ab25431acccbc228/openla_feature_representation-0.1.2a2.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [sheCry]: Downloading https://files.pythonhosted.org/packages/c1/b4/d78edace76ccb52f41a5617895a94e964d17db9afee7d6c5871d68631e49/sheCry-0.0.1.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/93/bd/2df888c482aa053bc871a7c784ffb1bb0e5e29cd0be64f95d889af5db7b4/multicloud_diagrams-0.3.9.tar.gz
+[2023-08-01 09:44:35] INFO root fetch - processPackages [zoobot]: Downloading https://files.pythonhosted.org/packages/e3/dd/1c6a17c643b56e66607720f433090db8f7558416212aebe3de2913336bfd/zoobot-1.0.4.tar.gz
+[2023-08-01 09:44:36] INFO root fetch - processPackages [nonebot-plugin-buff]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [nonebot-plugin-buff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_buff-0.1.2.tar.gz tmp/nonebot_plugin_buff-0.2.0.tar.gz --markdown 20230801/n/nonebot-plugin-buff/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-08-01 09:44:36] INFO root fetch - processPackages [openla-feature-representation]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [openla-feature-representation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openla_feature_representation-0.1.1a2.tar.gz tmp/openla_feature_representation-0.1.2a2.tar.gz --markdown 20230801/o/openla-feature-representation/0.1.1a2-0.1.2a2/diff.md --exclude *.pyd
+[2023-08-01 09:44:36] INFO root fetch - processPackages [pulumiverse-harbor]: Downloading https://files.pythonhosted.org/packages/0d/30/3573c4e1a5e6f8418353731b79bfeacf99e560ba0bf3e0ba53e9ba62d2be/pulumiverse_harbor-3.9.4.tar.gz
+[2023-08-01 09:44:36] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_asset-0.0.4.7-py3-none-any.whl.zip tmp/cloud_asset-0.0.4.8-py3-none-any.whl.zip --markdown 20230801/c/cloud-asset/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-08-01 09:44:36] INFO root fetch - processPackages [zoobot]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [zoobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoobot-1.0.3.tar.gz tmp/zoobot-1.0.4.tar.gz --markdown 20230801/z/zoobot/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-01 09:44:36] INFO root fetch - processPackages [datapipe-app]: Downloading https://files.pythonhosted.org/packages/bb/0f/8aba4f388d6a1ae15ee06e2de7ef3bb74153f89662760a6b7ac87688c8bd/datapipe_app-0.4.0a1.tar.gz
+[2023-08-01 09:44:36] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.8.tar.gz tmp/multicloud_diagrams-0.3.9.tar.gz --markdown 20230801/m/multicloud-diagrams/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 09:44:36] INFO root fetch - processPackages [sheCry]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [sheCry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sheCry-0.0.0.tar.gz tmp/sheCry-0.0.1.tar.gz --markdown 20230801/s/sheCry/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-01 09:44:36] INFO root fetch - processPackages [pulumiverse-harbor]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [pulumiverse-harbor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_harbor-3.9.3.tar.gz tmp/pulumiverse_harbor-3.9.4.tar.gz --markdown 20230801/p/pulumiverse-harbor/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-08-01 09:44:36] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2023-08-01 09:44:36] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2023-08-01 09:44:36] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20230801/d/dclab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 09:44:37] INFO root fetch - processPackages [datapipe-app]: executing diffoscope
+[2023-08-01 09:44:37] INFO root fetch - processPackages [datapipe-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapipe_app-0.3.2.dev2.tar.gz tmp/datapipe_app-0.4.0a1.tar.gz --markdown 20230801/d/datapipe-app/0.3.2.dev2-0.4.0a1/diff.md --exclude *.pyd
+[2023-08-01 09:44:37] INFO root fetch - processPackages [nonebot-plugin-buff]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_buff-0.1.2.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [nonebot-plugin-buff]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_buff-0.2.0.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [nonebot-plugin-buff]: Start processing: openmodule
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-buff]: success
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openla-feature-representation]: Remove: archive file [/home/abi/fetcher/tmp/openla_feature_representation-0.1.1a2.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openla-feature-representation]: Remove: archive file [/home/abi/fetcher/tmp/openla_feature_representation-0.1.2a2.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openla-feature-representation]: Start processing: openmodule-commands
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [openla-feature-representation]: success
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openmodule-commands]: New version: [12.1.1] Old Version: [12.1.0]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [sheCry]: Remove: archive file [/home/abi/fetcher/tmp/sheCry-0.0.0.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [sheCry]: Remove: archive file [/home/abi/fetcher/tmp/sheCry-0.0.1.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [sheCry]: Start processing: openmodule-test
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [sheCry]: success
+[2023-08-01 09:44:37] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.8.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.9.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [multicloud-diagrams]: Start processing: sconce
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-08-01 09:44:37] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.8.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.9.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [tablate]: Start processing: nxtomomill
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/c9/73/171d16013f8c48496ea86cc8d110f9aa3827afab1285206c7cfc9261c57d/openmodule_commands-12.1.0.tar.gz
+[2023-08-01 09:44:37] WARNING root fetch - processPackages [sconce]: Skipping, unable to determine old version
+[2023-08-01 09:44:37] INFO root fetch - processPackages [sconce]: Start processing: keycmd
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [sconce] error
+[2023-08-01 09:44:37] INFO root fetch - processPackages [keycmd]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [nxtomomill]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.3.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [pulumiverse-harbor]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_harbor-3.9.4.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [pulumiverse-harbor]: success
+[2023-08-01 09:44:37] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-08-01 09:44:37] INFO root fetch - processPackages [zoobot]: Remove: archive file [/home/abi/fetcher/tmp/zoobot-1.0.3.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [zoobot]: Remove: archive file [/home/abi/fetcher/tmp/zoobot-1.0.4.tar.gz]
+[2023-08-01 09:44:37] INFO root fetch - main [MainThread]: End processing [zoobot]: success
+[2023-08-01 09:44:37] INFO root fetch - processPackages [keycmd]: Downloading https://files.pythonhosted.org/packages/39/55/d5e5d5ac7225282acb522905eff9fc6df307812e72c9e3cbe7266a35f723/keycmd-0.4.0.tar.gz
+[2023-08-01 09:44:37] INFO root fetch - processPackages [cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/cloud_asset-0.0.4.7-py3-none-any.whl.zip]
+[2023-08-01 09:44:37] INFO root fetch - processPackages [cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/cloud_asset-0.0.4.8-py3-none-any.whl.zip]
+[2023-08-01 09:44:38] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-08-01 09:44:38] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-08-01 09:44:38] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/93/cb/2e878cdb0deb3d41e5d685cc35589beb657169928c949c381853e8eaffd8/openmodule_commands-12.1.1.tar.gz
+[2023-08-01 09:44:38] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/58/c6/454b121748b6bbb0962dd37841f9350345e3dcbb65db152ee469dd6c9334/nxtomomill-0.9.0a2.tar.gz
+[2023-08-01 09:44:38] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-08-01 09:44:38] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-12.1.0.tar.gz tmp/openmodule_commands-12.1.1.tar.gz --markdown 20230801/o/openmodule-commands/12.1.0-12.1.1/diff.md --exclude *.pyd
+[2023-08-01 09:44:38] INFO root fetch - processPackages [keycmd]: Downloading https://files.pythonhosted.org/packages/d6/5b/ec4f4b05c8bbee8e000dee8e9d51c2b978b5249ecaf81c4eaf1257ebb9e9/keycmd-0.5.0.tar.gz
+[2023-08-01 09:44:38] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-08-01 09:44:38] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230801/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-08-01 09:44:38] INFO root fetch - processPackages [keycmd]: executing diffoscope
+[2023-08-01 09:44:38] INFO root fetch - processPackages [keycmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keycmd-0.4.0.tar.gz tmp/keycmd-0.5.0.tar.gz --markdown 20230801/k/keycmd/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-01 09:44:38] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.0.tar.gz]
+[2023-08-01 09:44:38] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
+[2023-08-01 09:44:38] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2023-08-01 09:44:38] INFO root fetch - processPackages [nxtomomill]: Downloading https://files.pythonhosted.org/packages/2a/16/deba04f7f33d8773b1391f0edc1e6783e781c732fd5016e7ebd3c183b1ad/nxtomomill-0.9.0a3.tar.gz
+[2023-08-01 09:44:38] INFO root fetch - processPackages [nxtomomill]: executing diffoscope
+[2023-08-01 09:44:38] INFO root fetch - processPackages [nxtomomill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxtomomill-0.9.0a2.tar.gz tmp/nxtomomill-0.9.0a3.tar.gz --markdown 20230801/n/nxtomomill/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-08-01 09:44:38] INFO root fetch - processPackages [datapipe-app]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_app-0.3.2.dev2.tar.gz]
+[2023-08-01 09:44:38] INFO root fetch - processPackages [datapipe-app]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_app-0.4.0a1.tar.gz]
+[2023-08-01 09:44:38] INFO root fetch - main [MainThread]: End processing [datapipe-app]: success
+[2023-08-01 09:44:38] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230801/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-12.1.0.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-12.1.1.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-08-01 09:44:39] INFO root fetch - processPackages [keycmd]: Remove: archive file [/home/abi/fetcher/tmp/keycmd-0.4.0.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - processPackages [keycmd]: Remove: archive file [/home/abi/fetcher/tmp/keycmd-0.5.0.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - main [MainThread]: End processing [keycmd]: success
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.0.0rc9.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.1.0.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.0.0rc9.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.1.0.tar.gz]
+[2023-08-01 09:44:39] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-08-01 09:44:40] INFO root fetch - processPackages [nxtomomill]: Remove: archive file [/home/abi/fetcher/tmp/nxtomomill-0.9.0a2.tar.gz]
+[2023-08-01 09:44:40] INFO root fetch - processPackages [nxtomomill]: Remove: archive file [/home/abi/fetcher/tmp/nxtomomill-0.9.0a3.tar.gz]
+[2023-08-01 09:44:40] INFO root fetch - main [MainThread]: End processing [nxtomomill]: success
+[2023-08-01 09:44:40] INFO root fetch - main [MainThread]: Store serial: [19120190]
