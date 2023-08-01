@@ -21235,3 +21235,340 @@
 [2023-08-01 13:24:21] INFO root fetch - processPackages [drf-spectacular-sidecar]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-sidecar-2023.8.1.tar.gz]
 [2023-08-01 13:24:21] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
 [2023-08-01 13:24:21] INFO root fetch - main [MainThread]: Store serial: [19122575]
+[2023-08-01 13:29:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122575]
+[2023-08-01 13:29:31] INFO root fetch - main [MainThread]: Found 39 changed packages
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discuit
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tb-nightly
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongodriver
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdast-cli-core
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sungrow-http-config
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: verybadpylib
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skip-developers-chamber
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: uun-guardman
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skyr
+[2023-08-01 13:29:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2023-08-01 13:29:31] INFO root fetch - processPackages [discuit]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [mdast-cli-core]: New version: [2023.8.1] Old Version: [2023.5.1]
+[2023-08-01 13:29:31] WARNING root fetch - processPackages [sungrow-http-config]: Skipping, unable to determine old version
+[2023-08-01 13:29:31] INFO root fetch - processPackages [sungrow-http-config]: Start processing: lusid-drive-sdk-preview
+[2023-08-01 13:29:31] INFO root fetch - main [MainThread]: End processing [sungrow-http-config] error
+[2023-08-01 13:29:31] INFO root fetch - processPackages [skip-developers-chamber]: New version: [1.0.0] Old Version: [0.0.70.2]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [mongodriver]: New version: [1.2.41] Old Version: [1.2.4]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [verybadpylib]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [skyr]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [uun-guardman]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/f7/34/078ae91cb2415c79c021a8cb3c2238579b109d5281d2386719b178422cc4/discuit-0.2.1.tar.gz
+[2023-08-01 13:29:31] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-08-01 13:29:31] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-08-01 13:29:31] INFO root fetch - processPackages [verybadpylib]: Downloading https://files.pythonhosted.org/packages/4c/e7/2802514e31a41bd3ff5c1a690cb9c19d04dca6b695b6a9f59d935aaab95b/verybadpylib-0.0.1.tar.gz
+[2023-08-01 13:29:31] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/fd/b4/990b57af0e120804e496386feacae4105c5188027f350838921d518554f8/mongodriver-1.2.4.tar.gz
+[2023-08-01 13:29:31] INFO root fetch - processPackages [skip-developers-chamber]: Downloading https://files.pythonhosted.org/packages/eb/8b/cc85369d18cc23dfa6310c6197c5a59aebf39c126b7dbfab1926ca96444f/skip-developers-chamber-0.0.70.2.tar.gz
+[2023-08-01 13:29:31] INFO root fetch - processPackages [skyr]: Downloading https://files.pythonhosted.org/packages/71/00/82b9e0b1afb716fafbe9f01a263f46cf8073ebb436b9c197be9d5967fc43/skyr-0.2.0.tar.gz
+[2023-08-01 13:29:31] INFO root fetch - processPackages [uun-guardman]: Downloading https://files.pythonhosted.org/packages/59/73/754a0419623ca6d51af950fe30c24fa19cea2c0dff0f68e1bbed3845b80b/uun-guardman-0.1.2.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [mdast-cli-core]: Downloading https://files.pythonhosted.org/packages/c5/d7/aaaac49248ef9816f347c9a904f82667ab3af13181480684a16ef9fcf99a/mdast_cli_core-2023.5.1.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/f9/36/999c1e1ba7048ae09c20c94ffa81467ec51c76974a45190aefcca4168685/discuit-0.3.0.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-08-01 13:29:32] INFO root fetch - processPackages [verybadpylib]: Downloading https://files.pythonhosted.org/packages/bf/21/e8f9dc12fed3ec296283035f90354b07ff54e1b4f39201ce7c58a0109c1d/verybadpylib-0.0.2.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/b6/74/729dc94c785bb9225359d55ae5a6e4a69898590b000a5a09f69530bae31f/mongodriver-1.2.41.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [discuit]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [discuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discuit-0.2.1.tar.gz tmp/discuit-0.3.0.tar.gz --markdown 20230801/d/discuit/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230801/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [skip-developers-chamber]: Downloading https://files.pythonhosted.org/packages/cd/2c/2e4600729e50701bb9e15072c01ba82cdb323d3dc7a778039a97db3b1028/skip-developers-chamber-1.0.0.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [skyr]: Downloading https://files.pythonhosted.org/packages/8d/99/3e407787aae36ff6b4324078e0d7b9737e2f8abcc776617431e90414fd88/skyr-0.3.0.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [mdast-cli-core]: Downloading https://files.pythonhosted.org/packages/92/63/027487a4d37597efc7363e035f985246df3d4c4c66d00dd43b9369d756ae/mdast_cli_core-2023.8.1.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [uun-guardman]: Downloading https://files.pythonhosted.org/packages/c2/e4/7723605db806d25df3d0292701e05ada920c47be0a793bd1ef0c6e5f8545/uun-guardman-0.1.4.tar.gz
+[2023-08-01 13:29:32] INFO root fetch - processPackages [mongodriver]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [mongodriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodriver-1.2.4.tar.gz tmp/mongodriver-1.2.41.tar.gz --markdown 20230801/m/mongodriver/1.2.4-1.2.41/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [mdast-cli-core]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [mdast-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdast_cli_core-2023.5.1.tar.gz tmp/mdast_cli_core-2023.8.1.tar.gz --markdown 20230801/m/mdast-cli-core/2023.5.1-2023.8.1/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [verybadpylib]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [verybadpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verybadpylib-0.0.1.tar.gz tmp/verybadpylib-0.0.2.tar.gz --markdown 20230801/v/verybadpylib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [skip-developers-chamber]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [skip-developers-chamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-developers-chamber-0.0.70.2.tar.gz tmp/skip-developers-chamber-1.0.0.tar.gz --markdown 20230801/s/skip-developers-chamber/0.0.70.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [skyr]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [skyr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyr-0.2.0.tar.gz tmp/skyr-0.3.0.tar.gz --markdown 20230801/s/skyr/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [uun-guardman]: executing diffoscope
+[2023-08-01 13:29:32] INFO root fetch - processPackages [uun-guardman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-guardman-0.1.2.tar.gz tmp/uun-guardman-0.1.4.tar.gz --markdown 20230801/u/uun-guardman/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 13:29:32] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2023-08-01 13:29:33] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2023-08-01 13:29:33] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20230801/l/lusid-drive-sdk-preview/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-08-01 13:29:33] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.4.tar.gz]
+[2023-08-01 13:29:33] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.41.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [mongodriver]: Start processing: lusid-drive-sdk
+[2023-08-01 13:29:34] INFO root fetch - main [MainThread]: End processing [mongodriver]: success
+[2023-08-01 13:29:34] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [discuit]: Remove: archive file [/home/abi/fetcher/tmp/discuit-0.2.1.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [discuit]: Remove: archive file [/home/abi/fetcher/tmp/discuit-0.3.0.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [discuit]: Start processing: uform
+[2023-08-01 13:29:34] INFO root fetch - main [MainThread]: End processing [discuit]: success
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uform]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [verybadpylib]: Remove: archive file [/home/abi/fetcher/tmp/verybadpylib-0.0.1.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [verybadpylib]: Remove: archive file [/home/abi/fetcher/tmp/verybadpylib-0.0.2.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [verybadpylib]: Start processing: messaging-arbihacker
+[2023-08-01 13:29:34] INFO root fetch - main [MainThread]: End processing [verybadpylib]: success
+[2023-08-01 13:29:34] INFO root fetch - processPackages [messaging-arbihacker]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/de/c4/d650d6220b8a796e210b789647cfcab1357ab3bd9085ea87d503604999f7/lusid-drive-sdk-0.1.95.tar.gz
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uform]: Downloading https://files.pythonhosted.org/packages/4a/98/9ee1502595527bd10ba372cd4b4a98ea8a2700c939de729033d3eabadcef/uform-0.2.1.tar.gz
+[2023-08-01 13:29:34] INFO root fetch - processPackages [messaging-arbihacker]: Downloading https://files.pythonhosted.org/packages/8f/00/cd97eb8febdad682da886525f7fc12ef7bfaf4ba5ed8ac4bbe5061e67739/messaging_arbihacker-0.1.0.tar.gz
+[2023-08-01 13:29:34] INFO root fetch - processPackages [mdast-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mdast_cli_core-2023.5.1.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [mdast-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/mdast_cli_core-2023.8.1.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [mdast-cli-core]: Start processing: b-cfn-lambda-integration
+[2023-08-01 13:29:34] INFO root fetch - main [MainThread]: End processing [mdast-cli-core]: success
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uun-guardman]: Remove: archive file [/home/abi/fetcher/tmp/uun-guardman-0.1.2.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uun-guardman]: Remove: archive file [/home/abi/fetcher/tmp/uun-guardman-0.1.4.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uun-guardman]: Start processing: torchx-nightly
+[2023-08-01 13:29:34] INFO root fetch - main [MainThread]: End processing [uun-guardman]: success
+[2023-08-01 13:29:34] INFO root fetch - processPackages [skyr]: Remove: archive file [/home/abi/fetcher/tmp/skyr-0.2.0.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [skyr]: Remove: archive file [/home/abi/fetcher/tmp/skyr-0.3.0.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [skyr]: Start processing: wizata-dsapi
+[2023-08-01 13:29:34] INFO root fetch - main [MainThread]: End processing [skyr]: success
+[2023-08-01 13:29:34] INFO root fetch - processPackages [skip-developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/skip-developers-chamber-0.0.70.2.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [skip-developers-chamber]: Remove: archive file [/home/abi/fetcher/tmp/skip-developers-chamber-1.0.0.tar.gz]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [skip-developers-chamber]: Start processing: torchserve-nightly
+[2023-08-01 13:29:34] INFO root fetch - main [MainThread]: End processing [skip-developers-chamber]: success
+[2023-08-01 13:29:34] INFO root fetch - processPackages [b-cfn-lambda-integration]: New version: [1.0.0] Old Version: [0.0.8]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.7.31] Old Version: [2023.7.30]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uform]: Downloading https://files.pythonhosted.org/packages/d1/80/a74ce9a11e6cc8038f0238eabbb81d6131fc928a391a113ba3711c2278d9/uform-0.3.0.tar.gz
+[2023-08-01 13:29:34] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.8.1] Old Version: [2023.7.9]
+[2023-08-01 13:29:34] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-08-01 13:29:34] INFO root fetch - processPackages [messaging-arbihacker]: Downloading https://files.pythonhosted.org/packages/10/e6/c9606ebc147fb477054491ae176b54b76c6f5636f4c71b91b0ab9d8e8c30/messaging_arbihacker-0.1.1.tar.gz
+[2023-08-01 13:29:34] INFO root fetch - processPackages [b-cfn-lambda-integration]: Downloading https://files.pythonhosted.org/packages/41/34/56991059a747a92b3af2ccc7fb00ef8bc0a7b7f0a08a56e0f44561e0e539/b_cfn_lambda_integration-0.0.8.tar.gz
+[2023-08-01 13:29:34] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/ba/ea/bf9b355a00fa76f355499104ebc6c6a08de8bc993dd2f7e464105ca4dd7c/torchx_nightly-2023.7.30-py3-none-any.whl
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uform]: executing diffoscope
+[2023-08-01 13:29:34] INFO root fetch - processPackages [uform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uform-0.2.1.tar.gz tmp/uform-0.3.0.tar.gz --markdown 20230801/u/uform/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-08-01 13:29:35] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-08-01 13:29:35] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-08-01 13:29:35] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: torch-model-archiver-nightly
+[2023-08-01 13:29:35] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-08-01 13:29:35] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-08-01 13:29:35] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-01 13:29:35] INFO root fetch - processPackages [messaging-arbihacker]: executing diffoscope
+[2023-08-01 13:29:35] INFO root fetch - processPackages [messaging-arbihacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messaging_arbihacker-0.1.0.tar.gz tmp/messaging_arbihacker-0.1.1.tar.gz --markdown 20230801/m/messaging-arbihacker/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/b2/22/c32218b9186513a19502d6b2d788048749672ea0e92d519306d89cee0ac9/torchserve_nightly-2023.7.9-py3-none-any.whl
+[2023-08-01 13:29:35] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2023-08-01 13:29:35] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2023-08-01 13:29:35] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Start processing: torch-workflow-archiver-nightly
+[2023-08-01 13:29:35] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-08-01 13:29:35] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-01 13:29:35] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230801/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-08-01 13:29:35] INFO root fetch - processPackages [b-cfn-lambda-integration]: Downloading https://files.pythonhosted.org/packages/e7/9a/9960543214ad1e622ca06a64e5a5c052dfa319908db1436ad25ca299c4f8/b_cfn_lambda_integration-1.0.0.tar.gz
+[2023-08-01 13:29:35] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/df/40/34d8137d43f70f7a96037ba54cbbab838b9ae0bc84531d2be22cb7d3a967/lusid-drive-sdk-0.1.96.tar.gz
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/48/dd/865a5852edde7834c6476ef304dffb6b179324a56ad46c0988f1d9952f71/torchx_nightly-2023.7.31-py3-none-any.whl
+[2023-08-01 13:29:35] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750207>=10485760
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torchserve-nightly]: Start processing: blurhash-python
+[2023-08-01 13:29:35] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-08-01 13:29:35] INFO root fetch - processPackages [b-cfn-lambda-integration]: executing diffoscope
+[2023-08-01 13:29:35] INFO root fetch - processPackages [b-cfn-lambda-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b_cfn_lambda_integration-0.0.8.tar.gz tmp/b_cfn_lambda_integration-1.0.0.tar.gz --markdown 20230801/b/b-cfn-lambda-integration/0.0.8-1.0.0/diff.md --exclude *.pyd
+[2023-08-01 13:29:35] INFO root fetch - processPackages [blurhash-python]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-01 13:29:35] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2023-08-01 13:29:35] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-0.1.95.tar.gz tmp/lusid-drive-sdk-0.1.96.tar.gz --markdown 20230801/l/lusid-drive-sdk/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230801/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230801/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-08-01 13:29:35] INFO root fetch - processPackages [blurhash-python]: Downloading https://files.pythonhosted.org/packages/80/29/959ec595af9bbf6f12a7d8124cea94ae3dda5665436ed8357000ac5c24d4/blurhash-python-1.2.0.tar.gz
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-08-01 13:29:35] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.7.30-py3-none-any.whl.zip tmp/torchx_nightly-2023.7.31-py3-none-any.whl.zip --markdown 20230801/t/torchx-nightly/2023.7.30-2023.7.31/diff.md --exclude *.pyd
+[2023-08-01 13:29:36] INFO root fetch - processPackages [messaging-arbihacker]: Remove: archive file [/home/abi/fetcher/tmp/messaging_arbihacker-0.1.0.tar.gz]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [messaging-arbihacker]: Remove: archive file [/home/abi/fetcher/tmp/messaging_arbihacker-0.1.1.tar.gz]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [messaging-arbihacker]: Start processing: torchtnt-nightly
+[2023-08-01 13:29:36] INFO root fetch - main [MainThread]: End processing [messaging-arbihacker]: success
+[2023-08-01 13:29:36] INFO root fetch - processPackages [blurhash-python]: Downloading https://files.pythonhosted.org/packages/9d/4a/fc014bc50fd294bcca67d1d28b82552b332b63eb1b310160695b4272c8ba/blurhash-python-1.2.1.tar.gz
+[2023-08-01 13:29:36] INFO root fetch - processPackages [uform]: Remove: archive file [/home/abi/fetcher/tmp/uform-0.2.1.tar.gz]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [uform]: Remove: archive file [/home/abi/fetcher/tmp/uform-0.3.0.tar.gz]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [uform]: Start processing: moto
+[2023-08-01 13:29:36] INFO root fetch - main [MainThread]: End processing [uform]: success
+[2023-08-01 13:29:36] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.8.1] Old Version: [2023.7.9]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-08-01 13:29:36] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-08-01 13:29:36] INFO root fetch - processPackages [blurhash-python]: executing diffoscope
+[2023-08-01 13:29:36] INFO root fetch - processPackages [blurhash-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blurhash-python-1.2.0.tar.gz tmp/blurhash-python-1.2.1.tar.gz --markdown 20230801/b/blurhash-python/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-01 13:29:36] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-01 13:29:36] INFO root fetch - processPackages [wizata-dsapi]: Start processing: isystem.connect
+[2023-08-01 13:29:36] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-01 13:29:36] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/90/7c/2cf89f3905bde7fbe5ecdf5a659117672d39c181b8bf65b6e4c4c376c35b/torchtnt-nightly-2023.8.1.tar.gz
+[2023-08-01 13:29:37] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2023-08-01 13:29:37] INFO root fetch - processPackages [b-cfn-lambda-integration]: Remove: archive file [/home/abi/fetcher/tmp/b_cfn_lambda_integration-0.0.8.tar.gz]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [b-cfn-lambda-integration]: Remove: archive file [/home/abi/fetcher/tmp/b_cfn_lambda_integration-1.0.0.tar.gz]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [b-cfn-lambda-integration]: Start processing: uun-livecam
+[2023-08-01 13:29:37] INFO root fetch - main [MainThread]: End processing [b-cfn-lambda-integration]: success
+[2023-08-01 13:29:37] INFO root fetch - processPackages [uun-livecam]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.9.tar.gz tmp/torchtnt-nightly-2023.8.1.tar.gz --markdown 20230801/t/torchtnt-nightly/2023.7.9-2023.8.1/diff.md --exclude *.pyd
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: gauge-web-app-steps
+[2023-08-01 13:29:37] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-08-01 13:29:37] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-08-01 13:29:37] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230801/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-08-01 13:29:37] INFO root fetch - processPackages [uun-livecam]: Downloading https://files.pythonhosted.org/packages/a9/78/96066df4c5e7d4fca017665d1c9fbffbd213725e665939646d2d1b15c2b5/uun-livecam-0.5.2.tar.gz
+[2023-08-01 13:29:37] INFO root fetch - processPackages [gauge-web-app-steps]: New version: [0.54] Old Version: [0.53]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.95.tar.gz]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.96.tar.gz]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [lusid-drive-sdk]: Start processing: uun-iot
+[2023-08-01 13:29:37] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2023-08-01 13:29:37] INFO root fetch - processPackages [uun-iot]: New version: [0.9.1] Old Version: [0.8.2]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [gauge-web-app-steps]: Downloading https://files.pythonhosted.org/packages/1a/b0/39eacf63ad72b1df841190862c63a16743ebb621671ba42fede6210d750f/gauge-web-app-steps-0.53.tar.gz
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: uun-weatherstation
+[2023-08-01 13:29:37] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-08-01 13:29:37] INFO root fetch - processPackages [uun-livecam]: Downloading https://files.pythonhosted.org/packages/18/96/c8ec21d64ad0c6bbd66db6d13224e2625e0411a7768d4e36ed41e79f82a1/uun-livecam-0.5.3.tar.gz
+[2023-08-01 13:29:37] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-01 13:29:37] INFO root fetch - processPackages [uun-weatherstation]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-08-01 13:29:37] INFO root fetch - processPackages [uun-iot]: Downloading https://files.pythonhosted.org/packages/6c/8c/a661123347125beb6be428fbfcf9acf1368decd7c6a9ac4455b7dbc57e04/uun-iot-0.8.2.tar.gz
+[2023-08-01 13:29:37] INFO root fetch - processPackages [uun-weatherstation]: Downloading https://files.pythonhosted.org/packages/14/3a/36cae65b4744643b526ef6eb44618b8cc2f9e7a3e402b093c9f30536b33f/uun-weatherstation-0.6.4.tar.gz
+[2023-08-01 13:29:37] INFO root fetch - processPackages [gauge-web-app-steps]: Downloading https://files.pythonhosted.org/packages/ce/1f/d6e8c03321487890ff72b0350771c072f04c5f6f679d12f0afbe99744a7d/gauge-web-app-steps-0.54.tar.gz
+[2023-08-01 13:29:38] INFO root fetch - processPackages [blurhash-python]: Remove: archive file [/home/abi/fetcher/tmp/blurhash-python-1.2.0.tar.gz]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [blurhash-python]: Remove: archive file [/home/abi/fetcher/tmp/blurhash-python-1.2.1.tar.gz]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [blurhash-python]: Start processing: moto
+[2023-08-01 13:29:38] INFO root fetch - main [MainThread]: End processing [blurhash-python]: success
+[2023-08-01 13:29:38] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.7.30-py3-none-any.whl.zip]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.7.31-py3-none-any.whl.zip]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [torchx-nightly]: Start processing: sotrans-fastapi-keycloak
+[2023-08-01 13:29:38] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-weatherstation]: Downloading https://files.pythonhosted.org/packages/51/ff/d301f52b2c9edb6484491926d4615fa4830aea4464f35c93f280a38c50a7/uun-weatherstation-0.6.5.tar.gz
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-livecam]: executing diffoscope
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-livecam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-livecam-0.5.2.tar.gz tmp/uun-livecam-0.5.3.tar.gz --markdown 20230801/u/uun-livecam/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-08-01 13:29:38] INFO root fetch - processPackages [gauge-web-app-steps]: executing diffoscope
+[2023-08-01 13:29:38] INFO root fetch - processPackages [gauge-web-app-steps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauge-web-app-steps-0.53.tar.gz tmp/gauge-web-app-steps-0.54.tar.gz --markdown 20230801/g/gauge-web-app-steps/0.53-0.54/diff.md --exclude *.pyd
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-iot]: Downloading https://files.pythonhosted.org/packages/48/f9/2ff4d52dd44444ab58fbecb1470e0f93fb9e7198e974ccc6bbc57c6d2255/uun-iot-0.9.1.tar.gz
+[2023-08-01 13:29:38] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-weatherstation]: executing diffoscope
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-weatherstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-weatherstation-0.6.4.tar.gz tmp/uun-weatherstation-0.6.5.tar.gz --markdown 20230801/u/uun-weatherstation/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-iot]: executing diffoscope
+[2023-08-01 13:29:38] INFO root fetch - processPackages [uun-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-iot-0.8.2.tar.gz tmp/uun-iot-0.9.1.tar.gz --markdown 20230801/u/uun-iot/0.8.2-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 13:29:38] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/22/0f/09b3818bd61ed97e7b5868934c4a95f61c622173ce315c0b94d3670bbd74/sotrans_fastapi_keycloak-0.0.5.tar.gz
+[2023-08-01 13:29:38] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/6d/80/cd5b62045d828bc4b7cb805433c39cef448d309e9d007fc21cde32e221a1/sotrans_fastapi_keycloak-0.0.6.tar.gz
+[2023-08-01 13:29:38] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.1.tar.gz]
+[2023-08-01 13:29:38] INFO root fetch - processPackages [torchtnt-nightly]: Start processing: libdeeplake
+[2023-08-01 13:29:38] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-08-01 13:29:39] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: executing diffoscope
+[2023-08-01 13:29:39] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotrans_fastapi_keycloak-0.0.5.tar.gz tmp/sotrans_fastapi_keycloak-0.0.6.tar.gz --markdown 20230801/s/sotrans-fastapi-keycloak/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-01 13:29:39] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-01 13:29:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230801/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-01 13:29:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-08-01 13:29:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230801/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-08-01 13:29:39] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/90/d1/8cba2118c890778e1a4faa696a73b8e9aafdf7592d045c088c972941ad5f/libdeeplake-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-08-01 13:29:39] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2023-08-01 13:29:39] INFO root fetch - processPackages [gauge-web-app-steps]: Remove: archive file [/home/abi/fetcher/tmp/gauge-web-app-steps-0.53.tar.gz]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [gauge-web-app-steps]: Remove: archive file [/home/abi/fetcher/tmp/gauge-web-app-steps-0.54.tar.gz]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [gauge-web-app-steps]: Start processing: uun-windsurfguru
+[2023-08-01 13:29:39] INFO root fetch - main [MainThread]: End processing [gauge-web-app-steps]: success
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-windsurfguru]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/uun-weatherstation-0.6.4.tar.gz]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-weatherstation]: Remove: archive file [/home/abi/fetcher/tmp/uun-weatherstation-0.6.5.tar.gz]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-weatherstation]: Start processing: DatabaseConnectionUtility
+[2023-08-01 13:29:39] INFO root fetch - main [MainThread]: End processing [uun-weatherstation]: success
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-iot]: Remove: archive file [/home/abi/fetcher/tmp/uun-iot-0.8.2.tar.gz]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-iot]: Remove: archive file [/home/abi/fetcher/tmp/uun-iot-0.9.1.tar.gz]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-iot]: Start processing: uun-qrdoorlock
+[2023-08-01 13:29:39] INFO root fetch - main [MainThread]: End processing [uun-iot]: success
+[2023-08-01 13:29:39] INFO root fetch - processPackages [DatabaseConnectionUtility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 13:29:39] INFO root fetch - processPackages [uun-qrdoorlock]: New version: [0.5.3] Old Version: [0.5.1]
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-windsurfguru]: Downloading https://files.pythonhosted.org/packages/e1/63/bda643969a70b5b31448f3c99db38affcbf4397a05fbabe0a53d589454ce/uun-windsurfguru-0.2.3.tar.gz
+[2023-08-01 13:29:40] INFO root fetch - processPackages [DatabaseConnectionUtility]: Downloading https://files.pythonhosted.org/packages/be/e9/ce03c1da0081f498c93283675dd4b6712ef58f64e6133d26fa08a64bea44/DatabaseConnectionUtility-0.0.8-py3-none-any.whl
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-qrdoorlock]: Downloading https://files.pythonhosted.org/packages/9b/0f/100bdb62cbbf656f6d66e80d6bde7c92f7b24750f62524b5375edf53087d/uun-qrdoorlock-0.5.1.tar.gz
+[2023-08-01 13:29:40] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 20849540>=10485760
+[2023-08-01 13:29:40] INFO root fetch - processPackages [libdeeplake]: Start processing: readmeai
+[2023-08-01 13:29:40] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2023-08-01 13:29:40] INFO root fetch - processPackages [readmeai]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-windsurfguru]: Downloading https://files.pythonhosted.org/packages/e4/5c/7044b1f4cd65440a5b60895ce6d239073645d95ceaadd3e6a345dfd8176b/uun-windsurfguru-0.2.4.tar.gz
+[2023-08-01 13:29:40] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.5.tar.gz]
+[2023-08-01 13:29:40] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.6.tar.gz]
+[2023-08-01 13:29:40] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Start processing: torchrec-nightly
+[2023-08-01 13:29:40] INFO root fetch - main [MainThread]: End processing [sotrans-fastapi-keycloak]: success
+[2023-08-01 13:29:40] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/68/55/43098b909d33960c499acde7b69571d57974da05ec52b40ef4f7fbcd5965/readmeai-0.1.3.tar.gz
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-qrdoorlock]: Downloading https://files.pythonhosted.org/packages/47/fa/2f52ebb331ff5369e41761206bc37582a60b0d872504fb8cfcd319eb5939/uun-qrdoorlock-0.5.3.tar.gz
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-windsurfguru]: executing diffoscope
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-windsurfguru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-windsurfguru-0.2.3.tar.gz tmp/uun-windsurfguru-0.2.4.tar.gz --markdown 20230801/u/uun-windsurfguru/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-qrdoorlock]: executing diffoscope
+[2023-08-01 13:29:40] INFO root fetch - processPackages [uun-qrdoorlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-qrdoorlock-0.5.1.tar.gz tmp/uun-qrdoorlock-0.5.3.tar.gz --markdown 20230801/u/uun-qrdoorlock/0.5.1-0.5.3/diff.md --exclude *.pyd
+[2023-08-01 13:29:40] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.8.1] Old Version: [2023.7.30]
+[2023-08-01 13:29:40] INFO root fetch - processPackages [DatabaseConnectionUtility]: Downloading https://files.pythonhosted.org/packages/ae/7b/8492b5d50dc9aa86ba7a6d3b2399aa4a131e11a4943bff0bdfcdcf9c6a6a/DatabaseConnectionUtility-0.0.9-py3-none-any.whl
+[2023-08-01 13:29:40] INFO root fetch - processPackages [readmeai]: Downloading https://files.pythonhosted.org/packages/db/7d/25b21fbf5f69c0a43f038309e1e22cb87050c148c667906b6a0dd2ee640e/readmeai-0.1.4.tar.gz
+[2023-08-01 13:29:40] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2023-08-01 13:29:40] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20230801/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2023-08-01 13:29:41] INFO root fetch - processPackages [DatabaseConnectionUtility]: executing diffoscope
+[2023-08-01 13:29:41] INFO root fetch - processPackages [DatabaseConnectionUtility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DatabaseConnectionUtility-0.0.8-py3-none-any.whl.zip tmp/DatabaseConnectionUtility-0.0.9-py3-none-any.whl.zip --markdown 20230801/D/DatabaseConnectionUtility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 13:29:41] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/a5/4f/e3f8c6b9c56546710e82cdf10f8a80bedd8251bdc472691793565d225cf6/torchrec_nightly-2023.7.30-py39-none-any.whl
+[2023-08-01 13:29:41] INFO root fetch - processPackages [readmeai]: executing diffoscope
+[2023-08-01 13:29:41] INFO root fetch - processPackages [readmeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readmeai-0.1.3.tar.gz tmp/readmeai-0.1.4.tar.gz --markdown 20230801/r/readmeai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-01 13:29:41] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-08-01 13:29:41] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-08-01 13:29:41] INFO root fetch - processPackages [tb-nightly]: Start processing: equilibrator-cache
+[2023-08-01 13:29:41] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-08-01 13:29:41] INFO root fetch - processPackages [equilibrator-cache]: New version: [0.5.1] Old Version: [0.5.0b2]
+[2023-08-01 13:29:41] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/5a/c7/1b6ec456de96feb2a724ca713b955ea95c962f1a16013ea8cde8ddaa7c4f/equilibrator-cache-0.5.0b2.tar.gz
+[2023-08-01 13:29:41] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/a2/57/8507152a534fce7cdec78b7d5a74ec3419428e3ccacb6f625ce46c6f0abc/torchrec_nightly-2023.8.1-py39-none-any.whl
+[2023-08-01 13:29:42] INFO root fetch - processPackages [equilibrator-cache]: Downloading https://files.pythonhosted.org/packages/89/24/70350fa5e2672b56a2c66fa930d39c15b7fd450b3ef42256073d879f7122/equilibrator-cache-0.5.1.tar.gz
+[2023-08-01 13:29:42] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-08-01 13:29:42] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.7.30-py39-none-any.whl.zip tmp/torchrec_nightly-2023.8.1-py39-none-any.whl.zip --markdown 20230801/t/torchrec-nightly/2023.7.30-2023.8.1/diff.md --exclude *.pyd
+[2023-08-01 13:29:42] INFO root fetch - processPackages [equilibrator-cache]: executing diffoscope
+[2023-08-01 13:29:42] INFO root fetch - processPackages [equilibrator-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equilibrator-cache-0.5.0b2.tar.gz tmp/equilibrator-cache-0.5.1.tar.gz --markdown 20230801/e/equilibrator-cache/0.5.0b2-0.5.1/diff.md --exclude *.pyd
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-windsurfguru]: Remove: archive file [/home/abi/fetcher/tmp/uun-windsurfguru-0.2.3.tar.gz]
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-windsurfguru]: Remove: archive file [/home/abi/fetcher/tmp/uun-windsurfguru-0.2.4.tar.gz]
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-windsurfguru]: Start processing: uun-iot-libledstrip
+[2023-08-01 13:29:42] INFO root fetch - main [MainThread]: End processing [uun-windsurfguru]: success
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-iot-libledstrip]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-qrdoorlock]: Remove: archive file [/home/abi/fetcher/tmp/uun-qrdoorlock-0.5.1.tar.gz]
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-qrdoorlock]: Remove: archive file [/home/abi/fetcher/tmp/uun-qrdoorlock-0.5.3.tar.gz]
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-qrdoorlock]: Start processing: pharindoko.cdk-internal-gateway
+[2023-08-01 13:29:42] INFO root fetch - main [MainThread]: End processing [uun-qrdoorlock]: success
+[2023-08-01 13:29:42] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-01 13:29:42] INFO root fetch - processPackages [uun-iot-libledstrip]: Downloading https://files.pythonhosted.org/packages/ca/af/4cf1b2fcb9a8f6ddcd0689973eb5251c0aedd7f356ed1644325655be97b4/uun-iot-libledstrip-0.2.3.tar.gz
+[2023-08-01 13:29:43] INFO root fetch - processPackages [DatabaseConnectionUtility]: Remove: archive file [/home/abi/fetcher/tmp/DatabaseConnectionUtility-0.0.8-py3-none-any.whl.zip]
+[2023-08-01 13:29:43] INFO root fetch - processPackages [DatabaseConnectionUtility]: Remove: archive file [/home/abi/fetcher/tmp/DatabaseConnectionUtility-0.0.9-py3-none-any.whl.zip]
+[2023-08-01 13:29:43] INFO root fetch - main [MainThread]: End processing [DatabaseConnectionUtility]: success
+[2023-08-01 13:29:43] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-08-01 13:29:43] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2023-08-01 13:29:43] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2023-08-01 13:29:43] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2023-08-01 13:29:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.1.3.tar.gz]
+[2023-08-01 13:29:43] INFO root fetch - processPackages [readmeai]: Remove: archive file [/home/abi/fetcher/tmp/readmeai-0.1.4.tar.gz]
+[2023-08-01 13:29:43] INFO root fetch - main [MainThread]: End processing [readmeai]: success
+[2023-08-01 13:29:43] INFO root fetch - processPackages [uun-livecam]: Remove: archive file [/home/abi/fetcher/tmp/uun-livecam-0.5.2.tar.gz]
+[2023-08-01 13:29:43] INFO root fetch - processPackages [uun-livecam]: Remove: archive file [/home/abi/fetcher/tmp/uun-livecam-0.5.3.tar.gz]
+[2023-08-01 13:29:43] INFO root fetch - main [MainThread]: End processing [uun-livecam]: success
+[2023-08-01 13:29:43] INFO root fetch - processPackages [uun-iot-libledstrip]: Downloading https://files.pythonhosted.org/packages/a9/b6/869154111b24d8dc175b6c1af92245f12033a3f4605f50430b50ad415558/uun-iot-libledstrip-0.2.4.tar.gz
+[2023-08-01 13:29:43] INFO root fetch - processPackages [uun-iot-libledstrip]: executing diffoscope
+[2023-08-01 13:29:43] INFO root fetch - processPackages [uun-iot-libledstrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uun-iot-libledstrip-0.2.3.tar.gz tmp/uun-iot-libledstrip-0.2.4.tar.gz --markdown 20230801/u/uun-iot-libledstrip/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-01 13:29:43] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-08-01 13:29:43] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-08-01 13:29:43] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230801/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-01 13:29:43] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.5.0b2.tar.gz]
+[2023-08-01 13:29:43] INFO root fetch - processPackages [equilibrator-cache]: Remove: archive file [/home/abi/fetcher/tmp/equilibrator-cache-0.5.1.tar.gz]
+[2023-08-01 13:29:43] INFO root fetch - main [MainThread]: End processing [equilibrator-cache]: success
+[2023-08-01 13:29:44] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.7.30-py39-none-any.whl.zip]
+[2023-08-01 13:29:44] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.8.1-py39-none-any.whl.zip]
+[2023-08-01 13:29:44] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-08-01 13:29:44] INFO root fetch - processPackages [uun-iot-libledstrip]: Remove: archive file [/home/abi/fetcher/tmp/uun-iot-libledstrip-0.2.3.tar.gz]
+[2023-08-01 13:29:44] INFO root fetch - processPackages [uun-iot-libledstrip]: Remove: archive file [/home/abi/fetcher/tmp/uun-iot-libledstrip-0.2.4.tar.gz]
+[2023-08-01 13:29:44] INFO root fetch - main [MainThread]: End processing [uun-iot-libledstrip]: success
+[2023-08-01 13:29:45] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-08-01 13:29:45] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-08-01 13:29:45] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-08-01 13:29:57] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-08-01 13:29:57] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-08-01 13:29:57] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-01 13:29:57] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-08-01 13:29:57] INFO root fetch - main [MainThread]: Store serial: [19122708]
