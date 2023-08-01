@@ -14792,3 +14792,169 @@
 [2023-08-01 08:36:04] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-08-01 08:36:04] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-08-01 08:36:04] INFO root fetch - main [MainThread]: Store serial: [19119501]
+[2023-08-01 08:41:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119501]
+[2023-08-01 08:41:31] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyarmor.cli.core.windows
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-async-validation
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inigo-py
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datamarket
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyautd3
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-restit
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: momos-py
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SPCEj9bbotw
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: polars
+[2023-08-01 08:41:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyarmor
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: New version: [4.3.dev1] Old Version: [4.3.1]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [inigo-py]: New version: [0.27.1] Old Version: [0.27.0]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [datamarket]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [django-restit]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-08-01 08:41:31] WARNING root fetch - processPackages [momos-py]: Skipping, unable to determine old version
+[2023-08-01 08:41:31] INFO root fetch - processPackages [momos-py]: Start processing: polars-lts-cpu
+[2023-08-01 08:41:31] INFO root fetch - main [MainThread]: End processing [momos-py] error
+[2023-08-01 08:41:31] INFO root fetch - processPackages [SPCEj9bbotw]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-01 08:41:31] WARNING root fetch - processPackages [pydantic-async-validation]: Skipping, unable to determine old version
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pydantic-async-validation]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-08-01 08:41:31] INFO root fetch - main [MainThread]: End processing [pydantic-async-validation] error
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pyarmor]: New version: [8.3.dev2] Old Version: [8.3.dev1]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-01 08:41:31] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/6f/af/ab199ed186ddb74f0177a7a99f1473685dca71f5e647c3cec12e4f67385d/django_restit-4.1.8.tar.gz
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/6a/6b/c6baf8d05127ebc487ccc817f70c9b09a92df60e93f14c4dc3b563c77865/pyarmor.cli.core.windows-4.3.1-cp39-none-any.whl
+[2023-08-01 08:41:31] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/8e/49/00e9435cdc508ab9a4a02362dd6ab8b3e8ff0829a692a853570981985e95/datamarket-0.3.8.tar.gz
+[2023-08-01 08:41:31] INFO root fetch - processPackages [inigo-py]: Downloading https://files.pythonhosted.org/packages/78/0c/540e10e9be49c5c9e3e8e0b92e91e64cb6d9eca65ecd46310080d8e0652c/inigo_py-0.27.0.tar.gz
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/d9/a1/a81236255b5bf73e9a5f034e82b91e4de9e82e891e245b13b561f836de57/pyarmor-8.3.dev1.zip
+[2023-08-01 08:41:31] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-08-01 08:41:31] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/b7/b6/c4411e4d977418f22372a1d6637882e8baff2a66412383690d968dab64ad/polars_lts_cpu-0.18.8.tar.gz
+[2023-08-01 08:41:31] WARNING root fetch - processPackages [inigo-py]: Skipping package: exceeds size limit 60630777>=10485760
+[2023-08-01 08:41:31] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/42/80/f59b52ed056aaa1080de3e760d3dbcb4166292b3fd98631349393187ac76/SPCEj9bbotw-0.0.4.tar.gz
+[2023-08-01 08:41:31] INFO root fetch - processPackages [inigo-py]: Start processing: alibabacloud-aligenieip-1-0
+[2023-08-01 08:41:31] INFO root fetch - main [MainThread]: End processing [inigo-py] error
+[2023-08-01 08:41:32] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-08-01 08:41:32] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pyautd3]: Start processing: pyarmor.cli
+[2023-08-01 08:41:32] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-08-01 08:41:32] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-01 08:41:32] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/0e/04/63e788bf7ebbcef3a2631435360b07492d0130662e2c955df89d1c9c301c/django_restit-4.1.9.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.3.dev2] Old Version: [8.3.dev1]
+[2023-08-01 08:41:32] INFO root fetch - processPackages [datamarket]: Downloading https://files.pythonhosted.org/packages/85/39/1202a2898f8ae9133c606f91c74e1f7e2b20763d6656bbeb334b47fd5cfb/datamarket-0.3.9.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [SPCEj9bbotw]: Downloading https://files.pythonhosted.org/packages/b6/e1/8ca0fbfffa35dcf909d192c70a4d81d6a34e18a53fa5af35d125de4127cf/SPCEj9bbotw-0.0.5.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [datamarket]: executing diffoscope
+[2023-08-01 08:41:32] INFO root fetch - processPackages [datamarket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamarket-0.3.8.tar.gz tmp/datamarket-0.3.9.tar.gz --markdown 20230801/d/datamarket/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 08:41:32] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/91/a6/651040bb028b2fd972781c4415b3f7c766cb2cda5e52c60487e121abcee8/alibabacloud_aligenieip_1_0-2.1.0.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-08-01 08:41:32] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.8.tar.gz tmp/django_restit-4.1.9.tar.gz --markdown 20230801/d/django-restit/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/86/43/e9e561f3226243540c819b18fe5894cf3838d07d59b98f17464452702878/pyarmor.cli-8.3.dev1.zip
+[2023-08-01 08:41:32] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/bc/6e/69fcb014ba3a5b64744748b6bccbacba7516448f453f20cef629a7a7585e/polars_lts_cpu-0.18.9.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [SPCEj9bbotw]: executing diffoscope
+[2023-08-01 08:41:32] INFO root fetch - processPackages [SPCEj9bbotw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPCEj9bbotw-0.0.4.tar.gz tmp/SPCEj9bbotw-0.0.5.tar.gz --markdown 20230801/S/SPCEj9bbotw/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 08:41:32] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Downloading https://files.pythonhosted.org/packages/a2/bd/ae4a9a70554d004afc1b383346ccb4f8a16b233a9b81e4ba3db50f245426/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230801/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pyarmor.cli.core.windows]: executing diffoscope
+[2023-08-01 08:41:32] INFO root fetch - processPackages [pyarmor.cli.core.windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.windows-4.3.1-cp39-none-any.whl.zip tmp/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl.zip --markdown 20230801/p/pyarmor.cli.core.windows/4.3.1-4.3.dev1/diff.md --exclude *.pyd
+[2023-08-01 08:41:32] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2023-08-01 08:41:32] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.18.8.tar.gz tmp/polars_lts_cpu-0.18.9.tar.gz --markdown 20230801/p/polars-lts-cpu/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-08-01 08:41:32] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/15/b0/6e4584bfe6ac3db839fdd1f531891f710d7b684e5e81960536fb9b5deb1e/alibabacloud_aligenieip_1_0-2.2.0.tar.gz
+[2023-08-01 08:41:33] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/92/c8/50db8e9378484cbc1ebdc3129bbca6531a0b160ecf4feee492882d17ee05/pyarmor.cli-8.3.dev2.zip
+[2023-08-01 08:41:33] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-08-01 08:41:33] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230801/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 08:41:33] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-08-01 08:41:33] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.3.dev1.zip tmp/pyarmor.cli-8.3.dev2.zip --markdown 20230801/p/pyarmor.cli/8.3.dev1-8.3.dev2/diff.md --exclude *.pyd
+[2023-08-01 08:41:33] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/e0/9d/7afa4fae158ac80e508fbdfab0b23c25be3edfea1df4e6efe7e407aeed04/pyarmor-8.3.dev2.zip
+[2023-08-01 08:41:33] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: executing diffoscope
+[2023-08-01 08:41:33] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieip_1_0-2.1.0.tar.gz tmp/alibabacloud_aligenieip_1_0-2.2.0.tar.gz --markdown 20230801/a/alibabacloud-aligenieip-1-0/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-01 08:41:33] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-08-01 08:41:33] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.3.dev1.zip tmp/pyarmor-8.3.dev2.zip --markdown 20230801/p/pyarmor/8.3.dev1-8.3.dev2/diff.md --exclude *.pyd
+[2023-08-01 08:41:33] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.4.tar.gz]
+[2023-08-01 08:41:33] INFO root fetch - processPackages [SPCEj9bbotw]: Remove: archive file [/home/abi/fetcher/tmp/SPCEj9bbotw-0.0.5.tar.gz]
+[2023-08-01 08:41:33] INFO root fetch - processPackages [SPCEj9bbotw]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-08-01 08:41:33] INFO root fetch - main [MainThread]: End processing [SPCEj9bbotw]: success
+[2023-08-01 08:41:33] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.3.8.tar.gz]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [datamarket]: Remove: archive file [/home/abi/fetcher/tmp/datamarket-0.3.9.tar.gz]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [datamarket]: Start processing: aliyun-python-sdk-grace
+[2023-08-01 08:41:34] INFO root fetch - main [MainThread]: End processing [datamarket]: success
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-4.3.1-cp39-none-any.whl.zip]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.windows-4.3.dev1-cp39-none-any.whl.zip]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Start processing: cx-Freeze
+[2023-08-01 08:41:34] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows]: success
+[2023-08-01 08:41:34] WARNING root fetch - processPackages [aliyun-python-sdk-grace]: Skipping, unable to determine old version
+[2023-08-01 08:41:34] INFO root fetch - processPackages [aliyun-python-sdk-grace]: Start processing: xdart
+[2023-08-01 08:41:34] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-grace] error
+[2023-08-01 08:41:34] INFO root fetch - processPackages [cx-Freeze]: New version: [6.9] Old Version: [6.8.4]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [xdart]: New version: [0.12.7] Old Version: [0.12.6]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: TinetApiRequest
+[2023-08-01 08:41:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-08-01 08:41:34] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/7b/26/680ccf853ab4ad29d7445377fcf1b9a560cfc1a64262812f8197b5e4e4a2/cx_Freeze-6.8.4.tar.gz
+[2023-08-01 08:41:34] INFO root fetch - processPackages [xdart]: Downloading https://files.pythonhosted.org/packages/0d/fe/7964c31939cae67c97d33168d3b59c6e7c6c0e5a12f62ce3a36a905159e7/xdart-0.12.6-py2.py3-none-any.whl
+[2023-08-01 08:41:34] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.3.dev1.zip]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.3.dev2.zip]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pyarmor.cli]: Start processing: lendsmart-reva
+[2023-08-01 08:41:34] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-08-01 08:41:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-08-01 08:41:34] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/16/d0/62b952aedcd58fed5a90ed4f8b461abf95dce1e7c005cdf610e9ef573ed1/TinetApiRequest-1.0.3.tar.gz
+[2023-08-01 08:41:34] INFO root fetch - processPackages [lendsmart-reva]: New version: [1.6] Old Version: [1.5]
+[2023-08-01 08:41:34] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/6d/18/697934627f9980f2ef688ea574841968e455349a808663e2cc67bbf56d71/cx_Freeze-6.9.tar.gz
+[2023-08-01 08:41:34] INFO root fetch - processPackages [xdart]: Downloading https://files.pythonhosted.org/packages/32/c0/3c02a821b8f4799acd28c44db667508292368e5ab261ed595a1773cddcc5/xdart-0.12.7-py2.py3-none-any.whl
+[2023-08-01 08:41:35] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/5a/f4/6a53995e34cb4943f7394658723beba04cc0a0194d4e3beea6fc6c85faba/lendsmart_reva-1.5.tar.gz
+[2023-08-01 08:41:35] INFO root fetch - processPackages [cx-Freeze]: executing diffoscope
+[2023-08-01 08:41:35] INFO root fetch - processPackages [cx-Freeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cx_Freeze-6.8.4.tar.gz tmp/cx_Freeze-6.9.tar.gz --markdown 20230801/c/cx-Freeze/6.8.4-6.9/diff.md --exclude *.pyd
+[2023-08-01 08:41:35] INFO root fetch - processPackages [xdart]: executing diffoscope
+[2023-08-01 08:41:35] INFO root fetch - processPackages [xdart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdart-0.12.6-py2.py3-none-any.whl.zip tmp/xdart-0.12.7-py2.py3-none-any.whl.zip --markdown 20230801/x/xdart/0.12.6-0.12.7/diff.md --exclude *.pyd
+[2023-08-01 08:41:35] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/c3/fd/c58cb55a20bf6df135ed93d1758d4c64c68a1a74b5676db822281110f618/TinetApiRequest-1.0.4.tar.gz
+[2023-08-01 08:41:35] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-08-01 08:41:35] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.0.3.tar.gz tmp/TinetApiRequest-1.0.4.tar.gz --markdown 20230801/T/TinetApiRequest/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-01 08:41:35] INFO root fetch - processPackages [lendsmart-reva]: Downloading https://files.pythonhosted.org/packages/c8/97/d6583c68a37db5911053dab0d566ef78bbc067a2b2963c1bbdceb750ce05/lendsmart_reva-1.6.tar.gz
+[2023-08-01 08:41:35] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.1.0.tar.gz]
+[2023-08-01 08:41:35] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-2.2.0.tar.gz]
+[2023-08-01 08:41:35] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Start processing: namekoplus
+[2023-08-01 08:41:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
+[2023-08-01 08:41:35] INFO root fetch - processPackages [namekoplus]: New version: [0.4.4] Old Version: [0.4.1]
+[2023-08-01 08:41:35] INFO root fetch - processPackages [lendsmart-reva]: executing diffoscope
+[2023-08-01 08:41:35] INFO root fetch - processPackages [lendsmart-reva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_reva-1.5.tar.gz tmp/lendsmart_reva-1.6.tar.gz --markdown 20230801/l/lendsmart-reva/1.5-1.6/diff.md --exclude *.pyd
+[2023-08-01 08:41:35] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/60/55/7fc020a9990969ea052207878f371444a480f48a1ae034409d663660c02f/namekoplus-0.4.1.tar.gz
+[2023-08-01 08:41:35] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-08-01 08:41:35] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230801/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 08:41:35] INFO root fetch - processPackages [namekoplus]: Downloading https://files.pythonhosted.org/packages/90/e0/a9fac96c242eaa6e129fd8fd78d188a3fd12e02c7e17d52ffe7882c14936/namekoplus-0.4.4.tar.gz
+[2023-08-01 08:41:36] INFO root fetch - processPackages [namekoplus]: executing diffoscope
+[2023-08-01 08:41:36] INFO root fetch - processPackages [namekoplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namekoplus-0.4.1.tar.gz tmp/namekoplus-0.4.4.tar.gz --markdown 20230801/n/namekoplus/0.4.1-0.4.4/diff.md --exclude *.pyd
+[2023-08-01 08:41:36] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.3.dev1.zip]
+[2023-08-01 08:41:36] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.3.dev2.zip]
+[2023-08-01 08:41:36] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-08-01 08:41:36] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.3.tar.gz]
+[2023-08-01 08:41:36] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.4.tar.gz]
+[2023-08-01 08:41:36] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-08-01 08:41:36] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.8.tar.gz]
+[2023-08-01 08:41:36] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
+[2023-08-01 08:41:36] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-08-01 08:41:37] INFO root fetch - processPackages [xdart]: Remove: archive file [/home/abi/fetcher/tmp/xdart-0.12.6-py2.py3-none-any.whl.zip]
+[2023-08-01 08:41:37] INFO root fetch - processPackages [xdart]: Remove: archive file [/home/abi/fetcher/tmp/xdart-0.12.7-py2.py3-none-any.whl.zip]
+[2023-08-01 08:41:37] INFO root fetch - main [MainThread]: End processing [xdart]: success
+[2023-08-01 08:41:37] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-1.5.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - processPackages [lendsmart-reva]: Remove: archive file [/home/abi/fetcher/tmp/lendsmart_reva-1.6.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - main [MainThread]: End processing [lendsmart-reva]: success
+[2023-08-01 08:41:37] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.8.4.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.9.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - main [MainThread]: End processing [cx-Freeze]: success
+[2023-08-01 08:41:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-08-01 08:41:37] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-08-01 08:41:37] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.1.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - processPackages [namekoplus]: Remove: archive file [/home/abi/fetcher/tmp/namekoplus-0.4.4.tar.gz]
+[2023-08-01 08:41:37] INFO root fetch - main [MainThread]: End processing [namekoplus]: success
+[2023-08-01 08:41:46] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.8.tar.gz]
+[2023-08-01 08:41:46] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.18.9.tar.gz]
+[2023-08-01 08:41:46] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2023-08-01 08:41:46] INFO root fetch - main [MainThread]: Store serial: [19119608]
