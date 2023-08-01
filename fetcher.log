@@ -15103,3 +15103,106 @@
 [2023-08-01 08:57:24] INFO root fetch - processPackages [petpptx]: Remove: archive file [/home/abi/fetcher/tmp/petpptx-1.0.3.tar.gz]
 [2023-08-01 08:57:24] INFO root fetch - main [MainThread]: End processing [petpptx]: success
 [2023-08-01 08:57:24] INFO root fetch - main [MainThread]: Store serial: [19119701]
+[2023-08-01 09:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119701]
+[2023-08-01 09:02:33] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantiumbase
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-development-cli
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valipy
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iqrfpy
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stonecharioteer
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: harpia
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boxmot
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remotion-lambda
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: valipy
+[2023-08-01 09:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: colossalai
+[2023-08-01 09:02:33] INFO root fetch - processPackages [valipy]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [boxmot]: New version: [10.0.9] Old Version: [10.0.8]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [harpia]: New version: [1.15] Old Version: [1.14]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [valipy]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [remotion-lambda]: New version: [4.0.15] Old Version: [4.0.14]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [colossalai]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-01 09:02:33] WARNING root fetch - processPackages [quantiumbase]: Skipping, unable to determine old version
+[2023-08-01 09:02:33] INFO root fetch - processPackages [quantiumbase]: Start processing: odoo-addon-purchase-request
+[2023-08-01 09:02:33] INFO root fetch - main [MainThread]: End processing [quantiumbase] error
+[2023-08-01 09:02:33] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [stonecharioteer]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/08/37/8081f74d3f7e1bc758b0863266e15b2aedf48ce14ac8429e4d94309cb2f2/harpia-1.14.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [qontract-development-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/dc/ac/76303db770d03a3713ab4d08bd38dac0c0208b589d081f3e6a9818f39c59/boxmot-10.0.8.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/7f/21/b86cc03e22be48a968b42d7fa45282614d111751f031ce4209fc20ab7d63/valipy-0.2.4.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/7f/21/b86cc03e22be48a968b42d7fa45282614d111751f031ce4209fc20ab7d63/valipy-0.2.4.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [colossalai]: Downloading https://files.pythonhosted.org/packages/ef/89/290c2fc3752a3ec9008f83cf6e8cae9c856026559c8a64683b00b1501a4f/colossalai-0.3.0.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-08-01 09:02:33] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/b1/04/3497d7cd4bffe0cbb127937577be080ac4f648739c3f680494ee6d649ca6/remotion_lambda-4.0.14.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [qontract-development-cli]: Downloading https://files.pythonhosted.org/packages/4d/84/65a1f000e3fb4ab56a106e097a02fab33e39918f43d537bd2fdd3a4085e1/qontract_development_cli-0.8.1.tar.gz
+[2023-08-01 09:02:33] INFO root fetch - processPackages [stonecharioteer]: Downloading https://files.pythonhosted.org/packages/0d/6a/de89979997554bc8acd6aa188ca914a8c4ae1104245ea68042d4078e86a3/stonecharioteer-0.7.6.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [harpia]: Downloading https://files.pythonhosted.org/packages/dd/31/d91e9d8fc6e2a4d5b9e0c1119cdb9351e50c4a5d837a5f46d7b4d707a147/harpia-1.15.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [boxmot]: Downloading https://files.pythonhosted.org/packages/8a/f5/03723049ad0e1bb7544e74ca77c734bc6cd4f4244b98def429efd2b73d9e/boxmot-10.0.9.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/8e/89/c33368b2f4ded99972244364d8910251fb06ce52c594020efc1973045a9c/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl
+[2023-08-01 09:02:34] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/19/36/9db668dbd3d7cbbb61c5e1ef5cb52decc3abd1974c023cc931cd6c812695/valipy-0.2.5.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [valipy]: Downloading https://files.pythonhosted.org/packages/19/36/9db668dbd3d7cbbb61c5e1ef5cb52decc3abd1974c023cc931cd6c812695/valipy-0.2.5.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/be/be/5da9080aa98185d99c84da3e72df242c283ec3a9081fa21f5e69e4ccefc5/remotion_lambda-4.0.15.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [boxmot]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [boxmot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxmot-10.0.8.tar.gz tmp/boxmot-10.0.9.tar.gz --markdown 20230801/b/boxmot/10.0.8-10.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.2.4.tar.gz tmp/valipy-0.2.5.tar.gz --markdown 20230801/v/valipy/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [harpia]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [harpia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harpia-1.14.tar.gz tmp/harpia-1.15.tar.gz --markdown 20230801/h/harpia/1.14-1.15/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [valipy]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [stonecharioteer]: Downloading https://files.pythonhosted.org/packages/ac/72/151d6440276123d15e5adb20e322fd04fe97a6c3de59a98a68c1dbe70ad0/stonecharioteer-0.7.7.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [valipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valipy-0.2.4.tar.gz tmp/valipy-0.2.5.tar.gz --markdown 20230801/v/valipy/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230801/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.14.tar.gz tmp/remotion_lambda-4.0.15.tar.gz --markdown 20230801/r/remotion-lambda/4.0.14-4.0.15/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [qontract-development-cli]: Downloading https://files.pythonhosted.org/packages/7a/59/8f3e14541da4cbaada05a9b68948b677057a6d05e31d5d48cf737ffc94b9/qontract_development_cli-0.9.0.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [stonecharioteer]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [stonecharioteer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonecharioteer-0.7.6.tar.gz tmp/stonecharioteer-0.7.7.tar.gz --markdown 20230801/s/stonecharioteer/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [colossalai]: Downloading https://files.pythonhosted.org/packages/a8/85/2d687fa9176a8ee5a77b00046ece47e9742c99a98e73b6afc7aa28f118c7/colossalai-0.3.1.tar.gz
+[2023-08-01 09:02:34] INFO root fetch - processPackages [qontract-development-cli]: executing diffoscope
+[2023-08-01 09:02:34] INFO root fetch - processPackages [qontract-development-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_development_cli-0.8.1.tar.gz tmp/qontract_development_cli-0.9.0.tar.gz --markdown 20230801/q/qontract-development-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-01 09:02:34] INFO root fetch - processPackages [odoo-addon-purchase-request]: Downloading https://files.pythonhosted.org/packages/0d/d1/4e43b9e658f256b20633846c736938767c0d80a2abd356e00d6d293485e7/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl
+[2023-08-01 09:02:35] INFO root fetch - processPackages [colossalai]: executing diffoscope
+[2023-08-01 09:02:35] INFO root fetch - processPackages [colossalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colossalai-0.3.0.tar.gz tmp/colossalai-0.3.1.tar.gz --markdown 20230801/c/colossalai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-01 09:02:35] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-08-01 09:02:35] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-08-01 09:02:36] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.2.4.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - processPackages [valipy]: Remove: archive file [/home/abi/fetcher/tmp/valipy-0.2.5.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - processPackages [valipy]: Start processing: seqio-nightly
+[2023-08-01 09:02:36] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-08-01 09:02:36] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.14.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.15.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2023-08-01 09:02:36] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-01 09:02:36] INFO root fetch - processPackages [stonecharioteer]: Remove: archive file [/home/abi/fetcher/tmp/stonecharioteer-0.7.6.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - processPackages [stonecharioteer]: Remove: archive file [/home/abi/fetcher/tmp/stonecharioteer-0.7.7.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - main [MainThread]: End processing [stonecharioteer]: success
+[2023-08-01 09:02:36] INFO root fetch - main [MainThread]: End processing [valipy]: success
+[2023-08-01 09:02:36] INFO root fetch - processPackages [qontract-development-cli]: Remove: archive file [/home/abi/fetcher/tmp/qontract_development_cli-0.8.1.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - processPackages [qontract-development-cli]: Remove: archive file [/home/abi/fetcher/tmp/qontract_development_cli-0.9.0.tar.gz]
+[2023-08-01 09:02:36] INFO root fetch - main [MainThread]: End processing [qontract-development-cli]: success
+[2023-08-01 09:02:36] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-01 09:02:36] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-01 09:02:37] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.8.tar.gz]
+[2023-08-01 09:02:37] INFO root fetch - processPackages [boxmot]: Remove: archive file [/home/abi/fetcher/tmp/boxmot-10.0.9.tar.gz]
+[2023-08-01 09:02:37] INFO root fetch - main [MainThread]: End processing [boxmot]: success
+[2023-08-01 09:02:37] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-01 09:02:37] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230801/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-01 09:02:37] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-08-01 09:02:37] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-08-01 09:02:37] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-08-01 09:02:37] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-08-01 09:02:37] INFO root fetch - processPackages [odoo-addon-purchase-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-08-01 09:02:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-08-01 09:02:38] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-01 09:02:38] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-01 09:02:38] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-01 09:02:38] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.14.tar.gz]
+[2023-08-01 09:02:38] INFO root fetch - processPackages [harpia]: Remove: archive file [/home/abi/fetcher/tmp/harpia-1.15.tar.gz]
+[2023-08-01 09:02:38] INFO root fetch - main [MainThread]: End processing [harpia]: success
+[2023-08-01 09:02:41] INFO root fetch - processPackages [colossalai]: Remove: archive file [/home/abi/fetcher/tmp/colossalai-0.3.0.tar.gz]
+[2023-08-01 09:02:41] INFO root fetch - processPackages [colossalai]: Remove: archive file [/home/abi/fetcher/tmp/colossalai-0.3.1.tar.gz]
+[2023-08-01 09:02:41] INFO root fetch - main [MainThread]: End processing [colossalai]: success
+[2023-08-01 09:02:41] INFO root fetch - main [MainThread]: Store serial: [19119742]
