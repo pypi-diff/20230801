@@ -10031,3 +10031,105 @@
 [2023-08-01 03:51:10] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
 [2023-08-01 03:51:10] INFO root fetch - main [MainThread]: End processing [pami]: success
 [2023-08-01 03:51:10] INFO root fetch - main [MainThread]: Store serial: [19117417]
+[2023-08-01 03:56:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117417]
+[2023-08-01 03:56:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py3seed
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commitizen
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgo-api-types
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: asmek-authcogs
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: score-models
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huhk
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bizlogic
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: switbuilder-core
+[2023-08-01 03:56:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aifactory
+[2023-08-01 03:56:19] INFO root fetch - processPackages [score-models]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [litellm]: New version: [0.1.205] Old Version: [0.1.204]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [bizlogic]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [huhk]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [asmek-authcogs]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [switbuilder-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [commitizen]: New version: [3.6.0] Old Version: [3.5.4]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.8.1.1.53.3] Old Version: [2023.7.9.5.5.49]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [py3seed]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/67/17/2752a3bebfb3f6371b24596a5e1bf6a8b411f17a2f660abb1372d05b1016/litellm-0.1.204.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [aifactory]: New version: [1.8.0] Old Version: [1.7.3]
+[2023-08-01 03:56:19] INFO root fetch - processPackages [asmek-authcogs]: Downloading https://files.pythonhosted.org/packages/d1/43/1e4ad2ad3e9fad48d834d086a7c5c0a071e2d1f00f7858ba90c4a67f5290/asmek_authcogs-1.1.1.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/d9/4d/fce1226f8d48153ed147c06c37f7ef1edfa4af878b3b003de2fd75e8da10/huhk-1.9.2.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/c2/88/8d845b42b8a0b630e8f3b72cafe18bb7ccca46b28477dc768f2f3a32acd9/switbuilder_core-0.0.8.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/c5/61/ca108fdc2839879768b6c2fc85f9599a9f3827c2682e24472093bea44075/score_models-0.4.6.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/15/a4/7fc14200c0c31e9fd08391e1d8ffd70345d98aba2c1f4a19342fa0b51ed6/bizlogic-0.2.8.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/20/ec/ccd893a4f2eea1c144f2fea08d97feaa084bb1fee41c7726b4ef86341234/commitizen-3.5.4.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4d/93/78d98c0a688a8f0ac29191feea8aa59cc6f63e883d4dd1d8a84f3fe997b8/fgo_api_types-2023.7.9.5.5.49.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/ab/bc/92673db0a4a2e7d71ab83b0aef75ff9338dba7f88c617c3317efb13d10cd/py3seed-0.2.6.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/38/c7/1b66eeeb3e956c87d95f8be42829e5f635dfb98b372d85f5cc9459c0f46d/aifactory-1.7.3.tar.gz
+[2023-08-01 03:56:19] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/b4/53/92fceef8137a16f34f5370a4dbb7ec6ca029830922baaf6ed0989a8e3472/litellm-0.1.205.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [switbuilder-core]: Downloading https://files.pythonhosted.org/packages/20/8a/73027b935cadace2a996b7f38db3705600afcd06272f73aafaefe6052f41/switbuilder_core-0.0.9.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/47/48/828b024bbab338404698f4e7aeb95685ec844e5d73fb686fa056067358cd/huhk-1.9.3.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [asmek-authcogs]: Downloading https://files.pythonhosted.org/packages/33/1f/82a6dc836ef56792d0a262c510b6fb08fd045b98ecff5da588decdfaa2d0/asmek_authcogs-1.1.2.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/e0/a3/d277800de4411971769663eebbfd88773b39722ec0feee28236433b44f55/score_models-0.4.7.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.204.tar.gz tmp/litellm-0.1.205.tar.gz --markdown 20230801/l/litellm/0.1.204-0.1.205/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [switbuilder-core]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [switbuilder-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switbuilder_core-0.0.8.tar.gz tmp/switbuilder_core-0.0.9.tar.gz --markdown 20230801/s/switbuilder-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/5d/dd/8e2a7bf66232aa054474ab83e55b03eed39f516fdb40ad7c041c475ee40d/commitizen-3.6.0.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [bizlogic]: Downloading https://files.pythonhosted.org/packages/70/d6/eb4fce7d479b8752585ed0ce78e483587aa78514aa160d2ff745d9c0d42f/bizlogic-0.2.9.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/50/31/7ff45e1e53cb29207f2c7a6362b1274487ee60ec972308803ffeb5d0e46c/py3seed-0.2.7.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/4b/80/af01677ca95b07a2529126b39e4cf7c013728778773295a595ce5a54c7b8/fgo_api_types-2023.8.1.1.53.3.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [asmek-authcogs]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [aifactory]: Downloading https://files.pythonhosted.org/packages/ef/89/9f46c5563520fc84166a0621d7e36203ce88b47dd7db724cc5a02912007d/aifactory-1.8.0.tar.gz
+[2023-08-01 03:56:20] INFO root fetch - processPackages [asmek-authcogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asmek_authcogs-1.1.1.tar.gz tmp/asmek_authcogs-1.1.2.tar.gz --markdown 20230801/a/asmek-authcogs/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.4.6.tar.gz tmp/score_models-0.4.7.tar.gz --markdown 20230801/s/score-models/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.9.2.tar.gz tmp/huhk-1.9.3.tar.gz --markdown 20230801/h/huhk/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.5.4.tar.gz tmp/commitizen-3.6.0.tar.gz --markdown 20230801/c/commitizen/3.5.4-3.6.0/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [bizlogic]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [bizlogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bizlogic-0.2.8.tar.gz tmp/bizlogic-0.2.9.tar.gz --markdown 20230801/b/bizlogic/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz tmp/fgo_api_types-2023.8.1.1.53.3.tar.gz --markdown 20230801/f/fgo-api-types/2023.7.9.5.5.49-2023.8.1.1.53.3/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.2.6.tar.gz tmp/py3seed-0.2.7.tar.gz --markdown 20230801/p/py3seed/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-01 03:56:20] INFO root fetch - processPackages [aifactory]: executing diffoscope
+[2023-08-01 03:56:20] INFO root fetch - processPackages [aifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aifactory-1.7.3.tar.gz tmp/aifactory-1.8.0.tar.gz --markdown 20230801/a/aifactory/1.7.3-1.8.0/diff.md --exclude *.pyd
+[2023-08-01 03:56:21] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.204.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.205.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - processPackages [litellm]: Start processing: huhk
+[2023-08-01 03:56:21] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-01 03:56:21] INFO root fetch - processPackages [huhk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-08-01 03:56:21] INFO root fetch - processPackages [asmek-authcogs]: Remove: archive file [/home/abi/fetcher/tmp/asmek_authcogs-1.1.1.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - processPackages [asmek-authcogs]: Remove: archive file [/home/abi/fetcher/tmp/asmek_authcogs-1.1.2.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - main [MainThread]: End processing [asmek-authcogs]: success
+[2023-08-01 03:56:21] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.8.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - processPackages [switbuilder-core]: Remove: archive file [/home/abi/fetcher/tmp/switbuilder_core-0.0.9.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - main [MainThread]: End processing [switbuilder-core]: success
+[2023-08-01 03:56:21] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.2.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.3.tar.gz]
+[2023-08-01 03:56:21] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-08-01 03:56:21] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/ad/37/65fc932ce087bb943561b4558480911fcd9f468f81c486f8ccafa908c907/huhk-1.9.4.tar.gz
+[2023-08-01 03:56:22] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.8.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - processPackages [bizlogic]: Remove: archive file [/home/abi/fetcher/tmp/bizlogic-0.2.9.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [bizlogic]: success
+[2023-08-01 03:56:22] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.4.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.6.0.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-08-01 03:56:22] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.7.9.5.5.49.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - processPackages [fgo-api-types]: Remove: archive file [/home/abi/fetcher/tmp/fgo_api_types-2023.8.1.1.53.3.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-08-01 03:56:22] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.7.3.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - processPackages [aifactory]: Remove: archive file [/home/abi/fetcher/tmp/aifactory-1.8.0.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [aifactory]: success
+[2023-08-01 03:56:22] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.6.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.7.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-08-01 03:56:22] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.6.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.2.7.tar.gz]
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-01 03:56:22] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-08-01 03:56:22] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.9.3.tar.gz tmp/huhk-1.9.4.tar.gz --markdown 20230801/h/huhk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-08-01 03:56:22] ERROR root fetch - processPackages [huhk]: Diffoscope failed: time="2023-08-01T03:56:22+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/huhk-1.9.3.tar.gz: No such file or directory
+
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2023-08-01 03:56:22] INFO root fetch - main [MainThread]: Store serial: [19117453]
