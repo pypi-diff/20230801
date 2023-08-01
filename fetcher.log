@@ -13635,3 +13635,105 @@
 [2023-08-01 07:21:15] INFO root fetch - processPackages [slice-to-py-dist]: Remove: archive file [/home/abi/fetcher/tmp/slice_to_py_dist-0.3.1.tar.gz]
 [2023-08-01 07:21:15] INFO root fetch - main [MainThread]: End processing [slice-to-py-dist]: success
 [2023-08-01 07:21:15] INFO root fetch - main [MainThread]: Store serial: [19118913]
+[2023-08-01 07:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19118913]
+[2023-08-01 07:26:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-sale-manual-delivery
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-qol
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Tenhou-Paifu-Logger
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edc-randomization
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-xcom-backend-triggerer
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mentat-ai
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: webexteamsapi
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hzdatasdk
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plot-likert
+[2023-08-01 07:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: f-yolov8
+[2023-08-01 07:26:24] WARNING root fetch - processPackages [gs-xcom-backend-triggerer]: Skipping, unable to determine old version
+[2023-08-01 07:26:24] INFO root fetch - processPackages [gs-xcom-backend-triggerer]: Start processing: badi-users
+[2023-08-01 07:26:24] INFO root fetch - main [MainThread]: End processing [gs-xcom-backend-triggerer] error
+[2023-08-01 07:26:24] INFO root fetch - processPackages [edc-qol]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [mentat-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [edc-randomization]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:26:24] WARNING root fetch - processPackages [webexteamsapi]: Skipping, unable to determine old version
+[2023-08-01 07:26:24] INFO root fetch - processPackages [webexteamsapi]: Start processing: edc-reference
+[2023-08-01 07:26:24] INFO root fetch - main [MainThread]: End processing [webexteamsapi] error
+[2023-08-01 07:26:24] INFO root fetch - processPackages [plot-likert]: New version: [0.5.0.dev20230731] Old Version: [0.4.1.dev20221009]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: New version: [12.0.2.0.2.99.dev8] Old Version: [12.0.2.0.2.99.dev7]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [f-yolov8]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [hzdatasdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-01 07:26:24] WARNING root fetch - processPackages [Tenhou-Paifu-Logger]: Skipping, unable to determine old version
+[2023-08-01 07:26:24] INFO root fetch - processPackages [Tenhou-Paifu-Logger]: Start processing: censoredzz
+[2023-08-01 07:26:24] INFO root fetch - main [MainThread]: End processing [Tenhou-Paifu-Logger] error
+[2023-08-01 07:26:24] INFO root fetch - processPackages [badi-users]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [censoredzz]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Downloading https://files.pythonhosted.org/packages/a5/2f/8eabc388507d40f62457474c805967f18f582f01e5d3b1ef7bebe90d0986/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev7-py3-none-any.whl
+[2023-08-01 07:26:24] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/64/5e/0151d114ee67ff7670e930bdc09802af076376b36bc792597174d7a98c1b/mentat-ai-0.1.8.tar.gz
+[2023-08-01 07:26:24] INFO root fetch - processPackages [edc-reference]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-01 07:26:24] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/22/3e/1606e88c3327ced5222951425cfd4fc0195702c74192c6fc5aa147edb9a7/edc-qol-0.1.8.tar.gz
+[2023-08-01 07:26:24] INFO root fetch - processPackages [plot-likert]: Downloading https://files.pythonhosted.org/packages/55/58/f4f11641b3ca2f86bdacf9886249bfe2158c647dc183cdec87a876673c0f/plot-likert-0.4.1.dev20221009.tar.gz
+[2023-08-01 07:26:24] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/b9/b3/17b7d2e0c56c70ab10a649f716991bd98cf12daaa92086471ff6c294e15b/censoredzz-1.0.2.tar.gz
+[2023-08-01 07:26:24] INFO root fetch - processPackages [edc-randomization]: Downloading https://files.pythonhosted.org/packages/89/58/a366502b90a9a63fc0705bbe32b9bbfd851b78d2a4a5c937c1900510b086/edc_randomization-0.3.8-py3-none-any.whl
+[2023-08-01 07:26:24] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/6b/8b/950aa6e5c325a75a9b64c4c8c3d1e6b976f4f1d0b0d2db455a3574c0e6cf/badi_users-1.1.4.tar.gz
+[2023-08-01 07:26:24] INFO root fetch - processPackages [hzdatasdk]: Downloading https://files.pythonhosted.org/packages/db/4b/5c104f5f09ccfd31a008c9c339e9f8f7bd35fd749c1788aa6f6b4d27098c/hzdatasdk-0.1.4.tar.gz
+[2023-08-01 07:26:24] INFO root fetch - processPackages [f-yolov8]: Downloading https://files.pythonhosted.org/packages/d7/27/41b9c22898fca314985cc08c0baa8b8310558f8ffcccb07c80dc09eb5933/f_yolov8-0.0.3.tar.gz
+[2023-08-01 07:26:24] INFO root fetch - processPackages [edc-reference]: Downloading https://files.pythonhosted.org/packages/b7/b6/eab08f130b612c4adc7895aa9c2069cb23fc5ede9d5e3ed5ae1f307c506f/edc_reference-0.3.8-py3-none-any.whl
+[2023-08-01 07:26:25] INFO root fetch - processPackages [mentat-ai]: Downloading https://files.pythonhosted.org/packages/c4/ac/f909c97c93b5b1d76e909b3115791e47552aa332c946edb9f637d0ee77a1/mentat-ai-0.1.9.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-qol]: Downloading https://files.pythonhosted.org/packages/c9/4c/18db3c92b50d28f788e638b1868fc2030807b21fdff6888eb6512f6b9374/edc-qol-0.1.9.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Downloading https://files.pythonhosted.org/packages/d7/31/b4ebf70a44b62ee940c05e4684e9448e332f2650d8bd5958694b603706d7/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev8-py3-none-any.whl
+[2023-08-01 07:26:25] INFO root fetch - processPackages [f-yolov8]: Downloading https://files.pythonhosted.org/packages/ab/fd/5e2abf9fdd3cfaf1bc9a3a28dde8d016ed9e72a028248685f446077ebd97/f_yolov8-0.0.5.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [hzdatasdk]: Downloading https://files.pythonhosted.org/packages/e1/06/920faf256753e5c2639e280ede58bd911f9a27b3291922a697be4dc34ca3/hzdatasdk-0.1.5.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [mentat-ai]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [mentat-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentat-ai-0.1.8.tar.gz tmp/mentat-ai-0.1.9.tar.gz --markdown 20230801/m/mentat-ai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-randomization]: Downloading https://files.pythonhosted.org/packages/61/5b/4b82d8712c93515bde8a0695fa0cb2bb2299961f752a6028150ce09b27fd/edc_randomization-0.3.9-py3-none-any.whl
+[2023-08-01 07:26:25] INFO root fetch - processPackages [plot-likert]: Downloading https://files.pythonhosted.org/packages/0c/b0/5128ad1c78aeb7150bbf45a6d4dfa576a34dc3192727c01b12b60bbbc8ed/plot-likert-0.5.0.dev20230731.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev8-py3-none-any.whl.zip --markdown 20230801/o/odoo12-addon-sale-manual-delivery/12.0.2.0.2.99.dev7-12.0.2.0.2.99.dev8/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [f-yolov8]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [f-yolov8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f_yolov8-0.0.3.tar.gz tmp/f_yolov8-0.0.5.tar.gz --markdown 20230801/f/f-yolov8/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-qol]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-qol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-qol-0.1.8.tar.gz tmp/edc-qol-0.1.9.tar.gz --markdown 20230801/e/edc-qol/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [censoredzz]: Downloading https://files.pythonhosted.org/packages/4d/42/447829c62a1072573ee7ccb2c31560743e23d768965ccef0034d6411bc40/censoredzz-1.0.3.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [hzdatasdk]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [hzdatasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hzdatasdk-0.1.4.tar.gz tmp/hzdatasdk-0.1.5.tar.gz --markdown 20230801/h/hzdatasdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-reference]: Downloading https://files.pythonhosted.org/packages/71/ef/04e54c49d503a2882ce28956b5634c5df1ed8db573a42b8dfbd5f58b5729/edc-reference-0.3.9.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-randomization]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-randomization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_randomization-0.3.8-py3-none-any.whl.zip tmp/edc_randomization-0.3.9-py3-none-any.whl.zip --markdown 20230801/e/edc-randomization/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [plot-likert]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [plot-likert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot-likert-0.4.1.dev20221009.tar.gz tmp/plot-likert-0.5.0.dev20230731.tar.gz --markdown 20230801/p/plot-likert/0.4.1.dev20221009-0.5.0.dev20230731/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/84/56/7d5b4d28cee897f8a2d7a6cb61314c507b0c8a627282f5392c1743b9c6b0/badi_users-1.1.5.tar.gz
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-reference]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [edc-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_reference-0.3.8-py3-none-any.whl.zip tmp/edc-reference-0.3.9.tar.gz --markdown 20230801/e/edc-reference/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [censoredzz]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [censoredzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredzz-1.0.2.tar.gz tmp/censoredzz-1.0.3.tar.gz --markdown 20230801/c/censoredzz/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-01 07:26:25] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-08-01 07:26:25] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.1.4.tar.gz tmp/badi_users-1.1.5.tar.gz --markdown 20230801/b/badi-users/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-08-01 07:26:26] INFO root fetch - processPackages [f-yolov8]: Remove: archive file [/home/abi/fetcher/tmp/f_yolov8-0.0.3.tar.gz]
+[2023-08-01 07:26:26] INFO root fetch - processPackages [f-yolov8]: Remove: archive file [/home/abi/fetcher/tmp/f_yolov8-0.0.5.tar.gz]
+[2023-08-01 07:26:26] INFO root fetch - main [MainThread]: End processing [f-yolov8]: success
+[2023-08-01 07:26:27] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev7-py3-none-any.whl.zip]
+[2023-08-01 07:26:27] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev8-py3-none-any.whl.zip]
+[2023-08-01 07:26:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-manual-delivery]: success
+[2023-08-01 07:26:27] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.8.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - processPackages [mentat-ai]: Remove: archive file [/home/abi/fetcher/tmp/mentat-ai-0.1.9.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - main [MainThread]: End processing [mentat-ai]: success
+[2023-08-01 07:26:27] INFO root fetch - processPackages [plot-likert]: Remove: archive file [/home/abi/fetcher/tmp/plot-likert-0.4.1.dev20221009.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - processPackages [plot-likert]: Remove: archive file [/home/abi/fetcher/tmp/plot-likert-0.5.0.dev20230731.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - main [MainThread]: End processing [plot-likert]: success
+[2023-08-01 07:26:27] INFO root fetch - processPackages [hzdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/hzdatasdk-0.1.4.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - processPackages [hzdatasdk]: Remove: archive file [/home/abi/fetcher/tmp/hzdatasdk-0.1.5.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - main [MainThread]: End processing [hzdatasdk]: success
+[2023-08-01 07:26:27] INFO root fetch - processPackages [edc-randomization]: Remove: archive file [/home/abi/fetcher/tmp/edc_randomization-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 07:26:27] INFO root fetch - processPackages [edc-randomization]: Remove: archive file [/home/abi/fetcher/tmp/edc_randomization-0.3.9-py3-none-any.whl.zip]
+[2023-08-01 07:26:27] INFO root fetch - main [MainThread]: End processing [edc-randomization]: success
+[2023-08-01 07:26:27] INFO root fetch - processPackages [edc-qol]: Remove: archive file [/home/abi/fetcher/tmp/edc-qol-0.1.8.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - processPackages [edc-qol]: Remove: archive file [/home/abi/fetcher/tmp/edc-qol-0.1.9.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - main [MainThread]: End processing [edc-qol]: success
+[2023-08-01 07:26:27] INFO root fetch - processPackages [edc-reference]: Remove: archive file [/home/abi/fetcher/tmp/edc_reference-0.3.8-py3-none-any.whl.zip]
+[2023-08-01 07:26:27] INFO root fetch - processPackages [edc-reference]: Remove: archive file [/home/abi/fetcher/tmp/edc-reference-0.3.9.tar.gz]
+[2023-08-01 07:26:27] INFO root fetch - main [MainThread]: End processing [edc-reference]: success
+[2023-08-01 07:26:28] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.2.tar.gz]
+[2023-08-01 07:26:28] INFO root fetch - processPackages [censoredzz]: Remove: archive file [/home/abi/fetcher/tmp/censoredzz-1.0.3.tar.gz]
+[2023-08-01 07:26:28] INFO root fetch - main [MainThread]: End processing [censoredzz]: success
+[2023-08-01 07:26:28] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.4.tar.gz]
+[2023-08-01 07:26:28] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.5.tar.gz]
+[2023-08-01 07:26:28] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-08-01 07:26:28] INFO root fetch - main [MainThread]: Store serial: [19118956]
