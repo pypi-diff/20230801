@@ -14133,3 +14133,130 @@
 [2023-08-01 07:52:31] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.9.tar.gz]
 [2023-08-01 07:52:31] INFO root fetch - main [MainThread]: End processing [edc]: success
 [2023-08-01 07:52:31] INFO root fetch - main [MainThread]: Store serial: [19119149]
+[2023-08-01 07:57:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119149]
+[2023-08-01 07:57:40] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intecomm-form-validators
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: imap-tools
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pywemo
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openxlab-dev
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: momos-helper
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intecomm-edc
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devchat
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testjbpackage
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deeprtalign
+[2023-08-01 07:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pypomes-store
+[2023-08-01 07:57:40] INFO root fetch - processPackages [devchat]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [imap-tools]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [openxlab-dev]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [deeprtalign]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [pypomes-store]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [momos-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-01 07:57:40] WARNING root fetch - processPackages [testjbpackage]: Skipping, unable to determine old version
+[2023-08-01 07:57:40] INFO root fetch - processPackages [testjbpackage]: Start processing: razer-cli
+[2023-08-01 07:57:40] INFO root fetch - main [MainThread]: End processing [testjbpackage] error
+[2023-08-01 07:57:40] INFO root fetch - processPackages [pywemo]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [razer-cli]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-01 07:57:40] INFO root fetch - processPackages [momos-helper]: Downloading https://files.pythonhosted.org/packages/53/dc/ed9117c333276d1befef6f3dd42a945844bfb077bc33dbba535fd81dc133/momos-helper-0.0.1.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [imap-tools]: Downloading https://files.pythonhosted.org/packages/67/c4/fefa480f0cd0026d44ffe2505fa2526529e5676f3245c6141afc37f3c7fa/imap-tools-1.1.0.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/d4/81/b006899f1ce2f12dac503538aa74a5ff0022f7f4a81d2ef7a0fdb093ab08/devchat-0.2.0.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [openxlab-dev]: Downloading https://files.pythonhosted.org/packages/b7/89/d52edf7430edd78399ef55cd2b5cd8d439e55ab66c62e2165d2e882d4edc/openxlab_dev-0.0.5.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [deeprtalign]: Downloading https://files.pythonhosted.org/packages/05/f8/bdd4680a875b1e265fe3a8c55cfd42e8bec960e16ac3fbfff89e036b7e81/deeprtalign-1.1.3.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [pywemo]: Downloading https://files.pythonhosted.org/packages/20/c7/1ce1cf0ad79043f470be988bc1d8b58e070962ce8e92d9e7de2fd603675c/pywemo-1.2.0.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/c8/a3/595e0ee0d88eb3a316a3dc58af873163b5bf2a193ee3192c0d3421d698bd/pypomes_store-0.1.4.tar.gz
+[2023-08-01 07:57:40] INFO root fetch - processPackages [razer-cli]: Downloading https://files.pythonhosted.org/packages/d6/e2/a90af04bb78dfc589f8844f0806e785afeef42f03c474f15423c309d2c39/razer-cli-2.1.0.tar.gz
+[2023-08-01 07:57:40] WARNING root fetch - processPackages [openxlab-dev]: Skipping package: exceeds size limit 22330624>=10485760
+[2023-08-01 07:57:40] INFO root fetch - processPackages [openxlab-dev]: Start processing: cryptlex.lexactivator
+[2023-08-01 07:57:40] INFO root fetch - main [MainThread]: End processing [openxlab-dev] error
+[2023-08-01 07:57:41] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [cryptlex.lexactivator]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-08-01 07:57:41] INFO root fetch - processPackages [momos-helper]: Downloading https://files.pythonhosted.org/packages/4f/7f/10cb9ab81a6a295dadcd47ce43caed7b7406d0d011def4ccc02de36e52a6/momos-helper-0.0.2.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [imap-tools]: Downloading https://files.pythonhosted.org/packages/19/db/572b390918be5d58d60ecfba9a616e2afb445f6514ad90727421536f36eb/imap-tools-1.2.0.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [devchat]: Downloading https://files.pythonhosted.org/packages/f5/66/cfc65a854f1107a4122df859ca91f74424cf0eca14200af49602e708ad5f/devchat-0.2.1.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-08-01 07:57:41] WARNING root fetch - processPackages [deeprtalign]: Skipping package: exceeds size limit 182967331>=10485760
+[2023-08-01 07:57:41] INFO root fetch - processPackages [deeprtalign]: Start processing: MAZAlib
+[2023-08-01 07:57:41] INFO root fetch - main [MainThread]: End processing [deeprtalign] error
+[2023-08-01 07:57:41] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/e7/c1/fd60d5525c926995c5e49cd352302a96c14f40c9b92c22ac6519f02623e8/cryptlex.lexactivator-3.9.0.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/12/52/f160738156928151d555a19e1bda24c211697f22bd554ad62b0da1c47ae5/pypomes_store-0.1.6.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [razer-cli]: Downloading https://files.pythonhosted.org/packages/92/7a/b90e77d68996f99a2221e7bddab2182f5555739266c278e233a338602d72/razer-cli-2.2.0.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [pywemo]: Downloading https://files.pythonhosted.org/packages/94/bc/02572ae2b9a5df8fe22404b4d33fc6b137215ea5ff2196929e896cdb0b71/pywemo-1.2.1.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [momos-helper]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [momos-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momos-helper-0.0.1.tar.gz tmp/momos-helper-0.0.2.tar.gz --markdown 20230801/m/momos-helper/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-01 07:57:41] INFO root fetch - processPackages [MAZAlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 07:57:41] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [devchat]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [devchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devchat-0.2.0.tar.gz tmp/devchat-0.2.1.tar.gz --markdown 20230801/d/devchat/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 07:57:41] INFO root fetch - processPackages [imap-tools]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [imap-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap-tools-1.1.0.tar.gz tmp/imap-tools-1.2.0.tar.gz --markdown 20230801/i/imap-tools/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-01 07:57:41] INFO root fetch - processPackages [pypomes-store]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [pypomes-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_store-0.1.4.tar.gz tmp/pypomes_store-0.1.6.tar.gz --markdown 20230801/p/pypomes-store/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-08-01 07:57:41] INFO root fetch - processPackages [pywemo]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [pywemo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywemo-1.2.0.tar.gz tmp/pywemo-1.2.1.tar.gz --markdown 20230801/p/pywemo/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-08-01 07:57:41] INFO root fetch - processPackages [razer-cli]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [razer-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/razer-cli-2.1.0.tar.gz tmp/razer-cli-2.2.0.tar.gz --markdown 20230801/r/razer-cli/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-01 07:57:41] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/50/f4/08487d2e9ffaf4c2459a82bdb215d7a1e77e96862254778678316ddb1a94/MAZAlib-0.0.8.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230801/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:57:41] INFO root fetch - processPackages [MAZAlib]: Downloading https://files.pythonhosted.org/packages/ee/bf/644071a273d92a917989a5acc834c89301fde3a6a32435ce6290de2d5504/MAZAlib-0.0.9.tar.gz
+[2023-08-01 07:57:41] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-08-01 07:57:41] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230801/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 07:57:42] INFO root fetch - processPackages [MAZAlib]: executing diffoscope
+[2023-08-01 07:57:42] INFO root fetch - processPackages [MAZAlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MAZAlib-0.0.8.tar.gz tmp/MAZAlib-0.0.9.tar.gz --markdown 20230801/M/MAZAlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 07:57:42] INFO root fetch - processPackages [momos-helper]: Remove: archive file [/home/abi/fetcher/tmp/momos-helper-0.0.1.tar.gz]
+[2023-08-01 07:57:42] INFO root fetch - processPackages [momos-helper]: Remove: archive file [/home/abi/fetcher/tmp/momos-helper-0.0.2.tar.gz]
+[2023-08-01 07:57:42] INFO root fetch - processPackages [momos-helper]: Start processing: fileformats-medimage-extras
+[2023-08-01 07:57:42] INFO root fetch - main [MainThread]: End processing [momos-helper]: success
+[2023-08-01 07:57:42] INFO root fetch - processPackages [fileformats-medimage-extras]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.2.0.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [devchat]: Remove: archive file [/home/abi/fetcher/tmp/devchat-0.2.1.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [devchat]: Start processing: DeepCell-Toolbox
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [devchat]: success
+[2023-08-01 07:57:43] INFO root fetch - processPackages [DeepCell-Toolbox]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [imap-tools]: Remove: archive file [/home/abi/fetcher/tmp/imap-tools-1.1.0.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [imap-tools]: Remove: archive file [/home/abi/fetcher/tmp/imap-tools-1.2.0.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [imap-tools]: Start processing: s1290216-learn
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [imap-tools]: success
+[2023-08-01 07:57:43] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.4.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.6.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [pypomes-store]: success
+[2023-08-01 07:57:43] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/70/23/85239737f24a628874c203ff24f00a369a3f9e467e3da7460bc45a25737b/fileformats_medimage_extras-0.1.1.tar.gz
+[2023-08-01 07:57:43] INFO root fetch - processPackages [pywemo]: Remove: archive file [/home/abi/fetcher/tmp/pywemo-1.2.0.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [pywemo]: Remove: archive file [/home/abi/fetcher/tmp/pywemo-1.2.1.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [pywemo]: success
+[2023-08-01 07:57:43] WARNING root fetch - processPackages [s1290216-learn]: Skipping, unable to determine old version
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [s1290216-learn] error
+[2023-08-01 07:57:43] INFO root fetch - processPackages [DeepCell-Toolbox]: Downloading https://files.pythonhosted.org/packages/59/72/2896c9ddc75a928e90fd4e132355be64f1a9cd47554b0a1fcecd1595faf7/Deepcell_Toolbox-0.9.0.tar.gz
+[2023-08-01 07:57:43] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-08-01 07:57:43] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.8.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [MAZAlib]: Remove: archive file [/home/abi/fetcher/tmp/MAZAlib-0.0.9.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [MAZAlib]: success
+[2023-08-01 07:57:43] INFO root fetch - processPackages [razer-cli]: Remove: archive file [/home/abi/fetcher/tmp/razer-cli-2.1.0.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - processPackages [razer-cli]: Remove: archive file [/home/abi/fetcher/tmp/razer-cli-2.2.0.tar.gz]
+[2023-08-01 07:57:43] INFO root fetch - main [MainThread]: End processing [razer-cli]: success
+[2023-08-01 07:57:43] INFO root fetch - processPackages [fileformats-medimage-extras]: Downloading https://files.pythonhosted.org/packages/0f/f0/94f9b6eb99740ae34f9edc1f9b7e18b3181aad187b8a5f5cba40bd69060d/fileformats_medimage_extras-0.1.2.tar.gz
+[2023-08-01 07:57:43] INFO root fetch - processPackages [fileformats-medimage-extras]: executing diffoscope
+[2023-08-01 07:57:43] INFO root fetch - processPackages [fileformats-medimage-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fileformats_medimage_extras-0.1.1.tar.gz tmp/fileformats_medimage_extras-0.1.2.tar.gz --markdown 20230801/f/fileformats-medimage-extras/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 07:57:43] INFO root fetch - processPackages [DeepCell-Toolbox]: Downloading https://files.pythonhosted.org/packages/4d/1a/64403bf764f04bb1ea33b7860d2d4ebc17741c2af736309aac4d0cb9736c/Deepcell_Toolbox-0.9.1.tar.gz
+[2023-08-01 07:57:44] INFO root fetch - processPackages [cryptlex.lexactivator]: Downloading https://files.pythonhosted.org/packages/b5/1a/b17637066ac73010c7cd8b85951f58867b72a046cee6eb00e19a520568bf/cryptlex.lexactivator-3.9.1.tar.gz
+[2023-08-01 07:57:44] INFO root fetch - processPackages [DeepCell-Toolbox]: executing diffoscope
+[2023-08-01 07:57:44] INFO root fetch - processPackages [DeepCell-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deepcell_Toolbox-0.9.0.tar.gz tmp/Deepcell_Toolbox-0.9.1.tar.gz --markdown 20230801/D/DeepCell-Toolbox/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-01 07:57:44] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.1.1.tar.gz]
+[2023-08-01 07:57:44] INFO root fetch - processPackages [fileformats-medimage-extras]: Remove: archive file [/home/abi/fetcher/tmp/fileformats_medimage_extras-0.1.2.tar.gz]
+[2023-08-01 07:57:44] INFO root fetch - main [MainThread]: End processing [fileformats-medimage-extras]: success
+[2023-08-01 07:57:44] INFO root fetch - processPackages [DeepCell-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/Deepcell_Toolbox-0.9.0.tar.gz]
+[2023-08-01 07:57:44] INFO root fetch - processPackages [DeepCell-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/Deepcell_Toolbox-0.9.1.tar.gz]
+[2023-08-01 07:57:44] INFO root fetch - main [MainThread]: End processing [DeepCell-Toolbox]: success
+[2023-08-01 07:57:45] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-08-01 07:57:45] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-08-01 07:57:45] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-08-01 07:57:46] INFO root fetch - processPackages [cryptlex.lexactivator]: executing diffoscope
+[2023-08-01 07:57:46] INFO root fetch - processPackages [cryptlex.lexactivator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptlex.lexactivator-3.9.0.tar.gz tmp/cryptlex.lexactivator-3.9.1.tar.gz --markdown 20230801/c/cryptlex.lexactivator/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-08-01 07:58:15] INFO root fetch - processPackages [cryptlex.lexactivator]: Remove: archive file [/home/abi/fetcher/tmp/cryptlex.lexactivator-3.9.0.tar.gz]
+[2023-08-01 07:58:15] INFO root fetch - processPackages [cryptlex.lexactivator]: Remove: archive file [/home/abi/fetcher/tmp/cryptlex.lexactivator-3.9.1.tar.gz]
+[2023-08-01 07:58:15] INFO root fetch - main [MainThread]: End processing [cryptlex.lexactivator]: success
+[2023-08-01 07:58:15] INFO root fetch - main [MainThread]: Store serial: [19119202]
