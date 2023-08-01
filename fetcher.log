@@ -2509,3 +2509,54 @@
 [2023-08-01 01:55:31] INFO root fetch - processPackages [asana]: Remove: archive file [/home/abi/fetcher/tmp/asana-4.0.1.tar.gz]
 [2023-08-01 01:55:31] INFO root fetch - main [MainThread]: End processing [asana]: success
 [2023-08-01 01:55:31] INFO root fetch - main [MainThread]: Store serial: [19114780]
+[2023-08-01 02:00:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19114780]
+[2023-08-01 02:00:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-01 02:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp
+[2023-08-01 02:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-include-markdown-plugin
+[2023-08-01 02:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-upgrade
+[2023-08-01 02:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heroprotocol
+[2023-08-01 02:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zarrview
+[2023-08-01 02:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shipyard-rudderstack
+[2023-08-01 02:00:39] INFO root fetch - processPackages [shipyard-rudderstack]: New version: [0.1.2] Old Version: [0.1.1a0]
+[2023-08-01 02:00:39] INFO root fetch - processPackages [keras-nlp]: New version: [0.6.1.dev0] Old Version: [0.6.1]
+[2023-08-01 02:00:39] INFO root fetch - processPackages [mypy-upgrade]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-08-01 02:00:39] WARNING root fetch - processPackages [zarrview]: Skipping, unable to determine old version
+[2023-08-01 02:00:39] INFO root fetch - main [MainThread]: End processing [zarrview] error
+[2023-08-01 02:00:40] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: New version: [5.0.0] Old Version: [4.0.4]
+[2023-08-01 02:00:40] INFO root fetch - processPackages [heroprotocol]: New version: [2.55.3.90670] Old Version: [2.55.3.89754]
+[2023-08-01 02:00:40] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/5c/ec/16b11c3996363b03611cbea0f7c83afd6e60039756b063c14e8ce3e3280c/keras-nlp-0.6.1.tar.gz
+[2023-08-01 02:00:40] INFO root fetch - processPackages [shipyard-rudderstack]: Downloading https://files.pythonhosted.org/packages/d0/a0/3257ccf06c02080a0616179d668aa95b621b73ad47e44a98aaf2ddb92474/shipyard_rudderstack-0.1.1a0.tar.gz
+[2023-08-01 02:00:40] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/89/48/45a30102b9a1de78a09ee143f048907338db4c73af57c61419e7460490a7/mypy_upgrade-0.0.1a1.tar.gz
+[2023-08-01 02:00:40] INFO root fetch - processPackages [heroprotocol]: Downloading https://files.pythonhosted.org/packages/ac/81/276f4e0dba092417b23a2cc038b6d66fb18a50f96a9feb28dd84898d26e6/heroprotocol-2.55.3.89754.tar.gz
+[2023-08-01 02:00:40] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Downloading https://files.pythonhosted.org/packages/d0/f0/42ed4496d1ff557fdb09c7c44561d5445e548c043996f8c8a4aa36d80688/mkdocs_include_markdown_plugin-4.0.4.tar.gz
+[2023-08-01 02:00:40] INFO root fetch - processPackages [shipyard-rudderstack]: Downloading https://files.pythonhosted.org/packages/3f/66/4e64fc5edb5d4da6de45451d1c387151ec6cfe42167ae6e4766e464e34db/shipyard_rudderstack-0.1.2.tar.gz
+[2023-08-01 02:00:40] INFO root fetch - processPackages [heroprotocol]: Downloading https://files.pythonhosted.org/packages/d7/5c/c3907d272228ebb1e0d4b4ed1f249afb66de6219ea91fae13816f4e99f26/heroprotocol-2.55.3.90670.tar.gz
+[2023-08-01 02:00:40] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Downloading https://files.pythonhosted.org/packages/a6/62/0d5c4d0b44dc01981f66766b1b6a2242100ed84fc99692a6f03263a1d360/mkdocs_include_markdown_plugin-5.0.0.tar.gz
+[2023-08-01 02:00:41] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/13/46/509e344f1f1fd03ed0e8da4bd358809010aef5bee0a65d086f80ec18fa92/keras-nlp-0.6.1.dev0.tar.gz
+[2023-08-01 02:00:41] INFO root fetch - processPackages [shipyard-rudderstack]: executing diffoscope
+[2023-08-01 02:00:41] INFO root fetch - processPackages [shipyard-rudderstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_rudderstack-0.1.1a0.tar.gz tmp/shipyard_rudderstack-0.1.2.tar.gz --markdown 20230801/s/shipyard-rudderstack/0.1.1a0-0.1.2/diff.md --exclude *.pyd
+[2023-08-01 02:00:41] INFO root fetch - processPackages [mypy-upgrade]: Downloading https://files.pythonhosted.org/packages/63/73/d0d73e423e4a1ce48c3b7d8ac172c773446810a77d1c6ca8604edc175510/mypy_upgrade-0.0.1a2.tar.gz
+[2023-08-01 02:00:41] INFO root fetch - processPackages [heroprotocol]: executing diffoscope
+[2023-08-01 02:00:41] INFO root fetch - processPackages [heroprotocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heroprotocol-2.55.3.89754.tar.gz tmp/heroprotocol-2.55.3.90670.tar.gz --markdown 20230801/h/heroprotocol/2.55.3.89754-2.55.3.90670/diff.md --exclude *.pyd
+[2023-08-01 02:00:41] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: executing diffoscope
+[2023-08-01 02:00:41] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_include_markdown_plugin-4.0.4.tar.gz tmp/mkdocs_include_markdown_plugin-5.0.0.tar.gz --markdown 20230801/m/mkdocs-include-markdown-plugin/4.0.4-5.0.0/diff.md --exclude *.pyd
+[2023-08-01 02:00:41] INFO root fetch - processPackages [mypy-upgrade]: executing diffoscope
+[2023-08-01 02:00:41] INFO root fetch - processPackages [mypy-upgrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy_upgrade-0.0.1a1.tar.gz tmp/mypy_upgrade-0.0.1a2.tar.gz --markdown 20230801/m/mypy-upgrade/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-08-01 02:00:41] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2023-08-01 02:00:41] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.6.1.tar.gz tmp/keras-nlp-0.6.1.dev0.tar.gz --markdown 20230801/k/keras-nlp/0.6.1-0.6.1.dev0/diff.md --exclude *.pyd
+[2023-08-01 02:00:41] INFO root fetch - processPackages [shipyard-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_rudderstack-0.1.1a0.tar.gz]
+[2023-08-01 02:00:41] INFO root fetch - processPackages [shipyard-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_rudderstack-0.1.2.tar.gz]
+[2023-08-01 02:00:41] INFO root fetch - main [MainThread]: End processing [shipyard-rudderstack]: success
+[2023-08-01 02:00:42] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_include_markdown_plugin-4.0.4.tar.gz]
+[2023-08-01 02:00:42] INFO root fetch - processPackages [mkdocs-include-markdown-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_include_markdown_plugin-5.0.0.tar.gz]
+[2023-08-01 02:00:42] INFO root fetch - main [MainThread]: End processing [mkdocs-include-markdown-plugin]: success
+[2023-08-01 02:00:42] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a1.tar.gz]
+[2023-08-01 02:00:42] INFO root fetch - processPackages [mypy-upgrade]: Remove: archive file [/home/abi/fetcher/tmp/mypy_upgrade-0.0.1a2.tar.gz]
+[2023-08-01 02:00:42] INFO root fetch - main [MainThread]: End processing [mypy-upgrade]: success
+[2023-08-01 02:00:43] INFO root fetch - processPackages [heroprotocol]: Remove: archive file [/home/abi/fetcher/tmp/heroprotocol-2.55.3.89754.tar.gz]
+[2023-08-01 02:00:43] INFO root fetch - processPackages [heroprotocol]: Remove: archive file [/home/abi/fetcher/tmp/heroprotocol-2.55.3.90670.tar.gz]
+[2023-08-01 02:00:43] INFO root fetch - main [MainThread]: End processing [heroprotocol]: success
+[2023-08-01 02:00:43] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.1.tar.gz]
+[2023-08-01 02:00:43] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.1.dev0.tar.gz]
+[2023-08-01 02:00:43] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2023-08-01 02:00:43] INFO root fetch - main [MainThread]: Store serial: [19114800]
