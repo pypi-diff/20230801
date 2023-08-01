@@ -10184,3 +10184,78 @@
 [2023-08-01 04:01:37] INFO root fetch - processPackages [flax]: Remove: archive file [/home/abi/fetcher/tmp/flax-0.7.1.tar.gz]
 [2023-08-01 04:01:37] INFO root fetch - main [MainThread]: End processing [flax]: success
 [2023-08-01 04:01:37] INFO root fetch - main [MainThread]: Store serial: [19117472]
+[2023-08-01 04:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117472]
+[2023-08-01 04:06:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: life360
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalk-harness
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-starter
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hci-framework
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrunch
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grouped-query-attention-pytorch
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: binance-connector
+[2023-08-01 04:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pih
+[2023-08-01 04:06:46] INFO root fetch - processPackages [life360]: New version: [6.0.0] Old Version: [5.5.0]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [ml-starter]: New version: [0.1.42] Old Version: [0.1.41]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [hci-framework]: New version: [0.1a2] Old Version: [0.1a1]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [scrunch]: New version: [6.5.2024.post1690855431] Old Version: [6.5.2023.post1690841237]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [chalk-harness]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [pih]: New version: [1.47211] Old Version: [1.47210]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [binance-connector]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [grouped-query-attention-pytorch]: New version: [0.1.0rc2] Old Version: [0.1.0]
+[2023-08-01 04:06:46] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/f1/46/a0c1b49790e18853a51573a5c88f3c6153c3c8a3e9fb0b58f5b23b772b3a/scrunch-6.5.2023.post1690841237.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [life360]: Downloading https://files.pythonhosted.org/packages/56/b0/026142cf3d31043a642acf61e7f49ea3370c8f0eb1391062191513cd0063/life360-5.5.0.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/fc/e8/54f0a37eecd2820938876e8fb8d4287743afe02dd5c51f457cf09af48c3f/ml-starter-0.1.41.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/89/64/b4592ad8c8becbfbbf01d3f71c44a1209cfbaded497cba487ed5b2c8becd/grouped_query_attention_pytorch-0.1.0.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/70/87/c709474225e52920820e78d815bb39e41c54b4cadae1a220c0ab36ba80c6/hci-framework-0.1a1.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/7a/68/bb9f12d99449747fe130a2ddd4234311ffd5a802857ca95c698687a83b57/pih-1.47210.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/e7/ac/3897feddc1de98beac6cae18ea56f65e0c97dedbb539d7ee097176a55393/binance-connector-3.1.1.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/09/04/fa9c4dd458a6e30f6c70fe8559cc37041b13e8f18e91031a8b61b7182cbc/chalk-harness-1.1.6.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [life360]: Downloading https://files.pythonhosted.org/packages/0f/00/7237ede7941e8202e2eeb22a70befa1e0461fd6f57a04a43f528707cdae8/life360-6.0.0.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/d4/1a/daade539c6d1ba667d14cbb915a9bfb86e4a8c889682628159f35ce4d412/ml-starter-0.1.42.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [life360]: executing diffoscope
+[2023-08-01 04:06:46] INFO root fetch - processPackages [life360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/life360-5.5.0.tar.gz tmp/life360-6.0.0.tar.gz --markdown 20230801/l/life360/5.5.0-6.0.0/diff.md --exclude *.pyd
+[2023-08-01 04:06:46] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/6b/84/0952d93be5bfd4d977c53dddfda7530404c0ef276f7f0fda250bfbdccb2b/scrunch-6.5.2024.post1690855431.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/79/1e/3cea03877a30156b941e364a07aa6f57e8ac867cb3c8be6913932fae3ec7/chalk-harness-1.1.7.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [hci-framework]: Downloading https://files.pythonhosted.org/packages/54/d6/2bfe88909ee2b9b33b8557646b121c383575e438837d3e71ec805302f137/hci-framework-0.1a2.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [binance-connector]: Downloading https://files.pythonhosted.org/packages/5c/4b/82623c3ea3d1e7302220a41cd5bc336bf357289fcbbe877917006b364c12/binance-connector-3.2.0.tar.gz
+[2023-08-01 04:06:46] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-08-01 04:06:46] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.41.tar.gz tmp/ml-starter-0.1.42.tar.gz --markdown 20230801/m/ml-starter/0.1.41-0.1.42/diff.md --exclude *.pyd
+[2023-08-01 04:06:47] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/66/58/579875db76c1bf7865ddee9ae8f4b696ad88d18fc476f0409d4db2f125e1/pih-1.47211.tar.gz
+[2023-08-01 04:06:47] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-08-01 04:06:47] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.1.6.tar.gz tmp/chalk-harness-1.1.7.tar.gz --markdown 20230801/c/chalk-harness/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-01 04:06:47] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-01 04:06:47] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.47210.tar.gz tmp/pih-1.47211.tar.gz --markdown 20230801/p/pih/1.47210-1.47211/diff.md --exclude *.pyd
+[2023-08-01 04:06:47] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/32/a4/f0af0040e5342781f963aee0270c2e7e5ac41a21e835fc5fd5b2270c8bb9/grouped_query_attention_pytorch-0.1.0rc2.tar.gz
+[2023-08-01 04:06:47] INFO root fetch - processPackages [binance-connector]: executing diffoscope
+[2023-08-01 04:06:47] INFO root fetch - processPackages [binance-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance-connector-3.1.1.tar.gz tmp/binance-connector-3.2.0.tar.gz --markdown 20230801/b/binance-connector/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-08-01 04:06:47] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-01 04:06:47] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2023.post1690841237.tar.gz tmp/scrunch-6.5.2024.post1690855431.tar.gz --markdown 20230801/s/scrunch/6.5.2023.post1690841237-6.5.2024.post1690855431/diff.md --exclude *.pyd
+[2023-08-01 04:06:47] INFO root fetch - processPackages [grouped-query-attention-pytorch]: executing diffoscope
+[2023-08-01 04:06:47] INFO root fetch - processPackages [grouped-query-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grouped_query_attention_pytorch-0.1.0.tar.gz tmp/grouped_query_attention_pytorch-0.1.0rc2.tar.gz --markdown 20230801/g/grouped-query-attention-pytorch/0.1.0-0.1.0rc2/diff.md --exclude *.pyd
+[2023-08-01 04:06:47] INFO root fetch - processPackages [life360]: Remove: archive file [/home/abi/fetcher/tmp/life360-5.5.0.tar.gz]
+[2023-08-01 04:06:47] INFO root fetch - processPackages [life360]: Remove: archive file [/home/abi/fetcher/tmp/life360-6.0.0.tar.gz]
+[2023-08-01 04:06:47] INFO root fetch - main [MainThread]: End processing [life360]: success
+[2023-08-01 04:06:48] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.1.6.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.1.7.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-08-01 04:06:48] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47210.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.47211.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-01 04:06:48] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/grouped_query_attention_pytorch-0.1.0.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - processPackages [grouped-query-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/grouped_query_attention_pytorch-0.1.0rc2.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - main [MainThread]: End processing [grouped-query-attention-pytorch]: success
+[2023-08-01 04:06:48] INFO root fetch - processPackages [binance-connector]: Remove: archive file [/home/abi/fetcher/tmp/binance-connector-3.1.1.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - processPackages [binance-connector]: Remove: archive file [/home/abi/fetcher/tmp/binance-connector-3.2.0.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - main [MainThread]: End processing [binance-connector]: success
+[2023-08-01 04:06:48] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.41.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.42.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-08-01 04:06:48] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2023.post1690841237.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2024.post1690855431.tar.gz]
+[2023-08-01 04:06:48] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-01 04:06:48] INFO root fetch - processPackages [hci-framework]: executing diffoscope
+[2023-08-01 04:06:48] INFO root fetch - processPackages [hci-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hci-framework-0.1a1.tar.gz tmp/hci-framework-0.1a2.tar.gz --markdown 20230801/h/hci-framework/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2023-08-01 04:06:50] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a1.tar.gz]
+[2023-08-01 04:06:50] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a2.tar.gz]
+[2023-08-01 04:06:50] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
+[2023-08-01 04:06:50] INFO root fetch - main [MainThread]: Store serial: [19117500]
