@@ -10845,3 +10845,86 @@
 [2023-08-01 04:49:06] INFO root fetch - processPackages [hci-framework]: Remove: archive file [/home/abi/fetcher/tmp/hci-framework-0.1a2.tar.gz]
 [2023-08-01 04:49:06] INFO root fetch - main [MainThread]: End processing [hci-framework]: success
 [2023-08-01 04:49:06] INFO root fetch - main [MainThread]: Store serial: [19117774]
+[2023-08-01 04:54:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19117774]
+[2023-08-01 04:54:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezyrb
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-calendar
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vango
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opensarlab-frontend
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huhk
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pubtools-quay
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pina-mathlab
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nligraphspacy
+[2023-08-01 04:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modelbit
+[2023-08-01 04:54:14] INFO root fetch - processPackages [streamlit-calendar]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-01 04:54:14] WARNING root fetch - processPackages [opensarlab-frontend]: Skipping, unable to determine old version
+[2023-08-01 04:54:14] INFO root fetch - main [MainThread]: End processing [opensarlab-frontend] error
+[2023-08-01 04:54:14] INFO root fetch - processPackages [vango]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-01 04:54:14] INFO root fetch - processPackages [nligraphspacy]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-08-01 04:54:15] INFO root fetch - processPackages [ezyrb]: New version: [1.3.0.post2308] Old Version: [1.3.0.post2304]
+[2023-08-01 04:54:15] INFO root fetch - processPackages [pubtools-quay]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-01 04:54:15] INFO root fetch - processPackages [pina-mathlab]: New version: [0.0.3.post2308] Old Version: [0.0.3]
+[2023-08-01 04:54:15] INFO root fetch - processPackages [huhk]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-08-01 04:54:15] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-01 04:54:15] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-01 04:54:15] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/e6/22/d7a93a71952c6ade0151adeaddd61d81bbbf2222d4fd724837b7c57276ea/huhk-1.9.5.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/a1/0e/adf93a83de1b031a634226782a98f888234e2cd72b5e6f30c4e41b52453c/vango-1.2.2.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [streamlit-calendar]: Downloading https://files.pythonhosted.org/packages/cd/d3/db1b5293264ff5a84e9ffbaffa5e2249308d891a2c579afa1e1a8152db81/streamlit_calendar-0.1.0.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/38/43/fe7538ba9bedf2c940fceb670822ab6a89333b35994bb69f8c87e1a2ad64/pubtools-quay-0.9.2.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/41/b3/c035abcd6334385f01e8723ee9d3ef7c2687df78749b69d92f679e78f53f/nligraphspacy-1.1.6.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [pina-mathlab]: Downloading https://files.pythonhosted.org/packages/af/46/dcef87b62e435c3921ffe9b11ed167a744f63a2890e25780dfa37851fb58/pina-mathlab-0.0.3.tar.gz
+[2023-08-01 04:54:15] WARNING root fetch - processPackages [streamlit-calendar]: Skipping package: exceeds size limit 73583036>=10485760
+[2023-08-01 04:54:15] INFO root fetch - main [MainThread]: End processing [streamlit-calendar] error
+[2023-08-01 04:54:15] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-01 04:54:15] INFO root fetch - processPackages [ezyrb]: Downloading https://files.pythonhosted.org/packages/75/d5/183607039773be052acb4705f56b954f9b7fce06548c5a0c673b95ef8cd3/ezyrb-1.3.0.post2304.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/03/29/968ca6dd3bd7ff1a8b0498ff5624f5c057f62abc9d49650b668c2f183ab3/huhk-1.9.6.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [pina-mathlab]: Downloading https://files.pythonhosted.org/packages/b0/62/5f258b7af01e8b1ee6f676ef43cdf9589fa265e6961b3ce1b0398f25e6eb/pina-mathlab-0.0.3.post2308.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-08-01 04:54:15] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230801/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-01 04:54:15] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/f8/be/059b64692f80b5487dc8391e2744d865248930bdd45d5238d911e5028980/nligraphspacy-1.1.7.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [vango]: Downloading https://files.pythonhosted.org/packages/6f/59/bf094b2ca4952c47663230773e0a36830547e5d699208ce2c2cd6dfc1283/vango-1.2.3.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [ezyrb]: Downloading https://files.pythonhosted.org/packages/c4/ae/e3a487ff602517f83e68610bdb40bf01d41813e1899210242bf8d72252e7/ezyrb-1.3.0.post2308.tar.gz
+[2023-08-01 04:54:15] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-08-01 04:54:15] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.9.5.tar.gz tmp/huhk-1.9.6.tar.gz --markdown 20230801/h/huhk/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-08-01 04:54:15] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-08-01 04:54:15] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-1.1.6.tar.gz tmp/nligraphspacy-1.1.7.tar.gz --markdown 20230801/n/nligraphspacy/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-08-01 04:54:15] INFO root fetch - processPackages [pina-mathlab]: executing diffoscope
+[2023-08-01 04:54:15] INFO root fetch - processPackages [pina-mathlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pina-mathlab-0.0.3.tar.gz tmp/pina-mathlab-0.0.3.post2308.tar.gz --markdown 20230801/p/pina-mathlab/0.0.3-0.0.3.post2308/diff.md --exclude *.pyd
+[2023-08-01 04:54:15] INFO root fetch - processPackages [ezyrb]: executing diffoscope
+[2023-08-01 04:54:16] INFO root fetch - processPackages [ezyrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezyrb-1.3.0.post2304.tar.gz tmp/ezyrb-1.3.0.post2308.tar.gz --markdown 20230801/e/ezyrb/1.3.0.post2304-1.3.0.post2308/diff.md --exclude *.pyd
+[2023-08-01 04:54:16] INFO root fetch - processPackages [vango]: executing diffoscope
+[2023-08-01 04:54:16] INFO root fetch - processPackages [vango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vango-1.2.2.tar.gz tmp/vango-1.2.3.tar.gz --markdown 20230801/v/vango/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-01 04:54:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-01 04:54:16] INFO root fetch - processPackages [pubtools-quay]: Downloading https://files.pythonhosted.org/packages/ef/0a/683ad866465b2a2d90cc7e39a365c6eb98974c20f920d7c50542d9012b92/pubtools-quay-0.9.3.tar.gz
+[2023-08-01 04:54:16] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-01 04:54:16] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230801/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-01 04:54:16] INFO root fetch - processPackages [pubtools-quay]: executing diffoscope
+[2023-08-01 04:54:16] INFO root fetch - processPackages [pubtools-quay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-quay-0.9.2.tar.gz tmp/pubtools-quay-0.9.3.tar.gz --markdown 20230801/p/pubtools-quay/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-01 04:54:16] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.6.tar.gz]
+[2023-08-01 04:54:16] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.7.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-08-01 04:54:17] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-08-01 04:54:17] INFO root fetch - processPackages [pina-mathlab]: Remove: archive file [/home/abi/fetcher/tmp/pina-mathlab-0.0.3.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - processPackages [pina-mathlab]: Remove: archive file [/home/abi/fetcher/tmp/pina-mathlab-0.0.3.post2308.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - main [MainThread]: End processing [pina-mathlab]: success
+[2023-08-01 04:54:17] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.2.2.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - processPackages [vango]: Remove: archive file [/home/abi/fetcher/tmp/vango-1.2.3.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - main [MainThread]: End processing [vango]: success
+[2023-08-01 04:54:17] INFO root fetch - processPackages [ezyrb]: Remove: archive file [/home/abi/fetcher/tmp/ezyrb-1.3.0.post2304.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - processPackages [ezyrb]: Remove: archive file [/home/abi/fetcher/tmp/ezyrb-1.3.0.post2308.tar.gz]
+[2023-08-01 04:54:17] INFO root fetch - main [MainThread]: End processing [ezyrb]: success
+[2023-08-01 04:54:18] INFO root fetch - processPackages [pubtools-quay]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-quay-0.9.2.tar.gz]
+[2023-08-01 04:54:18] INFO root fetch - processPackages [pubtools-quay]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-quay-0.9.3.tar.gz]
+[2023-08-01 04:54:18] INFO root fetch - main [MainThread]: End processing [pubtools-quay]: success
+[2023-08-01 04:54:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-01 04:54:19] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-01 04:54:19] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-01 04:54:19] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.5.tar.gz]
+[2023-08-01 04:54:19] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.9.6.tar.gz]
+[2023-08-01 04:54:19] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-08-01 04:54:19] INFO root fetch - main [MainThread]: Store serial: [19117809]
