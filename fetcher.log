@@ -14561,3 +14561,60 @@
 [2023-08-01 08:20:02] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.8.8.tar.gz]
 [2023-08-01 08:20:02] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2023-08-01 08:20:02] INFO root fetch - main [MainThread]: Store serial: [19119318]
+[2023-08-01 08:25:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19119318]
+[2023-08-01 08:25:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-01 08:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmbootstrap
+[2023-08-01 08:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tomoscan
+[2023-08-01 08:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-08-01 08:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rclip
+[2023-08-01 08:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amiami
+[2023-08-01 08:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-restit
+[2023-08-01 08:25:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0.1]
+[2023-08-01 08:25:11] INFO root fetch - processPackages [pmbootstrap]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-08-01 08:25:11] INFO root fetch - processPackages [rclip]: New version: [1.4.4a5] Old Version: [1.4.4a4]
+[2023-08-01 08:25:11] INFO root fetch - processPackages [amiami]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 08:25:11] INFO root fetch - processPackages [django-restit]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-08-01 08:25:11] INFO root fetch - processPackages [tomoscan]: New version: [1.3.0a4] Old Version: [1.3.0a2]
+[2023-08-01 08:25:11] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/6f/af/ab199ed186ddb74f0177a7a99f1473685dca71f5e647c3cec12e4f67385d/django_restit-4.1.8.tar.gz
+[2023-08-01 08:25:11] INFO root fetch - processPackages [tomoscan]: Downloading https://files.pythonhosted.org/packages/40/97/b8a5f3e3c0b4c09774a4303b91a5caeae3445be2683df968cc9ca8364653/tomoscan-1.3.0a2.tar.gz
+[2023-08-01 08:25:11] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/30/8a/8688c96bc6366bb78d0599203583cf192b1349927b9b29697663f4abad83/rclip-1.4.4a4.tar.gz
+[2023-08-01 08:25:11] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/d1/97/02447d249e9b1baf81f6072422c8a958ab8e13402a4a93cc1f734eb909fe/odoo_addon_l10n_ro_stock_account-16.0.1.3.0.1-py3-none-any.whl
+[2023-08-01 08:25:12] INFO root fetch - processPackages [pmbootstrap]: Downloading https://files.pythonhosted.org/packages/2a/ee/dc4875a8b6d43b25c8a651f0206dcca0967763f5ba34f9d93c294c725a40/pmbootstrap-1.9.0.tar.gz
+[2023-08-01 08:25:12] INFO root fetch - processPackages [amiami]: Downloading https://files.pythonhosted.org/packages/ce/9b/61a2140ae9cafa1609ccd3cb385fafea99dfcee03bd2bf9f11b8566bed7f/amiami-0.0.8.tar.gz
+[2023-08-01 08:25:12] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/0e/04/63e788bf7ebbcef3a2631435360b07492d0130662e2c955df89d1c9c301c/django_restit-4.1.9.tar.gz
+[2023-08-01 08:25:12] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/fd/59/50b164c58b0e06009055af3c8eb43c9eb8f39a551412dede1584334cb70f/rclip-1.4.4a5.tar.gz
+[2023-08-01 08:25:12] INFO root fetch - processPackages [amiami]: Downloading https://files.pythonhosted.org/packages/47/9b/2493a58049edd478643ee78ba9b4dd07f1ae8ceb3e6d03ccb644bd2b4ab4/amiami-0.0.9.tar.gz
+[2023-08-01 08:25:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/6a/0e/03d6d00e2ed254273a95cd732b9c3060ea3e02f729cee050395b9c8f43ef/odoo_addon_l10n_ro_stock_account-16.0.1.4.0-py3-none-any.whl
+[2023-08-01 08:25:12] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-01 08:25:12] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.4a4.tar.gz tmp/rclip-1.4.4a5.tar.gz --markdown 20230801/r/rclip/1.4.4a4-1.4.4a5/diff.md --exclude *.pyd
+[2023-08-01 08:25:12] INFO root fetch - processPackages [amiami]: executing diffoscope
+[2023-08-01 08:25:12] INFO root fetch - processPackages [amiami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amiami-0.0.8.tar.gz tmp/amiami-0.0.9.tar.gz --markdown 20230801/a/amiami/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 08:25:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-08-01 08:25:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-l10n-ro-stock-account/16.0.1.3.0.1-16.0.1.4.0/diff.md --exclude *.pyd
+[2023-08-01 08:25:12] INFO root fetch - processPackages [tomoscan]: Downloading https://files.pythonhosted.org/packages/0b/fe/ea4ff78374688d822a91d2618974a17bef414fffe82ce7f5abbc811f189d/tomoscan-1.3.0a4.tar.gz
+[2023-08-01 08:25:12] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-08-01 08:25:12] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.1.8.tar.gz tmp/django_restit-4.1.9.tar.gz --markdown 20230801/d/django-restit/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-08-01 08:25:12] INFO root fetch - processPackages [tomoscan]: executing diffoscope
+[2023-08-01 08:25:12] INFO root fetch - processPackages [tomoscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomoscan-1.3.0a2.tar.gz tmp/tomoscan-1.3.0a4.tar.gz --markdown 20230801/t/tomoscan/1.3.0a2-1.3.0a4/diff.md --exclude *.pyd
+[2023-08-01 08:25:13] INFO root fetch - processPackages [pmbootstrap]: Downloading https://files.pythonhosted.org/packages/d7/d0/80433afe753f3975dc6053e8369e7b0b7ce11978f97a89dff6c70ef6bf43/pmbootstrap-2.0.0.tar.gz
+[2023-08-01 08:25:13] INFO root fetch - processPackages [pmbootstrap]: executing diffoscope
+[2023-08-01 08:25:13] INFO root fetch - processPackages [pmbootstrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmbootstrap-1.9.0.tar.gz tmp/pmbootstrap-2.0.0.tar.gz --markdown 20230801/p/pmbootstrap/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-01 08:25:13] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.4a4.tar.gz]
+[2023-08-01 08:25:13] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.4a5.tar.gz]
+[2023-08-01 08:25:13] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-01 08:25:13] INFO root fetch - processPackages [amiami]: Remove: archive file [/home/abi/fetcher/tmp/amiami-0.0.8.tar.gz]
+[2023-08-01 08:25:13] INFO root fetch - processPackages [amiami]: Remove: archive file [/home/abi/fetcher/tmp/amiami-0.0.9.tar.gz]
+[2023-08-01 08:25:13] INFO root fetch - main [MainThread]: End processing [amiami]: success
+[2023-08-01 08:25:13] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.3.0.1-py3-none-any.whl.zip]
+[2023-08-01 08:25:13] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0-py3-none-any.whl.zip]
+[2023-08-01 08:25:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-08-01 08:25:14] INFO root fetch - processPackages [tomoscan]: Remove: archive file [/home/abi/fetcher/tmp/tomoscan-1.3.0a2.tar.gz]
+[2023-08-01 08:25:14] INFO root fetch - processPackages [tomoscan]: Remove: archive file [/home/abi/fetcher/tmp/tomoscan-1.3.0a4.tar.gz]
+[2023-08-01 08:25:14] INFO root fetch - main [MainThread]: End processing [tomoscan]: success
+[2023-08-01 08:25:14] INFO root fetch - processPackages [pmbootstrap]: Remove: archive file [/home/abi/fetcher/tmp/pmbootstrap-1.9.0.tar.gz]
+[2023-08-01 08:25:14] INFO root fetch - processPackages [pmbootstrap]: Remove: archive file [/home/abi/fetcher/tmp/pmbootstrap-2.0.0.tar.gz]
+[2023-08-01 08:25:14] INFO root fetch - main [MainThread]: End processing [pmbootstrap]: success
+[2023-08-01 08:25:15] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.8.tar.gz]
+[2023-08-01 08:25:15] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.1.9.tar.gz]
+[2023-08-01 08:25:15] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-08-01 08:25:15] INFO root fetch - main [MainThread]: Store serial: [19119338]
