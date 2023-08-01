@@ -20956,3 +20956,173 @@
 [2023-08-01 13:11:22] INFO root fetch - processPackages [savant-rs-etcd-dynamic-state]: Remove: archive file [/home/abi/fetcher/tmp/savant_rs_etcd_dynamic_state-0.1.40-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-01 13:11:22] INFO root fetch - main [MainThread]: End processing [savant-rs-etcd-dynamic-state]: success
 [2023-08-01 13:11:22] INFO root fetch - main [MainThread]: Store serial: [19122460]
+[2023-08-01 13:16:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19122460]
+[2023-08-01 13:16:50] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: customs-dtoc
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartscheduler
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mongodriver
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fajrGPT
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-sumologic
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-akamai
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyTermTk
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amalitech-subsys-june
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NewsArticlesScraper
+[2023-08-01 13:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: checkov
+[2023-08-01 13:16:50] INFO root fetch - processPackages [customs-dtoc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-01 13:16:50] INFO root fetch - processPackages [smartscheduler]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-01 13:16:50] INFO root fetch - processPackages [amalitech-subsys-june]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 13:16:50] INFO root fetch - processPackages [NewsArticlesScraper]: New version: [0.2.7.3] Old Version: [0.2.7.2]
+[2023-08-01 13:16:50] INFO root fetch - processPackages [mongodriver]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-08-01 13:16:50] INFO root fetch - processPackages [pyTermTk]: New version: [0.9.0a62] Old Version: [0.9.0a56]
+[2023-08-01 13:16:50] INFO root fetch - processPackages [pulumi-akamai]: New version: [6.1.0] Old Version: [6.0.0a1690883195]
+[2023-08-01 13:16:50] INFO root fetch - processPackages [pulumi-sumologic]: New version: [0.9.1a1663799436] Old Version: [0.9.0]
+[2023-08-01 13:16:51] INFO root fetch - processPackages [fajrGPT]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-08-01 13:16:51] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-01 13:16:51] INFO root fetch - processPackages [NewsArticlesScraper]: Downloading https://files.pythonhosted.org/packages/de/ac/aa11b3423d68f8da697d339b8a28ac6a03d2fc88b24acf9f81e0d8b632b1/NewsArticlesScraper-0.2.7.2.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8f/c0/b3713d4cbc03ff63d42af6bc96060bf07ac510f578af21d0beb23a58ebd5/checkov-2.3.98.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [customs-dtoc]: Downloading https://files.pythonhosted.org/packages/4a/fb/f753b574d53949287d9b670fa96069800169e4aeb2bf17aef74b11529911/customs_dtoc-0.0.6.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [smartscheduler]: Downloading https://files.pythonhosted.org/packages/f6/89/c7f4b0bab9e736c87d34256facafac4ba46ec98df173872569b8f234b1e9/smartscheduler-0.0.2.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [amalitech-subsys-june]: Downloading https://files.pythonhosted.org/packages/f7/56/9c440c4670060cc784af4029da5e17e8ad7cbe7809a498802f783b27f6e0/amalitech-subsys-june-0.9.8.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/81/57/c64b0e9488bac86c47f316cfa495cb2a721e45918bdb18811325f7f23a35/pulumi_akamai-6.0.0a1690883195.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/75/5c/de0a01268aca4e293afd0f3034da418a422a4063208fe6a2d89fa1efc89e/pyTermTk-0.9.0a56.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/41/10/48b9f6cd59283a95758d1519fb26654b432e93b3335101e5f476b264c0d3/mongodriver-1.2.2.tar.gz
+[2023-08-01 13:16:51] WARNING root fetch - processPackages [smartscheduler]: Skipping package: exceeds size limit 17320888>=10485760
+[2023-08-01 13:16:51] INFO root fetch - processPackages [smartscheduler]: Start processing: amalitech-subsys-june
+[2023-08-01 13:16:51] INFO root fetch - main [MainThread]: End processing [smartscheduler] error
+[2023-08-01 13:16:51] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/6e/f2/ba414f5902bee40f219e9fb7e62d763f8263329614fc12ed2b5b02a34627/pulumi_sumologic-0.9.0.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/34/4a/1a813ebe96ab796ae71f9fd031a2133a746fb2f6f1914c321a983b4443e6/fajrGPT-1.5.3.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [amalitech-subsys-june]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 13:16:51] INFO root fetch - processPackages [NewsArticlesScraper]: Downloading https://files.pythonhosted.org/packages/d0/8f/eefc7a23e751b0b090ccbdc6113f1257416b92644cece898b44439454f64/NewsArticlesScraper-0.2.7.3.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [customs-dtoc]: Downloading https://files.pythonhosted.org/packages/4b/4e/3b2bc778a9ac22cfd4a2da968a2584e10bca25c277d84aaec0860fdbc693/customs_dtoc-0.0.7.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/36/b2/faea7cf4d04d72880327d7e73a0327922cb8cd1c61a51e8fd38f344e9f2f/checkov-2.3.99.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [NewsArticlesScraper]: executing diffoscope
+[2023-08-01 13:16:51] INFO root fetch - processPackages [NewsArticlesScraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewsArticlesScraper-0.2.7.2.tar.gz tmp/NewsArticlesScraper-0.2.7.3.tar.gz --markdown 20230801/N/NewsArticlesScraper/0.2.7.2-0.2.7.3/diff.md --exclude *.pyd
+[2023-08-01 13:16:51] INFO root fetch - processPackages [amalitech-subsys-june]: Downloading https://files.pythonhosted.org/packages/e6/38/f0534e9e02d16e246d7c9ec99108715b8f7fcc6bebdf7ff10a1c14af7527/amalitech-subsys-june-0.9.9.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [amalitech-subsys-june]: Downloading https://files.pythonhosted.org/packages/e6/38/f0534e9e02d16e246d7c9ec99108715b8f7fcc6bebdf7ff10a1c14af7527/amalitech-subsys-june-0.9.9.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [pulumi-akamai]: Downloading https://files.pythonhosted.org/packages/77/60/32f621c804c01424b3d20e9e9a6e298fd251e97b4c3c352a609b7d9a88e9/pulumi_akamai-6.1.0.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/0c/29/7675e8325890a2ceb9bdd81d135ebc341ccd60b646fbbead85914b85fc0a/mongodriver-1.2.3.tar.gz
+[2023-08-01 13:16:51] INFO root fetch - processPackages [pulumi-sumologic]: Downloading https://files.pythonhosted.org/packages/67/c4/8f95a0de8aac6e9d9348bd2698c48e05211e3a2fabda9b0e7bcaa7b80ca8/pulumi_sumologic-0.9.1a1663799436.tar.gz
+[2023-08-01 13:16:52] INFO root fetch - processPackages [customs-dtoc]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [customs-dtoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customs_dtoc-0.0.6.tar.gz tmp/customs_dtoc-0.0.7.tar.gz --markdown 20230801/c/customs-dtoc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [fajrGPT]: Downloading https://files.pythonhosted.org/packages/4b/5d/0b2d6963de667ecf2c251014e6e9013494d3785c5ae1ba876de96428b11c/fajrGPT-1.5.4.tar.gz
+[2023-08-01 13:16:52] INFO root fetch - processPackages [pyTermTk]: Downloading https://files.pythonhosted.org/packages/05/bd/fe036dd7372cea97065d98f1d5d8c3f6453fa7fcb653d07550c359f9a113/pyTermTk-0.9.0a62.tar.gz
+[2023-08-01 13:16:52] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230801/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [mongodriver]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [mongodriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodriver-1.2.2.tar.gz tmp/mongodriver-1.2.3.tar.gz --markdown 20230801/m/mongodriver/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [amalitech-subsys-june]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [amalitech-subsys-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amalitech-subsys-june-0.9.8.tar.gz tmp/amalitech-subsys-june-0.9.9.tar.gz --markdown 20230801/a/amalitech-subsys-june/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [amalitech-subsys-june]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [amalitech-subsys-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amalitech-subsys-june-0.9.8.tar.gz tmp/amalitech-subsys-june-0.9.9.tar.gz --markdown 20230801/a/amalitech-subsys-june/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [pulumi-sumologic]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [pulumi-sumologic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_sumologic-0.9.0.tar.gz tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz --markdown 20230801/p/pulumi-sumologic/0.9.0-0.9.1a1663799436/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [fajrGPT]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [fajrGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fajrGPT-1.5.3.tar.gz tmp/fajrGPT-1.5.4.tar.gz --markdown 20230801/f/fajrGPT/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [pyTermTk]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [pyTermTk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTermTk-0.9.0a56.tar.gz tmp/pyTermTk-0.9.0a62.tar.gz --markdown 20230801/p/pyTermTk/0.9.0a56-0.9.0a62/diff.md --exclude *.pyd
+[2023-08-01 13:16:52] INFO root fetch - processPackages [pulumi-akamai]: executing diffoscope
+[2023-08-01 13:16:52] INFO root fetch - processPackages [pulumi-akamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_akamai-6.0.0a1690883195.tar.gz tmp/pulumi_akamai-6.1.0.tar.gz --markdown 20230801/p/pulumi-akamai/6.0.0a1690883195-6.1.0/diff.md --exclude *.pyd
+[2023-08-01 13:16:53] INFO root fetch - processPackages [NewsArticlesScraper]: Remove: archive file [/home/abi/fetcher/tmp/NewsArticlesScraper-0.2.7.2.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [NewsArticlesScraper]: Remove: archive file [/home/abi/fetcher/tmp/NewsArticlesScraper-0.2.7.3.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [NewsArticlesScraper]: Start processing: amalitech-subsys-june
+[2023-08-01 13:16:53] INFO root fetch - main [MainThread]: End processing [NewsArticlesScraper]: success
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: executing diffoscope
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amalitech-subsys-june-0.9.8.tar.gz tmp/amalitech-subsys-june-0.9.9.tar.gz --markdown 20230801/a/amalitech-subsys-june/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 13:16:53] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.2.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.3.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [mongodriver]: Start processing: amalitech-subsys-june
+[2023-08-01 13:16:53] INFO root fetch - main [MainThread]: End processing [mongodriver]: success
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [customs-dtoc]: Remove: archive file [/home/abi/fetcher/tmp/customs_dtoc-0.0.6.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [customs-dtoc]: Remove: archive file [/home/abi/fetcher/tmp/customs_dtoc-0.0.7.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [customs-dtoc]: Start processing: finbourne-identity-sdk
+[2023-08-01 13:16:53] INFO root fetch - main [MainThread]: End processing [customs-dtoc]: success
+[2023-08-01 13:16:53] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [0.0.840] Old Version: [0.0.2521]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.5.3.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [fajrGPT]: Remove: archive file [/home/abi/fetcher/tmp/fajrGPT-1.5.4.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [fajrGPT]: Start processing: DatabaseConnectionUtility
+[2023-08-01 13:16:53] INFO root fetch - main [MainThread]: End processing [fajrGPT]: success
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: executing diffoscope
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amalitech-subsys-june-0.9.8.tar.gz tmp/amalitech-subsys-june-0.9.9.tar.gz --markdown 20230801/a/amalitech-subsys-june/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-01 13:16:53] INFO root fetch - processPackages [DatabaseConnectionUtility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: Remove: archive file [/home/abi/fetcher/tmp/amalitech-subsys-june-0.9.8.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: Remove: archive file [/home/abi/fetcher/tmp/amalitech-subsys-june-0.9.9.tar.gz]
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: Start processing: neurokit2cw
+[2023-08-01 13:16:53] INFO root fetch - main [MainThread]: End processing [amalitech-subsys-june]: success
+[2023-08-01 13:16:53] INFO root fetch - processPackages [amalitech-subsys-june]: Start processing: news-toolkit-api
+[2023-08-01 13:16:53] INFO root fetch - main [MainThread]: End processing [amalitech-subsys-june]: success
+[2023-08-01 13:16:54] WARNING root fetch - processPackages [neurokit2cw]: Skipping, unable to determine old version
+[2023-08-01 13:16:54] INFO root fetch - processPackages [neurokit2cw]: Start processing: sotrans-fastapi-keycloak
+[2023-08-01 13:16:54] INFO root fetch - main [MainThread]: End processing [neurokit2cw] error
+[2023-08-01 13:16:54] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-01 13:16:54] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/fa/28/cf44c4363c14189b870ca902db1817bca73f9a810be9443424fd723c99c0/finbourne-identity-sdk-0.0.2521.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [DatabaseConnectionUtility]: Downloading https://files.pythonhosted.org/packages/be/e9/ce03c1da0081f498c93283675dd4b6712ef58f64e6133d26fa08a64bea44/DatabaseConnectionUtility-0.0.8-py3-none-any.whl
+[2023-08-01 13:16:54] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-01 13:16:54] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/b1/bd/6cdc264113eedd6838c4bf9aea42001a24b450cff34b722e1fcaa99ab9de/sotrans_fastapi_keycloak-0.0.3.tar.gz
+[2023-08-01 13:16:54] ERROR root fetch - processPackages [amalitech-subsys-june]: Diffoscope failed: time="2023-08-01T13:16:53+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/amalitech-subsys-june-0.9.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/amalitech-subsys-june-0.9.9.tar.gz: No such file or directory
+
+[2023-08-01 13:16:54] INFO root fetch - processPackages [amalitech-subsys-june]: Start processing: MyOverlay
+[2023-08-01 13:16:54] INFO root fetch - main [MainThread]: End processing [amalitech-subsys-june] error
+[2023-08-01 13:16:54] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/60/02/556fee55b1aaf556ab945658f46e9f25aae842d2790fb15aa1ad81b2ba2a/finbourne-identity-sdk-0.0.840.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [MyOverlay]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-01 13:16:54] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/c9/8d/13f5bf3a078210c91ac647453bb474c0e62729b556e792e5146baf40aabe/MyOverlay-0.1.6.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [DatabaseConnectionUtility]: Downloading https://files.pythonhosted.org/packages/ae/7b/8492b5d50dc9aa86ba7a6d3b2399aa4a131e11a4943bff0bdfcdcf9c6a6a/DatabaseConnectionUtility-0.0.9-py3-none-any.whl
+[2023-08-01 13:16:54] ERROR root fetch - processPackages [amalitech-subsys-june]: Diffoscope failed: time="2023-08-01T13:16:53+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/amalitech-subsys-june-0.9.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/amalitech-subsys-june-0.9.9.tar.gz: No such file or directory
+
+[2023-08-01 13:16:54] INFO root fetch - processPackages [amalitech-subsys-june]: Start processing: timeseriesflattener
+[2023-08-01 13:16:54] INFO root fetch - main [MainThread]: End processing [amalitech-subsys-june] error
+[2023-08-01 13:16:54] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-01 13:16:54] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230801/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 13:16:54] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.0.tar.gz]
+[2023-08-01 13:16:54] INFO root fetch - processPackages [pulumi-sumologic]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_sumologic-0.9.1a1663799436.tar.gz]
+[2023-08-01 13:16:54] INFO root fetch - main [MainThread]: End processing [pulumi-sumologic]: success
+[2023-08-01 13:16:54] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2023-08-01 13:16:54] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-identity-sdk-0.0.2521.tar.gz tmp/finbourne-identity-sdk-0.0.840.tar.gz --markdown 20230801/f/finbourne-identity-sdk/0.0.2521-0.0.840/diff.md --exclude *.pyd
+[2023-08-01 13:16:54] INFO root fetch - processPackages [timeseriesflattener]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-08-01 13:16:54] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Downloading https://files.pythonhosted.org/packages/0a/c4/316dfa826b6aa297d44010e4f581a79effc5e0e5ef6a50b5a7a7414028e4/sotrans_fastapi_keycloak-0.0.4.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [pyTermTk]: Remove: archive file [/home/abi/fetcher/tmp/pyTermTk-0.9.0a56.tar.gz]
+[2023-08-01 13:16:54] INFO root fetch - processPackages [pyTermTk]: Remove: archive file [/home/abi/fetcher/tmp/pyTermTk-0.9.0a62.tar.gz]
+[2023-08-01 13:16:54] INFO root fetch - main [MainThread]: End processing [pyTermTk]: success
+[2023-08-01 13:16:54] INFO root fetch - processPackages [MyOverlay]: Downloading https://files.pythonhosted.org/packages/78/72/44fd89f0dd861c81cbd3317092bbcaabd1aa240d25b2a085aaff8d5a8a9f/MyOverlay-0.1.7.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/c0/6b/8a81792a46ceb22e9132543bdcd7aaf7d6c7c28a92addd0dd8d3f437e76b/timeseriesflattener-1.4.0.tar.gz
+[2023-08-01 13:16:54] INFO root fetch - processPackages [DatabaseConnectionUtility]: executing diffoscope
+[2023-08-01 13:16:54] INFO root fetch - processPackages [DatabaseConnectionUtility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DatabaseConnectionUtility-0.0.8-py3-none-any.whl.zip tmp/DatabaseConnectionUtility-0.0.9-py3-none-any.whl.zip --markdown 20230801/D/DatabaseConnectionUtility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-01 13:16:54] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: executing diffoscope
+[2023-08-01 13:16:54] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sotrans_fastapi_keycloak-0.0.3.tar.gz tmp/sotrans_fastapi_keycloak-0.0.4.tar.gz --markdown 20230801/s/sotrans-fastapi-keycloak/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-01 13:16:54] INFO root fetch - processPackages [MyOverlay]: executing diffoscope
+[2023-08-01 13:16:54] INFO root fetch - processPackages [MyOverlay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyOverlay-0.1.6.tar.gz tmp/MyOverlay-0.1.7.tar.gz --markdown 20230801/M/MyOverlay/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-01 13:16:55] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/6e/7b/bd5a7d49e87cae7dd7aa30ff101b052e44b3fead05f81c8c36910a95fd53/timeseriesflattener-1.5.0.tar.gz
+[2023-08-01 13:16:55] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-08-01 13:16:55] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-1.4.0.tar.gz tmp/timeseriesflattener-1.5.0.tar.gz --markdown 20230801/t/timeseriesflattener/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-08-01 13:16:55] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-01 13:16:55] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-01 13:16:55] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-01 13:16:56] INFO root fetch - processPackages [DatabaseConnectionUtility]: Remove: archive file [/home/abi/fetcher/tmp/DatabaseConnectionUtility-0.0.8-py3-none-any.whl.zip]
+[2023-08-01 13:16:56] INFO root fetch - processPackages [DatabaseConnectionUtility]: Remove: archive file [/home/abi/fetcher/tmp/DatabaseConnectionUtility-0.0.9-py3-none-any.whl.zip]
+[2023-08-01 13:16:56] INFO root fetch - main [MainThread]: End processing [DatabaseConnectionUtility]: success
+[2023-08-01 13:16:56] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.6.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - processPackages [MyOverlay]: Remove: archive file [/home/abi/fetcher/tmp/MyOverlay-0.1.7.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - main [MainThread]: End processing [MyOverlay]: success
+[2023-08-01 13:16:56] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-6.0.0a1690883195.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - processPackages [pulumi-akamai]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_akamai-6.1.0.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - main [MainThread]: End processing [pulumi-akamai]: success
+[2023-08-01 13:16:56] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.3.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - processPackages [sotrans-fastapi-keycloak]: Remove: archive file [/home/abi/fetcher/tmp/sotrans_fastapi_keycloak-0.0.4.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - main [MainThread]: End processing [sotrans-fastapi-keycloak]: success
+[2023-08-01 13:16:56] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.2521.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-identity-sdk-0.0.840.tar.gz]
+[2023-08-01 13:16:56] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2023-08-01 13:16:59] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.4.0.tar.gz]
+[2023-08-01 13:16:59] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.5.0.tar.gz]
+[2023-08-01 13:16:59] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-08-01 13:17:08] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-08-01 13:17:08] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-08-01 13:17:08] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-08-01 13:17:08] INFO root fetch - main [MainThread]: Store serial: [19122526]
