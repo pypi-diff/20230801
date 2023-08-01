@@ -18274,3 +18274,188 @@
 [2023-08-01 11:10:20] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230801090451.tar.gz]
 [2023-08-01 11:10:20] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-08-01 11:10:20] INFO root fetch - main [MainThread]: Store serial: [19121213]
+[2023-08-01 11:15:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19121213]
+[2023-08-01 11:15:29] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pami
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-buff
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wizata-dsapi
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nemusicapi
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unicms-template-unical
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrfuniverse
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gauge-web-app-steps
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timeseriesflattener
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blest
+[2023-08-01 11:15:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hak
+[2023-08-01 11:15:29] INFO root fetch - processPackages [timeseriesflattener]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-08-01 11:15:30] WARNING root fetch - processPackages [gauge-web-app-steps]: Skipping, unable to determine old version
+[2023-08-01 11:15:30] INFO root fetch - processPackages [gauge-web-app-steps]: Start processing: pytamaro
+[2023-08-01 11:15:30] INFO root fetch - main [MainThread]: End processing [gauge-web-app-steps] error
+[2023-08-01 11:15:30] INFO root fetch - processPackages [pyrfuniverse]: New version: [0.9.12] Old Version: [0.9.11]
+[2023-08-01 11:15:30] WARNING root fetch - processPackages [nemusicapi]: Skipping, unable to determine old version
+[2023-08-01 11:15:30] INFO root fetch - processPackages [nemusicapi]: Start processing: deci-platform-client
+[2023-08-01 11:15:30] INFO root fetch - main [MainThread]: End processing [nemusicapi] error
+[2023-08-01 11:15:30] INFO root fetch - processPackages [nonebot-plugin-buff]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [unicms-template-unical]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [blest]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [hak]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [pytamaro]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [pami]: New version: [2023.7.7] Old Version: [2023.7.31.7]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [deci-platform-client]: New version: [5.8.1] Old Version: [5.8.0]
+[2023-08-01 11:15:30] INFO root fetch - processPackages [nonebot-plugin-buff]: Downloading https://files.pythonhosted.org/packages/97/5d/3dd391250a06d66ace9f34440d1cd9ba6755cc29774645510de895a856ca/nonebot_plugin_buff-0.2.0.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/a1/9a/419bf4ee5fc4a90f7065fa7832ea16845a3077a93def062d948b6d89626b/hak-0.0.98.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/e5/f6/4266b5157a8fff35cc867106dba813b9b3a0e8790ad4e24f3df36efc809f/pyrfuniverse-0.9.11.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/43/e8/059838d6d4af456a5a0dc34f86559ea82bcf564a3d43b002260b502b83fc/unicms_template_unical-1.2.4.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/c0/6b/8a81792a46ceb22e9132543bdcd7aaf7d6c7c28a92addd0dd8d3f437e76b/timeseriesflattener-1.4.0.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/21/f0/2df1c80066ed86b66ee75158036841ac0980ed72c6880e5058c4dc050423/pami-2023.7.31.7.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [blest]: Downloading https://files.pythonhosted.org/packages/1e/b0/8f5bb72e9fec08949a36754da5f8c817a47a8d6ecf6e55b3ac35c3d85fc7/blest-0.1.2.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/0d/4f/6d8182408ff4abe491e956e031145872dc302211ab692dd43424b611144b/deci_platform_client-5.8.0-py3-none-any.whl
+[2023-08-01 11:15:30] INFO root fetch - processPackages [pytamaro]: Downloading https://files.pythonhosted.org/packages/8e/79/924d9540c5c01c5256a5f0ea435827dfa1228f114e08fbe676940d3b689e/pytamaro-0.5.1.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/34/b4/a97291f24e4329cef1f8118b7899dc7237cbb87cff0c1817da3b47c66f39/wizata-dsapi-0.2.9.tar.gz
+[2023-08-01 11:15:30] INFO root fetch - processPackages [nonebot-plugin-buff]: Downloading https://files.pythonhosted.org/packages/e0/55/02f4c72ac123388e16a738a199edb585633d26e06caedec0e0307d39bfdf/nonebot_plugin_buff-0.2.1.tar.gz
+[2023-08-01 11:15:31] INFO root fetch - processPackages [nonebot-plugin-buff]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pyrfuniverse]: Downloading https://files.pythonhosted.org/packages/08/4a/4fd7cb2d7f1512be4fdf6fdfd1ea56ec93b85ce1a3f0f0b24fd6723e488b/pyrfuniverse-0.9.12.tar.gz
+[2023-08-01 11:15:31] INFO root fetch - processPackages [nonebot-plugin-buff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_buff-0.2.0.tar.gz tmp/nonebot_plugin_buff-0.2.1.tar.gz --markdown 20230801/n/nonebot-plugin-buff/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/37/53/19153138e971938cc931dfe46fe89f80f2abb3a51579e3af66a93fcd2d09/hak-0.0.99.tar.gz
+[2023-08-01 11:15:31] INFO root fetch - processPackages [blest]: Downloading https://files.pythonhosted.org/packages/fe/20/32e34ffc08c1c270b35f2957a81603fb8564402fd5f4d5b9464d4aaf7b81/blest-0.1.3.tar.gz
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pytamaro]: Downloading https://files.pythonhosted.org/packages/3a/3d/54946dadb1e87654f25ece9b390333c6a90e1beeea7083319dc90d30ac5f/pytamaro-0.5.2.tar.gz
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pami]: Downloading https://files.pythonhosted.org/packages/e5/b5/d3f8f4040d5ecd0e1161e74b0d0aa44917c676425d43137299c53e5096b5/pami-2023.7.7.tar.gz
+[2023-08-01 11:15:31] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.8.tar.gz tmp/wizata-dsapi-0.2.9.tar.gz --markdown 20230801/w/wizata-dsapi/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pyrfuniverse]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pyrfuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfuniverse-0.9.11.tar.gz tmp/pyrfuniverse-0.9.12.tar.gz --markdown 20230801/p/pyrfuniverse/0.9.11-0.9.12/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.98.tar.gz tmp/hak-0.0.99.tar.gz --markdown 20230801/h/hak/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [blest]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [blest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blest-0.1.2.tar.gz tmp/blest-0.1.3.tar.gz --markdown 20230801/b/blest/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pytamaro]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pytamaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytamaro-0.5.1.tar.gz tmp/pytamaro-0.5.2.tar.gz --markdown 20230801/p/pytamaro/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pami]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [pami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pami-2023.7.31.7.tar.gz tmp/pami-2023.7.7.tar.gz --markdown 20230801/p/pami/2023.7.31.7-2023.7.7/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [deci-platform-client]: Downloading https://files.pythonhosted.org/packages/80/66/f4feba7dd980aa15c13b86b72ec18414ce5b65e252be5151ed4360cf8b63/deci_platform_client-5.8.1-py3-none-any.whl
+[2023-08-01 11:15:31] INFO root fetch - processPackages [deci-platform-client]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [deci-platform-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deci_platform_client-5.8.0-py3-none-any.whl.zip tmp/deci_platform_client-5.8.1-py3-none-any.whl.zip --markdown 20230801/d/deci-platform-client/5.8.0-5.8.1/diff.md --exclude *.pyd
+[2023-08-01 11:15:31] INFO root fetch - processPackages [unicms-template-unical]: Downloading https://files.pythonhosted.org/packages/82/40/4d67585a735404c16623ee327dbb35c329db5e7ab5698b34291a06508000/unicms_template_unical-1.2.5.tar.gz
+[2023-08-01 11:15:31] INFO root fetch - processPackages [unicms-template-unical]: executing diffoscope
+[2023-08-01 11:15:31] INFO root fetch - processPackages [unicms-template-unical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicms_template_unical-1.2.4.tar.gz tmp/unicms_template_unical-1.2.5.tar.gz --markdown 20230801/u/unicms-template-unical/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-08-01 11:15:32] INFO root fetch - processPackages [nonebot-plugin-buff]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_buff-0.2.0.tar.gz]
+[2023-08-01 11:15:32] INFO root fetch - processPackages [nonebot-plugin-buff]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_buff-0.2.1.tar.gz]
+[2023-08-01 11:15:32] INFO root fetch - processPackages [nonebot-plugin-buff]: Start processing: rer.solrpush
+[2023-08-01 11:15:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-buff]: success
+[2023-08-01 11:15:32] INFO root fetch - processPackages [rer.solrpush]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [rer.solrpush]: Downloading https://files.pythonhosted.org/packages/36/5f/1790a86ee772222ed5305891c92d1f36789b9722b66688a981293baf4250/rer.solrpush-1.3.0.tar.gz
+[2023-08-01 11:15:33] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.9.tar.gz]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [wizata-dsapi]: Start processing: yvesCMD
+[2023-08-01 11:15:33] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-01 11:15:33] INFO root fetch - processPackages [yvesCMD]: New version: [0.0.1.4.2] Old Version: [0.0.1.4]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [blest]: Remove: archive file [/home/abi/fetcher/tmp/blest-0.1.2.tar.gz]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [blest]: Remove: archive file [/home/abi/fetcher/tmp/blest-0.1.3.tar.gz]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [blest]: Start processing: yetl-framework
+[2023-08-01 11:15:33] INFO root fetch - main [MainThread]: End processing [blest]: success
+[2023-08-01 11:15:33] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/1d/26/e81a4bb2050d7025fda0d0d045e56954caa765fe9c3884a2988e376aa902/yvesCMD-0.0.1.4-py3-none-any.whl
+[2023-08-01 11:15:33] INFO root fetch - processPackages [yetl-framework]: New version: [2.0.5.dev2] Old Version: [2.0.5.dev1]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [pytamaro]: Remove: archive file [/home/abi/fetcher/tmp/pytamaro-0.5.1.tar.gz]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [pytamaro]: Remove: archive file [/home/abi/fetcher/tmp/pytamaro-0.5.2.tar.gz]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [pytamaro]: Start processing: DIRAC
+[2023-08-01 11:15:33] INFO root fetch - main [MainThread]: End processing [pytamaro]: success
+[2023-08-01 11:15:33] INFO root fetch - processPackages [DIRAC]: New version: [8.1.0a9] Old Version: [8.1.0a8]
+[2023-08-01 11:15:33] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/8f/e4/557fd0f78b93f6094d332975817b3c320deaf267057b9fdb3921547b73cd/yetl-framework-2.0.5.dev1.tar.gz
+[2023-08-01 11:15:33] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/6e/7b/bd5a7d49e87cae7dd7aa30ff101b052e44b3fead05f81c8c36910a95fd53/timeseriesflattener-1.5.0.tar.gz
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yvesCMD]: Downloading https://files.pythonhosted.org/packages/8a/eb/27a0d45f8920574e9fc923eb28bac70cba8cb99c0026b29e18d3d299b91f/yvesCMD-0.0.1.4.2.tar.gz
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/80/de/ccc5f0d6e99080ec722551c3c6503388b5a6cd0e212b7e29a586592354d0/yetl-framework-2.0.5.dev2.tar.gz
+[2023-08-01 11:15:34] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/35/19/2c6f883597e847d7ba7e96999b7f94ac5b16d8485a5e04f508ab7ba93aa0/DIRAC-8.1.0a8.tar.gz
+[2023-08-01 11:15:34] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2023-08-01 11:15:34] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-1.4.0.tar.gz tmp/timeseriesflattener-1.5.0.tar.gz --markdown 20230801/t/timeseriesflattener/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.0.1.4-py3-none-any.whl.zip tmp/yvesCMD-0.0.1.4.2.tar.gz --markdown 20230801/y/yvesCMD/0.0.1.4-0.0.1.4.2/diff.md --exclude *.pyd
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-2.0.5.dev1.tar.gz tmp/yetl-framework-2.0.5.dev2.tar.gz --markdown 20230801/y/yetl-framework/2.0.5.dev1-2.0.5.dev2/diff.md --exclude *.pyd
+[2023-08-01 11:15:34] INFO root fetch - processPackages [rer.solrpush]: Downloading https://files.pythonhosted.org/packages/78/8f/2e9d80e1dfe8de1bba158b1934531f6aabb3ad7f581222e2ddeea8b40d32/rer.solrpush-1.3.1.tar.gz
+[2023-08-01 11:15:34] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.11.tar.gz]
+[2023-08-01 11:15:34] INFO root fetch - processPackages [pyrfuniverse]: Remove: archive file [/home/abi/fetcher/tmp/pyrfuniverse-0.9.12.tar.gz]
+[2023-08-01 11:15:34] INFO root fetch - processPackages [pyrfuniverse]: Start processing: yvesCMD
+[2023-08-01 11:15:34] INFO root fetch - main [MainThread]: End processing [pyrfuniverse]: success
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yvesCMD]: New version: [0.0.1.4.2] Old Version: [0.0.1.4]
+[2023-08-01 11:15:34] INFO root fetch - processPackages [rer.solrpush]: executing diffoscope
+[2023-08-01 11:15:34] INFO root fetch - processPackages [rer.solrpush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rer.solrpush-1.3.0.tar.gz tmp/rer.solrpush-1.3.1.tar.gz --markdown 20230801/r/rer.solrpush/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yvesCMD]: executing diffoscope
+[2023-08-01 11:15:34] INFO root fetch - processPackages [yvesCMD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yvesCMD-0.0.1.4-py3-none-any.whl.zip tmp/yvesCMD-0.0.1.4.2.tar.gz --markdown 20230801/y/yvesCMD/0.0.1.4-0.0.1.4.2/diff.md --exclude *.pyd
+[2023-08-01 11:15:36] INFO root fetch - processPackages [DIRAC]: Downloading https://files.pythonhosted.org/packages/dc/e4/3d433b449dc9be87754c2eb6eea8594f46aafce3f0d92348f727d4bbdc04/DIRAC-8.1.0a9.tar.gz
+[2023-08-01 11:15:36] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.2.4.tar.gz]
+[2023-08-01 11:15:36] INFO root fetch - processPackages [unicms-template-unical]: Remove: archive file [/home/abi/fetcher/tmp/unicms_template_unical-1.2.5.tar.gz]
+[2023-08-01 11:15:36] INFO root fetch - processPackages [unicms-template-unical]: Start processing: repo-loader
+[2023-08-01 11:15:36] INFO root fetch - main [MainThread]: End processing [unicms-template-unical]: success
+[2023-08-01 11:15:36] INFO root fetch - processPackages [repo-loader]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-01 11:15:36] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/d6/66/f339a5e274e67097d3631c55bec686272e00eb55793396a5674458cb8773/repo-loader-0.1.2.tar.gz
+[2023-08-01 11:15:36] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.1.4-py3-none-any.whl.zip]
+[2023-08-01 11:15:36] INFO root fetch - processPackages [yvesCMD]: Remove: archive file [/home/abi/fetcher/tmp/yvesCMD-0.0.1.4.2.tar.gz]
+[2023-08-01 11:15:36] INFO root fetch - processPackages [yvesCMD]: Start processing: odoo-addon-fastapi
+[2023-08-01 11:15:36] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 11:15:36] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.98.tar.gz]
+[2023-08-01 11:15:36] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.99.tar.gz]
+[2023-08-01 11:15:36] INFO root fetch - processPackages [hak]: Start processing: odoo-addon-extendable-fastapi
+[2023-08-01 11:15:36] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-08-01 11:15:37] INFO root fetch - processPackages [odoo-addon-fastapi]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2023-08-01 11:15:37] INFO root fetch - processPackages [yvesCMD]: Start processing: philander
+[2023-08-01 11:15:37] INFO root fetch - main [MainThread]: End processing [yvesCMD]: success
+[2023-08-01 11:15:37] INFO root fetch - processPackages [odoo-addon-extendable-fastapi]: New version: [16.0.2.0.1] Old Version: [16.0.2.0.0]
+[2023-08-01 11:15:37] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/f6/6f/fe4c8311f6d3a3acd3fcf2cd7468ec7691ae03466438b6a5c2cc9495a7bf/odoo_addon_fastapi-16.0.1.1.0-py3-none-any.whl
+[2023-08-01 11:15:37] INFO root fetch - processPackages [repo-loader]: Downloading https://files.pythonhosted.org/packages/77/3b/a411a5728cd1913c212b208dcf51186bc0c1cb239e0c08973b7d2233a3fd/repo-loader-0.1.3.tar.gz
+[2023-08-01 11:15:37] INFO root fetch - processPackages [philander]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-01 11:15:37] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.5.dev1.tar.gz]
+[2023-08-01 11:15:37] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-2.0.5.dev2.tar.gz]
+[2023-08-01 11:15:37] INFO root fetch - processPackages [yetl-framework]: Start processing: visionai-data-format
+[2023-08-01 11:15:37] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-08-01 11:15:37] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/96/17/cb933e91428f583b48698bc0e84bdd76e1d7cba237c3cfaa3b3030893ae6/philander-0.1.8.tar.gz
+[2023-08-01 11:15:37] INFO root fetch - processPackages [repo-loader]: executing diffoscope
+[2023-08-01 11:15:37] INFO root fetch - processPackages [repo-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-loader-0.1.2.tar.gz tmp/repo-loader-0.1.3.tar.gz --markdown 20230801/r/repo-loader/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-01 11:15:37] INFO root fetch - processPackages [visionai-data-format]: New version: [1.0.7a0] Old Version: [1.0.7]
+[2023-08-01 11:15:37] INFO root fetch - processPackages [odoo-addon-extendable-fastapi]: Downloading https://files.pythonhosted.org/packages/e9/c8/178c0103469da065aa7e5f6037a3aa00c31f65bd6f12c14c8f5608d7cc36/odoo_addon_extendable_fastapi-16.0.2.0.0-py3-none-any.whl
+[2023-08-01 11:15:37] INFO root fetch - processPackages [odoo-addon-fastapi]: Downloading https://files.pythonhosted.org/packages/f1/f7/fd9929010d7fefae8062152c473cfa55c716f45fbb8c9f6af03157aa1872/odoo_addon_fastapi-16.0.1.1.1-py3-none-any.whl
+[2023-08-01 11:15:37] INFO root fetch - processPackages [DIRAC]: executing diffoscope
+[2023-08-01 11:15:37] INFO root fetch - processPackages [DIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DIRAC-8.1.0a8.tar.gz tmp/DIRAC-8.1.0a9.tar.gz --markdown 20230801/D/DIRAC/8.1.0a8-8.1.0a9/diff.md --exclude *.pyd
+[2023-08-01 11:15:37] INFO root fetch - processPackages [philander]: Downloading https://files.pythonhosted.org/packages/3d/99/583505b2beacd33cba1e89fb6514e384ae159e449d6bbb0b7dd9409779fa/philander-0.1.9.tar.gz
+[2023-08-01 11:15:37] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/f5/d3/b3a4ad6f902474eae2f7e1c680766f0e19012eae93aaa8428b84b5fd4133/visionai-data-format-1.0.7.tar.gz
+[2023-08-01 11:15:37] INFO root fetch - processPackages [philander]: executing diffoscope
+[2023-08-01 11:15:37] INFO root fetch - processPackages [philander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/philander-0.1.8.tar.gz tmp/philander-0.1.9.tar.gz --markdown 20230801/p/philander/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-01 11:15:37] INFO root fetch - processPackages [odoo-addon-fastapi]: executing diffoscope
+[2023-08-01 11:15:37] INFO root fetch - processPackages [odoo-addon-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fastapi-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_fastapi-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-fastapi/16.0.1.1.0-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-08-01 11:15:38] INFO root fetch - processPackages [odoo-addon-extendable-fastapi]: Downloading https://files.pythonhosted.org/packages/fc/91/c2e438bc52bc910571cdb8978a4587ee4a34d893a3a6aef39f5a4c495dfe/odoo_addon_extendable_fastapi-16.0.2.0.1-py3-none-any.whl
+[2023-08-01 11:15:38] INFO root fetch - processPackages [visionai-data-format]: Downloading https://files.pythonhosted.org/packages/9a/d5/16fd3c00673e137d7b63166ecfe7ed659d9bb1ce9ba48c6584c104520b36/visionai-data-format-1.0.7a0.tar.gz
+[2023-08-01 11:15:38] INFO root fetch - processPackages [odoo-addon-extendable-fastapi]: executing diffoscope
+[2023-08-01 11:15:38] INFO root fetch - processPackages [odoo-addon-extendable-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_extendable_fastapi-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_extendable_fastapi-16.0.2.0.1-py3-none-any.whl.zip --markdown 20230801/o/odoo-addon-extendable-fastapi/16.0.2.0.0-16.0.2.0.1/diff.md --exclude *.pyd
+[2023-08-01 11:15:38] INFO root fetch - processPackages [rer.solrpush]: Remove: archive file [/home/abi/fetcher/tmp/rer.solrpush-1.3.0.tar.gz]
+[2023-08-01 11:15:38] INFO root fetch - processPackages [rer.solrpush]: Remove: archive file [/home/abi/fetcher/tmp/rer.solrpush-1.3.1.tar.gz]
+[2023-08-01 11:15:38] INFO root fetch - main [MainThread]: End processing [rer.solrpush]: success
+[2023-08-01 11:15:38] INFO root fetch - processPackages [visionai-data-format]: executing diffoscope
+[2023-08-01 11:15:38] INFO root fetch - processPackages [visionai-data-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230801:/home/abi/fetcher/20230801:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionai-data-format-1.0.7.tar.gz tmp/visionai-data-format-1.0.7a0.tar.gz --markdown 20230801/v/visionai-data-format/1.0.7-1.0.7a0/diff.md --exclude *.pyd
+[2023-08-01 11:15:39] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.31.7.tar.gz]
+[2023-08-01 11:15:39] INFO root fetch - processPackages [pami]: Remove: archive file [/home/abi/fetcher/tmp/pami-2023.7.7.tar.gz]
+[2023-08-01 11:15:39] INFO root fetch - main [MainThread]: End processing [pami]: success
+[2023-08-01 11:15:39] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.1.2.tar.gz]
+[2023-08-01 11:15:39] INFO root fetch - processPackages [repo-loader]: Remove: archive file [/home/abi/fetcher/tmp/repo-loader-0.1.3.tar.gz]
+[2023-08-01 11:15:39] INFO root fetch - main [MainThread]: End processing [repo-loader]: success
+[2023-08-01 11:15:39] INFO root fetch - processPackages [odoo-addon-extendable-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_extendable_fastapi-16.0.2.0.0-py3-none-any.whl.zip]
+[2023-08-01 11:15:39] INFO root fetch - processPackages [odoo-addon-extendable-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_extendable_fastapi-16.0.2.0.1-py3-none-any.whl.zip]
+[2023-08-01 11:15:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-extendable-fastapi]: success
+[2023-08-01 11:15:40] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.7.tar.gz]
+[2023-08-01 11:15:40] INFO root fetch - processPackages [visionai-data-format]: Remove: archive file [/home/abi/fetcher/tmp/visionai-data-format-1.0.7a0.tar.gz]
+[2023-08-01 11:15:40] INFO root fetch - main [MainThread]: End processing [visionai-data-format]: success
+[2023-08-01 11:15:40] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-08-01 11:15:40] INFO root fetch - processPackages [odoo-addon-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fastapi-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-08-01 11:15:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-fastapi]: success
+[2023-08-01 11:15:41] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.4.0.tar.gz]
+[2023-08-01 11:15:41] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-1.5.0.tar.gz]
+[2023-08-01 11:15:41] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2023-08-01 11:15:41] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.8.0-py3-none-any.whl.zip]
+[2023-08-01 11:15:41] INFO root fetch - processPackages [deci-platform-client]: Remove: archive file [/home/abi/fetcher/tmp/deci_platform_client-5.8.1-py3-none-any.whl.zip]
+[2023-08-01 11:15:41] INFO root fetch - main [MainThread]: End processing [deci-platform-client]: success
+[2023-08-01 11:15:41] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.8.tar.gz]
+[2023-08-01 11:15:41] INFO root fetch - processPackages [philander]: Remove: archive file [/home/abi/fetcher/tmp/philander-0.1.9.tar.gz]
+[2023-08-01 11:15:41] INFO root fetch - main [MainThread]: End processing [philander]: success
+[2023-08-01 11:15:47] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a8.tar.gz]
+[2023-08-01 11:15:47] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-8.1.0a9.tar.gz]
+[2023-08-01 11:15:47] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
+[2023-08-01 11:15:47] INFO root fetch - main [MainThread]: Store serial: [19121278]
